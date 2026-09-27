@@ -1,0 +1,36 @@
+{
+  "id": "ES2004a-12480000",
+  "duration": 60.0,
+  "seed": 1334378481,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "That just raises a point I wonder what our design people think But you know on a mobile phone spk: Mm-hmm spk: you can press a key and it gives you a menu spk: Yeah spk: sort of menu display I wonder if incorporating that into the design of a remote control might be useful spk: Yeah spk: So you've got a little L_C_D_ display spk: I was thinking on the same lines you Instead of having too many buttons and make it complicated for the user ma maybe have an L_C_D_ display or something like that like a mobile spk: With menus spk: And with menus spk: Yeah spk: And if it's somewhat similar to what you have on mobile phone people might find spk: And it easier to browse and navigate also spk: Yeah spk: Maybe spk: What about the older generation What about granny and grandad's Um spk: My grandad can answer his mobile phone but spk: Yeah spk: he couldn't even dream of texting or something like that spk: Can he programme his remote control or is he basic spk: Mm-hmm spk: with that too I don't think they tape things spk: Yeah spk: I don't spk: My spk: think spk: my grandad's actually better than me at using teletext so spk: Right So that's a problem regardless of if any design modifications you you come up with spk: Yeah spk: that's gonna be a prob spk:",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "That just raises a point I wonder what our design people think But you know on a mobile phone spk: Mm-hmm spk: you can press a key and it gives you a menu spk: Yeah spk: sort of menu display I wonder if incorporating that into the design of a remote control might be useful spk: Yeah spk: So you've got a little L_C_D_ display spk: I was thinking on the same lines you Instead of having too many buttons and make it complicated for the user ma maybe have an L_C_D_ display or something like that like a mobile spk: With menus spk: And with menus spk: Yeah spk: And if it's somewhat similar to what you have on mobile phone people might find spk: And it easier to browse and navigate also spk: Yeah spk: Maybe spk: What about the older generation What about granny and grandad's Um spk: My grandad can answer his mobile phone but spk: Yeah spk: he couldn't even dream of texting or something like that spk: Can he programme his remote control or is he basic spk: Mm-hmm spk: with that too I don't think they tape things spk: Yeah spk: I don't spk: My spk: think spk: my grandad's actually better than me at using teletext so spk: Right So that's a problem regardless of if any design modifications you you come up with spk: Yeah spk: that's gonna be a prob spk:"
+      },
+      "execution": "remote_api",
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790474438-o7koV8GVuKilopx1orp1"
+    }
+  },
+  "wall_seconds": 9.888906574924476,
+  "rtf": 0.1648151095820746,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 58474496
+}

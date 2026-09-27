@@ -1,0 +1,36 @@
+{
+  "id": "IS1009a-9600000",
+  "duration": 60.0,
+  "seed": 2158779236,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "to your voice or it would respond what what should you have to do to make it beep or blink Okay my my idea is maybe that the minute it's really hidden in in other words if it's like in a dark spot sp Mm-hmm uh meaning you know like a newspaper is on top a sweater is on top or it's it's behind a plant At that moment it's it's like it's like um what do you call it the light se sensors you know Okay In in that moment it has a sensor Yes it it gets a cer in darkness it ge has a sensor and it gives out a signal whether that be a light signal or a beep I mean that we can discuss that later you know Yeah Yeah and um So the light sensor would activate the signal That's right Mm-hmm You know there would be right you have to have some kind of sensor and I I think uh voice or clapping that's not specific enough Uh I know there are the lamps and stuff you know you can clap on and off but I think they only work to a certain degree And But it could be some kind that's really obvious",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "to your voice or it would respond what what should you have to do to make it beep or blink Okay my my idea is maybe that the minute it's really hidden in in other words if it's like in a dark spot sp Mm-hmm uh meaning you know like a newspaper is on top a sweater is on top or it's it's behind a plant At that moment it's it's like it's like um what do you call it the light se sensors you know Okay In in that moment it has a sensor Yes it it gets a cer in darkness it ge has a sensor and it gives out a signal whether that be a light signal or a beep I mean that we can discuss that later you know Yeah Yeah and um So the light sensor would activate the signal That's right Mm-hmm You know there would be right you have to have some kind of sensor and I I think uh voice or clapping that's not specific enough Uh I know there are the lamps and stuff you know you can clap on and off but I think they only work to a certain degree And But it could be some kind that's really obvious"
+      },
+      "execution": "remote_api",
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790474570-WlDZiPHD2uVsCLaa3LTo"
+    }
+  },
+  "wall_seconds": 8.967038303962909,
+  "rtf": 0.1494506383993818,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 58474496
+}

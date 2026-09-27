@@ -1,0 +1,36 @@
+{
+  "id": "TS3003a-21120000",
+  "duration": 60.0,
+  "seed": 1966981150,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "thing um but only the I think that if you can put different kind of devices in one remote control it makes it a lot easier as well That's uh sp Hmm spk A spk that's good to remember spk So I think you can spk Yeah spk ten minutes left spk it's nice spk I think spk Six spk so we uh we want different functions spk Yeah spk uh and we can maybe see if we can do something with infra-red but I don't know if that will exceed the production costs That spk Yeah spk uh that's something we have to find out I think spk Yeah but that would be really good if we could do that spk Um other functions for a remote control Maybe we can spk Um spk make it uh spk It has to be shock-proof spk Shock-proof spk Yeah spk 'Cause spk Shock-proof spk My remote con spk Water-pro spk",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "thing um but only the I think that if you can put different kind of devices in one remote control it makes it a lot easier as well That's uh sp Hmm spk A spk that's good to remember spk So I think you can spk Yeah spk ten minutes left spk it's nice spk I think spk Six spk so we uh we want different functions spk Yeah spk uh and we can maybe see if we can do something with infra-red but I don't know if that will exceed the production costs That spk Yeah spk uh that's something we have to find out I think spk Yeah but that would be really good if we could do that spk Um other functions for a remote control Maybe we can spk Um spk make it uh spk It has to be shock-proof spk Shock-proof spk Yeah spk 'Cause spk Shock-proof spk My remote con spk Water-pro spk"
+      },
+      "execution": "remote_api",
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790474847-STeF2K9tTL7vUmxPNuqs"
+    }
+  },
+  "wall_seconds": 10.252469911938533,
+  "rtf": 0.17087449853230888,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 58474496
+}

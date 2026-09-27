@@ -1,0 +1,36 @@
+{
+  "id": "EN2002a-13440000",
+  "duration": 60.0,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "I'm I'm pretty much getting there anyway to be honest so it's not it's not gonna be a lot more work sp I guess it is I mean just to try and I mean for us to to be able to do something that we can include with your thing so sp Yeah that's what we need yeah Yeah sp Yeah Oh right sp Something just slightly more than just that on its own so sp Mm-hmm sp Yeah sp we can plug it in and just sp Yeah sp Yeah just so see the integration works sort of between the sp Mm true sp Yeah definitely sp Um mm sp I guess that's what we need to sp I think that's kinda what he meant as well isn't it really sp Yeah sp Taking it taking it sort of starting to do stuff rather than just being sp Oh right yeah yeah sp mm a prototype of the GUI sp Yeah well if I guess I mean that was probably our intention but we might not have written it down so sp Yeah yeah yeah sp Um sp Yeah sp Actually is the code accessible like the the GUI stuff that you've done uh like can we just like copy like the latest stuff out of your directory or something sp",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "I'm I'm pretty much getting there anyway to be honest so it's not it's not gonna be a lot more work sp I guess it is I mean just to try and I mean for us to to be able to do something that we can include with your thing so sp Yeah that's what we need yeah Yeah sp Yeah Oh right sp Something just slightly more than just that on its own so sp Mm-hmm sp Yeah sp we can plug it in and just sp Yeah sp Yeah just so see the integration works sort of between the sp Mm true sp Yeah definitely sp Um mm sp I guess that's what we need to sp I think that's kinda what he meant as well isn't it really sp Yeah sp Taking it taking it sort of starting to do stuff rather than just being sp Oh right yeah yeah sp mm a prototype of the GUI sp Yeah well if I guess I mean that was probably our intention but we might not have written it down so sp Yeah yeah yeah sp Um sp Yeah sp Actually is the code accessible like the the GUI stuff that you've done uh like can we just like copy like the latest stuff out of your directory or something sp"
+      },
+      "execution": "remote_api",
+      "timestamp_policy": "strict",
+      "timestamp_adjustments": [],
+      "intervals_after_audio": [],
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790477863-vlDbXYK3Yr71xvML9Vtj"
+    }
+  },
+  "wall_seconds": 5.346653797896579,
+  "rtf": 0.08911089663160965
+}

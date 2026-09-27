@@ -1,0 +1,36 @@
+{
+  "id": "ES2004a-3840000",
+  "duration": 60.0,
+  "seed": 1110249044,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "I'm not gonna play Okay I'm not gonna ask you to guess I'm going to tell you that's a raspberry tiger And I see that as majestic and independent and proud No Who would like to go next Mm 'kay Got it Oh sorry here you go Okay Uh maybe you can guess what I'm trying to make",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "I'm not gonna play Okay I'm not gonna ask you to guess I'm going to tell you that's a raspberry tiger And I see that as majestic and independent and proud No Who would like to go next Mm 'kay Got it Oh sorry here you go Okay Uh maybe you can guess what I'm trying to make"
+      },
+      "execution": "remote_api",
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790474301-7SERX8FfWPXwz9csXO2n"
+    }
+  },
+  "wall_seconds": 7.947639573016204,
+  "rtf": 0.13246065955027006,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 58462208
+}

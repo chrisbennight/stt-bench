@@ -142,7 +142,8 @@ def run_job(job_path):
                 result_path,
                 {
                     **base, "status": "inference_failed", "error_type": type(exc).__name__,
-                    **({"http_status": exc.http_status, "billing_status": "unknown"}
+                    **({"http_status": exc.http_status, "billing_status": "unknown",
+                        "reason": exc.reason, "wall_seconds": time.perf_counter() - started}
                        if isinstance(exc, RemoteRequestError) else {}),
                 },
             )

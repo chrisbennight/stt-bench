@@ -1,0 +1,90 @@
+{
+  "id": "EN2002a-6720000",
+  "duration": 60,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "observations and when then we have the inter-linking by right click basically spilt out Actually Yeah I think uh another common thing like we have it sort of set up that um if you double click and it goes to a default thing on the menu I mean that's kind of a typical kinda action you can have If you double click on a particular topic or something then it goes to sort of a like a default Oh D so it'll be like all the um cases of that topic either whatever we decide the default to be whether it's in all meetings or just in one meeting and it'll show up the particular instances of that topic in the meeting Yeah Like and just thinking to have the default there so if somebody knows exactly what they wanna do and we know that that's the most common thing that's gonna happen so the Yeah double-click won't do that and just save them the trouble of right-clicking and choosing the item on the menu I Yeah don't see there's anything obvious that was that would be able you No know that would It be might come to us as we start playing with it Yeah What was that I didn't quite understand You mean Um like we have the the right click menu Yeah the Yeah pop-up menu right clicking but instead of like have a default double-click so Oh if there's I see Yeah a right there'll be a choice for example on the menu",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "execution": "remote_api",
+      "model": "google/chirp-3",
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "recovery": "Two consecutive nonoverlapping 30-second chunks; concatenated in audio order",
+      "parts": [
+        {
+          "segments": [
+            {
+              "speaker": "unassigned",
+              "text": "observations and when then we have the inter-linking by right click basically spilt out Actually Yeah I think uh another common thing like we have it sort of set up that um if you double click and it goes to a default thing on the menu I mean that's kind of a typical kinda action you can have If you double click on a particular topic or something then it goes to sort of a like a default Oh D so it'll be like all the um cases of that topic either whatever we decide the default to be whether it's in all meetings or just in one meeting and it'll show up the particular",
+              "start": null,
+              "end": null
+            }
+          ],
+          "activity": null,
+          "timing": "unavailable",
+          "events": [],
+          "metadata": {
+            "speaker_labels_available": false,
+            "usage": {
+              "seconds": 30,
+              "cost": 0.00800000000001
+            },
+            "raw_transcript": {
+              "text": "observations and when then we have the inter-linking by right click basically spilt out Actually Yeah I think uh another common thing like we have it sort of set up that um if you double click and it goes to a default thing on the menu I mean that's kind of a typical kinda action you can have If you double click on a particular topic or something then it goes to sort of a like a default Oh D so it'll be like all the um cases of that topic either whatever we decide the default to be whether it's in all meetings or just in one meeting and it'll show up the particular"
+            },
+            "execution": "remote_api",
+            "timestamp_policy": "strict",
+            "timestamp_adjustments": [],
+            "intervals_after_audio": [],
+            "model": "google/chirp-3",
+            "generation_id": "gen-stt-1790478165-oN7whM6YF5u85GwgMne7"
+          }
+        },
+        {
+          "segments": [
+            {
+              "speaker": "unassigned",
+              "text": "instances of that topic in the meeting Yeah Like and just thinking to have the default there so if somebody knows exactly what they wanna do and we know that that's the most common thing that's gonna happen so the Yeah double-click won't do that and just save them the trouble of right-clicking and choosing the item on the menu I Yeah don't see there's anything obvious that was that would be able you No know that would It be might come to us as we start playing with it Yeah What was that I didn't quite understand You mean Um like we have the the right click menu Yeah the Yeah pop-up menu right clicking but instead of like have a default double-click so Oh if there's I see Yeah a right there'll be a choice for example on the menu",
+              "start": null,
+              "end": null
+            }
+          ],
+          "activity": null,
+          "timing": "unavailable",
+          "events": [],
+          "metadata": {
+            "speaker_labels_available": false,
+            "usage": {
+              "seconds": 30,
+              "cost": 0.00800000000001
+            },
+            "raw_transcript": {
+              "text": "instances of that topic in the meeting Yeah Like and just thinking to have the default there so if somebody knows exactly what they wanna do and we know that that's the most common thing that's gonna happen so the Yeah double-click won't do that and just save them the trouble of right-clicking and choosing the item on the menu I Yeah don't see there's anything obvious that was that would be able you No know that would It be might come to us as we start playing with it Yeah What was that I didn't quite understand You mean Um like we have the the right click menu Yeah the Yeah pop-up menu right clicking but instead of like have a default double-click so Oh if there's I see Yeah a right there'll be a choice for example on the menu"
+            },
+            "execution": "remote_api",
+            "timestamp_policy": "strict",
+            "timestamp_adjustments": [],
+            "intervals_after_audio": [],
+            "model": "google/chirp-3",
+            "generation_id": "gen-stt-1790478168-jhJK11uG4OQIFxmTR6lm"
+          }
+        }
+      ]
+    }
+  },
+  "wall_seconds": 7.496068431995809,
+  "rtf": 0.12493447386659681
+}

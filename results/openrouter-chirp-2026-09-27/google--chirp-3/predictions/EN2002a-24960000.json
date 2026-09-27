@@ -1,0 +1,36 @@
+{
+  "id": "EN2002a-24960000",
+  "duration": 60.0,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "Mm I'll be happy when this week is over I'll be happy when this course is over Yeah I know I dunno I'm happy with everything Yeah Anything else we ne need to discuss Mm Did we wanna meet before we talk to Steve next week Well I dunno We'll probably get some work done over the weekend so I know f Yeah After D_ N_ L_ G_ or something maybe just have a little quick little update and just Yeah if you like Yeah We can always decide then once Yeah exactly just Yeah Yeah Um so what what are you planning to do over the weekend then Search And You're gonna do the search You're gonna implement the search Sure why not Couldn't be that hard Well it'll be you know still a limited version of you know the next query search but I dunno Won't be the whole thing but Mm Um like we can just decide sort of things that we do wanna do yeah",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "Mm I'll be happy when this week is over I'll be happy when this course is over Yeah I know I dunno I'm happy with everything Yeah Anything else we ne need to discuss Mm Did we wanna meet before we talk to Steve next week Well I dunno We'll probably get some work done over the weekend so I know f Yeah After D_ N_ L_ G_ or something maybe just have a little quick little update and just Yeah if you like Yeah We can always decide then once Yeah exactly just Yeah Yeah Um so what what are you planning to do over the weekend then Search And You're gonna do the search You're gonna implement the search Sure why not Couldn't be that hard Well it'll be you know still a limited version of you know the next query search but I dunno Won't be the whole thing but Mm Um like we can just decide sort of things that we do wanna do yeah"
+      },
+      "execution": "remote_api",
+      "timestamp_policy": "strict",
+      "timestamp_adjustments": [],
+      "intervals_after_audio": [],
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790477891-nRLZCEf4pae5XK6aaUlb"
+    }
+  },
+  "wall_seconds": 4.949261480011046,
+  "rtf": 0.08248769133351744
+}

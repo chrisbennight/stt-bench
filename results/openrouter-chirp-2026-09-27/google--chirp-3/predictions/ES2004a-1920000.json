@@ -1,0 +1,36 @@
+{
+  "id": "ES2004a-1920000",
+  "duration": 60.0,
+  "seed": 648644041,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "which you probably already know um we want it to be original something that's uh people haven't thought of it's not out in the shops um trendy appealing to a wide market but you know not a hunk of metal and user friendly grannies to kids maybe even pets should be able to use it Okay um first is the functional design um this is where we all go off and do our individual work um what needs need to be fulfilled by the product um what effect the product has to have and how it's actually going to do that um conceptual design what we're thinking how it's gonna go and then the detailed design how we're actually gonna put it into practice and make it work Okay right we're gonna practice with the pens and draw our favourite animal on the whiteboard at our first um",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "which you probably already know um we want it to be original something that's uh people haven't thought of it's not out in the shops um trendy appealing to a wide market but you know not a hunk of metal and user friendly grannies to kids maybe even pets should be able to use it Okay um first is the functional design um this is where we all go off and do our individual work um what needs need to be fulfilled by the product um what effect the product has to have and how it's actually going to do that um conceptual design what we're thinking how it's gonna go and then the detailed design how we're actually gonna put it into practice and make it work Okay right we're gonna practice with the pens and draw our favourite animal on the whiteboard at our first um"
+      },
+      "execution": "remote_api",
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790474283-6w5SpFnb6faO69ZPE9MR"
+    }
+  },
+  "wall_seconds": 11.358730696956627,
+  "rtf": 0.18931217828261046,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 58462208
+}

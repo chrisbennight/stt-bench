@@ -1,3 +1,4 @@
+import base64
 import io
 import json
 import urllib.error
@@ -231,10 +232,12 @@ class Response(io.BytesIO):
     headers = {"X-Generation-Id": "gen-fixture"}
 
 
-def test_one_request_no_secret_in_artifact_and_audio_allowance(tmp_path, monkeypatch):
+@pytest.mark.parametrize("audio_format", ["wav", "flac"])
+def test_one_request_no_secret_in_artifact_and_audio_allowance(tmp_path, monkeypatch, audio_format):
     monkeypatch.setenv("OPENROUTER_API_KEY", "test-credential-never-persist")
     monkeypatch.setenv("OPENROUTER_ALLOW_PAID_REQUESTS", "1")
-    sf.write(tmp_path / "clip.wav", np.zeros(32000), 16000)
+    audio = np.arange(-16000, 16000, dtype=np.int16)
+    sf.write(tmp_path / "clip.wav", audio, 16000, subtype="PCM_16")
     calls = []
 
     class Transport:
@@ -243,13 +246,19 @@ def test_one_request_no_secret_in_artifact_and_audio_allowance(tmp_path, monkeyp
             assert request.full_url == ENDPOINT
             body = json.loads(request.data)
             assert body["language"] == "en"
+            assert body["input_audio"]["format"] == audio_format
+            decoded, rate = sf.read(
+                io.BytesIO(base64.b64decode(body["input_audio"]["data"])), dtype="int16"
+            )
+            assert rate == 16000
+            assert np.array_equal(decoded, audio)
             assert "reference" not in body
             assert request.headers["Authorization"] == "Bearer test-credential-never-persist"
             assert timeout == 90
             return Response(b'{"text":"hello","usage":{"cost":0.01}}')
 
     monkeypatch.setattr("urllib.request.build_opener", lambda *args: Transport())
-    adapter = OpenRouter(options())
+    adapter = OpenRouter(options(audio_format=audio_format))
     adapter.load()
     prediction = adapter.transcribe(tmp_path / "clip.wav", 2, "English")
     assert "test-credential-never-persist" not in json.dumps(prediction.to_dict())
@@ -294,6 +303,27 @@ def test_remote_model_id_is_not_resolved_as_a_path_and_limits_are_preflighted(tm
     manifest.write_text(json.dumps(row) + "\n" + json.dumps({**row, "id": "b"}) + "\n")
     with pytest.raises(ValueError, match="allowance"):
         plan(config, manifest)
+
+
+@pytest.mark.parametrize("wrapped", [False, True])
+def test_timeout_reason_is_retained_without_exception_text(tmp_path, monkeypatch, wrapped):
+    monkeypatch.setenv("OPENROUTER_API_KEY", "test-credential-never-persist")
+    monkeypatch.setenv("OPENROUTER_ALLOW_PAID_REQUESTS", "1")
+    sf.write(tmp_path / "clip.wav", np.zeros(16000), 16000)
+
+    class Transport:
+        def open(self, request, timeout):
+            error = TimeoutError("sensitive transport detail")
+            raise urllib.error.URLError(error) if wrapped else error
+
+    monkeypatch.setattr("urllib.request.build_opener", lambda *args: Transport())
+    adapter = OpenRouter(options())
+    adapter.load()
+    with pytest.raises(RemoteRequestError) as raised:
+        adapter.transcribe(tmp_path / "clip.wav", 1, "en")
+    assert raised.value.reason == "timeout"
+    assert raised.value.http_status is None
+    assert "sensitive" not in str(raised.value)
 
 
 def test_catalog_units_and_unknown_models_are_not_guessed():

@@ -1,0 +1,36 @@
+{
+  "id": "EN2002a-3840000",
+  "duration": 60.0,
+  "seed": 1185136061,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "I guess in in in meeting browser one point one you can have a menu instead of a button Right This one yeah sp Speaker yeah Um but actually what we could do is on in that menu as well we could have an option that pops up a window with all the all the meetings that that user has been in sp Hmm sp could have a search for that user sp Yep sp Is that gonna be useful or too much or sp I guess so So what would you sp part of the b the menu that comes down it says give me all your meetings or something sp Yeah So when you right click on it one one option will be give me all your meetings characterise a speaker sp Yep sp Or is that too much I mean sp I dunno sp I guess so it's it's sp I mean sp a possibility sp It's more sp Yeah sp like part of the browsing sort of thing more than the speaker characterisation as sp Yeah sp Steve mentioned that sp Yeah that's sp you sp true sp know about sp Yeah sp Yeah sp",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "I guess in in in meeting browser one point one you can have a menu instead of a button Right This one yeah sp Speaker yeah Um but actually what we could do is on in that menu as well we could have an option that pops up a window with all the all the meetings that that user has been in sp Hmm sp could have a search for that user sp Yep sp Is that gonna be useful or too much or sp I guess so So what would you sp part of the b the menu that comes down it says give me all your meetings or something sp Yeah So when you right click on it one one option will be give me all your meetings characterise a speaker sp Yep sp Or is that too much I mean sp I dunno sp I guess so it's it's sp I mean sp a possibility sp It's more sp Yeah sp like part of the browsing sort of thing more than the speaker characterisation as sp Yeah sp Steve mentioned that sp Yeah that's sp you sp true sp know about sp Yeah sp Yeah sp"
+      },
+      "execution": "remote_api",
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790474909-efpyMepLbqe2YWoEpGIy"
+    }
+  },
+  "wall_seconds": 10.198557621915825,
+  "rtf": 0.16997596036526375,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 58474496
+}

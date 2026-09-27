@@ -1,0 +1,36 @@
+{
+  "id": "TS3003a-4800000",
+  "duration": 60.0,
+  "seed": 909816615,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "Uh the User Interface Designer is going to do the technical function design user interface concept and user interface design And the Marketing Expert is doing a little bit of user requirements specification trend watching and project uh product ev evaluation So that's a bit what you're going to do But that will be all worked out in uh other meetings Then we've got our first tool training We're going to work with a lot of high-tech tools here so it's it's handy if we have a little bit of training first As you can see we've got the SMARTboards here and here and the whiteboard Um in the whiteboard here is a little tool-bar on this side You have some functions you can save uh these functions You don't have anything t",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "Uh the User Interface Designer is going to do the technical function design user interface concept and user interface design And the Marketing Expert is doing a little bit of user requirements specification trend watching and project uh product ev evaluation So that's a bit what you're going to do But that will be all worked out in uh other meetings Then we've got our first tool training We're going to work with a lot of high-tech tools here so it's it's handy if we have a little bit of training first As you can see we've got the SMARTboards here and here and the whiteboard Um in the whiteboard here is a little tool-bar on this side You have some functions you can save uh these functions You don't have anything t"
+      },
+      "execution": "remote_api",
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790474667-D7o2ifx7L0qhrzeWBf3X"
+    }
+  },
+  "wall_seconds": 9.595627648988739,
+  "rtf": 0.15992712748314564,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 58474496
+}

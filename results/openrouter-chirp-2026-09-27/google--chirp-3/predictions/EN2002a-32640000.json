@@ -1,0 +1,36 @@
+{
+  "id": "EN2002a-32640000",
+  "duration": 60.0,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "But sp DIL will probably Yeah we will probably yeah yeah sp Okay sp Yep sp So sp Let's meet Monday sp Um sp Yeah Um I guess sp Mm sp that's it What's there anything else Do anyone wanna wanna like take care of this or should I take care of it sp I'll sp Uh we trust you sp Yeah sp Yeah I dunno if there was something Oh I think it basically said um the same things as um the comments If I could read it sp Hmm sp Should I read it sp Okay I'll do the top one Um Do we really want multiple windows from a single sp From a single sp app sp But most well probably want to go with defaults sp Yeah sp Yeah sp Well that was what he was saying sp Yeah I think the comments are basically the same as what you said sp Exactly And just the other sp",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "But sp DIL will probably Yeah we will probably yeah yeah sp Okay sp Yep sp So sp Let's meet Monday sp Um sp Yeah Um I guess sp Mm sp that's it What's there anything else Do anyone wanna wanna like take care of this or should I take care of it sp I'll sp Uh we trust you sp Yeah sp Yeah I dunno if there was something Oh I think it basically said um the same things as um the comments If I could read it sp Hmm sp Should I read it sp Okay I'll do the top one Um Do we really want multiple windows from a single sp From a single sp app sp But most well probably want to go with defaults sp Yeah sp Yeah sp Well that was what he was saying sp Yeah I think the comments are basically the same as what you said sp Exactly And just the other sp"
+      },
+      "execution": "remote_api",
+      "timestamp_policy": "strict",
+      "timestamp_adjustments": [],
+      "intervals_after_audio": [],
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790477910-2htGkahjGAQ86XQYIAUy"
+    }
+  },
+  "wall_seconds": 4.682676295982674,
+  "rtf": 0.07804460493304456
+}

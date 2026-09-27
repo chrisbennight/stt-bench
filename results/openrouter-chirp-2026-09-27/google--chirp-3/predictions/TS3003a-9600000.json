@@ -1,0 +1,36 @@
+{
+  "id": "TS3003a-9600000",
+  "duration": 60.0,
+  "seed": 26676609,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "Write down a few of his characteristics Uh Click on the text tool No Okay This is typically a a do action I think Yeah Okay Maybe you have to order it a bit I have to select it I think that's it because if you wanna undo this to it like this then it will be a stroke I dunno Just try it It's not right",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "Write down a few of his characteristics Uh Click on the text tool No Okay This is typically a a do action I think Yeah Okay Maybe you have to order it a bit I have to select it I think that's it because if you wanna undo this to it like this then it will be a stroke I dunno Just try it It's not right"
+      },
+      "execution": "remote_api",
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790474706-DJjuPyLWPf6cMnQklySB"
+    }
+  },
+  "wall_seconds": 6.174278581049293,
+  "rtf": 0.10290464301748822,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 58474496
+}

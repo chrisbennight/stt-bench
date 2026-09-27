@@ -1,0 +1,36 @@
+{
+  "id": "EN2002a-960000",
+  "duration": 60.0,
+  "seed": 2539455984,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "on the menu you can select a summarisation box which pops up and an audio player Right Um and that's I think the search works as well so you can pop up a search And it loads up um just the background windows so empty and um so when you start you have to either open open a particular observation or do a search and open it through that Does that make sense Um the transcription box has got a summarise bo button which doesn't do anything yet Um now I wonder how we wanna do you know we wanna pop up window with the speaker characterisation Mm-hmm Um either we could do that you know when does a pop up come Either we can when you click on the the I_D_ any sort of I_D_ in the transcription box or we can put an extra button extra few buttons next to the summarise",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "on the menu you can select a summarisation box which pops up and an audio player Right Um and that's I think the search works as well so you can pop up a search And it loads up um just the background windows so empty and um so when you start you have to either open open a particular observation or do a search and open it through that Does that make sense Um the transcription box has got a summarise bo button which doesn't do anything yet Um now I wonder how we wanna do you know we wanna pop up window with the speaker characterisation Mm-hmm Um either we could do that you know when does a pop up come Either we can when you click on the the I_D_ any sort of I_D_ in the transcription box or we can put an extra button extra few buttons next to the summarise"
+      },
+      "execution": "remote_api",
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790474882-mH2EwnQX0vbPpaV7bvN4"
+    }
+  },
+  "wall_seconds": 9.210204848903231,
+  "rtf": 0.1535034141483872,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 58474496
+}

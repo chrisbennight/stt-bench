@@ -1,0 +1,36 @@
+{
+  "id": "EN2002a-8640000",
+  "duration": 60.0,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "I guess it's the points on these Yeah What you're clicking on Sorry Um yeah another thing Single audio files do we wanna use them or not sp Seems like sp We don't know yet do we yet do we Do you mean sp Yeah sp single channel sp Yeah sp Single sp yeah sp channel sp Mm-hmm sp those single channel files do we want them I mean sp Probably not but we might need them for disfluencies sp If we sp Yeah sp d uh sp decide sp okay sp that sp yeah sp in sp yeah sp our sp yeah sp I sp yeah sp mean sp but sp we might use them sp at sp a sp sp while sp moment sp but sp no but sp to work with them but do we wanna integrate them uh so that when you browse you can sp We might want to be able to say oh just give me what that person's saying sp Do you though I sp No sp mean it's not gonna make much sense if you're at listen to it on its own do you sp Unless sp I don't know sp um you can't hear it properly or something somebody's talking over somebody else or something or We'll just say no for now and put it in later sp No sp on sp yeah sp Yeah 'cause otherwise it will be it will um increase the amount of data sp",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "I guess it's the points on these Yeah What you're clicking on Sorry Um yeah another thing Single audio files do we wanna use them or not sp Seems like sp We don't know yet do we yet do we Do you mean sp Yeah sp single channel sp Yeah sp Single sp yeah sp channel sp Mm-hmm sp those single channel files do we want them I mean sp Probably not but we might need them for disfluencies sp If we sp Yeah sp d uh sp decide sp okay sp that sp yeah sp in sp yeah sp our sp yeah sp I sp yeah sp mean sp but sp we might use them sp at sp a sp sp while sp moment sp but sp no but sp to work with them but do we wanna integrate them uh so that when you browse you can sp We might want to be able to say oh just give me what that person's saying sp Do you though I sp No sp mean it's not gonna make much sense if you're at listen to it on its own do you sp Unless sp I don't know sp um you can't hear it properly or something somebody's talking over somebody else or something or We'll just say no for now and put it in later sp No sp on sp yeah sp Yeah 'cause otherwise it will be it will um increase the amount of data sp"
+      },
+      "execution": "remote_api",
+      "timestamp_policy": "strict",
+      "timestamp_adjustments": [],
+      "intervals_after_audio": [],
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790477852-FEuAGyfLL90YYylDzCCv"
+    }
+  },
+  "wall_seconds": 7.0175931779667735,
+  "rtf": 0.11695988629944623
+}

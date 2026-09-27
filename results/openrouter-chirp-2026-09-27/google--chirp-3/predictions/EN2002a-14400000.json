@@ -1,0 +1,36 @@
+{
+  "id": "EN2002a-14400000",
+  "duration": 60.0,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "Um sp Like if we're gonna just try to like take a look or something sp I dunno can you access sp try and sp other people's sp You sp You sp I think sp can sp can sp you can sp make it world readable then anybody can sp Well if you just tell us the directory and just make the file readable then we sp Yeah sp know the directory to get in and and sp Yeah sp just sp sure sp That may be maybe sp I dunno if it's readable at the moment but you can try sp I sp I think by default sp I think sp they are sp No they're not world readable at sp No sp the sp they're sp default they're only default then only you can read them sp Alright sp Okay sp you can see them but you can't read them sp Okay sp Okay sp Right well I'll make that readable then sp Okay sp Yeah sp Um so the directory is my number sp If you just email to us oh okay yeah yeah it sp Well this is not difficult sp right okay sp What's your number sp Okay sp It's in all the emails sp Yeah your number sp nought O_ four sp Okay sp O_ four five three five six O_ sp Say that again O_ four sp O_ four five five five six O_ sp And then it's sp And then um there's a folder um N_L_S_S_D_ sp Mm-hmm sp S_T_D_ sp And it's call sp",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "Um sp Like if we're gonna just try to like take a look or something sp I dunno can you access sp try and sp other people's sp You sp You sp I think sp can sp can sp you can sp make it world readable then anybody can sp Well if you just tell us the directory and just make the file readable then we sp Yeah sp know the directory to get in and and sp Yeah sp just sp sure sp That may be maybe sp I dunno if it's readable at the moment but you can try sp I sp I think by default sp I think sp they are sp No they're not world readable at sp No sp the sp they're sp default they're only default then only you can read them sp Alright sp Okay sp you can see them but you can't read them sp Okay sp Okay sp Right well I'll make that readable then sp Okay sp Yeah sp Um so the directory is my number sp If you just email to us oh okay yeah yeah it sp Well this is not difficult sp right okay sp What's your number sp Okay sp It's in all the emails sp Yeah your number sp nought O_ four sp Okay sp O_ four five three five six O_ sp Say that again O_ four sp O_ four five five five six O_ sp And then it's sp And then um there's a folder um N_L_S_S_D_ sp Mm-hmm sp S_T_D_ sp And it's call sp"
+      },
+      "execution": "remote_api",
+      "timestamp_policy": "strict",
+      "timestamp_adjustments": [],
+      "intervals_after_audio": [],
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790477864-9VUmtHiT3CMcK84j5CTw"
+    }
+  },
+  "wall_seconds": 5.952653518994339,
+  "rtf": 0.09921089198323899
+}

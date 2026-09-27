@@ -1,0 +1,36 @@
+{
+  "id": "IS1009a-960000",
+  "duration": 60.0,
+  "seed": 1878269606,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "introduce ourselves That's a good point And uh his name and what your function is so maybe you'd like to start us off Okay Yeah my name is Francana and I'm uh an user interface my role is uh the main responsibility is user interface Mm-hmm And my role is to design a a television remote control Mm-hmm Okay And I'm the marketing person I want to figure out how to sell it Mm-hmm And your name is My name is Irene Okay Uh uh I'm Janvi I'm um my role is Industrial Designer and my responsibilities are uh uh um deal with the technical functional designs and specifications of user interface and dealing with user interface design Very good And as you know already know I'm Betsy I'm the Project Manager for today So why don't we look at the presentation to see what we really are supposed to do Okay Um",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "introduce ourselves That's a good point And uh his name and what your function is so maybe you'd like to start us off Okay Yeah my name is Francana and I'm uh an user interface my role is uh the main responsibility is user interface Mm-hmm And my role is to design a a television remote control Mm-hmm Okay And I'm the marketing person I want to figure out how to sell it Mm-hmm And your name is My name is Irene Okay Uh uh I'm Janvi I'm um my role is Industrial Designer and my responsibilities are uh uh um deal with the technical functional designs and specifications of user interface and dealing with user interface design Very good And as you know already know I'm Betsy I'm the Project Manager for today So why don't we look at the presentation to see what we really are supposed to do Okay Um"
+      },
+      "execution": "remote_api",
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790474488-REjwbKD4HpdWGk87DGd6"
+    }
+  },
+  "wall_seconds": 8.591048041009344,
+  "rtf": 0.1431841340168224,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 58474496
+}

@@ -1,0 +1,36 @@
+{
+  "id": "EN2002a-17280000",
+  "duration": 60.0,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "have to convert it to some sort of format I suppose sp Yeah I've been trying to write something to read the X_M_L_ and get rid of it And I can get rid of it but I'm having trouble putting it anywhere else So it'll come up on the screen sp Well that's a good sp But sp start sp for the moment I haven't managed to put it into a vector or whatever in Java to play with it but I sp What sp guess sp are sp I'm sp you sp trying sp are sp to sp writing sp do sp with sp in Java sp it sp Or sp Yeah sp Java sp Yeah sp okay sp Yeah Yeah sp So yeah sp I mean sp I'm sp you sp sure sp should sp a bunch sp look at sp of sp look sp stuff sp have a look at the the sp code then because then you know they already extract for example transcripts sp Yeah yeah sp I'm sp I'm sp sure sp sure sp they sp they sp do sp do at least sp Yeah sp That's a good idea sp Yeah Oh yeah Alright I'm sure I'm making a made of it at the moment actually Oh sp Um yeah I guess I mean it was a good point you had that like sp",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "have to convert it to some sort of format I suppose sp Yeah I've been trying to write something to read the X_M_L_ and get rid of it And I can get rid of it but I'm having trouble putting it anywhere else So it'll come up on the screen sp Well that's a good sp But sp start sp for the moment I haven't managed to put it into a vector or whatever in Java to play with it but I sp What sp guess sp are sp I'm sp you sp trying sp are sp to sp writing sp do sp with sp in Java sp it sp Or sp Yeah sp Java sp Yeah sp okay sp Yeah Yeah sp So yeah sp I mean sp I'm sp you sp sure sp should sp a bunch sp look at sp of sp look sp stuff sp have a look at the the sp code then because then you know they already extract for example transcripts sp Yeah yeah sp I'm sp I'm sp sure sp sure sp they sp they sp do sp do at least sp Yeah sp That's a good idea sp Yeah Oh yeah Alright I'm sure I'm making a made of it at the moment actually Oh sp Um yeah I guess I mean it was a good point you had that like sp"
+      },
+      "execution": "remote_api",
+      "timestamp_policy": "strict",
+      "timestamp_adjustments": [],
+      "intervals_after_audio": [],
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790477870-wq6SnREyrCMEecV3jmUu"
+    }
+  },
+  "wall_seconds": 5.883196664042771,
+  "rtf": 0.09805327773404618
+}

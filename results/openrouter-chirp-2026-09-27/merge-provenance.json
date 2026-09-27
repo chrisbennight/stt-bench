@@ -1,0 +1,476 @@
+{
+  "operation": "Combine disjoint successful clip outputs without altering predictions",
+  "sources": [
+    {
+      "run": "openrouter-full",
+      "file": "ES2004a-0.json",
+      "sha256": "9c91105940b2b58ed9e6c6d7b5d8c31f90e232f6c7b45bcf88f8952185453e20"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "ES2004a-960000.json",
+      "sha256": "cfb0281303bc7a6bc5677033c7bff3b1a4345c92d36ec7bb2551cf5f1f4c2bd2"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "ES2004a-1920000.json",
+      "sha256": "0b54d26447c2966383a5f0e8016a0212a44b1d765c767dc123efc0a3f5a72e30"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "ES2004a-2880000.json",
+      "sha256": "5a0061ba657544354a359687b8cc596d2f1cc9ad57f7ebf438ac1d8636777407"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "ES2004a-3840000.json",
+      "sha256": "bbcfe1c338e7601c784e7632f02fec350707f8d3da093b64dc3892dea1689653"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "ES2004a-4800000.json",
+      "sha256": "2a87e2cc0940e861e7f5dbb7820d5c54422c77fcdcdb4d1508a486985023ddc3"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "ES2004a-5760000.json",
+      "sha256": "6672e33e91132ce8f85e060de4b9d4ebc7abc907e05cd4d908da1c7f6fe30b2e"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "ES2004a-6720000.json",
+      "sha256": "07fae949c2b573a499b9e6a9cd401c59c3c428d7f95124ab9eec9b81e906ac75"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "ES2004a-7680000.json",
+      "sha256": "bfff1de33884f54ceec4d1cdb88a27ed46efef0638a70594e18517392d25b948"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "ES2004a-8640000.json",
+      "sha256": "40e5212d70db51bb4effe45b077a366e4e80cc694af76157aebf5326178ecea6"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "ES2004a-9600000.json",
+      "sha256": "2fb33fb9755f9fa7e7336983560c41d2bbb51cdf273bd7fd5979c36501007f3f"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "ES2004a-10560000.json",
+      "sha256": "fcd324615762d72d869993be5116eb21be1ed344ad0474f061379e0124f49424"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "ES2004a-11520000.json",
+      "sha256": "881d8b86431369ff1db7753c09ace4af782fc5680f6f7cd3beefa4e5ed18ab83"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "ES2004a-12480000.json",
+      "sha256": "8a940f3e66661fc152dc28094c9ccf59afa8f641cc4b7301a42c207e8293f4c2"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "ES2004a-13440000.json",
+      "sha256": "b6838b8aa6efff5821cdcd4f8b5cdbe83a46e529cc2b16141606a777a86e0d04"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "ES2004a-14400000.json",
+      "sha256": "2c3863562c99d7fa70010977d4db4ba66342c6e0583706f4f4071e3e7ed59a4f"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "ES2004a-15360000.json",
+      "sha256": "d3faca9bf3aac2ba72e0cca8590a284e1eb8accecf87b5ead23b93212bc682d2"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "ES2004a-16320000.json",
+      "sha256": "e07971d27869757cfc835620a45fd5570c26184b52ac2c75e11d532a6dd7c28b"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "IS1009a-0.json",
+      "sha256": "b98fb6713c7786d15d76a2143ee89de27684e392289a37e959f40947dffa4166"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "IS1009a-960000.json",
+      "sha256": "544956316915cbe4cacbf3d3334f1c88fc9a519ff7e0a45ae21148b601178bdc"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "IS1009a-1920000.json",
+      "sha256": "e727b434a052822c9342dc7bd1d79160d8b0275d22c887e4255e41e0ddc00182"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "IS1009a-2880000.json",
+      "sha256": "8dab5530fbde2d5b22a9df33dc167205063c0718b669a0c25448d7b6b9c44ca6"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "IS1009a-3840000.json",
+      "sha256": "6dcb1bb94b5c49511b674d29287f9fe1197fd51c2068f1aabae4b3bfb3eda3a9"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "IS1009a-4800000.json",
+      "sha256": "0ffbaa9f8b9904a5c81acb99960fd0d9aaff3cf68f31b546d0e68fc0f9ba962e"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "IS1009a-5760000.json",
+      "sha256": "b7235d74be4f03281da490bf8125ba48eaf13f6dba73e221fd1dbb37acff5b0b"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "IS1009a-6720000.json",
+      "sha256": "3b3516b1ce202302813398ee02b8942a78087f74a86acc5fc53f1ecf536952b8"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "IS1009a-7680000.json",
+      "sha256": "25948e39790a0bc4df5a4f379420f0489676559af64a06f7f961cbc231e25036"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "IS1009a-8640000.json",
+      "sha256": "5ad0fdedb1ed593362d2fe5b2fe8052d282b2b4f6679b7b8426edbc3ce8ee903"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "IS1009a-9600000.json",
+      "sha256": "15509820e4db3ff6351ebef23869b1ab7f80447424552cbacbc1a1a18f70b7a2"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "IS1009a-10560000.json",
+      "sha256": "3d11e26dc49a4029d40a31561e527545ed4cae935bb37ae5703e95c3e827a2a4"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "IS1009a-11520000.json",
+      "sha256": "e5479a90866d3977200464a2cbfecfff5dc3c9739903ad2be0e7cab49c00df75"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "IS1009a-12480000.json",
+      "sha256": "b7a7e0bdce7604283d6eb5bdce0fa8bdd1e9f92261e2804b0d80e92023121f36"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "TS3003a-0.json",
+      "sha256": "5f7f1ed4eacbae4c44d291de6008a6298c6e949a2e22333c6e8dbdbac0c589b1"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "TS3003a-960000.json",
+      "sha256": "44d2691500344094859b0d4fc5458c257dc189d67ba30880e8f79876ff5f9350"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "TS3003a-1920000.json",
+      "sha256": "9e529d3ccea25229410f5f5cf742c1c551ad292e60c755d19df1843fedf21acc"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "TS3003a-2880000.json",
+      "sha256": "391148959fc991356b118c6c201536f8b29b06e09e23cd3fd7f62229f9cab84e"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "TS3003a-3840000.json",
+      "sha256": "44f8fb54b2e4fdab54ca46a08cda22faeb00fad50061f4bad9de3f068e831919"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "TS3003a-4800000.json",
+      "sha256": "de0aaa09cf4e02b22f9098c2e1077a145e750bd9e77e6c46a4f0abefbfe7d88a"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "TS3003a-5760000.json",
+      "sha256": "79f59d1dfc4305801eda911faf01261f68efab8bb1b12e6fde5d2f13a1448787"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "TS3003a-6720000.json",
+      "sha256": "94c24af10fb23ee2d1e99cdcc9111695fc64d8711d40e2532cd8b2aeed7ccc58"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "TS3003a-7680000.json",
+      "sha256": "ed8fd01bed313835a821b9bd9e765b5230b0cc702c88ed18c72c192026bfc94a"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "TS3003a-8640000.json",
+      "sha256": "f86b44b78d7d216bdbcb07115c0fb6a196c6116961d792550c00846c0edfe923"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "TS3003a-9600000.json",
+      "sha256": "5d75570253f2cdc129f11835149f543413196c6e7c8e1cfbe1325489c5429a9a"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "TS3003a-10560000.json",
+      "sha256": "f47326ce3cfbc574e0034a5cd968b05e0177c01d909a7ef7c76ea59b5b5e8298"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "TS3003a-11520000.json",
+      "sha256": "d5c4d5f35e7f7a0dd6e0ddd32aa98bc2a8e1a62e79bf10e44b765112bd368559"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "TS3003a-12480000.json",
+      "sha256": "725690c94e4730efc22b85e59b5b0eb9adb2245e3040e7a808d793872b31d8f7"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "TS3003a-13440000.json",
+      "sha256": "177cbab5bd5d873e95c36816e1d10aede1aae8b1088e5b021ac9047d04d3f766"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "TS3003a-14400000.json",
+      "sha256": "33109a72b4c6939ad94cca46913ff74a40b7be25bdd50846e19f076f0cb73ef6"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "TS3003a-15360000.json",
+      "sha256": "1aca6aecf5c4ab229fb0dc870de289983164d3100d7c45f12a71b1389bfbb98f"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "TS3003a-16320000.json",
+      "sha256": "4dd338d84e46844da114ad5c2cd401c15e35c5d0755c8c7a6ad8513cd91dc19b"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "TS3003a-17280000.json",
+      "sha256": "464d02c668405d266114cea8364bcefc00dbbf98343fddfc7d4c2ab779e95d11"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "TS3003a-18240000.json",
+      "sha256": "7257d5122d2972dcd88308815e9d909b91a13e19e073ec69f6b4123f3a475cad"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "TS3003a-19200000.json",
+      "sha256": "b74943b1d6cda069dd3fc4f029422e2b2e9bda0ac655136200ba175c01429f99"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "TS3003a-20160000.json",
+      "sha256": "854eb59b3528f8c0c2eefca3702d9c8c6df2d357f0bd3cf4278067b1a6417347"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "TS3003a-21120000.json",
+      "sha256": "bb26af8b15ff72591845c5fb9df5712bd1c8ecbd0c0a4a541615736224795569"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "TS3003a-22080000.json",
+      "sha256": "7ed53d6d84a3c4e625d7b526305273615261c8a6e82f08544e179e99c90ebc43"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "TS3003a-23040000.json",
+      "sha256": "ae95803e3ef5162658bea1b3cb71d137d711db3b26bedaaba4ecd70aee361e10"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "TS3003a-24000000.json",
+      "sha256": "73060e1c8eaed22fdb9d830a7a2fea562d40e99ff23d9a17910c033a3e53732f"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "EN2002a-0.json",
+      "sha256": "c3d1b3e022320dd4aa14915015381bea33598bee0a5d269fd2f00ff7e9ce3157"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "EN2002a-960000.json",
+      "sha256": "278fc8974827d55e5cd55ee45ad20ea60f89cbae29d9d7be2cdaf5d3e1a015b1"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "EN2002a-1920000.json",
+      "sha256": "869affc24095f1c7771be6caf26e268e5204b2386f0d96ddab965dfc3c4865aa"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "EN2002a-2880000.json",
+      "sha256": "60456c7b4353712647eb4f3f3d5837de2941846bb119aa042ba8685b348e6109"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "EN2002a-3840000.json",
+      "sha256": "e0b3685ec18a9e4ddbeb29ca63cc5c0723127531c78f252b391e34dfd9f6e57f"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "EN2002a-4800000.json",
+      "sha256": "c4f719e1aa91e49bc1d482497f32b28a61fe1903740c1421c371421c60e1e400"
+    },
+    {
+      "run": "openrouter-full",
+      "file": "EN2002a-5760000.json",
+      "sha256": "97e4344d7883d4c6ce1113dba863b9321add7d953b408115649fb63ba53ef8a2"
+    },
+    {
+      "run": "openrouter-chirp-split",
+      "file": "EN2002a-6720000.json",
+      "sha256": "9c2dbe8f8aaf8658b99c574bd2ca5f3c3dd6d8bfae92426cf3223d5eeebbde27"
+    },
+    {
+      "run": "openrouter-chirp-completion",
+      "file": "EN2002a-7680000.json",
+      "sha256": "c929d29f46da7a9cc09dc0d701e2b0f52ab14652a05dc22e416cf86011fdd402"
+    },
+    {
+      "run": "openrouter-chirp-completion",
+      "file": "EN2002a-8640000.json",
+      "sha256": "ae2bbbe3a203b836d5c34b58de96570ea9935c64bc08820099d15d5f4d0803b1"
+    },
+    {
+      "run": "openrouter-chirp-completion",
+      "file": "EN2002a-9600000.json",
+      "sha256": "7bf426a1df9bf1b8ca1fa12b2374e349e6897b6916e1033818098f6f748a2e05"
+    },
+    {
+      "run": "openrouter-chirp-completion",
+      "file": "EN2002a-10560000.json",
+      "sha256": "9687d64d0cabadf9234f87babdf0646fca995eb24b9ebabbb6a5ec99d89d6851"
+    },
+    {
+      "run": "openrouter-chirp-completion",
+      "file": "EN2002a-11520000.json",
+      "sha256": "590e69bbe713cdf0107663e6afe723faf4149b0489cbb40501483709d7e05dc5"
+    },
+    {
+      "run": "openrouter-chirp-completion",
+      "file": "EN2002a-12480000.json",
+      "sha256": "17bac459695623786bd95c3f61d38a05a2789d2a32d44aaa70765919ec7eeca3"
+    },
+    {
+      "run": "openrouter-chirp-completion",
+      "file": "EN2002a-13440000.json",
+      "sha256": "034fe9a79069f3793c5c23b0b8e4ca8ff4136ea2f34878b71de58fc46edc30e9"
+    },
+    {
+      "run": "openrouter-chirp-completion",
+      "file": "EN2002a-14400000.json",
+      "sha256": "fc1c2fa4ac548ac03a41de96fa7a3cafaf8cc69aa809256e542ac7ed1209c685"
+    },
+    {
+      "run": "openrouter-chirp-completion",
+      "file": "EN2002a-15360000.json",
+      "sha256": "de534649acc2b72054419a3dc8c2fa641cd371e71334cb488c818137ab7c900a"
+    },
+    {
+      "run": "openrouter-chirp-completion",
+      "file": "EN2002a-16320000.json",
+      "sha256": "98e86039986fcd1703e1ddd3cd22f33d6f25bc48afd94f2dbb7f82334f79c71e"
+    },
+    {
+      "run": "openrouter-chirp-completion",
+      "file": "EN2002a-17280000.json",
+      "sha256": "720dd39f7878c7424d7ed8c824196e8dae25fd2478f48dfbd659fe4f272dfd23"
+    },
+    {
+      "run": "openrouter-chirp-completion",
+      "file": "EN2002a-18240000.json",
+      "sha256": "7291d6ddce754469b2db10cebf06252e7c34fa0623446d61a9d16db966566ea3"
+    },
+    {
+      "run": "openrouter-chirp-completion",
+      "file": "EN2002a-19200000.json",
+      "sha256": "c3d038cde1f8a6ac69f9f0a34620d72fd18e2e41ad3739b7301181635a5d09cd"
+    },
+    {
+      "run": "openrouter-chirp-completion",
+      "file": "EN2002a-20160000.json",
+      "sha256": "4caef2884bae5a33ae02748160eec83d51900cd077b9ff91bb6f305eba6b0a45"
+    },
+    {
+      "run": "openrouter-chirp-completion",
+      "file": "EN2002a-21120000.json",
+      "sha256": "307508cb2ee5f538e2153743a4c3204d55a44968fb0239273ef74533e47dca63"
+    },
+    {
+      "run": "openrouter-chirp-completion",
+      "file": "EN2002a-22080000.json",
+      "sha256": "fe27b042d6be6203737b3bcae2d6c3ae142dd82e806316dce55ccf046efc8611"
+    },
+    {
+      "run": "openrouter-chirp-completion",
+      "file": "EN2002a-23040000.json",
+      "sha256": "4d688f8f0930c7b1dfca80dc788169b73d23bbc4f567fd3531444595917e9726"
+    },
+    {
+      "run": "openrouter-chirp-completion",
+      "file": "EN2002a-24000000.json",
+      "sha256": "db95428200606526f4d95d9a3542ce7ebc7dfc0959584aa85c6e503dd84ea3c9"
+    },
+    {
+      "run": "openrouter-chirp-completion",
+      "file": "EN2002a-24960000.json",
+      "sha256": "4506a62706e6080e4db1b4a747c9c34f481e2831f65823e14c5a00e022285853"
+    },
+    {
+      "run": "openrouter-chirp-completion",
+      "file": "EN2002a-25920000.json",
+      "sha256": "e9d5c7941045995b80d61fa9e1c239594b8c09c7a35c1f55d515b497683708ea"
+    },
+    {
+      "run": "openrouter-chirp-completion",
+      "file": "EN2002a-26880000.json",
+      "sha256": "9e5fc6f9049bad6bf2d380c1e8548365d593486ffde5cf64befc9fd9233f2c58"
+    },
+    {
+      "run": "openrouter-chirp-completion",
+      "file": "EN2002a-27840000.json",
+      "sha256": "f79449398944cec0dc6a79879333d7dc32de8c1c022dedeee4026ee14bc36c11"
+    },
+    {
+      "run": "openrouter-chirp-completion",
+      "file": "EN2002a-28800000.json",
+      "sha256": "7b818ac138317f520ca66f35bebf487b077b0217b739b12ef624c41fc3acba92"
+    },
+    {
+      "run": "openrouter-chirp-completion",
+      "file": "EN2002a-29760000.json",
+      "sha256": "a32caf08463d2f2c3e9192799545bc959620190021b3ff76ed7295f20121c0b1"
+    },
+    {
+      "run": "openrouter-chirp-completion",
+      "file": "EN2002a-30720000.json",
+      "sha256": "71e7b2374c28f7874ffbc57f707bd500a50f5d4a762336fa5433db89701c535c"
+    },
+    {
+      "run": "openrouter-chirp-completion",
+      "file": "EN2002a-31680000.json",
+      "sha256": "b9205ecf8faa7ee1b4c0c0024c4750008ad91ffba70fe3c558497028b8e68fb4"
+    },
+    {
+      "run": "openrouter-chirp-completion",
+      "file": "EN2002a-32640000.json",
+      "sha256": "1c1b7344229ad5bc41bcb50627ce69f360b1546fbc8608a6438797a7b53ff76c"
+    },
+    {
+      "run": "openrouter-chirp-completion",
+      "file": "EN2002a-33600000.json",
+      "sha256": "193e9a5f04bc273f64566551c41b83a260082fcc16a65a97dcb8ff5ddb873cc3"
+    }
+  ],
+  "requests_during_merge": 0
+}

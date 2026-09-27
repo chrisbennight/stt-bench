@@ -1,0 +1,36 @@
+{
+  "id": "ES2004a-0",
+  "duration": 60.0,
+  "seed": 1956091378,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "Are we We're not allowed to dim the lights so we can see the cameras I think this goes around the back side Okay I'll do that then Yeah No unfortunately 'cause of the the cameras they get a little bit Am I supposed to be standing up there Um you don't have to Okay I'm gonna stay sitting 'cause I'm lazy Can you just change the slide on the laptop Yeah sorry I didn't notice that Yes definitely that's much better Can you turn the light off Yeah um I think it's died again What's died The slide On the slide",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "Are we We're not allowed to dim the lights so we can see the cameras I think this goes around the back side Okay I'll do that then Yeah No unfortunately 'cause of the the cameras they get a little bit Am I supposed to be standing up there Um you don't have to Okay I'm gonna stay sitting 'cause I'm lazy Can you just change the slide on the laptop Yeah sorry I didn't notice that Yes definitely that's much better Can you turn the light off Yeah um I think it's died again What's died The slide On the slide"
+      },
+      "execution": "remote_api",
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790474262-C6Acqxdo23HjiUmXBkHT"
+    }
+  },
+  "wall_seconds": 15.681696499930695,
+  "rtf": 0.26136160833217825,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 54280192
+}

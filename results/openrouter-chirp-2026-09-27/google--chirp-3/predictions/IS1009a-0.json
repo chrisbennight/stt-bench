@@ -1,0 +1,36 @@
+{
+  "id": "IS1009a-0",
+  "duration": 60.0,
+  "seed": 3597138583,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "How does that work? The microphone is supposed to be to your right. Right? Right. Mhm. And then raise the other one. Okay. Okay. Everybody ready? Mhm. I think so. Uh I think the first thing we do is introduce",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "How does that work? The microphone is supposed to be to your right. Right? Right. Mhm. And then raise the other one. Okay. Okay. Everybody ready? Mhm. I think so. Uh I think the first thing we do is introduce"
+      },
+      "execution": "remote_api",
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790474480-Z1fUKbGpXGlmGEKa3djK"
+    }
+  },
+  "wall_seconds": 7.967341806041077,
+  "rtf": 0.1327890301006846,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 58474496
+}

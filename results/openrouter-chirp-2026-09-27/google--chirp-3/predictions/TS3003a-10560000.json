@@ -1,0 +1,36 @@
+{
+  "id": "TS3003a-10560000",
+  "duration": 60.0,
+  "seed": 3070520252,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "Hmm Maybe it's I think it's spilt over to another No I don't know This with the Sorry My great risk my great risk about the door This with the Okay So now I'm gonna hand over Ben one new blank sheet to you Go ahead Okay spilt spilt spilt spilt spilt",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "Hmm Maybe it's I think it's spilt over to another No I don't know This with the Sorry My great risk my great risk about the door This with the Okay So now I'm gonna hand over Ben one new blank sheet to you Go ahead Okay spilt spilt spilt spilt spilt"
+      },
+      "execution": "remote_api",
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790474714-ZBkxb0vpVeUUT9KNchCy"
+    }
+  },
+  "wall_seconds": 30.030480757937767,
+  "rtf": 0.5005080126322962,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 58474496
+}

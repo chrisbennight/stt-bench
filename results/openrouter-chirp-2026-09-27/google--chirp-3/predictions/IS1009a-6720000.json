@@ -1,0 +1,36 @@
+{
+  "id": "IS1009a-6720000",
+  "duration": 60.0,
+  "seed": 1073714944,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "Uh the discussion I guess is um does any one of you have experience with remote control Yes of course I guess we we use them we use them right every day And um Now having used the remote control for years does anybody already have like an idea like things you didn't like with it things you would like to change things you would like to improve with this thing yeah any first ideas Would you like it to be smaller bigger Yeah Have more have more buttons on it or maybe clearly better marked buttons you know things like that Yes I I feel that all the remotes should be very compact Small right Yeah those which we get here nowadays it's very long mhm and um and it should have multi-purpose like uh the remote control which we use for T_V_ it sh uh it should be used f uh for some other purpose also like",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "Uh the discussion I guess is um does any one of you have experience with remote control Yes of course I guess we we use them we use them right every day And um Now having used the remote control for years does anybody already have like an idea like things you didn't like with it things you would like to change things you would like to improve with this thing yeah any first ideas Would you like it to be smaller bigger Yeah Have more have more buttons on it or maybe clearly better marked buttons you know things like that Yes I I feel that all the remotes should be very compact Small right Yeah those which we get here nowadays it's very long mhm and um and it should have multi-purpose like uh the remote control which we use for T_V_ it sh uh it should be used f uh for some other purpose also like"
+      },
+      "execution": "remote_api",
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790474541-lwjTAOHPuWqXXp9dqlm5"
+    }
+  },
+  "wall_seconds": 9.372001791954972,
+  "rtf": 0.1562000298659162,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 58474496
+}

@@ -1,0 +1,26 @@
+{
+  "models": [
+    {
+      "id": "google--chirp-3",
+      "adapter": "openrouter",
+      "options": {
+        "model": "google/chirp-3",
+        "max_requests": 94,
+        "max_audio_seconds_total": 5536.704,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 90,
+        "response_format": "json"
+      }
+    }
+  ],
+  "protocol": {
+    "tcp_collar": 5.0,
+    "der_collar": 0.0,
+    "worker_timeout_seconds": 7200.0,
+    "random_seed_policy": "sha256-record-id-first-32-bits-v1",
+    "parallel_models": 24,
+    "execution_note": "65 original clips, 28 isolated recovery clips, one clip recovered as two 30-second requests; inference is not a single simultaneous run."
+  },
+  "manifest_sha256": "2ad785ec1cd2a38b6d3e662e332020a15e3cf0a6322a25f5cc8dc58804a3468f",
+  "config_sha256": "418afb388da714c24228fa7a53baab7fd761bb6c4234f1e372f4faeb4fabe678"
+}

@@ -1,0 +1,75 @@
+{
+  "failures": [
+    {
+      "run": "openrouter-full",
+      "prediction_sha256": "860e55cd270bc8a2a69c768f3b6a39d3d572bc453f38bae31af7043c1f53144c",
+      "failure": {
+        "id": "EN2002a-6720000",
+        "duration": 60.0,
+        "seed": 1558371856,
+        "status": "inference_failed",
+        "error_type": "RemoteRequestError",
+        "http_status": null,
+        "billing_status": "unknown"
+      }
+    },
+    {
+      "run": "openrouter-chirp-recovery",
+      "prediction_sha256": "860e55cd270bc8a2a69c768f3b6a39d3d572bc453f38bae31af7043c1f53144c",
+      "failure": {
+        "id": "EN2002a-6720000",
+        "duration": 60.0,
+        "seed": 1558371856,
+        "status": "inference_failed",
+        "error_type": "RemoteRequestError",
+        "http_status": null,
+        "billing_status": "unknown"
+      }
+    },
+    {
+      "run": "openrouter-chirp-completion",
+      "prediction_sha256": "8a6cf7a4f563214db85115b005977bf19e93edf152501c02cd2d0b0462ec2495",
+      "failure": {
+        "id": "EN2002a-6720000",
+        "duration": 60.0,
+        "status": "inference_failed",
+        "error_type": "RemoteRequestError",
+        "reason": "http_error",
+        "http_status": 504,
+        "billing_status": "unknown",
+        "wall_seconds": 181.05985062301625,
+        "rtf": 3.017664177050271
+      }
+    },
+    {
+      "run": "openrouter-chirp-flac",
+      "prediction_sha256": "279753745f74222666b7e5faf5eddd80dd602bc2a85055f0e0771191901bb8ff",
+      "failure": {
+        "id": "EN2002a-6720000",
+        "duration": 60.0,
+        "status": "inference_failed",
+        "error_type": "RemoteRequestError",
+        "reason": "timeout",
+        "http_status": null,
+        "billing_status": "unknown",
+        "wall_seconds": 90.21507435000967,
+        "rtf": 1.5035845725001613
+      }
+    }
+  ],
+  "split_recovery": {
+    "source_audio_sha256": "983dfa99e2deea227ecd387f5e21d93c30ccd983da6b1733de9ba69dc3da3799",
+    "chunk_boundaries_seconds": [
+      0,
+      30,
+      60
+    ],
+    "samples_changed": false,
+    "context_changed": true,
+    "references_sent": false,
+    "automatic_retries": 0,
+    "script_sha256": "a31ac62830250196036ecf753d2e11a4862002b8b09e98ce173466ce55b270d6"
+  },
+  "additional_recovery_success_cost_usd": 0.45946666666724106,
+  "cost_note": "Summary cost covers successful selected responses only; failed requests may have been billed. Wall time excludes failed requests and recovery delays."
+}

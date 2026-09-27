@@ -1,0 +1,36 @@
+{
+  "id": "EN2002a-29760000",
+  "duration": 60.0,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "something like that then after five o'clock so you can run off do whatever sp yeah sp yeah sp okay sp um sp yeah sp Monday Monday might be good um sp yeah sp what Monday sp What sp Yeah sp did you say yeah this Monday just sp Any time um sp Yeah sp not at sp After noon sp not at noon or two or four No in between those yeah like one and three and sp Three o'clock sp Sure sp Actually yeah sp Possibly sp Three is alright It was what times did the N_L_G_ four is it sp It's four sp Oh sp",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "something like that then after five o'clock so you can run off do whatever sp yeah sp yeah sp okay sp um sp yeah sp Monday Monday might be good um sp yeah sp what Monday sp What sp Yeah sp did you say yeah this Monday just sp Any time um sp Yeah sp not at sp After noon sp not at noon or two or four No in between those yeah like one and three and sp Three o'clock sp Sure sp Actually yeah sp Possibly sp Three is alright It was what times did the N_L_G_ four is it sp It's four sp Oh sp"
+      },
+      "execution": "remote_api",
+      "timestamp_policy": "strict",
+      "timestamp_adjustments": [],
+      "intervals_after_audio": [],
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790477901-rsN8KLsHzTb3DGohvrmt"
+    }
+  },
+  "wall_seconds": 4.100586616899818,
+  "rtf": 0.06834311028166364
+}

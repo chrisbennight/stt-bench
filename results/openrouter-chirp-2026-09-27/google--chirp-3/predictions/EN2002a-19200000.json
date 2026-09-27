@@ -1,0 +1,36 @@
+{
+  "id": "EN2002a-19200000",
+  "duration": 60.0,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "But it was I had to sit there and think about it for a bit which is a bit Yeah but S_ uh S_ pen I think huh sp Ah that's fun sp Hmm sp Hmm sp Um sp So yeah I was thinking the weekend probably sp Yeah I would sp to sp be sp uh sp available sp starting sp to tackle this sp Mm-hmm sp seriously and just um yeah hopefully have something by next week that we can sort of try integrating into the group sp Mm-hmm sp Okay sp Yeah sp And sp Well sp it should sp the sp be possible sp the browsers I use it now or as um sp Yeah sp it was there when I took it Um it uses the um the N_X_T_ search to get the data out of the sp Hmm sp out of the files which I think is odd but I'm not quite sure how it works it I don't quite understand it sp So when it when it sp To get the data for example to get summarisation data you have to search for I think the I_D_s or something Yeah sp That's pretty bizarre isn't sp Yeah sp it I guess that's how it works I've got sp it sp",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "But it was I had to sit there and think about it for a bit which is a bit Yeah but S_ uh S_ pen I think huh sp Ah that's fun sp Hmm sp Hmm sp Um sp So yeah I was thinking the weekend probably sp Yeah I would sp to sp be sp uh sp available sp starting sp to tackle this sp Mm-hmm sp seriously and just um yeah hopefully have something by next week that we can sort of try integrating into the group sp Mm-hmm sp Okay sp Yeah sp And sp Well sp it should sp the sp be possible sp the browsers I use it now or as um sp Yeah sp it was there when I took it Um it uses the um the N_X_T_ search to get the data out of the sp Hmm sp out of the files which I think is odd but I'm not quite sure how it works it I don't quite understand it sp So when it when it sp To get the data for example to get summarisation data you have to search for I think the I_D_s or something Yeah sp That's pretty bizarre isn't sp Yeah sp it I guess that's how it works I've got sp it sp"
+      },
+      "execution": "remote_api",
+      "timestamp_policy": "strict",
+      "timestamp_adjustments": [],
+      "intervals_after_audio": [],
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790477876-Sila3UDpmU6uxPmtvTpY"
+    }
+  },
+  "wall_seconds": 5.32656862703152,
+  "rtf": 0.08877614378385866
+}

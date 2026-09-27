@@ -1,0 +1,36 @@
+{
+  "id": "ES2004a-16320000",
+  "duration": 29.3546875,
+  "seed": 3683454328,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "using plastic doesn't make it cheaper I assume it would Yeah I mean the Sky remote controls and everything they're kind of molded and look a bit different than the Telewest remote controls they're silver plastic which shines and looks a bit smarter so yeah I guess that's something to think about Okay so let's break up then Okay Okay so see you in half an hour Do we go back to our rooms now Think so yeah",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 30,
+        "cost": 0.00800000000001
+      },
+      "raw_transcript": {
+        "text": "using plastic doesn't make it cheaper I assume it would Yeah I mean the Sky remote controls and everything they're kind of molded and look a bit different than the Telewest remote controls they're silver plastic which shines and looks a bit smarter so yeah I guess that's something to think about Okay so let's break up then Okay Okay so see you in half an hour Do we go back to our rooms now Think so yeah"
+      },
+      "execution": "remote_api",
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790474473-ieBKnJN6gmXVx2daE335"
+    }
+  },
+  "wall_seconds": 4.718427998013794,
+  "rtf": 0.1607384850550289,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 58474496
+}

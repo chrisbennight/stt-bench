@@ -1,0 +1,10 @@
+{
+  "checked_records": 94,
+  "models": 1,
+  "recordings_per_model": 94,
+  "score_mismatches": [],
+  "score_file_sha256": {
+    "google--chirp-3": "207bec037b9f4475de622bc6a0c80b914bc8d17fcf8d2f6d2b0f665a5f83b901"
+  },
+  "verification": "Local recomputation from saved predictions and references"
+}

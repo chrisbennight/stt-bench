@@ -1,0 +1,36 @@
+{
+  "id": "EN2002a-18240000",
+  "duration": 60.0,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "collaborating with the file things I mean if you already started on on spk: Yeah yeah spk: this stuff I spk: absolutely spk: guess spk: yeah spk: we can spk: Should share as much as possible spk: yeah spk: Mm-hmm libraries spk: Yeah spk: Yeah Should we I dunno meet up and see what we can do I mean I dunno see what you're spk: Yeah spk: done and see what we need spk: Yeah spk: when we know more about what we need maybe spk: Next spk: I spk: week spk: I spk: sounds spk: guess spk: Yeah spk: like spk: good spk: yeah spk: that's spk: I mean spk: like spk: so you're still spk: Yeah spk: looking spk: actually I haven't done anything this week 'cause this week's been manic but spk: Yes exactly so spk: Yeah I spk: you know spk: mean spk: I mean spk: this week's only two days old spk: Ah spk: Well whatever it was last spk: Oh spk: week spk: oh last week spk: The the the week as it as it is rather than the proper weeks do you know what I mean so spk: Yeah spk: it's spk: yeah spk: been all a bit of a spk: Yeah spk: manic the last spk: Yeah spk: last two spk: Well you're in spk: days spk: ASP spk: yeah spk: N_L_P_ and ASP two right spk: That's spk: Yeah spk: right yeah spk: Yeah spk: Yeah that's very spk: And spk: manic spk: then we had to do an I_R_P_ whatever it was last week as well which is only a page spk: Yeah spk: one but it's quite difficult to spk: Yeah spk: go a page spk: Yeah spk: Yeah spk: Yeah spk: Oh yeah spk: It was spk: I've spk: I spk: asked spk: got spk: people spk: to do spk: Yeah but spk:",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "collaborating with the file things I mean if you already started on on spk: Yeah yeah spk: this stuff I spk: absolutely spk: guess spk: yeah spk: we can spk: Should share as much as possible spk: yeah spk: Mm-hmm libraries spk: Yeah spk: Yeah Should we I dunno meet up and see what we can do I mean I dunno see what you're spk: Yeah spk: done and see what we need spk: Yeah spk: when we know more about what we need maybe spk: Next spk: I spk: week spk: I spk: sounds spk: guess spk: Yeah spk: like spk: good spk: yeah spk: that's spk: I mean spk: like spk: so you're still spk: Yeah spk: looking spk: actually I haven't done anything this week 'cause this week's been manic but spk: Yes exactly so spk: Yeah I spk: you know spk: mean spk: I mean spk: this week's only two days old spk: Ah spk: Well whatever it was last spk: Oh spk: week spk: oh last week spk: The the the week as it as it is rather than the proper weeks do you know what I mean so spk: Yeah spk: it's spk: yeah spk: been all a bit of a spk: Yeah spk: manic the last spk: Yeah spk: last two spk: Well you're in spk: days spk: ASP spk: yeah spk: N_L_P_ and ASP two right spk: That's spk: Yeah spk: right yeah spk: Yeah spk: Yeah that's very spk: And spk: manic spk: then we had to do an I_R_P_ whatever it was last week as well which is only a page spk: Yeah spk: one but it's quite difficult to spk: Yeah spk: go a page spk: Yeah spk: Yeah spk: Yeah spk: Oh yeah spk: It was spk: I've spk: I spk: asked spk: got spk: people spk: to do spk: Yeah but spk:"
+      },
+      "execution": "remote_api",
+      "timestamp_policy": "strict",
+      "timestamp_adjustments": [],
+      "intervals_after_audio": [],
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790477870-oX1kXSjWgbARCwJp4Czp"
+    }
+  },
+  "wall_seconds": 8.034363948041573,
+  "rtf": 0.1339060658006929
+}

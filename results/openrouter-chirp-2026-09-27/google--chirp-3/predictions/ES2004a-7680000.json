@@ -1,0 +1,36 @@
+{
+  "id": "ES2004a-7680000",
+  "duration": 60.0,
+  "seed": 1262417696,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "Doesn't look much like what I wanted to be S Uh It's not a vampire but Um somewhere else the body um sp Okay sp My dread sp It's the worst jet It's meant to be an eagle sp Eagle sp Right sp Okay sp Not a seagull sp I didn't sp It sp could sp think of sp have sp a sp been sp seagull sp a seagull I never thought of a seagull An eagle um sp again I'm picking on my feet goodness This one's also independent I'll put that one down again Um sp They're good at golf sp Independent independent but Do you say they're good at golf sp Yeah sp Are they sp Yeah sp Eagle sp An eagle sp Oh sp Yeah sp oh right I'm not good at golf I'd say they're quite free spirited flying around everywhere doing their own thing sp",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "Doesn't look much like what I wanted to be S Uh It's not a vampire but Um somewhere else the body um sp Okay sp My dread sp It's the worst jet It's meant to be an eagle sp Eagle sp Right sp Okay sp Not a seagull sp I didn't sp It sp could sp think of sp have sp a sp been sp seagull sp a seagull I never thought of a seagull An eagle um sp again I'm picking on my feet goodness This one's also independent I'll put that one down again Um sp They're good at golf sp Independent independent but Do you say they're good at golf sp Yeah sp Are they sp Yeah sp Eagle sp An eagle sp Oh sp Yeah sp oh right I'm not good at golf I'd say they're quite free spirited flying around everywhere doing their own thing sp"
+      },
+      "execution": "remote_api",
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790474341-U85Hea6bE4yVv3h2w7nK"
+    }
+  },
+  "wall_seconds": 10.023502438911237,
+  "rtf": 0.16705837398185394,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 58466304
+}

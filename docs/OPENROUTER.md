@@ -172,6 +172,27 @@ as not run. No failed request is retried automatically; its server-side outcome 
 be unknown. The controller reports failures instead of dropping them from the denominator.
 HTTP status is retained without recording an arbitrary upstream error body.
 
+## Chirp transport recovery
+
+The first Chirp recovery stopped on one failing clip before attempting the remaining
+clips. A subsequent isolated recovery completed 28 of the 29 missing clips; one request
+took 111 seconds, while the remaining failing request returned HTTP 504 after 181 seconds.
+Longer client timeouts cannot repair an upstream gateway timeout. Failed requests now
+record elapsed time and distinguish HTTP errors, client timeouts, and other transport
+errors without retaining arbitrary error messages.
+
+The OpenRouter adapter accepts `audio_format: "flac"` as a lossless alternative to its
+default WAV transport. Both encodings preserve the same mono 16 kHz PCM16 samples;
+regression tests decode the submitted payload and check sample equality. This option
+does not trim, resample, or otherwise change the benchmark audio.
+
+FLAC also timed out on the remaining clip. Two nonoverlapping 30-second WAV requests
+completed it, giving **94/94 scored clips and 38.68% WER**. The
+[published results](../results/openrouter-chirp-2026-09-27/README.md) include all predictions,
+failure history, scores, and verification. This is explicitly a recovery variant:
+one clip has shorter context than the standard 60-second protocol. The cost of the
+additional successful recovery requests was approximately **$0.46**.
+
 ## Deepgram timestamp handling
 
 A diagnostic replay reproduced a Deepgram word ending at 61.314938 seconds in a

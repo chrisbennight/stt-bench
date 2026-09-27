@@ -1,0 +1,36 @@
+{
+  "id": "EN2002a-15360000",
+  "duration": 60.0,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "the M_ browser spk: The M_ browser spk: Yes spk: What spk: M_ spk: are meetings spk: for meetings spk: Have you have you never had to look in my directory It's just pure chaos spk: No I'm I'm extremely organised too I've got folders everything I love folders spk: Yeah mine is serious chaos Files everywhere spk: Yeah so that's me done Someone else wanna talk about spk: I'll jump the gun spk: You can tell me what I've done in spk: Yeah spk: Great Oh um I dunno I basica I started like browsing a bit just like trying to see if there's anything out there to use sort spk: Mm-hmm spk: of um what were you doing again Yeah so spk: I was searching spk: yeah spk: stuff spk: Oh yeah I was searching spk: I spk: stuff spk: put a file spk: as spk: stuff spk: well spk: in spk: yeah spk: there and a next search directory and all that spk: Okay spk: Mm-hmm spk: found a tr",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "the M_ browser spk: The M_ browser spk: Yes spk: What spk: M_ spk: are meetings spk: for meetings spk: Have you have you never had to look in my directory It's just pure chaos spk: No I'm I'm extremely organised too I've got folders everything I love folders spk: Yeah mine is serious chaos Files everywhere spk: Yeah so that's me done Someone else wanna talk about spk: I'll jump the gun spk: You can tell me what I've done in spk: Yeah spk: Great Oh um I dunno I basica I started like browsing a bit just like trying to see if there's anything out there to use sort spk: Mm-hmm spk: of um what were you doing again Yeah so spk: I was searching spk: yeah spk: stuff spk: Oh yeah I was searching spk: I spk: stuff spk: put a file spk: as spk: stuff spk: well spk: in spk: yeah spk: there and a next search directory and all that spk: Okay spk: Mm-hmm spk: found a tr"
+      },
+      "execution": "remote_api",
+      "timestamp_policy": "strict",
+      "timestamp_adjustments": [],
+      "intervals_after_audio": [],
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790477864-IFpYIvVhRfvDasZ0znIj"
+    }
+  },
+  "wall_seconds": 5.983050785958767,
+  "rtf": 0.09971751309931279
+}

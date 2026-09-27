@@ -1,0 +1,36 @@
+{
+  "id": "TS3003a-19200000",
+  "duration": 60.0,
+  "seed": 3465313605,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "you've got a message It's easier I've got a message sp Five minutes sp Five sp Okay sp minutes okay sp That's a good time sp So just on a side note why is it my laptop is only giving me a black screen sp Mm sp Uh maybe you have to say the magic word sp Yeah you're right sp Does it do anything sp No Maybe you have to just clap it down and back up again sp Yeah Mm it's off now sp It's off sp Oh it's put it back up now we'll do it again sp Well it was on but sp Uh these these laptops Oh there we are sp Right sp Okay but some does everybody has um experiences with uh remote controls and I mean not the ordinary remote controls but also a li",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "you've got a message It's easier I've got a message sp Five minutes sp Five sp Okay sp minutes okay sp That's a good time sp So just on a side note why is it my laptop is only giving me a black screen sp Mm sp Uh maybe you have to say the magic word sp Yeah you're right sp Does it do anything sp No Maybe you have to just clap it down and back up again sp Yeah Mm it's off now sp It's off sp Oh it's put it back up now we'll do it again sp Well it was on but sp Uh these these laptops Oh there we are sp Right sp Okay but some does everybody has um experiences with uh remote controls and I mean not the ordinary remote controls but also a li"
+      },
+      "execution": "remote_api",
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790474827-cRCzix3tIQDz4IoCeXlJ"
+    }
+  },
+  "wall_seconds": 10.733095682924613,
+  "rtf": 0.17888492804874356,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 58474496
+}

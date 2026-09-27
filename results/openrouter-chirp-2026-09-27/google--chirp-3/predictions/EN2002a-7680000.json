@@ -1,0 +1,36 @@
+{
+  "id": "EN2002a-7680000",
+  "duration": 60.0,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "what's the most common Yeah exactly Yeah sp used double-click Yeah sp Like I dunno show the speaker characteristics or something Yeah Yeah but sp Yeah but then then there's the problem with a lot of windows popping up again And they pop up without you even sp Mm-hmm sp being quite sure what it is you know what I mean sp Yeah sp But if you do double-click on something don't you expect something to happen then sp Mm sp Yeah maybe sp Sort of mm sp You sp Oh sp touch it accidentally you know I'll go away sp Yeah sp It's still coming up sp Well then I close it yeah sp Yeah sp Yeah it's not it's not the end of the world sp Especially if I had a touch-pad sp Yeah yeah sp And then she goes oh sp Yeah sp Yeah sp It goes sp Well I'll I'll check what it does on on um double-click at the moment sp Yeah sp Okay sp 'Cause I think it might sp Yeah sp do something but sp I dunno sp So sp Could be sp yeah sp the sp but I don't I don't I just really don't see anything obvious that that I mean if you can think of something but sp Hmm sp Well I'll have a look So sp Okay sp",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "what's the most common Yeah exactly Yeah sp used double-click Yeah sp Like I dunno show the speaker characteristics or something Yeah Yeah but sp Yeah but then then there's the problem with a lot of windows popping up again And they pop up without you even sp Mm-hmm sp being quite sure what it is you know what I mean sp Yeah sp But if you do double-click on something don't you expect something to happen then sp Mm sp Yeah maybe sp Sort of mm sp You sp Oh sp touch it accidentally you know I'll go away sp Yeah sp It's still coming up sp Well then I close it yeah sp Yeah sp Yeah it's not it's not the end of the world sp Especially if I had a touch-pad sp Yeah yeah sp And then she goes oh sp Yeah sp Yeah sp It goes sp Well I'll I'll check what it does on on um double-click at the moment sp Yeah sp Okay sp 'Cause I think it might sp Yeah sp do something but sp I dunno sp So sp Could be sp yeah sp the sp but I don't I don't I just really don't see anything obvious that that I mean if you can think of something but sp Hmm sp Well I'll have a look So sp Okay sp"
+      },
+      "execution": "remote_api",
+      "timestamp_policy": "strict",
+      "timestamp_adjustments": [],
+      "intervals_after_audio": [],
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790477852-qnYIZ8SLAt35fJrsRhf0"
+    }
+  },
+  "wall_seconds": 6.6277268640697,
+  "rtf": 0.11046211440116167
+}

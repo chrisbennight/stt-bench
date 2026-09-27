@@ -1,0 +1,36 @@
+{
+  "id": "ES2004a-9600000",
+  "duration": 60.0,
+  "seed": 579395740,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "They're about twenty Pounds anyway So sp we need to b yeah We have to buy one sp sp Mm So I suppose later on it depends if we want to undercut the price we d or or is it going to make our product look the cheapy cheapy option sp Yeah sp Yeah Um production costs at twelve fifty so sp Okay a really huge margin sp half up the selling price is sp Yeah sp taken up by building it sp Mm-hmm sp Um and profit aim is fifty million Euros which is our sp In our first year sp Ye yes sp Okay sp Um yeah I presume so sp Mm-hmm sp So sp Um sp You've got market range international and you did say earlier it's got to be at um accessible and usable by sort of all age groups sp Mm-hmm sp Just it we're not focusing on business market any particular thing it's sp No sp everyone using sp Yeah sp the the sp Mm-hmm sp okay Big target group sp Yes yes I don't think we have to I don't think it's a case of worrying about different l sp",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "They're about twenty Pounds anyway So sp we need to b yeah We have to buy one sp sp Mm So I suppose later on it depends if we want to undercut the price we d or or is it going to make our product look the cheapy cheapy option sp Yeah sp Yeah Um production costs at twelve fifty so sp Okay a really huge margin sp half up the selling price is sp Yeah sp taken up by building it sp Mm-hmm sp Um and profit aim is fifty million Euros which is our sp In our first year sp Ye yes sp Okay sp Um yeah I presume so sp Mm-hmm sp So sp Um sp You've got market range international and you did say earlier it's got to be at um accessible and usable by sort of all age groups sp Mm-hmm sp Just it we're not focusing on business market any particular thing it's sp No sp everyone using sp Yeah sp the the sp Mm-hmm sp okay Big target group sp Yes yes I don't think we have to I don't think it's a case of worrying about different l sp"
+      },
+      "execution": "remote_api",
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790474412-eLxci2h8PIPrLP7UYYcK"
+    }
+  },
+  "wall_seconds": 9.731890441966243,
+  "rtf": 0.16219817403277073,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 58470400
+}

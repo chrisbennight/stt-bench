@@ -1,0 +1,36 @@
+{
+  "id": "TS3003a-7680000",
+  "duration": 60.0,
+  "seed": 1882112913,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "come up a few of its favourite characteristics Um the only thing we have to uh look after is that we use different colours and different line width Uh this I can start from now You can use this pen by holding it like uh like a little child because if you hold it like this the sensors will get blocked and then uh Okay spoint will not get good Another thing is you have to be uh a bit slow If you're going to draw it like really fast then the pen won't hold up So you choose format current colour uh I think grey is appropriate Then the line width I think seven will be nice Now you'll see my drawing capabilities Not very good",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "come up a few of its favourite characteristics Um the only thing we have to uh look after is that we use different colours and different line width Uh this I can start from now You can use this pen by holding it like uh like a little child because if you hold it like this the sensors will get blocked and then uh Okay spoint will not get good Another thing is you have to be uh a bit slow If you're going to draw it like really fast then the pen won't hold up So you choose format current colour uh I think grey is appropriate Then the line width I think seven will be nice Now you'll see my drawing capabilities Not very good"
+      },
+      "execution": "remote_api",
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790474691-zVrRtA3rRoOkI7z3K3dw"
+    }
+  },
+  "wall_seconds": 7.63292037404608,
+  "rtf": 0.12721533956743467,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 58474496
+}

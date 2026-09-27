@@ -1,0 +1,36 @@
+{
+  "id": "IS1009a-5760000",
+  "duration": 60.0,
+  "seed": 592562836,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "Hope the kitty-cat is hungry 'cause I don't like spiny things Here's the project finance uh which of course we all have to think about when we design this thing Um selling price is supposed to be twenty five Euro Um profit aim for the company is fifty million Euro The market range unlimited meaning international Okay And the production cost should not exceed hopefully it should be less than twelve fifty Euro Okay that should keep everybody on their toes and challenged Mm-hmm Profit Aim And spiny So these are all fifty things of course to remember with the budget and when you design to materials cost et cetera Now uh",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "Hope the kitty-cat is hungry 'cause I don't like spiny things Here's the project finance uh which of course we all have to think about when we design this thing Um selling price is supposed to be twenty five Euro Um profit aim for the company is fifty million Euro The market range unlimited meaning international Okay And the production cost should not exceed hopefully it should be less than twelve fifty Euro Okay that should keep everybody on their toes and challenged Mm-hmm Profit Aim And spiny So these are all fifty things of course to remember with the budget and when you design to materials cost et cetera Now uh"
+      },
+      "execution": "remote_api",
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790474532-vGe3kC6Gc3Zge7mgd2vU"
+    }
+  },
+  "wall_seconds": 8.464651145972311,
+  "rtf": 0.14107751909953853,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 58474496
+}

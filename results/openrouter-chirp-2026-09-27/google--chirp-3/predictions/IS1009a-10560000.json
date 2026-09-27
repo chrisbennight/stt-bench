@@ -1,0 +1,36 @@
+{
+  "id": "IS1009a-10560000",
+  "duration": 60.0,
+  "seed": 944852536,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "then you still wouldn't be able to find it What with Well because you're s because you're silly because people are silly Oh yeah well but then those people we can't help everybody Well if if it were like on top of your bookcase and you usually kept it on the coffee table um you know Well maybe you have to maybe you have to move along okay Yeah we have to move along but I think we have some good good points to start with here Okay the next meeting will be in thirty minutes I think you did you get uh notices on your computer for this Okay so we'll you got the notice um uh the working design I guess that's the function I_D_ uh who's this the Industrial Designer That's you Yeah it's function Yeah exactly Okay so we looking for a working design when we come back Uh looking design yeah it's it's uh maybe technical functional design And then the technical funct you're the technical function so so you're the working design",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "then you still wouldn't be able to find it What with Well because you're s because you're silly because people are silly Oh yeah well but then those people we can't help everybody Well if if it were like on top of your bookcase and you usually kept it on the coffee table um you know Well maybe you have to maybe you have to move along okay Yeah we have to move along but I think we have some good good points to start with here Okay the next meeting will be in thirty minutes I think you did you get uh notices on your computer for this Okay so we'll you got the notice um uh the working design I guess that's the function I_D_ uh who's this the Industrial Designer That's you Yeah it's function Yeah exactly Okay so we looking for a working design when we come back Uh looking design yeah it's it's uh maybe technical functional design And then the technical funct you're the technical function so so you're the working design"
+      },
+      "execution": "remote_api",
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790474579-t8vRZjV0q7tx7oP2knuY"
+    }
+  },
+  "wall_seconds": 9.195664679980837,
+  "rtf": 0.1532610779996806,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 58474496
+}

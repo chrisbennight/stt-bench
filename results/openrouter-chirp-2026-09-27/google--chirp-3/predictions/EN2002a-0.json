@@ -1,0 +1,36 @@
+{
+  "id": "EN2002a-0",
+  "duration": 60.0,
+  "seed": 1590348409,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "Okay I wonder how much of the meetings is talking about the stuff at the meetings Yeah exactly Yeah yeah yeah Look at all this stuff Right what can we start Okay Right So So do you need to talk about it Does anybody sp Shall we just go around and everyone says what they what they've been doing Has anybody done anything No No Well I've done something Yeah Okay sounds like you've done something Alright Okay Well I've got a browser now which whoops already gone Mm-hmm Oh I'll do mine as well Look at this It's supposed to be a good start Okay Okay Yeah So yeah we've got a browser we've um which comes up automatically with the transcription box and the topics And then when you go",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "Okay I wonder how much of the meetings is talking about the stuff at the meetings Yeah exactly Yeah yeah yeah Look at all this stuff Right what can we start Okay Right So So do you need to talk about it Does anybody sp Shall we just go around and everyone says what they what they've been doing Has anybody done anything No No Well I've done something Yeah Okay sounds like you've done something Alright Okay Well I've got a browser now which whoops already gone Mm-hmm Oh I'll do mine as well Look at this It's supposed to be a good start Okay Okay Yeah So yeah we've got a browser we've um which comes up automatically with the transcription box and the topics And then when you go"
+      },
+      "execution": "remote_api",
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790474873-LGUOKKInGd2haSjyVor1"
+    }
+  },
+  "wall_seconds": 9.187887333100662,
+  "rtf": 0.1531314555516777,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 58474496
+}

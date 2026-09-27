@@ -1,0 +1,36 @@
+{
+  "id": "TS3003a-15360000",
+  "duration": 60.0,
+  "seed": 3702278715,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "Okay Sweet Garfield Garfield Yeah So uh Yeah Um use a black or Yeah use a black Okay I was gonna draw a cartoon so Let's try something else Different than",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "Okay Sweet Garfield Garfield Yeah So uh Yeah Um use a black or Yeah use a black Okay I was gonna draw a cartoon so Let's try something else Different than"
+      },
+      "execution": "remote_api",
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790474788-PhHMoC3FhRQn6373dgSw"
+    }
+  },
+  "wall_seconds": 9.822941313963383,
+  "rtf": 0.1637156885660564,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 58474496
+}

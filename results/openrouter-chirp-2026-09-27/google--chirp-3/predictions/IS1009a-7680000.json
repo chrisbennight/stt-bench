@@ -1,0 +1,36 @@
+{
+  "id": "IS1009a-7680000",
+  "duration": 60.0,
+  "seed": 2889051209,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "controlling the uh temperature inside the house or for air conditioners or for heating systems So it should be a multifunctional Yes uh uh gadget that would Yes uh control all your household Yes uh uh machines basically Yeah exactly sp uh um twelve fifty Euros per sp Well sp Well who knows if we get a really good designer maybe we can do that We certainly can try to I agree with her that to market something successfully it should do some more things sp It should be something new it should it it should do something different than than just what sp That's sp we have sp the sp mm-hmm sp Now of course the other thing to think there is maybe the design sp Yeah design should be yeah it should be different all the almost all sp Like trendy you know like sp the sp earlier we saw maybe it should be something trendy you know sp Yes sp Yeah sp maybe sp it shouldn't sp different colours sp Yeah and sp Yeah sp or materials sp different shapes also sp or you know um so yeah sp Shapes right you know like kidney shaped fits sp Yes sp better in your hand or something sp Yes sp you know sp Yes sp friendly shape sp",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "controlling the uh temperature inside the house or for air conditioners or for heating systems So it should be a multifunctional Yes uh uh gadget that would Yes uh control all your household Yes uh uh machines basically Yeah exactly sp uh um twelve fifty Euros per sp Well sp Well who knows if we get a really good designer maybe we can do that We certainly can try to I agree with her that to market something successfully it should do some more things sp It should be something new it should it it should do something different than than just what sp That's sp we have sp the sp mm-hmm sp Now of course the other thing to think there is maybe the design sp Yeah design should be yeah it should be different all the almost all sp Like trendy you know like sp the sp earlier we saw maybe it should be something trendy you know sp Yes sp Yeah sp maybe sp it shouldn't sp different colours sp Yeah and sp Yeah sp or materials sp different shapes also sp or you know um so yeah sp Shapes right you know like kidney shaped fits sp Yes sp better in your hand or something sp Yes sp you know sp Yes sp friendly shape sp"
+      },
+      "execution": "remote_api",
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790474550-Dsc7s2XsGxXw4qzVpTvQ"
+    }
+  },
+  "wall_seconds": 10.063056927989237,
+  "rtf": 0.16771761546648728,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 58474496
+}

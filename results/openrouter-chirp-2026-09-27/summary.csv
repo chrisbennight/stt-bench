@@ -1,0 +1,2 @@
+model,recordings,completed,failed_or_unsupported,invalid_output,wer,cpwer,tcpwer,der,speech_time_coverage,wall_seconds_completed,rtf_completed,wall_seconds_attempted,rtf_attempted,max_cuda_allocated_bytes,max_cuda_reserved_bytes,timing_sources,api_reported_cost_usd,api_cost_complete,generation_limit_hits,mean_first_text_seconds,p95_chunk_emission_lag_seconds,sampled_process_tree_peak_rss_bytes
+google--chirp-3,94,94,0,0,0.38680326211498284,,,,,967.5614703140454,0.17475405409320158,967.5614703140454,0.17475405409320158,,,unavailable,1.4768000000018462,True,0,,,

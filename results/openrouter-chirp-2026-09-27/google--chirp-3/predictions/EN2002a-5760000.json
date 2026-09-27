@@ -1,0 +1,36 @@
+{
+  "id": "EN2002a-5760000",
+  "duration": 60.0,
+  "seed": 3249577911,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "Well the speaker characterisation yeah you we have to first define what what happens when you click on a user sp With they have the speaker characterisation first before we cross Yeah sp yeah that's true So shall we try try to do a right click menu then sp Yeah Alright why don't sp Don't sp So just from the main sp Even if it sp Right sp is sp is sp just sp one sp right sp thing sp click sp from sp to sp any particular window Like if we wanna sorta get like if we're on the users versus like a topic or something have a right sp Yeah sp click from for these various things sp Yes sp to sp Wait yeah there's a second thing about the topics the topic window We wanna somehow click be able to click on a topic and it pops up with all the meetings that contain that sp Right yeah sp Mm yeah sp Yep sp So we could do that in a similar way Do a right sp So this sp click as well sp Okay sp Yeah sp And sp so this sp have sp slot sp a different sp is for sp menu sp um sp browsing sp Yeah sp 'Kay sp On the speaker sp So yeah sp This slot is sp So we have basically two options of of browsing the meetings is by either um searching and opening individual",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "Well the speaker characterisation yeah you we have to first define what what happens when you click on a user sp With they have the speaker characterisation first before we cross Yeah sp yeah that's true So shall we try try to do a right click menu then sp Yeah Alright why don't sp Don't sp So just from the main sp Even if it sp Right sp is sp is sp just sp one sp right sp thing sp click sp from sp to sp any particular window Like if we wanna sorta get like if we're on the users versus like a topic or something have a right sp Yeah sp click from for these various things sp Yes sp to sp Wait yeah there's a second thing about the topics the topic window We wanna somehow click be able to click on a topic and it pops up with all the meetings that contain that sp Right yeah sp Mm yeah sp Yep sp So we could do that in a similar way Do a right sp So this sp click as well sp Okay sp Yeah sp And sp so this sp have sp slot sp a different sp is for sp menu sp um sp browsing sp Yeah sp 'Kay sp On the speaker sp So yeah sp This slot is sp So we have basically two options of of browsing the meetings is by either um searching and opening individual"
+      },
+      "execution": "remote_api",
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790474926-8Yx6J4pMOXmCtV7zNUNV"
+    }
+  },
+  "wall_seconds": 7.495248473016545,
+  "rtf": 0.12492080788360908,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 58474496
+}

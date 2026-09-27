@@ -1,0 +1,36 @@
+{
+  "id": "EN2002a-2880000",
+  "duration": 60.0,
+  "seed": 886592181,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "That's a good point I dunno sp Yeah yeah but um I dunno about you but uh usually in Windows right click doesn't do anything does it It opens a menu sp The menu yeah sp Yeah so sp Yeah sp yeah sp that's what nobody does you sp Yeah sp know So it would maybe sp So but sp a bit sp that'd sp weird sp be yeah sp for it to just start bringing sp And sp up stuff sp yeah sp with that sp Yeah sp Yeah sp Mm-hmm sp Um or just you know or just the button sp Yeah sp I guess the button button m makes a bit more sense 'cause otherwise you don't really know that oh what if I right click now what happens then It's like sp Well sp you sp no sp don't sp but sp you sp you sp still sp don't sp have sp you sp the sp don't sp menu sp know Yeah sp the menu sp It's sp pop sp still sp up that Well oh yeah It's more obvious isn't sp It's sp it sp It's sp more sp 'cause sp more sp already sp when sp you sp intuitive sp you sp got sp you sp know sp it's got a button sp Yeah sp Yeah that's sp Yeah sp true That's true yeah it's more intuitive sp Well then it's not as sp but sp extensible sp well sp like if we wanna add more things in the future and we have well new buttons sp Yeah sp and then where's the menu sp Maybe sp That thing is sp maybe sp more flexible that way but sp Yeah sp Oh no sp well sp I agree sp it it sp",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "That's a good point I dunno sp Yeah yeah but um I dunno about you but uh usually in Windows right click doesn't do anything does it It opens a menu sp The menu yeah sp Yeah so sp Yeah sp yeah sp that's what nobody does you sp Yeah sp know So it would maybe sp So but sp a bit sp that'd sp weird sp be yeah sp for it to just start bringing sp And sp up stuff sp yeah sp with that sp Yeah sp Yeah sp Mm-hmm sp Um or just you know or just the button sp Yeah sp I guess the button button m makes a bit more sense 'cause otherwise you don't really know that oh what if I right click now what happens then It's like sp Well sp you sp no sp don't sp but sp you sp you sp still sp don't sp have sp you sp the sp don't sp menu sp know Yeah sp the menu sp It's sp pop sp still sp up that Well oh yeah It's more obvious isn't sp It's sp it sp It's sp more sp 'cause sp more sp already sp when sp you sp intuitive sp you sp got sp you sp know sp it's got a button sp Yeah sp Yeah that's sp Yeah sp true That's true yeah it's more intuitive sp Well then it's not as sp but sp extensible sp well sp like if we wanna add more things in the future and we have well new buttons sp Yeah sp and then where's the menu sp Maybe sp That thing is sp maybe sp more flexible that way but sp Yeah sp Oh no sp well sp I agree sp it it sp"
+      },
+      "execution": "remote_api",
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790474898-YxknykWQfDSDAYmQRR4Z"
+    }
+  },
+  "wall_seconds": 10.501268861000426,
+  "rtf": 0.17502114768334043,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 58474496
+}

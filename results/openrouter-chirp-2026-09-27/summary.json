@@ -1,0 +1,27 @@
+[
+  {
+    "model": "google--chirp-3",
+    "recordings": 94,
+    "completed": 94,
+    "failed_or_unsupported": 0,
+    "invalid_output": 0,
+    "wer": 0.38680326211498284,
+    "cpwer": null,
+    "tcpwer": null,
+    "der": null,
+    "speech_time_coverage": null,
+    "wall_seconds_completed": 967.5614703140454,
+    "rtf_completed": 0.17475405409320158,
+    "wall_seconds_attempted": 967.5614703140454,
+    "rtf_attempted": 0.17475405409320158,
+    "max_cuda_allocated_bytes": null,
+    "max_cuda_reserved_bytes": null,
+    "timing_sources": "unavailable",
+    "api_reported_cost_usd": 1.4768000000018462,
+    "api_cost_complete": true,
+    "generation_limit_hits": 0,
+    "mean_first_text_seconds": null,
+    "p95_chunk_emission_lag_seconds": null,
+    "sampled_process_tree_peak_rss_bytes": null
+  }
+]

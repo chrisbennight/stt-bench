@@ -1,0 +1,36 @@
+{
+  "id": "TS3003a-960000",
+  "duration": 60.0,
+  "seed": 1293061349,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "Well first I'll tell you a little bit about the setting You can see a few cameras here they'll record uh our actions and you'll have wires and microphones they'll record your voice Uh there are also some microphones there but um you don't have to pay a lot of attention on those because it will disappear when you don't do it So this is our project documents folder There are some notes in it already I see a few documents Uh I'll start with the presentation kick-off Can't be modified by the administrator Okay Hmm Well I don't know if you've noticed but",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "Well first I'll tell you a little bit about the setting You can see a few cameras here they'll record uh our actions and you'll have wires and microphones they'll record your voice Uh there are also some microphones there but um you don't have to pay a lot of attention on those because it will disappear when you don't do it So this is our project documents folder There are some notes in it already I see a few documents Uh I'll start with the presentation kick-off Can't be modified by the administrator Okay Hmm Well I don't know if you've noticed but"
+      },
+      "execution": "remote_api",
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790474631-3xiWAJmgFswnpT6Fm0Zw"
+    }
+  },
+  "wall_seconds": 8.063052159035578,
+  "rtf": 0.13438420265059298,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 58474496
+}

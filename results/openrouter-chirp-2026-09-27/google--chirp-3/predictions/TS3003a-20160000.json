@@ -1,0 +1,36 @@
+{
+  "id": "TS3003a-20160000",
+  "duration": 60.0,
+  "seed": 274382702,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "different ones Mm Like you can use for other No No Well we have a kind of broad T_V_ at home and a D_V_D_ player so we got like a lot of remote controls one for the T_V_ one for the video recorder one for the D_V_D_ player Mm And I think it's it would be best to just make one remote control that can operate them all Yeah True Yeah I've I've got one at home and you can uh programme I think eight different devices in it and you can use it for your television Okay yeah and everything else And it also operates on infrared so you have got a little device inside your room and then you can operate it from the third uh from the second floor So that's pretty handy when you have a video recorder or D_V_D_ player downstairs and you've got it linked to your T_V_ on the second floor So that's a pretty handy uh",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "different ones Mm Like you can use for other No No Well we have a kind of broad T_V_ at home and a D_V_D_ player so we got like a lot of remote controls one for the T_V_ one for the video recorder one for the D_V_D_ player Mm And I think it's it would be best to just make one remote control that can operate them all Yeah True Yeah I've I've got one at home and you can uh programme I think eight different devices in it and you can use it for your television Okay yeah and everything else And it also operates on infrared so you have got a little device inside your room and then you can operate it from the third uh from the second floor So that's pretty handy when you have a video recorder or D_V_D_ player downstairs and you've got it linked to your T_V_ on the second floor So that's a pretty handy uh"
+      },
+      "execution": "remote_api",
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790474837-Sd6EwGuNmhc53az983gk"
+    }
+  },
+  "wall_seconds": 9.37171184096951,
+  "rtf": 0.15619519734949183,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 58474496
+}

@@ -1,0 +1,36 @@
+{
+  "id": "EN2002a-11520000",
+  "duration": 60.0,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "you like transcription summarisation Yeah Yeah sp like two buttons and you just sp Yeah press on whichever sp Or check marks even have sp Yeah sp that or sp Yeah sp the number of um windows sp Yeah sp wouldn't it which is quite good 'Cause otherwise Photoshop has a lot of windows if you ever use Photoshop it's got loads and you're always going forever going oh get out of the way there's sp Yeah sp always stuff in the way isn't there sp Yeah Oh my sp But I mean people get used to it I mean w when you use a Windows or Linux for that matter you have a lot of windows open sp You sp You sp do sp manage them sp Yeah True sp Yeah Unless Kenny I don't suppose you can minimise them and stuff like that sp Yeah you can minimise sp Can you can you do that sp Yeah sp yeah yeah sp Okay sp Okay well that's sp Yeah sp Yeah Oh course you can actually yeah it's sp Yeah sp Like a lot of these can be like once we get the disfluencies out then we can you know transcribe without the disfluency transcribe with the disflu disfluency sp Yeah that's sp How about sp true that sp these you know sp they're sp how about sp definitely sp these sort of using the same window and so we sp Yeah sp can sp they're sp pop sp definitely sp them up sp gonna be in the same window sp And probably sp yeah sp mutually um you know sp That's quite sp exclusive sp a good idea sp exclusive sp Yeah that",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "you like transcription summarisation Yeah Yeah sp like two buttons and you just sp Yeah press on whichever sp Or check marks even have sp Yeah sp that or sp Yeah sp the number of um windows sp Yeah sp wouldn't it which is quite good 'Cause otherwise Photoshop has a lot of windows if you ever use Photoshop it's got loads and you're always going forever going oh get out of the way there's sp Yeah sp always stuff in the way isn't there sp Yeah Oh my sp But I mean people get used to it I mean w when you use a Windows or Linux for that matter you have a lot of windows open sp You sp You sp do sp manage them sp Yeah True sp Yeah Unless Kenny I don't suppose you can minimise them and stuff like that sp Yeah you can minimise sp Can you can you do that sp Yeah sp yeah yeah sp Okay sp Okay well that's sp Yeah sp Yeah Oh course you can actually yeah it's sp Yeah sp Like a lot of these can be like once we get the disfluencies out then we can you know transcribe without the disfluency transcribe with the disflu disfluency sp Yeah that's sp How about sp true that sp these you know sp they're sp how about sp definitely sp these sort of using the same window and so we sp Yeah sp can sp they're sp pop sp definitely sp them up sp gonna be in the same window sp And probably sp yeah sp mutually um you know sp That's quite sp exclusive sp a good idea sp exclusive sp Yeah that"
+      },
+      "execution": "remote_api",
+      "timestamp_policy": "strict",
+      "timestamp_adjustments": [],
+      "intervals_after_audio": [],
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790477858-ACjfEWtdjkmGitU1JRa0"
+    }
+  },
+  "wall_seconds": 6.05673366994597,
+  "rtf": 0.10094556116576617
+}

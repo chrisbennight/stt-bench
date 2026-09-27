@@ -1,0 +1,36 @@
+{
+  "id": "EN2002a-33600000",
+  "duration": 42.709375,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "comment above whether you wanna do both speaker characterisation and topic segmentation Okay that's me Okay Okay And now we have seven percent of the questions done Okay good So I think we need to tick the okay box right If you're okay with it having spiky spiky spiky Yeah Mm spiky Mm Okay Shall we turn these off then or Very fun now Mm Are you still here Yes you are spiky",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 43,
+        "cost": 0.011466666666681
+      },
+      "raw_transcript": {
+        "text": "comment above whether you wanna do both speaker characterisation and topic segmentation Okay that's me Okay Okay And now we have seven percent of the questions done Okay good So I think we need to tick the okay box right If you're okay with it having spiky spiky spiky Yeah Mm spiky Mm Okay Shall we turn these off then or Very fun now Mm Are you still here Yes you are spiky"
+      },
+      "execution": "remote_api",
+      "timestamp_policy": "strict",
+      "timestamp_adjustments": [],
+      "intervals_after_audio": [],
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790477912-tiVPkG5SOnlsnRXkBhTf"
+    }
+  },
+  "wall_seconds": 2.917732029920444,
+  "rtf": 0.0683159617746793
+}

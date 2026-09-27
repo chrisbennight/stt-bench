@@ -22,6 +22,7 @@ OPTIONS = {
     "max_audio_seconds",
     "max_requests",
     "max_audio_seconds_total",
+    "audio_format",
 }
 # These option shapes are documented by OpenRouter. Other models may support
 # diarization upstream without exposing a verified option through this API.
@@ -53,6 +54,8 @@ def validate_options(options):
         raise ValueError("max_requests must be an integer")
     if options.get("response_format", "json") not in {"json", "verbose_json"}:
         raise ValueError("Unsupported response format")
+    if options.get("audio_format", "wav") not in {"wav", "flac"}:
+        raise ValueError("Audio transport must be lossless WAV or FLAC")
     granularities = options.get("timestamp_granularities", [])
     if not isinstance(granularities, list) or any(
         g not in ("word", "segment") for g in granularities
@@ -71,8 +74,9 @@ def validate_options(options):
 class RemoteRequestError(RuntimeError):
     """A request failed; do not expose response bodies or retry a possibly billed request."""
 
-    def __init__(self, http_status=None):
+    def __init__(self, http_status=None, reason="http_error"):
         self.http_status = http_status
+        self.reason = reason
         super().__init__("OpenRouter request failed; check the provider request history")
 
 
@@ -246,10 +250,13 @@ class OpenRouter(Adapter):
             raise ValueError("Audio duration differs from the approved recording")
         audio, rate = sf.read(audio_path, dtype="int16")
         buffer = io.BytesIO()
-        sf.write(buffer, audio, rate, format="WAV", subtype="PCM_16")
+        audio_format = self.options.get("audio_format", "wav")
+        sf.write(buffer, audio, rate, format=audio_format.upper(), subtype="PCM_16")
         payload = {
             "model": self.options["model"],
-            "input_audio": {"data": base64.b64encode(buffer.getvalue()).decode(), "format": "wav"},
+            "input_audio": {
+                "data": base64.b64encode(buffer.getvalue()).decode(), "format": audio_format,
+            },
             "response_format": self.options.get("response_format", "json"),
         }
         if language:
@@ -282,8 +289,10 @@ class OpenRouter(Adapter):
                 generation_id = response.headers.get("X-Generation-Id")
         except urllib.error.HTTPError as exc:
             raise RemoteRequestError(exc.code) from None
-        except (urllib.error.URLError, TimeoutError, OSError):
-            raise RemoteRequestError() from None
+        except (urllib.error.URLError, TimeoutError, OSError) as exc:
+            cause = exc.reason if isinstance(exc, urllib.error.URLError) else exc
+            reason = "timeout" if isinstance(cause, TimeoutError) else "transport_error"
+            raise RemoteRequestError(reason=reason) from None
         metadata = {"execution": "remote_api", "model": self.options["model"]}
         if generation_id and re.fullmatch(r"[A-Za-z0-9_-]{1,200}", generation_id):
             metadata["generation_id"] = generation_id

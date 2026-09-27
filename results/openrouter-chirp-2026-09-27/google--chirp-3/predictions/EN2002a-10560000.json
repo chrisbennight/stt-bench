@@ -1,0 +1,36 @@
+{
+  "id": "EN2002a-10560000",
+  "duration": 60.0,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "use the s same window for transcription and summary sp Seems like I've a tab there or something like that Oh sp Oh sp yeah sp yeah that's sp Yeah sp that's an idea sp Yeah it's sp I like sp a tab like sp the way it's sp a Mozilla sp done at the sp style sp top Yeah yeah yeah That's right I'm not sure yeah sp Does anybody know sp I don't know sp how to do that Can you sp Yeah sp do that job sp I bet that big job sp I bet sp in sp those sp sp they sp sp that sp want to do that sp probably sp Yeah sp I'm sp can sp sure sp I'm sure you could do anything sp If sp Yeah sp you really knew what you were doing but I don't know It's a bit of a crippled job as we're doing toolkit the A_ uh some sort sp Yeah sp It's a bit of a cripple sp Yeah I can have a look sp Yeah sp Yeah or just I don't know But yeah sp Yeah sp yeah that might be an sp to sp idea sp change sp yeah sp the contents of the same window like sp Yeah yeah sp from transcription to summary sp Yeah sp I don't know sp Yeah or even just have buttons on it toggle buttons or something on the toolbar for that window sp Hmm sp Just a thought sp Yeah sp There are different sp yeah sp ways sp that sp we sp could sp that's sp do it sp an idea sp It doesn't doesn't have to be a tab or whatever sp No sp Yeah sp no it sp",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "use the s same window for transcription and summary sp Seems like I've a tab there or something like that Oh sp Oh sp yeah sp yeah that's sp Yeah sp that's an idea sp Yeah it's sp I like sp a tab like sp the way it's sp a Mozilla sp done at the sp style sp top Yeah yeah yeah That's right I'm not sure yeah sp Does anybody know sp I don't know sp how to do that Can you sp Yeah sp do that job sp I bet that big job sp I bet sp in sp those sp sp they sp sp that sp want to do that sp probably sp Yeah sp I'm sp can sp sure sp I'm sure you could do anything sp If sp Yeah sp you really knew what you were doing but I don't know It's a bit of a crippled job as we're doing toolkit the A_ uh some sort sp Yeah sp It's a bit of a cripple sp Yeah I can have a look sp Yeah sp Yeah or just I don't know But yeah sp Yeah sp yeah that might be an sp to sp idea sp change sp yeah sp the contents of the same window like sp Yeah yeah sp from transcription to summary sp Yeah sp I don't know sp Yeah or even just have buttons on it toggle buttons or something on the toolbar for that window sp Hmm sp Just a thought sp Yeah sp There are different sp yeah sp ways sp that sp we sp could sp that's sp do it sp an idea sp It doesn't doesn't have to be a tab or whatever sp No sp Yeah sp no it sp"
+      },
+      "execution": "remote_api",
+      "timestamp_policy": "strict",
+      "timestamp_adjustments": [],
+      "intervals_after_audio": [],
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790477857-zPkc7ykSd4MqQZHJyzz9"
+    }
+  },
+  "wall_seconds": 6.049030954018235,
+  "rtf": 0.10081718256697059
+}

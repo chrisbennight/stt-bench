@@ -1,0 +1,36 @@
+{
+  "id": "ES2004a-10560000",
+  "duration": 60.0,
+  "seed": 1304633243,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "languages and things like that um making that key point just that it's going to be in an international market like Australia America things like that Okay What are your experiences with remote controls I mean I've got we got um we had three videos a T_V_ and a sort of amp thing all set up sp we got one of the universal remote controls sp um that you program each of your things into but that kept losing the signals so we'd have to reprogram it every now and again I think it was quite a cheapie as well sp so that might have had something to do with it but that was quite good the fact that you could sp sp you sp sp didn't have six remote controls sitting in front of you sp sp you wanna integrate everything into one like sp sp 'Cause sp sp",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.01600000000002
+      },
+      "raw_transcript": {
+        "text": "languages and things like that um making that key point just that it's going to be in an international market like Australia America things like that Okay What are your experiences with remote controls I mean I've got we got um we had three videos a T_V_ and a sort of amp thing all set up sp we got one of the universal remote controls sp um that you program each of your things into but that kept losing the signals so we'd have to reprogram it every now and again I think it was quite a cheapie as well sp so that might have had something to do with it but that was quite good the fact that you could sp sp you sp sp didn't have six remote controls sitting in front of you sp sp you wanna integrate everything into one like sp sp 'Cause sp sp"
+      },
+      "execution": "remote_api",
+      "model": "google/chirp-3",
+      "generation_id": "gen-stt-1790474421-j9kaFipQkWyjDflsZ9ek"
+    }
+  },
+  "wall_seconds": 8.48867790796794,
+  "rtf": 0.141477965132799,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 58470400
+}

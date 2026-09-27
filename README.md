@@ -19,8 +19,9 @@ speech-to-text API. The [implementation and cost estimate](docs/OPENROUTER.md) c
 24 transcription model IDs discovered on 27 September 2026. A four-minute screening pass
 is estimated at **$0.34 total**; the same audio duration as the full local benchmark is
 estimated at **$7.85 total**, using shorter API-compatible windows. These are prospective
-costs, not measured model results. OpenRouter evaluation is underway; its results have not
-yet been published.
+costs, not measured model results. [Chirp 3 results](results/openrouter-chirp-2026-09-27/README.md)
+are now published: **38.68% WER across 94/94 clips**, with one clip recovered using two
+30-second requests. The full comparison across hosted models is not yet published.
 
 ## What is being compared?
 
