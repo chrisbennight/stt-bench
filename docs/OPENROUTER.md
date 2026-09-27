@@ -138,6 +138,8 @@ Provide `OPENROUTER_API_KEY` through your runtime's secret injection, then expli
 `OPENROUTER_ALLOW_PAID_REQUESTS=1`. Do not put a key in commands, source files, or a JSON
 configuration. The supplied configuration caps each model at four requests and 240 seconds
 total audio; the controller validates the complete manifest before sending any requests.
+`--parallel-models N` runs up to N independent model workers at once (default: 1).
+Each worker still transcribes one clip at a time. This does not duplicate requests.
 
 ```bash
 OPENROUTER_ALLOW_PAID_REQUESTS=1 uv run speaker-bench run \
@@ -145,6 +147,22 @@ OPENROUTER_ALLOW_PAID_REQUESTS=1 uv run speaker-bench run \
   --manifest data/ami-openrouter/screening.jsonl \
   --output runs/openrouter-screening
 ```
+
+For the full pass on all 24 models, use the full 60-second-window manifest and the
+94-request configuration. This permits at most 24 concurrent API requests:
+
+```bash
+OPENROUTER_ALLOW_PAID_REQUESTS=1 uv run speaker-bench run \
+  --config configs/openrouter-full.json \
+  --manifest data/ami-openrouter/manifest.jsonl \
+  --parallel-models 24 --output runs/openrouter-full
+```
+
+The full configuration permits 5,536.704 seconds per model, one trial only. Parallelism
+is recorded in the run plan. Shared provider limits can still cause failures; retries
+remain disabled. Concurrent execution also works for local adapters, but sharing a GPU
+changes latency and memory contention, so use the default serial mode for controlled
+local-model performance measurements.
 
 The output directory must be new. An HTTP error or timeout stops that model's worker and
 leaves the other models eligible to run. Remaining clips for the failed model are reported

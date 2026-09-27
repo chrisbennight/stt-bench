@@ -144,8 +144,11 @@ def plan(config_path, manifest_path):
     }, records
 
 
-def run(config_path, manifest_path, output):
+def run(config_path, manifest_path, output, parallel_models=1):
+    if type(parallel_models) is not int or parallel_models < 1:
+        raise ValueError("parallel_models must be a positive integer")
     blueprint, records = plan(config_path, manifest_path)
+    blueprint["protocol"]["parallel_models"] = parallel_models
     for model in blueprint["models"]:
         if model["adapter"] == "openrouter" and model["unsupported_recordings"]:
             raise ValueError("Prepare shorter audio windows before running OpenRouter")
@@ -169,6 +172,7 @@ def run(config_path, manifest_path, output):
                 "reference_activity": [asdict(s) for s in row["reference_activity"]],
             }
             stream.write(json.dumps(saved) + "\n")
+    jobs = []
     for model in blueprint["models"]:
         directory = output / model["id"]
         directory.mkdir()
@@ -183,44 +187,59 @@ def run(config_path, manifest_path, output):
         }
         write_json(directory / "job.json", job)
         argv = [model["python"], "-m", "speaker_benchmark.worker", str(directory / "job.json")]
-        peak = 0
-        started = time.monotonic()
-        # Upstream libraries may print transcripts or secrets; discard their console output.
-        # Structured predictions and sanitized error classes are the durable diagnostic artifacts.
-        process = subprocess.Popen(
-            argv, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, start_new_session=True
-        )
-        timed_out = False
-        try:
-            while process.poll() is None:
-                if time.monotonic() - started > blueprint["protocol"]["worker_timeout_seconds"]:
+        jobs.append((directory, argv))
+    run_workers(jobs, parallel_models, blueprint["protocol"]["worker_timeout_seconds"])
+    return report(output)
+
+
+def run_workers(jobs, parallel_models, timeout):
+    """Bound independent model processes; cancellation also stops their descendants."""
+    pending = iter(jobs)
+    active = {}
+    exhausted = False
+    try:
+        while active or not exhausted:
+            while len(active) < parallel_models and not exhausted:
+                job = next(pending, None)
+                if job is None:
+                    exhausted = True
+                    break
+                directory, argv = job
+                # Upstream output may expose credentials. Save structured diagnostics only.
+                process = subprocess.Popen(
+                    argv, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
+                    start_new_session=True,
+                )
+                active[process] = {"directory": directory, "started": time.monotonic(), "peak": 0}
+            for process, state in list(active.items()):
+                timed_out = False
+                if process.poll() is None and time.monotonic() - state["started"] > timeout:
                     timed_out = True
                     stop_worker(process)
-                    break
-                try:
-                    parent = psutil.Process(process.pid)
-                    peak = max(
-                        peak,
-                        sum(
-                            p.memory_info().rss for p in [parent] + parent.children(recursive=True)
-                        ),
-                    )
-                except (psutil.NoSuchProcess, psutil.AccessDenied):
-                    pass  # A process may exit between enumeration and sampling.
+                if process.poll() is None:
+                    try:
+                        parent = psutil.Process(process.pid)
+                        state["peak"] = max(
+                            state["peak"], sum(
+                                p.memory_info().rss
+                                for p in [parent] + parent.children(recursive=True)
+                            ),
+                        )
+                    except (psutil.NoSuchProcess, psutil.AccessDenied):
+                        pass  # A process may exit between enumeration and sampling.
+                    continue
+                process.wait()
+                write_json(state["directory"] / "worker.json", {
+                    "exit_code": process.returncode, "timed_out": timed_out,
+                    "sampled_process_tree_peak_rss_bytes": state["peak"],
+                })
+                del active[process]
+            if active:
                 time.sleep(0.1)
-            process.wait()
-        except BaseException:
-            stop_worker(process)
-            raise
-        write_json(
-            directory / "worker.json",
-            {
-                "exit_code": process.returncode,
-                "timed_out": timed_out,
-                "sampled_process_tree_peak_rss_bytes": peak,
-            },
-        )
-    return report(output)
+    finally:
+        for process in active:
+            if process.poll() is None:
+                stop_worker(process)
 
 
 def stop_worker(process):

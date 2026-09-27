@@ -20,6 +20,8 @@ def main():
         p.add_argument("--manifest", type=Path, required=True)
         if name == "run":
             p.add_argument("--output", type=Path, required=True)
+            p.add_argument("--parallel-models", type=int, default=1,
+                           help="Concurrent model workers; each processes its clips sequentially")
     p = commands.add_parser("report")
     p.add_argument("output", type=Path)
     p = commands.add_parser("score")
@@ -55,7 +57,7 @@ def main():
         blueprint["audio_seconds"] = sum(r["duration"] for r in records)
         print(json.dumps(blueprint, indent=2))
     elif args.command == "run":
-        summaries = run(args.config, args.manifest, args.output)
+        summaries = run(args.config, args.manifest, args.output, args.parallel_models)
         print(json.dumps(summaries, indent=2))
         if any(s["failed_or_unsupported"] for s in summaries):
             raise SystemExit(2)
