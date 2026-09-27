@@ -1,0 +1,199 @@
+{
+  "retrieved_at": "2026-09-27T01:46:45.483867+00:00",
+  "source": "https://openrouter.ai/api/v1/models?output_modalities=transcription",
+  "billing_units_source": "https://openrouter.ai/collections/speech-to-text-models",
+  "models": [
+    {
+      "id": "google/gemini-3.5-transcribe",
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.000012"
+      },
+      "billing_unit": "token"
+    },
+    {
+      "id": "fish-audio/transcribe-1-pro",
+      "pricing": {
+        "prompt": "0.0001",
+        "completion": "0"
+      },
+      "billing_unit": "second"
+    },
+    {
+      "id": "assemblyai/universal-3-5-pro",
+      "pricing": {
+        "prompt": "0.0000625",
+        "completion": "0"
+      },
+      "billing_unit": "second"
+    },
+    {
+      "id": "meta/muse-voice-transcribe-1.0",
+      "pricing": {
+        "prompt": "0.00005",
+        "completion": "0"
+      },
+      "billing_unit": "second"
+    },
+    {
+      "id": "microsoft/mai-transcribe-2",
+      "pricing": {
+        "prompt": "0.1",
+        "completion": "0"
+      },
+      "billing_unit": "hour"
+    },
+    {
+      "id": "nvidia/nemotron-3.5-asr-streaming-multilingual-0.6b",
+      "pricing": {
+        "prompt": "0.00000333",
+        "completion": "0"
+      },
+      "billing_unit": "second"
+    },
+    {
+      "id": "mistralai/voxtral-small-24b-2507-stt",
+      "pricing": {
+        "prompt": "0.00005",
+        "completion": "0"
+      },
+      "billing_unit": "second"
+    },
+    {
+      "id": "mistralai/voxtral-mini-3b-2507",
+      "pricing": {
+        "prompt": "0.0000166667",
+        "completion": "0"
+      },
+      "billing_unit": "second"
+    },
+    {
+      "id": "qwen/qwen3-asr-1.7b",
+      "pricing": {
+        "prompt": "0.0000075",
+        "completion": "0"
+      },
+      "billing_unit": "second"
+    },
+    {
+      "id": "qwen/qwen3-asr-0.6b",
+      "pricing": {
+        "prompt": "0.00000333",
+        "completion": "0"
+      },
+      "billing_unit": "second"
+    },
+    {
+      "id": "openai/gpt-transcribe",
+      "pricing": {
+        "prompt": "0.000075",
+        "completion": "0"
+      },
+      "billing_unit": "second"
+    },
+    {
+      "id": "fish-audio/transcribe-1",
+      "pricing": {
+        "prompt": "0.0001",
+        "completion": "0"
+      },
+      "billing_unit": "second"
+    },
+    {
+      "id": "x-ai/grok-stt-1.0",
+      "pricing": {
+        "prompt": "0.0000277777777778",
+        "completion": "0"
+      },
+      "billing_unit": "second"
+    },
+    {
+      "id": "deepgram/nova-3",
+      "pricing": {
+        "prompt": "0.0000716666666667",
+        "completion": "0"
+      },
+      "billing_unit": "second"
+    },
+    {
+      "id": "microsoft/mai-transcribe-1.5",
+      "pricing": {
+        "prompt": "0.36",
+        "completion": "0"
+      },
+      "billing_unit": "hour"
+    },
+    {
+      "id": "nvidia/parakeet-tdt-0.6b-v3",
+      "pricing": {
+        "prompt": "0.000025",
+        "completion": "0"
+      },
+      "billing_unit": "second"
+    },
+    {
+      "id": "mistralai/voxtral-mini-transcribe",
+      "pricing": {
+        "prompt": "0.00005",
+        "completion": "0"
+      },
+      "billing_unit": "second"
+    },
+    {
+      "id": "qwen/qwen3-asr-flash-2026-02-10",
+      "pricing": {
+        "prompt": "0.000035",
+        "completion": "0"
+      },
+      "billing_unit": "second"
+    },
+    {
+      "id": "google/chirp-3",
+      "pricing": {
+        "prompt": "0.000266666666667",
+        "completion": "0"
+      },
+      "billing_unit": "second"
+    },
+    {
+      "id": "openai/gpt-4o-mini-transcribe",
+      "pricing": {
+        "prompt": "0.00000125",
+        "completion": "0.000005"
+      },
+      "billing_unit": "token"
+    },
+    {
+      "id": "openai/whisper-large-v3",
+      "pricing": {
+        "prompt": "0.0000075",
+        "completion": "0"
+      },
+      "billing_unit": "second"
+    },
+    {
+      "id": "openai/whisper-large-v3-turbo",
+      "pricing": {
+        "prompt": "0.00000333",
+        "completion": "0"
+      },
+      "billing_unit": "second"
+    },
+    {
+      "id": "openai/whisper-1",
+      "pricing": {
+        "prompt": "0.0001",
+        "completion": "0"
+      },
+      "billing_unit": "second"
+    },
+    {
+      "id": "openai/gpt-4o-transcribe",
+      "pricing": {
+        "prompt": "0.0000025",
+        "completion": "0.00001"
+      },
+      "billing_unit": "token"
+    }
+  ]
+}

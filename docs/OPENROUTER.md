@@ -1,0 +1,160 @@
+# OpenRouter transcription comparison
+
+The adapter supports models served by OpenRouter's dedicated
+[`/api/v1/audio/transcriptions` endpoint](https://openrouter.ai/docs/guides/overview/multimodal/stt).
+The public [transcription catalog](https://openrouter.ai/api/v1/models?output_modalities=transcription)
+returned **24 model IDs on 27 September 2026**. This includes every model in the
+[speech-to-text collection](https://openrouter.ai/collections/speech-to-text-models) at discovery.
+It does not include general audio-chat models served through Chat Completions.
+
+**Status: implementation tested offline; paid inference has not run.** Availability,
+response formats, speaker labels, and measured accuracy still need a real API pass.
+The existing local-model results have not been changed.
+
+## Cost before running
+
+| One trial per model | Audio per model | Requests across 24 models | Most expensive model: Chirp 3 | All 24 models |
+| --- | --- | --- | --- | --- |
+| Recommended screening pass | 4 minutes | 96 | $0.064 | **$0.34** |
+| Full audio duration, in 60-second windows | 92.2784 minutes | 2,256 | $1.48 | **$7.85** |
+
+The full count is 94 clips from these four meetings when prepared in 60-second windows.
+The short pass uses the interval 60–120 seconds from each meeting, selected before seeing
+model output. One trial, sequential requests, no automatic retries, no warmup calls, and
+no repeated sampling. Four minutes is a screening test, not a reliable accuracy ranking.
+A planning allowance of **$1 for screening** or **$10 for the full pass** provides some
+headroom; neither is an API-enforced spending guarantee.
+
+These estimates use current base prices and exclude tax, credit-purchase fees, rounding,
+provider minimum charges, optional feature surcharges, and failed requests that are billed.
+The full estimate is for the same amount of audio as the local benchmark, **not the same
+240-second segmentation**. Shorter windows change context and reset speaker IDs more often;
+do not put those scores in the existing local-model table as a controlled comparison.
+For that comparison, rerun the local systems against the exact new manifest.
+
+The [saved catalog](../results/openrouter-cost-estimate-2026-09-27/catalog.json),
+[per-model cost table](../results/openrouter-cost-estimate-2026-09-27/README.md),
+[short estimate](../results/openrouter-cost-estimate-2026-09-27/short.json), and
+[full estimate](../results/openrouter-cost-estimate-2026-09-27/full.json) contain the inputs,
+per-model calculations, and retrieval time. They contain no inference measurements.
+
+The catalog's `pricing.prompt` is not always a price per token. Duration models use a
+per-second rate, while MAI models use a per-hour rate. We review billing units explicitly
+against the collection and model pages. Newly discovered models remain unpriced until
+their units are reviewed; the estimator does not silently assume a unit.
+
+GPT-4o Transcribe and Mini use OpenAI's published approximate blended rates of
+[$0.006 and $0.003 per minute](https://developers.openai.com/api/docs/pricing), with a
+price-consistency check against the OpenRouter catalog. Gemini 3.5 Transcribe uses its
+model-specific [Google pricing assumptions](https://ai.google.dev/gemini-api/docs/pricing):
+25 audio tokens/second and 175 output tokens/minute. At OpenRouter's $2/$12 per million
+input/output tokens, this is $0.0051/minute. Actual transcript lengths vary. The generic
+Gemini audio-understanding token rate is not substituted for the transcription model's rate.
+
+## What the adapter measures
+
+The adapter sends mono 16 kHz PCM16 WAV, a model ID, and the recording's language code.
+It never sends reference transcripts, speaker counts, names, or vocabulary hints. API keys
+come only from `OPENROUTER_API_KEY` at runtime; keys are not accepted in model configuration.
+No new package dependency is required.
+
+The initial configuration requests plain JSON from most models. For MAI-Transcribe 2 and
+Deepgram Nova-3 it requests verbose output and enables the documented diarization option
+in the same request. This tests their speaker capability without an extra inference pass.
+Other models may advertise diarization or timestamps upstream, but their OpenRouter option
+shapes have not been verified here. Missing features in this first configuration are not
+evidence that the underlying model cannot provide them.
+
+Transcripts with native speaker labels can receive speaker-attributed word error and
+diarization scores. Models returning only text receive chronological WER; cpWER, tcpWER,
+DER, and predicted speaker count are unavailable. Timestamps alone do not imply diarization.
+Chronological WER remains imperfect on overlapping meeting speech, where word order is
+ambiguous. Inline speaker markers or sound annotations in plain-text responses require
+model-specific review before treating their WER as a clean lexical comparison.
+
+Wall time includes local WAV encoding, upload, queueing, and the remote response. It is
+client-observed latency, not provider GPU execution time. Local GPU memory is unavailable
+and must not be compared with the 4090 memory measurements. Native response usage and a
+generation ID, when provided, are saved with each prediction. `api_reported_cost_usd` sums
+reported costs from valid completed records; `api_cost_complete` is false when any record
+failed or omitted cost. Failed requests may still be billed: consult OpenRouter activity
+for the final charge rather than assuming an unreported cost is zero.
+
+The endpoint does not honor provider routing preferences such as `order` or `only`.
+We record the requested model but do not claim a pinned serving backend. The model named
+Nemotron Streaming is called through the synchronous transcription endpoint here; this
+does not measure streaming latency.
+
+## Reproduce the estimate
+
+From the CPU environment described in [Running](RUNNING.md):
+
+```bash
+uv run python scripts/estimate_openrouter.py --output runs/openrouter-estimate
+```
+
+This public GET request requires no key and makes no inference calls. It writes the
+catalog, estimate, and a four-request-per-model configuration. To reproduce the saved
+full-duration estimate offline:
+
+```bash
+uv run python scripts/estimate_openrouter.py \
+  --catalog results/openrouter-cost-estimate-2026-09-27/catalog.json \
+  --seconds 5536.704 --requests-per-model 94 \
+  --output runs/openrouter-full-estimate
+```
+
+## Prepare the screening manifest
+
+Use the existing downloaded AMI source, or fetch it using [Running](RUNNING.md). Prepare
+60-second windows in a new directory:
+
+```bash
+uv run speaker-bench prepare-ami --source data/ami-source \
+  --destination data/ami-openrouter \
+  --meetings ES2004a IS1009a TS3003a EN2002a --window-seconds 60
+uv run python - <<'PY'
+import json
+from pathlib import Path
+p = Path('data/ami-openrouter')
+rows = [json.loads(line) for line in (p / 'manifest.jsonl').read_text().splitlines()]
+selected = [row for row in rows if row['source']['offset_seconds'] == 60]
+assert len(selected) == 4
+with (p / 'screening.jsonl').open('x') as stream:
+    for row in selected:
+        stream.write(json.dumps(row) + '\n')
+PY
+uv run speaker-bench plan --config configs/openrouter.json \
+  --manifest data/ami-openrouter/screening.jsonl
+```
+
+References use the existing word-midpoint boundary rule and clipped activity intervals.
+All models receive exactly the same audio. No automatic splitting inside an adapter can
+silently change context or speaker identity scope.
+
+## Run only after reviewing costs
+
+Provide `OPENROUTER_API_KEY` through your runtime's secret injection, then explicitly set
+`OPENROUTER_ALLOW_PAID_REQUESTS=1`. Do not put a key in commands, source files, or a JSON
+configuration. The supplied configuration caps each model at four requests and 240 seconds
+total audio; the controller validates the complete manifest before sending any requests.
+
+```bash
+OPENROUTER_ALLOW_PAID_REQUESTS=1 uv run speaker-bench run \
+  --config configs/openrouter.json \
+  --manifest data/ami-openrouter/screening.jsonl \
+  --output runs/openrouter-screening
+```
+
+The output directory must be new. An HTTP error or timeout stops that model's worker and
+leaves the other models eligible to run. Remaining clips for the failed model are reported
+as not run. No failed request is retried automatically; its server-side outcome or cost may
+be unknown. The controller reports failures instead of dropping them from the denominator.
+HTTP status is retained without recording an arbitrary upstream error body.
+
+The request/audio limits bound the workload, **not dollars**. The key's provider-enforced
+credit limit is the spending boundary. A 90-second client timeout is configured per request;
+OpenRouter documents a shorter upstream processing timeout. A 60-second clip can still fail
+if its provider is slow. Check failed request IDs and actual charges before authorizing a
+selective retry. Live compatibility and optional annotation parsing remain unverified until
+the first paid pass.

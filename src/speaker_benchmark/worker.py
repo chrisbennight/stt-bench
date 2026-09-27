@@ -14,6 +14,7 @@ from pathlib import Path
 
 from speaker_benchmark.adapters import create_adapter
 from speaker_benchmark.adapters.common import InvalidModelOutput
+from speaker_benchmark.adapters.openrouter import RemoteRequestError
 from speaker_benchmark.schema import read_json, write_json
 
 LOG = logging.getLogger(__name__)
@@ -139,7 +140,11 @@ def run_job(job_path):
         except Exception as exc:
             write_json(
                 result_path,
-                {**base, "status": "inference_failed", "error_type": type(exc).__name__},
+                {
+                    **base, "status": "inference_failed", "error_type": type(exc).__name__,
+                    **({"http_status": exc.http_status, "billing_status": "unknown"}
+                       if isinstance(exc, RemoteRequestError) else {}),
+                },
             )
             LOG.error("Inference failed for %s (%s)", record["id"], type(exc).__name__)
             raise

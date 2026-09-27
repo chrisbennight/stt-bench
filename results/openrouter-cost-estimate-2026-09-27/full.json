@@ -1,0 +1,159 @@
+{
+  "audio_seconds_per_model": 5536.704,
+  "trials": 1,
+  "models": [
+    {
+      "model": "google/gemini-3.5-transcribe",
+      "billing_unit": "token",
+      "basis": "Google estimate: 25 audio tokens/second and 175 output tokens/minute",
+      "estimated_usd": 0.47061984
+    },
+    {
+      "model": "fish-audio/transcribe-1-pro",
+      "billing_unit": "second",
+      "basis": "Catalog price per second; excludes rounding and optional feature charges",
+      "estimated_usd": 0.5536704
+    },
+    {
+      "model": "assemblyai/universal-3-5-pro",
+      "billing_unit": "second",
+      "basis": "Catalog price per second; excludes rounding and optional feature charges",
+      "estimated_usd": 0.346044
+    },
+    {
+      "model": "meta/muse-voice-transcribe-1.0",
+      "billing_unit": "second",
+      "basis": "Catalog price per second; excludes rounding and optional feature charges",
+      "estimated_usd": 0.2768352
+    },
+    {
+      "model": "microsoft/mai-transcribe-2",
+      "billing_unit": "hour",
+      "basis": "Catalog price per hour; excludes rounding and optional feature charges",
+      "estimated_usd": 0.15379733333333334
+    },
+    {
+      "model": "nvidia/nemotron-3.5-asr-streaming-multilingual-0.6b",
+      "billing_unit": "second",
+      "basis": "Catalog price per second; excludes rounding and optional feature charges",
+      "estimated_usd": 0.01843722432
+    },
+    {
+      "model": "mistralai/voxtral-small-24b-2507-stt",
+      "billing_unit": "second",
+      "basis": "Catalog price per second; excludes rounding and optional feature charges",
+      "estimated_usd": 0.2768352
+    },
+    {
+      "model": "mistralai/voxtral-mini-3b-2507",
+      "billing_unit": "second",
+      "basis": "Catalog price per second; excludes rounding and optional feature charges",
+      "estimated_usd": 0.0922785845568
+    },
+    {
+      "model": "qwen/qwen3-asr-1.7b",
+      "billing_unit": "second",
+      "basis": "Catalog price per second; excludes rounding and optional feature charges",
+      "estimated_usd": 0.04152528
+    },
+    {
+      "model": "qwen/qwen3-asr-0.6b",
+      "billing_unit": "second",
+      "basis": "Catalog price per second; excludes rounding and optional feature charges",
+      "estimated_usd": 0.01843722432
+    },
+    {
+      "model": "openai/gpt-transcribe",
+      "billing_unit": "second",
+      "basis": "Catalog price per second; excludes rounding and optional feature charges",
+      "estimated_usd": 0.4152528
+    },
+    {
+      "model": "fish-audio/transcribe-1",
+      "billing_unit": "second",
+      "basis": "Catalog price per second; excludes rounding and optional feature charges",
+      "estimated_usd": 0.5536704
+    },
+    {
+      "model": "x-ai/grok-stt-1.0",
+      "billing_unit": "second",
+      "basis": "Catalog price per second; excludes rounding and optional feature charges",
+      "estimated_usd": 0.15379733333345638
+    },
+    {
+      "model": "deepgram/nova-3",
+      "billing_unit": "second",
+      "basis": "Catalog price per second; excludes rounding and optional feature charges",
+      "estimated_usd": 0.3967971200001846
+    },
+    {
+      "model": "microsoft/mai-transcribe-1.5",
+      "billing_unit": "hour",
+      "basis": "Catalog price per hour; excludes rounding and optional feature charges",
+      "estimated_usd": 0.5536704
+    },
+    {
+      "model": "nvidia/parakeet-tdt-0.6b-v3",
+      "billing_unit": "second",
+      "basis": "Catalog price per second; excludes rounding and optional feature charges",
+      "estimated_usd": 0.1384176
+    },
+    {
+      "model": "mistralai/voxtral-mini-transcribe",
+      "billing_unit": "second",
+      "basis": "Catalog price per second; excludes rounding and optional feature charges",
+      "estimated_usd": 0.2768352
+    },
+    {
+      "model": "qwen/qwen3-asr-flash-2026-02-10",
+      "billing_unit": "second",
+      "basis": "Catalog price per second; excludes rounding and optional feature charges",
+      "estimated_usd": 0.19378464
+    },
+    {
+      "model": "google/chirp-3",
+      "billing_unit": "second",
+      "basis": "Catalog price per second; excludes rounding and optional feature charges",
+      "estimated_usd": 1.4764544000018456
+    },
+    {
+      "model": "openai/gpt-4o-mini-transcribe",
+      "billing_unit": "token",
+      "basis": "OpenAI published approximate blended cost/minute; actual tokens vary",
+      "estimated_usd": 0.2768352
+    },
+    {
+      "model": "openai/whisper-large-v3",
+      "billing_unit": "second",
+      "basis": "Catalog price per second; excludes rounding and optional feature charges",
+      "estimated_usd": 0.04152528
+    },
+    {
+      "model": "openai/whisper-large-v3-turbo",
+      "billing_unit": "second",
+      "basis": "Catalog price per second; excludes rounding and optional feature charges",
+      "estimated_usd": 0.01843722432
+    },
+    {
+      "model": "openai/whisper-1",
+      "billing_unit": "second",
+      "basis": "Catalog price per second; excludes rounding and optional feature charges",
+      "estimated_usd": 0.5536704
+    },
+    {
+      "model": "openai/gpt-4o-transcribe",
+      "billing_unit": "token",
+      "basis": "OpenAI published approximate blended cost/minute; actual tokens vary",
+      "estimated_usd": 0.5536704
+    }
+  ],
+  "estimated_total_usd": 7.85129868418562,
+  "complete": true,
+  "most_expensive_estimate": {
+    "model": "google/chirp-3",
+    "billing_unit": "second",
+    "basis": "Catalog price per second; excludes rounding and optional feature charges",
+    "estimated_usd": 1.4764544000018456
+  },
+  "not_a_spending_cap": true
+}

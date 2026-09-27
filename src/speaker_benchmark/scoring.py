@@ -75,7 +75,11 @@ def score_record(record, prediction: Prediction, tcp_collar=5.0, der_collar=0.0)
     from pyannote.metrics.diarization import DiarizationErrorRate
 
     ref, hyp = seglst(record["reference"]), seglst(prediction.segments)
-    cp = meeteval.wer.cpwer(ref, hyp, hypothesis_sort=False)["recording"]
+    speakers_available = prediction.metadata.get("speaker_labels_available", True)
+    cp = (
+        meeteval.wer.cpwer(ref, hyp, hypothesis_sort=False)["recording"]
+        if speakers_available else None
+    )
     # Chronological concatenation is intentionally secondary: overlap has no unique word order.
     ordered_ref = sorted(record["reference"], key=lambda s: (s.start, s.end))
     ordered_hyp = prediction.segments
@@ -88,18 +92,22 @@ def score_record(record, prediction: Prediction, tcp_collar=5.0, der_collar=0.0)
     )
     output = {
         "wer": error_counts(wer),
-        "cpwer": error_counts(cp),
+        "cpwer": error_counts(cp) if cp is not None else None,
         "tcpwer": None,
         "der": None,
         "coverage": None,
         "timing": prediction.timing,
-        "predicted_speakers": len({s.speaker for s in prediction.segments}),
+        "predicted_speakers": (
+            len({s.speaker for s in prediction.segments}) if speakers_available else None
+        ),
         "reference_speakers": len({s.speaker for s in record["reference"]}),
     }
     if timed:
+        activity = prediction.activity if prediction.activity is not None else prediction.segments
+        output["coverage"] = covered_speech(record["reference_activity"], activity)
+    if timed and speakers_available:
         tcp = meeteval.wer.tcpwer(ref, hyp, collar=tcp_collar)["recording"]
         output["tcpwer"] = error_counts(tcp)
-        activity = prediction.activity if prediction.activity is not None else prediction.segments
         metric = DiarizationErrorRate(collar=der_collar, skip_overlap=False)
         details = metric(
             annotation(record["reference_activity"]),
@@ -108,5 +116,4 @@ def score_record(record, prediction: Prediction, tcp_collar=5.0, der_collar=0.0)
             detailed=True,
         )
         output["der"] = {str(k): float(v) for k, v in details.items()}
-        output["coverage"] = covered_speech(record["reference_activity"], activity)
     return output

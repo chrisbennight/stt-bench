@@ -14,7 +14,7 @@ RESULTS = ROOT / "results/ami-4090-2026-09-27"
 PATTERNS = {
     "credential-shaped value": re.compile(
         r"hf_[A-Za-z0-9]{24,}|gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{40,}"
-        r"|AKIA[A-Z0-9]{16}|-----BEGIN [A-Z ]*PRIVATE KEY-----"
+        r"|sk-or-v1-[A-Za-z0-9]{32,}|AKIA[A-Z0-9]{16}|-----BEGIN [A-Z ]*PRIVATE KEY-----"
     ),
     "machine-specific home path": re.compile(r"/(?:home|Users|root)/[A-Za-z0-9_.-]+"),
     "private domain": re.compile(r"https?://[^\s/]+\.(?:lan|local|internal)(?:/|\b)"),

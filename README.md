@@ -14,6 +14,13 @@ The question is practical: **which system gets the words and speakers right, how
 it run, and how much GPU memory does it use?** This is a controlled, small meeting-audio
 comparison—not an OpenASR leaderboard reproduction or a universal model ranking.
 
+**OpenRouter extension:** the harness also supports hosted models through OpenRouter's
+speech-to-text API. The [implementation and cost estimate](docs/OPENROUTER.md) cover all
+24 transcription model IDs discovered on 27 September 2026. A four-minute screening pass
+is estimated at **$0.34 total**; the same audio duration as the full local benchmark is
+estimated at **$7.85 total**, using shorter API-compatible windows. These are prospective
+costs, not measured model results. No OpenRouter inference has been run for this release.
+
 ## What is being compared?
 
 There are three approaches here: joint models that generate words and speaker labels together;

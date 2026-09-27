@@ -10,6 +10,7 @@ def test_publication_scan_detects_credentials_without_printing_values():
     secret = "hf_" + "a" * 32
     assert scan(secret) == ["credential-shaped value"]
     assert secret not in str(scan(secret))
+    assert scan("sk-or-v1-" + "a" * 64) == ["credential-shaped value"]
 
 
 def test_publication_scan_distinguishes_paths_addresses_and_public_metadata():

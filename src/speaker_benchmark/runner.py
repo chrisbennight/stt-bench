@@ -13,6 +13,8 @@ from pathlib import Path
 import psutil
 
 from speaker_benchmark.adapters import BUILTINS
+from speaker_benchmark.adapters.openrouter import OPTIONS as OPENROUTER_OPTIONS
+from speaker_benchmark.adapters.openrouter import validate_options
 from speaker_benchmark.schema import (
     Prediction,
     digest,
@@ -51,8 +53,15 @@ def plan(config_path, manifest_path):
             raise ValueError("Duplicate model ID")
         seen.add(identifier)
         options = dict(model.get("options", {}))
-        if set(options) - OPTION_KEYS:
+        remote = model["adapter"] == "openrouter"
+        if set(options) - (OPENROUTER_OPTIONS if remote else OPTION_KEYS):
             raise ValueError("Unknown adapter option; credentials must not be stored in config")
+        if remote:
+            validate_options(options)
+            if len(records) > options["max_requests"] or sum(
+                r["duration"] for r in records
+            ) > options["max_audio_seconds_total"] + 1e-6:
+                raise ValueError("Manifest exceeds the configured OpenRouter allowance")
         required = (
             {"model", "aligner", "diarizer"} if model["adapter"].startswith("qwen_") else {"model"}
         )
@@ -67,7 +76,7 @@ def plan(config_path, manifest_path):
             raise ValueError("ASR chunks must be between 1 and 300 seconds")
         paths, fingerprints = {}, {}
         for key in ("model", "aligner", "diarizer", "tokenizer"):
-            if key not in options:
+            if key not in options or remote:
                 continue
             path = (config_path.parent / options[key]).resolve()
             options[key] = str(path)
@@ -102,8 +111,13 @@ def plan(config_path, manifest_path):
                     r["id"]
                     for r in records
                     if model["adapter"] in BUILTINS
-                    and BUILTINS[model["adapter"]].max_duration is not None
-                    and r["duration"] > BUILTINS[model["adapter"]].max_duration
+                    and (
+                        r["duration"] > options.get("max_audio_seconds", 60)
+                        if remote else (
+                            BUILTINS[model["adapter"]].max_duration is not None
+                            and r["duration"] > BUILTINS[model["adapter"]].max_duration
+                        )
+                    )
                 ],
             }
         )
@@ -133,6 +147,8 @@ def plan(config_path, manifest_path):
 def run(config_path, manifest_path, output):
     blueprint, records = plan(config_path, manifest_path)
     for model in blueprint["models"]:
+        if model["adapter"] == "openrouter" and model["unsupported_recordings"]:
+            raise ValueError("Prepare shorter audio windows before running OpenRouter")
         if not all(model["paths_exist"].values()) or not Path(model["python"]).is_file():
             raise ValueError(
                 f"{model['id']}: missing model snapshots or Python environment; run plan"
@@ -236,6 +252,8 @@ def report(output):
             else:
                 # Failed recordings count as empty hypotheses instead of vanishing from averages.
                 prediction = Prediction([], timing="failed")
+                if model.get("adapter") == "openrouter":
+                    prediction.metadata["speaker_labels_available"] = False
             row["scores"] = score_record(
                 record,
                 prediction,
@@ -253,7 +271,9 @@ def report(output):
         summaries.append(summary)
     write_json(output / "summary.json", summaries)
     with (output / "summary.csv").open("w", newline="") as stream:
-        writer = csv.DictWriter(stream, fieldnames=list(summaries[0]))
+        writer = csv.DictWriter(stream, fieldnames=list(dict.fromkeys(
+            key for summary in summaries for key in summary
+        )))
         writer.writeheader()
         writer.writerows(summaries)
     return summaries
@@ -307,6 +327,13 @@ def aggregate(identifier, rows, records):
         (d["reserved_bytes"] for r in attempted for d in r.get("cuda_peak") or []), default=None
     )
     summary["timing_sources"] = ",".join(sorted({r["scores"]["timing"] for r in ok}))
+    remote_rows = [r for r in ok if r["prediction"]["metadata"].get("execution") == "remote_api"]
+    if remote_rows:
+        costs = [r["prediction"]["metadata"].get("usage", {}).get("cost") for r in remote_rows]
+        summary["api_reported_cost_usd"] = sum(c for c in costs if c is not None)
+        summary["api_cost_complete"] = (
+            len(remote_rows) == len(rows) and all(c is not None for c in costs)
+        )
     summary["generation_limit_hits"] = sum(
         r["prediction"].get("metadata", {}).get("generation_limit_hit") is True for r in ok
     ) + sum(
