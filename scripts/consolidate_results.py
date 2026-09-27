@@ -8,7 +8,7 @@ from pathlib import Path
 
 from speaker_benchmark.runner import aggregate
 from speaker_benchmark.schema import Prediction, Segment, read_json, write_json
-from speaker_benchmark.scoring import covered_speech, normalize, score_record
+from speaker_benchmark.scoring import score_record
 
 ROOT = Path(__file__).resolve().parents[1]
 BUNDLE = ROOT / "results/openrouter-validated-2026-09-27"
@@ -21,7 +21,7 @@ INTRO = """# Consolidated benchmark results
 - **Test audio:** 94 clips, 92.28 minutes total, up to 60 seconds per clip.
 - **Speaker comparison:** the same {speaker_clips} labelled clips for every scored system.
 - **Sort order:** WER, lowest first, following the general transcription ranking used by Open ASR.
-- **Medals:** 🥇🥈🥉 mark the three lowest measured values per column; coverage is higher-is-better.
+- **Medals:** 🥇🥈🥉 mark the three lowest measured values per column.
 - **Missing results:** cells identify missing labels or timing in the tested output.
   Four excluded DeepInfra routes receive no scores or medals.
 
@@ -40,8 +40,6 @@ NOTES = """
   word matching. This benchmark uses a five-second collar.
 - **DER — diarization error rate ↓:** missed speech, false alarms, and speaker confusion
   divided by reference speaker time. Uses zero collar and includes overlapping speech.
-- **Coverage ↑:** the fraction of reference speech time overlapped by predicted speech.
-  A diagnostic, not an accuracy score: excessively long predictions can inflate it.
 - **RTF — real-time factor ↓:** processing seconds divided by audio seconds.
   For example, 0.1 means processing took one tenth of the audio duration.
 - **API $ ↓:** reported response charges in US dollars, including parser-rejected responses.
@@ -58,8 +56,6 @@ NOTES = """
 - **Aggregation:** WER sums word-error counts before division; DER sums error durations.
   Overlapping reference words are ordered chronologically for WER, which makes it
   sensitive to word ordering during overlap.
-- **Empty speech:** for routes with timing, empty output covers zero reference speech.
-  A nonempty transcript without timing prevents a full-dataset coverage score.
 - **Output limitations:** no external diarizer or invented timestamps are added to hosted
   outputs. Gemini and Voxtral were asked for diarization but returned no speaker fields
   in the probe. This does not establish the limits of every upstream route.
@@ -190,8 +186,6 @@ def missing_cell(row, key):
         return "No labels"
     if key in {"tcpwer", "der"}:
         return "No speaker times" if row.get("cpwer") is not None else "No labels"
-    if key == "speech_time_coverage":
-        return "No times"
     return "—"
 
 
@@ -201,26 +195,6 @@ def reported_cost(row):
              else row.get("metadata", {}).get("response_usage", {}))
     cost = usage.get("cost")
     return cost if type(cost) in (int, float) and math.isfinite(cost) and cost >= 0 else None
-
-
-def full_dataset_coverage(scores, records):
-    """Empty speech covers zero time; nonempty untimed speech has unknown coverage."""
-    if not any(r["scores"]["coverage"] is not None for r in scores):
-        return None, []
-    counts, empty_ids = [], []
-    for row in scores:
-        coverage = row["scores"]["coverage"]
-        if coverage is None:
-            if row["status"] != "ok" or any(
-                normalize(s["text"]) for s in row["prediction"]["segments"]
-            ):
-                return None, empty_ids
-            reference = [Segment(**s) for s in records[row["id"]]["reference_activity"]]
-            coverage = covered_speech(reference, [])
-            empty_ids.append(row["id"])
-        counts.append(coverage)
-    denominator = sum(c["reference_seconds"] for c in counts)
-    return sum(c["covered_seconds"] for c in counts) / denominator, empty_ids
 
 
 def build(verify=False):
@@ -256,9 +230,7 @@ def build(verify=False):
                 checked += 1
         summary = aggregate(model, scores, records)
         summary.update(track="api", eligible=summary["completed"] == len(records))
-        summary["speech_time_coverage"], summary["coverage_empty_output_clips"] = (
-            full_dataset_coverage(scores, record_map)
-        )
+        summary.pop("speech_time_coverage", None)
         summary["rtf"] = summary["rtf_completed"]
         costs = [reported_cost(r) for r in scores]
         summary["api_reported_cost_usd"] = sum(c for c in costs if c is not None)
@@ -308,9 +280,7 @@ def build(verify=False):
         summary.update(track="local", eligible=all(
             r["status"] in {"ok", "invalid_output"} for r in scores
         ), rtf=summary["rtf_attempted"])
-        summary["speech_time_coverage"], summary["coverage_empty_output_clips"] = (
-            full_dataset_coverage(scores, record_map)
-        )
+        summary.pop("speech_time_coverage", None)
         rows.append(summary)
         groups[model] = scores
     _, speaker_scores = shared_speaker_scores(groups, common)
@@ -335,7 +305,7 @@ def build(verify=False):
         ("wer", "WER ↓", ".2%"), ("cpwer", f"cpWER ({len(common)}) ↓", ".2%"),
         ("tcpwer", f"tcpWER ({len(common)}) ↓", ".2%"),
         ("der", f"DER ({len(common)}) ↓", ".2%"),
-        ("speech_time_coverage", "Coverage ↑", ".2%"), ("rtf", "RTF ↓", ".3f"),
+        ("rtf", "RTF ↓", ".3f"),
         ("api_reported_cost_usd", "API $ ↓", ".4f"), ("vram_gib", "VRAM GiB ↓", ".2f"),
     ]
     lines = ["| Model | " + " | ".join(c[1] for c in columns) + " | Clips |",
@@ -346,7 +316,7 @@ def build(verify=False):
             value = row.get(key)
             values = [r[key] for r in rows if r["eligible"] and r.get(key) is not None]
             icon = (
-                medal(value, values, higher=key == "speech_time_coverage")
+                medal(value, values)
                 if row["eligible"] else ""
             )
             cells.append(missing_cell(row, key) if value is None else icon + format(value, fmt))

@@ -70,7 +70,6 @@ def test_consolidation_rejects_a_different_clip_count():
 def test_missing_cells_distinguish_capability_and_exclusion():
     assert module.missing_cell({"cpwer": 0.2}, "der") == "No speaker times"
     assert module.missing_cell({"cpwer": None}, "der") == "No labels"
-    assert module.missing_cell({}, "speech_time_coverage") == "No times"
     assert module.missing_cell({"excluded": True}, "wer") == "Excluded"
 
 
@@ -80,17 +79,3 @@ def test_costs_include_rejected_transcripts_but_never_invent_failed_request_cost
     assert module.reported_cost({"status": "inference_failed"}) is None
     assert module.reported_cost({"status": "ok", "prediction": {
         "metadata": {"usage": {"cost": 0}}}}) == 0
-
-
-def test_empty_speech_counts_as_uncovered_but_untimed_words_are_unknown():
-    rows = [
-        {"id": "timed", "status": "ok", "scores": {
-            "coverage": {"covered_seconds": 2, "reference_seconds": 2}}},
-        {"id": "empty", "status": "ok", "scores": {"coverage": None},
-         "prediction": {"segments": []}},
-    ]
-    records = {"empty": {"reference_activity": [
-        {"speaker": "a", "text": "", "start": 0, "end": 6}]}}
-    assert module.full_dataset_coverage(rows, records) == (0.25, ["empty"])
-    rows[1]["prediction"]["segments"] = [{"text": "untimed speech"}]
-    assert module.full_dataset_coverage(rows, records)[0] is None

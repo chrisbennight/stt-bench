@@ -79,7 +79,7 @@ def compare(directories, selections=None):
             "Meeting-level variation is descriptive; correlated windows are not independent.",
             "AMI results do not establish general performance on other domains or languages.",
             "Speaker labels are anonymous identities within each independent audio window.",
-            "Streaming DER, tcpWER, and coverage are unavailable without speech timestamps.",
+            "Streaming DER and tcpWER are unavailable without speech timestamps.",
         ],
     }
 

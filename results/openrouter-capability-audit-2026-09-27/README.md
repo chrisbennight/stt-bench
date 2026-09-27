@@ -10,7 +10,7 @@ the source score-file hashes. The [corrected Fish scores](fish-reparsed-scores.j
 provider's inline speaker labels and excluding non-speech annotations from word scoring.
 WER changes from 69.81% to **31.54%**; full-dataset cpWER is **43.20%**. Four responses
 contain an unfinished final annotation, explicitly flagged in the corrected metadata.
-No timing is invented, so these saved responses still cannot supply tcpWER, DER, or coverage.
+No timing is invented, so these saved responses still cannot supply tcpWER or DER.
 
 These corrected scores have not been substituted into the provisional comparison table
 while the full hosted configuration is under review. The table's speaker metrics use an

@@ -37,7 +37,7 @@ Transcribe and Qwen Flash models are different releases.
   processes the entire clip. Exclusive activity assigns words by greatest overlap;
   regular activity preserves overlapping speakers for DER. Unmatched words remain
   explicitly unassigned. No reference speaker count is supplied.
-- **Metrics:** WER, cpWER, tcpWER, DER, and coverage use the existing scorer and
+- **Metrics:** WER, cpWER, tcpWER, and DER use the existing scorer and
   collars. Runtime includes transcription, alignment, and diarization; downloads
   and model loading are excluded. These are pipeline results, not claims that the
   transcription weights natively produce speaker labels.
@@ -64,7 +64,7 @@ python scripts/setup_runtime.py local_nemo
 ```
 
 The sequential controller checks the first clip from each model for nonempty,
-timed, speaker-labelled output and all five accuracy/coverage metrics. It retains
+timed, speaker-labelled output and all four accuracy metrics. It retains
 that first result and runs the remaining clips once. It verifies audio hashes and
 references against the baseline before starting and refuses to overwrite a run:
 

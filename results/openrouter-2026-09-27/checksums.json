@@ -1,7 +1,7 @@
 {
-  "README.md": "4ce395583bdc263ac97153a84f5824a4c23e4fefaed0a02e76454eb602efe447",
-  "consolidated.csv": "fdfef06044352f4ba11d07def4d9649ad3ac13f242c59e99615af568b90fc4af",
-  "consolidated.json": "25504594fffd277bddd4324eea648c7429248aeeb158f715e29d1a6267848884",
+  "README.md": "d4eda6338fc9178c5aa4a0b342780bc994e1125017765d7e8c78f38afc24a97d",
+  "consolidated.csv": "32c11d609ab7c288c38c65a316b2f40d558a1cd6b0c0a96955cabc7fb7b80452",
+  "consolidated.json": "5b3a5bdb18d14f9502d1930184f8e9359434532b357d92b55f10492a2fc568ad",
   "manifest.jsonl": "9ee0060a3f9a7451e3974daf83067faca96a773a19ad0cfb87a6e1ca4663b066",
   "scores/assemblyai--universal-3-5-pro.json": "ce3300334ed06df7431da8634b9d8197764289fa545b563de40cb480b009acc2",
   "scores/deepgram--nova-3.json": "a1f486abe898e9283df8aa10716cff91962593fcd7e0f8ca51c867acd2d110eb",
@@ -28,5 +28,5 @@
   "scores/qwen--qwen3-asr-flash-2026-02-10.json": "511be7b43fd635e7143955e5d6aea2588a16ec3580087755b7f8c00f284ad1fc",
   "scores/x-ai--grok-stt-1.0.json": "ad64a0ddde79a6064f629a1ab682325737d2abd95dcfee7f6f152c8d53eec0fa",
   "sources.json": "b27a7d8ba1aa6fc257af1b6884ec3df6f53e16d8c9fa97224e00b7ee6f090adb",
-  "table.md": "32bce94f74718979621bb6b6e51dd8a6e8750907dbececf13dabe3ac9f3068a8"
+  "table.md": "b93f463d4ae235ecbcadfc4b5bef6a524562d50f73857385a0945f031d20d55f"
 }

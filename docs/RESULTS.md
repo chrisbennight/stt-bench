@@ -47,7 +47,7 @@ it deliberately flags any recorded failure.
   between those two values.
 - **VibeVoice Streaming:** completed every window, but its 54.33% cpWER is the highest in
   this comparison. It provides live anonymous speaker labels and text without native speech
-  timestamps. DER, tcpWER, and coverage are therefore unavailable.
+  timestamps. DER and tcpWER are therefore unavailable.
 
 ## Streaming timing
 
@@ -97,16 +97,16 @@ sensitivity check, not the primary ranking:
 
 ## Supplementary quality metrics
 
-| System | Chronological WER | tcpWER, 5-second collar | Speech-time coverage |
-| --- | ---: | ---: | ---: |
-| MOSS | 30.29% | 30.62% | 89.44% |
-| VibeVoice offline | 37.33% | 41.64% | 89.49% |
-| Qwen3 + pyannote | 34.04% | 47.32% | 93.29% |
-| Qwen3 + Nemotron | 34.04% | 42.38% | 78.33% |
-| VibeVoice Streaming | 42.83% | — | — |
+| System | Chronological WER | tcpWER, 5-second collar |
+| --- | ---: | ---: |
+| MOSS | 30.29% | 30.62% |
+| VibeVoice offline | 37.33% | 41.64% |
+| Qwen3 + pyannote | 34.04% | 47.32% |
+| Qwen3 + Nemotron | 34.04% | 42.38% |
+| VibeVoice Streaming | 42.83% | — |
 
 Chronological WER is secondary because overlapping speakers have no unique word interleaving.
-Coverage is a diagnostic and can be inflated by hallucinated spans. DER has a zero-second
+DER has a zero-second
 collar and includes overlap. The Qwen pipelines use forced alignment; joint models use native
 segment times. Their tcpWER timestamp sources are therefore different.
 

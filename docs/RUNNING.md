@@ -215,8 +215,6 @@ and recomputes the scores from the saved references. It rejects unattempted reco
   evaluated across the entire recording. Pipeline activity intervals are retained independently
   of recognized words, preserving simultaneous speakers. Optional 0.25-second collar must be
   a separately identified run.
-- **Coverage:** union of predicted activity intersecting reference speech time. It detects
-  omissions but can be inflated by hallucinated long spans; read alongside DER and deletions.
 - **Runtime/memory:** wall time, RTF, worker process-tree sampled RSS, and PyTorch peak allocated
   and reserved CUDA bytes. CUDA figures exclude non-PyTorch allocations; RSS is not VRAM.
 - **Streaming:** first nonempty attributed text and p95 chunk-end-to-emission lag under
@@ -224,8 +222,8 @@ and recomputes the scores from the saved references. It rejects unattempted reco
   Per-chunk events and compute seconds are retained. Setting `realtime: false` measures
   unpaced throughput; latency aggregates are then unavailable.
 
-VibeVoice streaming emits `Speaker k:` text without timestamps. **Native DER, tcpWER and
-temporal coverage are null for that adapter**, with an explicit reason. Adding a forced
+VibeVoice streaming emits `Speaker k:` text without timestamps. **Native DER and tcpWER
+are null for that adapter**, with an explicit reason. Adding a forced
 aligner would create a different augmented system and should have its own configuration;
 this harness does not mislabel chunk edges as word times.
 

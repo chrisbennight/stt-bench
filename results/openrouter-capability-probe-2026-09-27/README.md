@@ -12,9 +12,9 @@ are format-validation evidence, not an accuracy ranking from one clip.
 
 - MAI 2 and Deepgram returned words, speakers, and timing for all five metrics.
 - Fish Pro returned inline speaker labels and separate word timings. It supports cpWER
-  and coverage here, but no verified association between those timings and speaker turns.
+  here, but no verified association between those timings and speaker turns.
 - AssemblyAI, Fish standard, Nemotron, Parakeet, Whisper Large v3, and Whisper Turbo returned
-  timing without speaker labels, supporting WER and coverage.
+  timing without speaker labels, supporting WER.
 - MAI 1.5 returned text only, as expected for the tested route.
 - Nine routes were missing from the authenticated model list. Six returned 404; three
   rejected the request with 400. Access settings and those request shapes remain unresolved.

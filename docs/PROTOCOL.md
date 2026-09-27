@@ -40,7 +40,7 @@ accounts for both transcript words and their speaker attribution while allowing
 anonymous speaker labels to be renamed. Lower is better. Counts are summed before division,
 so a short window does not receive the same weight as a long, word-rich window.
 
-WER and coverage use all 94 clips. The consolidated cpWER, tcpWER, and DER columns use
+WER uses all 94 clips. The consolidated cpWER, tcpWER, and DER columns use
 the same labelled subset for every system, with its size in the column headings.
 This is the intersection of clips with measurable cpWER across hosted routes that
 returned speaker labels: MAI 2, Deepgram, Grok, and Fish Pro. The exact clip IDs and
@@ -54,20 +54,14 @@ Time-constrained cpWER uses a five-second collar. Native segment outputs use Mee
 pseudo-word timing; Qwen uses forced alignment. These are different timestamp sources,
 so the timing-constrained score is supplementary. DER uses no collar and includes overlap,
 over the entire audio duration. Pipeline DER uses the diarizer's regular overlapping
-activity, not only the speaker-assigned words. Speech-time coverage is a diagnostic of
-predicted activity and can be inflated by hallucinated spans.
-For a route with timed output, an empty speech transcript contributes zero covered time
-to the consolidated coverage score. This keeps missed speech in the denominator without
-inventing timestamps. A nonempty transcript with no timing makes full-dataset coverage
-unavailable. The JSON records which empty outputs received this aggregation treatment;
-original per-clip scores and predictions remain unchanged.
+activity, not only the speaker-assigned words.
 
 Text normalization applies Unicode NFKC, lowercasing, and punctuation-to-space conversion,
 preserving apostrophes, fillers, repetitions, and number spellings. No language model edits
 references or hypotheses. VibeVoice's square-bracket sound annotations are preserved in
 raw output but excluded from speech-word scoring. Fish inline speaker markers are parsed
 as labels, and its bracketed event annotations are likewise excluded from speech words.
-Fish's unlabelled timed segments support speech coverage but are not assigned to its
+Fish's unlabelled timed segments are not assigned to its
 inline speakers by guessing word positions; tcpWER and DER need actual speaker times.
 Ordinary unattributed speech is retained
 as `unassigned`, so missing speaker labels are not silently discarded.
@@ -94,7 +88,7 @@ a silent transcript fix.
 ## Streaming and validation
 
 VibeVoice Streaming provides anonymous speaker labels and text but no speech timestamps.
-Native DER, time-constrained cpWER, and speech-time coverage are therefore unavailable.
+Native DER and time-constrained cpWER are therefore unavailable.
 Paced runs supply chunks according to their audio availability, including lookahead.
 First-text time includes initial silence and buffering; it is not a speech-onset latency.
 Chunk emission delay is measured against each chunk's audio end, not individual word ends.

@@ -53,7 +53,7 @@ and full-pass attempt, including the failed Chirp retry.
 - AssemblyAI's Sync route documents word timestamps. Its asynchronous API's speaker option
   must not be assumed to work on the Sync route.
 - Whisper, Parakeet, Nemotron, AssemblyAI Sync, and Fish standard returned timing without
-  speaker labels. Those responses support WER and coverage, but not speaker error metrics.
+  speaker labels. Those responses support WER, but not speaker error metrics.
 - Hosted Qwen Flash rejected verbose output and passed in JSON mode. Qwen's local aligner
   is a separate component, not a feature added to this hosted route.
 - MAI 1.5 and GPT-4o transcription routes are classified as text-only for this validation.
@@ -70,8 +70,8 @@ Sources: [OpenRouter request and forwarding rules](https://openrouter.ai/docs/gu
 [AssemblyAI Sync timestamps](https://www.assemblyai.com/docs/sync-stt/getting-started/transcribe-a-short-audio-file).
 
 Fish's timed segments may cross speaker turns and omit labels. The parser therefore does
-not invent speaker timestamps from word order. Timed speech can support coverage while
-cpWER uses inline speaker text; tcpWER and DER remain unavailable without aligned speakers.
+not invent speaker timestamps from word order. cpWER uses inline speaker text;
+tcpWER and DER remain unavailable without aligned speakers.
 
 ## Validation before the corrected full pass
 

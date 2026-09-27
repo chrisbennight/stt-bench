@@ -85,7 +85,7 @@ alarms, and speaker confusion. It uses **zero collar and includes overlap** here
 different objectives, so their rankings need not agree.
 
 The [single results table](results/openrouter-validated-2026-09-27/README.md) contains all 36 systems,
-sorted by WER. WER and coverage use 94 clips. Speaker metrics use one shared set of clips
+sorted by WER. WER uses 94 clips. Speaker metrics use one shared set of clips
 where all four speaker-labelled hosted routes supplied usable labels, including for
 the local systems; the count is in the column headings.
 The [full JSON](results/openrouter-validated-2026-09-27/consolidated.json) also retains each system's
@@ -110,7 +110,7 @@ remain unavailable. The historical 25-window local run is retained in
   reflect the same component. Their cpWER and tcpWER also measure transcription and
   alignment errors. These are not native diarization scores for the ASR weights.
 - MAI 2, Deepgram, and Grok returned timed speaker labels. Fish Pro returned inline
-  speaker-labelled text and separate speech timing, supporting cpWER and coverage
+  speaker-labelled text and separate speech timing, supporting cpWER
   without enough information for tcpWER or DER.
 - Gemini and Voxtral returned timestamps but no speaker fields with the tested
   diarization options. Their upstream capabilities are not disproved by this result.

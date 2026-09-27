@@ -81,7 +81,7 @@ def run(config, manifest, baseline_manifest, output):
             )
             valid = bool(prediction.segments) and any(
                 s.speaker != "unassigned" for s in prediction.segments
-            ) and all(scores[k] is not None for k in ("wer", "cpwer", "tcpwer", "der", "coverage"))
+            ) and all(scores[k] is not None for k in ("wer", "cpwer", "tcpwer", "der"))
         write_json(directory / "preflight.json", {"passed": valid})
         if valid and len(records) > 1:
             write_json(directory / "preflight-environment.json", read_json(
