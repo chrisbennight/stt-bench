@@ -29,7 +29,8 @@ no repeated sampling. Four minutes is a screening test, not a reliable accuracy 
 A planning allowance of **$1 for screening** or **$10 for the full pass** provides some
 headroom; neither is an API-enforced spending guarantee.
 
-These estimates use current base prices and exclude tax, credit-purchase fees, rounding,
+These historical estimates use base prices recorded on 27 September 2026 and exclude tax,
+credit-purchase fees, rounding,
 provider minimum charges, optional feature surcharges, and failed requests that are billed.
 The current local comparison uses the exact 94 clips, audio hashes, and references from
 this API benchmark. The historical 240-second local results are excluded from consolidation.
@@ -114,7 +115,7 @@ uv run python scripts/estimate_openrouter.py \
   --output runs/openrouter-full-estimate
 ```
 
-## Prepare the screening manifest
+## Prepare the shared and screening manifests
 
 Use the existing downloaded AMI source, or fetch it using [Running](RUNNING.md). Prepare
 60-second windows in a new directory:

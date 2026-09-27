@@ -1,48 +1,56 @@
-# Speech transcription benchmark: local models and OpenRouter
+# Speech transcription benchmark: OpenRouter and local RTX 4090
 
-**One consolidated comparison using the same 94 audio clips and references.** The
-[results table](results/openrouter-validated-2026-09-27/README.md) compares transcription accuracy,
-speaker attribution, diarization, speed, cost, and GPU memory, with per-metric medals.
-**MAI Transcribe 2 leads WER at 26.10%; MOSS leads the local models at 30.92% WER
-and leads all three speaker error metrics on the shared 77-clip subset.**
+**32 systems, the same 94 audio clips, one [results table](results/openrouter-validated-2026-09-27/README.md).**
+We compare **20 OpenRouter speech-to-text routes** and **12 local model pipelines** on
+92.28 minutes of English meeting audio, measuring transcription accuracy, who said what,
+processing speed, API cost, and GPU memory.
 
-This repository compares 12 local speech systems and 20 OpenRouter routes on
-**92.28 minutes of English meeting audio**. Local models use one **RTX 4090**. It includes
-the small Python harness,
-model adapters, recorded package versions, pinned model revisions, predictions, references,
-and independently verified scores. Four additional DeepInfra routes are excluded
-after earlier failures. The measurements are from **27 September 2026**.
+- **Best transcription in this sample:** MAI Transcribe 2, **26.10% WER**.
+- **Best local transcription and speaker metrics:** MOSS, **30.92% WER**, with the
+  lowest cpWER, tcpWER, and DER on the shared 77-clip speaker subset.
+- **Fastest measured local pipeline:** Parakeet + pyannote, **0.011 RTF** and **33.33% WER**.
 
-The question is practical: **which system gets the words and speakers right, how fast does
-it run, and how much GPU memory does it use?** This small meeting-audio evaluation is
-not an OpenASR leaderboard reproduction or a universal model ranking.
+The [results page](results/openrouter-validated-2026-09-27/README.md) explains each metric
+before the table, identifies **OpenRouter** or **Local 4090** for every row, and links each
+model to its OpenRouter page or Hugging Face model card. It is sorted by WER, with medals
+for the three lowest measured values in each metric column.
 
-The first hosted pass did not validate each route's speaker and timestamp options.
-The corrected pass follows **42 bounded capability probes**, with tested request options,
-actual response fields, and limitations documented in the
-[capability audit](docs/OPENROUTER_CAPABILITY_AUDIT.md). The
-[cost ledger](results/openrouter-validated-2026-09-27/costs.json) includes those probes,
-the corrected pass, and failed attempts. The original five local systems were each run once on
-the exact same manifest and their valid results are reused. Seven additional
-[local OpenRouter counterparts](results/local-openweights-2026-09-27/README.md) use
-pyannote Community-1 as their default diarizer. No external diarizer or
-invented timestamps are added to hosted outputs.
+- **Benchmark data — AMI Meeting Corpus:** [Paper](https://doi.org/10.1007/11677482_3) ·
+  [Dataset](https://groups.inf.ed.ac.uk/ami/corpus/) ·
+  [Diarization references](https://github.com/pyannote/AMI-diarization-setup).
+- **Transcription scoring — MeetEval:** [Paper](https://arxiv.org/abs/2307.11394) ·
+  [GitHub](https://github.com/fgnt/meeteval). DER uses
+  [pyannote.metrics](https://github.com/pyannote/pyannote-metrics).
+
+This repository includes the Python harness, adapters, pinned model revisions, runtime
+versions, saved predictions, references, scores, and verification tools. Measurements are
+from **27 September 2026**. This is a small controlled meeting-audio comparison, not an
+OpenASR leaderboard reproduction or a universal model ranking.
 
 ## What is being compared?
 
-There are three approaches here: joint models that generate words and speaker labels together;
-pipelines that combine speech recognition, forced alignment, and a separate diarizer; and
-a streaming joint model that emits text as audio arrives. Speaker labels are anonymous IDs
-within a clip. They do not identify a person by name.
+The comparison includes hosted transcription services, joint models that return words and
+speaker labels, and local pipelines that add alignment and diarization to an ASR model.
+Speaker labels are anonymous IDs within each clip; they do not identify a person by name.
 
-| System | Components and output |
-| --- | --- |
-| **MOSS 0.9B** | [MOSS-Transcribe-Diarize](https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize): joint transcription, speaker labels, and segment timestamps. |
-| **VibeVoice offline** | [VibeVoice-ASR](https://huggingface.co/microsoft/VibeVoice-ASR): joint structured transcripts with speakers and timestamps. |
-| **Qwen3 + pyannote** | [Qwen3-ASR-1.7B](https://huggingface.co/Qwen/Qwen3-ASR-1.7B), [ForcedAligner-0.6B](https://huggingface.co/Qwen/Qwen3-ForcedAligner-0.6B), and [pyannote Community-1](https://huggingface.co/pyannote/speaker-diarization-community-1). Words are assigned to speakers by temporal overlap. |
-| **Qwen3 + Nemotron** | The same Qwen recognition/alignment stages, with [NVIDIA Nemotron 3 Diarization](https://huggingface.co/nvidia/Nemotron-3-Diarization) supplying speaker activity. |
-| **VibeVoice Streaming** | [VibeVoice-ASR-Streaming-7B](https://huggingface.co/microsoft/VibeVoice-ASR-Streaming-7B): incremental speaker-labelled text. This adapter receives no native speech timestamps. |
-| **Local OpenRouter counterparts + pyannote** | Parakeet, Nemotron ASR, Whisper large-v3 and Turbo, Qwen 0.6B, and Voxtral Mini/Small, with Qwen forced alignment and pyannote Community-1. Voxtral Small uses NF4 quantization. [Weights, configuration, and protocol](docs/LOCAL_OPENWEIGHTS.md). |
+- **OpenRouter — 20 routes:** MAI, GPT Transcribe, GPT-4o, Whisper, Gemini, Chirp,
+  Deepgram, AssemblyAI, Fish, Muse Voice, Voxtral, Qwen Flash, Parakeet, Nemotron, and Grok.
+  We score the output actually returned by the hosted endpoint. No external diarizer or
+  forced aligner is added to hosted responses.
+- **Joint local models — 3 systems:** [MOSS](https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize),
+  [VibeVoice offline](https://huggingface.co/microsoft/VibeVoice-ASR), and
+  [VibeVoice Streaming](https://huggingface.co/microsoft/VibeVoice-ASR-Streaming-7B).
+  Streaming returns speaker-labelled text without native speech timestamps.
+- **Local ASR pipelines — 9 systems:** Qwen3-ASR 1.7B with either pyannote or Nemotron
+  diarization; Qwen3-ASR 0.6B, Parakeet, Nemotron ASR, Whisper large-v3 and Turbo, and
+  Voxtral Mini and Small with pyannote. They use Qwen forced alignment. Voxtral Small
+  runs with NF4 quantization to fit the 4090. See the
+  [pipeline components and model cards](docs/LOCAL_OPENWEIGHTS.md).
+
+Local ASR counterparts let us compare downloadable weights with hosted routes, but serving
+settings and releases can differ. Adding pyannote measures a complete local pipeline, not
+native diarization in the ASR weights. Hosted Voxtral Mini Transcribe and Qwen Flash are
+not the same releases as the downloadable Voxtral and Qwen models tested here.
 
 Some models can also describe sound events. **Annotation/event accuracy is not evaluated**
 here; bracketed VibeVoice sound annotations are retained in raw output but excluded from
@@ -52,7 +60,7 @@ separately.
 
 The scoring libraries are [MeetEval](https://github.com/fgnt/meeteval) and
 [pyannote.metrics](https://pyannote.github.io/pyannote-metrics/). Model cards describe upstream
-capabilities; the tables below are this repository's own measurements. More authoritative
+capabilities; the results table contains this repository's own measurements. More authoritative
 sources and related evaluations are collected in [References](docs/REFERENCES.md).
 
 ## The test
@@ -99,14 +107,11 @@ remain unavailable. The historical 25-window local run is retained in
   the lowest WER. On the shared 77 labelled clips, MOSS has 26.29% cpWER,
   27.10% tcpWER, and 23.57% DER. This speaker subset is conditional on the hosted
   systems returning labels; it is not an estimate for all 94 clips.
-- The original five local systems and five additional pipelines returned valid output
-  on all 94 clips. Voxtral Mini returned 92/94; Voxtral Small NF4 returned 93/94.
+- Ten local systems returned valid output on all 94 clips. Voxtral Mini returned 92/94;
+  Voxtral Small NF4 returned 93/94.
   Their three repeating, token-limited generations are retained as failures and
   count in dataset error rates.
-- Among the seven added local pipelines, **Parakeet + pyannote** has the lowest WER
-  (**33.33%**) and fastest measured processing (**0.011 RTF**). MOSS remains the best
-  local system by WER and the shared speaker-error metrics.
-- The added ASR pipelines share pyannote diarization, so equal DER values largely
+- Eight local ASR pipelines share pyannote diarization, so equal DER values largely
   reflect the same component. Their cpWER and tcpWER also measure transcription and
   alignment errors. These are not native diarization scores for the ASR weights.
 - MAI 2, Deepgram, and Grok returned timed speaker labels. Fish Pro returned inline
@@ -120,8 +125,8 @@ remain unavailable. The historical 25-window local run is retained in
 - Transcription accuracy, speaker attribution, and diarization timing are distinct measures;
   their winners need not agree. Missing metric cells mean the tested output could not support
   that score, rather than proving that every upstream route lacks the capability.
-- Four DeepInfra routes remain excluded and receive no scores or medals. The earlier
-  incomplete attempts remain in the archive.
+- Four failed DeepInfra routes are omitted from the results table. All four have local
+  counterparts in the comparison; the earlier hosted attempts remain in the archive.
 - Chirp returned 93/94 clips. One 60-second clip timed out, then returned HTTP 504
   with a longer timeout and lossless WAV transport. It counts as an empty transcript
   in the 94-clip WER; the benchmark does not shorten that window. Failed attempts and
@@ -147,13 +152,18 @@ uv run pytest -q
 uv run python scripts/consolidate_results.py --verify
 ```
 
-The verifier recomputes all 2,350 scores from saved predictions and references and checks
-that the local and API clip hashes and references match. [Running the models](docs/RUNNING.md)
-covers environments, access
-terms, downloads, the exact four-meeting recipe, and the simple adapter interface.
+The verifier recomputes all **3,008 clip scores** (1,880 hosted and 1,128 local) from saved
+predictions and references, and checks that local and API clip hashes and references match. [Running the models](docs/RUNNING.md)
+covers environments, access terms, downloads, the shared four-meeting recipe, and the
+adapter interface. Verification makes no inference calls; new hosted runs require a cost
+estimate and explicit paid-request opt-in.
 
 - [CSV summary](results/openrouter-validated-2026-09-27/consolidated.csv) and
   [complete JSON comparison](results/openrouter-validated-2026-09-27/consolidated.json)
+- [Run local models](docs/RUNNING.md) and [additional local pipelines](docs/LOCAL_OPENWEIGHTS.md)
+- [Run OpenRouter models and estimate costs](docs/OPENROUTER.md)
+- [Evaluation protocol](docs/PROTOCOL.md) and [hosted capability audit](docs/OPENROUTER_CAPABILITY_AUDIT.md)
+- [Request cost ledger](results/openrouter-validated-2026-09-27/costs.json)
 - [Original 25-window archive](results/ami-4090-2026-09-27/README.md)
 - [Pinned model revisions](model-revisions.json) and [upstream source revisions](upstream-revisions.json)
 - [Security and publication scope](SECURITY.md)

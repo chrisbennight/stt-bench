@@ -5,9 +5,16 @@ same 94 AMI clips, with pyannote Community-1 providing speaker diarization.
 It adds seven pipelines. The completed Qwen3-ASR-1.7B + pyannote result already uses
 these clips and is reused rather than run a second time.
 
-The seven additional pipelines have passed their GPU preflight on the RTX 4090.
-Results belong in the [single consolidated table](../results/openrouter-validated-2026-09-27/README.md);
+All seven additional pipelines completed the 94-clip pass on the RTX 4090. Five returned
+94 valid outputs; Voxtral Mini returned 92 and Voxtral Small NF4 returned 93. Results are in the
+[single consolidated table](../results/openrouter-validated-2026-09-27/README.md);
 the original Qwen 1.7B + pyannote row remains the comparison for that model.
+
+The two existing Qwen pipelines use [Qwen3-ASR-1.7B](https://huggingface.co/Qwen/Qwen3-ASR-1.7B)
+and [Qwen forced alignment](https://huggingface.co/Qwen/Qwen3-ForcedAligner-0.6B), with either
+[pyannote Community-1](https://huggingface.co/pyannote/speaker-diarization-community-1) or
+[Nemotron 3 Diarization](https://huggingface.co/nvidia/Nemotron-3-Diarization). Together with
+the seven pipelines below, these make up the nine local ASR-plus-diarizer systems.
 
 | Pipeline | Transcription weights | Precision |
 |---|---|---|
@@ -72,7 +79,7 @@ references against the baseline before starting and refuses to overwrite a run:
 uv run python scripts/run_local_preflight.py \
   --config configs/local-openweights.json \
   --manifest data/ami-openrouter/manifest.jsonl \
-  --baseline-manifest runs/baseline/manifest.jsonl \
+  --baseline-manifest runs/local94/manifest.jsonl \
   --output runs/local-openweights
 ```
 

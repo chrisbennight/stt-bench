@@ -1,31 +1,36 @@
-# Speaker benchmark
+# Running the local and hosted speech benchmark
 
-A local Python harness for comparing:
+The current comparison contains **12 local pipelines and 20 OpenRouter routes** on the
+same **94 AMI clips of at most 60 seconds**. The controller uses MeetEval for transcription
+metrics and pyannote.metrics for DER. Each model runs in its own process and can use a
+separate Python environment.
 
-1. MOSS-Transcribe-Diarize 0.9B
-2. VibeVoice-ASR offline
-3. Qwen3-ASR-1.7B + Qwen forced alignment + pyannote Community-1
-4. Qwen3-ASR-1.7B + Qwen forced alignment + Nemotron 3 Diarization
-5. VibeVoice-ASR-Streaming-7B
+## Reproduce the current comparison
 
-The controller uses **MeetEval** for transcription metrics and **pyannote.metrics** for DER.
-Each system runs in its own process and can use a different Python environment. The two
-VibeVoice adapters share an environment but load different checkpoints in separate processes.
-The adapters use a small common prediction format and existing scoring libraries.
+1. Prepare the shared four-meeting, 60-second-window manifest using the recipe below.
+2. Set up the original five local systems using the inference instructions in this guide.
+3. Set up the seven additional ASR pipelines using [Local open weights](LOCAL_OPENWEIGHTS.md).
+4. For hosted runs, follow [OpenRouter](OPENROUTER.md) for capability checks, cost estimates,
+   credentials, and the validated 20-route configuration.
 
-## Status
-
-The current consolidated evaluation uses **94 windows of at most 60 seconds**, identical
-to OpenRouter, with one pass per local model. Reproduce it with existing environments:
+With the original five local environments ready, run:
 
 ```bash
 uv run speaker-bench run --config configs/five-systems-openrouter.json \
   --manifest data/ami-openrouter/manifest.jsonl --output runs/local94 --parallel-models 1
 ```
 
-Use the [OpenRouter dataset recipe](OPENROUTER.md) to prepare the shared manifest.
-Streaming processes the supplied audio without real-time waits. The following description
-and 240-second recipe document the historical local-only evaluation.
+The configuration filename identifies the five-system subset matched to the hosted audio;
+these are local inference workers, not API calls. Run the additional seven pipelines with
+`configs/local-openweights.json` and the retained-preflight controller documented in
+[Local open weights](LOCAL_OPENWEIGHTS.md), using `runs/local94/manifest.jsonl` as the baseline.
+Together these cover all 12 local systems without repeating Qwen 1.7B + pyannote.
+
+Local models run sequentially on the 4090. The hosted configuration permits 20 concurrent
+model workers, each processing one clip at a time. Streaming processes the supplied audio
+without real-time waits in this comparison; these measurements describe batch throughput.
+
+## Historical local evaluation
 
 All five systems completed the 25-window comparison on the RTX 4090. There were
 124 valid outputs and one invalid offline VibeVoice generation. All 125 final score records
@@ -45,8 +50,9 @@ not implement the rotary attention configuration in these weights.
 ## Quick CPU verification
 
 ```bash
-uv sync --locked
+uv sync --locked --python 3.12
 uv run pytest -q
+uv run python scripts/consolidate_results.py --verify
 uv run speaker-bench smoke --output /tmp/speaker-smoke.json
 ```
 
@@ -58,7 +64,8 @@ scorer checks, not model benchmark results.
 | Track | Data | Purpose |
 |---|---|---|
 | Initial check | AMI ES2004a, Array1-01 microphone | One meeting, five windows, approximately 17.5 minutes total |
-| Measured comparison | AMI ES2004a, IS1009a, TS3003a, EN2002a; 25 non-overlapping 240-second windows | Four meeting groups, 92.28 minutes, identical input clips for all five systems |
+| Current comparison | Four AMI meetings; 94 windows of at most 60 seconds | Same audio and references for all 32 scored systems |
+| Historical local comparison | Same four meetings; 25 windows of at most 240 seconds | Original five systems; archived separately |
 | Common comparison | All 16 meetings in the pinned AMI test list, non-overlapping 240-second windows | Identical input clips for all five systems; includes overlap and distant microphones |
 | Long recordings | Complete AMI test meetings, offline systems only | Speaker consistency across long gaps, missing endings, and resource growth |
 | Additional domain | NOTSOFAR-1 held-out single-channel meeting recordings | Different rooms and 4–8 participants; use the SegLST importer |
@@ -74,6 +81,18 @@ configuration without streaming for long recordings, and inspect any other durat
 
 ### AMI preparation
 
+For the current local and hosted comparison, prepare the four meetings once:
+
+```bash
+uv run speaker-bench fetch-ami --destination data/ami-source \
+  --meetings ES2004a IS1009a TS3003a EN2002a
+uv run speaker-bench prepare-ami --source data/ami-source --destination data/ami-openrouter \
+  --meetings ES2004a IS1009a TS3003a EN2002a --window-seconds 60
+```
+
+The following 240-second recipes reproduce historical or exploratory tracks, not the
+current consolidated table.
+
 ```bash
 uv run speaker-bench fetch-ami --destination data/ami-source --meetings ES2004a
 uv run speaker-bench prepare-ami --source data/ami-source \
@@ -84,7 +103,7 @@ Preparation refuses to overwrite a destination. For the full test set, provide e
 `speaker_benchmark.datasets.AMI_TEST` to both commands. For full recordings, use a new destination
 and `--window-seconds 0`. These are local benchmark protocols, not an official leaderboard submission.
 
-The measured four-meeting comparison uses:
+The historical 25-window comparison uses:
 
 ```bash
 uv run speaker-bench fetch-ami --destination data/ami-source \
@@ -164,10 +183,10 @@ audit of these new model repositories. Review that code before running on a host
 ## Run and inspect
 
 ```bash
-uv run speaker-bench plan --config configs/five-systems.json \
-  --manifest data/ami-common/manifest.jsonl
-uv run speaker-bench run --config configs/five-systems.json \
-  --manifest data/ami-common/manifest.jsonl --output runs/ami-first
+uv run speaker-bench plan --config configs/five-systems-openrouter.json \
+  --manifest data/ami-openrouter/manifest.jsonl
+uv run speaker-bench run --config configs/five-systems-openrouter.json \
+  --manifest data/ami-openrouter/manifest.jsonl --output runs/ami-first
 ```
 
 Start with a manifest containing one short recording on the GPU host. Inspect its actual
@@ -198,7 +217,7 @@ raw text and generation-limit metadata. Handle output directories as transcript 
 To verify a finished result bundle without the audio files or GPU models:
 
 ```bash
-uv run python scripts/verify_scores.py runs/ami-four-seeded --output score-verification.json
+uv run python scripts/verify_scores.py runs/ami-first --output score-verification.json
 ```
 
 This checks every model/recording, verifies that scored outputs match saved predictions,
@@ -206,9 +225,10 @@ and recomputes the scores from the saved references. It rejects unattempted reco
 
 ## Metrics and interpretation
 
-- **WER:** chronological, speaker-agnostic word errors. Secondary for overlap, where there is
-  no uniquely correct interleaving of speakers' words.
-- **cpWER:** MeetEval speaker-permutation-invariant transcription errors; primary accuracy measure.
+- **WER:** chronological, speaker-agnostic word errors; the current table sorts by WER.
+  Overlapping speech has no uniquely correct word interleaving, which limits interpretation.
+- **cpWER:** transcription and speaker-attribution errors with anonymous speaker labels
+  matched for the best assignment; available only when output includes speaker labels.
 - **tcpWER:** MeetEval timing-constrained errors, default 5-second collar. Segment-level
   timestamps use MeetEval's documented pseudo-word timing, not invented exact word boundaries.
 - **DER:** pyannote.metrics, zero forgiveness collar by default, overlapping speech included,
@@ -238,8 +258,8 @@ recording percentages. The reporting code does not silently omit failed files.
 
 Implement `load()` and `transcribe(audio_path, duration, language) -> Prediction`, with an
 optional `max_duration` in seconds. Only audio metadata crosses the worker boundary; reference
-transcripts, speaker counts, and speaker names are never passed to the adapter. Worker isolation
-prevents accidental API leakage, but is not a filesystem security sandbox for untrusted plugins.
+transcripts, speaker counts, and speaker names are never passed to the adapter. The worker interface
+keeps references out of adapter inputs, but is not a filesystem security sandbox for untrusted plugins.
 
 Register an installed package entry point:
 

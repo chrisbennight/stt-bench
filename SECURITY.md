@@ -7,10 +7,17 @@ Archived machine paths use `${BENCHMARK_ROOT}` and `${MODEL_CACHE}`; manifest au
 Publication changed filesystem metadata, not predicted text or measured numbers. See the
 [export record](results/ami-4090-2026-09-27/publication.json).
 
-Preparation downloads public evaluation data and pinned model snapshots. Inference runs
-locally in separate Python environments. The built-in adapters do not use paid transcription
-APIs. Workers set Hugging Face and Transformers offline mode and disable pyannote metrics
-telemetry. These settings are not an operating-system network sandbox.
+Preparation downloads public evaluation data and pinned model snapshots. Local adapters run
+in separate Python environments. Workers set Hugging Face and Transformers offline mode
+and disable pyannote metrics telemetry; these settings are not an operating-system network sandbox.
+
+The OpenRouter adapter sends audio to a paid external transcription service. It requires
+`OPENROUTER_API_KEY` through the runtime environment and `OPENROUTER_ALLOW_PAID_REQUESTS=1`.
+Configuration limits requests and audio duration, not dollars; the provider-enforced credit
+limit is the spending boundary. The controller validates the manifest before requests, and
+workers do not receive reference transcripts or speaker identities. See
+[hosted execution and costs](docs/OPENROUTER.md). Verifying published scores requires no
+credentials and makes no inference requests.
 
 Generated text is parsed as JSON or a defined text format, not evaluated as Python or shell
 code. Subprocesses use argument arrays. Recording IDs are validated before use in output

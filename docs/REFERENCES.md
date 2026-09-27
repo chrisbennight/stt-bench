@@ -14,7 +14,7 @@ research packages. Reusing their scorers avoids inventing approximate speaker ma
 [SURE](https://arxiv.org/html/2605.30899) is a broader speech-understanding framework with
 scenario suites and joint-versus-pipeline comparisons. Its paper links an anonymized evaluation
 repository and itself uses MeetEval for speaker-attributed transcription. A small adapter layer
-over MeetEval is a more direct fit for this five-system comparison; this is not a claim that
+over MeetEval is a more direct fit for this comparison of local and hosted systems; this is not a claim that
 SURE cannot support it.
 
 ## Dataset sources
@@ -25,7 +25,8 @@ SURE cannot support it.
   A Pre-announcement*. Data distributed under CC BY 4.0.
 - [pyannote AMI setup](https://github.com/pyannote/AMI-diarization-setup): test recording list
   and `only_words` speaker-activity references, pinned to a Git revision. This harness's
-  240-second window recipe is a custom comparison protocol, not a reproduction of every AMI paper.
+  current 60-second window recipe is a custom comparison protocol, not a reproduction of every
+  AMI paper. The earlier 240-second local recipe is archived separately.
 - [NOTSOFAR dataset](https://huggingface.co/datasets/microsoft/NOTSOFAR) and
   [official challenge implementation](https://github.com/microsoft/NOTSOFAR1-Challenge):
   useful additional far-field meetings with speaker-attributed timing references. Select
@@ -37,6 +38,10 @@ AMI is common in model training/evaluation histories. Add NOTSOFAR and personall
 held-out recordings before drawing broad conclusions about real-world accuracy.
 
 ## Adapter sources
+
+- [OpenRouter transcription API](https://openrouter.ai/docs/guides/overview/multimodal/stt)
+  and [tested hosted capabilities](OPENROUTER_CAPABILITY_AUDIT.md)
+- [Local ASR model cards, precision, and pipeline components](LOCAL_OPENWEIGHTS.md)
 
 - [MOSS inference helper](https://github.com/OpenMOSS/MOSS-Transcribe-Diarize/blob/main/moss_transcribe_diarize/inference_utils.py)
 - [VibeVoice offline example](https://github.com/microsoft/VibeVoice/blob/main/demo/vibevoice_asr_inference_from_file.py)
@@ -59,6 +64,6 @@ latency measurements.
 - [TranscrIA field evaluation](https://github.com/Martossien/transcria/blob/main/docs/STT_BENCHMARK_REAL_MEETINGS.md):
   includes Qwen and joint models but lacks cpWER and mixes explicitly different serving paths.
 
-No published controlled result for all five requested systems under one protocol was located.
-This harness is intended to produce that comparison locally, rather than combine incomparable
-numbers from those papers into a synthetic leaderboard.
+These papers provide context, not scores for the consolidated table. This repository measures
+local pipelines and hosted routes on the same clips and references; it does not combine
+numbers from different papers into a synthetic leaderboard.
