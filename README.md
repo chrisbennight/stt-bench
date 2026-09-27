@@ -10,7 +10,7 @@ This repository compares 12 local speech systems and 20 OpenRouter routes on
 **92.28 minutes of English meeting audio**. Local models use one **RTX 4090**. It includes
 the small Python harness,
 model adapters, recorded package versions, pinned model revisions, predictions, references,
-and independently verified scores. Four additional DeepInfra routes are listed as excluded
+and independently verified scores. Four additional DeepInfra routes are excluded
 after earlier failures. The measurements are from **27 September 2026**.
 
 The question is practical: **which system gets the words and speakers right, how fast does
@@ -84,7 +84,7 @@ allowing anonymous labels to be renamed. DER measures who spoke when: missed spe
 alarms, and speaker confusion. It uses **zero collar and includes overlap** here. These are
 different objectives, so their rankings need not agree.
 
-The [single results table](results/openrouter-validated-2026-09-27/README.md) contains all 36 systems,
+The [single results table](results/openrouter-validated-2026-09-27/README.md) contains all 32 scored systems,
 sorted by WER. WER uses 94 clips. Speaker metrics use one shared set of clips
 where all four speaker-labelled hosted routes supplied usable labels, including for
 the local systems; the count is in the column headings.

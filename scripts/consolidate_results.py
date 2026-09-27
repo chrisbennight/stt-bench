@@ -23,7 +23,6 @@ INTRO = """# Consolidated benchmark results
 - **Sort order:** WER, lowest first, following the general transcription ranking used by Open ASR.
 - **Medals:** 🥇🥈🥉 mark the three lowest measured values per column.
 - **Missing results:** cells identify missing labels or timing in the tested output.
-  Four excluded DeepInfra routes receive no scores or medals.
 
 """
 METRICS = """**What the metrics mean**
@@ -215,9 +214,6 @@ def build(verify=False):
     for source in sources["models"]:
         model = source["model"]
         if source.get("excluded"):
-            rows.append({"model": model, "track": "api", "eligible": False, "excluded": True,
-                         "completed": 0, "recordings": len(records), "invalid_output": 0,
-                         **{k: None for k in ("wer", "cpwer", "tcpwer", "der", "rtf")}})
             continue
         scores = read_json(BUNDLE / "scores" / f"{model}.json")
         if len(scores) != len(records) or {r["id"] for r in scores} != set(record_map):
@@ -294,17 +290,18 @@ def build(verify=False):
         rows.append(summary)
         groups[model] = scores
     _, speaker_scores = shared_speaker_scores(groups, common)
-    expected = {s["model"] for s in sources["models"]} | {
+    expected = {s["model"] for s in sources["models"] if not s.get("excluded")} | {
         s["model"] for _, s in local_sources
     }
     if len(rows) != len(expected) or {r["model"] for r in rows} != expected:
-        raise ValueError("Consolidation must include every declared source exactly once")
+        raise ValueError("Consolidation must include every non-excluded source exactly once")
     for row in rows:
         row["full_dataset_metrics"] = {k: row[k] for k in ("wer", "cpwer", "tcpwer", "der")}
         if row["model"] in speaker_scores:
             row.update(speaker_scores[row["model"]], speaker_metric_clips=len(common))
     for row in rows:
         row["label"] = LABELS[row["model"]]
+        row["run_on"] = {"api": "OpenRouter", "local": "Local 4090"}[row["track"]]
         memory = row.get("max_cuda_allocated_bytes")
         row["vram_gib"] = memory / 2**30 if memory is not None else None
     rows.sort(key=lambda r: r["wer"] if r["wer"] is not None else float("inf"))
@@ -318,10 +315,10 @@ def build(verify=False):
         ("rtf", "RTF ↓", ".3f"),
         ("api_reported_cost_usd", "API $ ↓", ".4f"), ("vram_gib", "VRAM GiB ↓", ".2f"),
     ]
-    lines = ["| Model | " + " | ".join(c[1] for c in columns) + " | Clips |",
-             "|---|" + "---:|" * (len(columns) + 1)]
+    lines = ["| Model | Run on | " + " | ".join(c[1] for c in columns) + " | Clips |",
+             "|---|---|" + "---:|" * (len(columns) + 1)]
     for row in rows:
-        cells = [row["label"]]
+        cells = [row["label"], row["run_on"]]
         for key, _, fmt in columns:
             value = row.get(key)
             values = [r[key] for r in rows if r["eligible"] and r.get(key) is not None]
@@ -335,7 +332,7 @@ def build(verify=False):
             status += f"; {row['invalid_output']} invalid"
         cells.append(status)
         lines.append("| " + " | ".join(cells) + " |")
-    fields = ["model", "label", "track", "eligible"] + [c[0] for c in columns] + [
+    fields = ["model", "label", "run_on", "track", "eligible"] + [c[0] for c in columns] + [
         "completed", "recordings", "speaker_metric_clips",
     ]
     with (BUNDLE / "consolidated.csv").open("w") as stream:

@@ -33,6 +33,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "MAI Transcribe 2",
+      "run_on": "OpenRouter",
       "vram_gib": null
     },
     {
@@ -67,6 +68,7 @@
         "der": null
       },
       "label": "MAI Transcribe 1.5",
+      "run_on": "OpenRouter",
       "vram_gib": null
     },
     {
@@ -100,6 +102,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "MOSS 0.9B",
+      "run_on": "Local 4090",
       "vram_gib": 1.924868106842041
     },
     {
@@ -135,6 +138,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "Fish Transcribe 1 Pro",
+      "run_on": "OpenRouter",
       "vram_gib": null
     },
     {
@@ -169,6 +173,7 @@
         "der": null
       },
       "label": "NVIDIA Parakeet TDT v3",
+      "run_on": "OpenRouter",
       "vram_gib": null
     },
     {
@@ -202,6 +207,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "Parakeet TDT v3 + pyannote",
+      "run_on": "Local 4090",
       "vram_gib": 5.7166218757629395
     },
     {
@@ -236,6 +242,7 @@
         "der": null
       },
       "label": "Qwen3 ASR Flash",
+      "run_on": "OpenRouter",
       "vram_gib": null
     },
     {
@@ -270,6 +277,7 @@
         "der": null
       },
       "label": "Gemini 3.5 Transcribe",
+      "run_on": "OpenRouter",
       "vram_gib": null
     },
     {
@@ -303,6 +311,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "Qwen3 + pyannote",
+      "run_on": "Local 4090",
       "vram_gib": 7.108996391296387
     },
     {
@@ -336,6 +345,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "Qwen3 + Nemotron",
+      "run_on": "Local 4090",
       "vram_gib": 6.125998020172119
     },
     {
@@ -369,6 +379,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "VibeVoice offline",
+      "run_on": "Local 4090",
       "vram_gib": 17.086552619934082
     },
     {
@@ -403,6 +414,7 @@
         "der": null
       },
       "label": "Meta Muse Voice 1.0",
+      "run_on": "OpenRouter",
       "vram_gib": null
     },
     {
@@ -436,6 +448,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "Voxtral Mini 3B + pyannote",
+      "run_on": "Local 4090",
       "vram_gib": 12.020939826965332
     },
     {
@@ -470,6 +483,7 @@
         "der": null
       },
       "label": "Voxtral Mini Transcribe",
+      "run_on": "OpenRouter",
       "vram_gib": null
     },
     {
@@ -503,6 +517,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "Voxtral Small 24B NF4 + pyannote",
+      "run_on": "Local 4090",
       "vram_gib": 16.835097312927246
     },
     {
@@ -536,6 +551,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "Qwen3 ASR 0.6B + pyannote",
+      "run_on": "Local 4090",
       "vram_gib": 4.769448280334473
     },
     {
@@ -570,6 +586,7 @@
         "der": null
       },
       "label": "OpenAI GPT Transcribe",
+      "run_on": "OpenRouter",
       "vram_gib": null
     },
     {
@@ -604,6 +621,7 @@
         "der": null
       },
       "label": "Whisper 1",
+      "run_on": "OpenRouter",
       "vram_gib": null
     },
     {
@@ -637,6 +655,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "Whisper Large v3 + pyannote",
+      "run_on": "Local 4090",
       "vram_gib": 6.18352746963501
     },
     {
@@ -671,6 +690,7 @@
         "der": null
       },
       "label": "GPT-4o Mini Transcribe",
+      "run_on": "OpenRouter",
       "vram_gib": null
     },
     {
@@ -705,6 +725,7 @@
         "der": null
       },
       "label": "Google Chirp 3",
+      "run_on": "OpenRouter",
       "vram_gib": null
     },
     {
@@ -739,6 +760,7 @@
         "der": null
       },
       "label": "Fish Transcribe 1",
+      "run_on": "OpenRouter",
       "vram_gib": null
     },
     {
@@ -774,6 +796,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "Deepgram Nova 3",
+      "run_on": "OpenRouter",
       "vram_gib": null
     },
     {
@@ -808,6 +831,7 @@
         "der": null
       },
       "label": "AssemblyAI Universal 3.5 Pro",
+      "run_on": "OpenRouter",
       "vram_gib": null
     },
     {
@@ -841,6 +865,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "VibeVoice Streaming",
+      "run_on": "Local 4090",
       "vram_gib": 16.358858108520508
     },
     {
@@ -874,6 +899,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "Nemotron 3.5 ASR + pyannote",
+      "run_on": "Local 4090",
       "vram_gib": 5.758417129516602
     },
     {
@@ -908,6 +934,7 @@
         "der": null
       },
       "label": "NVIDIA Nemotron 3.5 ASR 0.6B",
+      "run_on": "OpenRouter",
       "vram_gib": null
     },
     {
@@ -941,6 +968,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "Whisper Turbo + pyannote",
+      "run_on": "Local 4090",
       "vram_gib": 5.052111625671387
     },
     {
@@ -975,6 +1003,7 @@
         "der": null
       },
       "label": "Whisper Large v3 Turbo",
+      "run_on": "OpenRouter",
       "vram_gib": null
     },
     {
@@ -1009,6 +1038,7 @@
         "der": null
       },
       "label": "Whisper Large v3",
+      "run_on": "OpenRouter",
       "vram_gib": null
     },
     {
@@ -1043,6 +1073,7 @@
         "der": null
       },
       "label": "GPT-4o Transcribe",
+      "run_on": "OpenRouter",
       "vram_gib": null
     },
     {
@@ -1078,94 +1109,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "Grok STT 1.0",
-      "vram_gib": null
-    },
-    {
-      "model": "mistralai--voxtral-small-24b-2507-stt",
-      "track": "api",
-      "eligible": false,
-      "excluded": true,
-      "completed": 0,
-      "recordings": 94,
-      "invalid_output": 0,
-      "wer": null,
-      "cpwer": null,
-      "tcpwer": null,
-      "der": null,
-      "rtf": null,
-      "full_dataset_metrics": {
-        "wer": null,
-        "cpwer": null,
-        "tcpwer": null,
-        "der": null
-      },
-      "label": "Voxtral Small 24B",
-      "vram_gib": null
-    },
-    {
-      "model": "mistralai--voxtral-mini-3b-2507",
-      "track": "api",
-      "eligible": false,
-      "excluded": true,
-      "completed": 0,
-      "recordings": 94,
-      "invalid_output": 0,
-      "wer": null,
-      "cpwer": null,
-      "tcpwer": null,
-      "der": null,
-      "rtf": null,
-      "full_dataset_metrics": {
-        "wer": null,
-        "cpwer": null,
-        "tcpwer": null,
-        "der": null
-      },
-      "label": "Voxtral Mini 3B",
-      "vram_gib": null
-    },
-    {
-      "model": "qwen--qwen3-asr-1.7b",
-      "track": "api",
-      "eligible": false,
-      "excluded": true,
-      "completed": 0,
-      "recordings": 94,
-      "invalid_output": 0,
-      "wer": null,
-      "cpwer": null,
-      "tcpwer": null,
-      "der": null,
-      "rtf": null,
-      "full_dataset_metrics": {
-        "wer": null,
-        "cpwer": null,
-        "tcpwer": null,
-        "der": null
-      },
-      "label": "Qwen3 ASR 1.7B",
-      "vram_gib": null
-    },
-    {
-      "model": "qwen--qwen3-asr-0.6b",
-      "track": "api",
-      "eligible": false,
-      "excluded": true,
-      "completed": 0,
-      "recordings": 94,
-      "invalid_output": 0,
-      "wer": null,
-      "cpwer": null,
-      "tcpwer": null,
-      "der": null,
-      "rtf": null,
-      "full_dataset_metrics": {
-        "wer": null,
-        "cpwer": null,
-        "tcpwer": null,
-        "der": null
-      },
-      "label": "Qwen3 ASR 0.6B",
+      "run_on": "OpenRouter",
       "vram_gib": null
     }
   ],
