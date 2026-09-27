@@ -1,14 +1,15 @@
 # Consolidated benchmark results
 
-Sorted by **word error rate (WER), lower is better**, the general transcription metric
-used for ranking by [Open ASR](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard).
-Speaker attribution is additionally measured by cpWER and tcpWER, following
-[MeetEval](https://arxiv.org/abs/2307.11394); DER measures speaker activity errors.
-🥇🥈🥉 mark the three lowest measured values per column, except coverage (higher).
-All systems use the same 94 clips and references: 92.28 minutes, up to 60 seconds
-per clip. Speaker metrics use the same 77 labelled clips for every scored system.
-Missing cells state the output limitation; these describe the tested route, not every
-upstream capability. Four previously excluded DeepInfra routes receive no scores or medals.
+**One comparison, the same audio for every system.**
+
+- **Test audio:** 94 clips, 92.28 minutes total, up to 60 seconds per clip.
+- **Speaker comparison:** the same 77 labelled clips for every scored system.
+- **Sort order:** WER, lowest first, following the general transcription ranking used by Open ASR.
+- **Medals:** 🥇🥈🥉 mark the three lowest measured values per column; coverage is higher-is-better.
+- **Missing results:** cells identify missing labels or timing in the tested output.
+  Four excluded DeepInfra routes receive no scores or medals.
+
+Metric definitions, interpretation notes, and references follow the table.
 
 | Model | WER ↓ | cpWER (77) ↓ | tcpWER (77) ↓ | DER (77) ↓ | Coverage ↑ | RTF ↓ | API $ ↓ | VRAM GiB ↓ | Clips |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -42,28 +43,62 @@ upstream capability. Four previously excluded DeepInfra routes receive no scores
 | Qwen3 ASR 1.7B | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded |
 | Qwen3 ASR 0.6B | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded |
 
-RTF = processing seconds / audio seconds; lower is faster. Local inference uses one
-RTX 4090 without artificial real-time waits. API timing includes network/provider time.
-API $ covers reported charges for returned responses, including parser-rejected responses.
-Failed HTTP requests have unknown billing unless reconciled in the [cost ledger](costs.json).
-API timing covers completed responses; local timing includes attempted inference.
-VRAM is peak allocated GPU memory. Coverage is reference speech time overlapped by
-predicted speech, not an accuracy score. Missing or invalid transcripts count as empty
-in dataset error rates.
-For routes with timing, empty speech output covers zero reference speech; a nonempty
-transcript without timing prevents a full-dataset coverage score.
-No external diarizer or invented timestamps are added to hosted outputs. Gemini and
-Voxtral were asked for diarization but did not return speaker fields in the probe;
-their upstream speaker capabilities remain distinct from this tested integration.
+**What the metrics mean**
 
-[CSV](consolidated.csv) · [Full metrics](consolidated.json) · [Source selection](sources.json).
-All 2,350 clip scores were recomputed from saved predictions and references.
-[Local run provenance](../ami-4090-94clips-2026-09-27/sources.json) ·
-[Capability audit](../../docs/OPENROUTER_CAPABILITY_AUDIT.md).
-WER aggregates error counts over reference words; DER aggregates error durations.
-No confidence intervals are claimed from four correlated meetings. The WER reference
-orders overlapping words chronologically, so it is not an overlap-invariant measure.
-Anonymous speaker labels do not test named-person identification or event annotation.
+- **WER — word error rate ↓:** substituted, deleted, and inserted words divided by
+  reference words. Measures transcription accuracy; ignores speaker identity.
+- **cpWER — concatenated minimum-permutation WER ↓:** measures words and speaker
+  attribution, allowing anonymous speaker labels to be renamed for the best match.
+- **tcpWER — time-constrained cpWER ↓:** adds timing constraints to speaker-attributed
+  word matching. This benchmark uses a five-second collar.
+- **DER — diarization error rate ↓:** missed speech, false alarms, and speaker confusion
+  divided by reference speaker time. Uses zero collar and includes overlapping speech.
+- **Coverage ↑:** the fraction of reference speech time overlapped by predicted speech.
+  A diagnostic, not an accuracy score: excessively long predictions can inflate it.
+- **RTF — real-time factor ↓:** processing seconds divided by audio seconds.
+  For example, 0.1 means processing took one tenth of the audio duration.
+- **API $ ↓:** reported response charges in US dollars, including parser-rejected responses.
+  Failed requests have unknown billing unless reconciled in the cost ledger.
+- **VRAM GiB ↓:** peak allocated GPU memory during local inference.
+- **Clips:** successful outputs / total clips. Missing or invalid transcripts count as
+  empty hypotheses in dataset error rates.
 
-Rebuild and verify: `uv run python scripts/consolidate_results.py --verify`.
-AMI-derived material retains its [data attribution and license](../../DATA_LICENSE.md).
+**Reading the results fairly**
+
+- **Timing:** local inference uses one RTX 4090 without artificial real-time waits.
+  API timing includes network/provider time and covers completed responses;
+  local timing includes attempted inference.
+- **Aggregation:** WER sums word-error counts before division; DER sums error durations.
+  Overlapping reference words are ordered chronologically for WER, which makes it
+  sensitive to word ordering during overlap.
+- **Empty speech:** for routes with timing, empty output covers zero reference speech.
+  A nonempty transcript without timing prevents a full-dataset coverage score.
+- **Output limitations:** no external diarizer or invented timestamps are added to hosted
+  outputs. Gemini and Voxtral were asked for diarization but returned no speaker fields
+  in the probe. This does not establish the limits of every upstream route.
+- **Scope:** four correlated meetings do not support claimed confidence intervals.
+  Anonymous speaker labels do not test named-person identification or event annotation.
+
+**Download and verify**
+
+All **2,350 clip scores** were recomputed from saved predictions and references.
+
+- **Results:** [CSV](consolidated.csv) · [Full metrics](consolidated.json)
+- **Provenance:** [Source selection](sources.json) ·
+  [Local run](../ami-4090-94clips-2026-09-27/sources.json)
+- **Audit:** [Request costs](costs.json) ·
+  [Hosted capabilities](../../docs/OPENROUTER_CAPABILITY_AUDIT.md)
+
+Rebuild and verify locally, without new model requests:
+
+```bash
+uv run python scripts/consolidate_results.py --verify
+```
+
+**References**
+
+- [Open ASR leaderboard](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard): WER ranking.
+- [MeetEval](https://arxiv.org/abs/2307.11394): speaker-attributed transcription metrics.
+- [pyannote.metrics](https://pyannote.github.io/pyannote-metrics/): diarization scoring.
+- [Evaluation protocol](../../docs/PROTOCOL.md): normalization, timing, and subset rules.
+- [AMI attribution and license](../../DATA_LICENSE.md): terms for the derived data.
