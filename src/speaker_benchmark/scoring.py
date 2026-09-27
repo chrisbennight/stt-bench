@@ -102,8 +102,9 @@ def score_record(record, prediction: Prediction, tcp_collar=5.0, der_collar=0.0)
         ),
         "reference_speakers": len({s.speaker for s in record["reference"]}),
     }
-    if timed:
-        activity = prediction.activity if prediction.activity is not None else prediction.segments
+    activity = prediction.activity if prediction.activity is not None else prediction.segments
+    activity_timed = bool(activity) and all(s.start is not None for s in activity)
+    if timed or activity_timed:
         output["coverage"] = covered_speech(record["reference_activity"], activity)
     if timed and speakers_available:
         tcp = meeteval.wer.tcpwer(ref, hyp, collar=tcp_collar)["recording"]

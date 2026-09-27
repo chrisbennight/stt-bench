@@ -23,6 +23,7 @@ OPTIONS = {
     "max_requests",
     "max_audio_seconds_total",
     "audio_format",
+    "provider_options",
 }
 # These option shapes are documented by OpenRouter. Other models may support
 # diarization upstream without exposing a verified option through this API.
@@ -31,10 +32,39 @@ DIARIZATION = {
     "deepgram/nova-3": {"deepgram": {"diarize": True}},
 }
 
+# Candidate passthrough shapes from provider documentation. A successful HTTP
+# response does not prove that OpenRouter forwarded these options.
+PROVIDER_OPTIONS = {
+    "x-ai/grok-stt-1.0": {"xai": {"diarize": True}},
+    "meta/muse-voice-transcribe-1.0": {"meta": {"mode": "DIARIZATION"}},
+    "mistralai/voxtral-mini-transcribe": {
+        "mistral": {"diarize": True}, "mistral/eu": {"diarize": True},
+    },
+    "fish-audio/transcribe-1": {"fish-audio": {"ignore_timestamps": False}},
+    "fish-audio/transcribe-1-pro": {"fish-audio": {"ignore_timestamps": False}},
+    "assemblyai/universal-3-5-pro": {"assemblyai": {"timestamps": True}},
+    "google/gemini-3.5-transcribe": {"google-ai-studio": {
+        "generation_config": {"transcription_config": {"mode": {
+            "type": "verbatim", "diarization_mode": "speaker",
+            "timestamp_granularities": ["word"],
+        }}},
+    }},
+    "google/chirp-3": {"google-vertex": {
+        "config": {"features": {"diarizationConfig": {}, "enableWordTimeOffsets": True}},
+    }},
+}
+
 
 def validate_options(options):
     if set(options) - OPTIONS:
         raise ValueError("Unknown OpenRouter option; credentials belong in the environment")
+    if "provider_options" in options:
+        expected = PROVIDER_OPTIONS.get(options.get("model"))
+        actual_json = json.dumps(options["provider_options"], sort_keys=True)
+        if expected is None or actual_json != json.dumps(expected, sort_keys=True):
+            raise ValueError("Provider options must match a reviewed model-specific configuration")
+        if options.get("diarization"):
+            raise ValueError("Use either provider_options or diarization, not both")
     if not re.fullmatch(r"[A-Za-z0-9_.-]+/[A-Za-z0-9_.:-]+", options.get("model", "")):
         raise ValueError("OpenRouter model must be an organization/model ID")
     for key in ("max_requests", "max_audio_seconds_total"):
@@ -135,7 +165,30 @@ def retained_response(data):
     return saved
 
 
-def parse_response(data, duration, clip_timestamps=False):
+def fish_speaker_segments(text):
+    """Read Fish Pro's documented inline labels without inventing time alignment."""
+    markers = list(re.finditer(r"<\|speaker:(\d+)\|>", text))
+    if not markers:
+        return None
+    segments = []
+    # Unlabelled speech before the first marker stays explicitly unassigned.
+    spans = [("unassigned", text[:markers[0].start()])]
+    spans.extend(
+        (m.group(1), text[m.end():markers[i + 1].start() if i + 1 < len(markers) else len(text)])
+        for i, m in enumerate(markers)
+    )
+    for speaker, content in spans:
+        # An unfinished final annotation is still non-speech; raw text is retained.
+        content = re.sub(r"\[[^\[\]]*(?:\]|$)", " ", content)
+        if "<|speaker:" in content or "[" in content or "]" in content:
+            raise ResponseValidationError("malformed_fish_annotation")
+        content = " ".join(content.split())
+        if content:
+            segments.append(Segment(speaker, content))
+    return segments
+
+
+def parse_response(data, duration, clip_timestamps=False, model=None):
     if not isinstance(data, dict) or not isinstance(data.get("text"), str):
         raise ResponseValidationError("missing_transcription_text")
     words, phrases = data.get("words") or [], data.get("segments") or []
@@ -192,6 +245,16 @@ def parse_response(data, duration, clip_timestamps=False):
     if not segments and data["text"].strip():
         segments = [Segment("unassigned", data["text"])]
     timed = bool(segments) and all(s.start is not None for s in segments)
+    inline = fish_speaker_segments(data["text"]) if model == "fish-audio/transcribe-1-pro" else None
+    if inline is not None:
+        # Fish alignment strips labels and may cross speaker turns. Preserve the
+        # native intervals as activity but never assign their times to guessed speakers.
+        activity = segments if timed else None
+        segments = inline
+        speakers_available = True
+        timed = False
+    else:
+        activity = None
     usage = data.get("usage") or {}
     if not isinstance(usage, dict):
         raise ResponseValidationError("invalid_usage_object")
@@ -204,6 +267,7 @@ def parse_response(data, duration, clip_timestamps=False):
             safe_usage[key] = value
     return Prediction(
         segments,
+        activity=activity,
         timing=("native_clipped" if adjustments else "native") if timed else "unavailable",
         metadata={
             "speaker_labels_available": speakers_available,
@@ -213,6 +277,10 @@ def parse_response(data, duration, clip_timestamps=False):
             "timestamp_policy": "intersect_audio_bounds" if clip_timestamps else "strict",
             "timestamp_adjustments": adjustments,
             "intervals_after_audio": outside_intervals,
+            "speaker_label_source": "inline_fish" if inline is not None else "structured",
+            "annotation_tail_incomplete": bool(
+                inline is not None and re.search(r"\[[^\[\]]*$", data["text"])
+            ),
         },
     )
 
@@ -269,6 +337,8 @@ class OpenRouter(Adapter):
             payload["timestamp_granularities"] = self.options["timestamp_granularities"]
         if self.options.get("diarization"):
             payload["provider"] = {"options": DIARIZATION[self.options["model"]]}
+        elif self.options.get("provider_options"):
+            payload["provider"] = {"options": self.options["provider_options"]}
         request = urllib.request.Request(
             ENDPOINT,
             data=json.dumps(payload).encode(),
@@ -304,7 +374,8 @@ class OpenRouter(Adapter):
             raise InvalidModelOutput("", {**metadata, "reason": "invalid_json"}) from None
         try:
             prediction = parse_response(
-                data, duration, clip_timestamps=self.options["model"] == "deepgram/nova-3"
+                data, duration, clip_timestamps=self.options["model"] == "deepgram/nova-3",
+                model=self.options["model"],
             )
         except ResponseValidationError as exc:
             saved = retained_response(data)

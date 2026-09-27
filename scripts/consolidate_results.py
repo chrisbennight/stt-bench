@@ -14,6 +14,10 @@ BUNDLE = ROOT / "results/openrouter-2026-09-27"
 LOCAL_BUNDLE = ROOT / "results/ami-4090-94clips-2026-09-27"
 INTRO = """# Consolidated benchmark results
 
+**Provisional hosted results:** speaker/timestamp options were not fully validated,
+and Fish Pro's inline annotations were scored as words in this run.
+See the [capability audit](../../docs/OPENROUTER_CAPABILITY_AUDIT.md) before interpreting ranks.
+
 Sorted by **word error rate (WER), lower is better**, the general transcription metric
 used for ranking by [Open ASR](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard).
 Speaker attribution is additionally measured by cpWER and tcpWER, following

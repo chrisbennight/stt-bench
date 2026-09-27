@@ -52,6 +52,12 @@ model-specific [Google pricing assumptions](https://ai.google.dev/gemini-api/doc
 input/output tokens, this is $0.0051/minute. Actual transcript lengths vary. The generic
 Gemini audio-understanding token rate is not substituted for the transcription model's rate.
 
+## Capability audit
+
+The first hosted configuration did not exercise every route's available output features.
+See the [capability audit](OPENROUTER_CAPABILITY_AUDIT.md) for all 24 routes, candidate
+options, the Fish Pro parser correction, and the check required before another full pass.
+
 ## What the adapter measures
 
 The adapter sends mono 16 kHz PCM16 WAV, a model ID, and the recording's language code.

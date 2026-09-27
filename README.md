@@ -1,5 +1,10 @@
 # Speech transcription benchmark: local models and OpenRouter
 
+**Hosted results are provisional.** The first run did not validate every route's speaker
+and timestamp options, and Fish Pro's inline annotations were scored as words.
+The [capability audit and recovery procedure](docs/OPENROUTER_CAPABILITY_AUDIT.md) documents
+the corrections and the required validation before another full paid pass.
+
 **One consolidated comparison using the same 94 audio clips and references.** The
 [results table](results/openrouter-2026-09-27/README.md) compares transcription accuracy,
 speaker attribution, diarization, speed, cost, and GPU memory, with per-metric medals.
