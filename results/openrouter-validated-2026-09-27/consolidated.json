@@ -33,6 +33,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "MAI Transcribe 2",
+      "model_url": "https://openrouter.ai/microsoft/mai-transcribe-2",
       "run_on": "OpenRouter",
       "vram_gib": null
     },
@@ -68,6 +69,7 @@
         "der": null
       },
       "label": "MAI Transcribe 1.5",
+      "model_url": "https://openrouter.ai/microsoft/mai-transcribe-1.5",
       "run_on": "OpenRouter",
       "vram_gib": null
     },
@@ -102,6 +104,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "MOSS 0.9B",
+      "model_url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize",
       "run_on": "Local 4090",
       "vram_gib": 1.924868106842041
     },
@@ -138,6 +141,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "Fish Transcribe 1 Pro",
+      "model_url": "https://openrouter.ai/fish-audio/transcribe-1-pro",
       "run_on": "OpenRouter",
       "vram_gib": null
     },
@@ -173,6 +177,7 @@
         "der": null
       },
       "label": "NVIDIA Parakeet TDT v3",
+      "model_url": "https://openrouter.ai/nvidia/parakeet-tdt-0.6b-v3",
       "run_on": "OpenRouter",
       "vram_gib": null
     },
@@ -207,6 +212,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "Parakeet TDT v3 + pyannote",
+      "model_url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3",
       "run_on": "Local 4090",
       "vram_gib": 5.7166218757629395
     },
@@ -242,6 +248,7 @@
         "der": null
       },
       "label": "Qwen3 ASR Flash",
+      "model_url": "https://openrouter.ai/qwen/qwen3-asr-flash-2026-02-10",
       "run_on": "OpenRouter",
       "vram_gib": null
     },
@@ -277,6 +284,7 @@
         "der": null
       },
       "label": "Gemini 3.5 Transcribe",
+      "model_url": "https://openrouter.ai/google/gemini-3.5-transcribe",
       "run_on": "OpenRouter",
       "vram_gib": null
     },
@@ -311,6 +319,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "Qwen3 + pyannote",
+      "model_url": "https://huggingface.co/Qwen/Qwen3-ASR-1.7B",
       "run_on": "Local 4090",
       "vram_gib": 7.108996391296387
     },
@@ -345,6 +354,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "Qwen3 + Nemotron",
+      "model_url": "https://huggingface.co/Qwen/Qwen3-ASR-1.7B",
       "run_on": "Local 4090",
       "vram_gib": 6.125998020172119
     },
@@ -379,6 +389,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "VibeVoice offline",
+      "model_url": "https://huggingface.co/microsoft/VibeVoice-ASR",
       "run_on": "Local 4090",
       "vram_gib": 17.086552619934082
     },
@@ -414,6 +425,7 @@
         "der": null
       },
       "label": "Meta Muse Voice 1.0",
+      "model_url": "https://openrouter.ai/meta/muse-voice-transcribe-1.0",
       "run_on": "OpenRouter",
       "vram_gib": null
     },
@@ -448,6 +460,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "Voxtral Mini 3B + pyannote",
+      "model_url": "https://huggingface.co/mistralai/Voxtral-Mini-3B-2507",
       "run_on": "Local 4090",
       "vram_gib": 12.020939826965332
     },
@@ -483,6 +496,7 @@
         "der": null
       },
       "label": "Voxtral Mini Transcribe",
+      "model_url": "https://openrouter.ai/mistralai/voxtral-mini-transcribe",
       "run_on": "OpenRouter",
       "vram_gib": null
     },
@@ -517,6 +531,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "Voxtral Small 24B NF4 + pyannote",
+      "model_url": "https://huggingface.co/mistralai/Voxtral-Small-24B-2507",
       "run_on": "Local 4090",
       "vram_gib": 16.835097312927246
     },
@@ -551,6 +566,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "Qwen3 ASR 0.6B + pyannote",
+      "model_url": "https://huggingface.co/Qwen/Qwen3-ASR-0.6B",
       "run_on": "Local 4090",
       "vram_gib": 4.769448280334473
     },
@@ -586,6 +602,7 @@
         "der": null
       },
       "label": "OpenAI GPT Transcribe",
+      "model_url": "https://openrouter.ai/openai/gpt-transcribe",
       "run_on": "OpenRouter",
       "vram_gib": null
     },
@@ -621,6 +638,7 @@
         "der": null
       },
       "label": "Whisper 1",
+      "model_url": "https://openrouter.ai/openai/whisper-1",
       "run_on": "OpenRouter",
       "vram_gib": null
     },
@@ -655,6 +673,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "Whisper Large v3 + pyannote",
+      "model_url": "https://huggingface.co/openai/whisper-large-v3",
       "run_on": "Local 4090",
       "vram_gib": 6.18352746963501
     },
@@ -690,6 +709,7 @@
         "der": null
       },
       "label": "GPT-4o Mini Transcribe",
+      "model_url": "https://openrouter.ai/openai/gpt-4o-mini-transcribe",
       "run_on": "OpenRouter",
       "vram_gib": null
     },
@@ -725,6 +745,7 @@
         "der": null
       },
       "label": "Google Chirp 3",
+      "model_url": "https://openrouter.ai/google/chirp-3",
       "run_on": "OpenRouter",
       "vram_gib": null
     },
@@ -760,6 +781,7 @@
         "der": null
       },
       "label": "Fish Transcribe 1",
+      "model_url": "https://openrouter.ai/fish-audio/transcribe-1",
       "run_on": "OpenRouter",
       "vram_gib": null
     },
@@ -796,6 +818,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "Deepgram Nova 3",
+      "model_url": "https://openrouter.ai/deepgram/nova-3",
       "run_on": "OpenRouter",
       "vram_gib": null
     },
@@ -831,6 +854,7 @@
         "der": null
       },
       "label": "AssemblyAI Universal 3.5 Pro",
+      "model_url": "https://openrouter.ai/assemblyai/universal-3-5-pro",
       "run_on": "OpenRouter",
       "vram_gib": null
     },
@@ -865,6 +889,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "VibeVoice Streaming",
+      "model_url": "https://huggingface.co/microsoft/VibeVoice-ASR-Streaming-7B",
       "run_on": "Local 4090",
       "vram_gib": 16.358858108520508
     },
@@ -899,6 +924,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "Nemotron 3.5 ASR + pyannote",
+      "model_url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
       "run_on": "Local 4090",
       "vram_gib": 5.758417129516602
     },
@@ -934,6 +960,7 @@
         "der": null
       },
       "label": "NVIDIA Nemotron 3.5 ASR 0.6B",
+      "model_url": "https://openrouter.ai/nvidia/nemotron-3.5-asr-streaming-multilingual-0.6b",
       "run_on": "OpenRouter",
       "vram_gib": null
     },
@@ -968,6 +995,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "Whisper Turbo + pyannote",
+      "model_url": "https://huggingface.co/openai/whisper-large-v3-turbo",
       "run_on": "Local 4090",
       "vram_gib": 5.052111625671387
     },
@@ -1003,6 +1031,7 @@
         "der": null
       },
       "label": "Whisper Large v3 Turbo",
+      "model_url": "https://openrouter.ai/openai/whisper-large-v3-turbo",
       "run_on": "OpenRouter",
       "vram_gib": null
     },
@@ -1038,6 +1067,7 @@
         "der": null
       },
       "label": "Whisper Large v3",
+      "model_url": "https://openrouter.ai/openai/whisper-large-v3",
       "run_on": "OpenRouter",
       "vram_gib": null
     },
@@ -1073,6 +1103,7 @@
         "der": null
       },
       "label": "GPT-4o Transcribe",
+      "model_url": "https://openrouter.ai/openai/gpt-4o-transcribe",
       "run_on": "OpenRouter",
       "vram_gib": null
     },
@@ -1109,6 +1140,7 @@
       },
       "speaker_metric_clips": 77,
       "label": "Grok STT 1.0",
+      "model_url": "https://openrouter.ai/x-ai/grok-stt-1.0",
       "run_on": "OpenRouter",
       "vram_gib": null
     }

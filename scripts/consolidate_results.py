@@ -18,6 +18,13 @@ INTRO = """# Consolidated benchmark results
 
 **One comparison, the same audio for every system.**
 
+- **Benchmark data — AMI Meeting Corpus:** [Paper](https://doi.org/10.1007/11677482_3) ·
+  [Dataset](https://groups.inf.ed.ac.uk/ami/corpus/) ·
+  [Diarization references on GitHub](https://github.com/pyannote/AMI-diarization-setup).
+- **Transcription scoring — MeetEval:** [Paper](https://arxiv.org/abs/2307.11394) ·
+  [GitHub](https://github.com/fgnt/meeteval). DER uses
+  [pyannote.metrics](https://github.com/pyannote/pyannote-metrics).
+
 - **Test audio:** 94 clips, 92.28 minutes total, up to 60 seconds per clip.
 - **Speaker comparison:** the same {speaker_clips} labelled clips for every scored system.
 - **Sort order:** WER, lowest first, following the general transcription ranking used by Open ASR.
@@ -138,6 +145,28 @@ LABELS = {
     "openai--whisper-large-v3-turbo": "Whisper Large v3 Turbo",
     "x-ai--grok-stt-1.0": "Grok STT 1.0",
 }
+
+
+LOCAL_MODEL_CARDS = {
+    "moss": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
+    "vibevoice": "microsoft/VibeVoice-ASR",
+    "vibevoice_streaming": "microsoft/VibeVoice-ASR-Streaming-7B",
+    "qwen_pyannote": "Qwen/Qwen3-ASR-1.7B",
+    "qwen_nemotron": "Qwen/Qwen3-ASR-1.7B",
+    "qwen_small_pyannote": "Qwen/Qwen3-ASR-0.6B",
+    "parakeet_pyannote": "nvidia/parakeet-tdt-0.6b-v3",
+    "nemotron_asr_pyannote": "nvidia/nemotron-3.5-asr-streaming-0.6b",
+    "whisper_pyannote": "openai/whisper-large-v3",
+    "whisper_turbo_pyannote": "openai/whisper-large-v3-turbo",
+    "voxtral_mini_pyannote": "mistralai/Voxtral-Mini-3B-2507",
+    "voxtral_small_nf4_pyannote": "mistralai/Voxtral-Small-24B-2507",
+}
+
+
+def model_card_url(model, track):
+    if track == "api":
+        return "https://openrouter.ai/" + model.replace("--", "/", 1)
+    return "https://huggingface.co/" + LOCAL_MODEL_CARDS[model]
 
 
 def medal(value, values, higher=False):
@@ -301,6 +330,7 @@ def build(verify=False):
             row.update(speaker_scores[row["model"]], speaker_metric_clips=len(common))
     for row in rows:
         row["label"] = LABELS[row["model"]]
+        row["model_url"] = model_card_url(row["model"], row["track"])
         row["run_on"] = {"api": "OpenRouter", "local": "Local 4090"}[row["track"]]
         memory = row.get("max_cuda_allocated_bytes")
         row["vram_gib"] = memory / 2**30 if memory is not None else None
@@ -318,7 +348,7 @@ def build(verify=False):
     lines = ["| Model | Run on | " + " | ".join(c[1] for c in columns) + " | Clips |",
              "|---|---|" + "---:|" * (len(columns) + 1)]
     for row in rows:
-        cells = [row["label"], row["run_on"]]
+        cells = [f"[{row['label']}]({row['model_url']})", row["run_on"]]
         for key, _, fmt in columns:
             value = row.get(key)
             values = [r[key] for r in rows if r["eligible"] and r.get(key) is not None]
@@ -332,7 +362,9 @@ def build(verify=False):
             status += f"; {row['invalid_output']} invalid"
         cells.append(status)
         lines.append("| " + " | ".join(cells) + " |")
-    fields = ["model", "label", "run_on", "track", "eligible"] + [c[0] for c in columns] + [
+    fields = [
+        "model", "label", "model_url", "run_on", "track", "eligible",
+    ] + [c[0] for c in columns] + [
         "completed", "recordings", "speaker_metric_clips",
     ]
     with (BUNDLE / "consolidated.csv").open("w") as stream:
