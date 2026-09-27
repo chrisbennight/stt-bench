@@ -8,6 +8,7 @@ import soundfile as sf
 from speaker_benchmark.adapters.openrouter import (
     PROVIDER_OPTIONS,
     OpenRouter,
+    error_diagnostic,
     parse_response,
     validate_options,
 )
@@ -66,6 +67,26 @@ def test_fish_annotation_only_response_counts_as_deleted_speech():
     ref = [Segment("a", "hello", 0, 1)]
     result = score_record({"reference": ref, "reference_activity": ref, "duration": 2}, p)
     assert result["cpwer"]["deletions"] == 1
+
+
+def test_point_aligned_word_is_scored_without_inventing_speech_duration():
+    p = parse_response({"text": "a word", "words": [
+        {"word": "a", "start": 0.5, "end": 0.5, "speaker": 0},
+        {"word": "word", "start": 0.5, "end": 1, "speaker": 0},
+    ]}, 2)
+    ref = [Segment("a", "a word", 0, 1)]
+    result = score_record({"reference": ref, "reference_activity": ref, "duration": 2}, p)
+    for key in ("wer", "cpwer", "tcpwer"):
+        assert result[key]["errors"] == 0
+    assert result["coverage"]["ratio"] == 0.5
+    assert result["der"]["missed detection"] == 0.5
+
+
+def test_http_error_diagnostics_do_not_retain_arbitrary_message_text():
+    body = json.dumps({"error": {"message": "private-value: verbose_json not supported"}})
+    result = error_diagnostic(body)
+    assert result == {"mentions": ["verbose_json", "not supported"]}
+    assert "private-value" not in json.dumps(result)
 
 
 def test_provider_options_cannot_forward_arbitrary_configuration():

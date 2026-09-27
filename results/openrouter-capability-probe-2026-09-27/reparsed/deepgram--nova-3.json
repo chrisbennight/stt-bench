@@ -1,0 +1,173 @@
+[
+  {
+    "id": "ES2004a-4800000",
+    "duration": 60.0,
+    "seed": 4264379538,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "0",
+          "text": "What",
+          "start": 6.24,
+          "end": 6.48
+        },
+        {
+          "speaker": "0",
+          "text": "kind",
+          "start": 6.48,
+          "end": 6.72
+        },
+        {
+          "speaker": "0",
+          "text": "of",
+          "start": 6.72,
+          "end": 6.8799996
+        },
+        {
+          "speaker": "0",
+          "text": "dog?",
+          "start": 6.8799996,
+          "end": 7.2799997
+        },
+        {
+          "speaker": "0",
+          "text": "Thank",
+          "start": 48.575,
+          "end": 49.535
+        },
+        {
+          "speaker": "0",
+          "text": "you.",
+          "start": 50.815,
+          "end": 51.055
+        }
+      ],
+      "activity": null,
+      "timing": "native",
+      "events": [],
+      "metadata": {
+        "speaker_labels_available": true,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.004300000000002
+        },
+        "raw_transcript": {
+          "text": "What kind of dog? Thank you.",
+          "words": [
+            {
+              "word": "What",
+              "start": 6.24,
+              "end": 6.48,
+              "speaker": 0
+            },
+            {
+              "word": "kind",
+              "start": 6.48,
+              "end": 6.72,
+              "speaker": 0
+            },
+            {
+              "word": "of",
+              "start": 6.72,
+              "end": 6.8799996,
+              "speaker": 0
+            },
+            {
+              "word": "dog?",
+              "start": 6.8799996,
+              "end": 7.2799997,
+              "speaker": 0
+            },
+            {
+              "word": "Thank",
+              "start": 48.575,
+              "end": 49.535,
+              "speaker": 0
+            },
+            {
+              "word": "you.",
+              "start": 50.815,
+              "end": 51.055,
+              "speaker": 0
+            }
+          ],
+          "segments": [
+            {
+              "id": 0,
+              "start": 6.24,
+              "end": 7.2799997,
+              "text": "What kind of dog?",
+              "speaker": 0
+            },
+            {
+              "id": 1,
+              "start": 48.575,
+              "end": 49.535,
+              "text": "Thank",
+              "speaker": 0
+            },
+            {
+              "id": 2,
+              "start": 50.815,
+              "end": 51.055,
+              "text": "you.",
+              "speaker": 0
+            }
+          ]
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "deepgram/nova-3",
+        "generation_id": "gen-stt-1790484327-WTRavv17JtTIiLtl7mGB"
+      }
+    },
+    "wall_seconds": 9.715294794994406,
+    "rtf": 0.16192157991657344,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 54050816,
+    "scores": {
+      "wer": {
+        "errors": 120,
+        "length": 125,
+        "insertions": 0,
+        "deletions": 119,
+        "substitutions": 1
+      },
+      "cpwer": {
+        "errors": 121,
+        "length": 125,
+        "insertions": 0,
+        "deletions": 119,
+        "substitutions": 2
+      },
+      "tcpwer": {
+        "errors": 123,
+        "length": 125,
+        "insertions": 1,
+        "deletions": 120,
+        "substitutions": 2
+      },
+      "der": {
+        "confusion": 0.8199999999999932,
+        "false alarm": 0.2199997000000069,
+        "correct": 1.1999999999999957,
+        "missed detection": 46.959999999999916,
+        "total": 48.979999999999905,
+        "diarization error rate": 0.9799918272764396
+      },
+      "coverage": {
+        "covered_seconds": 2.019999999999989,
+        "reference_seconds": 43.14999999999998,
+        "ratio": 0.046813441483197916
+      },
+      "timing": "native",
+      "predicted_speakers": 1,
+      "reference_speakers": 4
+    }
+  }
+]

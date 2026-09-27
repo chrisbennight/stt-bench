@@ -113,7 +113,7 @@ def test_deepgram_boundary_word_is_clipped_without_losing_text_or_raw_timing():
 
 
 @pytest.mark.parametrize(
-    "start,end", [(-2, -1), (1, 1), (2, 1), (0, float("nan")), (None, 1)]
+    "start,end", [(-2, -1), (2, 1), (0, float("nan")), (None, 1)]
 )
 def test_clipping_does_not_hide_invalid_or_negative_intervals(start, end):
     with pytest.raises(ValueError):

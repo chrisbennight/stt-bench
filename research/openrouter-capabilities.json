@@ -1,6 +1,6 @@
 {
   "retrieved_at": "2026-09-27T04:33:22.135937+00:00",
-  "status": "not_live_validated",
+  "status": "partial_live_validation",
   "models": [
     {
       "model": "google/gemini-3.5-transcribe",
@@ -11,7 +11,7 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "pending_probe",
+      "status": "blocked_or_rejected_route",
       "required_probe_metrics": [
         "wer",
         "cpwer",
@@ -56,6 +56,19 @@
         "structured_timestamps": 0,
         "structured_speakers": 0,
         "fish_inline_speakers": 0
+      },
+      "live_probe": {
+        "status": "inference_failed",
+        "http_status": 404,
+        "accessible_to_key": false,
+        "available_metrics": [],
+        "missing_required_metrics": [
+          "coverage",
+          "cpwer",
+          "der",
+          "tcpwer",
+          "wer"
+        ]
       }
     },
     {
@@ -67,7 +80,7 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "pending_probe",
+      "status": "probe_passed",
       "required_probe_metrics": [
         "wer",
         "cpwer",
@@ -100,6 +113,17 @@
         "structured_timestamps": 0,
         "structured_speakers": 0,
         "fish_inline_speakers": 94
+      },
+      "live_probe": {
+        "status": "ok",
+        "http_status": null,
+        "accessible_to_key": true,
+        "available_metrics": [
+          "wer",
+          "cpwer",
+          "coverage"
+        ],
+        "missing_required_metrics": []
       }
     },
     {
@@ -111,7 +135,7 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "pending_probe",
+      "status": "probe_passed",
       "required_probe_metrics": [
         "wer",
         "coverage"
@@ -143,6 +167,16 @@
         "structured_timestamps": 0,
         "structured_speakers": 0,
         "fish_inline_speakers": 0
+      },
+      "live_probe": {
+        "status": "ok",
+        "http_status": null,
+        "accessible_to_key": true,
+        "available_metrics": [
+          "wer",
+          "coverage"
+        ],
+        "missing_required_metrics": []
       }
     },
     {
@@ -154,7 +188,7 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "pending_probe",
+      "status": "blocked_or_rejected_route",
       "required_probe_metrics": [
         "wer",
         "cpwer",
@@ -188,6 +222,19 @@
         "structured_timestamps": 0,
         "structured_speakers": 0,
         "fish_inline_speakers": 0
+      },
+      "live_probe": {
+        "status": "inference_failed",
+        "http_status": 400,
+        "accessible_to_key": false,
+        "available_metrics": [],
+        "missing_required_metrics": [
+          "coverage",
+          "cpwer",
+          "der",
+          "tcpwer",
+          "wer"
+        ]
       }
     },
     {
@@ -199,7 +246,7 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "pending_probe",
+      "status": "probe_passed",
       "required_probe_metrics": [
         "wer",
         "cpwer",
@@ -230,6 +277,19 @@
         "structured_timestamps": 94,
         "structured_speakers": 93,
         "fish_inline_speakers": 0
+      },
+      "live_probe": {
+        "status": "ok",
+        "http_status": null,
+        "accessible_to_key": true,
+        "available_metrics": [
+          "wer",
+          "cpwer",
+          "tcpwer",
+          "der",
+          "coverage"
+        ],
+        "missing_required_metrics": []
       }
     },
     {
@@ -241,7 +301,7 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "pending_probe",
+      "status": "probe_passed",
       "required_probe_metrics": [
         "wer",
         "coverage"
@@ -268,6 +328,16 @@
         "structured_timestamps": 0,
         "structured_speakers": 0,
         "fish_inline_speakers": 0
+      },
+      "live_probe": {
+        "status": "ok",
+        "http_status": null,
+        "accessible_to_key": true,
+        "available_metrics": [
+          "wer",
+          "coverage"
+        ],
+        "missing_required_metrics": []
       }
     },
     {
@@ -439,7 +509,7 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "pending_probe",
+      "status": "blocked_or_rejected_route",
       "required_probe_metrics": [
         "wer",
         "coverage"
@@ -466,6 +536,16 @@
         "structured_timestamps": 0,
         "structured_speakers": 0,
         "fish_inline_speakers": 0
+      },
+      "live_probe": {
+        "status": "inference_failed",
+        "http_status": 400,
+        "accessible_to_key": false,
+        "available_metrics": [],
+        "missing_required_metrics": [
+          "coverage",
+          "wer"
+        ]
       }
     },
     {
@@ -477,7 +557,7 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "pending_probe",
+      "status": "probe_passed",
       "required_probe_metrics": [
         "wer",
         "coverage"
@@ -509,6 +589,16 @@
         "structured_timestamps": 0,
         "structured_speakers": 0,
         "fish_inline_speakers": 0
+      },
+      "live_probe": {
+        "status": "ok",
+        "http_status": null,
+        "accessible_to_key": true,
+        "available_metrics": [
+          "wer",
+          "coverage"
+        ],
+        "missing_required_metrics": []
       }
     },
     {
@@ -520,7 +610,7 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "pending_probe",
+      "status": "blocked_or_rejected_route",
       "required_probe_metrics": [
         "wer",
         "cpwer",
@@ -555,6 +645,19 @@
         "structured_timestamps": 0,
         "structured_speakers": 0,
         "fish_inline_speakers": 0
+      },
+      "live_probe": {
+        "status": "inference_failed",
+        "http_status": 404,
+        "accessible_to_key": false,
+        "available_metrics": [],
+        "missing_required_metrics": [
+          "coverage",
+          "cpwer",
+          "der",
+          "tcpwer",
+          "wer"
+        ]
       }
     },
     {
@@ -566,7 +669,7 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "pending_probe",
+      "status": "probe_passed",
       "required_probe_metrics": [
         "wer",
         "cpwer",
@@ -597,6 +700,19 @@
         "structured_timestamps": 94,
         "structured_speakers": 89,
         "fish_inline_speakers": 0
+      },
+      "live_probe": {
+        "status": "ok",
+        "http_status": null,
+        "accessible_to_key": true,
+        "available_metrics": [
+          "wer",
+          "cpwer",
+          "tcpwer",
+          "der",
+          "coverage"
+        ],
+        "missing_required_metrics": []
       }
     },
     {
@@ -608,7 +724,7 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "pending_probe",
+      "status": "probe_passed",
       "required_probe_metrics": [
         "wer"
       ],
@@ -630,6 +746,15 @@
         "structured_timestamps": 0,
         "structured_speakers": 0,
         "fish_inline_speakers": 0
+      },
+      "live_probe": {
+        "status": "ok",
+        "http_status": null,
+        "accessible_to_key": true,
+        "available_metrics": [
+          "wer"
+        ],
+        "missing_required_metrics": []
       }
     },
     {
@@ -641,7 +766,7 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "pending_probe",
+      "status": "probe_passed",
       "required_probe_metrics": [
         "wer",
         "coverage"
@@ -668,6 +793,16 @@
         "structured_timestamps": 0,
         "structured_speakers": 0,
         "fish_inline_speakers": 0
+      },
+      "live_probe": {
+        "status": "ok",
+        "http_status": null,
+        "accessible_to_key": true,
+        "available_metrics": [
+          "wer",
+          "coverage"
+        ],
+        "missing_required_metrics": []
       }
     },
     {
@@ -681,7 +816,7 @@
         [],
         []
       ],
-      "status": "pending_probe",
+      "status": "blocked_or_rejected_route",
       "required_probe_metrics": [
         "wer",
         "cpwer",
@@ -719,6 +854,19 @@
         "structured_timestamps": 0,
         "structured_speakers": 0,
         "fish_inline_speakers": 0
+      },
+      "live_probe": {
+        "status": "inference_failed",
+        "http_status": 404,
+        "accessible_to_key": false,
+        "available_metrics": [],
+        "missing_required_metrics": [
+          "coverage",
+          "cpwer",
+          "der",
+          "tcpwer",
+          "wer"
+        ]
       }
     },
     {
@@ -730,7 +878,7 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "pending_probe",
+      "status": "blocked_or_rejected_route",
       "required_probe_metrics": [
         "wer",
         "coverage"
@@ -757,6 +905,16 @@
         "structured_timestamps": 0,
         "structured_speakers": 0,
         "fish_inline_speakers": 0
+      },
+      "live_probe": {
+        "status": "inference_failed",
+        "http_status": 400,
+        "accessible_to_key": false,
+        "available_metrics": [],
+        "missing_required_metrics": [
+          "coverage",
+          "wer"
+        ]
       }
     },
     {
@@ -768,7 +926,7 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "pending_probe",
+      "status": "route_rejected_verbose_output",
       "required_probe_metrics": [
         "wer",
         "cpwer",
@@ -809,6 +967,19 @@
         "structured_timestamps": 0,
         "structured_speakers": 0,
         "fish_inline_speakers": 0
+      },
+      "live_probe": {
+        "status": "inference_failed",
+        "http_status": 400,
+        "accessible_to_key": true,
+        "available_metrics": [],
+        "missing_required_metrics": [
+          "coverage",
+          "cpwer",
+          "der",
+          "tcpwer",
+          "wer"
+        ]
       }
     },
     {
@@ -820,7 +991,7 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "pending_probe",
+      "status": "blocked_or_rejected_route",
       "required_probe_metrics": [
         "wer"
       ],
@@ -843,6 +1014,15 @@
         "structured_timestamps": 0,
         "structured_speakers": 0,
         "fish_inline_speakers": 0
+      },
+      "live_probe": {
+        "status": "inference_failed",
+        "http_status": 404,
+        "accessible_to_key": false,
+        "available_metrics": [],
+        "missing_required_metrics": [
+          "wer"
+        ]
       }
     },
     {
@@ -858,7 +1038,7 @@
         [],
         []
       ],
-      "status": "pending_probe",
+      "status": "probe_passed",
       "required_probe_metrics": [
         "wer",
         "coverage"
@@ -885,6 +1065,16 @@
         "structured_timestamps": 0,
         "structured_speakers": 0,
         "fish_inline_speakers": 0
+      },
+      "live_probe": {
+        "status": "ok",
+        "http_status": null,
+        "accessible_to_key": true,
+        "available_metrics": [
+          "wer",
+          "coverage"
+        ],
+        "missing_required_metrics": []
       }
     },
     {
@@ -898,7 +1088,7 @@
         [],
         []
       ],
-      "status": "pending_probe",
+      "status": "probe_passed",
       "required_probe_metrics": [
         "wer",
         "coverage"
@@ -925,6 +1115,16 @@
         "structured_timestamps": 0,
         "structured_speakers": 0,
         "fish_inline_speakers": 0
+      },
+      "live_probe": {
+        "status": "ok",
+        "http_status": null,
+        "accessible_to_key": true,
+        "available_metrics": [
+          "wer",
+          "coverage"
+        ],
+        "missing_required_metrics": []
       }
     },
     {
@@ -936,7 +1136,7 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "pending_probe",
+      "status": "blocked_or_rejected_route",
       "required_probe_metrics": [
         "wer",
         "coverage"
@@ -963,6 +1163,16 @@
         "structured_timestamps": 0,
         "structured_speakers": 0,
         "fish_inline_speakers": 0
+      },
+      "live_probe": {
+        "status": "inference_failed",
+        "http_status": 404,
+        "accessible_to_key": false,
+        "available_metrics": [],
+        "missing_required_metrics": [
+          "coverage",
+          "wer"
+        ]
       }
     },
     {
@@ -974,7 +1184,7 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "pending_probe",
+      "status": "blocked_or_rejected_route",
       "required_probe_metrics": [
         "wer"
       ],
@@ -997,6 +1207,15 @@
         "structured_timestamps": 0,
         "structured_speakers": 0,
         "fish_inline_speakers": 0
+      },
+      "live_probe": {
+        "status": "inference_failed",
+        "http_status": 404,
+        "accessible_to_key": false,
+        "available_metrics": [],
+        "missing_required_metrics": [
+          "wer"
+        ]
       }
     }
   ],
@@ -2435,5 +2654,6 @@
         "end": 60.0
       }
     ]
-  }
+  },
+  "probe_results": "results/openrouter-capability-probe-2026-09-27/summary.json"
 }

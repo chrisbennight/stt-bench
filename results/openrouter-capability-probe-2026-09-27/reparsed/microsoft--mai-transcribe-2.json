@@ -1,0 +1,1382 @@
+[
+  {
+    "id": "ES2004a-4800000",
+    "duration": 60.0,
+    "seed": 4264379538,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "0",
+          "text": "A",
+          "start": 6.36,
+          "end": 6.44
+        },
+        {
+          "speaker": "0",
+          "text": "kind",
+          "start": 6.56,
+          "end": 6.739
+        },
+        {
+          "speaker": "0",
+          "text": "of",
+          "start": 6.8,
+          "end": 6.9
+        },
+        {
+          "speaker": "0",
+          "text": "dog?",
+          "start": 7.0,
+          "end": 7.32
+        },
+        {
+          "speaker": "1",
+          "text": "Yeah.",
+          "start": 9.4,
+          "end": 9.779
+        },
+        {
+          "speaker": "1",
+          "text": "It's",
+          "start": 13.48,
+          "end": 13.679
+        },
+        {
+          "speaker": "1",
+          "text": "actually",
+          "start": 13.76,
+          "end": 14.019
+        },
+        {
+          "speaker": "1",
+          "text": "sitting,",
+          "start": 14.16,
+          "end": 14.519
+        },
+        {
+          "speaker": "1",
+          "text": "so.",
+          "start": 14.84,
+          "end": 15.259
+        },
+        {
+          "speaker": "0",
+          "text": "Sorry?",
+          "start": 16.0,
+          "end": 16.26
+        },
+        {
+          "speaker": "2",
+          "text": "It's",
+          "start": 16.68,
+          "end": 16.78
+        },
+        {
+          "speaker": "2",
+          "text": "sitting.",
+          "start": 16.84,
+          "end": 17.039
+        },
+        {
+          "speaker": "1",
+          "text": "It's",
+          "start": 17.06,
+          "end": 17.22
+        },
+        {
+          "speaker": "1",
+          "text": "sitting,",
+          "start": 17.32,
+          "end": 17.58
+        },
+        {
+          "speaker": "1",
+          "text": "it's",
+          "start": 17.68,
+          "end": 17.8
+        },
+        {
+          "speaker": "1",
+          "text": "not",
+          "start": 17.84,
+          "end": 17.94
+        },
+        {
+          "speaker": "1",
+          "text": "standing.",
+          "start": 18.12,
+          "end": 18.559
+        },
+        {
+          "speaker": "1",
+          "text": "Okay,",
+          "start": 19.24,
+          "end": 19.519
+        },
+        {
+          "speaker": "1",
+          "text": "I",
+          "start": 19.68,
+          "end": 19.76
+        },
+        {
+          "speaker": "1",
+          "text": "see",
+          "start": 19.88,
+          "end": 20.02
+        },
+        {
+          "speaker": "1",
+          "text": "it",
+          "start": 20.04,
+          "end": 20.14
+        },
+        {
+          "speaker": "1",
+          "text": "as",
+          "start": 20.2,
+          "end": 20.32
+        },
+        {
+          "speaker": "1",
+          "text": "one",
+          "start": 20.44,
+          "end": 20.58
+        },
+        {
+          "speaker": "1",
+          "text": "thing,",
+          "start": 20.6,
+          "end": 20.76
+        },
+        {
+          "speaker": "1",
+          "text": "it's",
+          "start": 20.8,
+          "end": 20.96
+        },
+        {
+          "speaker": "1",
+          "text": "very",
+          "start": 21.0,
+          "end": 21.199
+        },
+        {
+          "speaker": "1",
+          "text": "supportive.",
+          "start": 21.28,
+          "end": 21.839
+        },
+        {
+          "speaker": "1",
+          "text": "It's",
+          "start": 24.16,
+          "end": 24.339
+        },
+        {
+          "speaker": "1",
+          "text": "your",
+          "start": 24.4,
+          "end": 24.539
+        },
+        {
+          "speaker": "1",
+          "text": "best",
+          "start": 24.64,
+          "end": 24.8
+        },
+        {
+          "speaker": "1",
+          "text": "friend",
+          "start": 24.84,
+          "end": 25.019
+        },
+        {
+          "speaker": "1",
+          "text": "in",
+          "start": 25.08,
+          "end": 25.159
+        },
+        {
+          "speaker": "1",
+          "text": "your...",
+          "start": 25.24,
+          "end": 25.56
+        },
+        {
+          "speaker": "1",
+          "text": "You",
+          "start": 26.2,
+          "end": 26.28
+        },
+        {
+          "speaker": "1",
+          "text": "can",
+          "start": 26.32,
+          "end": 26.42
+        },
+        {
+          "speaker": "1",
+          "text": "talk",
+          "start": 26.48,
+          "end": 26.58
+        },
+        {
+          "speaker": "1",
+          "text": "to",
+          "start": 26.62,
+          "end": 26.699
+        },
+        {
+          "speaker": "1",
+          "text": "a",
+          "start": 26.76,
+          "end": 26.819
+        },
+        {
+          "speaker": "1",
+          "text": "dog,",
+          "start": 26.88,
+          "end": 27.02
+        },
+        {
+          "speaker": "1",
+          "text": "it",
+          "start": 27.08,
+          "end": 27.139
+        },
+        {
+          "speaker": "1",
+          "text": "can",
+          "start": 27.16,
+          "end": 27.26
+        },
+        {
+          "speaker": "1",
+          "text": "be",
+          "start": 27.28,
+          "end": 27.339
+        },
+        {
+          "speaker": "1",
+          "text": "your",
+          "start": 27.36,
+          "end": 27.44
+        },
+        {
+          "speaker": "1",
+          "text": "best",
+          "start": 27.46,
+          "end": 27.58
+        },
+        {
+          "speaker": "1",
+          "text": "friend.",
+          "start": 27.6,
+          "end": 27.76
+        },
+        {
+          "speaker": "1",
+          "text": "It",
+          "start": 27.8,
+          "end": 27.9
+        },
+        {
+          "speaker": "1",
+          "text": "doesn't",
+          "start": 27.92,
+          "end": 28.119
+        },
+        {
+          "speaker": "1",
+          "text": "discriminate",
+          "start": 28.16,
+          "end": 28.58
+        },
+        {
+          "speaker": "1",
+          "text": "between",
+          "start": 28.64,
+          "end": 28.859
+        },
+        {
+          "speaker": "1",
+          "text": "you",
+          "start": 28.92,
+          "end": 29.039
+        },
+        {
+          "speaker": "1",
+          "text": "based",
+          "start": 29.72,
+          "end": 29.98
+        },
+        {
+          "speaker": "1",
+          "text": "on",
+          "start": 30.02,
+          "end": 30.1
+        },
+        {
+          "speaker": "1",
+          "text": "what",
+          "start": 30.16,
+          "end": 30.28
+        },
+        {
+          "speaker": "1",
+          "text": "you",
+          "start": 30.32,
+          "end": 30.42
+        },
+        {
+          "speaker": "1",
+          "text": "are.",
+          "start": 30.46,
+          "end": 30.679
+        },
+        {
+          "speaker": "1",
+          "text": "Second,",
+          "start": 31.52,
+          "end": 31.8
+        },
+        {
+          "speaker": "1",
+          "text": "it's",
+          "start": 31.86,
+          "end": 32.06
+        },
+        {
+          "speaker": "1",
+          "text": "loyal.",
+          "start": 33.64,
+          "end": 34.039
+        },
+        {
+          "speaker": "1",
+          "text": "And",
+          "start": 35.56,
+          "end": 35.739
+        },
+        {
+          "speaker": "1",
+          "text": "third",
+          "start": 35.92,
+          "end": 36.159
+        },
+        {
+          "speaker": "1",
+          "text": "thing,",
+          "start": 36.24,
+          "end": 36.48
+        },
+        {
+          "speaker": "1",
+          "text": "it's",
+          "start": 36.8,
+          "end": 37.0
+        },
+        {
+          "speaker": "1",
+          "text": "got",
+          "start": 37.12,
+          "end": 37.319
+        },
+        {
+          "speaker": "1",
+          "text": "intuition.",
+          "start": 37.6,
+          "end": 38.24
+        },
+        {
+          "speaker": "1",
+          "text": "Means",
+          "start": 40.72,
+          "end": 40.939
+        },
+        {
+          "speaker": "1",
+          "text": "dogs",
+          "start": 41.08,
+          "end": 41.28
+        },
+        {
+          "speaker": "1",
+          "text": "can",
+          "start": 41.32,
+          "end": 41.42
+        },
+        {
+          "speaker": "1",
+          "text": "some-",
+          "start": 41.48,
+          "end": 41.719
+        },
+        {
+          "speaker": "1",
+          "text": "sometimes",
+          "start": 41.8,
+          "end": 42.1
+        },
+        {
+          "speaker": "1",
+          "text": "make",
+          "start": 42.159,
+          "end": 42.299
+        },
+        {
+          "speaker": "1",
+          "text": "out",
+          "start": 42.32,
+          "end": 42.46
+        },
+        {
+          "speaker": "1",
+          "text": "between",
+          "start": 42.519,
+          "end": 42.779
+        },
+        {
+          "speaker": "1",
+          "text": "a",
+          "start": 43.08,
+          "end": 43.159
+        },
+        {
+          "speaker": "1",
+          "text": "thief",
+          "start": 43.32,
+          "end": 43.519
+        },
+        {
+          "speaker": "1",
+          "text": "and",
+          "start": 43.6,
+          "end": 43.719
+        },
+        {
+          "speaker": "1",
+          "text": "a",
+          "start": 43.8,
+          "end": 43.879
+        },
+        {
+          "speaker": "1",
+          "text": "person.",
+          "start": 45.2,
+          "end": 45.559
+        },
+        {
+          "speaker": "1",
+          "text": "So",
+          "start": 45.6,
+          "end": 45.719
+        },
+        {
+          "speaker": "1",
+          "text": "basically,",
+          "start": 45.8,
+          "end": 46.22
+        },
+        {
+          "speaker": "1",
+          "text": "these",
+          "start": 46.44,
+          "end": 46.58
+        },
+        {
+          "speaker": "1",
+          "text": "are",
+          "start": 46.6,
+          "end": 46.7
+        },
+        {
+          "speaker": "1",
+          "text": "the",
+          "start": 46.72,
+          "end": 46.799
+        },
+        {
+          "speaker": "1",
+          "text": "three",
+          "start": 46.84,
+          "end": 46.98
+        },
+        {
+          "speaker": "1",
+          "text": "unique",
+          "start": 47.04,
+          "end": 47.24
+        },
+        {
+          "speaker": "1",
+          "text": "features",
+          "start": 47.28,
+          "end": 47.639
+        },
+        {
+          "speaker": "1",
+          "text": "I",
+          "start": 47.76,
+          "end": 47.819
+        },
+        {
+          "speaker": "1",
+          "text": "think",
+          "start": 47.879,
+          "end": 48.039
+        },
+        {
+          "speaker": "1",
+          "text": "belong",
+          "start": 48.72,
+          "end": 48.92
+        },
+        {
+          "speaker": "1",
+          "text": "to",
+          "start": 48.96,
+          "end": 49.019
+        },
+        {
+          "speaker": "1",
+          "text": "a",
+          "start": 49.08,
+          "end": 49.14
+        },
+        {
+          "speaker": "1",
+          "text": "dog.",
+          "start": 49.2,
+          "end": 49.519
+        },
+        {
+          "speaker": "0",
+          "text": "Okay,",
+          "start": 50.08,
+          "end": 50.4
+        },
+        {
+          "speaker": "0",
+          "text": "thank",
+          "start": 50.64,
+          "end": 50.799
+        },
+        {
+          "speaker": "0",
+          "text": "you.",
+          "start": 50.84,
+          "end": 51.079
+        },
+        {
+          "speaker": "0",
+          "text": "Please,",
+          "start": 56.56,
+          "end": 56.84
+        },
+        {
+          "speaker": "0",
+          "text": "please",
+          "start": 56.88,
+          "end": 57.059
+        },
+        {
+          "speaker": "0",
+          "text": "leave",
+          "start": 57.08,
+          "end": 57.22
+        },
+        {
+          "speaker": "0",
+          "text": "me",
+          "start": 57.26,
+          "end": 57.34
+        },
+        {
+          "speaker": "0",
+          "text": "a",
+          "start": 57.38,
+          "end": 57.439
+        },
+        {
+          "speaker": "0",
+          "text": "space",
+          "start": 57.48,
+          "end": 57.699
+        },
+        {
+          "speaker": "0",
+          "text": "at",
+          "start": 57.72,
+          "end": 57.78
+        },
+        {
+          "speaker": "0",
+          "text": "the",
+          "start": 57.8,
+          "end": 57.9
+        },
+        {
+          "speaker": "0",
+          "text": "bottom.",
+          "start": 57.96,
+          "end": 58.219
+        },
+        {
+          "speaker": "0",
+          "text": "I'm",
+          "start": 58.28,
+          "end": 58.439
+        },
+        {
+          "speaker": "0",
+          "text": "little.",
+          "start": 58.52,
+          "end": 58.96
+        }
+      ],
+      "activity": null,
+      "timing": "native",
+      "events": [],
+      "metadata": {
+        "speaker_labels_available": true,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.0016666666666666668
+        },
+        "raw_transcript": {
+          "text": "A kind of dog?\nYeah. It's actually sitting, so.\nSorry?\nIt's sitting.\nIt's sitting, it's not standing. Okay, I see it as one thing, it's very supportive. It's your best friend in your... You can talk to a dog, it can be your best friend. It doesn't discriminate between you based on what you are. Second, it's loyal. And third thing, it's got intuition. Means dogs can some- sometimes make out between a thief and a person. So basically, these are the three unique features I think belong to a dog.\nOkay, thank you. Please, please leave me a space at the bottom. I'm little.",
+          "words": [
+            {
+              "word": "A",
+              "start": 6.36,
+              "end": 6.44,
+              "speaker": 0
+            },
+            {
+              "word": "kind",
+              "start": 6.56,
+              "end": 6.739,
+              "speaker": 0
+            },
+            {
+              "word": "of",
+              "start": 6.8,
+              "end": 6.9,
+              "speaker": 0
+            },
+            {
+              "word": "dog?",
+              "start": 7,
+              "end": 7.32,
+              "speaker": 0
+            },
+            {
+              "word": "Yeah.",
+              "start": 9.4,
+              "end": 9.779,
+              "speaker": 1
+            },
+            {
+              "word": "It's",
+              "start": 13.48,
+              "end": 13.679,
+              "speaker": 1
+            },
+            {
+              "word": "actually",
+              "start": 13.76,
+              "end": 14.019,
+              "speaker": 1
+            },
+            {
+              "word": "sitting,",
+              "start": 14.16,
+              "end": 14.519,
+              "speaker": 1
+            },
+            {
+              "word": "so.",
+              "start": 14.84,
+              "end": 15.259,
+              "speaker": 1
+            },
+            {
+              "word": "Sorry?",
+              "start": 16,
+              "end": 16.26,
+              "speaker": 0
+            },
+            {
+              "word": "It's",
+              "start": 16.68,
+              "end": 16.78,
+              "speaker": 2
+            },
+            {
+              "word": "sitting.",
+              "start": 16.84,
+              "end": 17.039,
+              "speaker": 2
+            },
+            {
+              "word": "It's",
+              "start": 17.06,
+              "end": 17.22,
+              "speaker": 1
+            },
+            {
+              "word": "sitting,",
+              "start": 17.32,
+              "end": 17.58,
+              "speaker": 1
+            },
+            {
+              "word": "it's",
+              "start": 17.68,
+              "end": 17.8,
+              "speaker": 1
+            },
+            {
+              "word": "not",
+              "start": 17.84,
+              "end": 17.94,
+              "speaker": 1
+            },
+            {
+              "word": "standing.",
+              "start": 18.12,
+              "end": 18.559,
+              "speaker": 1
+            },
+            {
+              "word": "Okay,",
+              "start": 19.24,
+              "end": 19.519,
+              "speaker": 1
+            },
+            {
+              "word": "I",
+              "start": 19.68,
+              "end": 19.76,
+              "speaker": 1
+            },
+            {
+              "word": "see",
+              "start": 19.88,
+              "end": 20.02,
+              "speaker": 1
+            },
+            {
+              "word": "it",
+              "start": 20.04,
+              "end": 20.14,
+              "speaker": 1
+            },
+            {
+              "word": "as",
+              "start": 20.2,
+              "end": 20.32,
+              "speaker": 1
+            },
+            {
+              "word": "one",
+              "start": 20.44,
+              "end": 20.58,
+              "speaker": 1
+            },
+            {
+              "word": "thing,",
+              "start": 20.6,
+              "end": 20.76,
+              "speaker": 1
+            },
+            {
+              "word": "it's",
+              "start": 20.8,
+              "end": 20.96,
+              "speaker": 1
+            },
+            {
+              "word": "very",
+              "start": 21,
+              "end": 21.199,
+              "speaker": 1
+            },
+            {
+              "word": "supportive.",
+              "start": 21.28,
+              "end": 21.839,
+              "speaker": 1
+            },
+            {
+              "word": "It's",
+              "start": 24.16,
+              "end": 24.339,
+              "speaker": 1
+            },
+            {
+              "word": "your",
+              "start": 24.4,
+              "end": 24.539,
+              "speaker": 1
+            },
+            {
+              "word": "best",
+              "start": 24.64,
+              "end": 24.8,
+              "speaker": 1
+            },
+            {
+              "word": "friend",
+              "start": 24.84,
+              "end": 25.019,
+              "speaker": 1
+            },
+            {
+              "word": "in",
+              "start": 25.08,
+              "end": 25.159,
+              "speaker": 1
+            },
+            {
+              "word": "your...",
+              "start": 25.24,
+              "end": 25.56,
+              "speaker": 1
+            },
+            {
+              "word": "You",
+              "start": 26.2,
+              "end": 26.28,
+              "speaker": 1
+            },
+            {
+              "word": "can",
+              "start": 26.32,
+              "end": 26.42,
+              "speaker": 1
+            },
+            {
+              "word": "talk",
+              "start": 26.48,
+              "end": 26.58,
+              "speaker": 1
+            },
+            {
+              "word": "to",
+              "start": 26.62,
+              "end": 26.699,
+              "speaker": 1
+            },
+            {
+              "word": "a",
+              "start": 26.76,
+              "end": 26.819,
+              "speaker": 1
+            },
+            {
+              "word": "dog,",
+              "start": 26.88,
+              "end": 27.02,
+              "speaker": 1
+            },
+            {
+              "word": "it",
+              "start": 27.08,
+              "end": 27.139,
+              "speaker": 1
+            },
+            {
+              "word": "can",
+              "start": 27.16,
+              "end": 27.26,
+              "speaker": 1
+            },
+            {
+              "word": "be",
+              "start": 27.28,
+              "end": 27.339,
+              "speaker": 1
+            },
+            {
+              "word": "your",
+              "start": 27.36,
+              "end": 27.44,
+              "speaker": 1
+            },
+            {
+              "word": "best",
+              "start": 27.46,
+              "end": 27.58,
+              "speaker": 1
+            },
+            {
+              "word": "friend.",
+              "start": 27.6,
+              "end": 27.76,
+              "speaker": 1
+            },
+            {
+              "word": "It",
+              "start": 27.8,
+              "end": 27.9,
+              "speaker": 1
+            },
+            {
+              "word": "doesn't",
+              "start": 27.92,
+              "end": 28.119,
+              "speaker": 1
+            },
+            {
+              "word": "discriminate",
+              "start": 28.16,
+              "end": 28.58,
+              "speaker": 1
+            },
+            {
+              "word": "between",
+              "start": 28.64,
+              "end": 28.859,
+              "speaker": 1
+            },
+            {
+              "word": "you",
+              "start": 28.92,
+              "end": 29.039,
+              "speaker": 1
+            },
+            {
+              "word": "based",
+              "start": 29.72,
+              "end": 29.98,
+              "speaker": 1
+            },
+            {
+              "word": "on",
+              "start": 30.02,
+              "end": 30.1,
+              "speaker": 1
+            },
+            {
+              "word": "what",
+              "start": 30.16,
+              "end": 30.28,
+              "speaker": 1
+            },
+            {
+              "word": "you",
+              "start": 30.32,
+              "end": 30.42,
+              "speaker": 1
+            },
+            {
+              "word": "are.",
+              "start": 30.46,
+              "end": 30.679,
+              "speaker": 1
+            },
+            {
+              "word": "Second,",
+              "start": 31.52,
+              "end": 31.8,
+              "speaker": 1
+            },
+            {
+              "word": "it's",
+              "start": 31.86,
+              "end": 32.06,
+              "speaker": 1
+            },
+            {
+              "word": "loyal.",
+              "start": 33.64,
+              "end": 34.039,
+              "speaker": 1
+            },
+            {
+              "word": "And",
+              "start": 35.56,
+              "end": 35.739,
+              "speaker": 1
+            },
+            {
+              "word": "third",
+              "start": 35.92,
+              "end": 36.159,
+              "speaker": 1
+            },
+            {
+              "word": "thing,",
+              "start": 36.24,
+              "end": 36.48,
+              "speaker": 1
+            },
+            {
+              "word": "it's",
+              "start": 36.8,
+              "end": 37,
+              "speaker": 1
+            },
+            {
+              "word": "got",
+              "start": 37.12,
+              "end": 37.319,
+              "speaker": 1
+            },
+            {
+              "word": "intuition.",
+              "start": 37.6,
+              "end": 38.24,
+              "speaker": 1
+            },
+            {
+              "word": "Means",
+              "start": 40.72,
+              "end": 40.939,
+              "speaker": 1
+            },
+            {
+              "word": "dogs",
+              "start": 41.08,
+              "end": 41.28,
+              "speaker": 1
+            },
+            {
+              "word": "can",
+              "start": 41.32,
+              "end": 41.42,
+              "speaker": 1
+            },
+            {
+              "word": "some-",
+              "start": 41.48,
+              "end": 41.719,
+              "speaker": 1
+            },
+            {
+              "word": "sometimes",
+              "start": 41.8,
+              "end": 42.1,
+              "speaker": 1
+            },
+            {
+              "word": "make",
+              "start": 42.159,
+              "end": 42.299,
+              "speaker": 1
+            },
+            {
+              "word": "out",
+              "start": 42.32,
+              "end": 42.46,
+              "speaker": 1
+            },
+            {
+              "word": "between",
+              "start": 42.519,
+              "end": 42.779,
+              "speaker": 1
+            },
+            {
+              "word": "a",
+              "start": 43.08,
+              "end": 43.159,
+              "speaker": 1
+            },
+            {
+              "word": "thief",
+              "start": 43.32,
+              "end": 43.519,
+              "speaker": 1
+            },
+            {
+              "word": "and",
+              "start": 43.6,
+              "end": 43.719,
+              "speaker": 1
+            },
+            {
+              "word": "a",
+              "start": 43.8,
+              "end": 43.879,
+              "speaker": 1
+            },
+            {
+              "word": "person.",
+              "start": 45.2,
+              "end": 45.559,
+              "speaker": 1
+            },
+            {
+              "word": "So",
+              "start": 45.6,
+              "end": 45.719,
+              "speaker": 1
+            },
+            {
+              "word": "basically,",
+              "start": 45.8,
+              "end": 46.22,
+              "speaker": 1
+            },
+            {
+              "word": "these",
+              "start": 46.44,
+              "end": 46.58,
+              "speaker": 1
+            },
+            {
+              "word": "are",
+              "start": 46.6,
+              "end": 46.7,
+              "speaker": 1
+            },
+            {
+              "word": "the",
+              "start": 46.72,
+              "end": 46.799,
+              "speaker": 1
+            },
+            {
+              "word": "three",
+              "start": 46.84,
+              "end": 46.98,
+              "speaker": 1
+            },
+            {
+              "word": "unique",
+              "start": 47.04,
+              "end": 47.24,
+              "speaker": 1
+            },
+            {
+              "word": "features",
+              "start": 47.28,
+              "end": 47.639,
+              "speaker": 1
+            },
+            {
+              "word": "I",
+              "start": 47.76,
+              "end": 47.819,
+              "speaker": 1
+            },
+            {
+              "word": "think",
+              "start": 47.879,
+              "end": 48.039,
+              "speaker": 1
+            },
+            {
+              "word": "belong",
+              "start": 48.72,
+              "end": 48.92,
+              "speaker": 1
+            },
+            {
+              "word": "to",
+              "start": 48.96,
+              "end": 49.019,
+              "speaker": 1
+            },
+            {
+              "word": "a",
+              "start": 49.08,
+              "end": 49.14,
+              "speaker": 1
+            },
+            {
+              "word": "dog.",
+              "start": 49.2,
+              "end": 49.519,
+              "speaker": 1
+            },
+            {
+              "word": "Okay,",
+              "start": 50.08,
+              "end": 50.4,
+              "speaker": 0
+            },
+            {
+              "word": "thank",
+              "start": 50.64,
+              "end": 50.799,
+              "speaker": 0
+            },
+            {
+              "word": "you.",
+              "start": 50.84,
+              "end": 51.079,
+              "speaker": 0
+            },
+            {
+              "word": "Please,",
+              "start": 56.56,
+              "end": 56.84,
+              "speaker": 0
+            },
+            {
+              "word": "please",
+              "start": 56.88,
+              "end": 57.059,
+              "speaker": 0
+            },
+            {
+              "word": "leave",
+              "start": 57.08,
+              "end": 57.22,
+              "speaker": 0
+            },
+            {
+              "word": "me",
+              "start": 57.26,
+              "end": 57.34,
+              "speaker": 0
+            },
+            {
+              "word": "a",
+              "start": 57.38,
+              "end": 57.439,
+              "speaker": 0
+            },
+            {
+              "word": "space",
+              "start": 57.48,
+              "end": 57.699,
+              "speaker": 0
+            },
+            {
+              "word": "at",
+              "start": 57.72,
+              "end": 57.78,
+              "speaker": 0
+            },
+            {
+              "word": "the",
+              "start": 57.8,
+              "end": 57.9,
+              "speaker": 0
+            },
+            {
+              "word": "bottom.",
+              "start": 57.96,
+              "end": 58.219,
+              "speaker": 0
+            },
+            {
+              "word": "I'm",
+              "start": 58.28,
+              "end": 58.439,
+              "speaker": 0
+            },
+            {
+              "word": "little.",
+              "start": 58.52,
+              "end": 58.96,
+              "speaker": 0
+            }
+          ],
+          "segments": [
+            {
+              "id": 0,
+              "start": 6.36,
+              "end": 7.32,
+              "text": "A kind of dog?",
+              "speaker": 0
+            },
+            {
+              "id": 1,
+              "start": 9.4,
+              "end": 15.259,
+              "text": "Yeah. It's actually sitting, so.",
+              "speaker": 1
+            },
+            {
+              "id": 2,
+              "start": 16,
+              "end": 16.26,
+              "text": "Sorry?",
+              "speaker": 0
+            },
+            {
+              "id": 3,
+              "start": 16.68,
+              "end": 17.039,
+              "text": "It's sitting.",
+              "speaker": 2
+            },
+            {
+              "id": 4,
+              "start": 17.06,
+              "end": 49.519,
+              "text": "It's sitting, it's not standing. Okay, I see it as one thing, it's very supportive. It's your best friend in your... You can talk to a dog, it can be your best friend. It doesn't discriminate between you based on what you are. Second, it's loyal. And third thing, it's got intuition. Means dogs can some- sometimes make out between a thief and a person. So basically, these are the three unique features I think belong to a dog.",
+              "speaker": 1
+            },
+            {
+              "id": 5,
+              "start": 50.08,
+              "end": 58.96,
+              "text": "Okay, thank you. Please, please leave me a space at the bottom. I'm little.",
+              "speaker": 0
+            }
+          ]
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "strict",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "microsoft/mai-transcribe-2",
+        "generation_id": "gen-stt-1790484327-rkb89ZpmjeqhkbAuqRWw"
+      }
+    },
+    "wall_seconds": 10.216664360021241,
+    "rtf": 0.17027773933368734,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 54292480,
+    "scores": {
+      "wer": {
+        "errors": 25,
+        "length": 125,
+        "insertions": 1,
+        "deletions": 21,
+        "substitutions": 3
+      },
+      "cpwer": {
+        "errors": 28,
+        "length": 125,
+        "insertions": 1,
+        "deletions": 21,
+        "substitutions": 6
+      },
+      "tcpwer": {
+        "errors": 30,
+        "length": 125,
+        "insertions": 3,
+        "deletions": 23,
+        "substitutions": 4
+      },
+      "der": {
+        "confusion": 0.7179999999999964,
+        "false alarm": 0.14000000000000679,
+        "correct": 19.155000000000022,
+        "missed detection": 29.106999999999886,
+        "total": 48.979999999999905,
+        "diarization error rate": 0.6117803184973448
+      },
+      "coverage": {
+        "covered_seconds": 19.87300000000002,
+        "reference_seconds": 43.14999999999998,
+        "ratio": 0.46055619930475156
+      },
+      "timing": "native",
+      "predicted_speakers": 3,
+      "reference_speakers": 4
+    }
+  }
+]

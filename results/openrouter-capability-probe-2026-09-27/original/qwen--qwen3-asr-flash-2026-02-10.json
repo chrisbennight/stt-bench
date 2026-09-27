@@ -1,0 +1,33 @@
+[
+  {
+    "id": "ES2004a-4800000",
+    "duration": 60.0,
+    "seed": 4264379538,
+    "status": "inference_failed",
+    "error_type": "RemoteRequestError",
+    "http_status": 400,
+    "billing_status": "unknown",
+    "reason": "http_error",
+    "wall_seconds": 8.875001664971933,
+    "scores": {
+      "wer": {
+        "errors": 125,
+        "length": 125,
+        "insertions": 0,
+        "deletions": 125,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 43.14999999999998,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  }
+]

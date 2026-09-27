@@ -41,6 +41,8 @@ def annotation(segments):
     for index, s in enumerate(segments):
         if s.start is None:
             raise ValueError("DER requires timed speaker activity")
+        if s.start == s.end:
+            continue
         result[Segment(s.start, s.end), index] = s.speaker
     return result
 

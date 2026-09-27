@@ -1,0 +1,289 @@
+{
+  "models": [
+    {
+      "model": "assemblyai/universal-3-5-pro",
+      "status": "ok",
+      "http_status": null,
+      "accessible_to_key": true,
+      "available_metrics": [
+        "wer",
+        "coverage"
+      ],
+      "missing_required_metrics": [],
+      "source_sha256": "66b3183ac6cd4bebcb00675dfcaebfc400ec87acf9c9219573a071321a820819",
+      "reported_cost_usd": 0.00375
+    },
+    {
+      "model": "deepgram/nova-3",
+      "status": "ok",
+      "http_status": null,
+      "accessible_to_key": true,
+      "available_metrics": [
+        "wer",
+        "cpwer",
+        "tcpwer",
+        "der",
+        "coverage"
+      ],
+      "missing_required_metrics": [],
+      "source_sha256": "06cdc70cd060715b8784e32ae5f9697b9ca32b6d9b82db63c4068c1b49b06df3",
+      "reported_cost_usd": 0.004300000000002
+    },
+    {
+      "model": "fish-audio/transcribe-1",
+      "status": "ok",
+      "http_status": null,
+      "accessible_to_key": true,
+      "available_metrics": [
+        "wer",
+        "coverage"
+      ],
+      "missing_required_metrics": [],
+      "source_sha256": "97f93b740e51aa5a2101626cc6d08e35861a409893ca979b03d97a2f56a133c3",
+      "reported_cost_usd": 0.006
+    },
+    {
+      "model": "fish-audio/transcribe-1-pro",
+      "status": "ok",
+      "http_status": null,
+      "accessible_to_key": true,
+      "available_metrics": [
+        "wer",
+        "cpwer",
+        "coverage"
+      ],
+      "missing_required_metrics": [],
+      "source_sha256": "1d0494960bce327ff8f9dfdf06071344c9851067e209f1f78db7f7ec76ffb33c",
+      "reported_cost_usd": 0.006
+    },
+    {
+      "model": "google/chirp-3",
+      "status": "inference_failed",
+      "http_status": 400,
+      "accessible_to_key": true,
+      "available_metrics": [],
+      "missing_required_metrics": [
+        "coverage",
+        "cpwer",
+        "der",
+        "tcpwer",
+        "wer"
+      ],
+      "source_sha256": "400e6d017f7d8a4e85da12046f932b4b8407ac7979755da1455e52237d9eec6d",
+      "reported_cost_usd": null
+    },
+    {
+      "model": "google/gemini-3.5-transcribe",
+      "status": "inference_failed",
+      "http_status": 404,
+      "accessible_to_key": false,
+      "available_metrics": [],
+      "missing_required_metrics": [
+        "coverage",
+        "cpwer",
+        "der",
+        "tcpwer",
+        "wer"
+      ],
+      "source_sha256": "2863a5ecafc406a76a196cbe621385f579787ae11108b04f37858380c3281e06",
+      "reported_cost_usd": null
+    },
+    {
+      "model": "meta/muse-voice-transcribe-1.0",
+      "status": "inference_failed",
+      "http_status": 400,
+      "accessible_to_key": false,
+      "available_metrics": [],
+      "missing_required_metrics": [
+        "coverage",
+        "cpwer",
+        "der",
+        "tcpwer",
+        "wer"
+      ],
+      "source_sha256": "9047a5b2e2adafc653dc186b6acad2e32d6823ab188f71ea73519aeb3bad296a",
+      "reported_cost_usd": null
+    },
+    {
+      "model": "microsoft/mai-transcribe-1.5",
+      "status": "ok",
+      "http_status": null,
+      "accessible_to_key": true,
+      "available_metrics": [
+        "wer"
+      ],
+      "missing_required_metrics": [],
+      "source_sha256": "8555baa114f712f73be62bd0079c0bc224d5992348b3309062a4f975302092ae",
+      "reported_cost_usd": 0.006
+    },
+    {
+      "model": "microsoft/mai-transcribe-2",
+      "status": "ok",
+      "http_status": null,
+      "accessible_to_key": true,
+      "available_metrics": [
+        "wer",
+        "cpwer",
+        "tcpwer",
+        "der",
+        "coverage"
+      ],
+      "missing_required_metrics": [],
+      "source_sha256": "5d2d4cffc7b5598736fa2ada88fa0a6507a309c7dbbe5854fe5a277dded7078b",
+      "reported_cost_usd": 0.0016666666666666668
+    },
+    {
+      "model": "mistralai/voxtral-mini-transcribe",
+      "status": "inference_failed",
+      "http_status": 404,
+      "accessible_to_key": false,
+      "available_metrics": [],
+      "missing_required_metrics": [
+        "coverage",
+        "cpwer",
+        "der",
+        "tcpwer",
+        "wer"
+      ],
+      "source_sha256": "fd95ce1a36d729dbb7700a726f01f756de936d1d7ccf8b2d740909fa1c18ad02",
+      "reported_cost_usd": null
+    },
+    {
+      "model": "nvidia/nemotron-3.5-asr-streaming-multilingual-0.6b",
+      "status": "ok",
+      "http_status": null,
+      "accessible_to_key": true,
+      "available_metrics": [
+        "wer",
+        "coverage"
+      ],
+      "missing_required_metrics": [],
+      "source_sha256": "50c4bce6d1c4bbc855618e04506b6edc7e8db982e390f289437eea29e4cdc0e3",
+      "reported_cost_usd": 0.0001998
+    },
+    {
+      "model": "nvidia/parakeet-tdt-0.6b-v3",
+      "status": "ok",
+      "http_status": null,
+      "accessible_to_key": true,
+      "available_metrics": [
+        "wer",
+        "coverage"
+      ],
+      "missing_required_metrics": [],
+      "source_sha256": "857a3a060d74c3e7f39e0a1782b20e6e8daad603005cd778421a3804026133cb",
+      "reported_cost_usd": 0.0015
+    },
+    {
+      "model": "openai/gpt-4o-mini-transcribe",
+      "status": "inference_failed",
+      "http_status": 404,
+      "accessible_to_key": false,
+      "available_metrics": [],
+      "missing_required_metrics": [
+        "wer"
+      ],
+      "source_sha256": "b03071b56dc24c0bbed27fe3d96d46b236c21372aaff24a936c4da4a6be97491",
+      "reported_cost_usd": null
+    },
+    {
+      "model": "openai/gpt-4o-transcribe",
+      "status": "inference_failed",
+      "http_status": 404,
+      "accessible_to_key": false,
+      "available_metrics": [],
+      "missing_required_metrics": [
+        "wer"
+      ],
+      "source_sha256": "080af4ff8433de6e45ee0860f8bf00223fabc4dfaa515ceaabea856774f46314",
+      "reported_cost_usd": null
+    },
+    {
+      "model": "openai/gpt-transcribe",
+      "status": "inference_failed",
+      "http_status": 400,
+      "accessible_to_key": false,
+      "available_metrics": [],
+      "missing_required_metrics": [
+        "coverage",
+        "wer"
+      ],
+      "source_sha256": "cfefe0dfcb5779c4a661872fc4fc8586aa340bb94d9e2fcdc69e819ea87c8fbe",
+      "reported_cost_usd": null
+    },
+    {
+      "model": "openai/whisper-1",
+      "status": "inference_failed",
+      "http_status": 404,
+      "accessible_to_key": false,
+      "available_metrics": [],
+      "missing_required_metrics": [
+        "coverage",
+        "wer"
+      ],
+      "source_sha256": "3a6ad5d5c1771ed2db307ad9c3304273f95b83bae75157b621d56cdc03a78b7d",
+      "reported_cost_usd": null
+    },
+    {
+      "model": "openai/whisper-large-v3",
+      "status": "ok",
+      "http_status": null,
+      "accessible_to_key": true,
+      "available_metrics": [
+        "wer",
+        "coverage"
+      ],
+      "missing_required_metrics": [],
+      "source_sha256": "71429e8cedc49a555fb319bec945fb9234096059e9cadda545df2ab1adaaa362",
+      "reported_cost_usd": 0.0018500000631446667
+    },
+    {
+      "model": "openai/whisper-large-v3-turbo",
+      "status": "ok",
+      "http_status": null,
+      "accessible_to_key": true,
+      "available_metrics": [
+        "wer",
+        "coverage"
+      ],
+      "missing_required_metrics": [],
+      "source_sha256": "79c2ced4d3bca2ea6b69592c44b080ad0cced9fbdf7d339cbd1162b146b0f16f",
+      "reported_cost_usd": 0.0001998
+    },
+    {
+      "model": "qwen/qwen3-asr-flash-2026-02-10",
+      "status": "inference_failed",
+      "http_status": 400,
+      "accessible_to_key": false,
+      "available_metrics": [],
+      "missing_required_metrics": [
+        "coverage",
+        "wer"
+      ],
+      "source_sha256": "406b4bb20d8194c1092cc7a2688b1992c16a8a6dfc9e82bcb6ed2fbb7338e344",
+      "reported_cost_usd": null
+    },
+    {
+      "model": "x-ai/grok-stt-1.0",
+      "status": "inference_failed",
+      "http_status": 404,
+      "accessible_to_key": false,
+      "available_metrics": [],
+      "missing_required_metrics": [
+        "coverage",
+        "cpwer",
+        "der",
+        "tcpwer",
+        "wer"
+      ],
+      "source_sha256": "0f8f878679f8673052a2819244fbbe47561dc19adc88fa6568f38861c3d2dae0",
+      "reported_cost_usd": null
+    }
+  ],
+  "transcription_requests": 22,
+  "successful_transcripts_after_reparse": 10,
+  "sum_reported_cost_usd": 0.031466266729813334,
+  "observed_credit_used_usd": 0.03146626600000069,
+  "full_run_started": false,
+  "note": "Balance can settle asynchronously. Failures retain unknown billing states."
+}

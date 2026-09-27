@@ -9,6 +9,11 @@ IDs, provider tags, source links, observed output counts, proposed request optio
 base-price estimates. All queried endpoints returned empty `supported_parameters` lists;
 those lists are not evidence that timestamps or speaker labels are unsupported.
 
+The [live probe results](../results/openrouter-capability-probe-2026-09-27/README.md) now
+validate ten routes. Nine others are absent from the authenticated model list, and Chirp
+rejects verbose output even without provider options. Total observed probe spend is about
+$0.0315. The full-run check failed as intended; no full rerun has started.
+
 ## What the audit established
 
 - MAI 2 and Deepgram already returned structured timing and speakers, although some clips

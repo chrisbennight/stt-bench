@@ -1,0 +1,17 @@
+{
+  "id": "ES2004a-4800000",
+  "duration": 60.0,
+  "seed": 4264379538,
+  "status": "inference_failed",
+  "error_type": "RemoteRequestError",
+  "http_status": 400,
+  "billing_status": "unknown",
+  "diagnostic": {
+    "mentions": [
+      "verbose_json",
+      "response_format"
+    ]
+  },
+  "reason": "http_error",
+  "wall_seconds": 0.2719139370601624
+}

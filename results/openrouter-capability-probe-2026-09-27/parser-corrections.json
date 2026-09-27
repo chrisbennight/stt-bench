@@ -1,0 +1,26 @@
+[
+  {
+    "model": "fish-audio/transcribe-1",
+    "source_sha256": "f7451dc10c6e695ef8248ba1f713829f63d0110a1c709cd926710c8fb7e5c9d6",
+    "original_reason": "nonpositive_transcript_interval",
+    "new_status": "ok"
+  },
+  {
+    "model": "fish-audio/transcribe-1-pro",
+    "source_sha256": "4efc1549a95090533c4a79045824f466cb30e4b8df5e538fa6d8bf2cdd070d5b",
+    "original_reason": "nonpositive_transcript_interval",
+    "new_status": "ok"
+  },
+  {
+    "model": "nvidia/nemotron-3.5-asr-streaming-multilingual-0.6b",
+    "source_sha256": "7d412d2d80ae27d44312a1082a4c8d1b696bd8d592c5e0a896a4f2307db377ca",
+    "original_reason": "transcript_extends_past_audio",
+    "new_status": "ok"
+  },
+  {
+    "model": "nvidia/parakeet-tdt-0.6b-v3",
+    "source_sha256": "04e400ba8de4aca143d0acea7dad633f910b20366057570f6cae9beabab128cc",
+    "original_reason": "nonpositive_transcript_interval",
+    "new_status": "ok"
+  }
+]

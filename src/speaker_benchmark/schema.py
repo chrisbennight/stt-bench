@@ -37,8 +37,9 @@ class Segment:
             raise ValueError("Both timestamps must be supplied or both omitted")
         if self.start is not None:
             self.start, self.end = number(self.start), number(self.end)
-            if self.end <= self.start:
-                raise ValueError("Segment end must follow start")
+            # ASR aligners can place a word at a point without assigning it duration.
+            if self.end < self.start:
+                raise ValueError("Segment end must not precede start")
 
 
 @dataclass
@@ -106,7 +107,7 @@ def load_manifest(path):
         refs = [Segment(**s) for s in row["reference"]]
         activity = [Segment(**s) for s in row.get("reference_activity", row["reference"])]
         for seg in refs + activity:
-            if seg.start is None or seg.end > info.duration + 0.05:
+            if seg.start is None or seg.end <= seg.start or seg.end > info.duration + 0.05:
                 raise ValueError(f"{identifier}: invalid reference timing")
         row.update(
             audio=str(audio),

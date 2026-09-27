@@ -104,10 +104,30 @@ def validate_options(options):
 class RemoteRequestError(RuntimeError):
     """A request failed; do not expose response bodies or retry a possibly billed request."""
 
-    def __init__(self, http_status=None, reason="http_error"):
+    def __init__(self, http_status=None, reason="http_error", diagnostic=None):
         self.http_status = http_status
         self.reason = reason
+        self.diagnostic = diagnostic or {}
         super().__init__("OpenRouter request failed; check the provider request history")
+
+
+def error_diagnostic(body):
+    """Classify an upstream error without saving its potentially sensitive message."""
+    try:
+        data = json.loads(body)
+    except (ValueError, UnicodeError):
+        return {"format": "non_json"}
+    error = data.get("error", {}) if isinstance(data, dict) else {}
+    message = error.get("message", "") if isinstance(error, dict) else ""
+    if not isinstance(message, str):
+        return {"format": "unrecognized"}
+    message = message.lower()
+    return {"mentions": [token for token in (
+        "verbose_json", "response_format", "diarization", "diarize", "timestamp",
+        "unsupported", "not supported", "privacy", "data policy", "no endpoints",
+        "provider", "config", "features", "invalid", "language",
+        "requires", "openai-compatible", "only", "not available",
+    ) if token in message]}
 
 
 class NoRedirect(urllib.request.HTTPRedirectHandler):
@@ -215,7 +235,7 @@ def parse_response(data, duration, clip_timestamps=False, model=None):
         if start is not None or end is not None:
             if any(type(v) not in (int, float) or not math.isfinite(v) for v in (start, end)):
                 raise ResponseValidationError("invalid_transcript_timestamps")
-            if end <= start:
+            if end < start:
                 raise ResponseValidationError("nonpositive_transcript_interval")
             if clip_timestamps and start >= duration:
                 # Preserve late words for transcription scoring. DER uses the audio UEM.
@@ -358,7 +378,8 @@ class OpenRouter(Adapter):
                 body = response.read(8 * 1024 * 1024 + 1)
                 generation_id = response.headers.get("X-Generation-Id")
         except urllib.error.HTTPError as exc:
-            raise RemoteRequestError(exc.code) from None
+            diagnostic = error_diagnostic(exc.read(65536))
+            raise RemoteRequestError(exc.code, diagnostic=diagnostic) from None
         except (urllib.error.URLError, TimeoutError, OSError) as exc:
             cause = exc.reason if isinstance(exc, urllib.error.URLError) else exc
             reason = "timeout" if isinstance(cause, TimeoutError) else "transport_error"
@@ -374,7 +395,7 @@ class OpenRouter(Adapter):
             raise InvalidModelOutput("", {**metadata, "reason": "invalid_json"}) from None
         try:
             prediction = parse_response(
-                data, duration, clip_timestamps=self.options["model"] == "deepgram/nova-3",
+                data, duration, clip_timestamps=True,
                 model=self.options["model"],
             )
         except ResponseValidationError as exc:
