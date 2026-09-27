@@ -148,6 +148,7 @@ def parse_response(data, duration, clip_timestamps=False):
         rows, text_key = words, "word"
     segments = []
     adjustments = []
+    outside_intervals = []
     speakers_available = bool(rows) and all(s.get("speaker") is not None for s in rows)
     for index, row in enumerate(rows):
         text = row.get(text_key)
@@ -159,7 +160,10 @@ def parse_response(data, duration, clip_timestamps=False):
                 raise ResponseValidationError("invalid_transcript_timestamps")
             if end <= start:
                 raise ResponseValidationError("nonpositive_transcript_interval")
-            if clip_timestamps and (start < 0 or end > duration):
+            if clip_timestamps and start >= duration:
+                # Preserve late words for transcription scoring. DER uses the audio UEM.
+                outside_intervals.append(index)
+            elif clip_timestamps and (start < 0 or end > duration):
                 clipped_start, clipped_end = max(0, start), min(duration, end)
                 if clipped_end <= clipped_start:
                     raise ResponseValidationError("transcript_interval_outside_audio")
@@ -204,6 +208,7 @@ def parse_response(data, duration, clip_timestamps=False):
             "execution": "remote_api",
             "timestamp_policy": "intersect_audio_bounds" if clip_timestamps else "strict",
             "timestamp_adjustments": adjustments,
+            "intervals_after_audio": outside_intervals,
         },
     )
 

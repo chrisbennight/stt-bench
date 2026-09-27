@@ -112,9 +112,9 @@ def test_deepgram_boundary_word_is_clipped_without_losing_text_or_raw_timing():
 
 
 @pytest.mark.parametrize(
-    "start,end", [(60, 61), (-2, -1), (1, 1), (2, 1), (0, float("nan")), (None, 1)]
+    "start,end", [(-2, -1), (1, 1), (2, 1), (0, float("nan")), (None, 1)]
 )
-def test_clipping_does_not_hide_invalid_or_wholly_outside_intervals(start, end):
+def test_clipping_does_not_hide_invalid_or_negative_intervals(start, end):
     with pytest.raises(ValueError):
         parse_response(
             {
@@ -126,6 +126,30 @@ def test_clipping_does_not_hide_invalid_or_wholly_outside_intervals(start, end):
             60,
             clip_timestamps=True,
         )
+
+
+def test_late_word_retains_speaker_and_counts_as_insertion_without_der_outside_audio():
+    prediction = parse_response(
+        {
+            "text": "hello extra",
+            "words": [
+                {"word": "hello", "speaker": 0, "start": 0, "end": 1},
+                {"word": "extra", "speaker": 1, "start": 60.015, "end": 60.095},
+            ],
+        },
+        60,
+        clip_timestamps=True,
+    )
+    assert prediction.segments[-1] == Segment("1", "extra", 60.015, 60.095)
+    assert prediction.metadata["intervals_after_audio"] == [1]
+    refs = [Segment("a", "hello", 0, 1)]
+    scores = score_record(
+        {"reference": refs, "reference_activity": refs, "duration": 60}, prediction
+    )
+    for metric in ("wer", "cpwer", "tcpwer"):
+        assert scores[metric]["insertions"] == 1
+    assert scores["der"]["diarization error rate"] == 0
+    assert scores["coverage"]["ratio"] == 1
 
 
 def test_phrase_boundary_clipping_and_unchanged_valid_timestamps():

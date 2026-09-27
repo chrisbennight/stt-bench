@@ -179,8 +179,27 @@ A diagnostic replay reproduced a Deepgram word ending at 61.314938 seconds in a
 `deepgram/nova-3`, intervals crossing an audio boundary now use their intersection with
 `[0, audio duration]`. Word text and speaker labels remain unchanged. Original timestamps
 remain in `raw_transcript`, each adjustment is recorded in `timestamp_adjustments`, and
-affected predictions have `timing: native_clipped`. Intervals wholly outside the clip,
-reversed or zero-length intervals, and non-finite times are still rejected.
+affected predictions have `timing: native_clipped`. Positive intervals entirely after
+the audio retain their reported timestamps and speaker labels, with their indices
+recorded in `intervals_after_audio`. WER, cpWER, and tcpWER retain those words, including
+any insertion errors; DER uses only the actual audio duration as its evaluation region.
+This avoids deleting words or inventing timestamps to satisfy validation. Intervals
+entirely before zero, reversed or zero-length intervals, and non-finite times remain
+invalid. The timestamp policy is applied without consulting reference transcripts.
+
+Saved responses can be reparsed without another paid request. The destination must
+not exist; original predictions remain untouched:
+
+```bash
+uv run python scripts/reparse_deepgram_run.py \
+  runs/openrouter-deepgram runs/openrouter-deepgram-corrected
+```
+
+The corrected 94-clip run has WER **40.60%**. Five responses lack speaker labels,
+so full-run cpWER, tcpWER, and DER remain unavailable. On the **89 clips with speaker
+labels**, weighted cpWER is **66.68%**, tcpWER **67.98%**, and DER **56.38%**.
+These subset scores must not be compared directly against other models' full-run scores.
+The previously rejected boundary clip now contributes to all four metrics.
 
 Rejected JSON transcripts now retain allowlisted text, words, segments, and usage with
 a stable validation reason. Unknown fields, server error bodies, and request headers
