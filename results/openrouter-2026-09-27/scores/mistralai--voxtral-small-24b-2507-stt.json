@@ -1,0 +1,2879 @@
+[
+  {
+    "id": "ES2004a-0",
+    "duration": 60.0,
+    "seed": 1956091378,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "Are we? No. We're not allowed to get in the light, so we're going to sit. I think this goes around the back side. Okay. Right there. No, unfortunately, because of the cameras. Am I supposed to be standing up there? You don't have to. Okay. Both of these are cropped. Can you just change the slide? Yeah.",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.003
+        },
+        "raw_transcript": {
+          "text": "Are we? No. We're not allowed to get in the light, so we're going to sit. I think this goes around the back side. Okay. Right there. No, unfortunately, because of the cameras. Am I supposed to be standing up there? You don't have to. Okay. Both of these are cropped. Can you just change the slide? Yeah."
+        },
+        "execution": "remote_api",
+        "model": "mistralai/voxtral-small-24b-2507-stt",
+        "generation_id": "gen-stt-1790474262-nsYEaQvqqnT5Ul9vpBHo"
+      }
+    },
+    "wall_seconds": 15.236257951008156,
+    "rtf": 0.2539376325168026,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 54145024,
+    "scores": {
+      "wer": {
+        "errors": 54,
+        "length": 62,
+        "insertions": 3,
+        "deletions": 7,
+        "substitutions": 44
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 3
+    }
+  },
+  {
+    "id": "ES2004a-960000",
+    "duration": 60.0,
+    "seed": 1308222050,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "Okay, hello everybody. I'm Sarah, the project manager, and this is our first meeting, surprisingly enough. Okay, this is our agenda. We will do some stuff, get to know each other a bit better, feel more comfortable with each other. Then we'll go do chill training, talk about the project plan, discuss our own ideas and everything. And we've got 25 minutes to do that, as far as I can understand. Now, we're developing your remote control.",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.003
+        },
+        "raw_transcript": {
+          "text": "Okay, hello everybody. I'm Sarah, the project manager, and this is our first meeting, surprisingly enough. Okay, this is our agenda. We will do some stuff, get to know each other a bit better, feel more comfortable with each other. Then we'll go do chill training, talk about the project plan, discuss our own ideas and everything. And we've got 25 minutes to do that, as far as I can understand. Now, we're developing your remote control."
+        },
+        "execution": "remote_api",
+        "model": "mistralai/voxtral-small-24b-2507-stt",
+        "generation_id": "gen-stt-1790474273-6CPgZcmyWpaRvaWm3Fe4"
+      }
+    },
+    "wall_seconds": 12.179698680061847,
+    "rtf": 0.20299497800103078,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58474496,
+    "scores": {
+      "wer": {
+        "errors": 21,
+        "length": 95,
+        "insertions": 0,
+        "deletions": 18,
+        "substitutions": 3
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 2
+    }
+  },
+  {
+    "id": "ES2004a-1920000",
+    "duration": 60.0,
+    "seed": 648644041,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "which you probably already know. We want it to be original, something that people haven't thought of, it's not out in the shops. Trendy, appealing to a wide market, but not a hunk of metal. And user-friendly, grannies to kids, maybe even pooches should be able to use it. Okay, first is the functional design. This is where we all go off and do our individual work. What needs need to be fulfilled by the product, what effects the product has to have, and how it's actually going to do that. Conceptual design, what we're thinking, how it's going to go, and then the detail design, how we're actually going to put it into practice and make it work. Okay, right. We're going to practice with the pens and draw our favourite animal on the whiteboard. I'll go first.",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.003
+        },
+        "raw_transcript": {
+          "text": "which you probably already know. We want it to be original, something that people haven't thought of, it's not out in the shops. Trendy, appealing to a wide market, but not a hunk of metal. And user-friendly, grannies to kids, maybe even pooches should be able to use it. Okay, first is the functional design. This is where we all go off and do our individual work. What needs need to be fulfilled by the product, what effects the product has to have, and how it's actually going to do that. Conceptual design, what we're thinking, how it's going to go, and then the detail design, how we're actually going to put it into practice and make it work. Okay, right. We're going to practice with the pens and draw our favourite animal on the whiteboard. I'll go first."
+        },
+        "execution": "remote_api",
+        "model": "mistralai/voxtral-small-24b-2507-stt",
+        "generation_id": "gen-stt-1790474285-7eV1xGTrz7q9mZLXgnOa"
+      }
+    },
+    "wall_seconds": 14.696479771984741,
+    "rtf": 0.244941329533079,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58474496,
+    "scores": {
+      "wer": {
+        "errors": 23,
+        "length": 148,
+        "insertions": 4,
+        "deletions": 12,
+        "substitutions": 7
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 2
+    }
+  },
+  {
+    "id": "ES2004a-2880000",
+    "duration": 60.0,
+    "seed": 2905550230,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "and so much characteristics of that animal.",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.003
+        },
+        "raw_transcript": {
+          "text": "and so much characteristics of that animal."
+        },
+        "execution": "remote_api",
+        "model": "mistralai/voxtral-small-24b-2507-stt",
+        "generation_id": "gen-stt-1790474298-m2vykaWlhsCV5ba32CTb"
+      }
+    },
+    "wall_seconds": 6.433874882990494,
+    "rtf": 0.10723124804984158,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58564608,
+    "scores": {
+      "wer": {
+        "errors": 16,
+        "length": 21,
+        "insertions": 0,
+        "deletions": 14,
+        "substitutions": 2
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 2
+    }
+  },
+  {
+    "id": "ES2004a-3840000",
+    "duration": 60.0,
+    "seed": 1110249044,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "Okay, I'm not going to ask you to guess, I'm going to tell you that's supposed to be a tiger. And I see them as majestic, and independent, and proud. Now, who would like to go next? Okay. Got it. Maybe you can guess what I'm going to make.",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.003
+        },
+        "raw_transcript": {
+          "text": "Okay, I'm not going to ask you to guess, I'm going to tell you that's supposed to be a tiger. And I see them as majestic, and independent, and proud. Now, who would like to go next? Okay. Got it. Maybe you can guess what I'm going to make."
+        },
+        "execution": "remote_api",
+        "model": "mistralai/voxtral-small-24b-2507-stt",
+        "generation_id": "gen-stt-1790474304-lpBWqRI8DBATNhIiLyWY"
+      }
+    },
+    "wall_seconds": 8.24823045101948,
+    "rtf": 0.13747050751699136,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58568704,
+    "scores": {
+      "wer": {
+        "errors": 35,
+        "length": 77,
+        "insertions": 1,
+        "deletions": 29,
+        "substitutions": 5
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 2
+    }
+  },
+  {
+    "id": "ES2004a-4800000",
+    "duration": 60.0,
+    "seed": 4264379538,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "A kind of dog? Yeah. It's actually sitting. So, it's sitting, it's not standing. Okay, I see it as one thing, it's very supportive. It's your best friend in your, you can talk to your dog, it can be your best friend, it doesn't discriminate between you based on what you are. Second, it's loyal. And third thing, it's got intuition. I mean, dogs can sometimes make out between a thief and a person. So basically, these are the three unique features I think belong to a dog. Okay, thank you. Please leave me a space at the bottom, I'm a little... Oh, that's your top.",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.003
+        },
+        "raw_transcript": {
+          "text": "A kind of dog? Yeah. It's actually sitting. So, it's sitting, it's not standing. Okay, I see it as one thing, it's very supportive. It's your best friend in your, you can talk to your dog, it can be your best friend, it doesn't discriminate between you based on what you are. Second, it's loyal. And third thing, it's got intuition. I mean, dogs can sometimes make out between a thief and a person. So basically, these are the three unique features I think belong to a dog. Okay, thank you. Please leave me a space at the bottom, I'm a little... Oh, that's your top."
+        },
+        "execution": "remote_api",
+        "model": "mistralai/voxtral-small-24b-2507-stt",
+        "generation_id": "gen-stt-1790474313-MQl2iClbuY2xJ2wGWu7l"
+      }
+    },
+    "wall_seconds": 12.337573052034713,
+    "rtf": 0.2056262175339119,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58568704,
+    "scores": {
+      "wer": {
+        "errors": 32,
+        "length": 125,
+        "insertions": 3,
+        "deletions": 22,
+        "substitutions": 7
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "ES2004a-5760000",
+    "duration": 60.0,
+    "seed": 2185032637,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "Just standing on a chair. Well, since you guys have chosen the new ones, I wanted to do it. Okay. It's a good doggy, too. And also my drawing skill isn't that great. Well, as you can see, the quality of the work today is... I think it's astoundingly good. Okay, now I'm going to have to change what it was originally. That looks like a beak. Crocodile? Yeah, it can be a crocodile. It can be a crocodile. But it was, firstly it was an attempt at a T-Rex, and then it sort of changed into a pelican, but it can be a crocodile.",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.003
+        },
+        "raw_transcript": {
+          "text": "Just standing on a chair. Well, since you guys have chosen the new ones, I wanted to do it. Okay. It's a good doggy, too. And also my drawing skill isn't that great. Well, as you can see, the quality of the work today is... I think it's astoundingly good. Okay, now I'm going to have to change what it was originally. That looks like a beak. Crocodile? Yeah, it can be a crocodile. It can be a crocodile. But it was, firstly it was an attempt at a T-Rex, and then it sort of changed into a pelican, but it can be a crocodile."
+        },
+        "execution": "remote_api",
+        "model": "mistralai/voxtral-small-24b-2507-stt",
+        "generation_id": "gen-stt-1790474326-FixSteNTqnfnDzChtwZX"
+      }
+    },
+    "wall_seconds": 12.430618526996113,
+    "rtf": 0.2071769754499352,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58576896,
+    "scores": {
+      "wer": {
+        "errors": 56,
+        "length": 148,
+        "insertions": 2,
+        "deletions": 44,
+        "substitutions": 10
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "ES2004a-6720000",
+    "duration": 60.0,
+    "seed": 307904137,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "That's lovely. Yeah, and I'll have to think on the spot, I think it is. Scary, strong, yeah, that's fine. I'm very impressed with your artistic skill. I'm going to do it with that too. Technical help. I can't see that today. Two hands of pressure. Okay. Again, this is off the top of my head. I was going to do it with that too.",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.003
+        },
+        "raw_transcript": {
+          "text": "That's lovely. Yeah, and I'll have to think on the spot, I think it is. Scary, strong, yeah, that's fine. I'm very impressed with your artistic skill. I'm going to do it with that too. Technical help. I can't see that today. Two hands of pressure. Okay. Again, this is off the top of my head. I was going to do it with that too."
+        },
+        "execution": "remote_api",
+        "model": "mistralai/voxtral-small-24b-2507-stt",
+        "generation_id": "gen-stt-1790474339-hckW6IaH1dIjxHt5xJwI"
+      }
+    },
+    "wall_seconds": 11.21373797301203,
+    "rtf": 0.18689563288353384,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58580992,
+    "scores": {
+      "wer": {
+        "errors": 71,
+        "length": 112,
+        "insertions": 1,
+        "deletions": 48,
+        "substitutions": 22
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 3
+    }
+  },
+  {
+    "id": "ES2004a-7680000",
+    "duration": 60.0,
+    "seed": 1262417696,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "It doesn't look like what I want it to be. It's not a vampire bat, honestly. Somewhere in the body, the mind. My dreadful, that's the worst yet. It's meant to be an eagle. Right, not a seagull. Could have been a seagull, and I would have thought it would be a seagull. An eagle, again, looking at my feet, goodness. I suppose they're also independent, let's put that one down again. They're good at golf. Independent. Did you say they're good at golf? Yeah. Are they? Eagle. An eagle. Oh, right. I'm not good at golf. I'd say they're quite free-spirited. Flying around everywhere. Doing their own thing.",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.003
+        },
+        "raw_transcript": {
+          "text": "It doesn't look like what I want it to be. It's not a vampire bat, honestly. Somewhere in the body, the mind. My dreadful, that's the worst yet. It's meant to be an eagle. Right, not a seagull. Could have been a seagull, and I would have thought it would be a seagull. An eagle, again, looking at my feet, goodness. I suppose they're also independent, let's put that one down again. They're good at golf. Independent. Did you say they're good at golf? Yeah. Are they? Eagle. An eagle. Oh, right. I'm not good at golf. I'd say they're quite free-spirited. Flying around everywhere. Doing their own thing."
+        },
+        "execution": "remote_api",
+        "model": "mistralai/voxtral-small-24b-2507-stt",
+        "generation_id": "gen-stt-1790474349-T8pL7WJEEFlkNQFC7mYS"
+      }
+    },
+    "wall_seconds": 11.868013804079965,
+    "rtf": 0.1978002300679994,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58580992,
+    "scores": {
+      "wer": {
+        "errors": 58,
+        "length": 150,
+        "insertions": 4,
+        "deletions": 44,
+        "substitutions": 10
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "ES2004a-8640000",
+    "duration": 60.0,
+    "seed": 2401940555,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "And where's the prayer? I do. Intrepid. Intrepid. There we go. That's it. That's going to be okay. Okay. That was fun. Right. Finance-wise, we've got a selling price at 25 euros, which I don't actually know what that is in pounds at all. Any ideas? So that's 1.4. 1.4 euro would make a lot of pounds. Yeah, yeah, something like that. So, yeah, that's 15, 17 pounds. Okay, that's expensive. Should we be making notes of this? We can just refer to the later comment. I think so. I think so. I'd be able to pull it up, or I could put it in the shared folder. Having said that, if you want to get one of those, the ones on the market at the moment,",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.003
+        },
+        "raw_transcript": {
+          "text": "And where's the prayer? I do. Intrepid. Intrepid. There we go. That's it. That's going to be okay. Okay. That was fun. Right. Finance-wise, we've got a selling price at 25 euros, which I don't actually know what that is in pounds at all. Any ideas? So that's 1.4. 1.4 euro would make a lot of pounds. Yeah, yeah, something like that. So, yeah, that's 15, 17 pounds. Okay, that's expensive. Should we be making notes of this? We can just refer to the later comment. I think so. I think so. I'd be able to pull it up, or I could put it in the shared folder. Having said that, if you want to get one of those, the ones on the market at the moment,"
+        },
+        "execution": "remote_api",
+        "model": "mistralai/voxtral-small-24b-2507-stt",
+        "generation_id": "gen-stt-1790474360-tA12H3mM4bh5gDGs5Ieq"
+      }
+    },
+    "wall_seconds": 12.329673700034618,
+    "rtf": 0.20549456166724364,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58580992,
+    "scores": {
+      "wer": {
+        "errors": 73,
+        "length": 175,
+        "insertions": 1,
+        "deletions": 46,
+        "substitutions": 26
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "ES2004a-9600000",
+    "duration": 60.0,
+    "seed": 579395740,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "They're about 20 pounds anyway. Right, can I stop? Yeah, we have to buy one. So I suppose later it depends if we want to undercut the price, or is it going to make our product look a cheapy-cheapy option? Yeah, production costs at 12.50, so half of the selling price is taken up by building it. And profit aim is 50 million euros, which is in our first year. Yes. Yeah, I presume so. You've got market range international and you did say earlier it's got to be accessible and usable by sort of all age groups. Just we're not focusing on business market, any particular thing. It's everyone, user-friendly to everyone. Okay. Big target group. Yes, yes. I don't think we have to, I don't think it's a case of worrying about different like...",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.003
+        },
+        "raw_transcript": {
+          "text": "They're about 20 pounds anyway. Right, can I stop? Yeah, we have to buy one. So I suppose later it depends if we want to undercut the price, or is it going to make our product look a cheapy-cheapy option? Yeah, production costs at 12.50, so half of the selling price is taken up by building it. And profit aim is 50 million euros, which is in our first year. Yes. Yeah, I presume so. You've got market range international and you did say earlier it's got to be accessible and usable by sort of all age groups. Just we're not focusing on business market, any particular thing. It's everyone, user-friendly to everyone. Okay. Big target group. Yes, yes. I don't think we have to, I don't think it's a case of worrying about different like..."
+        },
+        "execution": "remote_api",
+        "model": "mistralai/voxtral-small-24b-2507-stt",
+        "generation_id": "gen-stt-1790474373-L8DdesZWxiQBAb9bKW0P"
+      }
+    },
+    "wall_seconds": 11.791491683921777,
+    "rtf": 0.19652486139869627,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58589184,
+    "scores": {
+      "wer": {
+        "errors": 49,
+        "length": 175,
+        "insertions": 1,
+        "deletions": 37,
+        "substitutions": 11
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "ES2004a-10560000",
+    "duration": 60.0,
+    "seed": 1304633243,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "languages and things like that, making that key point, just that it's going to be in an international market like Australia, America, things like that. Okay. What are your experiences with remote controls? I mean, I've got, we got, we had three videos, a TV and a sort of amp thing all set up. So we got one of the universal remote controls that you program each of your things into, but that kept losing the signals, so we'd have to reprogram it every now and again. I think it was quite cheapy as well, so that might have had something to do with it. But that was quite good, the fact that you could... You saw the ones... You didn't have six remote controls sitting in front of you. You want to do good everything into one thing. Yeah. My experience has only been being given the remote control with the object I buy, not doing any tampering with it and programming, using it to program.",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.003
+        },
+        "raw_transcript": {
+          "text": "languages and things like that, making that key point, just that it's going to be in an international market like Australia, America, things like that. Okay. What are your experiences with remote controls? I mean, I've got, we got, we had three videos, a TV and a sort of amp thing all set up. So we got one of the universal remote controls that you program each of your things into, but that kept losing the signals, so we'd have to reprogram it every now and again. I think it was quite cheapy as well, so that might have had something to do with it. But that was quite good, the fact that you could... You saw the ones... You didn't have six remote controls sitting in front of you. You want to do good everything into one thing. Yeah. My experience has only been being given the remote control with the object I buy, not doing any tampering with it and programming, using it to program."
+        },
+        "execution": "remote_api",
+        "model": "mistralai/voxtral-small-24b-2507-stt",
+        "generation_id": "gen-stt-1790474384-tdmx2vlXHzKujyVEC5hs"
+      }
+    },
+    "wall_seconds": 12.663782224059105,
+    "rtf": 0.21106303706765175,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58589184,
+    "scores": {
+      "wer": {
+        "errors": 45,
+        "length": 196,
+        "insertions": 3,
+        "deletions": 32,
+        "substitutions": 10
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "ES2004a-11520000",
+    "duration": 60.0,
+    "seed": 2401582415,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "TV videos and things but basically on off volume up and down channel one two that basic function I don't think I could go any further with it than that so it's got to be something usable by someone like me as well yeah the main that's the main stuff anyway I mean and you don't want to I hate I hate looking at a control and seeing a million tiny little buttons with tiny little words saying what they all do and just sitting there searching for the teletext button or something like that. And symbols that you don't necessarily understand. Symbols you're meant to understand but you don't understand. When you've got the main things on the front of it and a section opens up or something to the other functions when you can do sound or options, kind of recording, things like that inside it. Because it doesn't make, when you pick it up, it doesn't make it really complicated to look at. It's obvious what you're doing.",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.003
+        },
+        "raw_transcript": {
+          "text": "TV videos and things but basically on off volume up and down channel one two that basic function I don't think I could go any further with it than that so it's got to be something usable by someone like me as well yeah the main that's the main stuff anyway I mean and you don't want to I hate I hate looking at a control and seeing a million tiny little buttons with tiny little words saying what they all do and just sitting there searching for the teletext button or something like that. And symbols that you don't necessarily understand. Symbols you're meant to understand but you don't understand. When you've got the main things on the front of it and a section opens up or something to the other functions when you can do sound or options, kind of recording, things like that inside it. Because it doesn't make, when you pick it up, it doesn't make it really complicated to look at. It's obvious what you're doing."
+        },
+        "execution": "remote_api",
+        "model": "mistralai/voxtral-small-24b-2507-stt",
+        "generation_id": "gen-stt-1790474397-NM39GUT4D13MYkzdRIoW"
+      }
+    },
+    "wall_seconds": 14.502110784989782,
+    "rtf": 0.24170184641649636,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58589184,
+    "scores": {
+      "wer": {
+        "errors": 45,
+        "length": 206,
+        "insertions": 2,
+        "deletions": 37,
+        "substitutions": 6
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "ES2004a-12480000",
+    "duration": 60.0,
+    "seed": 1334378481,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "So that just raises a point, I wonder what our design people think. But you know on a mobile phone, you can press a key and it gives you a menu, it's got a menu display. I wonder if incorporating that into the design of a remote control might be useful. So you've got a little LCD display. I was thinking on the same lines. Instead of having too many buttons and make it complicated for the user, maybe have an LCD display or something like that, like a mobile. With menus. And with menus. And if it's somewhat similar to what you have on a mobile phone, people might find it easier to browse and navigate. What about the older generation? What about granny and granddad? My granddad can answer his mobile phone, but he couldn't even dream of texting or something like that. Can he program his remote control or is he basic with that too? I don't think they tape things. My granddad does better than me at using teletext. So that's the problem regardless of any design modifications you come up with. That's going to be a problem.",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.003
+        },
+        "raw_transcript": {
+          "text": "So that just raises a point, I wonder what our design people think. But you know on a mobile phone, you can press a key and it gives you a menu, it's got a menu display. I wonder if incorporating that into the design of a remote control might be useful. So you've got a little LCD display. I was thinking on the same lines. Instead of having too many buttons and make it complicated for the user, maybe have an LCD display or something like that, like a mobile. With menus. And with menus. And if it's somewhat similar to what you have on a mobile phone, people might find it easier to browse and navigate. What about the older generation? What about granny and granddad? My granddad can answer his mobile phone, but he couldn't even dream of texting or something like that. Can he program his remote control or is he basic with that too? I don't think they tape things. My granddad does better than me at using teletext. So that's the problem regardless of any design modifications you come up with. That's going to be a problem."
+        },
+        "execution": "remote_api",
+        "model": "mistralai/voxtral-small-24b-2507-stt",
+        "generation_id": "gen-stt-1790474412-G8eR9jYvqkAa0DcjTlw8"
+      }
+    },
+    "wall_seconds": 15.325270211906172,
+    "rtf": 0.2554211701984362,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58589184,
+    "scores": {
+      "wer": {
+        "errors": 63,
+        "length": 239,
+        "insertions": 3,
+        "deletions": 50,
+        "substitutions": 10
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "ES2004a-13440000",
+    "duration": 60.0,
+    "seed": 1589493308,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "problem anyway with the older generation perhaps. And that's another issue we tackle. Well it just needs to be, as long as it's sort of self-intuitive and you can work out what everything's doing. Because I mean menus on sort of new phones now, they've got all these pictures and stuff which makes it fairly obvious what you're trying to do. I don't know how. I don't like the new phones that have got a Windows-based running system. I find it really confusing. I kept getting lost in the phone. I've not got a new one, but my friend got a new one, and I was trying to do things with it, and I just kept getting lost, but that's just me. I don't know how, for \u20ac25 or \u20ac12.50, how much of an excellent screen you could get. you'd have to sort of keep it down to a black and white LCD thing. Is it possible that...",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.003
+        },
+        "raw_transcript": {
+          "text": "problem anyway with the older generation perhaps. And that's another issue we tackle. Well it just needs to be, as long as it's sort of self-intuitive and you can work out what everything's doing. Because I mean menus on sort of new phones now, they've got all these pictures and stuff which makes it fairly obvious what you're trying to do. I don't know how. I don't like the new phones that have got a Windows-based running system. I find it really confusing. I kept getting lost in the phone. I've not got a new one, but my friend got a new one, and I was trying to do things with it, and I just kept getting lost, but that's just me. I don't know how, for \u20ac25 or \u20ac12.50, how much of an excellent screen you could get. you'd have to sort of keep it down to a black and white LCD thing. Is it possible that..."
+        },
+        "execution": "remote_api",
+        "model": "mistralai/voxtral-small-24b-2507-stt",
+        "generation_id": "gen-stt-1790474427-8DzsU2Qq8C1HwFkeJJdf"
+      }
+    },
+    "wall_seconds": 12.609677986009046,
+    "rtf": 0.21016129976681744,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58589184,
+    "scores": {
+      "wer": {
+        "errors": 57,
+        "length": 209,
+        "insertions": 1,
+        "deletions": 49,
+        "substitutions": 7
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "ES2004a-14400000",
+    "duration": 60.0,
+    "seed": 338740423,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "For the older generation you could have like an extra button that you press for large print like you do in large print books. Okay, it displays less on the screen but as long as they can read it that's the main thing. Yeah. Or what about kind of a dual function in that you've got the basic buttons just for your play, volume, program things and also and then a menu to go into with obvious pictures, obvious symbols and that's where you control recording and things like that. The other thing is just tacking into mobile phone design features again, you could have a flip top remote control so that when you flip over the top your screen is, you can have a bigger screen in the flip over. I think that's a cost thing. I don't know how much we're going to know about it. It might save up a bit of space. Instead of looking bulky it might look small. Yes, that's important. But it might have its cost implications. And there's no...",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.003
+        },
+        "raw_transcript": {
+          "text": "For the older generation you could have like an extra button that you press for large print like you do in large print books. Okay, it displays less on the screen but as long as they can read it that's the main thing. Yeah. Or what about kind of a dual function in that you've got the basic buttons just for your play, volume, program things and also and then a menu to go into with obvious pictures, obvious symbols and that's where you control recording and things like that. The other thing is just tacking into mobile phone design features again, you could have a flip top remote control so that when you flip over the top your screen is, you can have a bigger screen in the flip over. I think that's a cost thing. I don't know how much we're going to know about it. It might save up a bit of space. Instead of looking bulky it might look small. Yes, that's important. But it might have its cost implications. And there's no..."
+        },
+        "execution": "remote_api",
+        "model": "mistralai/voxtral-small-24b-2507-stt",
+        "generation_id": "gen-stt-1790474439-JKksUyOuQGnNJWa4QE4F"
+      }
+    },
+    "wall_seconds": 11.848922624019906,
+    "rtf": 0.1974820437336651,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58589184,
+    "scores": {
+      "wer": {
+        "errors": 55,
+        "length": 217,
+        "insertions": 5,
+        "deletions": 45,
+        "substitutions": 5
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "ES2004a-15360000",
+    "duration": 60.0,
+    "seed": 178953250,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "There's no reason we need to make it look as fashionable and stylish as a mobile phone. It can still be lightweight plastic, you know, something that's easily moulded and produced. Sorry, I'm treading on your territory, guys. No, no, no. Right, okay, we've got half an hour before the next meeting, so we're all going to go off and do our individual things. I think that's probably about it, and then we'll come back and liaise again, and I get to do another fantastic PowerPoint presentation. Just a quick thing about what you were saying about it doesn't need to be fashionable. I had a quick look at the company website, and it's like we put the fashion into electronics. So I think the whole design thing might be quite... I mean, you can still have plastic and it look quite good. Yeah, I mean, it doesn't have to be... That was my main point. You don't have to use metal. I don't know if you...",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.003
+        },
+        "raw_transcript": {
+          "text": "There's no reason we need to make it look as fashionable and stylish as a mobile phone. It can still be lightweight plastic, you know, something that's easily moulded and produced. Sorry, I'm treading on your territory, guys. No, no, no. Right, okay, we've got half an hour before the next meeting, so we're all going to go off and do our individual things. I think that's probably about it, and then we'll come back and liaise again, and I get to do another fantastic PowerPoint presentation. Just a quick thing about what you were saying about it doesn't need to be fashionable. I had a quick look at the company website, and it's like we put the fashion into electronics. So I think the whole design thing might be quite... I mean, you can still have plastic and it look quite good. Yeah, I mean, it doesn't have to be... That was my main point. You don't have to use metal. I don't know if you..."
+        },
+        "execution": "remote_api",
+        "model": "mistralai/voxtral-small-24b-2507-stt",
+        "generation_id": "gen-stt-1790474452-YyqisDfiEzqFCynop1Rg"
+      }
+    },
+    "wall_seconds": 12.96835713100154,
+    "rtf": 0.21613928551669231,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58748928,
+    "scores": {
+      "wer": {
+        "errors": 54,
+        "length": 204,
+        "insertions": 5,
+        "deletions": 42,
+        "substitutions": 7
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "ES2004a-16320000",
+    "duration": 29.3546875,
+    "seed": 3683454328,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "Using plastic does make it cheaper, I've seen it would. Yeah. It would, probably. I mean, the Sky remote controls and everything, they're kind of molded and look a bit different than the Tally West remote controls, they're silver plastic, which looks a bit smarter. So, yeah, I guess that's something to think about. Okay, so let's break it up there. Okay. So see you in half an hour. Do we go back to our room? I think so.",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 29.354,
+          "cost": 0.0014677
+        },
+        "raw_transcript": {
+          "text": "Using plastic does make it cheaper, I've seen it would. Yeah. It would, probably. I mean, the Sky remote controls and everything, they're kind of molded and look a bit different than the Tally West remote controls, they're silver plastic, which looks a bit smarter. So, yeah, I guess that's something to think about. Okay, so let's break it up there. Okay. So see you in half an hour. Do we go back to our room? I think so."
+        },
+        "execution": "remote_api",
+        "model": "mistralai/voxtral-small-24b-2507-stt",
+        "generation_id": "gen-stt-1790474462-I5G6ve8N5TAy5g2VD38s"
+      }
+    },
+    "wall_seconds": 6.255102184950374,
+    "rtf": 0.21308699624039174,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58748928,
+    "scores": {
+      "wer": {
+        "errors": 26,
+        "length": 94,
+        "insertions": 1,
+        "deletions": 16,
+        "substitutions": 9
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "IS1009a-0",
+    "duration": 60.0,
+    "seed": 3597138583,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "The microphone is for your voice. Right. And then raise the other one. Okay. Okay. Everybody ready? I think so. I think the first thing we do is introduce",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.003
+        },
+        "raw_transcript": {
+          "text": "The microphone is for your voice. Right. And then raise the other one. Okay. Okay. Everybody ready? I think so. I think the first thing we do is introduce"
+        },
+        "execution": "remote_api",
+        "model": "mistralai/voxtral-small-24b-2507-stt",
+        "generation_id": "gen-stt-1790474470-0qgMUSHpJ0oBpeIlLI4e"
+      }
+    },
+    "wall_seconds": 6.1997814499773085,
+    "rtf": 0.10332969083295514,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58753024,
+    "scores": {
+      "wer": {
+        "errors": 15,
+        "length": 18,
+        "insertions": 13,
+        "deletions": 2,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 3
+    }
+  },
+  {
+    "id": "IS1009a-960000",
+    "duration": 60.0,
+    "seed": 1878269606,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "use ourselves. Yeah, that's a good one. And his name and what your function is. So maybe you can start with you. Yeah, my name is Francina and I'm a user interface. My role is, the main responsibility is user interface. And my role is to design a television remote control. Okay. And I'm a marketing person. I want to figure out how to sell them. And your name is? My name is Eileen. Okay. I'm Janavi. My role is industrial designer and my responsibilities are to deal with the technical functional designs and specifications of user interface and dealing with user interface design. Very good. And as you already know, I'm Betsy. I'm the project manager for today. So why don't we look at the presentation to see what we really are supposed to do. Okay.",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.003
+        },
+        "raw_transcript": {
+          "text": "use ourselves. Yeah, that's a good one. And his name and what your function is. So maybe you can start with you. Yeah, my name is Francina and I'm a user interface. My role is, the main responsibility is user interface. And my role is to design a television remote control. Okay. And I'm a marketing person. I want to figure out how to sell them. And your name is? My name is Eileen. Okay. I'm Janavi. My role is industrial designer and my responsibilities are to deal with the technical functional designs and specifications of user interface and dealing with user interface design. Very good. And as you already know, I'm Betsy. I'm the project manager for today. So why don't we look at the presentation to see what we really are supposed to do. Okay."
+        },
+        "execution": "remote_api",
+        "model": "mistralai/voxtral-small-24b-2507-stt",
+        "generation_id": "gen-stt-1790474476-RbJ25z8CpOaa1iRnwvfp"
+      }
+    },
+    "wall_seconds": 11.280870947986841,
+    "rtf": 0.18801451579978068,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58761216,
+    "scores": {
+      "wer": {
+        "errors": 34,
+        "length": 154,
+        "insertions": 4,
+        "deletions": 21,
+        "substitutions": 9
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "IS1009a-1920000",
+    "duration": 60.0,
+    "seed": 3142538146,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "There's the opening, acquaintance, tool training. Well, the tools, I think we already, I guess the tool is really our computer, as far as I can see. We get, each of us will get instructions and we'll take it from there. Project plan, that falls under the same heading pretty much. I don't think we have any great discussion at this point. Here is what this thing should be. This thing we are going to design is a new remote control. It should be original, trendy, and of course user-friendly. So maybe I'll make some notes of that.",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.003
+        },
+        "raw_transcript": {
+          "text": "There's the opening, acquaintance, tool training. Well, the tools, I think we already, I guess the tool is really our computer, as far as I can see. We get, each of us will get instructions and we'll take it from there. Project plan, that falls under the same heading pretty much. I don't think we have any great discussion at this point. Here is what this thing should be. This thing we are going to design is a new remote control. It should be original, trendy, and of course user-friendly. So maybe I'll make some notes of that."
+        },
+        "execution": "remote_api",
+        "model": "mistralai/voxtral-small-24b-2507-stt",
+        "generation_id": "gen-stt-1790474486-EEfVz3CqGW8h8nlk3FAn"
+      }
+    },
+    "wall_seconds": 8.170534025062807,
+    "rtf": 0.1361755670843801,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58761216,
+    "scores": {
+      "wer": {
+        "errors": 19,
+        "length": 112,
+        "insertions": 0,
+        "deletions": 13,
+        "substitutions": 6
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 2
+    }
+  },
+  {
+    "id": "IS1009a-2880000",
+    "duration": 60.0,
+    "seed": 2555842214,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "Okay. Okay. All right. Here is what the functional design is supposed to achieve. That is, it's going to be individual work, and then at the meeting we'll discuss what we have come up with. The same goes for the conceptual design. There will be individual work, and then discussion afterwards. detailed design. Same thing basically. Three different types of design that we're going to be concerned with.",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.003
+        },
+        "raw_transcript": {
+          "text": "Okay. Okay. All right. Here is what the functional design is supposed to achieve. That is, it's going to be individual work, and then at the meeting we'll discuss what we have come up with. The same goes for the conceptual design. There will be individual work, and then discussion afterwards. detailed design. Same thing basically. Three different types of design that we're going to be concerned with."
+        },
+        "execution": "remote_api",
+        "model": "mistralai/voxtral-small-24b-2507-stt",
+        "generation_id": "gen-stt-1790474497-xhLMOVeiWbjZrFuzRVdj"
+      }
+    },
+    "wall_seconds": 9.892151907086372,
+    "rtf": 0.16486919845143955,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58761216,
+    "scores": {
+      "wer": {
+        "errors": 19,
+        "length": 81,
+        "insertions": 2,
+        "deletions": 15,
+        "substitutions": 2
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 2
+    }
+  },
+  {
+    "id": "IS1009a-3840000",
+    "duration": 60.0,
+    "seed": 3773243683,
+    "status": "inference_failed",
+    "error_type": "RemoteRequestError",
+    "http_status": null,
+    "billing_status": "unknown",
+    "scores": {
+      "wer": {
+        "errors": 130,
+        "length": 130,
+        "insertions": 0,
+        "deletions": 130,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 43.499999999999915,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 2
+    }
+  },
+  {
+    "id": "IS1009a-4800000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 91,
+        "length": 91,
+        "insertions": 0,
+        "deletions": 91,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 31.290000000000077,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "IS1009a-5760000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 116,
+        "length": 116,
+        "insertions": 0,
+        "deletions": 116,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 44.219999999999914,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 2
+    }
+  },
+  {
+    "id": "IS1009a-6720000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 174,
+        "length": 174,
+        "insertions": 0,
+        "deletions": 174,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 56.180000000000064,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "IS1009a-7680000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 222,
+        "length": 222,
+        "insertions": 0,
+        "deletions": 222,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 56.24000000000001,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "IS1009a-8640000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 250,
+        "length": 250,
+        "insertions": 0,
+        "deletions": 250,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 58.210000000000036,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "IS1009a-9600000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 223,
+        "length": 223,
+        "insertions": 0,
+        "deletions": 223,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 59.360000000000014,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "IS1009a-10560000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 220,
+        "length": 220,
+        "insertions": 0,
+        "deletions": 220,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 54.500000000000114,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "IS1009a-11520000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 138,
+        "length": 138,
+        "insertions": 0,
+        "deletions": 138,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 50.030000000000086,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 3
+    }
+  },
+  {
+    "id": "IS1009a-12480000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 89,
+        "length": 89,
+        "insertions": 0,
+        "deletions": 89,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 22.919999999999845,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "TS3003a-0",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 71,
+        "length": 71,
+        "insertions": 0,
+        "deletions": 71,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 34.739999999999995,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "TS3003a-960000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 119,
+        "length": 119,
+        "insertions": 0,
+        "deletions": 119,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 46.73999999999999,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 2
+    }
+  },
+  {
+    "id": "TS3003a-1920000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 139,
+        "length": 139,
+        "insertions": 0,
+        "deletions": 139,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 52.119999999999976,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 2
+    }
+  },
+  {
+    "id": "TS3003a-2880000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 134,
+        "length": 134,
+        "insertions": 0,
+        "deletions": 134,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 56.66,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 3
+    }
+  },
+  {
+    "id": "TS3003a-3840000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 112,
+        "length": 112,
+        "insertions": 0,
+        "deletions": 112,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 53.539999999999964,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 2
+    }
+  },
+  {
+    "id": "TS3003a-4800000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 142,
+        "length": 142,
+        "insertions": 0,
+        "deletions": 142,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 55.97999999999996,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 1
+    }
+  },
+  {
+    "id": "TS3003a-5760000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 131,
+        "length": 131,
+        "insertions": 0,
+        "deletions": 131,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 55.75,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 3
+    }
+  },
+  {
+    "id": "TS3003a-6720000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 142,
+        "length": 142,
+        "insertions": 0,
+        "deletions": 142,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 50.0499999999999,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 3
+    }
+  },
+  {
+    "id": "TS3003a-7680000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 132,
+        "length": 132,
+        "insertions": 0,
+        "deletions": 132,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 58.70999999999998,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 3
+    }
+  },
+  {
+    "id": "TS3003a-8640000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 84,
+        "length": 84,
+        "insertions": 0,
+        "deletions": 84,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 30.639999999999986,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "TS3003a-9600000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 71,
+        "length": 71,
+        "insertions": 0,
+        "deletions": 71,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 30.360000000000127,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 2
+    }
+  },
+  {
+    "id": "TS3003a-10560000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 65,
+        "length": 65,
+        "insertions": 0,
+        "deletions": 65,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 26.54000000000019,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 3
+    }
+  },
+  {
+    "id": "TS3003a-11520000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 49,
+        "length": 49,
+        "insertions": 0,
+        "deletions": 49,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 17.06000000000006,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 3
+    }
+  },
+  {
+    "id": "TS3003a-12480000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 37,
+        "length": 37,
+        "insertions": 0,
+        "deletions": 37,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 16.850000000000023,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 2
+    }
+  },
+  {
+    "id": "TS3003a-13440000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 63,
+        "length": 63,
+        "insertions": 0,
+        "deletions": 63,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 19.17999999999995,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 3
+    }
+  },
+  {
+    "id": "TS3003a-14400000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 2,
+        "length": 2,
+        "insertions": 0,
+        "deletions": 2,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 0.4700000000000273,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 1
+    }
+  },
+  {
+    "id": "TS3003a-15360000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 58,
+        "length": 58,
+        "insertions": 0,
+        "deletions": 58,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 26.770000000000095,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "TS3003a-16320000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 50,
+        "length": 50,
+        "insertions": 0,
+        "deletions": 50,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 17.269999999999868,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 3
+    }
+  },
+  {
+    "id": "TS3003a-17280000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 124,
+        "length": 124,
+        "insertions": 0,
+        "deletions": 124,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 53.460000000000036,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 3
+    }
+  },
+  {
+    "id": "TS3003a-18240000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 130,
+        "length": 130,
+        "insertions": 0,
+        "deletions": 130,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 57.319999999999936,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 1
+    }
+  },
+  {
+    "id": "TS3003a-19200000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 134,
+        "length": 134,
+        "insertions": 0,
+        "deletions": 134,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 45.05999999999972,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 3
+    }
+  },
+  {
+    "id": "TS3003a-20160000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 195,
+        "length": 195,
+        "insertions": 0,
+        "deletions": 195,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 58.0,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "TS3003a-21120000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 145,
+        "length": 145,
+        "insertions": 0,
+        "deletions": 145,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 48.539999999999964,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 3
+    }
+  },
+  {
+    "id": "TS3003a-22080000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 141,
+        "length": 141,
+        "insertions": 0,
+        "deletions": 141,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 43.86999999999989,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "TS3003a-23040000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 64,
+        "length": 64,
+        "insertions": 0,
+        "deletions": 64,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 22.4200000000003,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "TS3003a-24000000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 0,
+        "length": 0,
+        "insertions": 0,
+        "deletions": 0,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 0,
+        "ratio": null
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 0
+    }
+  },
+  {
+    "id": "EN2002a-0",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 154,
+        "length": 154,
+        "insertions": 0,
+        "deletions": 154,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 54.97,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-960000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 161,
+        "length": 161,
+        "insertions": 0,
+        "deletions": 161,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 52.77999999999999,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 3
+    }
+  },
+  {
+    "id": "EN2002a-1920000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 210,
+        "length": 210,
+        "insertions": 0,
+        "deletions": 210,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 55.0,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 3
+    }
+  },
+  {
+    "id": "EN2002a-2880000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 285,
+        "length": 285,
+        "insertions": 0,
+        "deletions": 285,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 55.76999999999998,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-3840000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 202,
+        "length": 202,
+        "insertions": 0,
+        "deletions": 202,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 51.91000000000008,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-4800000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 241,
+        "length": 241,
+        "insertions": 0,
+        "deletions": 241,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 57.59000000000003,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-5760000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 231,
+        "length": 231,
+        "insertions": 0,
+        "deletions": 231,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 55.22999999999996,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-6720000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 270,
+        "length": 270,
+        "insertions": 0,
+        "deletions": 270,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 58.089999999999975,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-7680000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 217,
+        "length": 217,
+        "insertions": 0,
+        "deletions": 217,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 51.13999999999993,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-8640000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 209,
+        "length": 209,
+        "insertions": 0,
+        "deletions": 209,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 49.700000000000045,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-9600000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 240,
+        "length": 240,
+        "insertions": 0,
+        "deletions": 240,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 52.690000000000055,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-10560000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 255,
+        "length": 255,
+        "insertions": 0,
+        "deletions": 255,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 50.789999999999964,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-11520000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 273,
+        "length": 273,
+        "insertions": 0,
+        "deletions": 273,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 57.16000000000008,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-12480000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 146,
+        "length": 146,
+        "insertions": 0,
+        "deletions": 146,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 46.27999999999997,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-13440000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 211,
+        "length": 211,
+        "insertions": 0,
+        "deletions": 211,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 54.27999999999997,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-14400000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 254,
+        "length": 254,
+        "insertions": 0,
+        "deletions": 254,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 55.00000000000023,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-15360000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 174,
+        "length": 174,
+        "insertions": 0,
+        "deletions": 174,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 51.949999999999704,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-16320000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 261,
+        "length": 261,
+        "insertions": 0,
+        "deletions": 261,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 56.710000000000036,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-17280000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 190,
+        "length": 190,
+        "insertions": 0,
+        "deletions": 190,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 53.19999999999959,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-18240000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 255,
+        "length": 255,
+        "insertions": 0,
+        "deletions": 255,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 56.07999999999993,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-19200000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 202,
+        "length": 202,
+        "insertions": 0,
+        "deletions": 202,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 55.749999999999545,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-20160000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 203,
+        "length": 203,
+        "insertions": 0,
+        "deletions": 203,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 54.169999999999845,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-21120000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 201,
+        "length": 201,
+        "insertions": 0,
+        "deletions": 201,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 54.06000000000063,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 3
+    }
+  },
+  {
+    "id": "EN2002a-22080000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 210,
+        "length": 210,
+        "insertions": 0,
+        "deletions": 210,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 51.86999999999989,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-23040000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 170,
+        "length": 170,
+        "insertions": 0,
+        "deletions": 170,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 45.679999999999836,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-24000000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 190,
+        "length": 190,
+        "insertions": 0,
+        "deletions": 190,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 52.91000000000008,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-24960000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 190,
+        "length": 190,
+        "insertions": 0,
+        "deletions": 190,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 54.179999999999836,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-25920000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 108,
+        "length": 108,
+        "insertions": 0,
+        "deletions": 108,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 36.930000000000064,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-26880000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 146,
+        "length": 146,
+        "insertions": 0,
+        "deletions": 146,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 46.779999999999745,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-27840000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 210,
+        "length": 210,
+        "insertions": 0,
+        "deletions": 210,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 54.20999999999981,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-28800000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 244,
+        "length": 244,
+        "insertions": 0,
+        "deletions": 244,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 58.24000000000024,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-29760000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 280,
+        "length": 280,
+        "insertions": 0,
+        "deletions": 280,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 55.77000000000021,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-30720000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 306,
+        "length": 306,
+        "insertions": 0,
+        "deletions": 306,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 58.720000000000255,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-31680000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 270,
+        "length": 270,
+        "insertions": 0,
+        "deletions": 270,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 56.059999999999945,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-32640000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 161,
+        "length": 161,
+        "insertions": 0,
+        "deletions": 161,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 47.38000000000011,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-33600000",
+    "status": "not_run",
+    "scores": {
+      "wer": {
+        "errors": 102,
+        "length": 102,
+        "insertions": 0,
+        "deletions": 102,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 35.86999999999989,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  }
+]

@@ -1,0 +1,355 @@
+{
+  "models": [
+    {
+      "model": "google--gemini-3.5-transcribe",
+      "api_model": "google/gemini-3.5-transcribe",
+      "source_run": "openrouter-nine",
+      "source_scores_sha256": "72310290787f9ca0b72c28b7244b42398e26dcb005d87deebba50a74c80782be",
+      "options": {
+        "model": "google/gemini-3.5-transcribe",
+        "max_requests": 94,
+        "max_audio_seconds_total": 5536.704,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 90,
+        "response_format": "json"
+      }
+    },
+    {
+      "model": "fish-audio--transcribe-1-pro",
+      "api_model": "fish-audio/transcribe-1-pro",
+      "source_run": "openrouter-full",
+      "source_scores_sha256": "113e82b2d7f54eb176106a7db4b595c464878f023af41e2525b5a88bcc390411",
+      "options": {
+        "model": "fish-audio/transcribe-1-pro",
+        "max_requests": 94,
+        "max_audio_seconds_total": 5536.704,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 90,
+        "response_format": "json"
+      }
+    },
+    {
+      "model": "assemblyai--universal-3-5-pro",
+      "api_model": "assemblyai/universal-3-5-pro",
+      "source_run": "openrouter-full",
+      "source_scores_sha256": "ce3300334ed06df7431da8634b9d8197764289fa545b563de40cb480b009acc2",
+      "options": {
+        "model": "assemblyai/universal-3-5-pro",
+        "max_requests": 94,
+        "max_audio_seconds_total": 5536.704,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 90,
+        "response_format": "json"
+      }
+    },
+    {
+      "model": "meta--muse-voice-transcribe-1.0",
+      "api_model": "meta/muse-voice-transcribe-1.0",
+      "source_run": "openrouter-nine",
+      "source_scores_sha256": "aff7f35888fba1bfbf5f9f932ccebb93a0672970fd0a51767ca39a655dcc2220",
+      "options": {
+        "model": "meta/muse-voice-transcribe-1.0",
+        "max_requests": 94,
+        "max_audio_seconds_total": 5536.704,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 90,
+        "response_format": "json"
+      }
+    },
+    {
+      "model": "microsoft--mai-transcribe-2",
+      "api_model": "microsoft/mai-transcribe-2",
+      "source_run": "openrouter-full",
+      "source_scores_sha256": "89568055fb8fd701a2cb7d9cc8146680b0e18df28151c4e9102cd9bb9aab7249",
+      "options": {
+        "model": "microsoft/mai-transcribe-2",
+        "max_requests": 94,
+        "max_audio_seconds_total": 5536.704,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 90,
+        "response_format": "verbose_json",
+        "diarization": true,
+        "timestamp_granularities": [
+          "segment",
+          "word"
+        ]
+      }
+    },
+    {
+      "model": "nvidia--nemotron-3.5-asr-streaming-multilingual-0.6b",
+      "api_model": "nvidia/nemotron-3.5-asr-streaming-multilingual-0.6b",
+      "source_run": "openrouter-full",
+      "source_scores_sha256": "def82dccea0af99d70b6529dab91d59f53c016b865fabb11631601f5cbca66a4",
+      "options": {
+        "model": "nvidia/nemotron-3.5-asr-streaming-multilingual-0.6b",
+        "max_requests": 94,
+        "max_audio_seconds_total": 5536.704,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 90,
+        "response_format": "json"
+      }
+    },
+    {
+      "model": "mistralai--voxtral-small-24b-2507-stt",
+      "api_model": "mistralai/voxtral-small-24b-2507-stt",
+      "source_run": "openrouter-full",
+      "source_scores_sha256": "a9a0ae484afd0c488e41124d6776ef77c3b08c4816712abb3c945a0a3e44f10b",
+      "options": {
+        "model": "mistralai/voxtral-small-24b-2507-stt",
+        "max_requests": 94,
+        "max_audio_seconds_total": 5536.704,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 90,
+        "response_format": "json"
+      }
+    },
+    {
+      "model": "mistralai--voxtral-mini-3b-2507",
+      "api_model": "mistralai/voxtral-mini-3b-2507",
+      "source_run": "openrouter-full",
+      "source_scores_sha256": "1a319e03d0da33efc18c9446ee48d043c9f01b126d5a7bdab0f4535663f728b1",
+      "options": {
+        "model": "mistralai/voxtral-mini-3b-2507",
+        "max_requests": 94,
+        "max_audio_seconds_total": 5536.704,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 90,
+        "response_format": "json"
+      }
+    },
+    {
+      "model": "qwen--qwen3-asr-1.7b",
+      "api_model": "qwen/qwen3-asr-1.7b",
+      "source_run": "openrouter-full",
+      "source_scores_sha256": "fdc99899c083f561a48cd98d6b59c38cd08347bb75cdb62433d49107dfd7a570",
+      "options": {
+        "model": "qwen/qwen3-asr-1.7b",
+        "max_requests": 94,
+        "max_audio_seconds_total": 5536.704,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 90,
+        "response_format": "json"
+      }
+    },
+    {
+      "model": "qwen--qwen3-asr-0.6b",
+      "api_model": "qwen/qwen3-asr-0.6b",
+      "source_run": "openrouter-full",
+      "source_scores_sha256": "ede79450a36a16fdab8b92eb9aa0d4d080d1a259c6b79fe89f6bb7f661c89eaa",
+      "options": {
+        "model": "qwen/qwen3-asr-0.6b",
+        "max_requests": 94,
+        "max_audio_seconds_total": 5536.704,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 90,
+        "response_format": "json"
+      }
+    },
+    {
+      "model": "openai--gpt-transcribe",
+      "api_model": "openai/gpt-transcribe",
+      "source_run": "openrouter-nine",
+      "source_scores_sha256": "7178ac88df013db620c843d9f32ad1b1220fde618aebcd5fb7eb1f755027badd",
+      "options": {
+        "model": "openai/gpt-transcribe",
+        "max_requests": 94,
+        "max_audio_seconds_total": 5536.704,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 90,
+        "response_format": "json"
+      }
+    },
+    {
+      "model": "fish-audio--transcribe-1",
+      "api_model": "fish-audio/transcribe-1",
+      "source_run": "openrouter-full",
+      "source_scores_sha256": "22d2619e5ff05ebb94635357f75962d019248433ae50293abf9e3475b84efd38",
+      "options": {
+        "model": "fish-audio/transcribe-1",
+        "max_requests": 94,
+        "max_audio_seconds_total": 5536.704,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 90,
+        "response_format": "json"
+      }
+    },
+    {
+      "model": "x-ai--grok-stt-1.0",
+      "api_model": "x-ai/grok-stt-1.0",
+      "source_run": "openrouter-nine",
+      "source_scores_sha256": "ad64a0ddde79a6064f629a1ab682325737d2abd95dcfee7f6f152c8d53eec0fa",
+      "options": {
+        "model": "x-ai/grok-stt-1.0",
+        "max_requests": 94,
+        "max_audio_seconds_total": 5536.704,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 90,
+        "response_format": "json"
+      }
+    },
+    {
+      "model": "deepgram--nova-3",
+      "api_model": "deepgram/nova-3",
+      "source_run": "openrouter-deepgram-corrected",
+      "source_scores_sha256": "a1f486abe898e9283df8aa10716cff91962593fcd7e0f8ca51c867acd2d110eb",
+      "options": {
+        "model": "deepgram/nova-3",
+        "max_requests": 94,
+        "max_audio_seconds_total": 5536.704,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 90,
+        "response_format": "verbose_json",
+        "diarization": true,
+        "timestamp_granularities": [
+          "segment",
+          "word"
+        ]
+      }
+    },
+    {
+      "model": "microsoft--mai-transcribe-1.5",
+      "api_model": "microsoft/mai-transcribe-1.5",
+      "source_run": "openrouter-full",
+      "source_scores_sha256": "27e74c0f03abfee0351d63d1ff58109348fbb43d516655820f835ef9450fbe88",
+      "options": {
+        "model": "microsoft/mai-transcribe-1.5",
+        "max_requests": 94,
+        "max_audio_seconds_total": 5536.704,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 90,
+        "response_format": "json"
+      }
+    },
+    {
+      "model": "nvidia--parakeet-tdt-0.6b-v3",
+      "api_model": "nvidia/parakeet-tdt-0.6b-v3",
+      "source_run": "openrouter-full",
+      "source_scores_sha256": "1cc3e41a9c10a78c1d831c05a70fd42031b35121b6e0d0d925a4d4ce9fa3d3ae",
+      "options": {
+        "model": "nvidia/parakeet-tdt-0.6b-v3",
+        "max_requests": 94,
+        "max_audio_seconds_total": 5536.704,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 90,
+        "response_format": "json"
+      }
+    },
+    {
+      "model": "mistralai--voxtral-mini-transcribe",
+      "api_model": "mistralai/voxtral-mini-transcribe",
+      "source_run": "openrouter-nine",
+      "source_scores_sha256": "f538f26a6d6d8e9a982d68f02de4e267b66b845c228bd054293a09cb07b74e7a",
+      "options": {
+        "model": "mistralai/voxtral-mini-transcribe",
+        "max_requests": 94,
+        "max_audio_seconds_total": 5536.704,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 90,
+        "response_format": "json"
+      }
+    },
+    {
+      "model": "qwen--qwen3-asr-flash-2026-02-10",
+      "api_model": "qwen/qwen3-asr-flash-2026-02-10",
+      "source_run": "openrouter-nine",
+      "source_scores_sha256": "511be7b43fd635e7143955e5d6aea2588a16ec3580087755b7f8c00f284ad1fc",
+      "options": {
+        "model": "qwen/qwen3-asr-flash-2026-02-10",
+        "max_requests": 94,
+        "max_audio_seconds_total": 5536.704,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 90,
+        "response_format": "json"
+      }
+    },
+    {
+      "model": "google--chirp-3",
+      "api_model": "google/chirp-3",
+      "source_run": "openrouter-chirp-combined",
+      "source_scores_sha256": "207bec037b9f4475de622bc6a0c80b914bc8d17fcf8d2f6d2b0f665a5f83b901",
+      "options": {
+        "model": "google/chirp-3",
+        "max_requests": 94,
+        "max_audio_seconds_total": 5536.704,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 90,
+        "response_format": "json"
+      }
+    },
+    {
+      "model": "openai--gpt-4o-mini-transcribe",
+      "api_model": "openai/gpt-4o-mini-transcribe",
+      "source_run": "openrouter-nine",
+      "source_scores_sha256": "f0fec7e88079f8477984d3921e7e317ca07d806d3d9127b4b0b39cb0ab9093c1",
+      "options": {
+        "model": "openai/gpt-4o-mini-transcribe",
+        "max_requests": 94,
+        "max_audio_seconds_total": 5536.704,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 90,
+        "response_format": "json"
+      }
+    },
+    {
+      "model": "openai--whisper-large-v3",
+      "api_model": "openai/whisper-large-v3",
+      "source_run": "openrouter-full",
+      "source_scores_sha256": "77b804548b8d9ce9269a1b956933f6f29b4335a734448500707a7a16d4386458",
+      "options": {
+        "model": "openai/whisper-large-v3",
+        "max_requests": 94,
+        "max_audio_seconds_total": 5536.704,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 90,
+        "response_format": "json"
+      }
+    },
+    {
+      "model": "openai--whisper-large-v3-turbo",
+      "api_model": "openai/whisper-large-v3-turbo",
+      "source_run": "openrouter-full",
+      "source_scores_sha256": "5e61f34135dab206d4b6f642c1e664ed98be036278950c38578e0404b6405596",
+      "options": {
+        "model": "openai/whisper-large-v3-turbo",
+        "max_requests": 94,
+        "max_audio_seconds_total": 5536.704,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 90,
+        "response_format": "json"
+      }
+    },
+    {
+      "model": "openai--whisper-1",
+      "api_model": "openai/whisper-1",
+      "source_run": "openrouter-nine",
+      "source_scores_sha256": "e95848b6ffa3537816a08d122ba48740ac8f9365d59a30fc00722044dcdd2e7a",
+      "options": {
+        "model": "openai/whisper-1",
+        "max_requests": 94,
+        "max_audio_seconds_total": 5536.704,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 90,
+        "response_format": "json"
+      }
+    },
+    {
+      "model": "openai--gpt-4o-transcribe",
+      "api_model": "openai/gpt-4o-transcribe",
+      "source_run": "openrouter-nine",
+      "source_scores_sha256": "0c1d4560def946674efe3a8f8e0d3bbd9c4092cd7124ea6f55f4782d2a27e467",
+      "options": {
+        "model": "openai/gpt-4o-transcribe",
+        "max_requests": 94,
+        "max_audio_seconds_total": 5536.704,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 90,
+        "response_format": "json"
+      }
+    }
+  ],
+  "tcp_collar": 5,
+  "der_collar": 0,
+  "selection": "Original pass; privacy recovery for the nine initially unavailable models; offline corrected Deepgram pass; consolidated Chirp recovery. No selection by score.",
+  "chirp_protocol_exception": "One clip uses two nonoverlapping 30-second requests. See the separate Chirp recovery artifacts.",
+  "timing_cost_scope": "Selected successful requests only; excludes failed requests, superseded reruns, and recovery delays."
+}

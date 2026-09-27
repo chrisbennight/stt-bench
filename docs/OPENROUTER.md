@@ -245,5 +245,6 @@ The request/audio limits bound the workload, **not dollars**. The key's provider
 credit limit is the spending boundary. A 90-second client timeout is configured per request;
 OpenRouter documents a shorter upstream processing timeout. A 60-second clip can still fail
 if its provider is slow. Check failed request IDs and actual charges before authorizing a
-selective retry. Live compatibility and optional annotation parsing remain unverified until
-the first paid pass.
+selective retry. The completed evaluation and four partial DeepInfra runs appear in the
+[single consolidated table](../results/openrouter-2026-09-27/README.md), together with the
+original local systems. It includes per-metric medals and footnotes for protocol differences.
