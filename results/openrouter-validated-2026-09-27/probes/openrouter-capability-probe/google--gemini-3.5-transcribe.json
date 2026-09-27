@@ -1,0 +1,41 @@
+{
+  "options": {
+    "model": "google/gemini-3.5-transcribe",
+    "max_requests": 1,
+    "max_audio_seconds_total": 60,
+    "max_audio_seconds": 60,
+    "request_timeout_seconds": 120,
+    "response_format": "verbose_json",
+    "timestamp_granularities": [
+      "segment",
+      "word"
+    ],
+    "provider_options": {
+      "google-ai-studio": {
+        "generation_config": {
+          "transcription_config": {
+            "mode": {
+              "type": "verbatim",
+              "diarization_mode": "speaker",
+              "timestamp_granularities": [
+                "word"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "response": {
+    "id": "ES2004a-4800000",
+    "duration": 60.0,
+    "seed": 4264379538,
+    "status": "inference_failed",
+    "error_type": "RemoteRequestError",
+    "http_status": 404,
+    "billing_status": "unknown",
+    "reason": "http_error",
+    "wall_seconds": 5.477351979003288
+  },
+  "source_prediction_sha256": "dec36361f704fd7435adf1c50463a2071cd61d774842369ee41c54024f6ee31d"
+}

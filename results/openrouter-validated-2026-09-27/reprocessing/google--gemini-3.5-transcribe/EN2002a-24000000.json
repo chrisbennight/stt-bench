@@ -1,0 +1,675 @@
+{
+  "id": "EN2002a-24000000",
+  "duration": 60.0,
+  "seed": 2887563091,
+  "status": "invalid_output",
+  "wall_seconds": 4.101513241999783,
+  "rtf": 0.06835855403332972,
+  "cuda_peak": null,
+  "raw_output": {
+    "text": "Well, I'll do that then. These can be changed Shall I do that then? Um, I don't know. It doesn't really matter. If if you want to. It's just, you know, play around with some extra stuff. You have some time. Why not? So what courses should I have picked that we're not doing anywhere? Well, I'm doing communications which we had one exercise and I've done that like two weeks ago. That's in two weeks. Is that in informatics course? Yeah, it's a Oh, like digital nine nine courses or 10 or something. Okay. And then then I'm doing parallel programming languages and systems which we had one exercise as well and that's in like Friday. Well, I'm not doing any backhand",
+    "words": [
+      {
+        "word": "Well,",
+        "start": 2.2,
+        "end": 2.1
+      },
+      {
+        "word": "I'll",
+        "start": 2.1,
+        "end": 2.3
+      },
+      {
+        "word": "do",
+        "start": 2.3,
+        "end": 2.4
+      },
+      {
+        "word": "that",
+        "start": 2.4,
+        "end": 2.5
+      },
+      {
+        "word": "then.",
+        "start": 2.5,
+        "end": 2.6
+      },
+      {
+        "word": "These",
+        "start": 2.9,
+        "end": 3
+      },
+      {
+        "word": "can",
+        "start": 3,
+        "end": 3.1
+      },
+      {
+        "word": "be",
+        "start": 3.1,
+        "end": 3.2
+      },
+      {
+        "word": "changed",
+        "start": 3.2,
+        "end": 3.4
+      },
+      {
+        "word": "Shall",
+        "start": 4.5,
+        "end": 4.6
+      },
+      {
+        "word": "I",
+        "start": 4.6,
+        "end": 4.7
+      },
+      {
+        "word": "do",
+        "start": 4.7,
+        "end": 4.8
+      },
+      {
+        "word": "that",
+        "start": 4.8,
+        "end": 4.9
+      },
+      {
+        "word": "then?",
+        "start": 4.9,
+        "end": 5.1
+      },
+      {
+        "word": "Um,",
+        "start": 5.8,
+        "end": 5.8
+      },
+      {
+        "word": "I",
+        "start": 5.9,
+        "end": 6
+      },
+      {
+        "word": "don't",
+        "start": 6,
+        "end": 6.1
+      },
+      {
+        "word": "know.",
+        "start": 6.1,
+        "end": 6.2
+      },
+      {
+        "word": "It",
+        "start": 6.2,
+        "end": 6.2
+      },
+      {
+        "word": "doesn't",
+        "start": 6.2,
+        "end": 6.4
+      },
+      {
+        "word": "really",
+        "start": 6.4,
+        "end": 6.6
+      },
+      {
+        "word": "matter.",
+        "start": 6.8,
+        "end": 6.9
+      },
+      {
+        "word": "If",
+        "start": 7.6,
+        "end": 7.8
+      },
+      {
+        "word": "if",
+        "start": 7.8,
+        "end": 7.9
+      },
+      {
+        "word": "you",
+        "start": 7.9,
+        "end": 8
+      },
+      {
+        "word": "want",
+        "start": 8,
+        "end": 8.2
+      },
+      {
+        "word": "to.",
+        "start": 8.2,
+        "end": 8.3
+      },
+      {
+        "word": "It's",
+        "start": 8.6,
+        "end": 8.8
+      },
+      {
+        "word": "just,",
+        "start": 8.8,
+        "end": 9
+      },
+      {
+        "word": "you",
+        "start": 9.4,
+        "end": 9.4
+      },
+      {
+        "word": "know,",
+        "start": 9.4,
+        "end": 9.6
+      },
+      {
+        "word": "play",
+        "start": 9.7,
+        "end": 9.8
+      },
+      {
+        "word": "around",
+        "start": 9.8,
+        "end": 10
+      },
+      {
+        "word": "with",
+        "start": 10,
+        "end": 10.1
+      },
+      {
+        "word": "some",
+        "start": 10.1,
+        "end": 10.2
+      },
+      {
+        "word": "extra",
+        "start": 10.2,
+        "end": 10.4
+      },
+      {
+        "word": "stuff.",
+        "start": 10.4,
+        "end": 10.6
+      },
+      {
+        "word": "You",
+        "start": 10.6,
+        "end": 10.7
+      },
+      {
+        "word": "have",
+        "start": 10.7,
+        "end": 10.8
+      },
+      {
+        "word": "some",
+        "start": 10.8,
+        "end": 10.9
+      },
+      {
+        "word": "time.",
+        "start": 10.9,
+        "end": 11.2
+      },
+      {
+        "word": "Why",
+        "start": 12,
+        "end": 12
+      },
+      {
+        "word": "not?",
+        "start": 12,
+        "end": 12.2
+      },
+      {
+        "word": "So",
+        "start": 17,
+        "end": 17.1
+      },
+      {
+        "word": "what",
+        "start": 17.1,
+        "end": 17.2
+      },
+      {
+        "word": "courses",
+        "start": 17.2,
+        "end": 17.5
+      },
+      {
+        "word": "should",
+        "start": 17.5,
+        "end": 17.6
+      },
+      {
+        "word": "I",
+        "start": 17.6,
+        "end": 17.7
+      },
+      {
+        "word": "have",
+        "start": 17.7,
+        "end": 17.8
+      },
+      {
+        "word": "picked",
+        "start": 17.8,
+        "end": 18.1
+      },
+      {
+        "word": "that",
+        "start": 18.1,
+        "end": 18.2
+      },
+      {
+        "word": "we're",
+        "start": 18.2,
+        "end": 18.2
+      },
+      {
+        "word": "not",
+        "start": 18.2,
+        "end": 18.4
+      },
+      {
+        "word": "doing",
+        "start": 18.4,
+        "end": 18.6
+      },
+      {
+        "word": "anywhere?",
+        "start": 18.6,
+        "end": 18.9
+      },
+      {
+        "word": "Well,",
+        "start": 21.2,
+        "end": 21.3
+      },
+      {
+        "word": "I'm",
+        "start": 21.3,
+        "end": 21.4
+      },
+      {
+        "word": "doing",
+        "start": 21.4,
+        "end": 21.6
+      },
+      {
+        "word": "communications",
+        "start": 21.6,
+        "end": 22.5
+      },
+      {
+        "word": "which",
+        "start": 23.4,
+        "end": 24.1
+      },
+      {
+        "word": "we",
+        "start": 24.3,
+        "end": 24.4
+      },
+      {
+        "word": "had",
+        "start": 24.4,
+        "end": 24.6
+      },
+      {
+        "word": "one",
+        "start": 24.6,
+        "end": 24.9
+      },
+      {
+        "word": "exercise",
+        "start": 24.9,
+        "end": 25.5
+      },
+      {
+        "word": "and",
+        "start": 25.5,
+        "end": 25.6
+      },
+      {
+        "word": "I've",
+        "start": 25.6,
+        "end": 25.7
+      },
+      {
+        "word": "done",
+        "start": 25.7,
+        "end": 25.9
+      },
+      {
+        "word": "that",
+        "start": 25.9,
+        "end": 26.1
+      },
+      {
+        "word": "like",
+        "start": 26.1,
+        "end": 26.4
+      },
+      {
+        "word": "two",
+        "start": 26.4,
+        "end": 26.6
+      },
+      {
+        "word": "weeks",
+        "start": 26.6,
+        "end": 26.9
+      },
+      {
+        "word": "ago.",
+        "start": 26.9,
+        "end": 27.2
+      },
+      {
+        "word": "That's",
+        "start": 28.1,
+        "end": 28.4
+      },
+      {
+        "word": "in",
+        "start": 28.4,
+        "end": 28.7
+      },
+      {
+        "word": "two",
+        "start": 29.2,
+        "end": 29.4
+      },
+      {
+        "word": "weeks.",
+        "start": 29.4,
+        "end": 29.7
+      },
+      {
+        "word": "Is",
+        "start": 30.3,
+        "end": 30.4
+      },
+      {
+        "word": "that",
+        "start": 30.4,
+        "end": 30.5
+      },
+      {
+        "word": "in",
+        "start": 30.9,
+        "end": 31
+      },
+      {
+        "word": "informatics",
+        "start": 31,
+        "end": 31.8
+      },
+      {
+        "word": "course?",
+        "start": 32.1,
+        "end": 32.6
+      },
+      {
+        "word": "Yeah,",
+        "start": 33,
+        "end": 33.4
+      },
+      {
+        "word": "it's",
+        "start": 33.4,
+        "end": 33.6
+      },
+      {
+        "word": "a",
+        "start": 33.6,
+        "end": 33.8
+      },
+      {
+        "word": "Oh,",
+        "start": 34.3,
+        "end": 34.4
+      },
+      {
+        "word": "like",
+        "start": 34.4,
+        "end": 34.8
+      },
+      {
+        "word": "digital",
+        "start": 35.1,
+        "end": 35.5
+      },
+      {
+        "word": "nine",
+        "start": 35,
+        "end": 35.4
+      },
+      {
+        "word": "nine",
+        "start": 35.6,
+        "end": 35.9
+      },
+      {
+        "word": "courses",
+        "start": 35.9,
+        "end": 36.2
+      },
+      {
+        "word": "or",
+        "start": 36.2,
+        "end": 36.3
+      },
+      {
+        "word": "10",
+        "start": 36.6,
+        "end": 36.9
+      },
+      {
+        "word": "or",
+        "start": 36.9,
+        "end": 36.9
+      },
+      {
+        "word": "something.",
+        "start": 36.9,
+        "end": 37.2
+      },
+      {
+        "word": "Okay.",
+        "start": 37.5,
+        "end": 37.6
+      },
+      {
+        "word": "And",
+        "start": 39,
+        "end": 39.1
+      },
+      {
+        "word": "then",
+        "start": 39.1,
+        "end": 39.3
+      },
+      {
+        "word": "then",
+        "start": 39.3,
+        "end": 39.4
+      },
+      {
+        "word": "I'm",
+        "start": 40.2,
+        "end": 40.3
+      },
+      {
+        "word": "doing",
+        "start": 40.3,
+        "end": 40.8
+      },
+      {
+        "word": "parallel",
+        "start": 41.7,
+        "end": 42.2
+      },
+      {
+        "word": "programming",
+        "start": 42.2,
+        "end": 42.9
+      },
+      {
+        "word": "languages",
+        "start": 42.9,
+        "end": 43.3
+      },
+      {
+        "word": "and",
+        "start": 43.3,
+        "end": 43.4
+      },
+      {
+        "word": "systems",
+        "start": 43.4,
+        "end": 43.8
+      },
+      {
+        "word": "which",
+        "start": 45,
+        "end": 45.3
+      },
+      {
+        "word": "we",
+        "start": 45.3,
+        "end": 45.4
+      },
+      {
+        "word": "had",
+        "start": 45.4,
+        "end": 45.6
+      },
+      {
+        "word": "one",
+        "start": 45.6,
+        "end": 45.8
+      },
+      {
+        "word": "exercise",
+        "start": 45.8,
+        "end": 46.2
+      },
+      {
+        "word": "as",
+        "start": 46.2,
+        "end": 46.4
+      },
+      {
+        "word": "well",
+        "start": 46.4,
+        "end": 46.6
+      },
+      {
+        "word": "and",
+        "start": 46.6,
+        "end": 46.7
+      },
+      {
+        "word": "that's",
+        "start": 46.7,
+        "end": 47
+      },
+      {
+        "word": "in",
+        "start": 47,
+        "end": 47.2
+      },
+      {
+        "word": "like",
+        "start": 47.2,
+        "end": 47.4
+      },
+      {
+        "word": "Friday.",
+        "start": 47.4,
+        "end": 47.8
+      },
+      {
+        "word": "Well,",
+        "start": 51.6,
+        "end": 51.7
+      },
+      {
+        "word": "I'm",
+        "start": 51.7,
+        "end": 51.8
+      },
+      {
+        "word": "not",
+        "start": 51.8,
+        "end": 52
+      },
+      {
+        "word": "doing",
+        "start": 52,
+        "end": 52.2
+      },
+      {
+        "word": "any",
+        "start": 52.2,
+        "end": 52.3
+      },
+      {
+        "word": "backhand",
+        "start": 52.3,
+        "end": 52.8
+      }
+    ],
+    "segments": [
+      {
+        "id": 0,
+        "start": 0,
+        "end": 52.8,
+        "text": "Well, I'll do that then. These can be changed Shall I do that then? Um, I don't know. It doesn't really matter. If if you want to. It's just, you know, play around with some extra stuff. You have some time. Why not? So what courses should I have picked that we're not doing anywhere? Well, I'm doing communications which we had one exercise and I've done that like two weeks ago. That's in two weeks. Is that in informatics course? Yeah, it's a Oh, like digital nine nine courses or 10 or something. Okay. And then then I'm doing parallel programming languages and systems which we had one exercise as well and that's in like Friday. Well, I'm not doing any backhand"
+      }
+    ],
+    "usage": {
+      "total_tokens": 1501,
+      "input_tokens": 1501,
+      "output_tokens": 0,
+      "cost": 0.003002
+    }
+  },
+  "metadata": {
+    "execution": "remote_api",
+    "model": "google/gemini-3.5-transcribe",
+    "generation_id": "gen-stt-1790486086-Gs6oRnI5JaqLIRgfp9au",
+    "reason": "nonpositive_transcript_interval",
+    "response_usage": {
+      "total_tokens": 1501,
+      "input_tokens": 1501,
+      "output_tokens": 0,
+      "cost": 0.003002
+    }
+  },
+  "scores": {
+    "wer": {
+      "errors": 190,
+      "length": 190,
+      "insertions": 0,
+      "deletions": 190,
+      "substitutions": 0
+    },
+    "cpwer": null,
+    "tcpwer": null,
+    "der": null,
+    "coverage": {
+      "covered_seconds": 0,
+      "reference_seconds": 52.91000000000008,
+      "ratio": 0.0
+    },
+    "timing": "failed",
+    "predicted_speakers": null,
+    "reference_speakers": 4
+  }
+}

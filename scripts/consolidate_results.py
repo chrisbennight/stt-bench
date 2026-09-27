@@ -3,20 +3,17 @@
 import argparse
 import csv
 import json
+import math
 from pathlib import Path
 
 from speaker_benchmark.runner import aggregate
 from speaker_benchmark.schema import Prediction, Segment, read_json, write_json
-from speaker_benchmark.scoring import score_record
+from speaker_benchmark.scoring import covered_speech, normalize, score_record
 
 ROOT = Path(__file__).resolve().parents[1]
-BUNDLE = ROOT / "results/openrouter-2026-09-27"
+BUNDLE = ROOT / "results/openrouter-validated-2026-09-27"
 LOCAL_BUNDLE = ROOT / "results/ami-4090-94clips-2026-09-27"
 INTRO = """# Consolidated benchmark results
-
-**Provisional hosted results:** speaker/timestamp options were not fully validated,
-and Fish Pro's inline annotations were scored as words in this run.
-See the [capability audit](../../docs/OPENROUTER_CAPABILITY_AUDIT.md) before interpreting ranks.
 
 Sorted by **word error rate (WER), lower is better**, the general transcription metric
 used for ranking by [Open ASR](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard).
@@ -24,25 +21,31 @@ Speaker attribution is additionally measured by cpWER and tcpWER, following
 [MeetEval](https://arxiv.org/abs/2307.11394); DER measures speaker activity errors.
 🥇🥈🥉 mark the three lowest measured values per column, except coverage (higher).
 All systems use the same 94 clips and references: 92.28 minutes, up to 60 seconds
-per clip. Speaker metrics use the same 89 labelled clips for every scored system.
-— means unavailable, not zero. Incomplete API runs receive no medals.
+per clip. Speaker metrics use the same {speaker_clips} labelled clips for every scored system.
+Missing cells state the output limitation; these describe the tested route, not every
+upstream capability. Four previously excluded DeepInfra routes receive no scores or medals.
 
 """
 NOTES = """
 
 RTF = processing seconds / audio seconds; lower is faster. Local inference uses one
 RTX 4090 without artificial real-time waits. API timing includes network/provider time.
-API $ and API timing cover selected successful responses, excluding failed requests
-and recovery delays; local timing includes attempted inference. VRAM is peak allocated
-GPU memory. Coverage is reference speech time overlapped by predicted speech, not an
-accuracy score. Missing or invalid transcripts count as empty in dataset error rates.
-The Clips column records incomplete runs and Chirp's one split-request recovery.
-Missing speaker cells describe the tested route, not all upstream model capabilities.
+API $ covers reported charges for returned responses, including parser-rejected responses.
+Failed HTTP requests have unknown billing unless reconciled in the [cost ledger](costs.json).
+API timing covers completed responses; local timing includes attempted inference.
+VRAM is peak allocated GPU memory. Coverage is reference speech time overlapped by
+predicted speech, not an accuracy score. Missing or invalid transcripts count as empty
+in dataset error rates.
+For routes with timing, empty speech output covers zero reference speech; a nonempty
+transcript without timing prevents a full-dataset coverage score.
+No external diarizer or invented timestamps are added to hosted outputs. Gemini and
+Voxtral were asked for diarization but did not return speaker fields in the probe;
+their upstream speaker capabilities remain distinct from this tested integration.
 
 [CSV](consolidated.csv) · [Full metrics](consolidated.json) · [Source selection](sources.json).
-All 2,726 clip scores were recomputed from saved predictions and references.
+All {verified_scores} clip scores were recomputed from saved predictions and references.
 [Local run provenance](../ami-4090-94clips-2026-09-27/sources.json) ·
-[Chirp recovery](../openrouter-chirp-2026-09-27/README.md).
+[Capability audit](../../docs/OPENROUTER_CAPABILITY_AUDIT.md).
 WER aggregates error counts over reference words; DER aggregates error durations.
 No confidence intervals are claimed from four correlated meetings. The WER reference
 orders overlapping words chronologically, so it is not an overlap-invariant measure.
@@ -132,6 +135,46 @@ def validate_same_records(expected, actual):
         raise ValueError("Local and API audio windows and references must match exactly")
 
 
+def missing_cell(row, key):
+    if row.get("excluded"):
+        return "Excluded"
+    if key == "cpwer":
+        return "No labels"
+    if key in {"tcpwer", "der"}:
+        return "No speaker times" if row.get("cpwer") is not None else "No labels"
+    if key == "speech_time_coverage":
+        return "No times"
+    return "—"
+
+
+def reported_cost(row):
+    metadata = row.get("prediction", {}).get("metadata", {})
+    usage = (metadata.get("usage", {}) if row["status"] == "ok"
+             else row.get("metadata", {}).get("response_usage", {}))
+    cost = usage.get("cost")
+    return cost if type(cost) in (int, float) and math.isfinite(cost) and cost >= 0 else None
+
+
+def full_dataset_coverage(scores, records):
+    """Empty speech covers zero time; nonempty untimed speech has unknown coverage."""
+    if not any(r["scores"]["coverage"] is not None for r in scores):
+        return None, []
+    counts, empty_ids = [], []
+    for row in scores:
+        coverage = row["scores"]["coverage"]
+        if coverage is None:
+            if row["status"] != "ok" or any(
+                normalize(s["text"]) for s in row["prediction"]["segments"]
+            ):
+                return None, empty_ids
+            reference = [Segment(**s) for s in records[row["id"]]["reference_activity"]]
+            coverage = covered_speech(reference, [])
+            empty_ids.append(row["id"])
+        counts.append(coverage)
+    denominator = sum(c["reference_seconds"] for c in counts)
+    return sum(c["covered_seconds"] for c in counts) / denominator, empty_ids
+
+
 def build(verify=False):
     records = [json.loads(line) for line in (BUNDLE / "manifest.jsonl").read_text().splitlines()]
     record_map = {r["id"]: r for r in records}
@@ -139,6 +182,11 @@ def build(verify=False):
     rows, groups, checked = [], {}, 0
     for source in sources["models"]:
         model = source["model"]
+        if source.get("excluded"):
+            rows.append({"model": model, "track": "api", "eligible": False, "excluded": True,
+                         "completed": 0, "recordings": len(records), "invalid_output": 0,
+                         **{k: None for k in ("wer", "cpwer", "tcpwer", "der", "rtf")}})
+            continue
         scores = read_json(BUNDLE / "scores" / f"{model}.json")
         if len(scores) != len(records) or {r["id"] for r in scores} != set(record_map):
             raise ValueError("Scores must cover each reference exactly once")
@@ -160,11 +208,21 @@ def build(verify=False):
                 checked += 1
         summary = aggregate(model, scores, records)
         summary.update(track="api", eligible=summary["completed"] == len(records))
+        summary["speech_time_coverage"], summary["coverage_empty_output_clips"] = (
+            full_dataset_coverage(scores, record_map)
+        )
         summary["rtf"] = summary["rtf_completed"]
-        if model in {"microsoft--mai-transcribe-2", "deepgram--nova-3"}:
+        costs = [reported_cost(r) for r in scores]
+        summary["api_reported_cost_usd"] = sum(c for c in costs if c is not None)
+        summary["api_cost_complete"] = all(c is not None for c in costs)
+        if any(r["scores"]["cpwer"] is not None for r in scores):
             groups[model] = scores
         rows.append(summary)
-    common, speaker_scores = shared_speaker_scores(groups)
+    common_ids = set.intersection(*(
+        {r["id"] for r in scores if r["scores"]["cpwer"] is not None}
+        for scores in groups.values()
+    ))
+    common, speaker_scores = shared_speaker_scores(groups, common_ids)
     local_records = [json.loads(line) for line in
                      (LOCAL_BUNDLE / "manifest.jsonl").read_text().splitlines()]
     validate_same_records(records, local_records)
@@ -191,6 +249,9 @@ def build(verify=False):
         summary.update(track="local", eligible=all(
             r["status"] in {"ok", "invalid_output"} for r in scores
         ), rtf=summary["rtf_attempted"])
+        summary["speech_time_coverage"], summary["coverage_empty_output_clips"] = (
+            full_dataset_coverage(scores, record_map)
+        )
         rows.append(summary)
         groups[model] = scores
     _, speaker_scores = shared_speaker_scores(groups, common)
@@ -204,7 +265,7 @@ def build(verify=False):
         row["label"] = LABELS[row["model"]]
         memory = row.get("max_cuda_allocated_bytes")
         row["vram_gib"] = memory / 2**30 if memory is not None else None
-    rows.sort(key=lambda r: r["wer"])
+    rows.sort(key=lambda r: r["wer"] if r["wer"] is not None else float("inf"))
     result = {"rows": rows, "shared_speaker_clip_ids": common, "verified_api_scores": checked,
               "verified_local_scores": local_checked}
     write_json(BUNDLE / "consolidated.json", result)
@@ -226,10 +287,8 @@ def build(verify=False):
                 medal(value, values, higher=key == "speech_time_coverage")
                 if row["eligible"] else ""
             )
-            cells.append("—" if value is None else icon + format(value, fmt))
-        status = f"{row['completed']}/{row['recordings']}"
-        if row["model"] == "google--chirp-3":
-            status += "; 1 split"
+            cells.append(missing_cell(row, key) if value is None else icon + format(value, fmt))
+        status = "Excluded" if row.get("excluded") else f"{row['completed']}/{row['recordings']}"
         if row["invalid_output"]:
             status += f"; {row['invalid_output']} invalid"
         cells.append(status)
@@ -242,7 +301,10 @@ def build(verify=False):
         writer.writeheader()
         writer.writerows({key: row.get(key) for key in fields} for row in rows)
     (BUNDLE / "table.md").write_text("\n".join(lines) + "\n")
-    (BUNDLE / "README.md").write_text(INTRO + "\n".join(lines) + NOTES)
+    (BUNDLE / "README.md").write_text(
+        INTRO.format(speaker_clips=len(common)) + "\n".join(lines)
+        + NOTES.format(verified_scores=f"{checked + local_checked:,}")
+    )
     return result
 
 

@@ -1,0 +1,1245 @@
+{
+  "id": "ES2004a-4800000",
+  "duration": 60.0,
+  "seed": 4264379538,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "A",
+        "start": 6.457,
+        "end": 6.473
+      },
+      {
+        "speaker": "unassigned",
+        "text": "kind",
+        "start": 6.537,
+        "end": 6.714
+      },
+      {
+        "speaker": "unassigned",
+        "text": "of",
+        "start": 6.778,
+        "end": 6.81
+      },
+      {
+        "speaker": "unassigned",
+        "text": "dog?",
+        "start": 6.923,
+        "end": 8.32
+      },
+      {
+        "speaker": "unassigned",
+        "text": "Yeah,",
+        "start": 9.493,
+        "end": 13.605
+      },
+      {
+        "speaker": "unassigned",
+        "text": "it's",
+        "start": 13.669,
+        "end": 13.878
+      },
+      {
+        "speaker": "unassigned",
+        "text": "actually",
+        "start": 14.006,
+        "end": 15.098
+      },
+      {
+        "speaker": "unassigned",
+        "text": "sitting,",
+        "start": 15.195,
+        "end": 16.223
+      },
+      {
+        "speaker": "unassigned",
+        "text": "so",
+        "start": 16.255,
+        "end": 16.351
+      },
+      {
+        "speaker": "unassigned",
+        "text": "it's",
+        "start": 16.753,
+        "end": 16.833
+      },
+      {
+        "speaker": "unassigned",
+        "text": "sitting,",
+        "start": 16.897,
+        "end": 17.235
+      },
+      {
+        "speaker": "unassigned",
+        "text": "it's",
+        "start": 17.363,
+        "end": 17.861
+      },
+      {
+        "speaker": "unassigned",
+        "text": "not",
+        "start": 17.877,
+        "end": 17.974
+      },
+      {
+        "speaker": "unassigned",
+        "text": "standing.",
+        "start": 18.022,
+        "end": 18.456
+      },
+      {
+        "speaker": "unassigned",
+        "text": "Okay,",
+        "start": 19.371,
+        "end": 19.564
+      },
+      {
+        "speaker": "unassigned",
+        "text": "I",
+        "start": 19.789,
+        "end": 19.805
+      },
+      {
+        "speaker": "unassigned",
+        "text": "see",
+        "start": 20.03,
+        "end": 20.11
+      },
+      {
+        "speaker": "unassigned",
+        "text": "it",
+        "start": 20.11,
+        "end": 20.158
+      },
+      {
+        "speaker": "unassigned",
+        "text": "as",
+        "start": 20.255,
+        "end": 20.367
+      },
+      {
+        "speaker": "unassigned",
+        "text": "one",
+        "start": 20.496,
+        "end": 20.544
+      },
+      {
+        "speaker": "unassigned",
+        "text": "thing.",
+        "start": 20.544,
+        "end": 20.608
+      },
+      {
+        "speaker": "unassigned",
+        "text": "It's",
+        "start": 20.688,
+        "end": 20.865
+      },
+      {
+        "speaker": "unassigned",
+        "text": "very",
+        "start": 21.058,
+        "end": 21.186
+      },
+      {
+        "speaker": "unassigned",
+        "text": "supportive.",
+        "start": 21.218,
+        "end": 21.797
+      },
+      {
+        "speaker": "unassigned",
+        "text": "It's",
+        "start": 24.142,
+        "end": 24.399
+      },
+      {
+        "speaker": "unassigned",
+        "text": "your",
+        "start": 24.463,
+        "end": 24.559
+      },
+      {
+        "speaker": "unassigned",
+        "text": "best",
+        "start": 24.688,
+        "end": 24.881
+      },
+      {
+        "speaker": "unassigned",
+        "text": "friend",
+        "start": 24.929,
+        "end": 25.122
+      },
+      {
+        "speaker": "unassigned",
+        "text": "in",
+        "start": 25.154,
+        "end": 25.202
+      },
+      {
+        "speaker": "unassigned",
+        "text": "your",
+        "start": 25.25,
+        "end": 25.346
+      },
+      {
+        "speaker": "unassigned",
+        "text": "You",
+        "start": 26.214,
+        "end": 26.294
+      },
+      {
+        "speaker": "unassigned",
+        "text": "can",
+        "start": 26.294,
+        "end": 26.406
+      },
+      {
+        "speaker": "unassigned",
+        "text": "talk",
+        "start": 26.471,
+        "end": 26.567
+      },
+      {
+        "speaker": "unassigned",
+        "text": "to",
+        "start": 26.615,
+        "end": 26.711
+      },
+      {
+        "speaker": "unassigned",
+        "text": "a",
+        "start": 26.711,
+        "end": 26.727
+      },
+      {
+        "speaker": "unassigned",
+        "text": "dog,",
+        "start": 26.84,
+        "end": 27.032
+      },
+      {
+        "speaker": "unassigned",
+        "text": "it",
+        "start": 27.081,
+        "end": 27.113
+      },
+      {
+        "speaker": "unassigned",
+        "text": "can",
+        "start": 27.113,
+        "end": 27.257
+      },
+      {
+        "speaker": "unassigned",
+        "text": "be",
+        "start": 27.257,
+        "end": 27.289
+      },
+      {
+        "speaker": "unassigned",
+        "text": "your",
+        "start": 27.322,
+        "end": 27.37
+      },
+      {
+        "speaker": "unassigned",
+        "text": "best",
+        "start": 27.418,
+        "end": 27.546
+      },
+      {
+        "speaker": "unassigned",
+        "text": "friend,",
+        "start": 27.578,
+        "end": 27.707
+      },
+      {
+        "speaker": "unassigned",
+        "text": "it",
+        "start": 27.739,
+        "end": 27.835
+      },
+      {
+        "speaker": "unassigned",
+        "text": "doesn't",
+        "start": 27.883,
+        "end": 28.092
+      },
+      {
+        "speaker": "unassigned",
+        "text": "discriminate",
+        "start": 28.124,
+        "end": 28.494
+      },
+      {
+        "speaker": "unassigned",
+        "text": "between",
+        "start": 28.542,
+        "end": 28.863
+      },
+      {
+        "speaker": "unassigned",
+        "text": "you",
+        "start": 28.927,
+        "end": 28.959
+      },
+      {
+        "speaker": "unassigned",
+        "text": "based",
+        "start": 29.81,
+        "end": 30.035
+      },
+      {
+        "speaker": "unassigned",
+        "text": "on",
+        "start": 30.051,
+        "end": 30.083
+      },
+      {
+        "speaker": "unassigned",
+        "text": "what",
+        "start": 30.131,
+        "end": 30.244
+      },
+      {
+        "speaker": "unassigned",
+        "text": "you",
+        "start": 30.292,
+        "end": 30.34
+      },
+      {
+        "speaker": "unassigned",
+        "text": "are.",
+        "start": 30.469,
+        "end": 30.501
+      },
+      {
+        "speaker": "unassigned",
+        "text": "Second,",
+        "start": 30.774,
+        "end": 31.785
+      },
+      {
+        "speaker": "unassigned",
+        "text": "it's",
+        "start": 31.833,
+        "end": 32.636
+      },
+      {
+        "speaker": "unassigned",
+        "text": "loyal.",
+        "start": 33.503,
+        "end": 33.857
+      },
+      {
+        "speaker": "unassigned",
+        "text": "And",
+        "start": 35.687,
+        "end": 35.799
+      },
+      {
+        "speaker": "unassigned",
+        "text": "third",
+        "start": 35.992,
+        "end": 36.169
+      },
+      {
+        "speaker": "unassigned",
+        "text": "thing,",
+        "start": 36.233,
+        "end": 36.297
+      },
+      {
+        "speaker": "unassigned",
+        "text": "it's",
+        "start": 36.41,
+        "end": 36.923
+      },
+      {
+        "speaker": "unassigned",
+        "text": "got",
+        "start": 37.116,
+        "end": 37.373
+      },
+      {
+        "speaker": "unassigned",
+        "text": "intuition.",
+        "start": 37.598,
+        "end": 38.112
+      },
+      {
+        "speaker": "unassigned",
+        "text": "Means",
+        "start": 40.809,
+        "end": 40.921
+      },
+      {
+        "speaker": "unassigned",
+        "text": "dogs",
+        "start": 41.066,
+        "end": 41.259
+      },
+      {
+        "speaker": "unassigned",
+        "text": "can",
+        "start": 41.259,
+        "end": 41.403
+      },
+      {
+        "speaker": "unassigned",
+        "text": "sometimes",
+        "start": 41.467,
+        "end": 42.158
+      },
+      {
+        "speaker": "unassigned",
+        "text": "make",
+        "start": 42.19,
+        "end": 42.286
+      },
+      {
+        "speaker": "unassigned",
+        "text": "out",
+        "start": 42.35,
+        "end": 42.447
+      },
+      {
+        "speaker": "unassigned",
+        "text": "between",
+        "start": 42.511,
+        "end": 42.864
+      },
+      {
+        "speaker": "unassigned",
+        "text": "a",
+        "start": 43.153,
+        "end": 43.169
+      },
+      {
+        "speaker": "unassigned",
+        "text": "thief",
+        "start": 43.314,
+        "end": 43.571
+      },
+      {
+        "speaker": "unassigned",
+        "text": "and",
+        "start": 43.699,
+        "end": 43.747
+      },
+      {
+        "speaker": "unassigned",
+        "text": "a",
+        "start": 43.796,
+        "end": 43.812
+      },
+      {
+        "speaker": "unassigned",
+        "text": "person.",
+        "start": 45.305,
+        "end": 45.514
+      },
+      {
+        "speaker": "unassigned",
+        "text": "So",
+        "start": 45.562,
+        "end": 45.738
+      },
+      {
+        "speaker": "unassigned",
+        "text": "basically,",
+        "start": 45.803,
+        "end": 46.204
+      },
+      {
+        "speaker": "unassigned",
+        "text": "these",
+        "start": 46.525,
+        "end": 46.686
+      },
+      {
+        "speaker": "unassigned",
+        "text": "are",
+        "start": 46.686,
+        "end": 46.718
+      },
+      {
+        "speaker": "unassigned",
+        "text": "the",
+        "start": 46.75,
+        "end": 46.846
+      },
+      {
+        "speaker": "unassigned",
+        "text": "3",
+        "start": 46.911,
+        "end": 47.007
+      },
+      {
+        "speaker": "unassigned",
+        "text": "unique",
+        "start": 47.071,
+        "end": 47.328
+      },
+      {
+        "speaker": "unassigned",
+        "text": "features",
+        "start": 47.392,
+        "end": 47.601
+      },
+      {
+        "speaker": "unassigned",
+        "text": "I",
+        "start": 47.81,
+        "end": 47.826
+      },
+      {
+        "speaker": "unassigned",
+        "text": "think",
+        "start": 47.89,
+        "end": 48.067
+      },
+      {
+        "speaker": "unassigned",
+        "text": "belong",
+        "start": 48.837,
+        "end": 48.966
+      },
+      {
+        "speaker": "unassigned",
+        "text": "to",
+        "start": 49.014,
+        "end": 49.11
+      },
+      {
+        "speaker": "unassigned",
+        "text": "a",
+        "start": 49.11,
+        "end": 49.126
+      },
+      {
+        "speaker": "unassigned",
+        "text": "dog.",
+        "start": 49.126,
+        "end": 49.191
+      },
+      {
+        "speaker": "unassigned",
+        "text": "Okay,",
+        "start": 49.239,
+        "end": 50.379
+      },
+      {
+        "speaker": "unassigned",
+        "text": "thank",
+        "start": 50.604,
+        "end": 50.877
+      },
+      {
+        "speaker": "unassigned",
+        "text": "you.",
+        "start": 50.941,
+        "end": 51.021
+      },
+      {
+        "speaker": "unassigned",
+        "text": "Please",
+        "start": 56.331,
+        "end": 56.91
+      },
+      {
+        "speaker": "unassigned",
+        "text": "leave",
+        "start": 56.958,
+        "end": 57.232
+      },
+      {
+        "speaker": "unassigned",
+        "text": "me",
+        "start": 57.28,
+        "end": 57.312
+      },
+      {
+        "speaker": "unassigned",
+        "text": "a",
+        "start": 57.361,
+        "end": 57.377
+      },
+      {
+        "speaker": "unassigned",
+        "text": "space",
+        "start": 57.377,
+        "end": 57.65
+      },
+      {
+        "speaker": "unassigned",
+        "text": "at",
+        "start": 57.779,
+        "end": 57.811
+      },
+      {
+        "speaker": "unassigned",
+        "text": "the",
+        "start": 57.843,
+        "end": 57.892
+      },
+      {
+        "speaker": "unassigned",
+        "text": "bottom.",
+        "start": 57.94,
+        "end": 58.262
+      },
+      {
+        "speaker": "unassigned",
+        "text": "I'm",
+        "start": 58.921,
+        "end": 59.324
+      },
+      {
+        "speaker": "unassigned",
+        "text": "little.",
+        "start": 59.372,
+        "end": 59.726
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "speaker_labels_available": false,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.00375
+      },
+      "raw_transcript": {
+        "text": "A kind of dog? Yeah, it's actually sitting, so it's sitting, it's not standing. Okay, I see it as one thing. It's very supportive. It's your best friend in your You can talk to a dog, it can be your best friend, it doesn't discriminate between you based on what you are. Second, it's loyal. And third thing, it's got intuition. Means dogs can sometimes make out between a thief and a person. So basically, these are the 3 unique features I think belong to a dog. Okay, thank you. Please leave me a space at the bottom. I'm little.",
+        "words": [
+          {
+            "word": "A",
+            "start": 6.457,
+            "end": 6.473,
+            "confidence": 0.910527707800705
+          },
+          {
+            "word": "kind",
+            "start": 6.537,
+            "end": 6.714,
+            "confidence": 0.999629634757054
+          },
+          {
+            "word": "of",
+            "start": 6.778,
+            "end": 6.81,
+            "confidence": 0.9999513649749275
+          },
+          {
+            "word": "dog?",
+            "start": 6.923,
+            "end": 8.32,
+            "confidence": 0.5135258002684893
+          },
+          {
+            "word": "Yeah,",
+            "start": 9.493,
+            "end": 13.605,
+            "confidence": 0.9673549245839258
+          },
+          {
+            "word": "it's",
+            "start": 13.669,
+            "end": 13.878,
+            "confidence": 0.9981021782109041
+          },
+          {
+            "word": "actually",
+            "start": 14.006,
+            "end": 15.098,
+            "confidence": 0.9999238310680846
+          },
+          {
+            "word": "sitting,",
+            "start": 15.195,
+            "end": 16.223,
+            "confidence": 0.9052385000416826
+          },
+          {
+            "word": "so",
+            "start": 16.255,
+            "end": 16.351,
+            "confidence": 0.9996011656333257
+          },
+          {
+            "word": "it's",
+            "start": 16.753,
+            "end": 16.833,
+            "confidence": 0.9687030409094987
+          },
+          {
+            "word": "sitting,",
+            "start": 16.897,
+            "end": 17.235,
+            "confidence": 0.9895680804978207
+          },
+          {
+            "word": "it's",
+            "start": 17.363,
+            "end": 17.861,
+            "confidence": 0.9996732281957647
+          },
+          {
+            "word": "not",
+            "start": 17.877,
+            "end": 17.974,
+            "confidence": 0.9984986705837912
+          },
+          {
+            "word": "standing.",
+            "start": 18.022,
+            "end": 18.456,
+            "confidence": 0.9997780741433211
+          },
+          {
+            "word": "Okay,",
+            "start": 19.371,
+            "end": 19.564,
+            "confidence": 0.9991777262844355
+          },
+          {
+            "word": "I",
+            "start": 19.789,
+            "end": 19.805,
+            "confidence": 0.9995884205863002
+          },
+          {
+            "word": "see",
+            "start": 20.03,
+            "end": 20.11,
+            "confidence": 0.9998199072075284
+          },
+          {
+            "word": "it",
+            "start": 20.11,
+            "end": 20.158,
+            "confidence": 0.999915368565632
+          },
+          {
+            "word": "as",
+            "start": 20.255,
+            "end": 20.367,
+            "confidence": 0.999902734679677
+          },
+          {
+            "word": "one",
+            "start": 20.496,
+            "end": 20.544,
+            "confidence": 0.9975350019652123
+          },
+          {
+            "word": "thing.",
+            "start": 20.544,
+            "end": 20.608,
+            "confidence": 0.7730609325001795
+          },
+          {
+            "word": "It's",
+            "start": 20.688,
+            "end": 20.865,
+            "confidence": 0.9996814471495112
+          },
+          {
+            "word": "very",
+            "start": 21.058,
+            "end": 21.186,
+            "confidence": 0.9988243113445606
+          },
+          {
+            "word": "supportive.",
+            "start": 21.218,
+            "end": 21.797,
+            "confidence": 0.5328705294924816
+          },
+          {
+            "word": "It's",
+            "start": 24.142,
+            "end": 24.399,
+            "confidence": 0.9953067299163958
+          },
+          {
+            "word": "your",
+            "start": 24.463,
+            "end": 24.559,
+            "confidence": 0.9996809785326457
+          },
+          {
+            "word": "best",
+            "start": 24.688,
+            "end": 24.881,
+            "confidence": 0.9997044483307657
+          },
+          {
+            "word": "friend",
+            "start": 24.929,
+            "end": 25.122,
+            "confidence": 0.9997674767512669
+          },
+          {
+            "word": "in",
+            "start": 25.154,
+            "end": 25.202,
+            "confidence": 0.9955620706800747
+          },
+          {
+            "word": "your",
+            "start": 25.25,
+            "end": 25.346,
+            "confidence": 0.9975455592501297
+          },
+          {
+            "word": "You",
+            "start": 26.214,
+            "end": 26.294,
+            "confidence": 0.7864239346910883
+          },
+          {
+            "word": "can",
+            "start": 26.294,
+            "end": 26.406,
+            "confidence": 0.998420472355038
+          },
+          {
+            "word": "talk",
+            "start": 26.471,
+            "end": 26.567,
+            "confidence": 0.997669181745556
+          },
+          {
+            "word": "to",
+            "start": 26.615,
+            "end": 26.711,
+            "confidence": 0.9995089797139717
+          },
+          {
+            "word": "a",
+            "start": 26.711,
+            "end": 26.727,
+            "confidence": 0.8545617404577415
+          },
+          {
+            "word": "dog,",
+            "start": 26.84,
+            "end": 27.032,
+            "confidence": 0.9727617304497803
+          },
+          {
+            "word": "it",
+            "start": 27.081,
+            "end": 27.113,
+            "confidence": 0.9979782529651929
+          },
+          {
+            "word": "can",
+            "start": 27.113,
+            "end": 27.257,
+            "confidence": 0.9996136727781878
+          },
+          {
+            "word": "be",
+            "start": 27.257,
+            "end": 27.289,
+            "confidence": 0.9997389998029483
+          },
+          {
+            "word": "your",
+            "start": 27.322,
+            "end": 27.37,
+            "confidence": 0.9750628431943555
+          },
+          {
+            "word": "best",
+            "start": 27.418,
+            "end": 27.546,
+            "confidence": 0.9998536324154215
+          },
+          {
+            "word": "friend,",
+            "start": 27.578,
+            "end": 27.707,
+            "confidence": 0.8270205427759215
+          },
+          {
+            "word": "it",
+            "start": 27.739,
+            "end": 27.835,
+            "confidence": 0.9857185748842909
+          },
+          {
+            "word": "doesn't",
+            "start": 27.883,
+            "end": 28.092,
+            "confidence": 0.9994772985900142
+          },
+          {
+            "word": "discriminate",
+            "start": 28.124,
+            "end": 28.494,
+            "confidence": 0.9999713905890374
+          },
+          {
+            "word": "between",
+            "start": 28.542,
+            "end": 28.863,
+            "confidence": 0.9911416931998256
+          },
+          {
+            "word": "you",
+            "start": 28.927,
+            "end": 28.959,
+            "confidence": 0.9991951511119368
+          },
+          {
+            "word": "based",
+            "start": 29.81,
+            "end": 30.035,
+            "confidence": 0.9945374355642784
+          },
+          {
+            "word": "on",
+            "start": 30.051,
+            "end": 30.083,
+            "confidence": 0.9999254997414527
+          },
+          {
+            "word": "what",
+            "start": 30.131,
+            "end": 30.244,
+            "confidence": 0.9993825197763984
+          },
+          {
+            "word": "you",
+            "start": 30.292,
+            "end": 30.34,
+            "confidence": 0.9999545833252356
+          },
+          {
+            "word": "are.",
+            "start": 30.469,
+            "end": 30.501,
+            "confidence": 0.9992996636185745
+          },
+          {
+            "word": "Second,",
+            "start": 30.774,
+            "end": 31.785,
+            "confidence": 0.9674468227356356
+          },
+          {
+            "word": "it's",
+            "start": 31.833,
+            "end": 32.636,
+            "confidence": 0.9971042787472869
+          },
+          {
+            "word": "loyal.",
+            "start": 33.503,
+            "end": 33.857,
+            "confidence": 0.997045677859923
+          },
+          {
+            "word": "And",
+            "start": 35.687,
+            "end": 35.799,
+            "confidence": 0.9998786596688399
+          },
+          {
+            "word": "third",
+            "start": 35.992,
+            "end": 36.169,
+            "confidence": 0.9495127440601643
+          },
+          {
+            "word": "thing,",
+            "start": 36.233,
+            "end": 36.297,
+            "confidence": 0.9902440022215528
+          },
+          {
+            "word": "it's",
+            "start": 36.41,
+            "end": 36.923,
+            "confidence": 0.9966029712944819
+          },
+          {
+            "word": "got",
+            "start": 37.116,
+            "end": 37.373,
+            "confidence": 0.9949949027020537
+          },
+          {
+            "word": "intuition.",
+            "start": 37.598,
+            "end": 38.112,
+            "confidence": 0.9846478659854574
+          },
+          {
+            "word": "Means",
+            "start": 40.809,
+            "end": 40.921,
+            "confidence": 0.8890660942228868
+          },
+          {
+            "word": "dogs",
+            "start": 41.066,
+            "end": 41.259,
+            "confidence": 0.9958908826966216
+          },
+          {
+            "word": "can",
+            "start": 41.259,
+            "end": 41.403,
+            "confidence": 0.9997123115509317
+          },
+          {
+            "word": "sometimes",
+            "start": 41.467,
+            "end": 42.158,
+            "confidence": 0.9935906910708849
+          },
+          {
+            "word": "make",
+            "start": 42.19,
+            "end": 42.286,
+            "confidence": 0.9997260129285791
+          },
+          {
+            "word": "out",
+            "start": 42.35,
+            "end": 42.447,
+            "confidence": 0.9998575651864731
+          },
+          {
+            "word": "between",
+            "start": 42.511,
+            "end": 42.864,
+            "confidence": 0.9982713592501825
+          },
+          {
+            "word": "a",
+            "start": 43.153,
+            "end": 43.169,
+            "confidence": 0.9997627106200397
+          },
+          {
+            "word": "thief",
+            "start": 43.314,
+            "end": 43.571,
+            "confidence": 0.9999238310680846
+          },
+          {
+            "word": "and",
+            "start": 43.699,
+            "end": 43.747,
+            "confidence": 0.9996322554043741
+          },
+          {
+            "word": "a",
+            "start": 43.796,
+            "end": 43.812,
+            "confidence": 0.9992962072021762
+          },
+          {
+            "word": "person.",
+            "start": 45.305,
+            "end": 45.514,
+            "confidence": 0.9960090869175816
+          },
+          {
+            "word": "So",
+            "start": 45.562,
+            "end": 45.738,
+            "confidence": 0.9998408809193999
+          },
+          {
+            "word": "basically,",
+            "start": 45.803,
+            "end": 46.204,
+            "confidence": 0.9208655411040227
+          },
+          {
+            "word": "these",
+            "start": 46.525,
+            "end": 46.686,
+            "confidence": 0.9998568501347177
+          },
+          {
+            "word": "are",
+            "start": 46.686,
+            "end": 46.718,
+            "confidence": 0.999961735281401
+          },
+          {
+            "word": "the",
+            "start": 46.75,
+            "end": 46.846,
+            "confidence": 0.9993341828647627
+          },
+          {
+            "word": "3",
+            "start": 46.911,
+            "end": 47.007,
+            "confidence": 0.9999905825550351
+          },
+          {
+            "word": "unique",
+            "start": 47.071,
+            "end": 47.328,
+            "confidence": 0.9996036670439605
+          },
+          {
+            "word": "features",
+            "start": 47.392,
+            "end": 47.601,
+            "confidence": 0.9996720436375873
+          },
+          {
+            "word": "I",
+            "start": 47.81,
+            "end": 47.826,
+            "confidence": 0.9883461833825067
+          },
+          {
+            "word": "think",
+            "start": 47.89,
+            "end": 48.067,
+            "confidence": 0.9995306550015045
+          },
+          {
+            "word": "belong",
+            "start": 48.837,
+            "end": 48.966,
+            "confidence": 0.9969202056729618
+          },
+          {
+            "word": "to",
+            "start": 49.014,
+            "end": 49.11,
+            "confidence": 0.9994527713438601
+          },
+          {
+            "word": "a",
+            "start": 49.11,
+            "end": 49.126,
+            "confidence": 0.9918207912021949
+          },
+          {
+            "word": "dog.",
+            "start": 49.126,
+            "end": 49.191,
+            "confidence": 0.9987559748874749
+          },
+          {
+            "word": "Okay,",
+            "start": 49.239,
+            "end": 50.379,
+            "confidence": 0.9576075772445887
+          },
+          {
+            "word": "thank",
+            "start": 50.604,
+            "end": 50.877,
+            "confidence": 0.9997428125225756
+          },
+          {
+            "word": "you.",
+            "start": 50.941,
+            "end": 51.021,
+            "confidence": 0.9936181161782062
+          },
+          {
+            "word": "Please",
+            "start": 56.331,
+            "end": 56.91,
+            "confidence": 0.9650518495472201
+          },
+          {
+            "word": "leave",
+            "start": 56.958,
+            "end": 57.232,
+            "confidence": 0.8722746797053079
+          },
+          {
+            "word": "me",
+            "start": 57.28,
+            "end": 57.312,
+            "confidence": 0.9999655497017356
+          },
+          {
+            "word": "a",
+            "start": 57.361,
+            "end": 57.377,
+            "confidence": 0.9926214335232585
+          },
+          {
+            "word": "space",
+            "start": 57.377,
+            "end": 57.65,
+            "confidence": 0.9966894676181604
+          },
+          {
+            "word": "at",
+            "start": 57.779,
+            "end": 57.811,
+            "confidence": 0.9998707938307625
+          },
+          {
+            "word": "the",
+            "start": 57.843,
+            "end": 57.892,
+            "confidence": 0.9999530337451736
+          },
+          {
+            "word": "bottom.",
+            "start": 57.94,
+            "end": 58.262,
+            "confidence": 0.9570712910752613
+          },
+          {
+            "word": "I'm",
+            "start": 58.921,
+            "end": 59.324,
+            "confidence": 0.8601909771254178
+          },
+          {
+            "word": "little.",
+            "start": 59.372,
+            "end": 59.726,
+            "confidence": 0.8653389516100509
+          }
+        ],
+        "segments": [
+          {
+            "id": 0,
+            "start": 0,
+            "end": 60,
+            "text": "A kind of dog? Yeah, it's actually sitting, so it's sitting, it's not standing. Okay, I see it as one thing. It's very supportive. It's your best friend in your You can talk to a dog, it can be your best friend, it doesn't discriminate between you based on what you are. Second, it's loyal. And third thing, it's got intuition. Means dogs can sometimes make out between a thief and a person. So basically, these are the 3 unique features I think belong to a dog. Okay, thank you. Please leave me a space at the bottom. I'm little."
+          }
+        ]
+      },
+      "execution": "remote_api",
+      "timestamp_policy": "strict",
+      "timestamp_adjustments": [],
+      "intervals_after_audio": [],
+      "speaker_label_source": "structured",
+      "annotation_tail_incomplete": false,
+      "model": "assemblyai/universal-3-5-pro",
+      "generation_id": "gen-stt-1790484327-kDIdfrogsxsVmUpEK4IC"
+    }
+  },
+  "wall_seconds": 9.374404706060886,
+  "rtf": 0.15624007843434812,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 53747712
+}

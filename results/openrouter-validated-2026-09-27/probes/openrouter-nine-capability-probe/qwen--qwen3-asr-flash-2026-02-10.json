@@ -1,0 +1,32 @@
+{
+  "options": {
+    "model": "qwen/qwen3-asr-flash-2026-02-10",
+    "max_requests": 1,
+    "max_audio_seconds_total": 60,
+    "max_audio_seconds": 60,
+    "request_timeout_seconds": 120,
+    "response_format": "verbose_json",
+    "timestamp_granularities": [
+      "segment",
+      "word"
+    ]
+  },
+  "response": {
+    "id": "ES2004a-4800000",
+    "duration": 60.0,
+    "seed": 4264379538,
+    "status": "inference_failed",
+    "error_type": "RemoteRequestError",
+    "http_status": 400,
+    "billing_status": "unknown",
+    "diagnostic": {
+      "mentions": [
+        "verbose_json",
+        "response_format"
+      ]
+    },
+    "reason": "http_error",
+    "wall_seconds": 4.263305197004229
+  },
+  "source_prediction_sha256": "b1ccb7eda5a6c6dfa5fec09c0772430a99e28e17bd8cc91d7d41713c54f47d02"
+}

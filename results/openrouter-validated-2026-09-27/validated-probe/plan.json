@@ -1,0 +1,416 @@
+{
+  "models": [
+    {
+      "id": "google--gemini-3.5-transcribe",
+      "adapter": "openrouter",
+      "options": {
+        "model": "google/gemini-3.5-transcribe",
+        "max_requests": 1,
+        "max_audio_seconds_total": 60,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 120,
+        "response_format": "verbose_json",
+        "timestamp_granularities": [
+          "segment",
+          "word"
+        ],
+        "provider_options": {
+          "google-ai-studio": {
+            "generation_config": {
+              "transcription_config": {
+                "mode": {
+                  "type": "verbatim",
+                  "diarization_mode": "speaker",
+                  "timestamp_granularities": [
+                    "word"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      "paths_exist": {},
+      "model_provenance": {},
+      "unsupported_recordings": []
+    },
+    {
+      "id": "fish-audio--transcribe-1-pro",
+      "adapter": "openrouter",
+      "options": {
+        "model": "fish-audio/transcribe-1-pro",
+        "max_requests": 1,
+        "max_audio_seconds_total": 60,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 120,
+        "response_format": "verbose_json",
+        "timestamp_granularities": [
+          "segment",
+          "word"
+        ],
+        "provider_options": {
+          "fish-audio": {
+            "ignore_timestamps": false
+          }
+        }
+      },
+      "paths_exist": {},
+      "model_provenance": {},
+      "unsupported_recordings": []
+    },
+    {
+      "id": "assemblyai--universal-3-5-pro",
+      "adapter": "openrouter",
+      "options": {
+        "model": "assemblyai/universal-3-5-pro",
+        "max_requests": 1,
+        "max_audio_seconds_total": 60,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 120,
+        "response_format": "verbose_json",
+        "timestamp_granularities": [
+          "segment",
+          "word"
+        ],
+        "provider_options": {
+          "assemblyai": {
+            "timestamps": true
+          }
+        }
+      },
+      "paths_exist": {},
+      "model_provenance": {},
+      "unsupported_recordings": []
+    },
+    {
+      "id": "meta--muse-voice-transcribe-1.0",
+      "adapter": "openrouter",
+      "options": {
+        "model": "meta/muse-voice-transcribe-1.0",
+        "max_requests": 1,
+        "max_audio_seconds_total": 60,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 120,
+        "response_format": "json",
+        "provider_options": {
+          "meta": {
+            "mode": "DIARIZATION"
+          }
+        }
+      },
+      "paths_exist": {},
+      "model_provenance": {},
+      "unsupported_recordings": []
+    },
+    {
+      "id": "microsoft--mai-transcribe-2",
+      "adapter": "openrouter",
+      "options": {
+        "model": "microsoft/mai-transcribe-2",
+        "max_requests": 1,
+        "max_audio_seconds_total": 60,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 120,
+        "response_format": "verbose_json",
+        "diarization": true,
+        "timestamp_granularities": [
+          "segment",
+          "word"
+        ]
+      },
+      "paths_exist": {},
+      "model_provenance": {},
+      "unsupported_recordings": []
+    },
+    {
+      "id": "nvidia--nemotron-3.5-asr-streaming-multilingual-0.6b",
+      "adapter": "openrouter",
+      "options": {
+        "model": "nvidia/nemotron-3.5-asr-streaming-multilingual-0.6b",
+        "max_requests": 1,
+        "max_audio_seconds_total": 60,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 120,
+        "response_format": "verbose_json",
+        "timestamp_granularities": [
+          "segment",
+          "word"
+        ]
+      },
+      "paths_exist": {},
+      "model_provenance": {},
+      "unsupported_recordings": []
+    },
+    {
+      "id": "openai--gpt-transcribe",
+      "adapter": "openrouter",
+      "options": {
+        "model": "openai/gpt-transcribe",
+        "max_requests": 1,
+        "max_audio_seconds_total": 60,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 120,
+        "response_format": "json"
+      },
+      "paths_exist": {},
+      "model_provenance": {},
+      "unsupported_recordings": []
+    },
+    {
+      "id": "fish-audio--transcribe-1",
+      "adapter": "openrouter",
+      "options": {
+        "model": "fish-audio/transcribe-1",
+        "max_requests": 1,
+        "max_audio_seconds_total": 60,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 120,
+        "response_format": "verbose_json",
+        "timestamp_granularities": [
+          "segment",
+          "word"
+        ],
+        "provider_options": {
+          "fish-audio": {
+            "ignore_timestamps": false
+          }
+        }
+      },
+      "paths_exist": {},
+      "model_provenance": {},
+      "unsupported_recordings": []
+    },
+    {
+      "id": "x-ai--grok-stt-1.0",
+      "adapter": "openrouter",
+      "options": {
+        "model": "x-ai/grok-stt-1.0",
+        "max_requests": 1,
+        "max_audio_seconds_total": 60,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 120,
+        "response_format": "verbose_json",
+        "timestamp_granularities": [
+          "segment",
+          "word"
+        ],
+        "provider_options": {
+          "xai": {
+            "diarize": true
+          }
+        }
+      },
+      "paths_exist": {},
+      "model_provenance": {},
+      "unsupported_recordings": []
+    },
+    {
+      "id": "deepgram--nova-3",
+      "adapter": "openrouter",
+      "options": {
+        "model": "deepgram/nova-3",
+        "max_requests": 1,
+        "max_audio_seconds_total": 60,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 120,
+        "response_format": "verbose_json",
+        "diarization": true,
+        "timestamp_granularities": [
+          "segment",
+          "word"
+        ]
+      },
+      "paths_exist": {},
+      "model_provenance": {},
+      "unsupported_recordings": []
+    },
+    {
+      "id": "microsoft--mai-transcribe-1.5",
+      "adapter": "openrouter",
+      "options": {
+        "model": "microsoft/mai-transcribe-1.5",
+        "max_requests": 1,
+        "max_audio_seconds_total": 60,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 120,
+        "response_format": "json"
+      },
+      "paths_exist": {},
+      "model_provenance": {},
+      "unsupported_recordings": []
+    },
+    {
+      "id": "nvidia--parakeet-tdt-0.6b-v3",
+      "adapter": "openrouter",
+      "options": {
+        "model": "nvidia/parakeet-tdt-0.6b-v3",
+        "max_requests": 1,
+        "max_audio_seconds_total": 60,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 120,
+        "response_format": "verbose_json",
+        "timestamp_granularities": [
+          "segment",
+          "word"
+        ]
+      },
+      "paths_exist": {},
+      "model_provenance": {},
+      "unsupported_recordings": []
+    },
+    {
+      "id": "mistralai--voxtral-mini-transcribe",
+      "adapter": "openrouter",
+      "options": {
+        "model": "mistralai/voxtral-mini-transcribe",
+        "max_requests": 1,
+        "max_audio_seconds_total": 60,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 120,
+        "response_format": "verbose_json",
+        "timestamp_granularities": [
+          "segment",
+          "word"
+        ],
+        "provider_options": {
+          "mistral": {
+            "diarize": true
+          },
+          "mistral/eu": {
+            "diarize": true
+          }
+        }
+      },
+      "paths_exist": {},
+      "model_provenance": {},
+      "unsupported_recordings": []
+    },
+    {
+      "id": "qwen--qwen3-asr-flash-2026-02-10",
+      "adapter": "openrouter",
+      "options": {
+        "model": "qwen/qwen3-asr-flash-2026-02-10",
+        "max_requests": 1,
+        "max_audio_seconds_total": 60,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 120,
+        "response_format": "json"
+      },
+      "paths_exist": {},
+      "model_provenance": {},
+      "unsupported_recordings": []
+    },
+    {
+      "id": "google--chirp-3",
+      "adapter": "openrouter",
+      "options": {
+        "model": "google/chirp-3",
+        "max_requests": 1,
+        "max_audio_seconds_total": 60,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 120,
+        "response_format": "json",
+        "audio_format": "flac"
+      },
+      "paths_exist": {},
+      "model_provenance": {},
+      "unsupported_recordings": []
+    },
+    {
+      "id": "openai--gpt-4o-mini-transcribe",
+      "adapter": "openrouter",
+      "options": {
+        "model": "openai/gpt-4o-mini-transcribe",
+        "max_requests": 1,
+        "max_audio_seconds_total": 60,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 120,
+        "response_format": "json"
+      },
+      "paths_exist": {},
+      "model_provenance": {},
+      "unsupported_recordings": []
+    },
+    {
+      "id": "openai--whisper-large-v3",
+      "adapter": "openrouter",
+      "options": {
+        "model": "openai/whisper-large-v3",
+        "max_requests": 1,
+        "max_audio_seconds_total": 60,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 120,
+        "response_format": "verbose_json",
+        "timestamp_granularities": [
+          "segment",
+          "word"
+        ]
+      },
+      "paths_exist": {},
+      "model_provenance": {},
+      "unsupported_recordings": []
+    },
+    {
+      "id": "openai--whisper-large-v3-turbo",
+      "adapter": "openrouter",
+      "options": {
+        "model": "openai/whisper-large-v3-turbo",
+        "max_requests": 1,
+        "max_audio_seconds_total": 60,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 120,
+        "response_format": "verbose_json",
+        "timestamp_granularities": [
+          "segment",
+          "word"
+        ]
+      },
+      "paths_exist": {},
+      "model_provenance": {},
+      "unsupported_recordings": []
+    },
+    {
+      "id": "openai--whisper-1",
+      "adapter": "openrouter",
+      "options": {
+        "model": "openai/whisper-1",
+        "max_requests": 1,
+        "max_audio_seconds_total": 60,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 120,
+        "response_format": "verbose_json",
+        "timestamp_granularities": [
+          "segment",
+          "word"
+        ]
+      },
+      "paths_exist": {},
+      "model_provenance": {},
+      "unsupported_recordings": []
+    },
+    {
+      "id": "openai--gpt-4o-transcribe",
+      "adapter": "openrouter",
+      "options": {
+        "model": "openai/gpt-4o-transcribe",
+        "max_requests": 1,
+        "max_audio_seconds_total": 60,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 120,
+        "response_format": "json"
+      },
+      "paths_exist": {},
+      "model_provenance": {},
+      "unsupported_recordings": []
+    }
+  ],
+  "protocol": {
+    "tcp_collar": 5.0,
+    "der_collar": 0.0,
+    "worker_timeout_seconds": 7200.0,
+    "random_seed_policy": "sha256-record-id-first-32-bits-v1",
+    "parallel_models": 20
+  },
+  "manifest_sha256": "81d8d42699e17b7432237b02e57d645193d6f1cad47c3e09221d65097ca93b74",
+  "config_sha256": "322d7dfcc08795e0f158654ad48c686937aaedcd9a6ab49c586dff8a40a10d34"
+}

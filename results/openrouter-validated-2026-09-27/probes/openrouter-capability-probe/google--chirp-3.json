@@ -1,0 +1,37 @@
+{
+  "options": {
+    "model": "google/chirp-3",
+    "max_requests": 1,
+    "max_audio_seconds_total": 60,
+    "max_audio_seconds": 60,
+    "request_timeout_seconds": 120,
+    "response_format": "verbose_json",
+    "timestamp_granularities": [
+      "segment",
+      "word"
+    ],
+    "provider_options": {
+      "google-vertex": {
+        "config": {
+          "features": {
+            "diarizationConfig": {},
+            "enableWordTimeOffsets": true
+          }
+        }
+      }
+    },
+    "audio_format": "flac"
+  },
+  "response": {
+    "id": "ES2004a-4800000",
+    "duration": 60.0,
+    "seed": 4264379538,
+    "status": "inference_failed",
+    "error_type": "RemoteRequestError",
+    "http_status": 400,
+    "billing_status": "unknown",
+    "reason": "http_error",
+    "wall_seconds": 3.915361103019677
+  },
+  "source_prediction_sha256": "390f72e4b8f0ae721f032f2db8fcf507259fef33eb3308cab4466d2752a30c84"
+}

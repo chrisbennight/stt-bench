@@ -82,10 +82,7 @@
         "max_audio_seconds_total": 60,
         "max_audio_seconds": 60,
         "request_timeout_seconds": 120,
-        "response_format": "verbose_json",
-        "timestamp_granularities": [
-          "segment"
-        ],
+        "response_format": "json",
         "provider_options": {
           "meta": {
             "mode": "DIARIZATION"
@@ -135,11 +132,7 @@
         "max_audio_seconds_total": 60,
         "max_audio_seconds": 60,
         "request_timeout_seconds": 120,
-        "response_format": "verbose_json",
-        "timestamp_granularities": [
-          "segment",
-          "word"
-        ]
+        "response_format": "json"
       }
     },
     {
@@ -262,11 +255,7 @@
         "max_audio_seconds_total": 60,
         "max_audio_seconds": 60,
         "request_timeout_seconds": 120,
-        "response_format": "verbose_json",
-        "timestamp_granularities": [
-          "segment",
-          "word"
-        ]
+        "response_format": "json"
       }
     },
     {
@@ -278,21 +267,7 @@
         "max_audio_seconds_total": 60,
         "max_audio_seconds": 60,
         "request_timeout_seconds": 120,
-        "response_format": "verbose_json",
-        "timestamp_granularities": [
-          "segment",
-          "word"
-        ],
-        "provider_options": {
-          "google-vertex": {
-            "config": {
-              "features": {
-                "diarizationConfig": {},
-                "enableWordTimeOffsets": true
-              }
-            }
-          }
-        },
+        "response_format": "json",
         "audio_format": "flac"
       }
     },

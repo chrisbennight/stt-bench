@@ -1,0 +1,91 @@
+{
+  "id": "ES2004a-4800000",
+  "duration": 60.0,
+  "seed": 4264379538,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "1",
+        "text": "Thank",
+        "start": 20.587,
+        "end": 26.629
+      },
+      {
+        "speaker": "1",
+        "text": "you.",
+        "start": 28.91,
+        "end": 29.01
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "response_field_names": {
+        "words": [
+          "end",
+          "speaker",
+          "start",
+          "word"
+        ],
+        "segments": [
+          "end",
+          "id",
+          "start",
+          "text"
+        ]
+      },
+      "response_top_level_fields": [
+        "duration",
+        "language",
+        "segments",
+        "text",
+        "usage",
+        "words"
+      ],
+      "speaker_labels_available": true,
+      "usage": {
+        "seconds": 60,
+        "cost": 0.001666666666668
+      },
+      "raw_transcript": {
+        "text": "Thank you.",
+        "words": [
+          {
+            "word": "Thank",
+            "start": 20.587,
+            "end": 26.629,
+            "speaker": 1
+          },
+          {
+            "word": "you.",
+            "start": 28.91,
+            "end": 29.01,
+            "speaker": 1
+          }
+        ],
+        "segments": [
+          {
+            "id": 0,
+            "start": 0,
+            "end": 60,
+            "text": "Thank you."
+          }
+        ]
+      },
+      "execution": "remote_api",
+      "timestamp_policy": "intersect_audio_bounds",
+      "timestamp_adjustments": [],
+      "intervals_after_audio": [],
+      "speaker_label_source": "structured",
+      "annotation_tail_incomplete": false,
+      "model": "x-ai/grok-stt-1.0",
+      "generation_id": "gen-stt-1790485102-n1QSqDmUZ9ZvaUBdYjWD"
+    }
+  },
+  "wall_seconds": 3.706008068053052,
+  "rtf": 0.06176680113421753,
+  "cuda_peak": null,
+  "process_lifetime_peak_rss_bytes": 54226944
+}

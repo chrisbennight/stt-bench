@@ -1,0 +1,1849 @@
+[
+  {
+    "id": "EN2002a-7680000",
+    "duration": 60.0,
+    "seed": 3838496989,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "what's the most common Yeah exactly Yeah sp used double-click Yeah sp Like I dunno show the speaker characteristics or something Yeah Yeah but sp Yeah but then then there's the problem with a lot of windows popping up again And they pop up without you even sp Mm-hmm sp being quite sure what it is you know what I mean sp Yeah sp But if you do double-click on something don't you expect something to happen then sp Mm sp Yeah maybe sp Sort of mm sp You sp Oh sp touch it accidentally you know I'll go away sp Yeah sp It's still coming up sp Well then I close it yeah sp Yeah sp Yeah it's not it's not the end of the world sp Especially if I had a touch-pad sp Yeah yeah sp And then she goes oh sp Yeah sp Yeah sp It goes sp Well I'll I'll check what it does on on um double-click at the moment sp Yeah sp Okay sp 'Cause I think it might sp Yeah sp do something but sp I dunno sp So sp Could be sp yeah sp the sp but I don't I don't I just really don't see anything obvious that that I mean if you can think of something but sp Hmm sp Well I'll have a look So sp Okay sp",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "response_field_names": {
+          "words": [],
+          "segments": []
+        },
+        "response_top_level_fields": [
+          "text",
+          "usage"
+        ],
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.01600000000002
+        },
+        "raw_transcript": {
+          "text": "what's the most common Yeah exactly Yeah sp used double-click Yeah sp Like I dunno show the speaker characteristics or something Yeah Yeah but sp Yeah but then then there's the problem with a lot of windows popping up again And they pop up without you even sp Mm-hmm sp being quite sure what it is you know what I mean sp Yeah sp But if you do double-click on something don't you expect something to happen then sp Mm sp Yeah maybe sp Sort of mm sp You sp Oh sp touch it accidentally you know I'll go away sp Yeah sp It's still coming up sp Well then I close it yeah sp Yeah sp Yeah it's not it's not the end of the world sp Especially if I had a touch-pad sp Yeah yeah sp And then she goes oh sp Yeah sp Yeah sp It goes sp Well I'll I'll check what it does on on um double-click at the moment sp Yeah sp Okay sp 'Cause I think it might sp Yeah sp do something but sp I dunno sp So sp Could be sp yeah sp the sp but I don't I don't I just really don't see anything obvious that that I mean if you can think of something but sp Hmm sp Well I'll have a look So sp Okay sp"
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "google/chirp-3",
+        "generation_id": "gen-stt-1790485867-FMlqjzBfJqv6QMmOwUWa"
+      }
+    },
+    "wall_seconds": 13.895165370078757,
+    "rtf": 0.23158608950131263,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 54083584,
+    "scores": {
+      "wer": {
+        "errors": 102,
+        "length": 217,
+        "insertions": 34,
+        "deletions": 17,
+        "substitutions": 51
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-8640000",
+    "duration": 60.0,
+    "seed": 348418770,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "I guess it's the points on these Yeah What you're clicking on Sorry Um yeah another thing Single audio files do we wanna use them or not sp Seems like sp We don't know yet do we yet do we Do you mean sp Yeah sp single channel sp Yeah sp Single sp yeah sp channel sp Mm-hmm sp those single channel files do we want them I mean sp Probably not but we might need them for disfluencies sp If we sp Yeah sp d uh sp decide sp okay sp that sp yeah sp in sp yeah sp our sp yeah sp I sp yeah sp mean sp but sp we might use them sp at sp a sp sp while sp moment sp but sp no but sp to work with them but do we wanna integrate them uh so that when you browse you can sp We might want to be able to say oh just give me what that person's saying sp Do you though I sp No sp mean it's not gonna make much sense if you're at listen to it on its own do you sp Unless sp I don't know sp um you can't hear it properly or something somebody's talking over somebody else or something or We'll just say no for now and put it in later sp No sp on sp yeah sp Yeah 'cause otherwise it will be it will um increase the amount of data sp",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "response_field_names": {
+          "words": [],
+          "segments": []
+        },
+        "response_top_level_fields": [
+          "text",
+          "usage"
+        ],
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.01600000000002
+        },
+        "raw_transcript": {
+          "text": "I guess it's the points on these Yeah What you're clicking on Sorry Um yeah another thing Single audio files do we wanna use them or not sp Seems like sp We don't know yet do we yet do we Do you mean sp Yeah sp single channel sp Yeah sp Single sp yeah sp channel sp Mm-hmm sp those single channel files do we want them I mean sp Probably not but we might need them for disfluencies sp If we sp Yeah sp d uh sp decide sp okay sp that sp yeah sp in sp yeah sp our sp yeah sp I sp yeah sp mean sp but sp we might use them sp at sp a sp sp while sp moment sp but sp no but sp to work with them but do we wanna integrate them uh so that when you browse you can sp We might want to be able to say oh just give me what that person's saying sp Do you though I sp No sp mean it's not gonna make much sense if you're at listen to it on its own do you sp Unless sp I don't know sp um you can't hear it properly or something somebody's talking over somebody else or something or We'll just say no for now and put it in later sp No sp on sp yeah sp Yeah 'cause otherwise it will be it will um increase the amount of data sp"
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "google/chirp-3",
+        "generation_id": "gen-stt-1790485881-gdGqX3YYe5tC3QIMS6Mk"
+      }
+    },
+    "wall_seconds": 14.063123425003141,
+    "rtf": 0.23438539041671902,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58580992,
+    "scores": {
+      "wer": {
+        "errors": 91,
+        "length": 209,
+        "insertions": 50,
+        "deletions": 10,
+        "substitutions": 31
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-9600000",
+    "duration": 60.0,
+    "seed": 4095506435,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "you probably will want to Yeah The footprint will be big yeah Um Yeah wh what do people think in general about the windows cluttering that you s mentioned Do you think you think sp Hmm sp sp sp I think we probably need that though to have the the full flexibility We need to have that sp sp sp That's what I feel sp that's sp as sp well sp I mean I'm I'm very much I I wanna have everything customisable sp Hmm sp Um sp Well the thing is typically though is someone gonna have five windows open at the same time Probably not Probably sp Probably sp two sp two sp not no sp two sp yeah sp or three of whatever sp two sp whatever sp three sp they're looking sp maybe sp at like dialogue act sp yeah sp whatever sp But yeah it depends I mean I I really wanna put the summary in somewhere you know And sp Mm-hmm sp the summary for example is typical you open the window you read through it you might click on you know close it again straight away sp Yeah sp Yeah sp But it'd be good to sp No sp have sp I think sp that sp it's I think it's fine sp but sp yeah I think sp uh sp well sp it couldn't we I mean you probably I dunno if you wanna have like the the full transcription and the summary at the same time So maybe you can just like choo sp",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "response_field_names": {
+          "words": [],
+          "segments": []
+        },
+        "response_top_level_fields": [
+          "text",
+          "usage"
+        ],
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.01600000000002
+        },
+        "raw_transcript": {
+          "text": "you probably will want to Yeah The footprint will be big yeah Um Yeah wh what do people think in general about the windows cluttering that you s mentioned Do you think you think sp Hmm sp sp sp I think we probably need that though to have the the full flexibility We need to have that sp sp sp That's what I feel sp that's sp as sp well sp I mean I'm I'm very much I I wanna have everything customisable sp Hmm sp Um sp Well the thing is typically though is someone gonna have five windows open at the same time Probably not Probably sp Probably sp two sp two sp not no sp two sp yeah sp or three of whatever sp two sp whatever sp three sp they're looking sp maybe sp at like dialogue act sp yeah sp whatever sp But yeah it depends I mean I I really wanna put the summary in somewhere you know And sp Mm-hmm sp the summary for example is typical you open the window you read through it you might click on you know close it again straight away sp Yeah sp Yeah sp But it'd be good to sp No sp have sp I think sp that sp it's I think it's fine sp but sp yeah I think sp uh sp well sp it couldn't we I mean you probably I dunno if you wanna have like the the full transcription and the summary at the same time So maybe you can just like choo sp"
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "google/chirp-3",
+        "generation_id": "gen-stt-1790485893-G3sxI1bGAKtitfVSnNOH"
+      }
+    },
+    "wall_seconds": 12.00823404500261,
+    "rtf": 0.20013723408337683,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58580992,
+    "scores": {
+      "wer": {
+        "errors": 92,
+        "length": 240,
+        "insertions": 38,
+        "deletions": 15,
+        "substitutions": 39
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-10560000",
+    "duration": 60.0,
+    "seed": 3581222872,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "use the s same window for transcription and summary sp Seems like I've a tab there or something like that Oh sp Oh sp yeah sp yeah that's sp Yeah sp that's an idea sp Yeah it's sp I like sp a tab like sp the way it's sp a Mozilla sp done at the sp style sp top Yeah yeah yeah That's right I'm not sure yeah sp Does anybody know sp I don't know sp how to do that Can you sp Yeah sp do that job sp I bet that big job sp I bet sp in sp those sp sp they sp sp that sp want to do that sp probably sp Yeah sp I'm sp can sp sure sp I'm sure you could do anything sp If sp Yeah sp you really knew what you were doing but I don't know It's a bit of a crippled job as we're doing toolkit the A_ uh some sort sp Yeah sp It's a bit of a cripple sp Yeah I can have a look sp Yeah sp Yeah or just I don't know But yeah sp Yeah sp yeah that might be an sp to sp idea sp change sp yeah sp the contents of the same window like sp Yeah yeah sp from transcription to summary sp Yeah sp I don't know sp Yeah or even just have buttons on it toggle buttons or something on the toolbar for that window sp Hmm sp Just a thought sp Yeah sp There are different sp yeah sp ways sp that sp we sp could sp that's sp do it sp an idea sp It doesn't doesn't have to be a tab or whatever sp No sp Yeah sp no it sp",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "response_field_names": {
+          "words": [],
+          "segments": []
+        },
+        "response_top_level_fields": [
+          "text",
+          "usage"
+        ],
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.01600000000002
+        },
+        "raw_transcript": {
+          "text": "use the s same window for transcription and summary sp Seems like I've a tab there or something like that Oh sp Oh sp yeah sp yeah that's sp Yeah sp that's an idea sp Yeah it's sp I like sp a tab like sp the way it's sp a Mozilla sp done at the sp style sp top Yeah yeah yeah That's right I'm not sure yeah sp Does anybody know sp I don't know sp how to do that Can you sp Yeah sp do that job sp I bet that big job sp I bet sp in sp those sp sp they sp sp that sp want to do that sp probably sp Yeah sp I'm sp can sp sure sp I'm sure you could do anything sp If sp Yeah sp you really knew what you were doing but I don't know It's a bit of a crippled job as we're doing toolkit the A_ uh some sort sp Yeah sp It's a bit of a cripple sp Yeah I can have a look sp Yeah sp Yeah or just I don't know But yeah sp Yeah sp yeah that might be an sp to sp idea sp change sp yeah sp the contents of the same window like sp Yeah yeah sp from transcription to summary sp Yeah sp I don't know sp Yeah or even just have buttons on it toggle buttons or something on the toolbar for that window sp Hmm sp Just a thought sp Yeah sp There are different sp yeah sp ways sp that sp we sp could sp that's sp do it sp an idea sp It doesn't doesn't have to be a tab or whatever sp No sp Yeah sp no it sp"
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "google/chirp-3",
+        "generation_id": "gen-stt-1790485907-7QEr04Qoce6hQFgXLI5l"
+      }
+    },
+    "wall_seconds": 14.11137214396149,
+    "rtf": 0.2351895357326915,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58580992,
+    "scores": {
+      "wer": {
+        "errors": 164,
+        "length": 255,
+        "insertions": 57,
+        "deletions": 17,
+        "substitutions": 90
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-11520000",
+    "duration": 60.0,
+    "seed": 3436687995,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "you like transcription summarisation Yeah Yeah sp like two buttons and you just sp Yeah press on whichever sp Or check marks even have sp Yeah sp that or sp Yeah sp the number of um windows sp Yeah sp wouldn't it which is quite good 'Cause otherwise Photoshop has a lot of windows if you ever use Photoshop it's got loads and you're always going forever going oh get out of the way there's sp Yeah sp always stuff in the way isn't there sp Yeah Oh my sp But I mean people get used to it I mean w when you use a Windows or Linux for that matter you have a lot of windows open sp You sp You sp do sp manage them sp Yeah True sp Yeah Unless Kenny I don't suppose you can minimise them and stuff like that sp Yeah you can minimise sp Can you can you do that sp Yeah sp yeah yeah sp Okay sp Okay well that's sp Yeah sp Yeah Oh course you can actually yeah it's sp Yeah sp Like a lot of these can be like once we get the disfluencies out then we can you know transcribe without the disfluency transcribe with the disflu disfluency sp Yeah that's sp How about sp true that sp these you know sp they're sp how about sp definitely sp these sort of using the same window and so we sp Yeah sp can sp they're sp pop sp definitely sp them up sp gonna be in the same window sp And probably sp yeah sp mutually um you know sp That's quite sp exclusive sp a good idea sp exclusive sp Yeah that",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "response_field_names": {
+          "words": [],
+          "segments": []
+        },
+        "response_top_level_fields": [
+          "text",
+          "usage"
+        ],
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.01600000000002
+        },
+        "raw_transcript": {
+          "text": "you like transcription summarisation Yeah Yeah sp like two buttons and you just sp Yeah press on whichever sp Or check marks even have sp Yeah sp that or sp Yeah sp the number of um windows sp Yeah sp wouldn't it which is quite good 'Cause otherwise Photoshop has a lot of windows if you ever use Photoshop it's got loads and you're always going forever going oh get out of the way there's sp Yeah sp always stuff in the way isn't there sp Yeah Oh my sp But I mean people get used to it I mean w when you use a Windows or Linux for that matter you have a lot of windows open sp You sp You sp do sp manage them sp Yeah True sp Yeah Unless Kenny I don't suppose you can minimise them and stuff like that sp Yeah you can minimise sp Can you can you do that sp Yeah sp yeah yeah sp Okay sp Okay well that's sp Yeah sp Yeah Oh course you can actually yeah it's sp Yeah sp Like a lot of these can be like once we get the disfluencies out then we can you know transcribe without the disfluency transcribe with the disflu disfluency sp Yeah that's sp How about sp true that sp these you know sp they're sp how about sp definitely sp these sort of using the same window and so we sp Yeah sp can sp they're sp pop sp definitely sp them up sp gonna be in the same window sp And probably sp yeah sp mutually um you know sp That's quite sp exclusive sp a good idea sp exclusive sp Yeah that"
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "google/chirp-3",
+        "generation_id": "gen-stt-1790485920-zuTvjc9Yiepb9tqng5Ny"
+      }
+    },
+    "wall_seconds": 13.306240585981868,
+    "rtf": 0.22177067643303114,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58580992,
+    "scores": {
+      "wer": {
+        "errors": 117,
+        "length": 273,
+        "insertions": 41,
+        "deletions": 29,
+        "substitutions": 47
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-12480000",
+    "duration": 60.0,
+    "seed": 3420158446,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "well that was the plan for the discrepancies anyway spk: Yeah spk: so yeah do you wanna do that with summaries then Put the summaries in in the same way now spk: Mutually exclusive spk: Yeah spk: yeah spk: um well could w I dunno with transcripts it spk: Hmm spk: sounds reasonable to have like transcripts like maybe three alternatives then like spk: Right spk: full meeting meeting without disfluencies and spk: Summary spk: summary yeah spk: Yeah spk: Do you wanna do that spk: That kinda makes sense spk: Yeah spk: Yeah spk: Yeah it sounds good spk: Um yeah And finally the prototype he spoke about What kind of prototype could we produce spk: By the end of February spk: 'Cause I'm I'm just you know I go into the lab and I say right what am I gonna change today you know spk: Mm-hmm spk: And it kind of just it just develops I'm not aiming for anything Do we wanna aim for something spk: Um",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "response_field_names": {
+          "words": [],
+          "segments": []
+        },
+        "response_top_level_fields": [
+          "text",
+          "usage"
+        ],
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.01600000000002
+        },
+        "raw_transcript": {
+          "text": "well that was the plan for the discrepancies anyway spk: Yeah spk: so yeah do you wanna do that with summaries then Put the summaries in in the same way now spk: Mutually exclusive spk: Yeah spk: yeah spk: um well could w I dunno with transcripts it spk: Hmm spk: sounds reasonable to have like transcripts like maybe three alternatives then like spk: Right spk: full meeting meeting without disfluencies and spk: Summary spk: summary yeah spk: Yeah spk: Do you wanna do that spk: That kinda makes sense spk: Yeah spk: Yeah spk: Yeah it sounds good spk: Um yeah And finally the prototype he spoke about What kind of prototype could we produce spk: By the end of February spk: 'Cause I'm I'm just you know I go into the lab and I say right what am I gonna change today you know spk: Mm-hmm spk: And it kind of just it just develops I'm not aiming for anything Do we wanna aim for something spk: Um"
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "google/chirp-3",
+        "generation_id": "gen-stt-1790485932-pDTkk5Ff6eFG8ktbKaIH"
+      }
+    },
+    "wall_seconds": 11.087278889957815,
+    "rtf": 0.18478798149929693,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58580992,
+    "scores": {
+      "wer": {
+        "errors": 43,
+        "length": 146,
+        "insertions": 27,
+        "deletions": 2,
+        "substitutions": 14
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-13440000",
+    "duration": 60.0,
+    "seed": 1931847859,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "I'm I'm pretty much getting there anyway to be honest so it's not it's not gonna be a lot more work sp I guess it is I mean just to try and I mean for us to to be able to do something that we can include with your thing so sp Yeah that's what we need yeah Yeah sp Yeah Oh right sp Something just slightly more than just that on its own so sp Mm-hmm sp Yeah sp we can plug it in and just sp Yeah sp Yeah just so see the integration works sort of between the sp Mm true sp Yeah definitely sp Um mm sp I guess that's what we need to sp I think that's kinda what he meant as well isn't it really sp Yeah sp Taking it taking it sort of starting to do stuff rather than just being sp Oh right yeah yeah sp mm a prototype of the GUI sp Yeah well if I guess I mean that was probably our intention but we might not have written it down so sp Yeah yeah yeah sp Um sp Yeah sp Actually is the code accessible like the the GUI stuff that you've done uh like can we just like copy like the latest stuff out of your directory or something sp",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "response_field_names": {
+          "words": [],
+          "segments": []
+        },
+        "response_top_level_fields": [
+          "text",
+          "usage"
+        ],
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.01600000000002
+        },
+        "raw_transcript": {
+          "text": "I'm I'm pretty much getting there anyway to be honest so it's not it's not gonna be a lot more work sp I guess it is I mean just to try and I mean for us to to be able to do something that we can include with your thing so sp Yeah that's what we need yeah Yeah sp Yeah Oh right sp Something just slightly more than just that on its own so sp Mm-hmm sp Yeah sp we can plug it in and just sp Yeah sp Yeah just so see the integration works sort of between the sp Mm true sp Yeah definitely sp Um mm sp I guess that's what we need to sp I think that's kinda what he meant as well isn't it really sp Yeah sp Taking it taking it sort of starting to do stuff rather than just being sp Oh right yeah yeah sp mm a prototype of the GUI sp Yeah well if I guess I mean that was probably our intention but we might not have written it down so sp Yeah yeah yeah sp Um sp Yeah sp Actually is the code accessible like the the GUI stuff that you've done uh like can we just like copy like the latest stuff out of your directory or something sp"
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "google/chirp-3",
+        "generation_id": "gen-stt-1790485943-LDFtQOGsHsVMuOSyXCMD"
+      }
+    },
+    "wall_seconds": 11.153746975003742,
+    "rtf": 0.18589578291672904,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58580992,
+    "scores": {
+      "wer": {
+        "errors": 61,
+        "length": 211,
+        "insertions": 24,
+        "deletions": 12,
+        "substitutions": 25
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-14400000",
+    "duration": 60.0,
+    "seed": 2869552900,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "Um sp Like if we're gonna just try to like take a look or something sp I dunno can you access sp try and sp other people's sp You sp You sp I think sp can sp can sp you can sp make it world readable then anybody can sp Well if you just tell us the directory and just make the file readable then we sp Yeah sp know the directory to get in and and sp Yeah sp just sp sure sp That may be maybe sp I dunno if it's readable at the moment but you can try sp I sp I think by default sp I think sp they are sp No they're not world readable at sp No sp the sp they're sp default they're only default then only you can read them sp Alright sp Okay sp you can see them but you can't read them sp Okay sp Okay sp Right well I'll make that readable then sp Okay sp Yeah sp Um so the directory is my number sp If you just email to us oh okay yeah yeah it sp Well this is not difficult sp right okay sp What's your number sp Okay sp It's in all the emails sp Yeah your number sp nought O_ four sp Okay sp O_ four five three five six O_ sp Say that again O_ four sp O_ four five five five six O_ sp And then it's sp And then um there's a folder um N_L_S_S_D_ sp Mm-hmm sp S_T_D_ sp And it's call sp",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "response_field_names": {
+          "words": [],
+          "segments": []
+        },
+        "response_top_level_fields": [
+          "text",
+          "usage"
+        ],
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.01600000000002
+        },
+        "raw_transcript": {
+          "text": "Um sp Like if we're gonna just try to like take a look or something sp I dunno can you access sp try and sp other people's sp You sp You sp I think sp can sp can sp you can sp make it world readable then anybody can sp Well if you just tell us the directory and just make the file readable then we sp Yeah sp know the directory to get in and and sp Yeah sp just sp sure sp That may be maybe sp I dunno if it's readable at the moment but you can try sp I sp I think by default sp I think sp they are sp No they're not world readable at sp No sp the sp they're sp default they're only default then only you can read them sp Alright sp Okay sp you can see them but you can't read them sp Okay sp Okay sp Right well I'll make that readable then sp Okay sp Yeah sp Um so the directory is my number sp If you just email to us oh okay yeah yeah it sp Well this is not difficult sp right okay sp What's your number sp Okay sp It's in all the emails sp Yeah your number sp nought O_ four sp Okay sp O_ four five three five six O_ sp Say that again O_ four sp O_ four five five five six O_ sp And then it's sp And then um there's a folder um N_L_S_S_D_ sp Mm-hmm sp S_T_D_ sp And it's call sp"
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "google/chirp-3",
+        "generation_id": "gen-stt-1790485956-L7gchifsuNo46vHB5Y35"
+      }
+    },
+    "wall_seconds": 13.067584827076644,
+    "rtf": 0.2177930804512774,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58580992,
+    "scores": {
+      "wer": {
+        "errors": 114,
+        "length": 254,
+        "insertions": 38,
+        "deletions": 22,
+        "substitutions": 54
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-15360000",
+    "duration": 60.0,
+    "seed": 1335160836,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "the M_ browser spk: The M_ browser spk: Yes spk: What spk: M_ spk: are meetings spk: for meetings spk: Have you have you never had to look in my directory It's just pure chaos spk: No I'm I'm extremely organised too I've got folders everything I love folders spk: Yeah mine is serious chaos Files everywhere spk: Yeah so that's me done Someone else wanna talk about spk: I'll jump the gun spk: You can tell me what I've done in spk: Yeah spk: Great Oh um I dunno I basica I started like browsing a bit just like trying to see if there's anything out there to use sort spk: Mm-hmm spk: of um what were you doing again Yeah so spk: I was searching spk: yeah spk: stuff spk: Oh yeah I was searching spk: I spk: stuff spk: put a file spk: as spk: stuff spk: well spk: in spk: yeah spk: there and a next search directory and all that spk: Okay spk: Mm-hmm spk: found a tr",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "response_field_names": {
+          "words": [],
+          "segments": []
+        },
+        "response_top_level_fields": [
+          "text",
+          "usage"
+        ],
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.01600000000002
+        },
+        "raw_transcript": {
+          "text": "the M_ browser spk: The M_ browser spk: Yes spk: What spk: M_ spk: are meetings spk: for meetings spk: Have you have you never had to look in my directory It's just pure chaos spk: No I'm I'm extremely organised too I've got folders everything I love folders spk: Yeah mine is serious chaos Files everywhere spk: Yeah so that's me done Someone else wanna talk about spk: I'll jump the gun spk: You can tell me what I've done in spk: Yeah spk: Great Oh um I dunno I basica I started like browsing a bit just like trying to see if there's anything out there to use sort spk: Mm-hmm spk: of um what were you doing again Yeah so spk: I was searching spk: yeah spk: stuff spk: Oh yeah I was searching spk: I spk: stuff spk: put a file spk: as spk: stuff spk: well spk: in spk: yeah spk: there and a next search directory and all that spk: Okay spk: Mm-hmm spk: found a tr"
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "google/chirp-3",
+        "generation_id": "gen-stt-1790485969-6EViHDGuhR9zV64edNib"
+      }
+    },
+    "wall_seconds": 12.969348744023591,
+    "rtf": 0.2161558124003932,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58580992,
+    "scores": {
+      "wer": {
+        "errors": 94,
+        "length": 174,
+        "insertions": 19,
+        "deletions": 18,
+        "substitutions": 57
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-16320000",
+    "duration": 60.0,
+    "seed": 4108978572,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "tutorial but i i i i i i- i i i i i oh yeah spk: oh spkk: yeah spk: yeah spk: cool spk: yeah spk: cool spk: yeah spk: yeah spk: yeah spk: yeah spk:",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "response_field_names": {
+          "words": [],
+          "segments": []
+        },
+        "response_top_level_fields": [
+          "text",
+          "usage"
+        ],
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.01600000000002
+        },
+        "raw_transcript": {
+          "text": "tutorial but i i i i i i- i i i i i oh yeah spk: oh spkk: yeah spk: yeah spk: cool spk: yeah spk: cool spk: yeah spk: yeah spk: yeah spk: yeah spk:"
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "google/chirp-3",
+        "generation_id": "gen-stt-1790485983-eLw2Zo8Rh8yLQ1fe3ZCQ"
+      }
+    },
+    "wall_seconds": 25.619241213076748,
+    "rtf": 0.42698735355127915,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58580992,
+    "scores": {
+      "wer": {
+        "errors": 244,
+        "length": 261,
+        "insertions": 0,
+        "deletions": 225,
+        "substitutions": 19
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-17280000",
+    "duration": 60.0,
+    "seed": 2406449889,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "have to convert it to some sort of format I suppose sp Yeah I've been trying to write something to read the X_M_L_ and get rid of it And I can get rid of it but I'm having trouble putting it anywhere else So it'll come up on the screen sp Well that's a good sp But sp start sp for the moment I haven't managed to put it into a vector or whatever in Java to play with it but I sp What sp guess sp are sp I'm sp you sp trying sp are sp to sp writing sp do sp with sp in Java sp it sp Or sp Yeah sp Java sp Yeah sp okay sp Yeah Yeah sp So yeah sp I mean sp I'm sp you sp sure sp should sp a bunch sp look at sp of sp look sp stuff sp have a look at the the sp code then because then you know they already extract for example transcripts sp Yeah yeah sp I'm sp I'm sp sure sp sure sp they sp they sp do sp do at least sp Yeah sp That's a good idea sp Yeah Oh yeah Alright I'm sure I'm making a made of it at the moment actually Oh sp Um yeah I guess I mean it was a good point you had that like sp",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "response_field_names": {
+          "words": [],
+          "segments": []
+        },
+        "response_top_level_fields": [
+          "text",
+          "usage"
+        ],
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.01600000000002
+        },
+        "raw_transcript": {
+          "text": "have to convert it to some sort of format I suppose sp Yeah I've been trying to write something to read the X_M_L_ and get rid of it And I can get rid of it but I'm having trouble putting it anywhere else So it'll come up on the screen sp Well that's a good sp But sp start sp for the moment I haven't managed to put it into a vector or whatever in Java to play with it but I sp What sp guess sp are sp I'm sp you sp trying sp are sp to sp writing sp do sp with sp in Java sp it sp Or sp Yeah sp Java sp Yeah sp okay sp Yeah Yeah sp So yeah sp I mean sp I'm sp you sp sure sp should sp a bunch sp look at sp of sp look sp stuff sp have a look at the the sp code then because then you know they already extract for example transcripts sp Yeah yeah sp I'm sp I'm sp sure sp sure sp they sp they sp do sp do at least sp Yeah sp That's a good idea sp Yeah Oh yeah Alright I'm sure I'm making a made of it at the moment actually Oh sp Um yeah I guess I mean it was a good point you had that like sp"
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "google/chirp-3",
+        "generation_id": "gen-stt-1790486005-mrrA36vQPl9D9Djx1LmP"
+      }
+    },
+    "wall_seconds": 9.84023479395546,
+    "rtf": 0.164003913232591,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58580992,
+    "scores": {
+      "wer": {
+        "errors": 96,
+        "length": 190,
+        "insertions": 56,
+        "deletions": 13,
+        "substitutions": 27
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-18240000",
+    "duration": 60.0,
+    "seed": 2498804978,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "collaborating with the file things I mean if you already started on on spk: Yeah yeah spk: this stuff I spk: absolutely spk: guess spk: yeah spk: we can spk: Should share as much as possible spk: yeah spk: Mm-hmm libraries spk: Yeah spk: Yeah Should we I dunno meet up and see what we can do I mean I dunno see what you're spk: Yeah spk: done and see what we need spk: Yeah spk: when we know more about what we need maybe spk: Next spk: I spk: week spk: I spk: sounds spk: guess spk: Yeah spk: like spk: good spk: yeah spk: that's spk: I mean spk: like spk: so you're still spk: Yeah spk: looking spk: actually I haven't done anything this week 'cause this week's been manic but spk: Yes exactly so spk: Yeah I spk: you know spk: mean spk: I mean spk: this week's only two days old spk: Ah spk: Well whatever it was last spk: Oh spk: week spk: oh last week spk: The the the week as it as it is rather than the proper weeks do you know what I mean so spk: Yeah spk: it's spk: yeah spk: been all a bit of a spk: Yeah spk: manic the last spk: Yeah spk: last two spk: Well you're in spk: days spk: ASP spk: yeah spk: N_L_P_ and ASP two right spk: That's spk: Yeah spk: right yeah spk: Yeah spk: Yeah that's very spk: And spk: manic spk: then we had to do an I_R_P_ whatever it was last week as well which is only a page spk: Yeah spk: one but it's quite difficult to spk: Yeah spk: go a page spk: Yeah spk: Yeah spk: Yeah spk: Oh yeah spk: It was spk: I've spk: I spk: asked spk: got spk: people spk: to do spk: Yeah but spk:",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "response_field_names": {
+          "words": [],
+          "segments": []
+        },
+        "response_top_level_fields": [
+          "text",
+          "usage"
+        ],
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.01600000000002
+        },
+        "raw_transcript": {
+          "text": "collaborating with the file things I mean if you already started on on spk: Yeah yeah spk: this stuff I spk: absolutely spk: guess spk: yeah spk: we can spk: Should share as much as possible spk: yeah spk: Mm-hmm libraries spk: Yeah spk: Yeah Should we I dunno meet up and see what we can do I mean I dunno see what you're spk: Yeah spk: done and see what we need spk: Yeah spk: when we know more about what we need maybe spk: Next spk: I spk: week spk: I spk: sounds spk: guess spk: Yeah spk: like spk: good spk: yeah spk: that's spk: I mean spk: like spk: so you're still spk: Yeah spk: looking spk: actually I haven't done anything this week 'cause this week's been manic but spk: Yes exactly so spk: Yeah I spk: you know spk: mean spk: I mean spk: this week's only two days old spk: Ah spk: Well whatever it was last spk: Oh spk: week spk: oh last week spk: The the the week as it as it is rather than the proper weeks do you know what I mean so spk: Yeah spk: it's spk: yeah spk: been all a bit of a spk: Yeah spk: manic the last spk: Yeah spk: last two spk: Well you're in spk: days spk: ASP spk: yeah spk: N_L_P_ and ASP two right spk: That's spk: Yeah spk: right yeah spk: Yeah spk: Yeah that's very spk: And spk: manic spk: then we had to do an I_R_P_ whatever it was last week as well which is only a page spk: Yeah spk: one but it's quite difficult to spk: Yeah spk: go a page spk: Yeah spk: Yeah spk: Yeah spk: Oh yeah spk: It was spk: I've spk: I spk: asked spk: got spk: people spk: to do spk: Yeah but spk:"
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "google/chirp-3",
+        "generation_id": "gen-stt-1790486015-TvbdVM4pNjLVuRFHuPm5"
+      }
+    },
+    "wall_seconds": 12.887146109016612,
+    "rtf": 0.2147857684836102,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58580992,
+    "scores": {
+      "wer": {
+        "errors": 157,
+        "length": 255,
+        "insertions": 78,
+        "deletions": 13,
+        "substitutions": 66
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-19200000",
+    "duration": 60.0,
+    "seed": 1452194234,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "But it was I had to sit there and think about it for a bit which is a bit Yeah but S_ uh S_ pen I think huh sp Ah that's fun sp Hmm sp Hmm sp Um sp So yeah I was thinking the weekend probably sp Yeah I would sp to sp be sp uh sp available sp starting sp to tackle this sp Mm-hmm sp seriously and just um yeah hopefully have something by next week that we can sort of try integrating into the group sp Mm-hmm sp Okay sp Yeah sp And sp Well sp it should sp the sp be possible sp the browsers I use it now or as um sp Yeah sp it was there when I took it Um it uses the um the N_X_T_ search to get the data out of the sp Hmm sp out of the files which I think is odd but I'm not quite sure how it works it I don't quite understand it sp So when it when it sp To get the data for example to get summarisation data you have to search for I think the I_D_s or something Yeah sp That's pretty bizarre isn't sp Yeah sp it I guess that's how it works I've got sp it sp",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "response_field_names": {
+          "words": [],
+          "segments": []
+        },
+        "response_top_level_fields": [
+          "text",
+          "usage"
+        ],
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.01600000000002
+        },
+        "raw_transcript": {
+          "text": "But it was I had to sit there and think about it for a bit which is a bit Yeah but S_ uh S_ pen I think huh sp Ah that's fun sp Hmm sp Hmm sp Um sp So yeah I was thinking the weekend probably sp Yeah I would sp to sp be sp uh sp available sp starting sp to tackle this sp Mm-hmm sp seriously and just um yeah hopefully have something by next week that we can sort of try integrating into the group sp Mm-hmm sp Okay sp Yeah sp And sp Well sp it should sp the sp be possible sp the browsers I use it now or as um sp Yeah sp it was there when I took it Um it uses the um the N_X_T_ search to get the data out of the sp Hmm sp out of the files which I think is odd but I'm not quite sure how it works it I don't quite understand it sp So when it when it sp To get the data for example to get summarisation data you have to search for I think the I_D_s or something Yeah sp That's pretty bizarre isn't sp Yeah sp it I guess that's how it works I've got sp it sp"
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "google/chirp-3",
+        "generation_id": "gen-stt-1790486029-FURG469BuggqJ8Cu7gAr"
+      }
+    },
+    "wall_seconds": 11.277298768050969,
+    "rtf": 0.18795497946751613,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58580992,
+    "scores": {
+      "wer": {
+        "errors": 84,
+        "length": 202,
+        "insertions": 34,
+        "deletions": 13,
+        "substitutions": 37
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-20160000",
+    "duration": 60.0,
+    "seed": 3145792535,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "That is pretty bizarre So they don't you know they don't say look in that and that folder but sp Yeah yeah yeah sp sp sp sp sp spk: say search everything spk: That is pretty bizarre really spk: Hmm spk: Well they did say it wasn't the most efficient spk: It does load up quite quickly so it's not too bad spk: Okay spk: But you know spk: But wh spk: you spk: what spk: know spk: is it like a window where you have to uh write a search query or is it just what's behind it so or spk: No spk: I don't spk: this spk: know spk: is not the actual search This is spk: Okay spk: just when you open wh you know to load the transcript for example spk: Yeah spk: to find the transcript for spk: Yeah spk: a certain meeting it does does an N_X_C_ search for the string I don't know transcript or spk: Hmm spk: text spk: Okay spk: something whatever spk: For and it what it likely just has an open variable transcript spk: Yeah spk: this whatever find everything that's got that and spk: Yeah spk: then loads spk: so I don't know if you've looked at the search query language but it's like a dollar A_ spk: Yeah spk:",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "response_field_names": {
+          "words": [],
+          "segments": []
+        },
+        "response_top_level_fields": [
+          "text",
+          "usage"
+        ],
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.01600000000002
+        },
+        "raw_transcript": {
+          "text": "That is pretty bizarre So they don't you know they don't say look in that and that folder but sp Yeah yeah yeah sp sp sp sp sp spk: say search everything spk: That is pretty bizarre really spk: Hmm spk: Well they did say it wasn't the most efficient spk: It does load up quite quickly so it's not too bad spk: Okay spk: But you know spk: But wh spk: you spk: what spk: know spk: is it like a window where you have to uh write a search query or is it just what's behind it so or spk: No spk: I don't spk: this spk: know spk: is not the actual search This is spk: Okay spk: just when you open wh you know to load the transcript for example spk: Yeah spk: to find the transcript for spk: Yeah spk: a certain meeting it does does an N_X_C_ search for the string I don't know transcript or spk: Hmm spk: text spk: Okay spk: something whatever spk: For and it what it likely just has an open variable transcript spk: Yeah spk: this whatever find everything that's got that and spk: Yeah spk: then loads spk: so I don't know if you've looked at the search query language but it's like a dollar A_ spk: Yeah spk:"
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "google/chirp-3",
+        "generation_id": "gen-stt-1790486038-38i9f7OjfkZMo8Sjy77Y"
+      }
+    },
+    "wall_seconds": 10.821609252947383,
+    "rtf": 0.18036015421578971,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58580992,
+    "scores": {
+      "wer": {
+        "errors": 77,
+        "length": 203,
+        "insertions": 36,
+        "deletions": 15,
+        "substitutions": 26
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-21120000",
+    "duration": 60.0,
+    "seed": 537548955,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "text thing sp Yeah yeah 'cause that's the uh the guy ki the guys at Edinburgh wasn't it yeah C probably sp And then yeah Because every every of all of these um these files have got um the an I_D_ and all the transcript files have got the string I don't know what it is words or text or something in it So it just searches for those files sp Okay sp Mm right yeah sp When you like is there a open thingy that you're wondering like well what did you do to like how did you figure out that you just use an index to your search like sp Um sp Is it sp um well it's in the code just sp Okay sp that it you know it you ha you define a search object and then sp Right sp you search on that string I had to figure out how to how to do the same thing for the summary that's how I sp Oh sp had to sp I see oh I sp had to understand how to do the transcript how they did the transcript to do the summary myself sp So did you have to write it in the way that they wrote it is that what you sp Yeah sp",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "response_field_names": {
+          "words": [],
+          "segments": []
+        },
+        "response_top_level_fields": [
+          "text",
+          "usage"
+        ],
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.01600000000002
+        },
+        "raw_transcript": {
+          "text": "text thing sp Yeah yeah 'cause that's the uh the guy ki the guys at Edinburgh wasn't it yeah C probably sp And then yeah Because every every of all of these um these files have got um the an I_D_ and all the transcript files have got the string I don't know what it is words or text or something in it So it just searches for those files sp Okay sp Mm right yeah sp When you like is there a open thingy that you're wondering like well what did you do to like how did you figure out that you just use an index to your search like sp Um sp Is it sp um well it's in the code just sp Okay sp that it you know it you ha you define a search object and then sp Right sp you search on that string I had to figure out how to how to do the same thing for the summary that's how I sp Oh sp had to sp I see oh I sp had to understand how to do the transcript how they did the transcript to do the summary myself sp So did you have to write it in the way that they wrote it is that what you sp Yeah sp"
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "google/chirp-3",
+        "generation_id": "gen-stt-1790486048-ItO5XseGSzpLMwI0WEIS"
+      }
+    },
+    "wall_seconds": 8.595087870024145,
+    "rtf": 0.1432514645004024,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58580992,
+    "scores": {
+      "wer": {
+        "errors": 55,
+        "length": 201,
+        "insertions": 23,
+        "deletions": 4,
+        "substitutions": 28
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 3
+    }
+  },
+  {
+    "id": "EN2002a-22080000",
+    "duration": 60.0,
+    "seed": 1675052105,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "just search for a specific string Right Okay So you could just you know you could use that when you if you wanna um take the data out of the code speshly the data out I was just thinking that yeah Yeah If you have a a question about what the the code means or where to find the code that you wanna you know whatever you wanna do then just send me an email sp Hmm sp I can explain it yeah sp Yeah sp I haven't tested your code yet sp Oh yeah sp No I haven't sp Actually in the moment it's got a load of rubbish because the the the browser that I used from the s from you know that they gave us had a lot of extra stuff in and I haven't dared thrown out to throw out all the functions that I haven't you know sp Just in case sp Yeah just in case sp Just in case sp Mission critical sp Yes So they're sp Okay sp all in there yet still A lot of rubbish but it will be it will be chucked out right at the end I think sp Yeah Go and go and take it out one bit at a time sp I'm not even gonna sp Yeah sp 'cause it won't yeah sp",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "response_field_names": {
+          "words": [],
+          "segments": []
+        },
+        "response_top_level_fields": [
+          "text",
+          "usage"
+        ],
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.01600000000002
+        },
+        "raw_transcript": {
+          "text": "just search for a specific string Right Okay So you could just you know you could use that when you if you wanna um take the data out of the code speshly the data out I was just thinking that yeah Yeah If you have a a question about what the the code means or where to find the code that you wanna you know whatever you wanna do then just send me an email sp Hmm sp I can explain it yeah sp Yeah sp I haven't tested your code yet sp Oh yeah sp No I haven't sp Actually in the moment it's got a load of rubbish because the the the browser that I used from the s from you know that they gave us had a lot of extra stuff in and I haven't dared thrown out to throw out all the functions that I haven't you know sp Just in case sp Yeah just in case sp Just in case sp Mission critical sp Yes So they're sp Okay sp all in there yet still A lot of rubbish but it will be it will be chucked out right at the end I think sp Yeah Go and go and take it out one bit at a time sp I'm not even gonna sp Yeah sp 'cause it won't yeah sp"
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "google/chirp-3",
+        "generation_id": "gen-stt-1790486057-xLCbafQJuvys6edX87XF"
+      }
+    },
+    "wall_seconds": 9.034225563984364,
+    "rtf": 0.15057042606640608,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58580992,
+    "scores": {
+      "wer": {
+        "errors": 72,
+        "length": 210,
+        "insertions": 27,
+        "deletions": 11,
+        "substitutions": 34
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-23040000",
+    "duration": 60.0,
+    "seed": 3717778605,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "Right So basically we got kind of this to work really didn't we Yeah That's the first thing that we can The answers to that isn't it the long and the short of it We can the weekend's still four days off Yeah four days Still at the bottom of the mountain How many hours is this the weekend I don't actually have that much to do But then Well since we Yeah can't yeah really yeah go to explore any other Yeah that's Oh life dear How's Well how's your how's your um uh quantifying raising Mm yeah yeah I can't remember what I'm supposed to do by the way Am I supposed to do the summarisation thing Mm No Who was doing it S You do Oh really",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "response_field_names": {
+          "words": [],
+          "segments": []
+        },
+        "response_top_level_fields": [
+          "text",
+          "usage"
+        ],
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.01600000000002
+        },
+        "raw_transcript": {
+          "text": "Right So basically we got kind of this to work really didn't we Yeah That's the first thing that we can The answers to that isn't it the long and the short of it We can the weekend's still four days off Yeah four days Still at the bottom of the mountain How many hours is this the weekend I don't actually have that much to do But then Well since we Yeah can't yeah really yeah go to explore any other Yeah that's Oh life dear How's Well how's your how's your um uh quantifying raising Mm yeah yeah I can't remember what I'm supposed to do by the way Am I supposed to do the summarisation thing Mm No Who was doing it S You do Oh really"
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "google/chirp-3",
+        "generation_id": "gen-stt-1790486062-3KOFJIOjEu8AxfiJPhJJ"
+      }
+    },
+    "wall_seconds": 5.388910025940277,
+    "rtf": 0.08981516709900461,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58580992,
+    "scores": {
+      "wer": {
+        "errors": 93,
+        "length": 170,
+        "insertions": 9,
+        "deletions": 49,
+        "substitutions": 35
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-24000000",
+    "duration": 60.0,
+    "seed": 2887563091,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "Yeah Well I'll do that then Shall I do that then I mean sp Umm I don't know it doesn't really matter sp Well you know sp If if you want to sp Yeah it's just yeah play around with some extra stuff you have some time why not sp It shouldn't be too difficult sp So what courses should I have picked we're not doing any work sp Yeah Well I'm doing Communications sp That's sp which sp the sp we had one exercise and I've done that like two weeks ago sp Hmm sp And that's in sp In two weeks sp Is that in in Informatics courses sp Yeah sp I don't know sp it's a sp Oh like sp nine sp nine course as well or ten or something sp Okay sp Right I see I see yeah sp And then um I'm doing Parallel Programming Languages and Systems sp Mm sp which we had one exercise as well and that's in like Friday Well I'm not doing any background reading so you know sp So sp It's a sp Yeah sp Mm sp",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "response_field_names": {
+          "words": [],
+          "segments": []
+        },
+        "response_top_level_fields": [
+          "text",
+          "usage"
+        ],
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.01600000000002
+        },
+        "raw_transcript": {
+          "text": "Yeah Well I'll do that then Shall I do that then I mean sp Umm I don't know it doesn't really matter sp Well you know sp If if you want to sp Yeah it's just yeah play around with some extra stuff you have some time why not sp It shouldn't be too difficult sp So what courses should I have picked we're not doing any work sp Yeah Well I'm doing Communications sp That's sp which sp the sp we had one exercise and I've done that like two weeks ago sp Hmm sp And that's in sp In two weeks sp Is that in in Informatics courses sp Yeah sp I don't know sp it's a sp Oh like sp nine sp nine course as well or ten or something sp Okay sp Right I see I see yeah sp And then um I'm doing Parallel Programming Languages and Systems sp Mm sp which we had one exercise as well and that's in like Friday Well I'm not doing any background reading so you know sp So sp It's a sp Yeah sp Mm sp"
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "google/chirp-3",
+        "generation_id": "gen-stt-1790486068-5dWPg01aYKew5qOYhVt2"
+      }
+    },
+    "wall_seconds": 5.225779465981759,
+    "rtf": 0.08709632443302932,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58580992,
+    "scores": {
+      "wer": {
+        "errors": 86,
+        "length": 190,
+        "insertions": 25,
+        "deletions": 27,
+        "substitutions": 34
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-24960000",
+    "duration": 60.0,
+    "seed": 892295018,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "Mm I'll be happy when this week is over I'll be happy when this course is over Yeah I know I dunno I'm happy with everything Yeah Anything else we ne need to discuss Mm Did we wanna meet before we talk to Steve next week Well I dunno We'll probably get some work done over the weekend so I know f Yeah After D_ N_ L_ G_ or something maybe just have a little quick little update and just Yeah if you like Yeah We can always decide then once Yeah exactly just Yeah Yeah Um so what what are you planning to do over the weekend then Search And You're gonna do the search You're gonna implement the search Sure why not Couldn't be that hard Well it'll be you know still a limited version of you know the next query search but I dunno Won't be the whole thing but Mm Um like we can just decide sort of things that we do wanna do yeah",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "response_field_names": {
+          "words": [],
+          "segments": []
+        },
+        "response_top_level_fields": [
+          "text",
+          "usage"
+        ],
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.01600000000002
+        },
+        "raw_transcript": {
+          "text": "Mm I'll be happy when this week is over I'll be happy when this course is over Yeah I know I dunno I'm happy with everything Yeah Anything else we ne need to discuss Mm Did we wanna meet before we talk to Steve next week Well I dunno We'll probably get some work done over the weekend so I know f Yeah After D_ N_ L_ G_ or something maybe just have a little quick little update and just Yeah if you like Yeah We can always decide then once Yeah exactly just Yeah Yeah Um so what what are you planning to do over the weekend then Search And You're gonna do the search You're gonna implement the search Sure why not Couldn't be that hard Well it'll be you know still a limited version of you know the next query search but I dunno Won't be the whole thing but Mm Um like we can just decide sort of things that we do wanna do yeah"
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "google/chirp-3",
+        "generation_id": "gen-stt-1790486074-MtN4oQK6CfF2ox0ljqUB"
+      }
+    },
+    "wall_seconds": 6.1289154989644885,
+    "rtf": 0.10214859164940814,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58580992,
+    "scores": {
+      "wer": {
+        "errors": 53,
+        "length": 190,
+        "insertions": 3,
+        "deletions": 24,
+        "substitutions": 26
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-25920000",
+    "duration": 60.0,
+    "seed": 4035604293,
+    "status": "ok",
+    "prediction": {
+      "segments": [],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "response_field_names": {
+          "words": [],
+          "segments": []
+        },
+        "response_top_level_fields": [
+          "text",
+          "usage"
+        ],
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.01600000000002
+        },
+        "raw_transcript": {
+          "text": ""
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "google/chirp-3",
+        "generation_id": "gen-stt-1790486082-x4gKpryXZXPLDU66YmqM"
+      }
+    },
+    "wall_seconds": 126.77953472209629,
+    "rtf": 2.1129922453682712,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58580992,
+    "scores": {
+      "wer": {
+        "errors": 108,
+        "length": 108,
+        "insertions": 0,
+        "deletions": 108,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-26880000",
+    "duration": 60.0,
+    "seed": 1636221095,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "we get it done by then I mean spk: Yeah sh yeah spk: Then we can write about it in the in the interim report spk: Yeah spk: Mm-hmm spk: and we s you know and then we've got spk: Yeah spk: something spk: yeah spk: to show spk: So the spk: Um Just looking at my own deadlines Um spk: Oh spk: oh and the the search interface Maybe you should decide pretty pretty early what kind of things you wanna be able to search for spk: Mm-hmm spk: And then if you want you can give it to me and I'll I'll build you nice you know a few tick spk: Mm-hmm spk: boxes and drop down menus spk: Wasn't like what do you have now wasn't that pretty much like spk: No spk: what we don't or was it just spk: Oh that's spk: like spk: that's spk: a demo spk: w that doesn't exist That was completely cut and pasted spk: Oh okay spk: That does not exist spk: Nicely done though spk:",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "response_field_names": {
+          "words": [],
+          "segments": []
+        },
+        "response_top_level_fields": [
+          "text",
+          "usage"
+        ],
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.01600000000002
+        },
+        "raw_transcript": {
+          "text": "we get it done by then I mean spk: Yeah sh yeah spk: Then we can write about it in the in the interim report spk: Yeah spk: Mm-hmm spk: and we s you know and then we've got spk: Yeah spk: something spk: yeah spk: to show spk: So the spk: Um Just looking at my own deadlines Um spk: Oh spk: oh and the the search interface Maybe you should decide pretty pretty early what kind of things you wanna be able to search for spk: Mm-hmm spk: And then if you want you can give it to me and I'll I'll build you nice you know a few tick spk: Mm-hmm spk: boxes and drop down menus spk: Wasn't like what do you have now wasn't that pretty much like spk: No spk: what we don't or was it just spk: Oh that's spk: like spk: that's spk: a demo spk: w that doesn't exist That was completely cut and pasted spk: Oh okay spk: That does not exist spk: Nicely done though spk:"
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "google/chirp-3",
+        "generation_id": "gen-stt-1790486206-ZBui8HPReUWHkawExNDK"
+      }
+    },
+    "wall_seconds": 5.592341755982488,
+    "rtf": 0.09320569593304147,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58580992,
+    "scores": {
+      "wer": {
+        "errors": 64,
+        "length": 146,
+        "insertions": 38,
+        "deletions": 4,
+        "substitutions": 22
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-27840000",
+    "duration": 60.0,
+    "seed": 4083058749,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "Yeah It's actually all these all these um things are are nicked from um you know all these drop down menus and tick boxes are nicked from Google It's a screen shot of Google Ooh I'm impressed That's got some good features then Maybe you should make it exist then It's gonna be a little difficult more difficult Yeah I mean I was going to but you know the whole drop down menus and stuff what we wanna search for is not quite agreed on We never agreed on what we wanna be able to search for sp Seems like it yeah So Yeah I do wanna you know just get together and think about the different types of search we could possibly do and then Mm Then we could discuss it next meeting which options we really wanna include That would probably involve researching the query language a bit as well to see what that can do It wou would be nice to I don't know",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "response_field_names": {
+          "words": [],
+          "segments": []
+        },
+        "response_top_level_fields": [
+          "text",
+          "usage"
+        ],
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.01600000000002
+        },
+        "raw_transcript": {
+          "text": "Yeah It's actually all these all these um things are are nicked from um you know all these drop down menus and tick boxes are nicked from Google It's a screen shot of Google Ooh I'm impressed That's got some good features then Maybe you should make it exist then It's gonna be a little difficult more difficult Yeah I mean I was going to but you know the whole drop down menus and stuff what we wanna search for is not quite agreed on We never agreed on what we wanna be able to search for sp Seems like it yeah So Yeah I do wanna you know just get together and think about the different types of search we could possibly do and then Mm Then we could discuss it next meeting which options we really wanna include That would probably involve researching the query language a bit as well to see what that can do It wou would be nice to I don't know"
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "google/chirp-3",
+        "generation_id": "gen-stt-1790486212-k25LCdZ7xqDcdmhtJ5Nx"
+      }
+    },
+    "wall_seconds": 4.702696788008325,
+    "rtf": 0.07837827980013874,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58580992,
+    "scores": {
+      "wer": {
+        "errors": 59,
+        "length": 210,
+        "insertions": 2,
+        "deletions": 45,
+        "substitutions": 12
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-28800000",
+    "duration": 60.0,
+    "seed": 438377510,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "meet up and you can sort of show us a bit that you know already so we don't sort of have to do all the work again of just like figuring out stuff spk: Oh just spk: So spk: like the basics of yeah spk: know already what spk: Sorry spk: just like accessing the corpus and stuff spk: Oh yeah spk: Yeah Just like all the and seeing the code and just sort of how just to see the basics of what you've done like just get a a quick look over and just can spk: Take spk: yeah spk: us through a tutorial say spk: Yeah spk: you know spk: Or like like you know the class paths all that spk: Yeah spk: sort of thing like just just say okay well here's spk: You know spk: Yeah spk: everything's basically spk: Yeah you spk: sort spk: do that spk: of and then just spk: Yeah spk: yeah just spk: Show you spk: jump spk: what spk: right spk: it spk: in spk: is the very spk: Yeah Yeah next spk: Yeah spk: week sounds spk: That's all spk: good Yeah In the morning spk: Oh yeah Well there's some I'm doing it's spk: Yeah spk: five spk: I know spk: to spk: I know spk: five spk: I know spk: and then you can't do anything spk: I know spk: after that spk: The thing is you know yeah something like that could happen any time 'cause uh you know like my schedule's like a class break class break class you know spk: Yeah spk: so it spk: I spk: could spk: it's spk: be spk: not spk: like spk: gonna take an hour spk: yeah spk: it's spk: I know spk: gonna spk: exactly spk: take ten spk: exactly spk: minutes spk: Yeah spk: that's why I'm thinking so spk:",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "response_field_names": {
+          "words": [],
+          "segments": []
+        },
+        "response_top_level_fields": [
+          "text",
+          "usage"
+        ],
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.01600000000002
+        },
+        "raw_transcript": {
+          "text": "meet up and you can sort of show us a bit that you know already so we don't sort of have to do all the work again of just like figuring out stuff spk: Oh just spk: So spk: like the basics of yeah spk: know already what spk: Sorry spk: just like accessing the corpus and stuff spk: Oh yeah spk: Yeah Just like all the and seeing the code and just sort of how just to see the basics of what you've done like just get a a quick look over and just can spk: Take spk: yeah spk: us through a tutorial say spk: Yeah spk: you know spk: Or like like you know the class paths all that spk: Yeah spk: sort of thing like just just say okay well here's spk: You know spk: Yeah spk: everything's basically spk: Yeah you spk: sort spk: do that spk: of and then just spk: Yeah spk: yeah just spk: Show you spk: jump spk: what spk: right spk: it spk: in spk: is the very spk: Yeah Yeah next spk: Yeah spk: week sounds spk: That's all spk: good Yeah In the morning spk: Oh yeah Well there's some I'm doing it's spk: Yeah spk: five spk: I know spk: to spk: I know spk: five spk: I know spk: and then you can't do anything spk: I know spk: after that spk: The thing is you know yeah something like that could happen any time 'cause uh you know like my schedule's like a class break class break class you know spk: Yeah spk: so it spk: I spk: could spk: it's spk: be spk: not spk: like spk: gonna take an hour spk: yeah spk: it's spk: I know spk: gonna spk: exactly spk: take ten spk: exactly spk: minutes spk: Yeah spk: that's why I'm thinking so spk:"
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "google/chirp-3",
+        "generation_id": "gen-stt-1790486216-vo1DPQjtazvLJokM7FE8"
+      }
+    },
+    "wall_seconds": 7.490669802995399,
+    "rtf": 0.12484449671658998,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58580992,
+    "scores": {
+      "wer": {
+        "errors": 135,
+        "length": 244,
+        "insertions": 76,
+        "deletions": 6,
+        "substitutions": 53
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-29760000",
+    "duration": 60.0,
+    "seed": 2451269630,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "something like that then after five o'clock so you can run off do whatever sp yeah sp yeah sp okay sp um sp yeah sp Monday Monday might be good um sp yeah sp what Monday sp What sp Yeah sp did you say yeah this Monday just sp Any time um sp Yeah sp not at sp After noon sp not at noon or two or four No in between those yeah like one and three and sp Three o'clock sp Sure sp Actually yeah sp Possibly sp Three is alright It was what times did the N_L_G_ four is it sp It's four sp Oh sp",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "response_field_names": {
+          "words": [],
+          "segments": []
+        },
+        "response_top_level_fields": [
+          "text",
+          "usage"
+        ],
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.01600000000002
+        },
+        "raw_transcript": {
+          "text": "something like that then after five o'clock so you can run off do whatever sp yeah sp yeah sp okay sp um sp yeah sp Monday Monday might be good um sp yeah sp what Monday sp What sp Yeah sp did you say yeah this Monday just sp Any time um sp Yeah sp not at sp After noon sp not at noon or two or four No in between those yeah like one and three and sp Three o'clock sp Sure sp Actually yeah sp Possibly sp Three is alright It was what times did the N_L_G_ four is it sp It's four sp Oh sp"
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "google/chirp-3",
+        "generation_id": "gen-stt-1790486224-HNlEzkOEIhOs3UPHMmj8"
+      }
+    },
+    "wall_seconds": 4.358876306912862,
+    "rtf": 0.0726479384485477,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58580992,
+    "scores": {
+      "wer": {
+        "errors": 230,
+        "length": 280,
+        "insertions": 16,
+        "deletions": 186,
+        "substitutions": 28
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-30720000",
+    "duration": 60.0,
+    "seed": 1180211639,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "How could we do that Well if you find me I'll show you where I'll I'll let us all in there and we can look in there sp yeah You do need to have a key for it though that's the thing it's got a locked door but Yeah somebody'll let us in I was just asking Steve about that whether we can get in there whether he was gonna get us access into there Into what The computer room Okay fine Yeah It's only got it's crap it's only got about four or five computers in it but it would do quite good for our job because it we can all sit around it not very ergonomically but Yeah There's a printer in there too Yeah there's a printer in there And there's a fax copier here With the code on it yeah man That's handy Oh Well I'm just We could print out our assignments if we wanted to I've got it on my computer Yeah all the comments I'm thinking So what time did we say I just think it's better to do it afterwards then we have all the time we need Yeah that's true So after the lecture Yeah then we have half an hour and then we'll finish early one day Yeah Yeah Okay Okay Just what I was telling Mel that he doesn't call",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "response_field_names": {
+          "words": [],
+          "segments": []
+        },
+        "response_top_level_fields": [
+          "text",
+          "usage"
+        ],
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.01600000000002
+        },
+        "raw_transcript": {
+          "text": "How could we do that Well if you find me I'll show you where I'll I'll let us all in there and we can look in there sp yeah You do need to have a key for it though that's the thing it's got a locked door but Yeah somebody'll let us in I was just asking Steve about that whether we can get in there whether he was gonna get us access into there Into what The computer room Okay fine Yeah It's only got it's crap it's only got about four or five computers in it but it would do quite good for our job because it we can all sit around it not very ergonomically but Yeah There's a printer in there too Yeah there's a printer in there And there's a fax copier here With the code on it yeah man That's handy Oh Well I'm just We could print out our assignments if we wanted to I've got it on my computer Yeah all the comments I'm thinking So what time did we say I just think it's better to do it afterwards then we have all the time we need Yeah that's true So after the lecture Yeah then we have half an hour and then we'll finish early one day Yeah Yeah Okay Okay Just what I was telling Mel that he doesn't call"
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "google/chirp-3",
+        "generation_id": "gen-stt-1790486228-4pIoe3TnoONNfewPhw0Z"
+      }
+    },
+    "wall_seconds": 5.548844370990992,
+    "rtf": 0.09248073951651653,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58580992,
+    "scores": {
+      "wer": {
+        "errors": 139,
+        "length": 306,
+        "insertions": 6,
+        "deletions": 81,
+        "substitutions": 52
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-31680000",
+    "duration": 60.0,
+    "seed": 2199572509,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "Wait Hopefully it's not that man's so it won't matter sp Hmm Actually it's not even confirmed yet sp What sp Oh sp Sh she doesn't even know what she's talking about yet sp Maybe it doesn't happen at all sp Yeah sp Sounds like me sp Reading week next week sp It should be it should be sp Is it sp Yeah sp really sp Yeah sp What sp It's supposed to be sp For the whole week yeah sp Next week sp It's week six sp Really sp next week sp Oh sp I don't think we have a reading week though I don't sp I don't know We have one class at least when we sp That's sp speech sp That's sp perception sp Yeah sp I've had many like sp I've sp Oh sp I've been like oh well the class is so sp Yeah I don't think there sp There's sp was sp no sp I don't think there was an official one last semester I think it was just a bank holiday wasn't it sp Um something like that I think sp Was sp some sp one of a couple classes sp Some sp got cancelled sp classes sp Yeah sp did and some classes didn't sp Yeah sp Yeah sp And so I'm sp It was sp sure sp it's a sp a sp big sp bizarre sp part sp reading sp of it sp they didn't sp Yeah sp really know what was going sp I think the sp on sp undergraduates had sp Yeah sp uh off were off topically sp I think it goes up to the professor whether they did it or not Well I don't feel like yeah okay sp No sp Make it sp I don't sp work Yeah Think DAI will probably have one to make up for missing classes",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "response_field_names": {
+          "words": [],
+          "segments": []
+        },
+        "response_top_level_fields": [
+          "text",
+          "usage"
+        ],
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.01600000000002
+        },
+        "raw_transcript": {
+          "text": "Wait Hopefully it's not that man's so it won't matter sp Hmm Actually it's not even confirmed yet sp What sp Oh sp Sh she doesn't even know what she's talking about yet sp Maybe it doesn't happen at all sp Yeah sp Sounds like me sp Reading week next week sp It should be it should be sp Is it sp Yeah sp really sp Yeah sp What sp It's supposed to be sp For the whole week yeah sp Next week sp It's week six sp Really sp next week sp Oh sp I don't think we have a reading week though I don't sp I don't know We have one class at least when we sp That's sp speech sp That's sp perception sp Yeah sp I've had many like sp I've sp Oh sp I've been like oh well the class is so sp Yeah I don't think there sp There's sp was sp no sp I don't think there was an official one last semester I think it was just a bank holiday wasn't it sp Um something like that I think sp Was sp some sp one of a couple classes sp Some sp got cancelled sp classes sp Yeah sp did and some classes didn't sp Yeah sp Yeah sp And so I'm sp It was sp sure sp it's a sp a sp big sp bizarre sp part sp reading sp of it sp they didn't sp Yeah sp really know what was going sp I think the sp on sp undergraduates had sp Yeah sp uh off were off topically sp I think it goes up to the professor whether they did it or not Well I don't feel like yeah okay sp No sp Make it sp I don't sp work Yeah Think DAI will probably have one to make up for missing classes"
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "google/chirp-3",
+        "generation_id": "gen-stt-1790486234-86h1VrYcIxMu5RqsWt1s"
+      }
+    },
+    "wall_seconds": 6.579027645057067,
+    "rtf": 0.10965046075095113,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58580992,
+    "scores": {
+      "wer": {
+        "errors": 156,
+        "length": 270,
+        "insertions": 66,
+        "deletions": 22,
+        "substitutions": 68
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-32640000",
+    "duration": 60.0,
+    "seed": 3532486,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "But sp DIL will probably Yeah we will probably yeah yeah sp Okay sp Yep sp So sp Let's meet Monday sp Um sp Yeah Um I guess sp Mm sp that's it What's there anything else Do anyone wanna wanna like take care of this or should I take care of it sp I'll sp Uh we trust you sp Yeah sp Yeah I dunno if there was something Oh I think it basically said um the same things as um the comments If I could read it sp Hmm sp Should I read it sp Okay I'll do the top one Um Do we really want multiple windows from a single sp From a single sp app sp But most well probably want to go with defaults sp Yeah sp Yeah sp Well that was what he was saying sp Yeah I think the comments are basically the same as what you said sp Exactly And just the other sp",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "response_field_names": {
+          "words": [],
+          "segments": []
+        },
+        "response_top_level_fields": [
+          "text",
+          "usage"
+        ],
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.01600000000002
+        },
+        "raw_transcript": {
+          "text": "But sp DIL will probably Yeah we will probably yeah yeah sp Okay sp Yep sp So sp Let's meet Monday sp Um sp Yeah Um I guess sp Mm sp that's it What's there anything else Do anyone wanna wanna like take care of this or should I take care of it sp I'll sp Uh we trust you sp Yeah sp Yeah I dunno if there was something Oh I think it basically said um the same things as um the comments If I could read it sp Hmm sp Should I read it sp Okay I'll do the top one Um Do we really want multiple windows from a single sp From a single sp app sp But most well probably want to go with defaults sp Yeah sp Yeah sp Well that was what he was saying sp Yeah I think the comments are basically the same as what you said sp Exactly And just the other sp"
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "google/chirp-3",
+        "generation_id": "gen-stt-1790486240-ckx5eaNwWI3k90bXy1y6"
+      }
+    },
+    "wall_seconds": 4.547839428996667,
+    "rtf": 0.07579732381661113,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58580992,
+    "scores": {
+      "wer": {
+        "errors": 74,
+        "length": 161,
+        "insertions": 22,
+        "deletions": 21,
+        "substitutions": 31
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-33600000",
+    "duration": 42.709375,
+    "seed": 305969232,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "comment above whether you wanna do both speaker characterisation and topic segmentation Okay that's me Okay Okay And now we have seven percent of the questions done Okay good So I think we need to tick the okay box right If you're okay with it having spiky spiky spiky Yeah Mm spiky Mm Okay Shall we turn these off then or Very fun now Mm Are you still here Yes you are spiky",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "response_field_names": {
+          "words": [],
+          "segments": []
+        },
+        "response_top_level_fields": [
+          "text",
+          "usage"
+        ],
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 43,
+          "cost": 0.011466666666681
+        },
+        "raw_transcript": {
+          "text": "comment above whether you wanna do both speaker characterisation and topic segmentation Okay that's me Okay Okay And now we have seven percent of the questions done Okay good So I think we need to tick the okay box right If you're okay with it having spiky spiky spiky Yeah Mm spiky Mm Okay Shall we turn these off then or Very fun now Mm Are you still here Yes you are spiky"
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "google/chirp-3",
+        "generation_id": "gen-stt-1790486245-xjpWowzpHMWsUrUUjqmL"
+      }
+    },
+    "wall_seconds": 3.186477286973968,
+    "rtf": 0.07460838017353258,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 58580992,
+    "scores": {
+      "wer": {
+        "errors": 49,
+        "length": 102,
+        "insertions": 0,
+        "deletions": 29,
+        "substitutions": 20
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": null,
+      "timing": "unavailable",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  },
+  {
+    "id": "EN2002a-6720000",
+    "duration": 60.0,
+    "seed": 1558371856,
+    "status": "inference_failed",
+    "error_type": "RemoteRequestError",
+    "http_status": 504,
+    "billing_status": "unknown",
+    "diagnostic": {
+      "mentions": []
+    },
+    "reason": "http_error",
+    "wall_seconds": 180.52706297999248,
+    "scores": {
+      "wer": {
+        "errors": 270,
+        "length": 270,
+        "insertions": 0,
+        "deletions": 270,
+        "substitutions": 0
+      },
+      "cpwer": null,
+      "tcpwer": null,
+      "der": null,
+      "coverage": {
+        "covered_seconds": 0,
+        "reference_seconds": 58.089999999999975,
+        "ratio": 0.0
+      },
+      "timing": "failed",
+      "predicted_speakers": null,
+      "reference_speakers": 4
+    }
+  }
+]

@@ -1,0 +1,920 @@
+{
+  "id": "EN2002a-14400000",
+  "duration": 60.0,
+  "seed": 2869552900,
+  "status": "invalid_output",
+  "wall_seconds": 9.486845125909895,
+  "rtf": 0.15811408543183159,
+  "cuda_peak": null,
+  "raw_output": {
+    "text": "Like if working and just trying to take a look or something. I don't know. Can you access some people's I think you can. If you make it world readable then anybody can. What if you just tell us the directory and just make the file readable then we know the directory to get in then and just Sure. That might be That might be I don't know if it's readable at the moment but you can show how to I think by default they aren't. No, they're not world readable. They're only default then only you can read them. You can see them but you can't read them. Right. Well, I'll make that readable then. Um so the directory is my number. Write the just email to RK yeah yeah Well, this is not difficult. What's your number? In all the emails. Your number. No, 04 Okay. 04 555 60 Say that again. 04 04 555 60 And then it's And then um there's a folder um NL SSD. And it's",
+    "words": [
+      {
+        "word": "Like",
+        "start": 0.9,
+        "end": 1
+      },
+      {
+        "word": "if",
+        "start": 1,
+        "end": 1.1
+      },
+      {
+        "word": "working",
+        "start": 1.1,
+        "end": 1.4
+      },
+      {
+        "word": "and",
+        "start": 1.4,
+        "end": 1.5
+      },
+      {
+        "word": "just",
+        "start": 1.5,
+        "end": 1.7
+      },
+      {
+        "word": "trying",
+        "start": 1.7,
+        "end": 2
+      },
+      {
+        "word": "to",
+        "start": 2.1,
+        "end": 2.2
+      },
+      {
+        "word": "take",
+        "start": 2.2,
+        "end": 2.4
+      },
+      {
+        "word": "a",
+        "start": 2.4,
+        "end": 2.4
+      },
+      {
+        "word": "look",
+        "start": 2.4,
+        "end": 2.7
+      },
+      {
+        "word": "or",
+        "start": 2.7,
+        "end": 2.8
+      },
+      {
+        "word": "something.",
+        "start": 2.8,
+        "end": 3.1
+      },
+      {
+        "word": "I",
+        "start": 3.4,
+        "end": 3.5
+      },
+      {
+        "word": "don't",
+        "start": 3.5,
+        "end": 3.6
+      },
+      {
+        "word": "know.",
+        "start": 3.6,
+        "end": 3.8
+      },
+      {
+        "word": "Can",
+        "start": 3.9,
+        "end": 3.9
+      },
+      {
+        "word": "you",
+        "start": 3.9,
+        "end": 4
+      },
+      {
+        "word": "access",
+        "start": 4.2,
+        "end": 4.1
+      },
+      {
+        "word": "some",
+        "start": 4.4,
+        "end": 4.5
+      },
+      {
+        "word": "people's",
+        "start": 4.7,
+        "end": 5.2
+      },
+      {
+        "word": "I",
+        "start": 5.2,
+        "end": 5.2
+      },
+      {
+        "word": "think",
+        "start": 5.2,
+        "end": 5.4
+      },
+      {
+        "word": "you",
+        "start": 5.4,
+        "end": 5.4
+      },
+      {
+        "word": "can.",
+        "start": 5.4,
+        "end": 5.6
+      },
+      {
+        "word": "If",
+        "start": 5.7,
+        "end": 5.7
+      },
+      {
+        "word": "you",
+        "start": 5.7,
+        "end": 5.7
+      },
+      {
+        "word": "make",
+        "start": 5.7,
+        "end": 5.9
+      },
+      {
+        "word": "it",
+        "start": 5.9,
+        "end": 6
+      },
+      {
+        "word": "world",
+        "start": 6,
+        "end": 6.2
+      },
+      {
+        "word": "readable",
+        "start": 6.2,
+        "end": 6.7
+      },
+      {
+        "word": "then",
+        "start": 6.7,
+        "end": 6.9
+      },
+      {
+        "word": "anybody",
+        "start": 6.9,
+        "end": 7.3
+      },
+      {
+        "word": "can.",
+        "start": 7.3,
+        "end": 7.5
+      },
+      {
+        "word": "What",
+        "start": 7.5,
+        "end": 7.6
+      },
+      {
+        "word": "if",
+        "start": 7.6,
+        "end": 7.6
+      },
+      {
+        "word": "you",
+        "start": 7.6,
+        "end": 7.8
+      },
+      {
+        "word": "just",
+        "start": 7.8,
+        "end": 8
+      },
+      {
+        "word": "tell",
+        "start": 8,
+        "end": 8.1
+      },
+      {
+        "word": "us",
+        "start": 8.1,
+        "end": 8.3
+      },
+      {
+        "word": "the",
+        "start": 8.3,
+        "end": 8.4
+      },
+      {
+        "word": "directory",
+        "start": 8.4,
+        "end": 8.9
+      },
+      {
+        "word": "and",
+        "start": 8.9,
+        "end": 9.1
+      },
+      {
+        "word": "just",
+        "start": 9.1,
+        "end": 9.3
+      },
+      {
+        "word": "make",
+        "start": 9.3,
+        "end": 9.5
+      },
+      {
+        "word": "the",
+        "start": 9.5,
+        "end": 9.6
+      },
+      {
+        "word": "file",
+        "start": 9.6,
+        "end": 10
+      },
+      {
+        "word": "readable",
+        "start": 10.1,
+        "end": 10.4
+      },
+      {
+        "word": "then",
+        "start": 10.4,
+        "end": 10.5
+      },
+      {
+        "word": "we",
+        "start": 10.5,
+        "end": 10.6
+      },
+      {
+        "word": "know",
+        "start": 10.8,
+        "end": 11
+      },
+      {
+        "word": "the",
+        "start": 11,
+        "end": 11.1
+      },
+      {
+        "word": "directory",
+        "start": 11.1,
+        "end": 11.4
+      },
+      {
+        "word": "to",
+        "start": 11.4,
+        "end": 11.5
+      },
+      {
+        "word": "get",
+        "start": 11.5,
+        "end": 11.7
+      },
+      {
+        "word": "in",
+        "start": 11.7,
+        "end": 11.8
+      },
+      {
+        "word": "then",
+        "start": 11.8,
+        "end": 12
+      },
+      {
+        "word": "and",
+        "start": 12.3,
+        "end": 12.4
+      },
+      {
+        "word": "just",
+        "start": 12.4,
+        "end": 12.6
+      },
+      {
+        "word": "Sure.",
+        "start": 13.4,
+        "end": 13.6
+      },
+      {
+        "word": "That",
+        "start": 13.7,
+        "end": 13.8
+      },
+      {
+        "word": "might",
+        "start": 13.8,
+        "end": 13.9
+      },
+      {
+        "word": "be",
+        "start": 13.9,
+        "end": 14.2
+      },
+      {
+        "word": "That",
+        "start": 14.4,
+        "end": 14.6
+      },
+      {
+        "word": "might",
+        "start": 14.6,
+        "end": 14.7
+      },
+      {
+        "word": "be",
+        "start": 14.7,
+        "end": 14.8
+      },
+      {
+        "word": "I",
+        "start": 14.6,
+        "end": 14.7
+      },
+      {
+        "word": "don't",
+        "start": 14.7,
+        "end": 14.8
+      },
+      {
+        "word": "know",
+        "start": 14.8,
+        "end": 14.9
+      },
+      {
+        "word": "if",
+        "start": 14.9,
+        "end": 14.9
+      },
+      {
+        "word": "it's",
+        "start": 14.9,
+        "end": 15.1
+      },
+      {
+        "word": "readable",
+        "start": 15.1,
+        "end": 15.4
+      },
+      {
+        "word": "at",
+        "start": 15.4,
+        "end": 15.5
+      },
+      {
+        "word": "the",
+        "start": 15.5,
+        "end": 15.6
+      },
+      {
+        "word": "moment",
+        "start": 15.6,
+        "end": 15.8
+      },
+      {
+        "word": "but",
+        "start": 15.8,
+        "end": 15.9
+      },
+      {
+        "word": "you",
+        "start": 15.9,
+        "end": 16
+      },
+      {
+        "word": "can",
+        "start": 16,
+        "end": 16.2
+      },
+      {
+        "word": "show",
+        "start": 16.2,
+        "end": 16.4
+      },
+      {
+        "word": "how",
+        "start": 16.4,
+        "end": 16.5
+      },
+      {
+        "word": "to",
+        "start": 16.5,
+        "end": 16.6
+      },
+      {
+        "word": "I",
+        "start": 17.1,
+        "end": 17.2
+      },
+      {
+        "word": "think",
+        "start": 17.2,
+        "end": 17.3
+      },
+      {
+        "word": "by",
+        "start": 17.3,
+        "end": 17.4
+      },
+      {
+        "word": "default",
+        "start": 17.4,
+        "end": 17.8
+      },
+      {
+        "word": "they",
+        "start": 17.8,
+        "end": 18
+      },
+      {
+        "word": "aren't.",
+        "start": 18,
+        "end": 18.3
+      },
+      {
+        "word": "No,",
+        "start": 18.4,
+        "end": 18.6
+      },
+      {
+        "word": "they're",
+        "start": 18.6,
+        "end": 18.7
+      },
+      {
+        "word": "not",
+        "start": 18.7,
+        "end": 18.9
+      },
+      {
+        "word": "world",
+        "start": 18.9,
+        "end": 19.1
+      },
+      {
+        "word": "readable.",
+        "start": 19.1,
+        "end": 19.5
+      },
+      {
+        "word": "They're",
+        "start": 21,
+        "end": 21.1
+      },
+      {
+        "word": "only",
+        "start": 21.1,
+        "end": 21.3
+      },
+      {
+        "word": "default",
+        "start": 21.3,
+        "end": 21.8
+      },
+      {
+        "word": "then",
+        "start": 21.9,
+        "end": 22.3
+      },
+      {
+        "word": "only",
+        "start": 22.3,
+        "end": 22.6
+      },
+      {
+        "word": "you",
+        "start": 22.6,
+        "end": 22.8
+      },
+      {
+        "word": "can",
+        "start": 22.8,
+        "end": 23
+      },
+      {
+        "word": "read",
+        "start": 23,
+        "end": 23.2
+      },
+      {
+        "word": "them.",
+        "start": 23.2,
+        "end": 23.4
+      },
+      {
+        "word": "You",
+        "start": 24.2,
+        "end": 24.2
+      },
+      {
+        "word": "can",
+        "start": 24.2,
+        "end": 24.4
+      },
+      {
+        "word": "see",
+        "start": 24.4,
+        "end": 24.5
+      },
+      {
+        "word": "them",
+        "start": 24.5,
+        "end": 24.7
+      },
+      {
+        "word": "but",
+        "start": 24.7,
+        "end": 24.9
+      },
+      {
+        "word": "you",
+        "start": 24.9,
+        "end": 24.9
+      },
+      {
+        "word": "can't",
+        "start": 24.9,
+        "end": 25.1
+      },
+      {
+        "word": "read",
+        "start": 25.1,
+        "end": 25.3
+      },
+      {
+        "word": "them.",
+        "start": 25.3,
+        "end": 25.4
+      },
+      {
+        "word": "Right.",
+        "start": 26.4,
+        "end": 26.6
+      },
+      {
+        "word": "Well,",
+        "start": 26.6,
+        "end": 26.7
+      },
+      {
+        "word": "I'll",
+        "start": 26.7,
+        "end": 26.8
+      },
+      {
+        "word": "make",
+        "start": 26.8,
+        "end": 27
+      },
+      {
+        "word": "that",
+        "start": 27,
+        "end": 27.2
+      },
+      {
+        "word": "readable",
+        "start": 27.2,
+        "end": 27.5
+      },
+      {
+        "word": "then.",
+        "start": 27.5,
+        "end": 27.7
+      },
+      {
+        "word": "Um",
+        "start": 28.9,
+        "end": 29
+      },
+      {
+        "word": "so",
+        "start": 29.9,
+        "end": 30.1
+      },
+      {
+        "word": "the",
+        "start": 30.1,
+        "end": 30.3
+      },
+      {
+        "word": "directory",
+        "start": 30.3,
+        "end": 31
+      },
+      {
+        "word": "is",
+        "start": 31,
+        "end": 31.7
+      },
+      {
+        "word": "my",
+        "start": 31.8,
+        "end": 32
+      },
+      {
+        "word": "number.",
+        "start": 32,
+        "end": 32.4
+      },
+      {
+        "word": "Write",
+        "start": 32.7,
+        "end": 32.8
+      },
+      {
+        "word": "the",
+        "start": 32.8,
+        "end": 32.8
+      },
+      {
+        "word": "just",
+        "start": 32.8,
+        "end": 33
+      },
+      {
+        "word": "email",
+        "start": 33,
+        "end": 33.5
+      },
+      {
+        "word": "to",
+        "start": 33.8,
+        "end": 33.9
+      },
+      {
+        "word": "RK",
+        "start": 34,
+        "end": 34.3
+      },
+      {
+        "word": "yeah",
+        "start": 34.3,
+        "end": 34.5
+      },
+      {
+        "word": "yeah",
+        "start": 34.6,
+        "end": 34.8
+      },
+      {
+        "word": "Well,",
+        "start": 34.8,
+        "end": 34.9
+      },
+      {
+        "word": "this",
+        "start": 34.9,
+        "end": 35
+      },
+      {
+        "word": "is",
+        "start": 35,
+        "end": 35.1
+      },
+      {
+        "word": "not",
+        "start": 35.1,
+        "end": 35.3
+      },
+      {
+        "word": "difficult.",
+        "start": 35.3,
+        "end": 35.7
+      },
+      {
+        "word": "What's",
+        "start": 36.6,
+        "end": 36.7
+      },
+      {
+        "word": "your",
+        "start": 36.7,
+        "end": 36.8
+      },
+      {
+        "word": "number?",
+        "start": 36.8,
+        "end": 37.1
+      },
+      {
+        "word": "In",
+        "start": 38.2,
+        "end": 38.3
+      },
+      {
+        "word": "all",
+        "start": 38.3,
+        "end": 38.4
+      },
+      {
+        "word": "the",
+        "start": 38.4,
+        "end": 38.6
+      },
+      {
+        "word": "emails.",
+        "start": 38.6,
+        "end": 39
+      },
+      {
+        "word": "Your",
+        "start": 40.5,
+        "end": 40.7
+      },
+      {
+        "word": "number.",
+        "start": 40.7,
+        "end": 41
+      },
+      {
+        "word": "No,",
+        "start": 42.1,
+        "end": 42.4
+      },
+      {
+        "word": "04",
+        "start": 42.8,
+        "end": 43.3
+      },
+      {
+        "word": "Okay.",
+        "start": 44.1,
+        "end": 44.4
+      },
+      {
+        "word": "04",
+        "start": 44.5,
+        "end": 45
+      },
+      {
+        "word": "555",
+        "start": 46,
+        "end": 46.8
+      },
+      {
+        "word": "60",
+        "start": 48.7,
+        "end": 49
+      },
+      {
+        "word": "Say",
+        "start": 49.9,
+        "end": 50
+      },
+      {
+        "word": "that",
+        "start": 50,
+        "end": 50.1
+      },
+      {
+        "word": "again.",
+        "start": 50.1,
+        "end": 50.4
+      },
+      {
+        "word": "04",
+        "start": 50.5,
+        "end": 50.8
+      },
+      {
+        "word": "04",
+        "start": 50.9,
+        "end": 51.2
+      },
+      {
+        "word": "555",
+        "start": 51.2,
+        "end": 52.1
+      },
+      {
+        "word": "60",
+        "start": 52.1,
+        "end": 52.7
+      },
+      {
+        "word": "And",
+        "start": 53.1,
+        "end": 53.2
+      },
+      {
+        "word": "then",
+        "start": 53.2,
+        "end": 53.4
+      },
+      {
+        "word": "it's",
+        "start": 53.4,
+        "end": 53.7
+      },
+      {
+        "word": "And",
+        "start": 55,
+        "end": 55.1
+      },
+      {
+        "word": "then",
+        "start": 55.1,
+        "end": 55.5
+      },
+      {
+        "word": "um",
+        "start": 55.7,
+        "end": 56
+      },
+      {
+        "word": "there's",
+        "start": 56.2,
+        "end": 56.3
+      },
+      {
+        "word": "a",
+        "start": 56.3,
+        "end": 56.4
+      },
+      {
+        "word": "folder",
+        "start": 56.4,
+        "end": 56.9
+      },
+      {
+        "word": "um",
+        "start": 57.2,
+        "end": 57.4
+      },
+      {
+        "word": "NL",
+        "start": 57.5,
+        "end": 57.8
+      },
+      {
+        "word": "SSD.",
+        "start": 57.8,
+        "end": 58.3
+      },
+      {
+        "word": "And",
+        "start": 59.6,
+        "end": 59.7
+      },
+      {
+        "word": "it's",
+        "start": 59.7,
+        "end": 59.8
+      }
+    ],
+    "segments": [
+      {
+        "id": 0,
+        "start": 0,
+        "end": 59.8,
+        "text": "Like if working and just trying to take a look or something. I don't know. Can you access some people's I think you can. If you make it world readable then anybody can. What if you just tell us the directory and just make the file readable then we know the directory to get in then and just Sure. That might be That might be I don't know if it's readable at the moment but you can show how to I think by default they aren't. No, they're not world readable. They're only default then only you can read them. You can see them but you can't read them. Right. Well, I'll make that readable then. Um so the directory is my number. Write the just email to RK yeah yeah Well, this is not difficult. What's your number? In all the emails. Your number. No, 04 Okay. 04 555 60 Say that again. 04 04 555 60 And then it's And then um there's a folder um NL SSD. And it's"
+      }
+    ],
+    "usage": {
+      "total_tokens": 1501,
+      "input_tokens": 1501,
+      "output_tokens": 0,
+      "cost": 0.003002
+    }
+  },
+  "metadata": {
+    "execution": "remote_api",
+    "model": "google/gemini-3.5-transcribe",
+    "generation_id": "gen-stt-1790486023-gMwUGNc21EfjdHK8Ha2F",
+    "reason": "nonpositive_transcript_interval",
+    "response_usage": {
+      "total_tokens": 1501,
+      "input_tokens": 1501,
+      "output_tokens": 0,
+      "cost": 0.003002
+    }
+  },
+  "scores": {
+    "wer": {
+      "errors": 254,
+      "length": 254,
+      "insertions": 0,
+      "deletions": 254,
+      "substitutions": 0
+    },
+    "cpwer": null,
+    "tcpwer": null,
+    "der": null,
+    "coverage": {
+      "covered_seconds": 0,
+      "reference_seconds": 55.00000000000023,
+      "ratio": 0.0
+    },
+    "timing": "failed",
+    "predicted_speakers": null,
+    "reference_speakers": 4
+  }
+}

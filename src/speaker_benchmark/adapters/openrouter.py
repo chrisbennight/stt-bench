@@ -54,6 +54,15 @@ PROVIDER_OPTIONS = {
     }},
 }
 
+# A bounded alternate Gemini shape tests whether the integration forwards the
+# transcription configuration directly rather than the native request envelope.
+PROVIDER_OPTION_ALTERNATIVES = {
+    "google/gemini-3.5-transcribe": [{"google-ai-studio": {"mode": {
+        "type": "verbatim", "diarization_mode": "speaker",
+        "timestamp_granularities": ["word"],
+    }}}],
+}
+
 
 def validate_options(options):
     if set(options) - OPTIONS:
@@ -61,7 +70,8 @@ def validate_options(options):
     if "provider_options" in options:
         expected = PROVIDER_OPTIONS.get(options.get("model"))
         actual_json = json.dumps(options["provider_options"], sort_keys=True)
-        if expected is None or actual_json != json.dumps(expected, sort_keys=True):
+        allowed = [expected, *PROVIDER_OPTION_ALTERNATIVES.get(options.get("model"), [])]
+        if expected is None or actual_json not in [json.dumps(v, sort_keys=True) for v in allowed]:
             raise ValueError("Provider options must match a reviewed model-specific configuration")
         if options.get("diarization"):
             raise ValueError("Use either provider_options or diarization, not both")
@@ -223,6 +233,19 @@ def parse_response(data, duration, clip_timestamps=False, model=None):
         or all(s.get("speaker") is not None for s in words)
     ):
         rows, text_key = words, "word"
+    alignment_source = "words" if text_key == "word" else "segments"
+    reversed_words = text_key == "word" and any(
+        all(type(s.get(k)) in (int, float) and math.isfinite(s[k]) for k in ("start", "end"))
+        and s["end"] < s["start"] for s in words
+    )
+    if reversed_words and phrases and (
+        not any(s.get("speaker") is not None for s in words)
+        or all(s.get("speaker") is not None for s in phrases)
+    ):
+        # A provider may return valid segment alignment alongside reversed word
+        # intervals. Use that native alternative without repairing or guessing times.
+        rows, text_key = phrases, "text"
+        alignment_source = "segments_after_reversed_word_times"
     segments = []
     adjustments = []
     outside_intervals = []
@@ -290,7 +313,16 @@ def parse_response(data, duration, clip_timestamps=False, model=None):
         activity=activity,
         timing=("native_clipped" if adjustments else "native") if timed else "unavailable",
         metadata={
+            "response_field_names": {
+                name: sorted({k for row in value for k in row
+                              if re.fullmatch(r"[A-Za-z_][A-Za-z_0-9]{0,63}", k)})
+                for name, value in (("words", words), ("segments", phrases))
+            },
+            "response_top_level_fields": sorted(
+                k for k in data if re.fullmatch(r"[A-Za-z_][A-Za-z_0-9]{0,63}", k)
+            ),
             "speaker_labels_available": speakers_available,
+            "alignment_source": alignment_source,
             "usage": safe_usage,
             "raw_transcript": {k: v for k, v in retained_response(data).items() if k != "usage"},
             "execution": "remote_api",

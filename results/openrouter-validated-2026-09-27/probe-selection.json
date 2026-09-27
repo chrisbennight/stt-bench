@@ -1,0 +1,468 @@
+[
+  {
+    "model": "google--gemini-3.5-transcribe",
+    "source_run": "openrouter-response-schema-probe",
+    "prediction_sha256": "9b42ff683a27ebd81dec345ee798de9adcbb357e7d5b7c51d22c37c26e9e5022",
+    "options": {
+      "model": "google/gemini-3.5-transcribe",
+      "max_requests": 1,
+      "max_audio_seconds_total": 60,
+      "max_audio_seconds": 60,
+      "request_timeout_seconds": 120,
+      "response_format": "verbose_json",
+      "timestamp_granularities": [
+        "segment",
+        "word"
+      ],
+      "provider_options": {
+        "google-ai-studio": {
+          "generation_config": {
+            "transcription_config": {
+              "mode": {
+                "type": "verbatim",
+                "diarization_mode": "speaker",
+                "timestamp_granularities": [
+                  "word"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "metrics": [
+      "wer",
+      "coverage"
+    ],
+    "limitation": "Speaker labels not observed despite provider option; upstream capability is not ruled out."
+  },
+  {
+    "model": "fish-audio--transcribe-1-pro",
+    "source_run": "openrouter-capability-probe-reparsed",
+    "prediction_sha256": "235af3bf50a90217d45ed25e6c4d0dce38f4319a528d980abaadb89b9f30715f",
+    "options": {
+      "model": "fish-audio/transcribe-1-pro",
+      "max_requests": 1,
+      "max_audio_seconds_total": 60,
+      "max_audio_seconds": 60,
+      "request_timeout_seconds": 120,
+      "response_format": "verbose_json",
+      "timestamp_granularities": [
+        "segment",
+        "word"
+      ],
+      "provider_options": {
+        "fish-audio": {
+          "ignore_timestamps": false
+        }
+      }
+    },
+    "metrics": [
+      "wer",
+      "cpwer",
+      "coverage"
+    ],
+    "limitation": "Metrics limited to output actually returned."
+  },
+  {
+    "model": "assemblyai--universal-3-5-pro",
+    "source_run": "openrouter-capability-probe-reparsed",
+    "prediction_sha256": "5ef4fc5439e646bba6b16e62262f161ea474b32b9b78afaf06376c930669cce2",
+    "options": {
+      "model": "assemblyai/universal-3-5-pro",
+      "max_requests": 1,
+      "max_audio_seconds_total": 60,
+      "max_audio_seconds": 60,
+      "request_timeout_seconds": 120,
+      "response_format": "verbose_json",
+      "timestamp_granularities": [
+        "segment",
+        "word"
+      ],
+      "provider_options": {
+        "assemblyai": {
+          "timestamps": true
+        }
+      }
+    },
+    "metrics": [
+      "wer",
+      "coverage"
+    ],
+    "limitation": "Metrics limited to output actually returned."
+  },
+  {
+    "model": "meta--muse-voice-transcribe-1.0",
+    "source_run": "openrouter-response-schema-probe",
+    "prediction_sha256": "f3ab8a733aff3de412102e44832baeed72513ec18b7c1b63e490aaaf51ff8d42",
+    "options": {
+      "model": "meta/muse-voice-transcribe-1.0",
+      "max_requests": 1,
+      "max_audio_seconds_total": 60,
+      "max_audio_seconds": 60,
+      "request_timeout_seconds": 120,
+      "response_format": "json",
+      "provider_options": {
+        "meta": {
+          "mode": "DIARIZATION"
+        }
+      }
+    },
+    "metrics": [
+      "wer"
+    ],
+    "limitation": "Verbose format rejected; JSON transcript validated."
+  },
+  {
+    "model": "microsoft--mai-transcribe-2",
+    "source_run": "openrouter-capability-probe-reparsed",
+    "prediction_sha256": "fe3f04abf8da62a89c847a83d0d8fa107cde73b9301986f87a8d6c5edb2d3f78",
+    "options": {
+      "model": "microsoft/mai-transcribe-2",
+      "max_requests": 1,
+      "max_audio_seconds_total": 60,
+      "max_audio_seconds": 60,
+      "request_timeout_seconds": 120,
+      "response_format": "verbose_json",
+      "diarization": true,
+      "timestamp_granularities": [
+        "segment",
+        "word"
+      ]
+    },
+    "metrics": [
+      "wer",
+      "cpwer",
+      "tcpwer",
+      "der",
+      "coverage"
+    ],
+    "limitation": "Metrics limited to output actually returned."
+  },
+  {
+    "model": "nvidia--nemotron-3.5-asr-streaming-multilingual-0.6b",
+    "source_run": "openrouter-capability-probe-reparsed",
+    "prediction_sha256": "d1386732cc053ed28d48b3ebc71a397b3a49b6e4476ff262b7363c146b23e4c7",
+    "options": {
+      "model": "nvidia/nemotron-3.5-asr-streaming-multilingual-0.6b",
+      "max_requests": 1,
+      "max_audio_seconds_total": 60,
+      "max_audio_seconds": 60,
+      "request_timeout_seconds": 120,
+      "response_format": "verbose_json",
+      "timestamp_granularities": [
+        "segment",
+        "word"
+      ]
+    },
+    "metrics": [
+      "wer",
+      "coverage"
+    ],
+    "limitation": "Metrics limited to output actually returned."
+  },
+  {
+    "model": "openai--gpt-transcribe",
+    "source_run": "openrouter-capability-variants",
+    "prediction_sha256": "658e58d5e0e06fe7bc0136973c61e6d283bc5d99b7e719e67af20fe31b1a9e17",
+    "options": {
+      "model": "openai/gpt-transcribe",
+      "max_requests": 1,
+      "max_audio_seconds_total": 60,
+      "max_audio_seconds": 60,
+      "request_timeout_seconds": 120,
+      "response_format": "json"
+    },
+    "metrics": [
+      "wer"
+    ],
+    "limitation": "Verbose format rejected; JSON transcript validated."
+  },
+  {
+    "model": "fish-audio--transcribe-1",
+    "source_run": "openrouter-capability-probe-reparsed",
+    "prediction_sha256": "0934657a5842c56e7682c7e65eaf1cdace4b5208e7880e9427a112062c81edeb",
+    "options": {
+      "model": "fish-audio/transcribe-1",
+      "max_requests": 1,
+      "max_audio_seconds_total": 60,
+      "max_audio_seconds": 60,
+      "request_timeout_seconds": 120,
+      "response_format": "verbose_json",
+      "timestamp_granularities": [
+        "segment",
+        "word"
+      ],
+      "provider_options": {
+        "fish-audio": {
+          "ignore_timestamps": false
+        }
+      }
+    },
+    "metrics": [
+      "wer",
+      "coverage"
+    ],
+    "limitation": "Metrics limited to output actually returned."
+  },
+  {
+    "model": "x-ai--grok-stt-1.0",
+    "source_run": "openrouter-response-schema-probe",
+    "prediction_sha256": "7b67d36a2507d07fabfcd1bf192782015659fc6c5b85312b5662cf3f674331bf",
+    "options": {
+      "model": "x-ai/grok-stt-1.0",
+      "max_requests": 1,
+      "max_audio_seconds_total": 60,
+      "max_audio_seconds": 60,
+      "request_timeout_seconds": 120,
+      "response_format": "verbose_json",
+      "timestamp_granularities": [
+        "segment",
+        "word"
+      ],
+      "provider_options": {
+        "xai": {
+          "diarize": true
+        }
+      }
+    },
+    "metrics": [
+      "wer",
+      "cpwer",
+      "tcpwer",
+      "der",
+      "coverage"
+    ],
+    "limitation": "Metrics limited to output actually returned."
+  },
+  {
+    "model": "deepgram--nova-3",
+    "source_run": "openrouter-capability-probe-reparsed",
+    "prediction_sha256": "d5bd4a431cef5212204e64a93ef37c2f418360a13d35f8074b0182c4524a97ef",
+    "options": {
+      "model": "deepgram/nova-3",
+      "max_requests": 1,
+      "max_audio_seconds_total": 60,
+      "max_audio_seconds": 60,
+      "request_timeout_seconds": 120,
+      "response_format": "verbose_json",
+      "diarization": true,
+      "timestamp_granularities": [
+        "segment",
+        "word"
+      ]
+    },
+    "metrics": [
+      "wer",
+      "cpwer",
+      "tcpwer",
+      "der",
+      "coverage"
+    ],
+    "limitation": "Metrics limited to output actually returned."
+  },
+  {
+    "model": "microsoft--mai-transcribe-1.5",
+    "source_run": "openrouter-capability-probe-reparsed",
+    "prediction_sha256": "e7d2fee92aa9a35f01344ada43e56aeecd79e40085b80e71f1e8253ad29a4c5a",
+    "options": {
+      "model": "microsoft/mai-transcribe-1.5",
+      "max_requests": 1,
+      "max_audio_seconds_total": 60,
+      "max_audio_seconds": 60,
+      "request_timeout_seconds": 120,
+      "response_format": "json"
+    },
+    "metrics": [
+      "wer"
+    ],
+    "limitation": "Metrics limited to output actually returned."
+  },
+  {
+    "model": "nvidia--parakeet-tdt-0.6b-v3",
+    "source_run": "openrouter-capability-probe-reparsed",
+    "prediction_sha256": "6bda491195fb5553437d3f048c092ee3ce7bbeee3262d6561713b3c38c5eb52c",
+    "options": {
+      "model": "nvidia/parakeet-tdt-0.6b-v3",
+      "max_requests": 1,
+      "max_audio_seconds_total": 60,
+      "max_audio_seconds": 60,
+      "request_timeout_seconds": 120,
+      "response_format": "verbose_json",
+      "timestamp_granularities": [
+        "segment",
+        "word"
+      ]
+    },
+    "metrics": [
+      "wer",
+      "coverage"
+    ],
+    "limitation": "Metrics limited to output actually returned."
+  },
+  {
+    "model": "mistralai--voxtral-mini-transcribe",
+    "source_run": "openrouter-response-schema-probe",
+    "prediction_sha256": "a50d6c8074dc10b709b288bf8ee10ba92256e8b9041022f8f1324b1c6189a47c",
+    "options": {
+      "model": "mistralai/voxtral-mini-transcribe",
+      "max_requests": 1,
+      "max_audio_seconds_total": 60,
+      "max_audio_seconds": 60,
+      "request_timeout_seconds": 120,
+      "response_format": "verbose_json",
+      "timestamp_granularities": [
+        "segment",
+        "word"
+      ],
+      "provider_options": {
+        "mistral": {
+          "diarize": true
+        },
+        "mistral/eu": {
+          "diarize": true
+        }
+      }
+    },
+    "metrics": [
+      "wer",
+      "coverage"
+    ],
+    "limitation": "Speaker labels not observed despite provider option; upstream capability is not ruled out."
+  },
+  {
+    "model": "qwen--qwen3-asr-flash-2026-02-10",
+    "source_run": "openrouter-capability-variants",
+    "prediction_sha256": "fb0ed556196c60f8d85e4bcdccc5aa67d32155debf46a4f505858a405dbb291f",
+    "options": {
+      "model": "qwen/qwen3-asr-flash-2026-02-10",
+      "max_requests": 1,
+      "max_audio_seconds_total": 60,
+      "max_audio_seconds": 60,
+      "request_timeout_seconds": 120,
+      "response_format": "json"
+    },
+    "metrics": [
+      "wer"
+    ],
+    "limitation": "Verbose format rejected; JSON transcript validated."
+  },
+  {
+    "model": "google--chirp-3",
+    "source_run": "openrouter-capability-variants",
+    "prediction_sha256": "3255c2047779a8ef5f24ba5148fc9abe685823f28470c3f05dc5d52f38fb5af6",
+    "options": {
+      "model": "google/chirp-3",
+      "max_requests": 1,
+      "max_audio_seconds_total": 60,
+      "max_audio_seconds": 60,
+      "request_timeout_seconds": 120,
+      "response_format": "json",
+      "audio_format": "flac"
+    },
+    "metrics": [
+      "wer"
+    ],
+    "limitation": "Verbose format rejected; JSON transcript validated."
+  },
+  {
+    "model": "openai--gpt-4o-mini-transcribe",
+    "source_run": "openrouter-nine-capability-probe",
+    "prediction_sha256": "ce4d216230f27e55c0ae8b7d5c56e4f55a61e22436ab6cd9a73e1fe7a34a1d9b",
+    "options": {
+      "model": "openai/gpt-4o-mini-transcribe",
+      "max_requests": 1,
+      "max_audio_seconds_total": 60,
+      "max_audio_seconds": 60,
+      "request_timeout_seconds": 120,
+      "response_format": "json"
+    },
+    "metrics": [
+      "wer"
+    ],
+    "limitation": "Metrics limited to output actually returned."
+  },
+  {
+    "model": "openai--whisper-large-v3",
+    "source_run": "openrouter-capability-probe-reparsed",
+    "prediction_sha256": "61e1365678df345979d8424e4571c49802568e1f0cfb897efb0d2a3e1e68ff3a",
+    "options": {
+      "model": "openai/whisper-large-v3",
+      "max_requests": 1,
+      "max_audio_seconds_total": 60,
+      "max_audio_seconds": 60,
+      "request_timeout_seconds": 120,
+      "response_format": "verbose_json",
+      "timestamp_granularities": [
+        "segment",
+        "word"
+      ]
+    },
+    "metrics": [
+      "wer",
+      "coverage"
+    ],
+    "limitation": "Metrics limited to output actually returned."
+  },
+  {
+    "model": "openai--whisper-large-v3-turbo",
+    "source_run": "openrouter-capability-probe-reparsed",
+    "prediction_sha256": "dfcece78e02799644e47638cf44b683f7bdce876e4cbcc9a729590499908ab18",
+    "options": {
+      "model": "openai/whisper-large-v3-turbo",
+      "max_requests": 1,
+      "max_audio_seconds_total": 60,
+      "max_audio_seconds": 60,
+      "request_timeout_seconds": 120,
+      "response_format": "verbose_json",
+      "timestamp_granularities": [
+        "segment",
+        "word"
+      ]
+    },
+    "metrics": [
+      "wer",
+      "coverage"
+    ],
+    "limitation": "Metrics limited to output actually returned."
+  },
+  {
+    "model": "openai--whisper-1",
+    "source_run": "openrouter-nine-capability-probe",
+    "prediction_sha256": "b4a95f074ed7c0909385367287d0d01089beb0cf7e8c9b1d36a98080017027bf",
+    "options": {
+      "model": "openai/whisper-1",
+      "max_requests": 1,
+      "max_audio_seconds_total": 60,
+      "max_audio_seconds": 60,
+      "request_timeout_seconds": 120,
+      "response_format": "verbose_json",
+      "timestamp_granularities": [
+        "segment",
+        "word"
+      ]
+    },
+    "metrics": [
+      "wer",
+      "coverage"
+    ],
+    "limitation": "Metrics limited to output actually returned."
+  },
+  {
+    "model": "openai--gpt-4o-transcribe",
+    "source_run": "openrouter-nine-capability-probe",
+    "prediction_sha256": "e8cd94c6867970ad18694a8c0e4a464488cf0ec799a5c3e650c7276326005f2a",
+    "options": {
+      "model": "openai/gpt-4o-transcribe",
+      "max_requests": 1,
+      "max_audio_seconds_total": 60,
+      "max_audio_seconds": 60,
+      "request_timeout_seconds": 120,
+      "response_format": "json"
+    },
+    "metrics": [
+      "wer"
+    ],
+    "limitation": "Metrics limited to output actually returned."
+  }
+]

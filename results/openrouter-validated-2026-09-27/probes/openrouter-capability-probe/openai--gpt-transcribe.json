@@ -1,0 +1,26 @@
+{
+  "options": {
+    "model": "openai/gpt-transcribe",
+    "max_requests": 1,
+    "max_audio_seconds_total": 60,
+    "max_audio_seconds": 60,
+    "request_timeout_seconds": 120,
+    "response_format": "verbose_json",
+    "timestamp_granularities": [
+      "segment",
+      "word"
+    ]
+  },
+  "response": {
+    "id": "ES2004a-4800000",
+    "duration": 60.0,
+    "seed": 4264379538,
+    "status": "inference_failed",
+    "error_type": "RemoteRequestError",
+    "http_status": 400,
+    "billing_status": "unknown",
+    "reason": "http_error",
+    "wall_seconds": 9.954468742012978
+  },
+  "source_prediction_sha256": "ac9f8e546533aa3eb200a7c40b23ddfc2fb94b839806e8a61e7b9939fa9a1eeb"
+}

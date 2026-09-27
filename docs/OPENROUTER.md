@@ -7,12 +7,13 @@ returned **24 model IDs on 27 September 2026**. This includes every model in the
 [speech-to-text collection](https://openrouter.ai/collections/speech-to-text-models) at discovery.
 It does not include general audio-chat models served through Chat Completions.
 
-**Status: implementation tested offline; live evaluation is underway.** Hosted-model
-results have not yet been published. Availability depends on the account's privacy and
+The corrected evaluation uses 20 active routes after capability probes; four DeepInfra
+routes remain excluded after earlier failures. Availability depends on the account's privacy and
 provider settings; check the authenticated `/api/v1/models/user?output_modalities=transcription`
 catalog as well as the public catalog before running.
-The original local-model results remain archived; the current local pass uses this exact
-94-clip manifest.
+The original local-model results remain archived; the current local
+pass uses this exact 94-clip manifest. The [capability audit](OPENROUTER_CAPABILITY_AUDIT.md)
+distinguishes tested output from upstream capabilities.
 
 ## Cost before running
 
@@ -60,17 +61,18 @@ options, the Fish Pro parser correction, and the check required before another f
 
 ## What the adapter measures
 
-The adapter sends mono 16 kHz PCM16 WAV, a model ID, and the recording's language code.
+The adapter sends mono 16 kHz PCM16 WAV (or lossless FLAC), a model ID, and the
+recording's language code.
 It never sends reference transcripts, speaker counts, names, or vocabulary hints. API keys
 come only from `OPENROUTER_API_KEY` at runtime; keys are not accepted in model configuration.
 No new package dependency is required.
 
-The initial configuration requests plain JSON from most models. For MAI-Transcribe 2 and
-Deepgram Nova-3 it requests verbose output and enables the documented diarization option
-in the same request. This tests their speaker capability without an extra inference pass.
-Other models may advertise diarization or timestamps upstream, but their OpenRouter option
-shapes have not been verified here. Missing features in this first configuration are not
-evidence that the underlying model cannot provide them.
+The corrected configuration requests native timing and speaker options where validated
+by a one-clip probe. MAI 2, Deepgram, and Grok returned timed speaker labels. Fish Pro
+returned inline speaker labels plus separate unlabelled timing. Gemini and Voxtral were
+asked for diarization but returned no speaker fields with the tested options. Meta,
+GPT Transcribe, Qwen Flash, and Chirp rejected verbose output and were validated in JSON
+mode. These are observations of the tested integration, not universal capability claims.
 
 Transcripts with native speaker labels can receive speaker-attributed word error and
 diarization scores. Models returning only text receive chronological WER; cpWER, tcpWER,
@@ -82,8 +84,9 @@ model-specific review before treating their WER as a clean lexical comparison.
 Wall time includes local WAV encoding, upload, queueing, and the remote response. It is
 client-observed latency, not provider GPU execution time. Local GPU memory is unavailable
 and must not be compared with the 4090 memory measurements. Native response usage and a
-generation ID, when provided, are saved with each prediction. `api_reported_cost_usd` sums
-reported costs from valid completed records; `api_cost_complete` is false when any record
+generation ID, when provided, are saved with each prediction. The consolidated
+`api_reported_cost_usd` includes charges from valid and parser-rejected responses;
+`api_cost_complete` is false when any record
 failed or omitted cost. Failed requests may still be billed: consult OpenRouter activity
 for the final charge rather than assuming an unreported cost is zero.
 
@@ -155,14 +158,14 @@ OPENROUTER_ALLOW_PAID_REQUESTS=1 uv run speaker-bench run \
   --output runs/openrouter-screening
 ```
 
-For the full pass on all 24 models, use the full 60-second-window manifest and the
-94-request configuration. This permits at most 24 concurrent API requests:
+For the corrected full pass, use the validated configuration and the full 60-second-window
+manifest. This permits at most 20 concurrent API requests, one per included model:
 
 ```bash
 OPENROUTER_ALLOW_PAID_REQUESTS=1 uv run speaker-bench run \
-  --config configs/openrouter-full.json \
+  --config configs/openrouter-validated-full.json \
   --manifest data/ami-openrouter/manifest.jsonl \
-  --parallel-models 24 --output runs/openrouter-full
+  --parallel-models 20 --output runs/openrouter-validated-full
 ```
 
 The full configuration permits 5,536.704 seconds per model, one trial only. Parallelism
@@ -177,7 +180,17 @@ as not run. No failed request is retried automatically; its server-side outcome 
 be unknown. The controller reports failures instead of dropping them from the denominator.
 HTTP status is retained without recording an arbitrary upstream error body.
 
-## Chirp transport recovery
+## Corrected Chirp pass
+
+The corrected pass used FLAC and a 120-second timeout. After 65 successful clips,
+one clip timed out. A selective recovery used the same samples in WAV with a 300-second
+client timeout, processing the 28 unattempted clips before retrying the failed clip.
+Those 28 succeeded, but the final retry returned HTTP 504 after 180.53 seconds.
+The resulting **93 successful clips plus one empty failure hypothesis** are scored
+against all 94 references. No window is split or shortened in this comparison.
+Both failed attempts are retained with unknown billing pending account reconciliation.
+
+## Historical Chirp transport recovery
 
 The first Chirp recovery stopped on one failing clip before attempting the remaining
 clips. A subsequent isolated recovery completed 28 of the 29 missing clips; one request
@@ -198,11 +211,11 @@ failure history, scores, and verification. This is explicitly a recovery variant
 one clip has shorter context than the standard 60-second protocol. The cost of the
 additional successful recovery requests was approximately **$0.46**.
 
-## Deepgram timestamp handling
+## Timestamp handling
 
 A diagnostic replay reproduced a Deepgram word ending at 61.314938 seconds in a
 60-second clip. The original strict parser rejected the entire transcript. For
-`deepgram/nova-3`, intervals crossing an audio boundary now use their intersection with
+all hosted routes, intervals crossing an audio boundary now use their intersection with
 `[0, audio duration]`. Word text and speaker labels remain unchanged. Original timestamps
 remain in `raw_transcript`, each adjustment is recorded in `timestamp_adjustments`, and
 affected predictions have `timing: native_clipped`. Positive intervals entirely after
@@ -210,8 +223,12 @@ the audio retain their reported timestamps and speaker labels, with their indice
 recorded in `intervals_after_audio`. WER, cpWER, and tcpWER retain those words, including
 any insertion errors; DER uses only the actual audio duration as its evaluation region.
 This avoids deleting words or inventing timestamps to satisfy validation. Intervals
-entirely before zero, reversed or zero-length intervals, and non-finite times remain
-invalid. The timestamp policy is applied without consulting reference transcripts.
+entirely before zero, reversed intervals, and non-finite times remain invalid.
+Zero-length word alignments preserve their words but contribute no speech duration.
+If a response also supplies valid native segment times, those may replace reversed
+word alignment without discarding speaker labels. The raw response and selected source
+are retained. This recovered three Gemini responses offline, without another API call.
+The timestamp policy is applied without consulting reference transcripts.
 
 Saved responses can be reparsed without another paid request. The destination must
 not exist; original predictions remain untouched:
@@ -221,7 +238,7 @@ uv run python scripts/reparse_deepgram_run.py \
   runs/openrouter-deepgram runs/openrouter-deepgram-corrected
 ```
 
-The corrected 94-clip run has WER **40.60%**. Five responses lack speaker labels,
+The historical corrected Deepgram-only run had WER **40.60%**. Five responses lacked speaker labels,
 so full-run cpWER, tcpWER, and DER remain unavailable. On the **89 clips with speaker
 labels**, weighted cpWER is **66.68%**, tcpWER **67.98%**, and DER **56.38%**.
 These subset scores must not be compared directly against other models' full-run scores.
@@ -247,10 +264,10 @@ do not select the better transcript from repeated calls. The initial DeepInfra f
 remain recorded as incomplete evaluations, without an additional rerun.
 
 The request/audio limits bound the workload, **not dollars**. The key's provider-enforced
-credit limit is the spending boundary. A 90-second client timeout is configured per request;
+credit limit is the spending boundary. A 120-second client timeout is configured per request
+in the validated configuration;
 OpenRouter documents a shorter upstream processing timeout. A 60-second clip can still fail
 if its provider is slow. Check failed request IDs and actual charges before authorizing a
-selective retry. The completed evaluation and four partial DeepInfra runs appear in the
-[single consolidated table](../results/openrouter-2026-09-27/README.md), together with the
-local systems rerun on the same manifest. It includes per-metric medals; metric coverage
-and recovery status are shown directly in the table.
+selective retry. Four DeepInfra routes are excluded from the corrected comparison and
+receive no scores or medals. Their original partial outputs remain in the historical
+result bundle.

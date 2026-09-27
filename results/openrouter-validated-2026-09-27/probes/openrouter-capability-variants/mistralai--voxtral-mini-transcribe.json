@@ -1,0 +1,242 @@
+{
+  "options": {
+    "model": "mistralai/voxtral-mini-transcribe",
+    "max_requests": 1,
+    "max_audio_seconds_total": 60,
+    "max_audio_seconds": 60,
+    "request_timeout_seconds": 120,
+    "response_format": "verbose_json",
+    "timestamp_granularities": [
+      "segment"
+    ],
+    "provider_options": {
+      "mistral": {
+        "diarize": true
+      },
+      "mistral/eu": {
+        "diarize": true
+      }
+    }
+  },
+  "response": {
+    "id": "ES2004a-4800000",
+    "duration": 60.0,
+    "seed": 4264379538,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "A kind of dog?",
+          "start": 6.4,
+          "end": 7.2
+        },
+        {
+          "speaker": "unassigned",
+          "text": " It's actually sitting.",
+          "start": 13.6,
+          "end": 14.4
+        },
+        {
+          "speaker": "unassigned",
+          "text": " So, it's sitting.",
+          "start": 14.8,
+          "end": 17.6
+        },
+        {
+          "speaker": "unassigned",
+          "text": " It's not standing.",
+          "start": 17.7,
+          "end": 18.5
+        },
+        {
+          "speaker": "unassigned",
+          "text": " Okay, I see it as one thing.",
+          "start": 19.2,
+          "end": 20.7
+        },
+        {
+          "speaker": "unassigned",
+          "text": " It's very supportive.",
+          "start": 20.8,
+          "end": 21.8
+        },
+        {
+          "speaker": "unassigned",
+          "text": " It's your best friend in your...",
+          "start": 24.2,
+          "end": 25.5
+        },
+        {
+          "speaker": "unassigned",
+          "text": " You can talk to your dog, it can be your best friend.",
+          "start": 26.2,
+          "end": 27.7
+        },
+        {
+          "speaker": "unassigned",
+          "text": " It doesn't discriminate between you based on what you are.",
+          "start": 27.8,
+          "end": 30.6
+        },
+        {
+          "speaker": "unassigned",
+          "text": " Second, it's loyal.",
+          "start": 31.5,
+          "end": 34.0
+        },
+        {
+          "speaker": "unassigned",
+          "text": " And third thing, it's got intuition.",
+          "start": 35.6,
+          "end": 38.2
+        },
+        {
+          "speaker": "unassigned",
+          "text": "And dogs can sometimes make out between a thief and a person.",
+          "start": 40.744,
+          "end": 45.544
+        },
+        {
+          "speaker": "unassigned",
+          "text": " So basically, these are the three unique features I think belong to a dog.",
+          "start": 45.544,
+          "end": 49.344
+        },
+        {
+          "speaker": "unassigned",
+          "text": " Okay, thank you.",
+          "start": 50.144,
+          "end": 51.044
+        },
+        {
+          "speaker": "unassigned",
+          "text": " Please leave me a space at the bottom, I'm a little...",
+          "start": 56.844,
+          "end": 59.944
+        }
+      ],
+      "activity": null,
+      "timing": "native",
+      "events": [],
+      "metadata": {
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 59,
+          "total_tokens": 266,
+          "input_tokens": 12,
+          "output_tokens": 254,
+          "cost": 0.00295
+        },
+        "raw_transcript": {
+          "text": "A kind of dog? It's actually sitting. So, it's sitting. It's not standing. Okay, I see it as one thing. It's very supportive. It's your best friend in your... You can talk to your dog, it can be your best friend. It doesn't discriminate between you based on what you are. Second, it's loyal. And third thing, it's got intuition.And dogs can sometimes make out between a thief and a person. So basically, these are the three unique features I think belong to a dog. Okay, thank you. Please leave me a space at the bottom, I'm a little...",
+          "segments": [
+            {
+              "id": 0,
+              "start": 6.4,
+              "end": 7.2,
+              "text": "A kind of dog?"
+            },
+            {
+              "id": 1,
+              "start": 13.6,
+              "end": 14.4,
+              "text": " It's actually sitting."
+            },
+            {
+              "id": 2,
+              "start": 14.8,
+              "end": 17.6,
+              "text": " So, it's sitting."
+            },
+            {
+              "id": 3,
+              "start": 17.7,
+              "end": 18.5,
+              "text": " It's not standing."
+            },
+            {
+              "id": 4,
+              "start": 19.2,
+              "end": 20.7,
+              "text": " Okay, I see it as one thing."
+            },
+            {
+              "id": 5,
+              "start": 20.8,
+              "end": 21.8,
+              "text": " It's very supportive."
+            },
+            {
+              "id": 6,
+              "start": 24.2,
+              "end": 25.5,
+              "text": " It's your best friend in your..."
+            },
+            {
+              "id": 7,
+              "start": 26.2,
+              "end": 27.7,
+              "text": " You can talk to your dog, it can be your best friend."
+            },
+            {
+              "id": 8,
+              "start": 27.8,
+              "end": 30.6,
+              "text": " It doesn't discriminate between you based on what you are."
+            },
+            {
+              "id": 9,
+              "start": 31.5,
+              "end": 34,
+              "text": " Second, it's loyal."
+            },
+            {
+              "id": 10,
+              "start": 35.6,
+              "end": 38.2,
+              "text": " And third thing, it's got intuition."
+            },
+            {
+              "id": 11,
+              "start": 40.744,
+              "end": 45.544,
+              "text": "And dogs can sometimes make out between a thief and a person."
+            },
+            {
+              "id": 12,
+              "start": 45.544,
+              "end": 49.344,
+              "text": " So basically, these are the three unique features I think belong to a dog."
+            },
+            {
+              "id": 13,
+              "start": 50.144,
+              "end": 51.044,
+              "text": " Okay, thank you."
+            },
+            {
+              "id": 14,
+              "start": 56.844,
+              "end": 59.944,
+              "text": " Please leave me a space at the bottom, I'm a little..."
+            }
+          ]
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "mistralai/voxtral-mini-transcribe",
+        "generation_id": "gen-stt-1790485024-NRAXF9YWDgLDB6zVH9md"
+      }
+    },
+    "wall_seconds": 4.629452975001186,
+    "rtf": 0.07715754958335311,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 54202368
+  },
+  "source_prediction_sha256": "70ea1a9650f0050312e1be9281fe7ab6db57c5bbf5e29d713f03e9cd22e8d57a"
+}

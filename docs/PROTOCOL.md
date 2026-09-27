@@ -41,8 +41,12 @@ anonymous speaker labels to be renamed. Lower is better. Counts are summed befor
 so a short window does not receive the same weight as a long, word-rich window.
 
 WER and coverage use all 94 clips. The consolidated cpWER, tcpWER, and DER columns use
-the same 89 clips for every system: these are the clips with speaker labels from both
-tested diarizing API routes. Local full-dataset scores are retained in the JSON result.
+the same labelled subset for every system, with its size in the column headings.
+This is the intersection of clips with measurable cpWER across hosted routes that
+returned speaker labels: MAI 2, Deepgram, Grok, and Fish Pro. The exact clip IDs and
+each system's full-dataset metrics are retained in the JSON result. Selecting this
+subset after observing missing labels can favor clips that providers find easier;
+these speaker scores are conditional on available output, not full-dataset estimates.
 The consolidator rejects differing clip counts, audio hashes, boundaries, or references.
 The original 25-window local evaluation is historical and is not included in this table.
 
@@ -52,12 +56,31 @@ so the timing-constrained score is supplementary. DER uses no collar and include
 over the entire audio duration. Pipeline DER uses the diarizer's regular overlapping
 activity, not only the speaker-assigned words. Speech-time coverage is a diagnostic of
 predicted activity and can be inflated by hallucinated spans.
+For a route with timed output, an empty speech transcript contributes zero covered time
+to the consolidated coverage score. This keeps missed speech in the denominator without
+inventing timestamps. A nonempty transcript with no timing makes full-dataset coverage
+unavailable. The JSON records which empty outputs received this aggregation treatment;
+original per-clip scores and predictions remain unchanged.
 
 Text normalization applies Unicode NFKC, lowercasing, and punctuation-to-space conversion,
 preserving apostrophes, fillers, repetitions, and number spellings. No language model edits
 references or hypotheses. VibeVoice's square-bracket sound annotations are preserved in
-raw output but excluded from speech-word scoring. Ordinary unattributed speech is retained
+raw output but excluded from speech-word scoring. Fish inline speaker markers are parsed
+as labels, and its bracketed event annotations are likewise excluded from speech words.
+Fish's unlabelled timed segments support speech coverage but are not assigned to its
+inline speakers by guessing word positions; tcpWER and DER need actual speaker times.
+Ordinary unattributed speech is retained
 as `unassigned`, so missing speaker labels are not silently discarded.
+
+All hosted routes use the same timestamp boundary policy. Intervals crossing the audio
+boundary are intersected with it, with original values and adjustments retained.
+Words entirely after the audio remain in lexical scoring as potential insertions;
+DER is bounded by the actual audio duration. Equal start/end timestamps are valid point
+alignments: their words remain scored, but they add no speech duration. Reversed and
+non-finite timestamps remain invalid. When word intervals are reversed, valid native
+segments from the same response may be used instead, provided this does not discard
+speaker labels. Raw word intervals and the selected alignment source remain recorded.
+No timestamp is inferred from the reference.
 
 Both Qwen pipelines use identical 30-second ASR/alignment chunks and whole-window
 diarization. Words are assigned by greatest overlap with speaker activity; no intersection

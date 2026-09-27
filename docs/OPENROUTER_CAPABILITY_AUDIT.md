@@ -1,18 +1,26 @@
 # Hosted output audit and recovery
 
 The first hosted run did not validate the speaker and timestamp options for every route.
-Its missing metric cells must not be interpreted as model capability findings. The current
-comparison is provisional until corrected configurations have been tested and run.
+Its missing metric cells must not be interpreted as model capability findings. The corrected
+configuration was generated only after inspecting live output for every included route.
+The original results remain archived so the extra requests and corrections are visible.
 
 The [machine-readable audit](../research/openrouter-capabilities.json) covers all 24 model
 IDs, provider tags, source links, observed output counts, proposed request options, and
 base-price estimates. All queried endpoints returned empty `supported_parameters` lists;
 those lists are not evidence that timestamps or speaker labels are unsupported.
 
-The [live probe results](../results/openrouter-capability-probe-2026-09-27/README.md) now
-validate ten routes. Nine others are absent from the authenticated model list, and Chirp
-rejects verbose output even without provider options. Total observed probe spend is about
-$0.0315. The full-run check failed as intended; no full rerun has started.
+The [first probe](../results/openrouter-capability-probe-2026-09-27/README.md) validated ten
+routes, while privacy settings blocked nine others and Chirp rejected verbose output.
+After those settings changed, the authenticated catalog exposed all 24 IDs. Bounded
+follow-up probes tested the nine routes, rejected-format alternatives, and actual returned
+field names. There were **42 probe requests in total**, including failed attempts.
+Twenty configurations passed the output check; four DeepInfra routes remained excluded.
+The [corrected results](../results/openrouter-validated-2026-09-27/README.md) contain 19
+complete hosted runs and Chirp's 93 successful clips plus one scored failure. Native
+speaker scores use the same 77 labelled clips across every compared system. The
+[request ledger](../results/openrouter-validated-2026-09-27/costs.json) records every probe
+and full-pass attempt, including the failed Chirp retry.
 
 ## What the audit established
 
@@ -25,16 +33,26 @@ $0.0315. The full-run check failed as intended; no full rerun has started.
   as deletions. This correction requires no API call.
   [Saved correction results](../results/openrouter-capability-audit-2026-09-27/README.md)
   give WER 31.54% and full-dataset cpWER 43.20%.
-- Gemini, Grok, Meta, and Mistral document speaker options in their own APIs. Whether the
-  exact OpenRouter route forwards each candidate option remains unverified.
-- Chirp documents diarization, but its descriptions of synchronous support conflict.
-  Its candidate configuration requires a successful output check, not an assumption.
+- Grok returned timed speaker labels with its provider-specific diarization option.
+  An earlier response using the same options contained empty text; both observations
+  remain in the probe record.
+- Gemini and Mistral document speaker options upstream. With the tested OpenRouter
+  options they returned timed words and segments but no speaker fields. Instrumentation
+  retained the actual response field names, confirming that the parser did not discard
+  a hidden speaker field. Gemini's alternative option shape also failed to produce labels.
+  This does not establish that every option or serving route lacks the capability.
+- Meta rejected verbose output and returned text only in JSON mode even with its
+  `DIARIZATION` provider option. Its upstream speaker features remain unverified here.
+- Chirp rejected verbose output both with and without provider options; JSON text output
+  passed. Its upstream diarization capability is not measured by this integration.
 - AssemblyAI's Sync route documents word timestamps. Its asynchronous API's speaker option
   must not be assumed to work on the Sync route.
-- Whisper and Parakeet expose timing upstream. Qwen's local aligner is a separate component;
-  the hosted Qwen route must be checked rather than credited with local pipeline features.
+- Whisper, Parakeet, Nemotron, AssemblyAI Sync, and Fish standard returned timing without
+  speaker labels. Those responses support WER and coverage, but not speaker error metrics.
+- Hosted Qwen Flash rejected verbose output and passed in JSON mode. Qwen's local aligner
+  is a separate component, not a feature added to this hosted route.
 - MAI 1.5 and GPT-4o transcription routes are classified as text-only for this validation.
-  GPT Transcribe and the remaining uncertain routes retain an explicit pending-probe status.
+  GPT Transcribe also rejected verbose output and passed in JSON mode.
 
 Sources: [OpenRouter request and forwarding rules](https://openrouter.ai/docs/guides/overview/multimodal/stt),
 [model collection](https://openrouter.ai/collections/speech-to-text-models),
@@ -50,9 +68,9 @@ Fish's timed segments may cross speaker turns and omit labels. The parser theref
 not invent speaker timestamps from word order. Timed speech can support coverage while
 cpWER uses inline speaker text; tcpWER and DER remain unavailable without aligned speakers.
 
-## Validation before another full pass
+## Validation before the corrected full pass
 
-The [candidate probe configuration](../configs/openrouter-capability-probe.json) makes at
+The [validated probe configuration](../configs/openrouter-capability-probe.json) makes at
 most one request per active model on one shared 60-second clip. The four DeepInfra routes
 previously excluded by the user remain excluded: Qwen 0.6B and 1.7B, Voxtral Mini 3B, and
 Voxtral Small 24B. No retries are automatic, including after timeouts.
@@ -68,18 +86,23 @@ in the runtime environment as `OPENROUTER_API_KEY`, never in configuration or re
 Use the existing runner with `OPENROUTER_ALLOW_PAID_REQUESTS=1` only after reviewing costs.
 The controller must use the shared probe manifest and an unused run directory.
 
-After the probe, validate saved output before generating any full-run configuration:
+After assembling the reviewed probe observations, validate saved output before generating
+the [full-run configuration](../configs/openrouter-validated-full.json):
 
 ```bash
-uv run python scripts/validate_openrouter_probe.py runs/openrouter-capability-probe \
-  --output configs/openrouter-validated-full.json
+uv run python scripts/validate_openrouter_probe.py \
+  results/openrouter-validated-2026-09-27/validated-probe \
+  --output runs/verified-openrouter-full.json
 ```
 
 This command makes no API calls. It checks exact candidate options, clip identity, audio
 hash, references, successful response status, and actual score availability. A response
 that silently omits a requested capability blocks generation of the full configuration.
 Resolve each failed or missing capability with evidence; do not relax requirements just
-to obtain a passing check. A single probe establishes request/output shape, not accuracy
+to obtain a passing check. The audit retains original requested metrics, observed metrics,
+tested options, and explicit limitations for routes that returned less than requested.
+Passing this check means the selected output shape was observed, not that all upstream
+features were successfully exposed. A single probe establishes request/output shape, not accuracy
 or reliability across the full dataset. Inspect all subsequent clip outputs too.
 
 Inspect the old outputs and recover Fish Pro locally without changing published raw data:

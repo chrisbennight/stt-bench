@@ -82,6 +82,21 @@ def test_point_aligned_word_is_scored_without_inventing_speech_duration():
     assert result["der"]["missed detection"] == 0.5
 
 
+def test_reversed_word_times_can_use_valid_native_segments():
+    data = {"text": "hello", "words": [{"word": "hello", "start": 2.2, "end": 2.1}],
+            "segments": [{"text": "hello", "start": 2, "end": 3}]}
+    prediction = parse_response(data, 5)
+    assert prediction.segments == [Segment("unassigned", "hello", 2, 3)]
+    assert prediction.metadata["alignment_source"] == "segments_after_reversed_word_times"
+    assert prediction.metadata["raw_transcript"]["words"] == data["words"]
+    data["words"][0]["speaker"] = 0
+    with pytest.raises(ValueError, match="nonpositive_transcript_interval"):
+        parse_response(data, 5)
+    data["segments"][0].update(speaker=0, start=4, end=3)
+    with pytest.raises(ValueError, match="nonpositive_transcript_interval"):
+        parse_response(data, 5)
+
+
 def test_http_error_diagnostics_do_not_retain_arbitrary_message_text():
     body = json.dumps({"error": {"message": "private-value: verbose_json not supported"}})
     result = error_diagnostic(body)

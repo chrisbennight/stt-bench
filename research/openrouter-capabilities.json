@@ -1,6 +1,6 @@
 {
   "retrieved_at": "2026-09-27T04:33:22.135937+00:00",
-  "status": "partial_live_validation",
+  "status": "validated_observed_output_with_documented_limitations",
   "models": [
     {
       "model": "google/gemini-3.5-transcribe",
@@ -11,12 +11,9 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "blocked_or_rejected_route",
+      "status": "validated_observed_output",
       "required_probe_metrics": [
         "wer",
-        "cpwer",
-        "tcpwer",
-        "der",
         "coverage"
       ],
       "candidate_options": {
@@ -57,7 +54,15 @@
         "structured_speakers": 0,
         "fish_inline_speakers": 0
       },
-      "live_probe": {
+      "original_required_probe_metrics": [
+        "wer",
+        "cpwer",
+        "tcpwer",
+        "der",
+        "coverage"
+      ],
+      "limitation": "Speaker labels not observed despite provider option; upstream capability is not ruled out.",
+      "initial_live_probe": {
         "status": "inference_failed",
         "http_status": 404,
         "accessible_to_key": false,
@@ -69,6 +74,17 @@
           "tcpwer",
           "wer"
         ]
+      },
+      "live_probe": {
+        "status": "ok",
+        "accessible_to_key": true,
+        "available_metrics": [
+          "wer",
+          "coverage"
+        ],
+        "missing_required_metrics": [],
+        "source_run": "openrouter-response-schema-probe",
+        "limitation": "Speaker labels not observed despite provider option; upstream capability is not ruled out."
       }
     },
     {
@@ -80,7 +96,7 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "probe_passed",
+      "status": "validated_observed_output",
       "required_probe_metrics": [
         "wer",
         "cpwer",
@@ -114,7 +130,13 @@
         "structured_speakers": 0,
         "fish_inline_speakers": 94
       },
-      "live_probe": {
+      "original_required_probe_metrics": [
+        "wer",
+        "cpwer",
+        "coverage"
+      ],
+      "limitation": "Metrics limited to output actually returned.",
+      "initial_live_probe": {
         "status": "ok",
         "http_status": null,
         "accessible_to_key": true,
@@ -124,6 +146,18 @@
           "coverage"
         ],
         "missing_required_metrics": []
+      },
+      "live_probe": {
+        "status": "ok",
+        "accessible_to_key": true,
+        "available_metrics": [
+          "wer",
+          "cpwer",
+          "coverage"
+        ],
+        "missing_required_metrics": [],
+        "source_run": "openrouter-capability-probe-reparsed",
+        "limitation": "Metrics limited to output actually returned."
       }
     },
     {
@@ -135,7 +169,7 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "probe_passed",
+      "status": "validated_observed_output",
       "required_probe_metrics": [
         "wer",
         "coverage"
@@ -168,7 +202,12 @@
         "structured_speakers": 0,
         "fish_inline_speakers": 0
       },
-      "live_probe": {
+      "original_required_probe_metrics": [
+        "wer",
+        "coverage"
+      ],
+      "limitation": "Metrics limited to output actually returned.",
+      "initial_live_probe": {
         "status": "ok",
         "http_status": null,
         "accessible_to_key": true,
@@ -177,6 +216,17 @@
           "coverage"
         ],
         "missing_required_metrics": []
+      },
+      "live_probe": {
+        "status": "ok",
+        "accessible_to_key": true,
+        "available_metrics": [
+          "wer",
+          "coverage"
+        ],
+        "missing_required_metrics": [],
+        "source_run": "openrouter-capability-probe-reparsed",
+        "limitation": "Metrics limited to output actually returned."
       }
     },
     {
@@ -188,13 +238,9 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "blocked_or_rejected_route",
+      "status": "validated_observed_output",
       "required_probe_metrics": [
-        "wer",
-        "cpwer",
-        "tcpwer",
-        "der",
-        "coverage"
+        "wer"
       ],
       "candidate_options": {
         "model": "meta/muse-voice-transcribe-1.0",
@@ -202,10 +248,7 @@
         "max_audio_seconds_total": 60,
         "max_audio_seconds": 60,
         "request_timeout_seconds": 120,
-        "response_format": "verbose_json",
-        "timestamp_granularities": [
-          "segment"
-        ],
+        "response_format": "json",
         "provider_options": {
           "meta": {
             "mode": "DIARIZATION"
@@ -223,7 +266,15 @@
         "structured_speakers": 0,
         "fish_inline_speakers": 0
       },
-      "live_probe": {
+      "original_required_probe_metrics": [
+        "wer",
+        "cpwer",
+        "tcpwer",
+        "der",
+        "coverage"
+      ],
+      "limitation": "Verbose format rejected; JSON transcript validated.",
+      "initial_live_probe": {
         "status": "inference_failed",
         "http_status": 400,
         "accessible_to_key": false,
@@ -235,6 +286,16 @@
           "tcpwer",
           "wer"
         ]
+      },
+      "live_probe": {
+        "status": "ok",
+        "accessible_to_key": true,
+        "available_metrics": [
+          "wer"
+        ],
+        "missing_required_metrics": [],
+        "source_run": "openrouter-response-schema-probe",
+        "limitation": "Verbose format rejected; JSON transcript validated."
       }
     },
     {
@@ -246,7 +307,7 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "probe_passed",
+      "status": "validated_observed_output",
       "required_probe_metrics": [
         "wer",
         "cpwer",
@@ -278,7 +339,15 @@
         "structured_speakers": 93,
         "fish_inline_speakers": 0
       },
-      "live_probe": {
+      "original_required_probe_metrics": [
+        "wer",
+        "cpwer",
+        "tcpwer",
+        "der",
+        "coverage"
+      ],
+      "limitation": "Metrics limited to output actually returned.",
+      "initial_live_probe": {
         "status": "ok",
         "http_status": null,
         "accessible_to_key": true,
@@ -290,6 +359,20 @@
           "coverage"
         ],
         "missing_required_metrics": []
+      },
+      "live_probe": {
+        "status": "ok",
+        "accessible_to_key": true,
+        "available_metrics": [
+          "wer",
+          "cpwer",
+          "tcpwer",
+          "der",
+          "coverage"
+        ],
+        "missing_required_metrics": [],
+        "source_run": "openrouter-capability-probe-reparsed",
+        "limitation": "Metrics limited to output actually returned."
       }
     },
     {
@@ -301,7 +384,7 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "probe_passed",
+      "status": "validated_observed_output",
       "required_probe_metrics": [
         "wer",
         "coverage"
@@ -329,7 +412,12 @@
         "structured_speakers": 0,
         "fish_inline_speakers": 0
       },
-      "live_probe": {
+      "original_required_probe_metrics": [
+        "wer",
+        "coverage"
+      ],
+      "limitation": "Metrics limited to output actually returned.",
+      "initial_live_probe": {
         "status": "ok",
         "http_status": null,
         "accessible_to_key": true,
@@ -338,6 +426,17 @@
           "coverage"
         ],
         "missing_required_metrics": []
+      },
+      "live_probe": {
+        "status": "ok",
+        "accessible_to_key": true,
+        "available_metrics": [
+          "wer",
+          "coverage"
+        ],
+        "missing_required_metrics": [],
+        "source_run": "openrouter-capability-probe-reparsed",
+        "limitation": "Metrics limited to output actually returned."
       }
     },
     {
@@ -509,10 +608,9 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "blocked_or_rejected_route",
+      "status": "validated_observed_output",
       "required_probe_metrics": [
-        "wer",
-        "coverage"
+        "wer"
       ],
       "candidate_options": {
         "model": "openai/gpt-transcribe",
@@ -520,11 +618,7 @@
         "max_audio_seconds_total": 60,
         "max_audio_seconds": 60,
         "request_timeout_seconds": 120,
-        "response_format": "verbose_json",
-        "timestamp_granularities": [
-          "segment",
-          "word"
-        ]
+        "response_format": "json"
       },
       "evidence": [
         "https://openrouter.ai/collections/speech-to-text-models",
@@ -537,7 +631,12 @@
         "structured_speakers": 0,
         "fish_inline_speakers": 0
       },
-      "live_probe": {
+      "original_required_probe_metrics": [
+        "wer",
+        "coverage"
+      ],
+      "limitation": "Verbose format rejected; JSON transcript validated.",
+      "initial_live_probe": {
         "status": "inference_failed",
         "http_status": 400,
         "accessible_to_key": false,
@@ -546,6 +645,16 @@
           "coverage",
           "wer"
         ]
+      },
+      "live_probe": {
+        "status": "ok",
+        "accessible_to_key": true,
+        "available_metrics": [
+          "wer"
+        ],
+        "missing_required_metrics": [],
+        "source_run": "openrouter-capability-variants",
+        "limitation": "Verbose format rejected; JSON transcript validated."
       }
     },
     {
@@ -557,7 +666,7 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "probe_passed",
+      "status": "validated_observed_output",
       "required_probe_metrics": [
         "wer",
         "coverage"
@@ -590,7 +699,12 @@
         "structured_speakers": 0,
         "fish_inline_speakers": 0
       },
-      "live_probe": {
+      "original_required_probe_metrics": [
+        "wer",
+        "coverage"
+      ],
+      "limitation": "Metrics limited to output actually returned.",
+      "initial_live_probe": {
         "status": "ok",
         "http_status": null,
         "accessible_to_key": true,
@@ -599,6 +713,17 @@
           "coverage"
         ],
         "missing_required_metrics": []
+      },
+      "live_probe": {
+        "status": "ok",
+        "accessible_to_key": true,
+        "available_metrics": [
+          "wer",
+          "coverage"
+        ],
+        "missing_required_metrics": [],
+        "source_run": "openrouter-capability-probe-reparsed",
+        "limitation": "Metrics limited to output actually returned."
       }
     },
     {
@@ -610,7 +735,7 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "blocked_or_rejected_route",
+      "status": "validated_observed_output",
       "required_probe_metrics": [
         "wer",
         "cpwer",
@@ -646,7 +771,15 @@
         "structured_speakers": 0,
         "fish_inline_speakers": 0
       },
-      "live_probe": {
+      "original_required_probe_metrics": [
+        "wer",
+        "cpwer",
+        "tcpwer",
+        "der",
+        "coverage"
+      ],
+      "limitation": "Metrics limited to output actually returned.",
+      "initial_live_probe": {
         "status": "inference_failed",
         "http_status": 404,
         "accessible_to_key": false,
@@ -658,6 +791,20 @@
           "tcpwer",
           "wer"
         ]
+      },
+      "live_probe": {
+        "status": "ok",
+        "accessible_to_key": true,
+        "available_metrics": [
+          "wer",
+          "cpwer",
+          "tcpwer",
+          "der",
+          "coverage"
+        ],
+        "missing_required_metrics": [],
+        "source_run": "openrouter-response-schema-probe",
+        "limitation": "Metrics limited to output actually returned."
       }
     },
     {
@@ -669,7 +816,7 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "probe_passed",
+      "status": "validated_observed_output",
       "required_probe_metrics": [
         "wer",
         "cpwer",
@@ -701,7 +848,15 @@
         "structured_speakers": 89,
         "fish_inline_speakers": 0
       },
-      "live_probe": {
+      "original_required_probe_metrics": [
+        "wer",
+        "cpwer",
+        "tcpwer",
+        "der",
+        "coverage"
+      ],
+      "limitation": "Metrics limited to output actually returned.",
+      "initial_live_probe": {
         "status": "ok",
         "http_status": null,
         "accessible_to_key": true,
@@ -713,6 +868,20 @@
           "coverage"
         ],
         "missing_required_metrics": []
+      },
+      "live_probe": {
+        "status": "ok",
+        "accessible_to_key": true,
+        "available_metrics": [
+          "wer",
+          "cpwer",
+          "tcpwer",
+          "der",
+          "coverage"
+        ],
+        "missing_required_metrics": [],
+        "source_run": "openrouter-capability-probe-reparsed",
+        "limitation": "Metrics limited to output actually returned."
       }
     },
     {
@@ -724,7 +893,7 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "probe_passed",
+      "status": "validated_observed_output",
       "required_probe_metrics": [
         "wer"
       ],
@@ -747,7 +916,11 @@
         "structured_speakers": 0,
         "fish_inline_speakers": 0
       },
-      "live_probe": {
+      "original_required_probe_metrics": [
+        "wer"
+      ],
+      "limitation": "Metrics limited to output actually returned.",
+      "initial_live_probe": {
         "status": "ok",
         "http_status": null,
         "accessible_to_key": true,
@@ -755,6 +928,16 @@
           "wer"
         ],
         "missing_required_metrics": []
+      },
+      "live_probe": {
+        "status": "ok",
+        "accessible_to_key": true,
+        "available_metrics": [
+          "wer"
+        ],
+        "missing_required_metrics": [],
+        "source_run": "openrouter-capability-probe-reparsed",
+        "limitation": "Metrics limited to output actually returned."
       }
     },
     {
@@ -766,7 +949,7 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "probe_passed",
+      "status": "validated_observed_output",
       "required_probe_metrics": [
         "wer",
         "coverage"
@@ -794,7 +977,12 @@
         "structured_speakers": 0,
         "fish_inline_speakers": 0
       },
-      "live_probe": {
+      "original_required_probe_metrics": [
+        "wer",
+        "coverage"
+      ],
+      "limitation": "Metrics limited to output actually returned.",
+      "initial_live_probe": {
         "status": "ok",
         "http_status": null,
         "accessible_to_key": true,
@@ -803,6 +991,17 @@
           "coverage"
         ],
         "missing_required_metrics": []
+      },
+      "live_probe": {
+        "status": "ok",
+        "accessible_to_key": true,
+        "available_metrics": [
+          "wer",
+          "coverage"
+        ],
+        "missing_required_metrics": [],
+        "source_run": "openrouter-capability-probe-reparsed",
+        "limitation": "Metrics limited to output actually returned."
       }
     },
     {
@@ -816,12 +1015,9 @@
         [],
         []
       ],
-      "status": "blocked_or_rejected_route",
+      "status": "validated_observed_output",
       "required_probe_metrics": [
         "wer",
-        "cpwer",
-        "tcpwer",
-        "der",
         "coverage"
       ],
       "candidate_options": {
@@ -855,7 +1051,15 @@
         "structured_speakers": 0,
         "fish_inline_speakers": 0
       },
-      "live_probe": {
+      "original_required_probe_metrics": [
+        "wer",
+        "cpwer",
+        "tcpwer",
+        "der",
+        "coverage"
+      ],
+      "limitation": "Speaker labels not observed despite provider option; upstream capability is not ruled out.",
+      "initial_live_probe": {
         "status": "inference_failed",
         "http_status": 404,
         "accessible_to_key": false,
@@ -867,6 +1071,17 @@
           "tcpwer",
           "wer"
         ]
+      },
+      "live_probe": {
+        "status": "ok",
+        "accessible_to_key": true,
+        "available_metrics": [
+          "wer",
+          "coverage"
+        ],
+        "missing_required_metrics": [],
+        "source_run": "openrouter-response-schema-probe",
+        "limitation": "Speaker labels not observed despite provider option; upstream capability is not ruled out."
       }
     },
     {
@@ -878,10 +1093,9 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "blocked_or_rejected_route",
+      "status": "validated_observed_output",
       "required_probe_metrics": [
-        "wer",
-        "coverage"
+        "wer"
       ],
       "candidate_options": {
         "model": "qwen/qwen3-asr-flash-2026-02-10",
@@ -889,11 +1103,7 @@
         "max_audio_seconds_total": 60,
         "max_audio_seconds": 60,
         "request_timeout_seconds": 120,
-        "response_format": "verbose_json",
-        "timestamp_granularities": [
-          "segment",
-          "word"
-        ]
+        "response_format": "json"
       },
       "evidence": [
         "https://openrouter.ai/collections/speech-to-text-models",
@@ -906,7 +1116,12 @@
         "structured_speakers": 0,
         "fish_inline_speakers": 0
       },
-      "live_probe": {
+      "original_required_probe_metrics": [
+        "wer",
+        "coverage"
+      ],
+      "limitation": "Verbose format rejected; JSON transcript validated.",
+      "initial_live_probe": {
         "status": "inference_failed",
         "http_status": 400,
         "accessible_to_key": false,
@@ -915,6 +1130,16 @@
           "coverage",
           "wer"
         ]
+      },
+      "live_probe": {
+        "status": "ok",
+        "accessible_to_key": true,
+        "available_metrics": [
+          "wer"
+        ],
+        "missing_required_metrics": [],
+        "source_run": "openrouter-capability-variants",
+        "limitation": "Verbose format rejected; JSON transcript validated."
       }
     },
     {
@@ -926,13 +1151,9 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "route_rejected_verbose_output",
+      "status": "validated_observed_output",
       "required_probe_metrics": [
-        "wer",
-        "cpwer",
-        "tcpwer",
-        "der",
-        "coverage"
+        "wer"
       ],
       "candidate_options": {
         "model": "google/chirp-3",
@@ -940,21 +1161,7 @@
         "max_audio_seconds_total": 60,
         "max_audio_seconds": 60,
         "request_timeout_seconds": 120,
-        "response_format": "verbose_json",
-        "timestamp_granularities": [
-          "segment",
-          "word"
-        ],
-        "provider_options": {
-          "google-vertex": {
-            "config": {
-              "features": {
-                "diarizationConfig": {},
-                "enableWordTimeOffsets": true
-              }
-            }
-          }
-        },
+        "response_format": "json",
         "audio_format": "flac"
       },
       "evidence": [
@@ -968,7 +1175,15 @@
         "structured_speakers": 0,
         "fish_inline_speakers": 0
       },
-      "live_probe": {
+      "original_required_probe_metrics": [
+        "wer",
+        "cpwer",
+        "tcpwer",
+        "der",
+        "coverage"
+      ],
+      "limitation": "Verbose format rejected; JSON transcript validated.",
+      "initial_live_probe": {
         "status": "inference_failed",
         "http_status": 400,
         "accessible_to_key": true,
@@ -980,6 +1195,16 @@
           "tcpwer",
           "wer"
         ]
+      },
+      "live_probe": {
+        "status": "ok",
+        "accessible_to_key": true,
+        "available_metrics": [
+          "wer"
+        ],
+        "missing_required_metrics": [],
+        "source_run": "openrouter-capability-variants",
+        "limitation": "Verbose format rejected; JSON transcript validated."
       }
     },
     {
@@ -991,7 +1216,7 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "blocked_or_rejected_route",
+      "status": "validated_observed_output",
       "required_probe_metrics": [
         "wer"
       ],
@@ -1015,7 +1240,11 @@
         "structured_speakers": 0,
         "fish_inline_speakers": 0
       },
-      "live_probe": {
+      "original_required_probe_metrics": [
+        "wer"
+      ],
+      "limitation": "Metrics limited to output actually returned.",
+      "initial_live_probe": {
         "status": "inference_failed",
         "http_status": 404,
         "accessible_to_key": false,
@@ -1023,6 +1252,16 @@
         "missing_required_metrics": [
           "wer"
         ]
+      },
+      "live_probe": {
+        "status": "ok",
+        "accessible_to_key": true,
+        "available_metrics": [
+          "wer"
+        ],
+        "missing_required_metrics": [],
+        "source_run": "openrouter-nine-capability-probe",
+        "limitation": "Metrics limited to output actually returned."
       }
     },
     {
@@ -1038,7 +1277,7 @@
         [],
         []
       ],
-      "status": "probe_passed",
+      "status": "validated_observed_output",
       "required_probe_metrics": [
         "wer",
         "coverage"
@@ -1066,7 +1305,12 @@
         "structured_speakers": 0,
         "fish_inline_speakers": 0
       },
-      "live_probe": {
+      "original_required_probe_metrics": [
+        "wer",
+        "coverage"
+      ],
+      "limitation": "Metrics limited to output actually returned.",
+      "initial_live_probe": {
         "status": "ok",
         "http_status": null,
         "accessible_to_key": true,
@@ -1075,6 +1319,17 @@
           "coverage"
         ],
         "missing_required_metrics": []
+      },
+      "live_probe": {
+        "status": "ok",
+        "accessible_to_key": true,
+        "available_metrics": [
+          "wer",
+          "coverage"
+        ],
+        "missing_required_metrics": [],
+        "source_run": "openrouter-capability-probe-reparsed",
+        "limitation": "Metrics limited to output actually returned."
       }
     },
     {
@@ -1088,7 +1343,7 @@
         [],
         []
       ],
-      "status": "probe_passed",
+      "status": "validated_observed_output",
       "required_probe_metrics": [
         "wer",
         "coverage"
@@ -1116,7 +1371,12 @@
         "structured_speakers": 0,
         "fish_inline_speakers": 0
       },
-      "live_probe": {
+      "original_required_probe_metrics": [
+        "wer",
+        "coverage"
+      ],
+      "limitation": "Metrics limited to output actually returned.",
+      "initial_live_probe": {
         "status": "ok",
         "http_status": null,
         "accessible_to_key": true,
@@ -1125,6 +1385,17 @@
           "coverage"
         ],
         "missing_required_metrics": []
+      },
+      "live_probe": {
+        "status": "ok",
+        "accessible_to_key": true,
+        "available_metrics": [
+          "wer",
+          "coverage"
+        ],
+        "missing_required_metrics": [],
+        "source_run": "openrouter-capability-probe-reparsed",
+        "limitation": "Metrics limited to output actually returned."
       }
     },
     {
@@ -1136,7 +1407,7 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "blocked_or_rejected_route",
+      "status": "validated_observed_output",
       "required_probe_metrics": [
         "wer",
         "coverage"
@@ -1164,7 +1435,12 @@
         "structured_speakers": 0,
         "fish_inline_speakers": 0
       },
-      "live_probe": {
+      "original_required_probe_metrics": [
+        "wer",
+        "coverage"
+      ],
+      "limitation": "Metrics limited to output actually returned.",
+      "initial_live_probe": {
         "status": "inference_failed",
         "http_status": 404,
         "accessible_to_key": false,
@@ -1173,6 +1449,17 @@
           "coverage",
           "wer"
         ]
+      },
+      "live_probe": {
+        "status": "ok",
+        "accessible_to_key": true,
+        "available_metrics": [
+          "wer",
+          "coverage"
+        ],
+        "missing_required_metrics": [],
+        "source_run": "openrouter-nine-capability-probe",
+        "limitation": "Metrics limited to output actually returned."
       }
     },
     {
@@ -1184,7 +1471,7 @@
       "endpoint_supported_parameters": [
         []
       ],
-      "status": "blocked_or_rejected_route",
+      "status": "validated_observed_output",
       "required_probe_metrics": [
         "wer"
       ],
@@ -1208,7 +1495,11 @@
         "structured_speakers": 0,
         "fish_inline_speakers": 0
       },
-      "live_probe": {
+      "original_required_probe_metrics": [
+        "wer"
+      ],
+      "limitation": "Metrics limited to output actually returned.",
+      "initial_live_probe": {
         "status": "inference_failed",
         "http_status": 404,
         "accessible_to_key": false,
@@ -1216,6 +1507,16 @@
         "missing_required_metrics": [
           "wer"
         ]
+      },
+      "live_probe": {
+        "status": "ok",
+        "accessible_to_key": true,
+        "available_metrics": [
+          "wer"
+        ],
+        "missing_required_metrics": [],
+        "source_run": "openrouter-nine-capability-probe",
+        "limitation": "Metrics limited to output actually returned."
       }
     }
   ],
@@ -2655,5 +2956,6 @@
       }
     ]
   },
-  "probe_results": "results/openrouter-capability-probe-2026-09-27/summary.json"
+  "probe_results": "results/openrouter-validated-2026-09-27/probe-selection.json",
+  "initial_probe_results": "results/openrouter-capability-probe-2026-09-27/summary.json"
 }

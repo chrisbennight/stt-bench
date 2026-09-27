@@ -1,0 +1,31 @@
+{
+  "options": {
+    "model": "x-ai/grok-stt-1.0",
+    "max_requests": 1,
+    "max_audio_seconds_total": 60,
+    "max_audio_seconds": 60,
+    "request_timeout_seconds": 120,
+    "response_format": "verbose_json",
+    "timestamp_granularities": [
+      "segment",
+      "word"
+    ],
+    "provider_options": {
+      "xai": {
+        "diarize": true
+      }
+    }
+  },
+  "response": {
+    "id": "ES2004a-4800000",
+    "duration": 60.0,
+    "seed": 4264379538,
+    "status": "inference_failed",
+    "error_type": "RemoteRequestError",
+    "http_status": 404,
+    "billing_status": "unknown",
+    "reason": "http_error",
+    "wall_seconds": 9.085839202045463
+  },
+  "source_prediction_sha256": "0a53076bc150b4e2a0c8c86cde2d7039fdc388c7ff9e5f6d548991e7597a5793"
+}

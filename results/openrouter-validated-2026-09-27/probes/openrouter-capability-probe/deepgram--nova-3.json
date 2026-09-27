@@ -1,0 +1,148 @@
+{
+  "options": {
+    "model": "deepgram/nova-3",
+    "max_requests": 1,
+    "max_audio_seconds_total": 60,
+    "max_audio_seconds": 60,
+    "request_timeout_seconds": 120,
+    "response_format": "verbose_json",
+    "diarization": true,
+    "timestamp_granularities": [
+      "segment",
+      "word"
+    ]
+  },
+  "response": {
+    "id": "ES2004a-4800000",
+    "duration": 60.0,
+    "seed": 4264379538,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "0",
+          "text": "What",
+          "start": 6.24,
+          "end": 6.48
+        },
+        {
+          "speaker": "0",
+          "text": "kind",
+          "start": 6.48,
+          "end": 6.72
+        },
+        {
+          "speaker": "0",
+          "text": "of",
+          "start": 6.72,
+          "end": 6.8799996
+        },
+        {
+          "speaker": "0",
+          "text": "dog?",
+          "start": 6.8799996,
+          "end": 7.2799997
+        },
+        {
+          "speaker": "0",
+          "text": "Thank",
+          "start": 48.575,
+          "end": 49.535
+        },
+        {
+          "speaker": "0",
+          "text": "you.",
+          "start": 50.815,
+          "end": 51.055
+        }
+      ],
+      "activity": null,
+      "timing": "native",
+      "events": [],
+      "metadata": {
+        "speaker_labels_available": true,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.004300000000002
+        },
+        "raw_transcript": {
+          "text": "What kind of dog? Thank you.",
+          "words": [
+            {
+              "word": "What",
+              "start": 6.24,
+              "end": 6.48,
+              "speaker": 0
+            },
+            {
+              "word": "kind",
+              "start": 6.48,
+              "end": 6.72,
+              "speaker": 0
+            },
+            {
+              "word": "of",
+              "start": 6.72,
+              "end": 6.8799996,
+              "speaker": 0
+            },
+            {
+              "word": "dog?",
+              "start": 6.8799996,
+              "end": 7.2799997,
+              "speaker": 0
+            },
+            {
+              "word": "Thank",
+              "start": 48.575,
+              "end": 49.535,
+              "speaker": 0
+            },
+            {
+              "word": "you.",
+              "start": 50.815,
+              "end": 51.055,
+              "speaker": 0
+            }
+          ],
+          "segments": [
+            {
+              "id": 0,
+              "start": 6.24,
+              "end": 7.2799997,
+              "text": "What kind of dog?",
+              "speaker": 0
+            },
+            {
+              "id": 1,
+              "start": 48.575,
+              "end": 49.535,
+              "text": "Thank",
+              "speaker": 0
+            },
+            {
+              "id": 2,
+              "start": 50.815,
+              "end": 51.055,
+              "text": "you.",
+              "speaker": 0
+            }
+          ]
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "deepgram/nova-3",
+        "generation_id": "gen-stt-1790484327-WTRavv17JtTIiLtl7mGB"
+      }
+    },
+    "wall_seconds": 9.715294794994406,
+    "rtf": 0.16192157991657344,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 54050816
+  },
+  "source_prediction_sha256": "d5bd4a431cef5212204e64a93ef37c2f418360a13d35f8074b0182c4524a97ef"
+}

@@ -1,0 +1,498 @@
+{
+  "options": {
+    "model": "nvidia/nemotron-3.5-asr-streaming-multilingual-0.6b",
+    "max_requests": 1,
+    "max_audio_seconds_total": 60,
+    "max_audio_seconds": 60,
+    "request_timeout_seconds": 120,
+    "response_format": "verbose_json",
+    "timestamp_granularities": [
+      "segment",
+      "word"
+    ]
+  },
+  "response": {
+    "id": "ES2004a-4800000",
+    "duration": 60.0,
+    "seed": 4264379538,
+    "status": "invalid_output",
+    "wall_seconds": 10.224558470072225,
+    "rtf": 0.1704093078345371,
+    "cuda_peak": null,
+    "raw_output": {
+      "text": "I see it as one thing it's very supporting it's your best friend in your. You can talk to your talk. It can be your best friend. It doesn't discriminate between you based on what you are. Second, it's loyal and third thing it's intuition when dogs can sometimes make out between a thief and a person. So basically these are the three unique features I think belong to a lot. Thank you. Please leave me a space at the bottom.",
+      "words": [
+        {
+          "word": "I",
+          "start": 20.15999984741211,
+          "end": 20.239999771118164
+        },
+        {
+          "word": "see",
+          "start": 20.239999771118164,
+          "end": 20.31999969482422
+        },
+        {
+          "word": "it",
+          "start": 20.31999969482422,
+          "end": 20.399999618530273
+        },
+        {
+          "word": "as",
+          "start": 20.479999542236328,
+          "end": 20.559999465942383
+        },
+        {
+          "word": "one",
+          "start": 20.719999313354492,
+          "end": 20.799999237060547
+        },
+        {
+          "word": "thing",
+          "start": 20.8799991607666,
+          "end": 20.959999084472656
+        },
+        {
+          "word": "it's",
+          "start": 21.1200008392334,
+          "end": 21.280000686645508
+        },
+        {
+          "word": "very",
+          "start": 21.440000534057617,
+          "end": 21.520000457763672
+        },
+        {
+          "word": "supporting",
+          "start": 21.600000381469727,
+          "end": 22.079999923706055
+        },
+        {
+          "word": "it's",
+          "start": 24.479999542236328,
+          "end": 24.719999313354492
+        },
+        {
+          "word": "your",
+          "start": 24.719999313354492,
+          "end": 24.799999237060547
+        },
+        {
+          "word": "best",
+          "start": 24.8799991607666,
+          "end": 25.040000915527344
+        },
+        {
+          "word": "friend",
+          "start": 25.040000915527344,
+          "end": 25.200000762939453
+        },
+        {
+          "word": "in",
+          "start": 25.440000534057617,
+          "end": 25.520000457763672
+        },
+        {
+          "word": "your.",
+          "start": 25.600000381469727,
+          "end": 26.15999984741211
+        },
+        {
+          "word": "You",
+          "start": 26.239999771118164,
+          "end": 26.31999969482422
+        },
+        {
+          "word": "can",
+          "start": 26.399999618530273,
+          "end": 26.479999542236328
+        },
+        {
+          "word": "talk",
+          "start": 26.559999465942383,
+          "end": 26.799999237060547
+        },
+        {
+          "word": "to",
+          "start": 26.8799991607666,
+          "end": 26.959999084472656
+        },
+        {
+          "word": "your",
+          "start": 26.959999084472656,
+          "end": 27.040000915527344
+        },
+        {
+          "word": "talk.",
+          "start": 27.1200008392334,
+          "end": 27.440000534057617
+        },
+        {
+          "word": "It",
+          "start": 27.360000610351562,
+          "end": 27.440000534057617
+        },
+        {
+          "word": "can",
+          "start": 27.520000457763672,
+          "end": 27.600000381469727
+        },
+        {
+          "word": "be",
+          "start": 27.600000381469727,
+          "end": 27.68000030517578
+        },
+        {
+          "word": "your",
+          "start": 27.68000030517578,
+          "end": 27.760000228881836
+        },
+        {
+          "word": "best",
+          "start": 27.760000228881836,
+          "end": 27.920000076293945
+        },
+        {
+          "word": "friend.",
+          "start": 27.920000076293945,
+          "end": 28.15999984741211
+        },
+        {
+          "word": "It",
+          "start": 28.15999984741211,
+          "end": 28.239999771118164
+        },
+        {
+          "word": "doesn't",
+          "start": 28.239999771118164,
+          "end": 28.399999618530273
+        },
+        {
+          "word": "discriminate",
+          "start": 28.479999542236328,
+          "end": 28.8799991607666
+        },
+        {
+          "word": "between",
+          "start": 28.8799991607666,
+          "end": 29.1200008392334
+        },
+        {
+          "word": "you",
+          "start": 29.280000686645508,
+          "end": 29.360000610351562
+        },
+        {
+          "word": "based",
+          "start": 29.920000076293945,
+          "end": 30.079999923706055
+        },
+        {
+          "word": "on",
+          "start": 30.239999771118164,
+          "end": 30.31999969482422
+        },
+        {
+          "word": "what",
+          "start": 30.399999618530273,
+          "end": 30.479999542236328
+        },
+        {
+          "word": "you",
+          "start": 30.559999465942383,
+          "end": 30.639999389648438
+        },
+        {
+          "word": "are.",
+          "start": 30.8799991607666,
+          "end": 31.440000534057617
+        },
+        {
+          "word": "Second,",
+          "start": 31.68000030517578,
+          "end": 32.15999984741211
+        },
+        {
+          "word": "it's",
+          "start": 32.47999954223633,
+          "end": 32.720001220703125
+        },
+        {
+          "word": "loyal",
+          "start": 33.7599983215332,
+          "end": 34.15999984741211
+        },
+        {
+          "word": "and",
+          "start": 35.91999816894531,
+          "end": 36
+        },
+        {
+          "word": "third",
+          "start": 36.08000183105469,
+          "end": 36.2400016784668
+        },
+        {
+          "word": "thing",
+          "start": 36.400001525878906,
+          "end": 36.47999954223633
+        },
+        {
+          "word": "it's",
+          "start": 37.040000915527344,
+          "end": 37.279998779296875
+        },
+        {
+          "word": "intuition",
+          "start": 37.84000015258789,
+          "end": 38.400001525878906
+        },
+        {
+          "word": "when",
+          "start": 40.720001220703125,
+          "end": 40.79999923706055
+        },
+        {
+          "word": "dogs",
+          "start": 41.439998626708984,
+          "end": 41.68000030517578
+        },
+        {
+          "word": "can",
+          "start": 41.7599983215332,
+          "end": 41.84000015258789
+        },
+        {
+          "word": "sometimes",
+          "start": 41.91999816894531,
+          "end": 42.31999969482422
+        },
+        {
+          "word": "make",
+          "start": 42.560001373291016,
+          "end": 42.63999938964844
+        },
+        {
+          "word": "out",
+          "start": 42.720001220703125,
+          "end": 42.79999923706055
+        },
+        {
+          "word": "between",
+          "start": 42.880001068115234,
+          "end": 43.040000915527344
+        },
+        {
+          "word": "a",
+          "start": 43.36000061035156,
+          "end": 43.439998626708984
+        },
+        {
+          "word": "thief",
+          "start": 43.599998474121094,
+          "end": 43.91999816894531
+        },
+        {
+          "word": "and",
+          "start": 44.08000183105469,
+          "end": 44.15999984741211
+        },
+        {
+          "word": "a",
+          "start": 44.79999923706055,
+          "end": 44.880001068115234
+        },
+        {
+          "word": "person.",
+          "start": 45.20000076293945,
+          "end": 46
+        },
+        {
+          "word": "So",
+          "start": 45.91999816894531,
+          "end": 46
+        },
+        {
+          "word": "basically",
+          "start": 46.08000183105469,
+          "end": 46.2400016784668
+        },
+        {
+          "word": "these",
+          "start": 46.63999938964844,
+          "end": 46.720001220703125
+        },
+        {
+          "word": "are",
+          "start": 46.720001220703125,
+          "end": 46.79999923706055
+        },
+        {
+          "word": "the",
+          "start": 46.880001068115234,
+          "end": 46.959999084472656
+        },
+        {
+          "word": "three",
+          "start": 47.040000915527344,
+          "end": 47.119998931884766
+        },
+        {
+          "word": "unique",
+          "start": 47.279998779296875,
+          "end": 47.52000045776367
+        },
+        {
+          "word": "features",
+          "start": 47.7599983215332,
+          "end": 48
+        },
+        {
+          "word": "I",
+          "start": 48.08000183105469,
+          "end": 48.15999984741211
+        },
+        {
+          "word": "think",
+          "start": 48.15999984741211,
+          "end": 48.2400016784668
+        },
+        {
+          "word": "belong",
+          "start": 48.720001220703125,
+          "end": 48.959999084472656
+        },
+        {
+          "word": "to",
+          "start": 49.119998931884766,
+          "end": 49.20000076293945
+        },
+        {
+          "word": "a",
+          "start": 49.439998626708984,
+          "end": 49.52000045776367
+        },
+        {
+          "word": "lot.",
+          "start": 49.52000045776367,
+          "end": 50.47999954223633
+        },
+        {
+          "word": "Thank",
+          "start": 50.880001068115234,
+          "end": 50.959999084472656
+        },
+        {
+          "word": "you.",
+          "start": 50.959999084472656,
+          "end": 57.20000076293945
+        },
+        {
+          "word": "Please",
+          "start": 57.20000076293945,
+          "end": 57.439998626708984
+        },
+        {
+          "word": "leave",
+          "start": 57.52000045776367,
+          "end": 57.68000030517578
+        },
+        {
+          "word": "me",
+          "start": 57.68000030517578,
+          "end": 57.7599983215332
+        },
+        {
+          "word": "a",
+          "start": 57.7599983215332,
+          "end": 57.84000015258789
+        },
+        {
+          "word": "space",
+          "start": 57.91999816894531,
+          "end": 58.15999984741211
+        },
+        {
+          "word": "at",
+          "start": 58.2400016784668,
+          "end": 58.31999969482422
+        },
+        {
+          "word": "the",
+          "start": 58.31999969482422,
+          "end": 58.400001525878906
+        },
+        {
+          "word": "bottom.",
+          "start": 58.400001525878906,
+          "end": 60.08000183105469
+        }
+      ],
+      "segments": [
+        {
+          "id": 0,
+          "start": 20.15999984741211,
+          "end": 26.15999984741211,
+          "text": "I see it as one thing it's very supporting it's your best friend in your."
+        },
+        {
+          "id": 1,
+          "start": 26.239999771118164,
+          "end": 27.440000534057617,
+          "text": "You can talk to your talk."
+        },
+        {
+          "id": 2,
+          "start": 27.360000610351562,
+          "end": 28.15999984741211,
+          "text": "It can be your best friend."
+        },
+        {
+          "id": 3,
+          "start": 28.15999984741211,
+          "end": 31.440000534057617,
+          "text": "It doesn't discriminate between you based on what you are."
+        },
+        {
+          "id": 4,
+          "start": 31.68000030517578,
+          "end": 46,
+          "text": "Second, it's loyal and third thing it's intuition when dogs can sometimes make out between a thief and a person."
+        },
+        {
+          "id": 5,
+          "start": 45.91999816894531,
+          "end": 50.47999954223633,
+          "text": "So basically these are the three unique features I think belong to a lot."
+        },
+        {
+          "id": 6,
+          "start": 50.880001068115234,
+          "end": 57.20000076293945,
+          "text": "Thank you."
+        },
+        {
+          "id": 7,
+          "start": 57.20000076293945,
+          "end": 60.08000183105469,
+          "text": "Please leave me a space at the bottom."
+        }
+      ],
+      "usage": {
+        "seconds": 60,
+        "cost": 0.0001998
+      }
+    },
+    "metadata": {
+      "execution": "remote_api",
+      "model": "nvidia/nemotron-3.5-asr-streaming-multilingual-0.6b",
+      "generation_id": "gen-stt-1790484327-IIavv4NUgP5CQI2GykHJ",
+      "reason": "transcript_extends_past_audio",
+      "response_usage": {
+        "seconds": 60,
+        "cost": 0.0001998
+      }
+    }
+  },
+  "source_prediction_sha256": "7d412d2d80ae27d44312a1082a4c8d1b696bd8d592c5e0a896a4f2307db377ca"
+}

@@ -1,0 +1,34 @@
+{
+  "options": {
+    "model": "mistralai/voxtral-mini-transcribe",
+    "max_requests": 1,
+    "max_audio_seconds_total": 60,
+    "max_audio_seconds": 60,
+    "request_timeout_seconds": 120,
+    "response_format": "verbose_json",
+    "timestamp_granularities": [
+      "segment",
+      "word"
+    ],
+    "provider_options": {
+      "mistral": {
+        "diarize": true
+      },
+      "mistral/eu": {
+        "diarize": true
+      }
+    }
+  },
+  "response": {
+    "id": "ES2004a-4800000",
+    "duration": 60.0,
+    "seed": 4264379538,
+    "status": "inference_failed",
+    "error_type": "RemoteRequestError",
+    "http_status": 404,
+    "billing_status": "unknown",
+    "reason": "http_error",
+    "wall_seconds": 3.435847134096548
+  },
+  "source_prediction_sha256": "b529d1d72c3cc9b5d52179535df0ca7168069c7cd3f469c21d0395dce78e5f8b"
+}

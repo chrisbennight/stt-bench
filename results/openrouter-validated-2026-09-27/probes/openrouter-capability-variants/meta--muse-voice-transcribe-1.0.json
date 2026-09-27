@@ -1,0 +1,57 @@
+{
+  "options": {
+    "model": "meta/muse-voice-transcribe-1.0",
+    "max_requests": 1,
+    "max_audio_seconds_total": 60,
+    "max_audio_seconds": 60,
+    "request_timeout_seconds": 120,
+    "response_format": "json",
+    "provider_options": {
+      "meta": {
+        "mode": "DIARIZATION"
+      }
+    }
+  },
+  "response": {
+    "id": "ES2004a-4800000",
+    "duration": 60.0,
+    "seed": 4264379538,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "a kind of dog? It's actually sitting so it's sitting it's not standing okay I see it as one thing it's very supportive It's your best friend in your you can talk to a dog it can be your best friend it doesn't discriminate between you based on what you are second it's loyal and third thing it's got intuition means dogs can sometimes make out between a thief and a person so basically these are the three unique features I think belong to a dog Okay, thank you. Please lift your space at the bottom",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.003
+        },
+        "raw_transcript": {
+          "text": "a kind of dog? It's actually sitting so it's sitting it's not standing okay I see it as one thing it's very supportive It's your best friend in your you can talk to a dog it can be your best friend it doesn't discriminate between you based on what you are second it's loyal and third thing it's got intuition means dogs can sometimes make out between a thief and a person so basically these are the three unique features I think belong to a dog Okay, thank you. Please lift your space at the bottom"
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "meta/muse-voice-transcribe-1.0",
+        "generation_id": "gen-stt-1790485024-DEKGyFMG3yLJSkAVFGoY"
+      }
+    },
+    "wall_seconds": 14.537316188099794,
+    "rtf": 0.24228860313499656,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 54145024
+  },
+  "source_prediction_sha256": "fe637344f974f24d1cbf6a7c609acd057428bd6affa5fc50c7d557037c1ac378"
+}

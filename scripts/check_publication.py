@@ -116,9 +116,9 @@ def check():
         )
         if expected not in historical_results:
             findings.append(f"Historical table differs from saved results: {row['model']}")
-    current = ROOT / "results/openrouter-2026-09-27"
-    if (current / "table.md").read_text().strip() not in (current / "README.md").read_text():
-        findings.append("Consolidated table differs from its generated README")
+    for table in (ROOT / "results").glob("*/table.md"):
+        if table.read_text().strip() not in (table.parent / "README.md").read_text():
+            findings.append("Consolidated table differs from its generated README")
     if findings:
         # Report locations and categories only; never print a suspected credential value.
         raise SystemExit("\n".join(findings))

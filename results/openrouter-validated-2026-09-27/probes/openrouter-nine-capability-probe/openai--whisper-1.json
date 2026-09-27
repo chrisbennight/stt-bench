@@ -1,0 +1,865 @@
+{
+  "options": {
+    "model": "openai/whisper-1",
+    "max_requests": 1,
+    "max_audio_seconds_total": 60,
+    "max_audio_seconds": 60,
+    "request_timeout_seconds": 120,
+    "response_format": "verbose_json",
+    "timestamp_granularities": [
+      "segment",
+      "word"
+    ]
+  },
+  "response": {
+    "id": "ES2004a-4800000",
+    "duration": 60.0,
+    "seed": 4264379538,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "I",
+          "start": 19.200000762939453,
+          "end": 19.639999389648438
+        },
+        {
+          "speaker": "unassigned",
+          "text": "see",
+          "start": 19.639999389648438,
+          "end": 20.079999923706055
+        },
+        {
+          "speaker": "unassigned",
+          "text": "it",
+          "start": 20.079999923706055,
+          "end": 20.219999313354492
+        },
+        {
+          "speaker": "unassigned",
+          "text": "as",
+          "start": 20.219999313354492,
+          "end": 20.360000610351562
+        },
+        {
+          "speaker": "unassigned",
+          "text": "one",
+          "start": 20.360000610351562,
+          "end": 20.600000381469727
+        },
+        {
+          "speaker": "unassigned",
+          "text": "thing",
+          "start": 20.600000381469727,
+          "end": 20.799999237060547
+        },
+        {
+          "speaker": "unassigned",
+          "text": "it's",
+          "start": 20.81999969482422,
+          "end": 21.040000915527344
+        },
+        {
+          "speaker": "unassigned",
+          "text": "very",
+          "start": 21.040000915527344,
+          "end": 21.260000228881836
+        },
+        {
+          "speaker": "unassigned",
+          "text": "supportive",
+          "start": 21.260000228881836,
+          "end": 21.700000762939453
+        },
+        {
+          "speaker": "unassigned",
+          "text": "it's",
+          "start": 24.34000015258789,
+          "end": 24.399999618530273
+        },
+        {
+          "speaker": "unassigned",
+          "text": "your",
+          "start": 24.399999618530273,
+          "end": 24.559999465942383
+        },
+        {
+          "speaker": "unassigned",
+          "text": "best",
+          "start": 24.559999465942383,
+          "end": 24.860000610351562
+        },
+        {
+          "speaker": "unassigned",
+          "text": "friend",
+          "start": 24.860000610351562,
+          "end": 25.020000457763672
+        },
+        {
+          "speaker": "unassigned",
+          "text": "in",
+          "start": 25.020000457763672,
+          "end": 25.200000762939453
+        },
+        {
+          "speaker": "unassigned",
+          "text": "you",
+          "start": 25.200000762939453,
+          "end": 25.520000457763672
+        },
+        {
+          "speaker": "unassigned",
+          "text": "you",
+          "start": 26.18000030517578,
+          "end": 26.299999237060547
+        },
+        {
+          "speaker": "unassigned",
+          "text": "can",
+          "start": 26.299999237060547,
+          "end": 26.520000457763672
+        },
+        {
+          "speaker": "unassigned",
+          "text": "talk",
+          "start": 26.520000457763672,
+          "end": 26.65999984741211
+        },
+        {
+          "speaker": "unassigned",
+          "text": "to",
+          "start": 26.65999984741211,
+          "end": 26.719999313354492
+        },
+        {
+          "speaker": "unassigned",
+          "text": "your",
+          "start": 26.719999313354492,
+          "end": 26.899999618530273
+        },
+        {
+          "speaker": "unassigned",
+          "text": "dog",
+          "start": 26.899999618530273,
+          "end": 27.040000915527344
+        },
+        {
+          "speaker": "unassigned",
+          "text": "it",
+          "start": 27.1200008392334,
+          "end": 27.219999313354492
+        },
+        {
+          "speaker": "unassigned",
+          "text": "can",
+          "start": 27.219999313354492,
+          "end": 27.260000228881836
+        },
+        {
+          "speaker": "unassigned",
+          "text": "be",
+          "start": 27.260000228881836,
+          "end": 27.459999084472656
+        },
+        {
+          "speaker": "unassigned",
+          "text": "a",
+          "start": 27.459999084472656,
+          "end": 27.5
+        },
+        {
+          "speaker": "unassigned",
+          "text": "best",
+          "start": 27.5,
+          "end": 27.65999984741211
+        },
+        {
+          "speaker": "unassigned",
+          "text": "friend",
+          "start": 27.65999984741211,
+          "end": 27.700000762939453
+        },
+        {
+          "speaker": "unassigned",
+          "text": "it",
+          "start": 27.860000610351562,
+          "end": 27.940000534057617
+        },
+        {
+          "speaker": "unassigned",
+          "text": "doesn't",
+          "start": 27.940000534057617,
+          "end": 28.1200008392334
+        },
+        {
+          "speaker": "unassigned",
+          "text": "discriminate",
+          "start": 28.1200008392334,
+          "end": 28.540000915527344
+        },
+        {
+          "speaker": "unassigned",
+          "text": "between",
+          "start": 28.540000915527344,
+          "end": 28.860000610351562
+        },
+        {
+          "speaker": "unassigned",
+          "text": "you",
+          "start": 28.860000610351562,
+          "end": 29.739999771118164
+        },
+        {
+          "speaker": "unassigned",
+          "text": "based",
+          "start": 29.739999771118164,
+          "end": 29.979999542236328
+        },
+        {
+          "speaker": "unassigned",
+          "text": "on",
+          "start": 29.979999542236328,
+          "end": 30.139999389648438
+        },
+        {
+          "speaker": "unassigned",
+          "text": "what",
+          "start": 30.139999389648438,
+          "end": 30.280000686645508
+        },
+        {
+          "speaker": "unassigned",
+          "text": "you",
+          "start": 30.280000686645508,
+          "end": 30.440000534057617
+        },
+        {
+          "speaker": "unassigned",
+          "text": "are",
+          "start": 30.459999084472656,
+          "end": 30.899999618530273
+        },
+        {
+          "speaker": "unassigned",
+          "text": "Second",
+          "start": 31.420000076293945,
+          "end": 31.760000228881836
+        },
+        {
+          "speaker": "unassigned",
+          "text": "it's",
+          "start": 31.979999542236328,
+          "end": 33.380001068115234
+        },
+        {
+          "speaker": "unassigned",
+          "text": "loyal",
+          "start": 33.380001068115234,
+          "end": 33.900001525878906
+        },
+        {
+          "speaker": "unassigned",
+          "text": "and",
+          "start": 33.900001525878906,
+          "end": 35.7599983215332
+        },
+        {
+          "speaker": "unassigned",
+          "text": "third",
+          "start": 35.7599983215332,
+          "end": 36.220001220703125
+        },
+        {
+          "speaker": "unassigned",
+          "text": "thing",
+          "start": 36.220001220703125,
+          "end": 36.720001220703125
+        },
+        {
+          "speaker": "unassigned",
+          "text": "it's",
+          "start": 36.939998626708984,
+          "end": 37.119998931884766
+        },
+        {
+          "speaker": "unassigned",
+          "text": "got",
+          "start": 37.119998931884766,
+          "end": 37.70000076293945
+        },
+        {
+          "speaker": "unassigned",
+          "text": "intuition",
+          "start": 37.70000076293945,
+          "end": 38.15999984741211
+        },
+        {
+          "speaker": "unassigned",
+          "text": "Dogs",
+          "start": 40.86000061035156,
+          "end": 41.2599983215332
+        },
+        {
+          "speaker": "unassigned",
+          "text": "can",
+          "start": 41.2599983215332,
+          "end": 41.47999954223633
+        },
+        {
+          "speaker": "unassigned",
+          "text": "sometimes",
+          "start": 41.47999954223633,
+          "end": 42.099998474121094
+        },
+        {
+          "speaker": "unassigned",
+          "text": "make",
+          "start": 42.099998474121094,
+          "end": 42.279998779296875
+        },
+        {
+          "speaker": "unassigned",
+          "text": "out",
+          "start": 42.279998779296875,
+          "end": 42.459999084472656
+        },
+        {
+          "speaker": "unassigned",
+          "text": "between",
+          "start": 42.63999938964844,
+          "end": 43.08000183105469
+        },
+        {
+          "speaker": "unassigned",
+          "text": "a",
+          "start": 43.08000183105469,
+          "end": 43.52000045776367
+        },
+        {
+          "speaker": "unassigned",
+          "text": "thief",
+          "start": 43.52000045776367,
+          "end": 43.52000045776367
+        },
+        {
+          "speaker": "unassigned",
+          "text": "and",
+          "start": 43.52000045776367,
+          "end": 43.720001220703125
+        },
+        {
+          "speaker": "unassigned",
+          "text": "a",
+          "start": 43.720001220703125,
+          "end": 44.0
+        },
+        {
+          "speaker": "unassigned",
+          "text": "person",
+          "start": 44.0,
+          "end": 45.52000045776367
+        },
+        {
+          "speaker": "unassigned",
+          "text": "so",
+          "start": 45.65999984741211,
+          "end": 45.7599983215332
+        },
+        {
+          "speaker": "unassigned",
+          "text": "basically",
+          "start": 45.7599983215332,
+          "end": 46.13999938964844
+        },
+        {
+          "speaker": "unassigned",
+          "text": "these",
+          "start": 46.13999938964844,
+          "end": 46.619998931884766
+        },
+        {
+          "speaker": "unassigned",
+          "text": "are",
+          "start": 46.619998931884766,
+          "end": 46.720001220703125
+        },
+        {
+          "speaker": "unassigned",
+          "text": "the",
+          "start": 46.720001220703125,
+          "end": 46.91999816894531
+        },
+        {
+          "speaker": "unassigned",
+          "text": "three",
+          "start": 46.91999816894531,
+          "end": 47.08000183105469
+        },
+        {
+          "speaker": "unassigned",
+          "text": "unique",
+          "start": 47.08000183105469,
+          "end": 47.31999969482422
+        },
+        {
+          "speaker": "unassigned",
+          "text": "features",
+          "start": 47.31999969482422,
+          "end": 47.52000045776367
+        },
+        {
+          "speaker": "unassigned",
+          "text": "I",
+          "start": 47.52000045776367,
+          "end": 47.880001068115234
+        },
+        {
+          "speaker": "unassigned",
+          "text": "think",
+          "start": 47.880001068115234,
+          "end": 48.13999938964844
+        },
+        {
+          "speaker": "unassigned",
+          "text": "belong",
+          "start": 48.13999938964844,
+          "end": 48.880001068115234
+        },
+        {
+          "speaker": "unassigned",
+          "text": "to",
+          "start": 48.880001068115234,
+          "end": 50.20000076293945
+        },
+        {
+          "speaker": "unassigned",
+          "text": "a",
+          "start": 50.20000076293945,
+          "end": 50.20000076293945
+        },
+        {
+          "speaker": "unassigned",
+          "text": "dog",
+          "start": 50.20000076293945,
+          "end": 50.20000076293945
+        }
+      ],
+      "activity": null,
+      "timing": "native",
+      "events": [],
+      "metadata": {
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.006
+        },
+        "raw_transcript": {
+          "text": "I see it as one thing, it's very supportive, it's your best friend in you, you can talk to your dog, it can be a best friend, it doesn't discriminate between you based on what you are. Second, it's loyal and third thing, it's got intuition. Dogs can sometimes make out between a thief and a person, so basically these are the three unique features I think belong to a dog.",
+          "words": [
+            {
+              "word": "I",
+              "start": 19.200000762939453,
+              "end": 19.639999389648438
+            },
+            {
+              "word": "see",
+              "start": 19.639999389648438,
+              "end": 20.079999923706055
+            },
+            {
+              "word": "it",
+              "start": 20.079999923706055,
+              "end": 20.219999313354492
+            },
+            {
+              "word": "as",
+              "start": 20.219999313354492,
+              "end": 20.360000610351562
+            },
+            {
+              "word": "one",
+              "start": 20.360000610351562,
+              "end": 20.600000381469727
+            },
+            {
+              "word": "thing",
+              "start": 20.600000381469727,
+              "end": 20.799999237060547
+            },
+            {
+              "word": "it's",
+              "start": 20.81999969482422,
+              "end": 21.040000915527344
+            },
+            {
+              "word": "very",
+              "start": 21.040000915527344,
+              "end": 21.260000228881836
+            },
+            {
+              "word": "supportive",
+              "start": 21.260000228881836,
+              "end": 21.700000762939453
+            },
+            {
+              "word": "it's",
+              "start": 24.34000015258789,
+              "end": 24.399999618530273
+            },
+            {
+              "word": "your",
+              "start": 24.399999618530273,
+              "end": 24.559999465942383
+            },
+            {
+              "word": "best",
+              "start": 24.559999465942383,
+              "end": 24.860000610351562
+            },
+            {
+              "word": "friend",
+              "start": 24.860000610351562,
+              "end": 25.020000457763672
+            },
+            {
+              "word": "in",
+              "start": 25.020000457763672,
+              "end": 25.200000762939453
+            },
+            {
+              "word": "you",
+              "start": 25.200000762939453,
+              "end": 25.520000457763672
+            },
+            {
+              "word": "you",
+              "start": 26.18000030517578,
+              "end": 26.299999237060547
+            },
+            {
+              "word": "can",
+              "start": 26.299999237060547,
+              "end": 26.520000457763672
+            },
+            {
+              "word": "talk",
+              "start": 26.520000457763672,
+              "end": 26.65999984741211
+            },
+            {
+              "word": "to",
+              "start": 26.65999984741211,
+              "end": 26.719999313354492
+            },
+            {
+              "word": "your",
+              "start": 26.719999313354492,
+              "end": 26.899999618530273
+            },
+            {
+              "word": "dog",
+              "start": 26.899999618530273,
+              "end": 27.040000915527344
+            },
+            {
+              "word": "it",
+              "start": 27.1200008392334,
+              "end": 27.219999313354492
+            },
+            {
+              "word": "can",
+              "start": 27.219999313354492,
+              "end": 27.260000228881836
+            },
+            {
+              "word": "be",
+              "start": 27.260000228881836,
+              "end": 27.459999084472656
+            },
+            {
+              "word": "a",
+              "start": 27.459999084472656,
+              "end": 27.5
+            },
+            {
+              "word": "best",
+              "start": 27.5,
+              "end": 27.65999984741211
+            },
+            {
+              "word": "friend",
+              "start": 27.65999984741211,
+              "end": 27.700000762939453
+            },
+            {
+              "word": "it",
+              "start": 27.860000610351562,
+              "end": 27.940000534057617
+            },
+            {
+              "word": "doesn't",
+              "start": 27.940000534057617,
+              "end": 28.1200008392334
+            },
+            {
+              "word": "discriminate",
+              "start": 28.1200008392334,
+              "end": 28.540000915527344
+            },
+            {
+              "word": "between",
+              "start": 28.540000915527344,
+              "end": 28.860000610351562
+            },
+            {
+              "word": "you",
+              "start": 28.860000610351562,
+              "end": 29.739999771118164
+            },
+            {
+              "word": "based",
+              "start": 29.739999771118164,
+              "end": 29.979999542236328
+            },
+            {
+              "word": "on",
+              "start": 29.979999542236328,
+              "end": 30.139999389648438
+            },
+            {
+              "word": "what",
+              "start": 30.139999389648438,
+              "end": 30.280000686645508
+            },
+            {
+              "word": "you",
+              "start": 30.280000686645508,
+              "end": 30.440000534057617
+            },
+            {
+              "word": "are",
+              "start": 30.459999084472656,
+              "end": 30.899999618530273
+            },
+            {
+              "word": "Second",
+              "start": 31.420000076293945,
+              "end": 31.760000228881836
+            },
+            {
+              "word": "it's",
+              "start": 31.979999542236328,
+              "end": 33.380001068115234
+            },
+            {
+              "word": "loyal",
+              "start": 33.380001068115234,
+              "end": 33.900001525878906
+            },
+            {
+              "word": "and",
+              "start": 33.900001525878906,
+              "end": 35.7599983215332
+            },
+            {
+              "word": "third",
+              "start": 35.7599983215332,
+              "end": 36.220001220703125
+            },
+            {
+              "word": "thing",
+              "start": 36.220001220703125,
+              "end": 36.720001220703125
+            },
+            {
+              "word": "it's",
+              "start": 36.939998626708984,
+              "end": 37.119998931884766
+            },
+            {
+              "word": "got",
+              "start": 37.119998931884766,
+              "end": 37.70000076293945
+            },
+            {
+              "word": "intuition",
+              "start": 37.70000076293945,
+              "end": 38.15999984741211
+            },
+            {
+              "word": "Dogs",
+              "start": 40.86000061035156,
+              "end": 41.2599983215332
+            },
+            {
+              "word": "can",
+              "start": 41.2599983215332,
+              "end": 41.47999954223633
+            },
+            {
+              "word": "sometimes",
+              "start": 41.47999954223633,
+              "end": 42.099998474121094
+            },
+            {
+              "word": "make",
+              "start": 42.099998474121094,
+              "end": 42.279998779296875
+            },
+            {
+              "word": "out",
+              "start": 42.279998779296875,
+              "end": 42.459999084472656
+            },
+            {
+              "word": "between",
+              "start": 42.63999938964844,
+              "end": 43.08000183105469
+            },
+            {
+              "word": "a",
+              "start": 43.08000183105469,
+              "end": 43.52000045776367
+            },
+            {
+              "word": "thief",
+              "start": 43.52000045776367,
+              "end": 43.52000045776367
+            },
+            {
+              "word": "and",
+              "start": 43.52000045776367,
+              "end": 43.720001220703125
+            },
+            {
+              "word": "a",
+              "start": 43.720001220703125,
+              "end": 44
+            },
+            {
+              "word": "person",
+              "start": 44,
+              "end": 45.52000045776367
+            },
+            {
+              "word": "so",
+              "start": 45.65999984741211,
+              "end": 45.7599983215332
+            },
+            {
+              "word": "basically",
+              "start": 45.7599983215332,
+              "end": 46.13999938964844
+            },
+            {
+              "word": "these",
+              "start": 46.13999938964844,
+              "end": 46.619998931884766
+            },
+            {
+              "word": "are",
+              "start": 46.619998931884766,
+              "end": 46.720001220703125
+            },
+            {
+              "word": "the",
+              "start": 46.720001220703125,
+              "end": 46.91999816894531
+            },
+            {
+              "word": "three",
+              "start": 46.91999816894531,
+              "end": 47.08000183105469
+            },
+            {
+              "word": "unique",
+              "start": 47.08000183105469,
+              "end": 47.31999969482422
+            },
+            {
+              "word": "features",
+              "start": 47.31999969482422,
+              "end": 47.52000045776367
+            },
+            {
+              "word": "I",
+              "start": 47.52000045776367,
+              "end": 47.880001068115234
+            },
+            {
+              "word": "think",
+              "start": 47.880001068115234,
+              "end": 48.13999938964844
+            },
+            {
+              "word": "belong",
+              "start": 48.13999938964844,
+              "end": 48.880001068115234
+            },
+            {
+              "word": "to",
+              "start": 48.880001068115234,
+              "end": 50.20000076293945
+            },
+            {
+              "word": "a",
+              "start": 50.20000076293945,
+              "end": 50.20000076293945
+            },
+            {
+              "word": "dog",
+              "start": 50.20000076293945,
+              "end": 50.20000076293945
+            }
+          ],
+          "segments": [
+            {
+              "id": 0,
+              "start": 19.200000762939453,
+              "end": 26.65999984741211,
+              "text": " I see it as one thing, it's very supportive, it's your best friend in you, you can talk"
+            },
+            {
+              "id": 1,
+              "start": 26.65999984741211,
+              "end": 30.440000534057617,
+              "text": " to your dog, it can be a best friend, it doesn't discriminate between you based on what you"
+            },
+            {
+              "id": 2,
+              "start": 30.459999084472656,
+              "end": 42.459999084472656,
+              "text": " are. Second, it's loyal and third thing, it's got intuition. Dogs can sometimes make out"
+            },
+            {
+              "id": 3,
+              "start": 42.63999938964844,
+              "end": 48.13999938964844,
+              "text": " between a thief and a person, so basically these are the three unique features I think"
+            },
+            {
+              "id": 4,
+              "start": 48.13999938964844,
+              "end": 50.20000076293945,
+              "text": " belong to a dog."
+            }
+          ]
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "openai/whisper-1",
+        "generation_id": "gen-stt-1790484829-SInodI7wcrLastEXzs3X"
+      }
+    },
+    "wall_seconds": 6.9523263240698725,
+    "rtf": 0.11587210540116454,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 136876032
+  },
+  "source_prediction_sha256": "b4a95f074ed7c0909385367287d0d01089beb0cf7e8c9b1d36a98080017027bf"
+}

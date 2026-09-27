@@ -1,0 +1,69 @@
+{
+  "options": {
+    "model": "x-ai/grok-stt-1.0",
+    "max_requests": 1,
+    "max_audio_seconds_total": 60,
+    "max_audio_seconds": 60,
+    "request_timeout_seconds": 120,
+    "response_format": "verbose_json",
+    "timestamp_granularities": [
+      "segment",
+      "word"
+    ],
+    "provider_options": {
+      "xai": {
+        "diarize": true
+      }
+    }
+  },
+  "response": {
+    "id": "ES2004a-4800000",
+    "duration": 60.0,
+    "seed": 4264379538,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "",
+          "start": 0.0,
+          "end": 60.0
+        }
+      ],
+      "activity": null,
+      "timing": "native",
+      "events": [],
+      "metadata": {
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.001666666666668
+        },
+        "raw_transcript": {
+          "text": "",
+          "segments": [
+            {
+              "id": 0,
+              "start": 0,
+              "end": 60,
+              "text": ""
+            }
+          ]
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "x-ai/grok-stt-1.0",
+        "generation_id": "gen-stt-1790484829-uZQ643CW7CDDtnuE2p0X"
+      }
+    },
+    "wall_seconds": 10.697701304103248,
+    "rtf": 0.17829502173505413,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 136876032
+  },
+  "source_prediction_sha256": "c52f5941420327dfe21c137dee49279699a1c10d25625367e66c22b9d4779901"
+}

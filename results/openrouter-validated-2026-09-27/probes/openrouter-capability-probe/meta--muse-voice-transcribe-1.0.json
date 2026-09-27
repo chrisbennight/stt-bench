@@ -1,0 +1,30 @@
+{
+  "options": {
+    "model": "meta/muse-voice-transcribe-1.0",
+    "max_requests": 1,
+    "max_audio_seconds_total": 60,
+    "max_audio_seconds": 60,
+    "request_timeout_seconds": 120,
+    "response_format": "verbose_json",
+    "timestamp_granularities": [
+      "segment"
+    ],
+    "provider_options": {
+      "meta": {
+        "mode": "DIARIZATION"
+      }
+    }
+  },
+  "response": {
+    "id": "ES2004a-4800000",
+    "duration": 60.0,
+    "seed": 4264379538,
+    "status": "inference_failed",
+    "error_type": "RemoteRequestError",
+    "http_status": 400,
+    "billing_status": "unknown",
+    "reason": "http_error",
+    "wall_seconds": 9.629767238977365
+  },
+  "source_prediction_sha256": "d7e5496c030cfeb5eb9b270b0be6a789aec841bd960f4a073d151b16f8c24ad7"
+}

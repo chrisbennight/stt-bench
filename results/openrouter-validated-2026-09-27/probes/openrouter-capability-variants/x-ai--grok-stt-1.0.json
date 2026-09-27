@@ -1,0 +1,52 @@
+{
+  "options": {
+    "model": "x-ai/grok-stt-1.0",
+    "max_requests": 1,
+    "max_audio_seconds_total": 60,
+    "max_audio_seconds": 60,
+    "request_timeout_seconds": 120,
+    "response_format": "json"
+  },
+  "response": {
+    "id": "ES2004a-4800000",
+    "duration": 60.0,
+    "seed": 4264379538,
+    "status": "ok",
+    "prediction": {
+      "segments": [
+        {
+          "speaker": "unassigned",
+          "text": "And the dog? Is that you said it? So. Okay, I see it as one thing, it's very supportive. It's your best friend in your, you can hope for longer than your best friend, it doesn't discriminate between you, based on what you are. Second is loyal. And third thing, it's for intuition. And also some sometimes may go between a thief and a person, so basically these are the three unique features I think we all people. Okay, thank you. Okay, this is the advice of books and numbers.",
+          "start": null,
+          "end": null
+        }
+      ],
+      "activity": null,
+      "timing": "unavailable",
+      "events": [],
+      "metadata": {
+        "speaker_labels_available": false,
+        "usage": {
+          "seconds": 60,
+          "cost": 0.001666666666668
+        },
+        "raw_transcript": {
+          "text": "And the dog? Is that you said it? So. Okay, I see it as one thing, it's very supportive. It's your best friend in your, you can hope for longer than your best friend, it doesn't discriminate between you, based on what you are. Second is loyal. And third thing, it's for intuition. And also some sometimes may go between a thief and a person, so basically these are the three unique features I think we all people. Okay, thank you. Okay, this is the advice of books and numbers."
+        },
+        "execution": "remote_api",
+        "timestamp_policy": "intersect_audio_bounds",
+        "timestamp_adjustments": [],
+        "intervals_after_audio": [],
+        "speaker_label_source": "structured",
+        "annotation_tail_incomplete": false,
+        "model": "x-ai/grok-stt-1.0",
+        "generation_id": "gen-stt-1790485023-cFTXSavIChE2zueLtlm6"
+      }
+    },
+    "wall_seconds": 3.4031607509823516,
+    "rtf": 0.05671934584970586,
+    "cuda_peak": null,
+    "process_lifetime_peak_rss_bytes": 54382592
+  },
+  "source_prediction_sha256": "8ac73d4e7404b76180f66e9026141f1a5eab48ae7f61ae162d6ac8a1945229d9"
+}
