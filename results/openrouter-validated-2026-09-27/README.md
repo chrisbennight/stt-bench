@@ -9,7 +9,34 @@
 - **Missing results:** cells identify missing labels or timing in the tested output.
   Four excluded DeepInfra routes receive no scores or medals.
 
-Metric definitions, interpretation notes, and references follow the table.
+**What the metrics mean**
+
+- **WER — word error rate ↓:** substituted, deleted, and inserted words divided by
+  reference words, ignoring speaker identity. Lower WER generally means fewer words
+  you need to correct before using the transcript.
+- **cpWER — concatenated minimum-permutation WER ↓:** measures transcription and speaker
+  attribution errors, allowing anonymous speaker labels to be renamed for the best match.
+  It helps assess whether a meeting transcript accurately records who said what.
+- **tcpWER — time-constrained cpWER ↓:** adds timing constraints to speaker-attributed
+  word matching, using a five-second collar here. It helps assess whether the right
+  person's words appear at the right point in the recording for playback and review.
+- **DER — diarization error rate ↓:** missed speech, false alarms, and speaker confusion
+  divided by reference speaker time, with zero collar and overlapping speech included.
+  It measures how reliably the system marks when each person is speaking, regardless
+  of whether it transcribes their words correctly.
+- **RTF — real-time factor ↓:** processing seconds divided by audio seconds; 0.1 means
+  processing took one tenth of the audio duration. It helps estimate how long you will
+  wait for a recording to finish processing, rather than the delay of live captions.
+- **API $ ↓:** reported response charges in US dollars, including parser-rejected responses;
+  failed requests have unknown billing unless reconciled in the cost ledger.
+  It helps estimate the service bill for processing a similar amount of audio.
+- **VRAM GiB ↓:** peak allocated GPU memory during local inference, not total device memory.
+  It helps assess whether a local pipeline will fit on your GPU, allowing extra room
+  for other allocations and applications.
+- **Clips:** successful outputs / total clips; missing or invalid transcripts count as
+  empty hypotheses in dataset error rates. It shows how much of the workload returned
+  usable output and how many clips still need attention, rather than whether the
+  returned words were accurate.
 
 | Model | WER ↓ | cpWER (77) ↓ | tcpWER (77) ↓ | DER (77) ↓ | RTF ↓ | API $ ↓ | VRAM GiB ↓ | Clips |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -49,24 +76,6 @@ Metric definitions, interpretation notes, and references follow the table.
 | Voxtral Mini 3B | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded |
 | Qwen3 ASR 1.7B | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded |
 | Qwen3 ASR 0.6B | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded |
-
-**What the metrics mean**
-
-- **WER — word error rate ↓:** substituted, deleted, and inserted words divided by
-  reference words. Measures transcription accuracy; ignores speaker identity.
-- **cpWER — concatenated minimum-permutation WER ↓:** measures words and speaker
-  attribution, allowing anonymous speaker labels to be renamed for the best match.
-- **tcpWER — time-constrained cpWER ↓:** adds timing constraints to speaker-attributed
-  word matching. This benchmark uses a five-second collar.
-- **DER — diarization error rate ↓:** missed speech, false alarms, and speaker confusion
-  divided by reference speaker time. Uses zero collar and includes overlapping speech.
-- **RTF — real-time factor ↓:** processing seconds divided by audio seconds.
-  For example, 0.1 means processing took one tenth of the audio duration.
-- **API $ ↓:** reported response charges in US dollars, including parser-rejected responses.
-  Failed requests have unknown billing unless reconciled in the cost ledger.
-- **VRAM GiB ↓:** peak allocated GPU memory during local inference.
-- **Clips:** successful outputs / total clips. Missing or invalid transcripts count as
-  empty hypotheses in dataset error rates.
 
 **Reading the results fairly**
 
