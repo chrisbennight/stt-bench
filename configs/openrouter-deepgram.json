@@ -1,0 +1,21 @@
+{
+  "models": [
+    {
+      "id": "deepgram--nova-3",
+      "adapter": "openrouter",
+      "options": {
+        "model": "deepgram/nova-3",
+        "max_requests": 94,
+        "max_audio_seconds_total": 5536.704,
+        "max_audio_seconds": 60,
+        "request_timeout_seconds": 90,
+        "response_format": "verbose_json",
+        "diarization": true,
+        "timestamp_granularities": [
+          "segment",
+          "word"
+        ]
+      }
+    }
+  ]
+}

@@ -82,14 +82,63 @@ class NoRedirect(urllib.request.HTTPRedirectHandler):
         return None
 
 
-def parse_response(data, duration):
+class ResponseValidationError(ValueError):
+    """A stable local validation code, without arbitrary upstream error text."""
+
+
+def retained_response(data):
+    """Keep transcript/usage fields only, excluding headers, prompts, and server errors."""
+    key = os.environ.get("OPENROUTER_API_KEY")
+
+    def scalar(value):
+        if isinstance(value, str):
+            return value.replace(key, "[REDACTED]") if key else value
+        if type(value) in (int, float):
+            return value if math.isfinite(value) else "[non-finite number]"
+        if value is None or type(value) is bool:
+            return value
+        return {"invalid_type": type(value).__name__}
+
+    if not isinstance(data, dict):
+        return {"invalid_type": type(data).__name__}
+    saved = {}
+    if "text" in data:
+        saved["text"] = scalar(data["text"])
+    for name in ("words", "segments"):
+        if name not in data:
+            continue
+        rows = data[name]
+        saved[name] = (
+            [
+                {
+                    k: scalar(v)
+                    for k, v in row.items()
+                    if k in {"id", "text", "word", "speaker", "start", "end", "confidence"}
+                }
+                if isinstance(row, dict)
+                else scalar(row)
+                for row in rows
+            ]
+            if isinstance(rows, list)
+            else scalar(rows)
+        )
+    if isinstance(data.get("usage"), dict):
+        saved["usage"] = {
+            k: scalar(v)
+            for k, v in data["usage"].items()
+            if k in {"seconds", "total_tokens", "input_tokens", "output_tokens", "cost"}
+        }
+    return saved
+
+
+def parse_response(data, duration, clip_timestamps=False):
     if not isinstance(data, dict) or not isinstance(data.get("text"), str):
-        raise ValueError("Missing transcription text")
+        raise ResponseValidationError("missing_transcription_text")
     words, phrases = data.get("words") or [], data.get("segments") or []
     if not isinstance(words, list) or not isinstance(phrases, list):
-        raise ValueError("Invalid structured transcript")
+        raise ResponseValidationError("invalid_structured_transcript")
     if any(not isinstance(s, dict) for s in words + phrases):
-        raise ValueError("Invalid transcript segment")
+        raise ResponseValidationError("invalid_transcript_segment")
     # Prefer words only when they retain the speaker information available on phrases.
     rows, text_key = phrases, "text"
     if words and (
@@ -98,39 +147,63 @@ def parse_response(data, duration):
     ):
         rows, text_key = words, "word"
     segments = []
+    adjustments = []
     speakers_available = bool(rows) and all(s.get("speaker") is not None for s in rows)
-    for row in rows:
+    for index, row in enumerate(rows):
         text = row.get(text_key)
         if not isinstance(text, str):
-            raise ValueError("Invalid transcript text")
+            raise ResponseValidationError("invalid_transcript_text")
         start, end = row.get("start"), row.get("end")
-        if start is not None and (type(start) not in (int, float) or type(end) not in (int, float)):
-            raise ValueError("Invalid transcript timestamps")
-        segment = Segment(str(row.get("speaker", "unassigned")), text, start, end)
-        if segment.end is not None and segment.end > duration + 0.05:
-            raise ValueError("Transcript extends past the audio")
+        if start is not None or end is not None:
+            if any(type(v) not in (int, float) or not math.isfinite(v) for v in (start, end)):
+                raise ResponseValidationError("invalid_transcript_timestamps")
+            if end <= start:
+                raise ResponseValidationError("nonpositive_transcript_interval")
+            if clip_timestamps and (start < 0 or end > duration):
+                clipped_start, clipped_end = max(0, start), min(duration, end)
+                if clipped_end <= clipped_start:
+                    raise ResponseValidationError("transcript_interval_outside_audio")
+                adjustments.append(
+                    {
+                        "index": index,
+                        "source": "words" if text_key == "word" else "segments",
+                        "original_start": start,
+                        "original_end": end,
+                        "start": clipped_start,
+                        "end": clipped_end,
+                    }
+                )
+                start, end = clipped_start, clipped_end
+            elif start < 0 or end > duration + 0.05:
+                raise ResponseValidationError("transcript_extends_past_audio")
+        speaker = str(row.get("speaker", "unassigned"))
+        if not speaker:
+            raise ResponseValidationError("empty_speaker_label")
+        segment = Segment(speaker, text, start, end)
         segments.append(segment)
     if not segments and data["text"].strip():
         segments = [Segment("unassigned", data["text"])]
     timed = bool(segments) and all(s.start is not None for s in segments)
     usage = data.get("usage") or {}
     if not isinstance(usage, dict):
-        raise ValueError("Invalid usage object")
+        raise ResponseValidationError("invalid_usage_object")
     safe_usage = {}
     for key in ("seconds", "total_tokens", "input_tokens", "output_tokens", "cost"):
         if key in usage:
             value = usage[key]
             if type(value) not in (int, float) or not math.isfinite(value) or value < 0:
-                raise ValueError("Invalid usage number")
+                raise ResponseValidationError("invalid_usage_number")
             safe_usage[key] = value
     return Prediction(
         segments,
-        timing="native" if timed else "unavailable",
+        timing=("native_clipped" if adjustments else "native") if timed else "unavailable",
         metadata={
             "speaker_labels_available": speakers_available,
             "usage": safe_usage,
-            "raw_transcript": {k: data[k] for k in ("text", "segments", "words") if k in data},
+            "raw_transcript": {k: v for k, v in retained_response(data).items() if k != "usage"},
             "execution": "remote_api",
+            "timestamp_policy": "intersect_audio_bounds" if clip_timestamps else "strict",
+            "timestamp_adjustments": adjustments,
         },
     )
 
@@ -213,9 +286,21 @@ class OpenRouter(Adapter):
             raise InvalidModelOutput("", {**metadata, "reason": "response_too_large"})
         try:
             data = json.loads(body)
-            prediction = parse_response(data, duration)
-        except (ValueError, TypeError, KeyError):
-            # Do not persist arbitrary server error bodies that might echo request headers.
-            raise InvalidModelOutput("", {**metadata, "reason": "invalid_response"}) from None
+        except (ValueError, UnicodeError):
+            raise InvalidModelOutput("", {**metadata, "reason": "invalid_json"}) from None
+        try:
+            prediction = parse_response(
+                data, duration, clip_timestamps=self.options["model"] == "deepgram/nova-3"
+            )
+        except ResponseValidationError as exc:
+            saved = retained_response(data)
+            raise InvalidModelOutput(
+                saved,
+                {
+                    **metadata,
+                    "reason": str(exc),
+                    "response_usage": saved.get("usage", {}),
+                },
+            ) from None
         prediction.metadata.update(metadata)
         return prediction

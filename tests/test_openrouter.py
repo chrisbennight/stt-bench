@@ -7,6 +7,7 @@ import numpy as np
 import pytest
 import soundfile as sf
 
+from speaker_benchmark.adapters.common import InvalidModelOutput
 from speaker_benchmark.adapters.openrouter import (
     ENDPOINT,
     NoRedirect,
@@ -90,6 +91,94 @@ def test_word_speakers_and_plain_text():
 def test_invalid_api_output_is_rejected(response):
     with pytest.raises(ValueError):
         parse_response(response, 2)
+
+
+def test_deepgram_boundary_word_is_clipped_without_losing_text_or_raw_timing():
+    data = {
+        "text": "test",
+        "words": [
+            {"word": "test", "speaker": 0, "start": 59.794937, "end": 61.314938},
+        ],
+        "usage": {"cost": 0.0043},
+    }
+    prediction = parse_response(data, 60, clip_timestamps=True)
+    assert prediction.segments == [Segment("0", "test", 59.794937, 60)]
+    assert prediction.timing == "native_clipped"
+    assert prediction.metadata["raw_transcript"]["words"][0]["end"] == 61.314938
+    assert prediction.metadata["timestamp_adjustments"][0]["original_end"] == 61.314938
+    assert data["words"][0]["end"] == 61.314938
+    with pytest.raises(ValueError, match="transcript_extends_past_audio"):
+        parse_response(data, 60)
+
+
+@pytest.mark.parametrize(
+    "start,end", [(60, 61), (-2, -1), (1, 1), (2, 1), (0, float("nan")), (None, 1)]
+)
+def test_clipping_does_not_hide_invalid_or_wholly_outside_intervals(start, end):
+    with pytest.raises(ValueError):
+        parse_response(
+            {
+                "text": "test",
+                "segments": [
+                    {"text": "test", "speaker": 0, "start": start, "end": end},
+                ],
+            },
+            60,
+            clip_timestamps=True,
+        )
+
+
+def test_phrase_boundary_clipping_and_unchanged_valid_timestamps():
+    data = {
+        "text": "hello there",
+        "segments": [
+            {"text": "hello", "speaker": 0, "start": -0.1, "end": 1},
+            {"text": "there", "speaker": 1, "start": 1, "end": 2},
+        ],
+    }
+    prediction = parse_response(data, 2, clip_timestamps=True)
+    assert prediction.segments == [Segment("0", "hello", 0, 1), Segment("1", "there", 1, 2)]
+    assert len(prediction.metadata["timestamp_adjustments"]) == 1
+    assert prediction.metadata["timestamp_adjustments"][0]["source"] == "segments"
+
+
+def test_rejected_response_keeps_safe_diagnostics_and_redacts_credentials(tmp_path, monkeypatch):
+    monkeypatch.setenv("OPENROUTER_API_KEY", "test-credential-never-persist")
+    monkeypatch.setenv("OPENROUTER_ALLOW_PAID_REQUESTS", "1")
+    sf.write(tmp_path / "clip.wav", np.zeros(16000), 16000)
+
+    class Transport:
+        def open(self, request, timeout):
+            return Response(
+                json.dumps(
+                    {
+                        "text": "test-credential-never-persist",
+                        "words": [
+                            {
+                                "word": "test",
+                                "start": 0,
+                                "end": float("nan"),
+                                "request_headers": {"Authorization": "must-not-save"},
+                            },
+                        ],
+                        "usage": {"cost": 0.0043},
+                        "error": "must-not-save",
+                        "headers": {"Authorization": "must-not-save"},
+                    }
+                ).encode()
+            )
+
+    monkeypatch.setattr("urllib.request.build_opener", lambda *args: Transport())
+    adapter = OpenRouter(options(model="deepgram/nova-3"))
+    adapter.load()
+    with pytest.raises(InvalidModelOutput) as raised:
+        adapter.transcribe(tmp_path / "clip.wav", 1, "en")
+    exc = raised.value
+    saved = json.dumps({"raw_output": exc.raw_output, "metadata": exc.metadata}, allow_nan=False)
+    assert "must-not-save" not in saved and "test-credential-never-persist" not in saved
+    assert exc.metadata["reason"] == "invalid_transcript_timestamps"
+    assert exc.metadata["response_usage"] == {"cost": 0.0043}
+    assert exc.raw_output["words"][0]["end"] == "[non-finite number]"
 
 
 @pytest.mark.parametrize(
@@ -237,29 +326,47 @@ def test_token_estimates_use_model_specific_rates():
 def test_report_mixes_local_remote_and_failed_models_without_inventing_speaker_scores(tmp_path):
     sf.write(tmp_path / "a.wav", np.zeros(16000), 16000)
     reference = [Segment("a", "hello", 0, 1)]
-    (tmp_path / "manifest.jsonl").write_text(json.dumps({
-        "id": "a", "audio": "a.wav", "reference": [asdict(s) for s in reference],
-    }) + "\n")
-    write_json(tmp_path / "plan.json", {
-        "models": [{"id": "local"}, {"id": "remote", "adapter": "openrouter"},
-                   {"id": "failed", "adapter": "openrouter"}],
-        "protocol": {"tcp_collar": 5, "der_collar": 0},
-    })
+    (tmp_path / "manifest.jsonl").write_text(
+        json.dumps(
+            {
+                "id": "a",
+                "audio": "a.wav",
+                "reference": [asdict(s) for s in reference],
+            }
+        )
+        + "\n"
+    )
+    write_json(
+        tmp_path / "plan.json",
+        {
+            "models": [
+                {"id": "local"},
+                {"id": "remote", "adapter": "openrouter"},
+                {"id": "failed", "adapter": "openrouter"},
+            ],
+            "protocol": {"tcp_collar": 5, "der_collar": 0},
+        },
+    )
     for name, prediction in [
         ("local", Prediction(reference)),
-        ("remote", parse_response({"text": "hello", "usage": {"cost": .01}}, 1)),
+        ("remote", parse_response({"text": "hello", "usage": {"cost": 0.01}}, 1)),
         ("failed", None),
     ]:
         directory = tmp_path / name / "predictions"
         directory.mkdir(parents=True)
         if prediction:
-            write_json(directory / "a.json", {
-                "id": "a", "status": "ok", "wall_seconds": 1,
-                "prediction": prediction.to_dict(),
-            })
+            write_json(
+                directory / "a.json",
+                {
+                    "id": "a",
+                    "status": "ok",
+                    "wall_seconds": 1,
+                    "prediction": prediction.to_dict(),
+                },
+            )
     rows = report(tmp_path)
     assert rows[0]["cpwer"] == 0
     assert rows[1]["cpwer"] is None
-    assert rows[1]["api_reported_cost_usd"] == .01 and rows[1]["api_cost_complete"]
+    assert rows[1]["api_reported_cost_usd"] == 0.01 and rows[1]["api_cost_complete"]
     assert rows[2]["cpwer"] is None and rows[2]["wer"] == 1
     assert (tmp_path / "summary.csv").is_file()

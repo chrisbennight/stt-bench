@@ -7,8 +7,10 @@ returned **24 model IDs on 27 September 2026**. This includes every model in the
 [speech-to-text collection](https://openrouter.ai/collections/speech-to-text-models) at discovery.
 It does not include general audio-chat models served through Chat Completions.
 
-**Status: implementation tested offline; paid inference has not run.** Availability,
-response formats, speaker labels, and measured accuracy still need a real API pass.
+**Status: implementation tested offline; live evaluation is underway.** Hosted-model
+results have not yet been published. Availability depends on the account's privacy and
+provider settings; check the authenticated `/api/v1/models/user?output_modalities=transcription`
+catalog as well as the public catalog before running.
 The existing local-model results have not been changed.
 
 ## Cost before running
@@ -169,6 +171,35 @@ leaves the other models eligible to run. Remaining clips for the failed model ar
 as not run. No failed request is retried automatically; its server-side outcome or cost may
 be unknown. The controller reports failures instead of dropping them from the denominator.
 HTTP status is retained without recording an arbitrary upstream error body.
+
+## Deepgram timestamp handling
+
+A diagnostic replay reproduced a Deepgram word ending at 61.314938 seconds in a
+60-second clip. The original strict parser rejected the entire transcript. For
+`deepgram/nova-3`, intervals crossing an audio boundary now use their intersection with
+`[0, audio duration]`. Word text and speaker labels remain unchanged. Original timestamps
+remain in `raw_transcript`, each adjustment is recorded in `timestamp_adjustments`, and
+affected predictions have `timing: native_clipped`. Intervals wholly outside the clip,
+reversed or zero-length intervals, and non-finite times are still rejected.
+
+Rejected JSON transcripts now retain allowlisted text, words, segments, and usage with
+a stable validation reason. Unknown fields, server error bodies, and request headers
+are excluded; the active API key is redacted if echoed in a retained field. This allows
+future parser corrections to use saved responses without new inference. Malformed JSON
+is recorded as `invalid_json` without retaining an arbitrary body.
+
+The full Deepgram-only rerun uses the same audio and inference options:
+
+```bash
+OPENROUTER_ALLOW_PAID_REQUESTS=1 uv run speaker-bench run \
+  --config configs/openrouter-deepgram.json \
+  --manifest data/ami-openrouter/manifest.jsonl \
+  --output runs/openrouter-deepgram
+```
+
+Its estimated cost is about $0.40 for 94 requests. Keep it separate from the first pass;
+do not select the better transcript from repeated calls. The initial DeepInfra failures
+remain recorded as incomplete evaluations, without an additional rerun.
 
 The request/audio limits bound the workload, **not dollars**. The key's provider-enforced
 credit limit is the spending boundary. A 90-second client timeout is configured per request;
