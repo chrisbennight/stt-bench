@@ -1,0 +1,550 @@
+{
+  "id": "EN2002a-3840000",
+  "duration": 240.0,
+  "seed": 1185136061,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "S01",
+        "text": "I guess in in in meeting browser one point one you can have a menu instead of a button.",
+        "start": 0.0,
+        "end": 5.0
+      },
+      {
+        "speaker": "S02",
+        "text": "Exactly, I know.",
+        "start": 3.11,
+        "end": 4.23
+      },
+      {
+        "speaker": "S03",
+        "text": "True.",
+        "start": 5.57,
+        "end": 5.89
+      },
+      {
+        "speaker": "S01",
+        "text": "Right, this one.",
+        "start": 7.28,
+        "end": 8.67
+      },
+      {
+        "speaker": "S04",
+        "text": "Mm, it's a bridge. Um but actually what we could do is on in that menu as well we could have an option that pops up a window with all the all the meetings that that user has been in.",
+        "start": 8.78,
+        "end": 20.02
+      },
+      {
+        "speaker": "S03",
+        "text": "Mm.",
+        "start": 19.61,
+        "end": 20.0
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm.",
+        "start": 21.13,
+        "end": 21.43
+      },
+      {
+        "speaker": "S04",
+        "text": "Like a search for that user.",
+        "start": 21.37,
+        "end": 23.19
+      },
+      {
+        "speaker": "S01",
+        "text": "Yep.",
+        "start": 23.4,
+        "end": 23.81
+      },
+      {
+        "speaker": "S04",
+        "text": "Is that gonna be useful or too much or?",
+        "start": 24.34,
+        "end": 26.71
+      },
+      {
+        "speaker": "S01",
+        "text": "I guess so. So what did you part of the m the menu that comes down it says give me all your meetings.",
+        "start": 27.6,
+        "end": 32.51
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah, so when you right-click on it one one option will be give me all your meetings, characterise the speaker.",
+        "start": 32.68,
+        "end": 39.11
+      },
+      {
+        "speaker": "S03",
+        "text": "Mm.",
+        "start": 38.49,
+        "end": 38.75
+      },
+      {
+        "speaker": "S01",
+        "text": "Yep.",
+        "start": 40.06,
+        "end": 40.55
+      },
+      {
+        "speaker": "S04",
+        "text": "Or is that too much? I mean.",
+        "start": 44.05,
+        "end": 45.27
+      },
+      {
+        "speaker": "S05",
+        "text": "I don't know.",
+        "start": 45.73,
+        "end": 46.11
+      },
+      {
+        "speaker": "S01",
+        "text": "I guess so, it's a idea.",
+        "start": 46.05,
+        "end": 47.33
+      },
+      {
+        "speaker": "S05",
+        "text": "I mean it's more like part of the",
+        "start": 46.85,
+        "end": 50.27
+      },
+      {
+        "speaker": "S01",
+        "text": "The user.",
+        "start": 48.08,
+        "end": 48.55
+      },
+      {
+        "speaker": "S05",
+        "text": "browsing sort of thing more than the speaker charac characterization as Steve mentioned, I don't really know how to evolve the speaker character to to the best.",
+        "start": 51.72,
+        "end": 62.27
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 56.84,
+        "end": 57.13
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah, that's true, yeah. Yeah.",
+        "start": 57.8,
+        "end": 59.45
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm.",
+        "start": 58.66,
+        "end": 58.91
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 59.48,
+        "end": 59.84
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah, that's true. It'd be nice to have it in connect interconnected, yeah.",
+        "start": 60.98,
+        "end": 63.87
+      },
+      {
+        "speaker": "S03",
+        "text": "Mm.",
+        "start": 61.61,
+        "end": 61.87
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, like maybe tie that in with dialogue acts or something as well. I mean speaker characterization tied into I don't know, t just some way to sort of leverage that information. Like we have it, we're doing it, but what how does it help the browsing? Or what can it give us in the browsing?",
+        "start": 63.34,
+        "end": 77.08
+      },
+      {
+        "speaker": "S04",
+        "text": "Well, you mean the the speaker characterization? Oh well, yeah, I mean.",
+        "start": 76.57,
+        "end": 79.81
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 77.87,
+        "end": 78.14
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 79.21,
+        "end": 79.45
+      },
+      {
+        "speaker": "S04",
+        "text": "I don't know about that. I mean it's the speaker characterization is a bit like you said, I mean it's like a nice thing. We don't we're not actually sure what the user wants with it, but it's interesting, so why not give it to him?",
+        "start": 81.34,
+        "end": 92.27
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, yeah.",
+        "start": 92.74,
+        "end": 93.21
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm.",
+        "start": 93.27,
+        "end": 93.53
+      },
+      {
+        "speaker": "S04",
+        "text": "Um.",
+        "start": 93.84,
+        "end": 94.15
+      },
+      {
+        "speaker": "S04",
+        "text": "I I think we should do it, I mean.",
+        "start": 94.04,
+        "end": 95.51
+      },
+      {
+        "speaker": "S05",
+        "text": "Yeah.",
+        "start": 95.34,
+        "end": 95.75
+      },
+      {
+        "speaker": "S05",
+        "text": "I mean I guess maybe we could have that as another thing of like well if you get speaker characterization that someone talks a lot in a certain topic and then if you I don't know click on that topic you'll get everything that's in that topic or whatever. I mean in that group, but yeah.",
+        "start": 96.5,
+        "end": 116.21
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah, I mean that's that's still another level further. I mean we're not even there yet, you know, it doesn't",
+        "start": 114.73,
+        "end": 119.11
+      },
+      {
+        "speaker": "S05",
+        "text": "No, no, no.",
+        "start": 118.84,
+        "end": 119.47
+      },
+      {
+        "speaker": "S03",
+        "text": "Right.",
+        "start": 119.48,
+        "end": 119.83
+      },
+      {
+        "speaker": "S04",
+        "text": "The uh well the speaker characterization yet. You we have to first define what what happens when you click on a user.",
+        "start": 119.5,
+        "end": 124.23
+      },
+      {
+        "speaker": "S01",
+        "text": "We have to have speaker characterization first before we cross the other.",
+        "start": 124.41,
+        "end": 127.37
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 126.94,
+        "end": 127.27
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 127.32,
+        "end": 127.63
+      },
+      {
+        "speaker": "S04",
+        "text": "Yes. So shall we try try to do a right-click menu then?",
+        "start": 127.94,
+        "end": 131.91
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah, alright, well.",
+        "start": 134.72,
+        "end": 136.31
+      },
+      {
+        "speaker": "S03",
+        "text": "Is that just from the main? And is that is that from any particular window? Like if we wanna sort of get like if we're on the users versus like a topic or something, have a right-click from for these various things just to",
+        "start": 136.28,
+        "end": 147.31
+      },
+      {
+        "speaker": "S04",
+        "text": "So.",
+        "start": 137.91,
+        "end": 138.11
+      },
+      {
+        "speaker": "S01",
+        "text": "Even if it's one thing from the",
+        "start": 138.1,
+        "end": 139.33
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 145.68,
+        "end": 146.03
+      },
+      {
+        "speaker": "S04",
+        "text": "Yes, wait, yeah, there's a second thing about the topics. The topic window, you wanna somehow click be able to click on a topic and it pops up with all the meetings that contain that.",
+        "start": 146.86,
+        "end": 157.67
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 147.68,
+        "end": 147.88
+      },
+      {
+        "speaker": "S03",
+        "text": "Right, yeah.",
+        "start": 157.66,
+        "end": 158.27
+      },
+      {
+        "speaker": "S05",
+        "text": "Mm.",
+        "start": 158.16,
+        "end": 158.43
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah?",
+        "start": 158.6,
+        "end": 158.87
+      },
+      {
+        "speaker": "S03",
+        "text": "Yep.",
+        "start": 159.0,
+        "end": 159.21
+      },
+      {
+        "speaker": "S04",
+        "text": "So we could do that in a similar way, do it right-click as well.",
+        "start": 159.54,
+        "end": 162.03
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm-hmm.",
+        "start": 160.02,
+        "end": 160.43
+      },
+      {
+        "speaker": "S01",
+        "text": "So",
+        "start": 161.43,
+        "end": 161.83
+      },
+      {
+        "speaker": "S03",
+        "text": "Okay.",
+        "start": 162.24,
+        "end": 162.61
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 162.78,
+        "end": 163.07
+      },
+      {
+        "speaker": "S01",
+        "text": "So this dot is for um",
+        "start": 162.92,
+        "end": 164.91
+      },
+      {
+        "speaker": "S04",
+        "text": "Have a different menu for that.",
+        "start": 163.43,
+        "end": 164.71
+      },
+      {
+        "speaker": "S03",
+        "text": "Consistent throughout, so.",
+        "start": 164.21,
+        "end": 165.97
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 166.13,
+        "end": 166.51
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 166.54,
+        "end": 166.77
+      },
+      {
+        "speaker": "S01",
+        "text": "On the speaker.",
+        "start": 166.91,
+        "end": 168.07
+      },
+      {
+        "speaker": "S04",
+        "text": "So yeah.",
+        "start": 169.61,
+        "end": 170.81
+      },
+      {
+        "speaker": "S01",
+        "text": "And this dot is a",
+        "start": 170.34,
+        "end": 171.57
+      },
+      {
+        "speaker": "S04",
+        "text": "So we have basically two options of of browsing the meetings is by either",
+        "start": 171.28,
+        "end": 175.97
+      },
+      {
+        "speaker": "S04",
+        "text": "um searching and opening individual observations and when then we have the interlinking by right-click basically.",
+        "start": 176.91,
+        "end": 184.11
+      },
+      {
+        "speaker": "S03",
+        "text": "Right.",
+        "start": 184.54,
+        "end": 184.83
+      },
+      {
+        "speaker": "S03",
+        "text": "Actually, yeah, like uh another common thing, like we have it so it's set up that um if you double-click and it goes to a default thing on the menu, I mean that's kind of a typical kind of action that would happen. If you double-click on a particular topic or something, then it goes to sort of like a default view. So it'll be like all the",
+        "start": 186.08,
+        "end": 202.07
+      },
+      {
+        "speaker": "S05",
+        "text": "Double-click.",
+        "start": 195.4,
+        "end": 195.97
+      },
+      {
+        "speaker": "S04",
+        "text": "Oh.",
+        "start": 200.72,
+        "end": 201.17
+      },
+      {
+        "speaker": "S03",
+        "text": "um cases of that topic, either whatever we decide the default to be, whether it's in all meetings or just in one meeting and just show up the particular instances of that topic in the menu. Like and just thinking to have the default there, so if somebody knows exactly what they wanna do and we know that that's the most common thing that's gonna happen, so the double-click won't do that instead say from the trouble of right-clicking and choosing the item on the menu.",
+        "start": 202.91,
+        "end": 222.71
+      },
+      {
+        "speaker": "S04",
+        "text": "Mm.",
+        "start": 212.57,
+        "end": 212.97
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 219.04,
+        "end": 219.91
+      },
+      {
+        "speaker": "S04",
+        "text": "I don't see there's anything obvious that was that would be able, you know, that would be",
+        "start": 222.78,
+        "end": 226.81
+      },
+      {
+        "speaker": "S05",
+        "text": "Yeah.",
+        "start": 222.88,
+        "end": 223.23
+      },
+      {
+        "speaker": "S03",
+        "text": "Well, it might come to us, start playing with it.",
+        "start": 226.08,
+        "end": 229.31
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 229.4,
+        "end": 229.71
+      },
+      {
+        "speaker": "S01",
+        "text": "What was that? I don't quite understand. Do you mean",
+        "start": 229.5,
+        "end": 231.67
+      },
+      {
+        "speaker": "S03",
+        "text": "Um like we have the the right-click menu, you have a menu of right-clicking, but instead of like have a default double-click, so if there's so it'll be a choice from the menu.",
+        "start": 231.41,
+        "end": 239.97
+      },
+      {
+        "speaker": "S05",
+        "text": "Just",
+        "start": 232.18,
+        "end": 232.43
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 233.66,
+        "end": 233.97
+      },
+      {
+        "speaker": "S01",
+        "text": "Oh, sorry, and it figures out",
+        "start": 238.18,
+        "end": 239.91
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "[0.00][S01]I guess in in in meeting browser one point one you can have a menu instead of a button.[5.00][3.11][S02]Exactly, I know.[4.23][5.57][S03]True.[5.89][7.28][S01]Right, this one.[8.67][8.78][S04]Mm, it's a bridge. Um but actually what we could do is on in that menu as well we could have an option that pops up a window with all the all the meetings that that user has been in.[20.02][19.61][S03]Mm.[20.00][21.13][S02]Mm.[21.43][21.37][S04]Like a search for that user.[23.19][23.40][S01]Yep.[23.81][24.34][S04]Is that gonna be useful or too much or?[26.71][27.60][S01]I guess so. So what did you part of the m the menu that comes down it says give me all your meetings.[32.51][32.68][S04]Yeah, so when you right-click on it one one option will be give me all your meetings, characterise the speaker.[39.11][38.49][S03]Mm.[38.75][40.06][S01]Yep.[40.55][44.05][S04]Or is that too much? I mean.[45.27][45.73][S05]I don't know.[46.11][46.05][S01]I guess so, it's a idea.[47.33][46.85][S05]I mean it's more like part of the[50.27][48.08][S01]The user.[48.55][51.72][S05]browsing sort of thing more than the speaker charac characterization as Steve mentioned, I don't really know how to evolve the speaker character to to the best.[62.27][56.84][S04]Yeah.[57.13][57.80][S04]Yeah, that's true, yeah. Yeah.[59.45][58.66][S01]Mm.[58.91][59.48][S01]Yeah.[59.84][60.98][S04]Yeah, that's true. It'd be nice to have it in connect interconnected, yeah.[63.87][61.61][S03]Mm.[61.87][63.34][S03]Yeah, like maybe tie that in with dialogue acts or something as well. I mean speaker characterization tied into I don't know, t just some way to sort of leverage that information. Like we have it, we're doing it, but what how does it help the browsing? Or what can it give us in the browsing?[77.08][76.57][S04]Well, you mean the the speaker characterization? Oh well, yeah, I mean.[79.81][77.87][S03]Yeah.[78.14][79.21][S03]Yeah.[79.45][81.34][S04]I don't know about that. I mean it's the speaker characterization is a bit like you said, I mean it's like a nice thing. We don't we're not actually sure what the user wants with it, but it's interesting, so why not give it to him?[92.27][92.74][S03]Yeah, yeah.[93.21][93.27][S01]Mm.[93.53][93.84][S04]Um.[94.15][94.04][S04]I I think we should do it, I mean.[95.51][95.34][S05]Yeah.[95.75][96.50][S05]I mean I guess maybe we could have that as another thing of like well if you get speaker characterization that someone talks a lot in a certain topic and then if you I don't know click on that topic you'll get everything that's in that topic or whatever. I mean in that group, but yeah.[116.21][114.73][S04]Yeah, I mean that's that's still another level further. I mean we're not even there yet, you know, it doesn't[119.11][118.84][S05]No, no, no.[119.47][119.48][S03]Right.[119.83][119.50][S04]The uh well the speaker characterization yet. You we have to first define what what happens when you click on a user.[124.23][124.41][S01]We have to have speaker characterization first before we cross the other.[127.37][126.94][S04]Yeah.[127.27][127.32][S03]Yeah.[127.63][127.94][S04]Yes. So shall we try try to do a right-click menu then?[131.91][134.72][S01]Yeah, alright, well.[136.31][136.28][S03]Is that just from the main? And is that is that from any particular window? Like if we wanna sort of get like if we're on the users versus like a topic or something, have a right-click from for these various things just to[147.31][137.91][S04]So.[138.11][138.10][S01]Even if it's one thing from the[139.33][145.68][S04]Yeah.[146.03][146.86][S04]Yes, wait, yeah, there's a second thing about the topics. The topic window, you wanna somehow click be able to click on a topic and it pops up with all the meetings that contain that.[157.67][147.68][S01]Yeah.[147.88][157.66][S03]Right, yeah.[158.27][158.16][S05]Mm.[158.43][158.60][S04]Yeah?[158.87][159.00][S03]Yep.[159.21][159.54][S04]So we could do that in a similar way, do it right-click as well.[162.03][160.02][S01]Mm-hmm.[160.43][161.43][S01]So[161.83][162.24][S03]Okay.[162.61][162.78][S01]Yeah.[163.07][162.92][S01]So this dot is for um[164.91][163.43][S04]Have a different menu for that.[164.71][164.21][S03]Consistent throughout, so.[165.97][166.13][S04]Yeah.[166.51][166.54][S03]Yeah.[166.77][166.91][S01]On the speaker.[168.07][169.61][S04]So yeah.[170.81][170.34][S01]And this dot is a[171.57][171.28][S04]So we have basically two options of of browsing the meetings is by either[175.97][176.91][S04]um searching and opening individual observations and when then we have the interlinking by right-click basically.[184.11][184.54][S03]Right.[184.83][186.08][S03]Actually, yeah, like uh another common thing, like we have it so it's set up that um if you double-click and it goes to a default thing on the menu, I mean that's kind of a typical kind of action that would happen. If you double-click on a particular topic or something, then it goes to sort of like a default view. So it'll be like all the[202.07][195.40][S05]Double-click.[195.97][200.72][S04]Oh.[201.17][202.91][S03]um cases of that topic, either whatever we decide the default to be, whether it's in all meetings or just in one meeting and just show up the particular instances of that topic in the menu. Like and just thinking to have the default there, so if somebody knows exactly what they wanna do and we know that that's the most common thing that's gonna happen, so the double-click won't do that instead say from the trouble of right-clicking and choosing the item on the menu.[222.71][212.57][S04]Mm.[212.97][219.04][S04]Yeah.[219.91][222.78][S04]I don't see there's anything obvious that was that would be able, you know, that would be[226.81][222.88][S05]Yeah.[223.23][226.08][S03]Well, it might come to us, start playing with it.[229.31][229.40][S04]Yeah.[229.71][229.50][S01]What was that? I don't quite understand. Do you mean[231.67][231.41][S03]Um like we have the the right-click menu, you have a menu of right-clicking, but instead of like have a default double-click, so if there's so it'll be a choice from the menu.[239.97][232.18][S05]Just[232.43][233.66][S01]Yeah.[233.97][238.18][S01]Oh, sorry, and it figures out[239.91]",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 22.454108920064755,
+  "rtf": 0.09355878716693648,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 2516007936,
+      "reserved_bytes": 2627731456
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 2850721792
+}

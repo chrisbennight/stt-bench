@@ -1,0 +1,1105 @@
+{
+  "id": "EN2002a-0",
+  "duration": 240.0,
+  "seed": 1590348409,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "0",
+        "text": "So I'm just, I'm just wondering how much of the meetings is talking about the stuff we need to talk about. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, exactly. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, yeah, yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, yeah, yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah, yeah, yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "We're starting already. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Shall we start? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Right. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "So, shall we begin? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "So, talk about the things. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Does anyone\u2014 ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Shall we just go around and everyone says what they, what they've been doing? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Has anybody done anything? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "No, I haven't. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "No. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Well, I hope so. Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Okay, sounds like you've done something. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, exactly. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Okay, well, I've got a browser now, which, whoops, are in the north. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Whoops, no. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Mm-hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Oh, I don't mind, but... ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Geez. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "It's also the good stuff. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "So, yeah, we've got a browser, we, um, which comes up automatically with the transcription box and the topics.And then when you go on the menu, you can select a summarisation box, which pops up.And an audio player. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Right. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Um, and I s\u2014 I think the search works as well, so you pop up a search. And it loads up, um, just the background window, so empty. And, um, so when you start, you have to either open, open a particular observation or do a search. And open it through that.Does that make sense?Um, the transcription box has got a summarise bot\u2014 button, which doesn't do anything yet. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Um, now I wonder how we wanna do, you know... We want a pop up window with a speaker characterisation.Um, either we could do that, you know, when does the pop up come? Either we can, when you click on the, the I.D., any sort of I.D. in the transcription box... Or we can put an extra button, extra three buttons next to the summarise button, so that you actually, in the transcription box, click on a button and then it opens to a, a speaker characterisation. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "The problem is, the, the left click is already used because it highlights that, um, that part of speech or whatever that, what he's saying. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "So d\u2014 the left click, mm-hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "The left click highlights it. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Right. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "So that you can, I don't know what happens when you double click actually. But that'd be a bit annoying if you have a left click for one thing and double click for something else. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Um, I think, so yeah, when you left click it, you can, for example, set, set the marker there so that the, the audio goes from there, I think. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Right. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Um, so we can't put it on left click, we could put it on a right click. We could, for example, have it on a menu that pops up when you double click it, or something. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, that would be quite a good idea. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "So right click on a menu, you know, and you can click on speaker characterisation up pops, I dunno. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "What else can we have in the, um... ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "That's a good point. I dunno. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "So otherwise is just a right click will do. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah, I know, but, um, I don't know about you, but usually in Windows a right click doesn't do anything, it opens a menu. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "But... ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Isn't it? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "A menu, yeah, yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "So maybe we can do the same. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Except it might be a bit weird if you were to just start bringing in stuff in there. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "So I'll probably, yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, to just have some sort of idiom throw out, you know. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Um, or just, you know, or just a button. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "I guess a bit of, um, button makes a bit more sense cause otherwise you don't really know that oh, what if I right click that and what happens then ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Well, no, no, you still have the menu. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, it's a bit shallow. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "The menu's pop up. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "It's more... ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Well, oh yeah, it's more obvious, isn't it, if you make it big and... ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "It's more in the, in the presentation, isn't it, if it's got a button. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah. Yeah, that's true. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "That's true, yeah, it's more intuitive. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Well, then it's not as expensive, like if we wanna add more things in the future then we'll add, I dunno, more buttons. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "And worse, it's... ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Maybe. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Maybe. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "More flexible, more, yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, well in a... ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "But, um...",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [
+      {
+        "audio_available_seconds": 3.466666666666667,
+        "chunk_end_seconds": 2.933333333333333,
+        "emitted_seconds": 3.9584661240223795,
+        "has_text": true,
+        "text": " \n Speaker 0:So I'm just, I'm just wondering how much of the meetings is talking about the stuff "
+      },
+      {
+        "audio_available_seconds": 6.4,
+        "chunk_end_seconds": 5.866666666666666,
+        "emitted_seconds": 7.4415031359530985,
+        "has_text": true,
+        "text": "we need to talk about. \n Speaker 1:Yeah, exactly. \n Speaker 2:Yeah, yeah, yeah. \n Speaker 1:Yeah, yeah, yeah. \n Speaker 3:Yeah, yeah, yeah. \n Speaker 1:We're "
+      },
+      {
+        "audio_available_seconds": 9.333333333333334,
+        "chunk_end_seconds": 8.8,
+        "emitted_seconds": 9.862622261047363,
+        "has_text": true,
+        "text": "starting already. \n Speaker 3:Shall we start? \n Speaker 1:Yeah. \n Speaker 3:Okay."
+      },
+      {
+        "audio_available_seconds": 12.266666666666667,
+        "chunk_end_seconds": 11.733333333333333,
+        "emitted_seconds": 12.317253298941068,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 15.2,
+        "chunk_end_seconds": 14.666666666666666,
+        "emitted_seconds": 15.872076267958619,
+        "has_text": true,
+        "text": " \n Speaker 1:Right. \n Speaker 3:So, shall we begin? \n Speaker 1:Okay. \n Speaker 3:So, talk about "
+      },
+      {
+        "audio_available_seconds": 18.133333333333333,
+        "chunk_end_seconds": 17.6,
+        "emitted_seconds": 18.664090045029297,
+        "has_text": true,
+        "text": "the things. \n Speaker 1:Does anyone\u2014 \n Speaker 3:Shall we just go around and everyone says what "
+      },
+      {
+        "audio_available_seconds": 21.066666666666666,
+        "chunk_end_seconds": 20.533333333333335,
+        "emitted_seconds": 21.43958049302455,
+        "has_text": true,
+        "text": "they, what they've been doing? \n Speaker 1:Has anybody done anything?"
+      },
+      {
+        "audio_available_seconds": 24.0,
+        "chunk_end_seconds": 23.466666666666665,
+        "emitted_seconds": 24.373060013051145,
+        "has_text": true,
+        "text": " \n Speaker 0:No, I haven't. \n Speaker 1:No."
+      },
+      {
+        "audio_available_seconds": 26.933333333333334,
+        "chunk_end_seconds": 26.4,
+        "emitted_seconds": 27.21541361801792,
+        "has_text": true,
+        "text": " \n Speaker 3:Well, I hope so. Yeah."
+      },
+      {
+        "audio_available_seconds": 29.866666666666667,
+        "chunk_end_seconds": 29.333333333333332,
+        "emitted_seconds": 30.308655799017288,
+        "has_text": true,
+        "text": " \n Speaker 0:Okay, sounds like you've done something. \n Speaker 1:Yeah, "
+      },
+      {
+        "audio_available_seconds": 32.8,
+        "chunk_end_seconds": 32.266666666666666,
+        "emitted_seconds": 33.207180844969116,
+        "has_text": true,
+        "text": "exactly. \n Speaker 3:Okay, well, I've got a browser now, "
+      },
+      {
+        "audio_available_seconds": 35.733333333333334,
+        "chunk_end_seconds": 35.2,
+        "emitted_seconds": 35.96265952999238,
+        "has_text": true,
+        "text": "which, whoops, are in the north."
+      },
+      {
+        "audio_available_seconds": 38.666666666666664,
+        "chunk_end_seconds": 38.13333333333333,
+        "emitted_seconds": 39.19681231805589,
+        "has_text": true,
+        "text": " \n Speaker 1:Whoops, no. \n Speaker 3:Mm-hmm. \n Speaker 1:Oh, "
+      },
+      {
+        "audio_available_seconds": 41.6,
+        "chunk_end_seconds": 41.06666666666667,
+        "emitted_seconds": 41.777089145965874,
+        "has_text": true,
+        "text": "I don't mind, but..."
+      },
+      {
+        "audio_available_seconds": 44.53333333333333,
+        "chunk_end_seconds": 44.0,
+        "emitted_seconds": 44.88672906602733,
+        "has_text": true,
+        "text": " \n Speaker 1:Geez. \n Speaker 3:It's "
+      },
+      {
+        "audio_available_seconds": 47.46666666666667,
+        "chunk_end_seconds": 46.93333333333333,
+        "emitted_seconds": 47.60809416603297,
+        "has_text": true,
+        "text": "also the good stuff."
+      },
+      {
+        "audio_available_seconds": 50.4,
+        "chunk_end_seconds": 49.86666666666667,
+        "emitted_seconds": 50.70246960304212,
+        "has_text": true,
+        "text": " \n Speaker 3:Okay. \n Speaker 1:Yeah."
+      },
+      {
+        "audio_available_seconds": 53.333333333333336,
+        "chunk_end_seconds": 52.8,
+        "emitted_seconds": 53.70642377005424,
+        "has_text": true,
+        "text": " \n Speaker 3:So, yeah, we've got a browser, we, "
+      },
+      {
+        "audio_available_seconds": 56.266666666666666,
+        "chunk_end_seconds": 55.733333333333334,
+        "emitted_seconds": 56.44407162803691,
+        "has_text": true,
+        "text": "um, which comes up automatically "
+      },
+      {
+        "audio_available_seconds": 59.2,
+        "chunk_end_seconds": 58.666666666666664,
+        "emitted_seconds": 59.395459464984015,
+        "has_text": true,
+        "text": "with the transcription box and the topics."
+      },
+      {
+        "audio_available_seconds": 62.13333333333333,
+        "chunk_end_seconds": 61.6,
+        "emitted_seconds": 62.41367833095137,
+        "has_text": true,
+        "text": "And then when you go on the menu, you can "
+      },
+      {
+        "audio_available_seconds": 65.06666666666666,
+        "chunk_end_seconds": 64.53333333333333,
+        "emitted_seconds": 65.30048286996316,
+        "has_text": true,
+        "text": "select a summarisation box, which pops up."
+      },
+      {
+        "audio_available_seconds": 68.0,
+        "chunk_end_seconds": 67.46666666666667,
+        "emitted_seconds": 68.14232678699773,
+        "has_text": true,
+        "text": "And an audio player."
+      },
+      {
+        "audio_available_seconds": 70.93333333333334,
+        "chunk_end_seconds": 70.4,
+        "emitted_seconds": 71.39533921796829,
+        "has_text": true,
+        "text": " \n Speaker 1:Right. \n Speaker 3:Um, and I s\u2014 I think the search "
+      },
+      {
+        "audio_available_seconds": 73.86666666666666,
+        "chunk_end_seconds": 73.33333333333333,
+        "emitted_seconds": 74.15176741895266,
+        "has_text": true,
+        "text": "works as well, so you pop up a search. And "
+      },
+      {
+        "audio_available_seconds": 76.8,
+        "chunk_end_seconds": 76.26666666666667,
+        "emitted_seconds": 77.08607676601969,
+        "has_text": true,
+        "text": "it loads up, um, just the background window, so "
+      },
+      {
+        "audio_available_seconds": 79.73333333333333,
+        "chunk_end_seconds": 79.2,
+        "emitted_seconds": 79.92982865602244,
+        "has_text": true,
+        "text": "empty. And, um, so "
+      },
+      {
+        "audio_available_seconds": 82.66666666666667,
+        "chunk_end_seconds": 82.13333333333334,
+        "emitted_seconds": 82.95228364795912,
+        "has_text": true,
+        "text": "when you start, you have to either open, open a "
+      },
+      {
+        "audio_available_seconds": 85.6,
+        "chunk_end_seconds": 85.06666666666666,
+        "emitted_seconds": 85.90795986901503,
+        "has_text": true,
+        "text": "particular observation or do a search. And open it through that."
+      },
+      {
+        "audio_available_seconds": 88.53333333333333,
+        "chunk_end_seconds": 88.0,
+        "emitted_seconds": 88.6765416120179,
+        "has_text": true,
+        "text": "Does that make sense?"
+      },
+      {
+        "audio_available_seconds": 91.46666666666667,
+        "chunk_end_seconds": 90.93333333333334,
+        "emitted_seconds": 91.59193934197538,
+        "has_text": true,
+        "text": "Um, the "
+      },
+      {
+        "audio_available_seconds": 94.4,
+        "chunk_end_seconds": 93.86666666666666,
+        "emitted_seconds": 94.68944845802616,
+        "has_text": true,
+        "text": "transcription box has got a summarise bot\u2014 button, "
+      },
+      {
+        "audio_available_seconds": 97.33333333333333,
+        "chunk_end_seconds": 96.8,
+        "emitted_seconds": 97.65584953199141,
+        "has_text": true,
+        "text": "which doesn't do anything yet. \n Speaker 3:Um, "
+      },
+      {
+        "audio_available_seconds": 100.26666666666667,
+        "chunk_end_seconds": 99.73333333333333,
+        "emitted_seconds": 100.4469638930168,
+        "has_text": true,
+        "text": "now I wonder how we wanna "
+      },
+      {
+        "audio_available_seconds": 103.2,
+        "chunk_end_seconds": 102.66666666666667,
+        "emitted_seconds": 103.50575010699686,
+        "has_text": true,
+        "text": "do, you know... We want a pop up window with a "
+      },
+      {
+        "audio_available_seconds": 106.13333333333334,
+        "chunk_end_seconds": 105.6,
+        "emitted_seconds": 106.25909343303647,
+        "has_text": true,
+        "text": "speaker characterisation."
+      },
+      {
+        "audio_available_seconds": 109.06666666666666,
+        "chunk_end_seconds": 108.53333333333333,
+        "emitted_seconds": 109.33544117794372,
+        "has_text": true,
+        "text": "Um, either we could do that, you know, "
+      },
+      {
+        "audio_available_seconds": 112.0,
+        "chunk_end_seconds": 111.46666666666667,
+        "emitted_seconds": 112.34145571594127,
+        "has_text": true,
+        "text": "when does the pop up come? Either we can, when you click on "
+      },
+      {
+        "audio_available_seconds": 114.93333333333334,
+        "chunk_end_seconds": 114.4,
+        "emitted_seconds": 115.25628470198717,
+        "has_text": true,
+        "text": "the, the I.D., any sort of I.D. in the "
+      },
+      {
+        "audio_available_seconds": 117.86666666666666,
+        "chunk_end_seconds": 117.33333333333333,
+        "emitted_seconds": 118.069778569974,
+        "has_text": true,
+        "text": "transcription box... Or we can "
+      },
+      {
+        "audio_available_seconds": 120.8,
+        "chunk_end_seconds": 120.26666666666667,
+        "emitted_seconds": 121.14151999994647,
+        "has_text": true,
+        "text": "put an extra button, extra three buttons next to the summarise button, "
+      },
+      {
+        "audio_available_seconds": 123.73333333333333,
+        "chunk_end_seconds": 123.2,
+        "emitted_seconds": 123.98504978604615,
+        "has_text": true,
+        "text": "so that you actually, in the transcription box, "
+      },
+      {
+        "audio_available_seconds": 126.66666666666667,
+        "chunk_end_seconds": 126.13333333333334,
+        "emitted_seconds": 126.95917062996887,
+        "has_text": true,
+        "text": "click on a button and then it opens to a, a "
+      },
+      {
+        "audio_available_seconds": 129.6,
+        "chunk_end_seconds": 129.06666666666666,
+        "emitted_seconds": 129.88842974696308,
+        "has_text": true,
+        "text": "speaker characterisation. \n Speaker 3:The problem is, "
+      },
+      {
+        "audio_available_seconds": 132.53333333333333,
+        "chunk_end_seconds": 132.0,
+        "emitted_seconds": 132.73142837896012,
+        "has_text": true,
+        "text": "the, the left click is already "
+      },
+      {
+        "audio_available_seconds": 135.46666666666667,
+        "chunk_end_seconds": 134.93333333333334,
+        "emitted_seconds": 135.68343839398585,
+        "has_text": true,
+        "text": "used because it highlights that, um, "
+      },
+      {
+        "audio_available_seconds": 138.4,
+        "chunk_end_seconds": 137.86666666666667,
+        "emitted_seconds": 138.58768626104575,
+        "has_text": true,
+        "text": "that part of speech or whatever "
+      },
+      {
+        "audio_available_seconds": 141.33333333333334,
+        "chunk_end_seconds": 140.8,
+        "emitted_seconds": 141.91543226502836,
+        "has_text": true,
+        "text": "that, what he's saying. \n Speaker 1:So d\u2014 the left click, mm-hmm. \n Speaker 3:The "
+      },
+      {
+        "audio_available_seconds": 144.26666666666668,
+        "chunk_end_seconds": 143.73333333333332,
+        "emitted_seconds": 144.7356775739463,
+        "has_text": true,
+        "text": "left click highlights it. \n Speaker 1:Right. \n Speaker 3:So that you can, "
+      },
+      {
+        "audio_available_seconds": 147.2,
+        "chunk_end_seconds": 146.66666666666666,
+        "emitted_seconds": 147.45403760601766,
+        "has_text": true,
+        "text": "I don't know what happens when you double click "
+      },
+      {
+        "audio_available_seconds": 150.13333333333333,
+        "chunk_end_seconds": 149.6,
+        "emitted_seconds": 150.5046004879987,
+        "has_text": true,
+        "text": "actually. But that'd be a bit annoying if you have a left click for "
+      },
+      {
+        "audio_available_seconds": 153.06666666666666,
+        "chunk_end_seconds": 152.53333333333333,
+        "emitted_seconds": 153.28508853004314,
+        "has_text": true,
+        "text": "one thing and double click for something else."
+      },
+      {
+        "audio_available_seconds": 156.0,
+        "chunk_end_seconds": 155.46666666666667,
+        "emitted_seconds": 156.4927912290441,
+        "has_text": true,
+        "text": " \n Speaker 1:Hmm. \n Speaker 3:Um, I think, so yeah, when you left "
+      },
+      {
+        "audio_available_seconds": 158.93333333333334,
+        "chunk_end_seconds": 158.4,
+        "emitted_seconds": 159.3179242189508,
+        "has_text": true,
+        "text": "click it, you can, for example, set, set the marker there so that "
+      },
+      {
+        "audio_available_seconds": 161.86666666666667,
+        "chunk_end_seconds": 161.33333333333334,
+        "emitted_seconds": 162.12008642894216,
+        "has_text": true,
+        "text": "the, the audio goes from there, I think."
+      },
+      {
+        "audio_available_seconds": 164.8,
+        "chunk_end_seconds": 164.26666666666668,
+        "emitted_seconds": 165.30542911798693,
+        "has_text": true,
+        "text": " \n Speaker 1:Right. \n Speaker 3:Um, so we can't put it on left click, "
+      },
+      {
+        "audio_available_seconds": 167.73333333333332,
+        "chunk_end_seconds": 167.2,
+        "emitted_seconds": 168.08077141304966,
+        "has_text": true,
+        "text": "we could put it on a right click. We could, for example, "
+      },
+      {
+        "audio_available_seconds": 170.66666666666666,
+        "chunk_end_seconds": 170.13333333333333,
+        "emitted_seconds": 170.92367139598355,
+        "has_text": true,
+        "text": "have it on a menu that pops up when you "
+      },
+      {
+        "audio_available_seconds": 173.6,
+        "chunk_end_seconds": 173.06666666666666,
+        "emitted_seconds": 174.03446972102392,
+        "has_text": true,
+        "text": "double click it, or something. \n Speaker 1:Yeah, that would be quite a good "
+      },
+      {
+        "audio_available_seconds": 176.53333333333333,
+        "chunk_end_seconds": 176.0,
+        "emitted_seconds": 177.07509378099348,
+        "has_text": true,
+        "text": "idea. \n Speaker 3:So right click on a menu, you know, and you can click on speaker characterisation up "
+      },
+      {
+        "audio_available_seconds": 179.46666666666667,
+        "chunk_end_seconds": 178.93333333333334,
+        "emitted_seconds": 179.90117438405287,
+        "has_text": true,
+        "text": "pops, I dunno. \n Speaker 1:What else can we have in the, "
+      },
+      {
+        "audio_available_seconds": 182.4,
+        "chunk_end_seconds": 181.86666666666667,
+        "emitted_seconds": 182.72799456398934,
+        "has_text": true,
+        "text": "um... \n Speaker 3:That's a good point. I "
+      },
+      {
+        "audio_available_seconds": 185.33333333333334,
+        "chunk_end_seconds": 184.8,
+        "emitted_seconds": 185.714903319953,
+        "has_text": true,
+        "text": "dunno. \n Speaker 1:So otherwise is just a right click will "
+      },
+      {
+        "audio_available_seconds": 188.26666666666668,
+        "chunk_end_seconds": 187.73333333333332,
+        "emitted_seconds": 188.75584750494454,
+        "has_text": true,
+        "text": "do. \n Speaker 3:Yeah, I know, but, um, I don't know about you, "
+      },
+      {
+        "audio_available_seconds": 191.2,
+        "chunk_end_seconds": 190.66666666666666,
+        "emitted_seconds": 191.4597902620444,
+        "has_text": true,
+        "text": "but usually in Windows a right click doesn't do "
+      },
+      {
+        "audio_available_seconds": 194.13333333333333,
+        "chunk_end_seconds": 193.6,
+        "emitted_seconds": 195.07302424800582,
+        "has_text": true,
+        "text": "anything, it opens a menu. \n Speaker 1:But... \n Speaker 1:Isn't it? \n Speaker 1:A menu, yeah, yeah. \n Speaker 3:Yeah. \n Speaker 1:So maybe "
+      },
+      {
+        "audio_available_seconds": 197.06666666666666,
+        "chunk_end_seconds": 196.53333333333333,
+        "emitted_seconds": 197.6833614029456,
+        "has_text": true,
+        "text": "we can do the same. \n Speaker 3:Yeah. \n Speaker 1:Except it might be a bit weird if you were to just "
+      },
+      {
+        "audio_available_seconds": 200.0,
+        "chunk_end_seconds": 199.46666666666667,
+        "emitted_seconds": 200.7578383339569,
+        "has_text": true,
+        "text": "start bringing in stuff in there. \n Speaker 3:So I'll probably, yeah. \n Speaker 3:Yeah. \n Speaker 0:Yeah, to just have some "
+      },
+      {
+        "audio_available_seconds": 202.93333333333334,
+        "chunk_end_seconds": 202.4,
+        "emitted_seconds": 203.29792539798655,
+        "has_text": true,
+        "text": "sort of idiom throw out, you know. \n Speaker 3:Yeah."
+      },
+      {
+        "audio_available_seconds": 205.86666666666667,
+        "chunk_end_seconds": 205.33333333333334,
+        "emitted_seconds": 206.37482958997134,
+        "has_text": true,
+        "text": " \n Speaker 1:Yeah. \n Speaker 0:Yeah. \n Speaker 3:Um, or just, "
+      },
+      {
+        "audio_available_seconds": 208.8,
+        "chunk_end_seconds": 208.26666666666668,
+        "emitted_seconds": 209.29536860901862,
+        "has_text": true,
+        "text": "you know, or just a button. \n Speaker 0:Yeah. \n Speaker 2:I guess a bit "
+      },
+      {
+        "audio_available_seconds": 211.73333333333332,
+        "chunk_end_seconds": 211.2,
+        "emitted_seconds": 212.00838346395176,
+        "has_text": true,
+        "text": "of, um, button makes a bit more sense cause "
+      },
+      {
+        "audio_available_seconds": 214.66666666666666,
+        "chunk_end_seconds": 214.13333333333333,
+        "emitted_seconds": 214.86931258800905,
+        "has_text": true,
+        "text": "otherwise you don't really know that "
+      },
+      {
+        "audio_available_seconds": 217.6,
+        "chunk_end_seconds": 217.06666666666666,
+        "emitted_seconds": 217.8215335169807,
+        "has_text": true,
+        "text": "oh, what if I right click that "
+      },
+      {
+        "audio_available_seconds": 220.53333333333333,
+        "chunk_end_seconds": 220.0,
+        "emitted_seconds": 221.189124720986,
+        "has_text": true,
+        "text": "and what happens then \n Speaker 3:Well, no, no, you still have the menu. \n Speaker 1:Yeah, it's a bit "
+      },
+      {
+        "audio_available_seconds": 223.46666666666667,
+        "chunk_end_seconds": 222.93333333333334,
+        "emitted_seconds": 224.0502556139836,
+        "has_text": true,
+        "text": "shallow. \n Speaker 2:Yeah. \n Speaker 3:The menu's pop up. \n Speaker 1:It's more..."
+      },
+      {
+        "audio_available_seconds": 226.4,
+        "chunk_end_seconds": 225.86666666666667,
+        "emitted_seconds": 226.89297262695618,
+        "has_text": true,
+        "text": " \n Speaker 3:Well, oh yeah, it's more obvious, isn't it, if you make it "
+      },
+      {
+        "audio_available_seconds": 229.33333333333334,
+        "chunk_end_seconds": 228.8,
+        "emitted_seconds": 230.2808662529569,
+        "has_text": true,
+        "text": "big and... \n Speaker 1:It's more in the, in the presentation, isn't it, if it's got a button. \n Speaker 3:Yeah. Yeah, that's true. \n Speaker 2:Yeah."
+      },
+      {
+        "audio_available_seconds": 232.26666666666668,
+        "chunk_end_seconds": 231.73333333333332,
+        "emitted_seconds": 232.97810340696014,
+        "has_text": true,
+        "text": " \n Speaker 3:That's true, yeah, it's more intuitive. \n Speaker 1:Yeah. \n Speaker 0:Well, then it's not as "
+      },
+      {
+        "audio_available_seconds": 235.2,
+        "chunk_end_seconds": 234.66666666666666,
+        "emitted_seconds": 235.96681122202426,
+        "has_text": true,
+        "text": "expensive, like if we wanna add more things in the future then we'll add, I dunno, more buttons. \n Speaker 1:Yeah. \n Speaker 1:And "
+      },
+      {
+        "audio_available_seconds": 238.13333333333333,
+        "chunk_end_seconds": 237.6,
+        "emitted_seconds": 238.71799265698064,
+        "has_text": true,
+        "text": "worse, it's... \n Speaker 0:Maybe. \n Speaker 3:Maybe. \n Speaker 0:More flexible, "
+      },
+      {
+        "audio_available_seconds": 240.0,
+        "chunk_end_seconds": 240.0,
+        "emitted_seconds": 240.49344174202997,
+        "has_text": true,
+        "text": "more, yeah. \n Speaker 1:Yeah, well in a... \n Speaker 0:But, um..."
+      }
+    ],
+    "metadata": {
+      "raw_output": " \n Speaker 0:So I'm just, I'm just wondering how much of the meetings is talking about the stuff we need to talk about. \n Speaker 1:Yeah, exactly. \n Speaker 2:Yeah, yeah, yeah. \n Speaker 1:Yeah, yeah, yeah. \n Speaker 3:Yeah, yeah, yeah. \n Speaker 1:We're starting already. \n Speaker 3:Shall we start? \n Speaker 1:Yeah. \n Speaker 3:Okay. \n Speaker 1:Right. \n Speaker 3:So, shall we begin? \n Speaker 1:Okay. \n Speaker 3:So, talk about the things. \n Speaker 1:Does anyone\u2014 \n Speaker 3:Shall we just go around and everyone says what they, what they've been doing? \n Speaker 1:Has anybody done anything? \n Speaker 0:No, I haven't. \n Speaker 1:No. \n Speaker 3:Well, I hope so. Yeah. \n Speaker 0:Okay, sounds like you've done something. \n Speaker 1:Yeah, exactly. \n Speaker 3:Okay, well, I've got a browser now, which, whoops, are in the north. \n Speaker 1:Whoops, no. \n Speaker 3:Mm-hmm. \n Speaker 1:Oh, I don't mind, but... \n Speaker 1:Geez. \n Speaker 3:It's also the good stuff. \n Speaker 3:Okay. \n Speaker 1:Yeah. \n Speaker 3:So, yeah, we've got a browser, we, um, which comes up automatically with the transcription box and the topics.And then when you go on the menu, you can select a summarisation box, which pops up.And an audio player. \n Speaker 1:Right. \n Speaker 3:Um, and I s\u2014 I think the search works as well, so you pop up a search. And it loads up, um, just the background window, so empty. And, um, so when you start, you have to either open, open a particular observation or do a search. And open it through that.Does that make sense?Um, the transcription box has got a summarise bot\u2014 button, which doesn't do anything yet. \n Speaker 3:Um, now I wonder how we wanna do, you know... We want a pop up window with a speaker characterisation.Um, either we could do that, you know, when does the pop up come? Either we can, when you click on the, the I.D., any sort of I.D. in the transcription box... Or we can put an extra button, extra three buttons next to the summarise button, so that you actually, in the transcription box, click on a button and then it opens to a, a speaker characterisation. \n Speaker 3:The problem is, the, the left click is already used because it highlights that, um, that part of speech or whatever that, what he's saying. \n Speaker 1:So d\u2014 the left click, mm-hmm. \n Speaker 3:The left click highlights it. \n Speaker 1:Right. \n Speaker 3:So that you can, I don't know what happens when you double click actually. But that'd be a bit annoying if you have a left click for one thing and double click for something else. \n Speaker 1:Hmm. \n Speaker 3:Um, I think, so yeah, when you left click it, you can, for example, set, set the marker there so that the, the audio goes from there, I think. \n Speaker 1:Right. \n Speaker 3:Um, so we can't put it on left click, we could put it on a right click. We could, for example, have it on a menu that pops up when you double click it, or something. \n Speaker 1:Yeah, that would be quite a good idea. \n Speaker 3:So right click on a menu, you know, and you can click on speaker characterisation up pops, I dunno. \n Speaker 1:What else can we have in the, um... \n Speaker 3:That's a good point. I dunno. \n Speaker 1:So otherwise is just a right click will do. \n Speaker 3:Yeah, I know, but, um, I don't know about you, but usually in Windows a right click doesn't do anything, it opens a menu. \n Speaker 1:But... \n Speaker 1:Isn't it? \n Speaker 1:A menu, yeah, yeah. \n Speaker 3:Yeah. \n Speaker 1:So maybe we can do the same. \n Speaker 3:Yeah. \n Speaker 1:Except it might be a bit weird if you were to just start bringing in stuff in there. \n Speaker 3:So I'll probably, yeah. \n Speaker 3:Yeah. \n Speaker 0:Yeah, to just have some sort of idiom throw out, you know. \n Speaker 3:Yeah. \n Speaker 1:Yeah. \n Speaker 0:Yeah. \n Speaker 3:Um, or just, you know, or just a button. \n Speaker 0:Yeah. \n Speaker 2:I guess a bit of, um, button makes a bit more sense cause otherwise you don't really know that oh, what if I right click that and what happens then \n Speaker 3:Well, no, no, you still have the menu. \n Speaker 1:Yeah, it's a bit shallow. \n Speaker 2:Yeah. \n Speaker 3:The menu's pop up. \n Speaker 1:It's more... \n Speaker 3:Well, oh yeah, it's more obvious, isn't it, if you make it big and... \n Speaker 1:It's more in the, in the presentation, isn't it, if it's got a button. \n Speaker 3:Yeah. Yeah, that's true. \n Speaker 2:Yeah. \n Speaker 3:That's true, yeah, it's more intuitive. \n Speaker 1:Yeah. \n Speaker 0:Well, then it's not as expensive, like if we wanna add more things in the future then we'll add, I dunno, more buttons. \n Speaker 1:Yeah. \n Speaker 1:And worse, it's... \n Speaker 0:Maybe. \n Speaker 3:Maybe. \n Speaker 0:More flexible, more, yeah. \n Speaker 1:Yeah, well in a... \n Speaker 0:But, um...",
+      "realtime_paced": true,
+      "stream_compute_seconds": 31.156339486828074,
+      "timing_reason": "Official streaming output has no speech timestamps",
+      "generation_limit_hit": null,
+      "stream_output_parser": "joined-chunks-v1"
+    }
+  },
+  "wall_seconds": 240.54353335802443,
+  "rtf": 1.0022647223251018,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 17700759552,
+      "reserved_bytes": 17943232512
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 3490643968
+}

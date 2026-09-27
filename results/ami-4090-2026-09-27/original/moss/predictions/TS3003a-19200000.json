@@ -1,0 +1,598 @@
+{
+  "id": "TS3003a-19200000",
+  "duration": 240.0,
+  "seed": 3465313605,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "S01",
+        "text": "Sit down, I think. It's easier.",
+        "start": 0.0,
+        "end": 1.94
+      },
+      {
+        "speaker": "S02",
+        "text": "I'm gonna go last.",
+        "start": 2.0,
+        "end": 2.78
+      },
+      {
+        "speaker": "S01",
+        "text": "I've got a message. Five minutes. Okay, that's a good time.",
+        "start": 4.43,
+        "end": 8.75
+      },
+      {
+        "speaker": "S03",
+        "text": "Five minutes, okay.",
+        "start": 7.0,
+        "end": 7.86
+      },
+      {
+        "speaker": "S04",
+        "text": "So just on a side note, why is it my laptop is only giving me a black screen?",
+        "start": 10.03,
+        "end": 14.13
+      },
+      {
+        "speaker": "S01",
+        "text": "It's",
+        "start": 10.65,
+        "end": 10.99
+      },
+      {
+        "speaker": "S03",
+        "text": "Hmm.",
+        "start": 14.54,
+        "end": 14.74
+      },
+      {
+        "speaker": "S01",
+        "text": "Well maybe you have to say the magic word.",
+        "start": 15.24,
+        "end": 17.38
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 18.58,
+        "end": 18.86
+      },
+      {
+        "speaker": "S02",
+        "text": "Right.",
+        "start": 19.54,
+        "end": 19.88
+      },
+      {
+        "speaker": "S01",
+        "text": "Does it do anything?",
+        "start": 21.08,
+        "end": 22.02
+      },
+      {
+        "speaker": "S03",
+        "text": "No.",
+        "start": 22.76,
+        "end": 22.94
+      },
+      {
+        "speaker": "S01",
+        "text": "Maybe you have to just clap it down.",
+        "start": 23.41,
+        "end": 25.51
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm, back up again.",
+        "start": 27.9,
+        "end": 29.11
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm, slats you. Hmm.",
+        "start": 33.95,
+        "end": 36.0
+      },
+      {
+        "speaker": "S02",
+        "text": "It's off now.",
+        "start": 36.08,
+        "end": 36.68
+      },
+      {
+        "speaker": "S01",
+        "text": "It's off. Right, it's put it back on. Yeah, okay.",
+        "start": 37.32,
+        "end": 40.14
+      },
+      {
+        "speaker": "S02",
+        "text": "Well it was on.",
+        "start": 40.52,
+        "end": 41.12
+      },
+      {
+        "speaker": "S01",
+        "text": "Ah, it's those laptops.",
+        "start": 43.71,
+        "end": 45.38
+      },
+      {
+        "speaker": "S02",
+        "text": "Okay, there we are.",
+        "start": 47.05,
+        "end": 47.82
+      },
+      {
+        "speaker": "S01",
+        "text": "Nice. Okay, but some does everybody has um experiences with uh remote controls and I mean not the ordinary remote controls but also a little bit different ones.",
+        "start": 48.38,
+        "end": 61.62
+      },
+      {
+        "speaker": "S02",
+        "text": "Hmm.",
+        "start": 61.99,
+        "end": 62.25
+      },
+      {
+        "speaker": "S01",
+        "text": "Like you can use for other",
+        "start": 62.51,
+        "end": 64.11
+      },
+      {
+        "speaker": "S03",
+        "text": "No, really.",
+        "start": 64.28,
+        "end": 64.76
+      },
+      {
+        "speaker": "S01",
+        "text": "No.",
+        "start": 65.55,
+        "end": 65.85
+      },
+      {
+        "speaker": "S02",
+        "text": "Hmm.",
+        "start": 66.02,
+        "end": 66.24
+      },
+      {
+        "speaker": "S04",
+        "text": "Well, we have a kinda broad T_V_ at home and a D_V_D_ player, so we got like a lot of remote controls, one for the T_V_, one for the video recorder, one for the D_V_D_ player.",
+        "start": 67.46,
+        "end": 79.1
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 67.76,
+        "end": 68.24
+      },
+      {
+        "speaker": "S03",
+        "text": "Okay.",
+        "start": 76.61,
+        "end": 77.06
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 79.27,
+        "end": 79.57
+      },
+      {
+        "speaker": "S04",
+        "text": "And I think it's it would be best to just make one remote control that can operate them all.",
+        "start": 80.3,
+        "end": 84.36
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 84.68,
+        "end": 84.91
+      },
+      {
+        "speaker": "S03",
+        "text": "True.",
+        "start": 85.02,
+        "end": 85.24
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah, I've I've got one at home and you can uh program I think eight different devices in it and you can use it for your television, anything else.",
+        "start": 85.66,
+        "end": 96.01
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 86.22,
+        "end": 86.4
+      },
+      {
+        "speaker": "S04",
+        "text": "Okay.",
+        "start": 93.1,
+        "end": 93.7
+      },
+      {
+        "speaker": "S03",
+        "text": "Okay, yeah.",
+        "start": 94.73,
+        "end": 95.36
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 95.75,
+        "end": 95.96
+      },
+      {
+        "speaker": "S01",
+        "text": "And it also operates on infrared, so you have you got a little device inside your room and then you can operate it from the third or th the second floor.",
+        "start": 96.56,
+        "end": 107.53
+      },
+      {
+        "speaker": "S03",
+        "text": "Okay, yeah.",
+        "start": 106.32,
+        "end": 107.11
+      },
+      {
+        "speaker": "S04",
+        "text": "Oh really?",
+        "start": 108.07,
+        "end": 108.52
+      },
+      {
+        "speaker": "S01",
+        "text": "So that's pretty handy when you have a video recorder or D_V_D_ player downstairs and you've got it linked to your T_V_ on the second floor.",
+        "start": 108.71,
+        "end": 116.18
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 113.82,
+        "end": 113.98
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 116.76,
+        "end": 117.0
+      },
+      {
+        "speaker": "S03",
+        "text": "Mm-hmm.",
+        "start": 117.11,
+        "end": 117.36
+      },
+      {
+        "speaker": "S01",
+        "text": "So that's a pretty handy uh",
+        "start": 117.16,
+        "end": 118.86
+      },
+      {
+        "speaker": "S01",
+        "text": "thing.",
+        "start": 120.2,
+        "end": 120.54
+      },
+      {
+        "speaker": "S01",
+        "text": "Um, but only the I think the if you can put different kind of devices in one remote control, that makes it a lot easier as well. It's uh",
+        "start": 121.84,
+        "end": 134.74
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 134.2,
+        "end": 134.48
+      },
+      {
+        "speaker": "S03",
+        "text": "Hmm.",
+        "start": 135.1,
+        "end": 135.28
+      },
+      {
+        "speaker": "S01",
+        "text": "It's good to remember.",
+        "start": 136.51,
+        "end": 137.57
+      },
+      {
+        "speaker": "S04",
+        "text": "So I think you can take minutes again.",
+        "start": 137.75,
+        "end": 139.71
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah, it's nice.",
+        "start": 139.89,
+        "end": 141.01
+      },
+      {
+        "speaker": "S04",
+        "text": "I think.",
+        "start": 141.05,
+        "end": 141.48
+      },
+      {
+        "speaker": "S02",
+        "text": "It's a journey, John.",
+        "start": 141.56,
+        "end": 142.38
+      },
+      {
+        "speaker": "S01",
+        "text": "So we we want different functions.",
+        "start": 142.52,
+        "end": 144.84
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 146.07,
+        "end": 146.32
+      },
+      {
+        "speaker": "S01",
+        "text": "Uh",
+        "start": 146.77,
+        "end": 147.54
+      },
+      {
+        "speaker": "S01",
+        "text": "and we can maybe see if we can do something with infrared, but I don't know if that will exceed the production costs. That uh that's something we have to find out, I think.",
+        "start": 148.75,
+        "end": 160.14
+      },
+      {
+        "speaker": "S03",
+        "text": "Mm.",
+        "start": 157.36,
+        "end": 157.61
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah, but that would be really good, if we could do that.",
+        "start": 160.49,
+        "end": 163.64
+      },
+      {
+        "speaker": "S01",
+        "text": "Um, other functions for a remote control.",
+        "start": 165.91,
+        "end": 168.88
+      },
+      {
+        "speaker": "S01",
+        "text": "Maybe we can make it uh",
+        "start": 170.42,
+        "end": 172.21
+      },
+      {
+        "speaker": "S03",
+        "text": "Um",
+        "start": 171.08,
+        "end": 171.61
+      },
+      {
+        "speaker": "S04",
+        "text": "Think it has to be shockproof.",
+        "start": 174.23,
+        "end": 175.36
+      },
+      {
+        "speaker": "S02",
+        "text": "Shock.",
+        "start": 176.0,
+        "end": 176.28
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 176.52,
+        "end": 176.78
+      },
+      {
+        "speaker": "S04",
+        "text": "Because",
+        "start": 176.58,
+        "end": 176.91
+      },
+      {
+        "speaker": "S02",
+        "text": "Shockproof.",
+        "start": 177.28,
+        "end": 177.92
+      },
+      {
+        "speaker": "S04",
+        "text": "My remote control tends to fall uh",
+        "start": 178.4,
+        "end": 180.46
+      },
+      {
+        "speaker": "S03",
+        "text": "All approved or uh",
+        "start": 179.8,
+        "end": 180.88
+      },
+      {
+        "speaker": "S04",
+        "text": "So",
+        "start": 181.85,
+        "end": 182.2
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, you never know, no, I g I b I mean uh",
+        "start": 182.16,
+        "end": 184.92
+      },
+      {
+        "speaker": "S02",
+        "text": "All approved.",
+        "start": 186.88,
+        "end": 187.61
+      },
+      {
+        "speaker": "S01",
+        "text": "Okay, so these are um few things we can think of.",
+        "start": 189.77,
+        "end": 193.61
+      },
+      {
+        "speaker": "S01",
+        "text": "Um, I will put the minutes from this meeting uh in our project folder.",
+        "start": 194.94,
+        "end": 200.26
+      },
+      {
+        "speaker": "S03",
+        "text": "Okay.",
+        "start": 201.31,
+        "end": 201.54
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah, one other little thing, I thought it might be handy to put a battery status display on it.",
+        "start": 201.47,
+        "end": 207.68
+      },
+      {
+        "speaker": "S04",
+        "text": "So it can see",
+        "start": 208.76,
+        "end": 209.41
+      },
+      {
+        "speaker": "S01",
+        "text": "It's",
+        "start": 208.8,
+        "end": 209.05
+      },
+      {
+        "speaker": "S02",
+        "text": "Battery status.",
+        "start": 209.58,
+        "end": 210.41
+      },
+      {
+        "speaker": "S03",
+        "text": "Okay, yeah.",
+        "start": 210.35,
+        "end": 210.96
+      },
+      {
+        "speaker": "S04",
+        "text": "How much is left in the battery.",
+        "start": 210.83,
+        "end": 212.08
+      },
+      {
+        "speaker": "S04",
+        "text": "But it will also really drag up the production costs, so I think we'll have to see about that too.",
+        "start": 214.3,
+        "end": 219.94
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 218.67,
+        "end": 218.92
+      },
+      {
+        "speaker": "S03",
+        "text": "Hmm.",
+        "start": 220.3,
+        "end": 220.58
+      },
+      {
+        "speaker": "S01",
+        "text": "Ah.",
+        "start": 221.58,
+        "end": 221.81
+      },
+      {
+        "speaker": "S04",
+        "text": "But maybe just a little LED, I don't know.",
+        "start": 222.16,
+        "end": 224.34
+      },
+      {
+        "speaker": "S01",
+        "text": "That's an idea as well. Other ideas?",
+        "start": 225.65,
+        "end": 227.92
+      },
+      {
+        "speaker": "S01",
+        "text": "Quick ideas?",
+        "start": 229.28,
+        "end": 229.94
+      },
+      {
+        "speaker": "S03",
+        "text": "True.",
+        "start": 230.38,
+        "end": 230.61
+      },
+      {
+        "speaker": "S03",
+        "text": "They were all mentioned, so.",
+        "start": 231.49,
+        "end": 232.48
+      },
+      {
+        "speaker": "S01",
+        "text": "Okay. Any questions about this uh presentation, kick-off presentation?",
+        "start": 232.57,
+        "end": 237.91
+      },
+      {
+        "speaker": "S04",
+        "text": "Hmm.",
+        "start": 232.6,
+        "end": 232.86
+      },
+      {
+        "speaker": "S01",
+        "text": "Um",
+        "start": 238.46,
+        "end": 238.86
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "[0.00][S01]Sit down, I think. It's easier.[1.94][2.00][S02]I'm gonna go last.[2.78][4.43][S01]I've got a message. Five minutes. Okay, that's a good time.[8.75][7.00][S03]Five minutes, okay.[7.86][10.03][S04]So just on a side note, why is it my laptop is only giving me a black screen?[14.13][10.65][S01]It's[10.99][14.54][S03]Hmm.[14.74][15.24][S01]Well maybe you have to say the magic word.[17.38][18.58][S04]Yeah.[18.86][19.54][S02]Right.[19.88][21.08][S01]Does it do anything?[22.02][22.76][S03]No.[22.94][23.41][S01]Maybe you have to just clap it down.[25.51][27.90][S01]Mm, back up again.[29.11][33.95][S01]Mm, slats you. Hmm.[36.00][36.08][S02]It's off now.[36.68][37.32][S01]It's off. Right, it's put it back on. Yeah, okay.[40.14][40.52][S02]Well it was on.[41.12][43.71][S01]Ah, it's those laptops.[45.38][47.05][S02]Okay, there we are.[47.82][48.38][S01]Nice. Okay, but some does everybody has um experiences with uh remote controls and I mean not the ordinary remote controls but also a little bit different ones.[61.62][61.99][S02]Hmm.[62.25][62.51][S01]Like you can use for other[64.11][64.28][S03]No, really.[64.76][65.55][S01]No.[65.85][66.02][S02]Hmm.[66.24][67.46][S04]Well, we have a kinda broad T_V_ at home and a D_V_D_ player, so we got like a lot of remote controls, one for the T_V_, one for the video recorder, one for the D_V_D_ player.[79.10][67.76][S03]Yeah.[68.24][76.61][S03]Okay.[77.06][79.27][S01]Yeah.[79.57][80.30][S04]And I think it's it would be best to just make one remote control that can operate them all.[84.36][84.68][S01]Yeah.[84.91][85.02][S03]True.[85.24][85.66][S01]Yeah, I've I've got one at home and you can uh program I think eight different devices in it and you can use it for your television, anything else.[96.01][86.22][S03]Yeah.[86.40][93.10][S04]Okay.[93.70][94.73][S03]Okay, yeah.[95.36][95.75][S04]Yeah.[95.96][96.56][S01]And it also operates on infrared, so you have you got a little device inside your room and then you can operate it from the third or th the second floor.[107.53][106.32][S03]Okay, yeah.[107.11][108.07][S04]Oh really?[108.52][108.71][S01]So that's pretty handy when you have a video recorder or D_V_D_ player downstairs and you've got it linked to your T_V_ on the second floor.[116.18][113.82][S03]Yeah.[113.98][116.76][S04]Yeah.[117.00][117.11][S03]Mm-hmm.[117.36][117.16][S01]So that's a pretty handy uh[118.86][120.20][S01]thing.[120.54][121.84][S01]Um, but only the I think the if you can put different kind of devices in one remote control, that makes it a lot easier as well. It's uh[134.74][134.20][S04]Yeah.[134.48][135.10][S03]Hmm.[135.28][136.51][S01]It's good to remember.[137.57][137.75][S04]So I think you can take minutes again.[139.71][139.89][S01]Yeah, it's nice.[141.01][141.05][S04]I think.[141.48][141.56][S02]It's a journey, John.[142.38][142.52][S01]So we we want different functions.[144.84][146.07][S04]Yeah.[146.32][146.77][S01]Uh[147.54][148.75][S01]and we can maybe see if we can do something with infrared, but I don't know if that will exceed the production costs. That uh that's something we have to find out, I think.[160.14][157.36][S03]Mm.[157.61][160.49][S04]Yeah, but that would be really good, if we could do that.[163.64][165.91][S01]Um, other functions for a remote control.[168.88][170.42][S01]Maybe we can make it uh[172.21][171.08][S03]Um[171.61][174.23][S04]Think it has to be shockproof.[175.36][176.00][S02]Shock.[176.28][176.52][S03]Yeah.[176.78][176.58][S04]Because[176.91][177.28][S02]Shockproof.[177.92][178.40][S04]My remote control tends to fall uh[180.46][179.80][S03]All approved or uh[180.88][181.85][S04]So[182.20][182.16][S03]Yeah, you never know, no, I g I b I mean uh[184.92][186.88][S02]All approved.[187.61][189.77][S01]Okay, so these are um few things we can think of.[193.61][194.94][S01]Um, I will put the minutes from this meeting uh in our project folder.[200.26][201.31][S03]Okay.[201.54][201.47][S04]Yeah, one other little thing, I thought it might be handy to put a battery status display on it.[207.68][208.76][S04]So it can see[209.41][208.80][S01]It's[209.05][209.58][S02]Battery status.[210.41][210.35][S03]Okay, yeah.[210.96][210.83][S04]How much is left in the battery.[212.08][214.30][S04]But it will also really drag up the production costs, so I think we'll have to see about that too.[219.94][218.67][S01]Yeah.[218.92][220.30][S03]Hmm.[220.58][221.58][S01]Ah.[221.81][222.16][S04]But maybe just a little LED, I don't know.[224.34][225.65][S01]That's an idea as well. Other ideas?[227.92][229.28][S01]Quick ideas?[229.94][230.38][S03]True.[230.61][231.49][S03]They were all mentioned, so.[232.48][232.57][S01]Okay. Any questions about this uh presentation, kick-off presentation?[237.91][232.60][S04]Hmm.[232.86][238.46][S01]Um[238.86]",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 20.954138592001982,
+  "rtf": 0.08730891080000826,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 2489553408,
+      "reserved_bytes": 2627731456
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 2850721792
+}

@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "scope": "Filesystem metadata made portable for publication; no inference repeated.",
+  "predictions_and_scores": "All 250 prediction files and all 10 per-model score files match the private measured artifacts byte for byte.",
+  "manifest_change": "Audio paths now point to ../../../data/ami-four from each run directory; reference words, timings, audio hashes and source hashes are unchanged.",
+  "plan_change": "Machine paths use ${BENCHMARK_ROOT}; manifest and source-plan digests refer to the public copies.",
+  "metadata_files_rewritten": [
+    "results/ami-4090-2026-09-27/comparison/comparison.json",
+    "results/ami-4090-2026-09-27/comparison/summary.csv",
+    "results/ami-4090-2026-09-27/corrected/manifest.jsonl",
+    "results/ami-4090-2026-09-27/corrected/moss/job.json",
+    "results/ami-4090-2026-09-27/corrected/plan.json",
+    "results/ami-4090-2026-09-27/corrected/qwen_nemotron/job.json",
+    "results/ami-4090-2026-09-27/corrected/qwen_pyannote/job.json",
+    "results/ami-4090-2026-09-27/corrected/reprocessing.json",
+    "results/ami-4090-2026-09-27/corrected/vibevoice/job.json",
+    "results/ami-4090-2026-09-27/corrected/vibevoice_streaming/job.json",
+    "results/ami-4090-2026-09-27/original/manifest.jsonl",
+    "results/ami-4090-2026-09-27/original/moss/job.json",
+    "results/ami-4090-2026-09-27/original/plan.json",
+    "results/ami-4090-2026-09-27/original/qwen_nemotron/job.json",
+    "results/ami-4090-2026-09-27/original/qwen_pyannote/job.json",
+    "results/ami-4090-2026-09-27/original/vibevoice/job.json",
+    "results/ami-4090-2026-09-27/original/vibevoice_streaming/job.json",
+    "results/ami-4090-2026-09-27/provenance/inference-source/configs/five-systems.json",
+    "results/ami-4090-2026-09-27/provenance/packages/pyannote-snapshot-revision.json"
+  ],
+  "metadata_digest_provenance": {
+    "plan.json": {
+      "before_publication": "50ae02953c17e8098758a60a8ade786b8c629070111b3ec4fe6bba5d6759cf55",
+      "published": "9d10f903f7c822251764cef4410529bc5244039c209289225ad0573563890888"
+    },
+    "manifest.jsonl": {
+      "before_publication": "21bb8ac6214caa34b3b53d61e80765f50ae5813424a159350425614b6f2a7e13",
+      "published": "0d7ec4b7e6793e1978f9431826db9e0da385527d1ca91a6e0a492dc129f8e236"
+    }
+  },
+  "model_cache_paths": "${MODEL_CACHE} replaces the originating user cache prefix; model IDs and snapshot revisions are retained.",
+  "csv_change": "Line endings normalized to LF; CSV field values unchanged."
+}

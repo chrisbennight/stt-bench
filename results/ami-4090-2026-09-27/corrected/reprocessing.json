@@ -1,0 +1,186 @@
+{
+  "source_run": "results/ami-4090-2026-09-27/original",
+  "source_plan_sha256": "9d10f903f7c822251764cef4410529bc5244039c209289225ad0573563890888",
+  "parser_source_sha256": "5d639a250a8b75efabbe4833804d8b4bb17d28bd45fac9704508c75827467018",
+  "parser": "joined-chunks-v1",
+  "reason": "Sound annotations, speaker labels, and words can span streaming chunks",
+  "inference_repeated": false,
+  "raw_text_and_measured_times_preserved": true,
+  "records": [
+    {
+      "model": "vibevoice_streaming",
+      "recording": "EN2002a-7680000",
+      "original_prediction_sha256": "29da7a1c25010fe974a2d63454998948034ac391e29838d6b4766d36e3f28900",
+      "speaker_text_changed": false,
+      "speech_event_flags_changed": 0
+    },
+    {
+      "model": "vibevoice_streaming",
+      "recording": "IS1009a-7680000",
+      "original_prediction_sha256": "958ba6a8fee7743e0b8e31888a84b1b06f10900d0d19e684d55b9e2561f298f4",
+      "speaker_text_changed": false,
+      "speech_event_flags_changed": 0
+    },
+    {
+      "model": "vibevoice_streaming",
+      "recording": "TS3003a-23040000",
+      "original_prediction_sha256": "9c84505b295d6618d262ca449e27151625646af499f01caf51de77822aa0ead7",
+      "speaker_text_changed": false,
+      "speech_event_flags_changed": 0
+    },
+    {
+      "model": "vibevoice_streaming",
+      "recording": "ES2004a-15360000",
+      "original_prediction_sha256": "994af7b5343a4aa43671ebcbf2f7de6872cc9423280b5023548c6e535a07a839",
+      "speaker_text_changed": false,
+      "speech_event_flags_changed": 0
+    },
+    {
+      "model": "vibevoice_streaming",
+      "recording": "IS1009a-0",
+      "original_prediction_sha256": "0d403317c3f248f112fa991b1ab03f042cf3a2265bc03b39a7bd682ce6d0dee3",
+      "speaker_text_changed": false,
+      "speech_event_flags_changed": 0
+    },
+    {
+      "model": "vibevoice_streaming",
+      "recording": "IS1009a-11520000",
+      "original_prediction_sha256": "490aa4c8e580f88d900742ec126d05600b2584d77bec8c5b11c9e20274b009a4",
+      "speaker_text_changed": false,
+      "speech_event_flags_changed": 0
+    },
+    {
+      "model": "vibevoice_streaming",
+      "recording": "EN2002a-11520000",
+      "original_prediction_sha256": "8941c35a94eeb42a558e230ca651869f7f388fd2fae5101b6e0cab6e0d05ba6b",
+      "speaker_text_changed": false,
+      "speech_event_flags_changed": 0
+    },
+    {
+      "model": "vibevoice_streaming",
+      "recording": "IS1009a-3840000",
+      "original_prediction_sha256": "8df066b00bf2bf4efd94a780e44b17e0163d8ff4fdc5560a6b7fcfc922190b9b",
+      "speaker_text_changed": false,
+      "speech_event_flags_changed": 0
+    },
+    {
+      "model": "vibevoice_streaming",
+      "recording": "TS3003a-19200000",
+      "original_prediction_sha256": "b0c4a38978d725e00b05976e6c6a360a2d3b3ad8a4915b7860004cc1cd158e98",
+      "speaker_text_changed": false,
+      "speech_event_flags_changed": 0
+    },
+    {
+      "model": "vibevoice_streaming",
+      "recording": "EN2002a-0",
+      "original_prediction_sha256": "e8c8f1ec2d751ca3e7382d18c2d6738ae9ccccfc2b5656b96a71f689bbf57d5a",
+      "speaker_text_changed": false,
+      "speech_event_flags_changed": 0
+    },
+    {
+      "model": "vibevoice_streaming",
+      "recording": "EN2002a-3840000",
+      "original_prediction_sha256": "2a69b9737fbf36d07f5c79b0258cd0f22aa3fd5ec5a9592edca678c84e223ce2",
+      "speaker_text_changed": false,
+      "speech_event_flags_changed": 0
+    },
+    {
+      "model": "vibevoice_streaming",
+      "recording": "EN2002a-19200000",
+      "original_prediction_sha256": "67f1c686faf63f65552e01de65921fd412f8a425e0399c59d7414e12a14d897d",
+      "speaker_text_changed": false,
+      "speech_event_flags_changed": 0
+    },
+    {
+      "model": "vibevoice_streaming",
+      "recording": "ES2004a-11520000",
+      "original_prediction_sha256": "a8b53889835855505a2d38a1c6370505ca3c2b23c2cebcae43a23321eaed83e7",
+      "speaker_text_changed": false,
+      "speech_event_flags_changed": 0
+    },
+    {
+      "model": "vibevoice_streaming",
+      "recording": "EN2002a-26880000",
+      "original_prediction_sha256": "287bc69c01292fcaef54e5b71a8b37952f0104344ab6816d21ee8a206d109255",
+      "speaker_text_changed": false,
+      "speech_event_flags_changed": 0
+    },
+    {
+      "model": "vibevoice_streaming",
+      "recording": "ES2004a-7680000",
+      "original_prediction_sha256": "bfc0a247126e2a6387625519179dfecc4832d8fa922ffe122d93222e2ded709d",
+      "speaker_text_changed": false,
+      "speech_event_flags_changed": 0
+    },
+    {
+      "model": "vibevoice_streaming",
+      "recording": "ES2004a-0",
+      "original_prediction_sha256": "d2d1c5782b8746f64f1691be172f7f21bff194ef910b7345a1ba66ccc60666cc",
+      "speaker_text_changed": false,
+      "speech_event_flags_changed": 0
+    },
+    {
+      "model": "vibevoice_streaming",
+      "recording": "TS3003a-0",
+      "original_prediction_sha256": "0d6c706327e0915e3f9d49f11954e90dfc90cc348ec15b8919e3b0af88206069",
+      "speaker_text_changed": true,
+      "speech_event_flags_changed": 2
+    },
+    {
+      "model": "vibevoice_streaming",
+      "recording": "TS3003a-7680000",
+      "original_prediction_sha256": "22725b1396a9f6e45359729245916fc8cdf66f110eb229afd6e044e86bf379aa",
+      "speaker_text_changed": false,
+      "speech_event_flags_changed": 0
+    },
+    {
+      "model": "vibevoice_streaming",
+      "recording": "TS3003a-11520000",
+      "original_prediction_sha256": "d4c4a8d2ffe7061a296c5cfbe9367f8113fbf764d29d7754e75805f96e16743e",
+      "speaker_text_changed": false,
+      "speech_event_flags_changed": 0
+    },
+    {
+      "model": "vibevoice_streaming",
+      "recording": "TS3003a-3840000",
+      "original_prediction_sha256": "c43be4e8d2a16688cbc355627bb8ad6cee658ccd9e0f899a5cf97571486a613b",
+      "speaker_text_changed": false,
+      "speech_event_flags_changed": 0
+    },
+    {
+      "model": "vibevoice_streaming",
+      "recording": "EN2002a-15360000",
+      "original_prediction_sha256": "26bc730eec677e1a29878cb5444e5a207757bab7c58038aaf99b788feb694596",
+      "speaker_text_changed": false,
+      "speech_event_flags_changed": 0
+    },
+    {
+      "model": "vibevoice_streaming",
+      "recording": "EN2002a-30720000",
+      "original_prediction_sha256": "988d67b0da033117673488b216a90c04102ec4ffbd8094c5ba88839b68310178",
+      "speaker_text_changed": false,
+      "speech_event_flags_changed": 0
+    },
+    {
+      "model": "vibevoice_streaming",
+      "recording": "ES2004a-3840000",
+      "original_prediction_sha256": "e9d6e2f7e75635a72d5d8d19e1ea938ded5c8bb86ed8bc729e750acefdc050c2",
+      "speaker_text_changed": false,
+      "speech_event_flags_changed": 0
+    },
+    {
+      "model": "vibevoice_streaming",
+      "recording": "TS3003a-15360000",
+      "original_prediction_sha256": "46db23361a18f81ea77154b3eaf6f9292c5be6e160c06dce29475a9655bc1337",
+      "speaker_text_changed": false,
+      "speech_event_flags_changed": 0
+    },
+    {
+      "model": "vibevoice_streaming",
+      "recording": "EN2002a-23040000",
+      "original_prediction_sha256": "3bd8afc727df75ddfc2a99199209bed18f579566513c6e902c213bf6e96f8f4b",
+      "speaker_text_changed": false,
+      "speech_event_flags_changed": 0
+    }
+  ]
+}

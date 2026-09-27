@@ -1,0 +1,161 @@
+{
+  "adapter": "moss",
+  "options": {
+    "model": "${MODEL_CACHE}/models--OpenMOSS-Team--MOSS-Transcribe-Diarize/snapshots/704aa4a9c304e8520be88901e0d1960158ef5b15",
+    "device": "cuda:0",
+    "max_new_tokens": 32768
+  },
+  "output": "${BENCHMARK_ROOT}/runs/ami-four-seeded/moss",
+  "records": [
+    {
+      "id": "ES2004a-0",
+      "audio": "${BENCHMARK_ROOT}/data/ami-four/ES2004a-0.wav",
+      "duration": 240.0,
+      "language": "English"
+    },
+    {
+      "id": "ES2004a-3840000",
+      "audio": "${BENCHMARK_ROOT}/data/ami-four/ES2004a-3840000.wav",
+      "duration": 240.0,
+      "language": "English"
+    },
+    {
+      "id": "ES2004a-7680000",
+      "audio": "${BENCHMARK_ROOT}/data/ami-four/ES2004a-7680000.wav",
+      "duration": 240.0,
+      "language": "English"
+    },
+    {
+      "id": "ES2004a-11520000",
+      "audio": "${BENCHMARK_ROOT}/data/ami-four/ES2004a-11520000.wav",
+      "duration": 240.0,
+      "language": "English"
+    },
+    {
+      "id": "ES2004a-15360000",
+      "audio": "${BENCHMARK_ROOT}/data/ami-four/ES2004a-15360000.wav",
+      "duration": 89.3546875,
+      "language": "English"
+    },
+    {
+      "id": "IS1009a-0",
+      "audio": "${BENCHMARK_ROOT}/data/ami-four/IS1009a-0.wav",
+      "duration": 240.0,
+      "language": "English"
+    },
+    {
+      "id": "IS1009a-3840000",
+      "audio": "${BENCHMARK_ROOT}/data/ami-four/IS1009a-3840000.wav",
+      "duration": 240.0,
+      "language": "English"
+    },
+    {
+      "id": "IS1009a-7680000",
+      "audio": "${BENCHMARK_ROOT}/data/ami-four/IS1009a-7680000.wav",
+      "duration": 240.0,
+      "language": "English"
+    },
+    {
+      "id": "IS1009a-11520000",
+      "audio": "${BENCHMARK_ROOT}/data/ami-four/IS1009a-11520000.wav",
+      "duration": 118.9973125,
+      "language": "English"
+    },
+    {
+      "id": "TS3003a-0",
+      "audio": "${BENCHMARK_ROOT}/data/ami-four/TS3003a-0.wav",
+      "duration": 240.0,
+      "language": "English"
+    },
+    {
+      "id": "TS3003a-3840000",
+      "audio": "${BENCHMARK_ROOT}/data/ami-four/TS3003a-3840000.wav",
+      "duration": 240.0,
+      "language": "English"
+    },
+    {
+      "id": "TS3003a-7680000",
+      "audio": "${BENCHMARK_ROOT}/data/ami-four/TS3003a-7680000.wav",
+      "duration": 240.0,
+      "language": "English"
+    },
+    {
+      "id": "TS3003a-11520000",
+      "audio": "${BENCHMARK_ROOT}/data/ami-four/TS3003a-11520000.wav",
+      "duration": 240.0,
+      "language": "English"
+    },
+    {
+      "id": "TS3003a-15360000",
+      "audio": "${BENCHMARK_ROOT}/data/ami-four/TS3003a-15360000.wav",
+      "duration": 240.0,
+      "language": "English"
+    },
+    {
+      "id": "TS3003a-19200000",
+      "audio": "${BENCHMARK_ROOT}/data/ami-four/TS3003a-19200000.wav",
+      "duration": 240.0,
+      "language": "English"
+    },
+    {
+      "id": "TS3003a-23040000",
+      "audio": "${BENCHMARK_ROOT}/data/ami-four/TS3003a-23040000.wav",
+      "duration": 65.642625,
+      "language": "English"
+    },
+    {
+      "id": "EN2002a-0",
+      "audio": "${BENCHMARK_ROOT}/data/ami-four/EN2002a-0.wav",
+      "duration": 240.0,
+      "language": "English"
+    },
+    {
+      "id": "EN2002a-3840000",
+      "audio": "${BENCHMARK_ROOT}/data/ami-four/EN2002a-3840000.wav",
+      "duration": 240.0,
+      "language": "English"
+    },
+    {
+      "id": "EN2002a-7680000",
+      "audio": "${BENCHMARK_ROOT}/data/ami-four/EN2002a-7680000.wav",
+      "duration": 240.0,
+      "language": "English"
+    },
+    {
+      "id": "EN2002a-11520000",
+      "audio": "${BENCHMARK_ROOT}/data/ami-four/EN2002a-11520000.wav",
+      "duration": 240.0,
+      "language": "English"
+    },
+    {
+      "id": "EN2002a-15360000",
+      "audio": "${BENCHMARK_ROOT}/data/ami-four/EN2002a-15360000.wav",
+      "duration": 240.0,
+      "language": "English"
+    },
+    {
+      "id": "EN2002a-19200000",
+      "audio": "${BENCHMARK_ROOT}/data/ami-four/EN2002a-19200000.wav",
+      "duration": 240.0,
+      "language": "English"
+    },
+    {
+      "id": "EN2002a-23040000",
+      "audio": "${BENCHMARK_ROOT}/data/ami-four/EN2002a-23040000.wav",
+      "duration": 240.0,
+      "language": "English"
+    },
+    {
+      "id": "EN2002a-26880000",
+      "audio": "${BENCHMARK_ROOT}/data/ami-four/EN2002a-26880000.wav",
+      "duration": 240.0,
+      "language": "English"
+    },
+    {
+      "id": "EN2002a-30720000",
+      "audio": "${BENCHMARK_ROOT}/data/ami-four/EN2002a-30720000.wav",
+      "duration": 222.709375,
+      "language": "English"
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "models": [
+    {
+      "id": "moss",
+      "adapter": "moss",
+      "python": "${BENCHMARK_ROOT}/.venv-moss/bin/python",
+      "options": {
+        "model": "${MODEL_CACHE}/models--OpenMOSS-Team--MOSS-Transcribe-Diarize/snapshots/704aa4a9c304e8520be88901e0d1960158ef5b15",
+        "device": "cuda:0",
+        "max_new_tokens": 32768
+      },
+      "paths_exist": {
+        "model": true
+      },
+      "model_provenance": {
+        "model": {
+          "snapshot_directory": "704aa4a9c304e8520be88901e0d1960158ef5b15",
+          "config_sha256": {
+            "added_tokens.json": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680",
+            "config.json": "2b2b7a6e61334152bdd7ecf8a4da3073b4940a097e193d1d2b22093e77535234",
+            "generation_config.json": "e53a4b3ce4f944230cf1ca8fed0c42f4ff0d8c1443eaf98b5315d987334dd9e4",
+            "model.safetensors.index.json": "0345ac5d8f360abe4e9adadb5fecd38e7730052b75f64bb58182818b1544cc36",
+            "preprocessor_config.json": "ba2e601484abc80f4cded977f9a4fd4a53175b7d35c2f2511f0cfc3a32ad2499",
+            "processor_config.json": "a978c2dd54a65b576c3dae4b654fe9bcbac1184c6db2df0afb2c90fcdc872ae7",
+            "special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+            "tokenizer.json": "bcf03774334462d6e34b5005cb11120a62275f146ee2953e68731ecdbce84fbb",
+            "tokenizer_config.json": "61d04c96104177240688396655ae3f7cf38ce2ea036db867a1d2b6883e27c3d5",
+            "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+          },
+          "weight_files": [
+            {
+              "name": "model-00000-of-00001.safetensors",
+              "bytes": 1817113576
+            }
+          ]
+        }
+      },
+      "unsupported_recordings": []
+    },
+    {
+      "id": "vibevoice",
+      "adapter": "vibevoice",
+      "python": "${BENCHMARK_ROOT}/.venv-vibevoice/bin/python",
+      "options": {
+        "model": "${MODEL_CACHE}/models--microsoft--VibeVoice-ASR/snapshots/d0c9efdb8d614685062c04425d91e01b6f37d944",
+        "tokenizer": "${MODEL_CACHE}/models--Qwen--Qwen2.5-7B/snapshots/d149729398750b98c0af14eb82c78cfe92750796",
+        "device": "cuda:0",
+        "max_new_tokens": 32768
+      },
+      "paths_exist": {
+        "model": true,
+        "tokenizer": true
+      },
+      "model_provenance": {
+        "model": {
+          "snapshot_directory": "d0c9efdb8d614685062c04425d91e01b6f37d944",
+          "config_sha256": {
+            "config.json": "1798906d016a625ffa0100182cad152e055bfee53fb228a45ffe25d8179b9b24",
+            "model.safetensors.index.json": "1468c7b7c74fe27831d8db57871fbf15efd270c747f3f99caf689119ace658ba"
+          },
+          "weight_files": [
+            {
+              "name": "model-00001-of-00008.safetensors",
+              "bytes": 2488346272
+            },
+            {
+              "name": "model-00002-of-00008.safetensors",
+              "bytes": 2389315976
+            },
+            {
+              "name": "model-00003-of-00008.safetensors",
+              "bytes": 2466376368
+            },
+            {
+              "name": "model-00004-of-00008.safetensors",
+              "bytes": 2466376400
+            },
+            {
+              "name": "model-00005-of-00008.safetensors",
+              "bytes": 2499431136
+            },
+            {
+              "name": "model-00006-of-00008.safetensors",
+              "bytes": 2483469928
+            },
+            {
+              "name": "model-00007-of-00008.safetensors",
+              "bytes": 1464887482
+            },
+            {
+              "name": "model-00008-of-00008.safetensors",
+              "bytes": 1089994848
+            }
+          ]
+        },
+        "tokenizer": {
+          "snapshot_directory": "d149729398750b98c0af14eb82c78cfe92750796",
+          "config_sha256": {
+            "config.json": "267ce68584c5f24c3b267d934db2de68dd21d1ca677fb78ed809eb60067f7642",
+            "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+            "tokenizer_config.json": "c91efca15ceff6e9ee9424db58a6f59cd41294e550a86cbd07e3c1fb500b34f9",
+            "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+          },
+          "weight_files": []
+        }
+      },
+      "unsupported_recordings": []
+    },
+    {
+      "id": "qwen_pyannote",
+      "adapter": "qwen_pyannote",
+      "python": "${BENCHMARK_ROOT}/.venv-qwen_pyannote/bin/python",
+      "options": {
+        "model": "${MODEL_CACHE}/models--Qwen--Qwen3-ASR-1.7B/snapshots/7278e1e70fe206f11671096ffdd38061171dd6e5",
+        "aligner": "${MODEL_CACHE}/models--Qwen--Qwen3-ForcedAligner-0.6B/snapshots/c7cbfc2048c462b0d63a45797104fc9db3ad62b7",
+        "diarizer": "${BENCHMARK_ROOT}/models/pyannote",
+        "device": "cuda:0",
+        "asr_chunk_seconds": 30
+      },
+      "paths_exist": {
+        "model": true,
+        "aligner": true,
+        "diarizer": true
+      },
+      "model_provenance": {
+        "model": {
+          "snapshot_directory": "7278e1e70fe206f11671096ffdd38061171dd6e5",
+          "config_sha256": {
+            "chat_template.json": "75a8cfca24f00de72d796fbfed6858fc9614ef3dabd8696684cc3bc03a9c58ff",
+            "config.json": "2e74a751548b8ad7d7526d29365ad8144c345d8b412b1152d25dc6698452712f",
+            "generation_config.json": "1da527824d81e07118facff437e03f2e24a23311e3bdeb2368973fe77e5f275c",
+            "model.safetensors.index.json": "f994739fe38e5210b9e3e8ce6c6307315e2ceac3cb630e7b7414d69dce520f60",
+            "preprocessor_config.json": "45e120a4eda2c20c5d7f2ea9354e63536bf35e27aa573fb7cdf78017b378770d",
+            "tokenizer_config.json": "4942d005604266809309cabc9f4e9cb89ce855d59b14681fdc0e1cc62ea26c4c",
+            "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+          },
+          "weight_files": [
+            {
+              "name": "model-00001-of-00002.safetensors",
+              "bytes": 4220320824
+            },
+            {
+              "name": "model-00002-of-00002.safetensors",
+              "bytes": 478200688
+            }
+          ]
+        },
+        "aligner": {
+          "snapshot_directory": "c7cbfc2048c462b0d63a45797104fc9db3ad62b7",
+          "config_sha256": {
+            "chat_template.json": "75a8cfca24f00de72d796fbfed6858fc9614ef3dabd8696684cc3bc03a9c58ff",
+            "config.json": "d616c65d46c4b90bdc651b0a0963ea932732241140f337f9bb6b0335a9c8ef09",
+            "generation_config.json": "948d089b23bca1d214e768d59c4438365665f52ec6d33678f4062206b3fbbb8c",
+            "preprocessor_config.json": "45e120a4eda2c20c5d7f2ea9354e63536bf35e27aa573fb7cdf78017b378770d",
+            "tokenizer_config.json": "3ab80063f8511deb9566e6ad438d17b7a6277fcffd52d92854112f19d36bd81c",
+            "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+          },
+          "weight_files": [
+            {
+              "name": "model.safetensors",
+              "bytes": 1835544544
+            }
+          ]
+        },
+        "diarizer": {
+          "snapshot_directory": "pyannote",
+          "config_sha256": {
+            "snapshot-revision.json": "68c24d4b4fc7dc59e71e27c660433b2f1fa89538be42ee257ee9bc81512cb9a4"
+          },
+          "weight_files": []
+        }
+      },
+      "unsupported_recordings": []
+    },
+    {
+      "id": "qwen_nemotron",
+      "adapter": "qwen_nemotron",
+      "python": "${BENCHMARK_ROOT}/.venv-qwen_nemotron/bin/python",
+      "options": {
+        "model": "${MODEL_CACHE}/models--Qwen--Qwen3-ASR-1.7B/snapshots/7278e1e70fe206f11671096ffdd38061171dd6e5",
+        "aligner": "${MODEL_CACHE}/models--Qwen--Qwen3-ForcedAligner-0.6B/snapshots/c7cbfc2048c462b0d63a45797104fc9db3ad62b7",
+        "diarizer": "${MODEL_CACHE}/blobs/f4/f45de62bab823f84f69c721a396d6f2f8b612a3449f235752656c1b033fc04bf",
+        "device": "cuda:0",
+        "asr_chunk_seconds": 30
+      },
+      "paths_exist": {
+        "model": true,
+        "aligner": true,
+        "diarizer": true
+      },
+      "model_provenance": {
+        "model": {
+          "snapshot_directory": "7278e1e70fe206f11671096ffdd38061171dd6e5",
+          "config_sha256": {
+            "chat_template.json": "75a8cfca24f00de72d796fbfed6858fc9614ef3dabd8696684cc3bc03a9c58ff",
+            "config.json": "2e74a751548b8ad7d7526d29365ad8144c345d8b412b1152d25dc6698452712f",
+            "generation_config.json": "1da527824d81e07118facff437e03f2e24a23311e3bdeb2368973fe77e5f275c",
+            "model.safetensors.index.json": "f994739fe38e5210b9e3e8ce6c6307315e2ceac3cb630e7b7414d69dce520f60",
+            "preprocessor_config.json": "45e120a4eda2c20c5d7f2ea9354e63536bf35e27aa573fb7cdf78017b378770d",
+            "tokenizer_config.json": "4942d005604266809309cabc9f4e9cb89ce855d59b14681fdc0e1cc62ea26c4c",
+            "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+          },
+          "weight_files": [
+            {
+              "name": "model-00001-of-00002.safetensors",
+              "bytes": 4220320824
+            },
+            {
+              "name": "model-00002-of-00002.safetensors",
+              "bytes": 478200688
+            }
+          ]
+        },
+        "aligner": {
+          "snapshot_directory": "c7cbfc2048c462b0d63a45797104fc9db3ad62b7",
+          "config_sha256": {
+            "chat_template.json": "75a8cfca24f00de72d796fbfed6858fc9614ef3dabd8696684cc3bc03a9c58ff",
+            "config.json": "d616c65d46c4b90bdc651b0a0963ea932732241140f337f9bb6b0335a9c8ef09",
+            "generation_config.json": "948d089b23bca1d214e768d59c4438365665f52ec6d33678f4062206b3fbbb8c",
+            "preprocessor_config.json": "45e120a4eda2c20c5d7f2ea9354e63536bf35e27aa573fb7cdf78017b378770d",
+            "tokenizer_config.json": "3ab80063f8511deb9566e6ad438d17b7a6277fcffd52d92854112f19d36bd81c",
+            "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+          },
+          "weight_files": [
+            {
+              "name": "model.safetensors",
+              "bytes": 1835544544
+            }
+          ]
+        },
+        "diarizer": {
+          "sha256": "867c53f552998f772e5b5e5c082962ae85ee7ca5669c2bc17d7f615133d4e96d"
+        }
+      },
+      "unsupported_recordings": []
+    },
+    {
+      "id": "vibevoice_streaming",
+      "adapter": "vibevoice_streaming",
+      "python": "${BENCHMARK_ROOT}/.venv-vibevoice/bin/python",
+      "options": {
+        "model": "${MODEL_CACHE}/models--microsoft--VibeVoice-ASR-Streaming-7B/snapshots/60d858b518b4e19d404af3737f848fc185b30177",
+        "device": "cuda:0",
+        "max_new_tokens_per_chunk": 256,
+        "realtime": true
+      },
+      "paths_exist": {
+        "model": true
+      },
+      "model_provenance": {
+        "model": {
+          "snapshot_directory": "60d858b518b4e19d404af3737f848fc185b30177",
+          "config_sha256": {
+            "added_tokens.json": "d0a4c6e0954c94843fae3c966a7d0b52c7b8c0787fba5731733e6ab602245b88",
+            "config.json": "804c6e78705f629e0e3484ce130967d43f8d5e1a728e5c1322bdd697e8704c7d",
+            "model.safetensors.index.json": "29df2f8e046f5bd8a6d765a700fd767a9c505fa46fe9fd6d50f476c3bdcae638",
+            "preprocessor_config.json": "99bf76b83a21385d2a8f5226edd9ec598f63e1ff7a50384dc8cf6b7753b9f9c4",
+            "special_tokens_map.json": "cf263f1a86f252cae2cef55ca02f001fecefc92646016f0ed2f7349238b8504d",
+            "tokenizer.json": "38e847ed54238171badeeaeaf8760632c949336d3d54207d2d34483c56bc7d57",
+            "tokenizer_config.json": "badef858f0481ccaea85cf86879737f1397c61d0385cdc9b785b657407606e02",
+            "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+          },
+          "weight_files": [
+            {
+              "name": "model-00001-of-00008.safetensors",
+              "bytes": 2488346304
+            },
+            {
+              "name": "model-00002-of-00008.safetensors",
+              "bytes": 2389316008
+            },
+            {
+              "name": "model-00003-of-00008.safetensors",
+              "bytes": 2466376400
+            },
+            {
+              "name": "model-00004-of-00008.safetensors",
+              "bytes": 2466376432
+            },
+            {
+              "name": "model-00005-of-00008.safetensors",
+              "bytes": 2499431160
+            },
+            {
+              "name": "model-00006-of-00008.safetensors",
+              "bytes": 2483469960
+            },
+            {
+              "name": "model-00007-of-00008.safetensors",
+              "bytes": 1464887514
+            },
+            {
+              "name": "model-00008-of-00008.safetensors",
+              "bytes": 1089994880
+            }
+          ]
+        }
+      },
+      "unsupported_recordings": []
+    }
+  ],
+  "protocol": {
+    "tcp_collar": 5.0,
+    "der_collar": 0.0,
+    "worker_timeout_seconds": 14400.0,
+    "random_seed_policy": "sha256-record-id-first-32-bits-v1"
+  },
+  "manifest_sha256": "0d7ec4b7e6793e1978f9431826db9e0da385527d1ca91a6e0a492dc129f8e236",
+  "config_sha256": "485f77b34bb320548e6c5c60607e00648f38c18c32c4d3b33f6ee085cdb963b0"
+}

@@ -1,0 +1,304 @@
+{
+  "id": "IS1009a-0",
+  "duration": 240.0,
+  "seed": 3597138583,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "S01",
+        "text": "Doesn't it work?",
+        "start": 16.95,
+        "end": 19.21
+      },
+      {
+        "speaker": "S02",
+        "text": "The microphone is supposed to be to your right.",
+        "start": 23.01,
+        "end": 24.83
+      },
+      {
+        "speaker": "S01",
+        "text": "Right, cool, mm-hmm.",
+        "start": 25.78,
+        "end": 27.01
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm.",
+        "start": 27.21,
+        "end": 27.53
+      },
+      {
+        "speaker": "S03",
+        "text": "And then where's the other one? Oh here.",
+        "start": 28.21,
+        "end": 29.87
+      },
+      {
+        "speaker": "S01",
+        "text": "Okay, everybody ready?",
+        "start": 54.94,
+        "end": 56.57
+      },
+      {
+        "speaker": "S02",
+        "text": "Okay.",
+        "start": 55.68,
+        "end": 56.01
+      },
+      {
+        "speaker": "S03",
+        "text": "Mm.",
+        "start": 56.88,
+        "end": 57.11
+      },
+      {
+        "speaker": "S02",
+        "text": "I think so.",
+        "start": 57.22,
+        "end": 57.75
+      },
+      {
+        "speaker": "S01",
+        "text": "Uh I think the first thing we do is introduce ourselves.",
+        "start": 57.67,
+        "end": 60.89
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah, that's a good plan.",
+        "start": 61.53,
+        "end": 62.41
+      },
+      {
+        "speaker": "S01",
+        "text": "And uh, whose name and what your function is, so maybe you start.",
+        "start": 61.98,
+        "end": 66.81
+      },
+      {
+        "speaker": "S04",
+        "text": "Okay.",
+        "start": 66.58,
+        "end": 66.93
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm-hmm.",
+        "start": 66.88,
+        "end": 67.27
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah, my name is Francina and I'm uh a User Interface. My role is uh the main responsibility is User Interface.",
+        "start": 67.36,
+        "end": 76.07
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm-hmm.",
+        "start": 76.08,
+        "end": 76.53
+      },
+      {
+        "speaker": "S04",
+        "text": "And my role is to design a uh television remote control.",
+        "start": 76.58,
+        "end": 80.87
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm-hmm.",
+        "start": 81.02,
+        "end": 81.41
+      },
+      {
+        "speaker": "S01",
+        "text": "Okay.",
+        "start": 81.67,
+        "end": 82.11
+      },
+      {
+        "speaker": "S02",
+        "text": "And I'm a marketing person. I wanna figure out how to sell them.",
+        "start": 83.35,
+        "end": 86.97
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm-hmm.",
+        "start": 87.44,
+        "end": 87.91
+      },
+      {
+        "speaker": "S01",
+        "text": "And your name is?",
+        "start": 87.97,
+        "end": 88.67
+      },
+      {
+        "speaker": "S02",
+        "text": "My name is Eileen.",
+        "start": 88.82,
+        "end": 89.67
+      },
+      {
+        "speaker": "S01",
+        "text": "Okay.",
+        "start": 90.16,
+        "end": 90.57
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah uh I'm Janavi. I'm um my role is Industrial Designer and my responsibilities are uh uh um uh deal with the technical functional designs and specifications of user interface and dealing with user interface design.",
+        "start": 91.3,
+        "end": 107.47
+      },
+      {
+        "speaker": "S01",
+        "text": "Very good. And as you already know, I'm Betsy. I'm the project manager for today. So why don't we look at the presentation to see what we really are supposed to do.",
+        "start": 107.86,
+        "end": 118.17
+      },
+      {
+        "speaker": "S02",
+        "text": "Okay.",
+        "start": 118.74,
+        "end": 119.07
+      },
+      {
+        "speaker": "S01",
+        "text": "Um",
+        "start": 119.24,
+        "end": 119.97
+      },
+      {
+        "speaker": "S01",
+        "text": "uh here's the opening, acquaintance, tool training. Well, the tools are I think we already I guess the tool is really our the computer.",
+        "start": 121.34,
+        "end": 130.97
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm-hmm.",
+        "start": 131.1,
+        "end": 131.47
+      },
+      {
+        "speaker": "S01",
+        "text": "As far as I can see. Uh we get ins each of us will get instructions and we'll take it from there. Project plan that falls under the same heading pretty much. Um I don't think we have any great discussion at this point.",
+        "start": 131.35,
+        "end": 145.07
+      },
+      {
+        "speaker": "S02",
+        "text": "Hmm.",
+        "start": 145.53,
+        "end": 145.87
+      },
+      {
+        "speaker": "S01",
+        "text": "Um",
+        "start": 146.14,
+        "end": 146.77
+      },
+      {
+        "speaker": "S01",
+        "text": "Here is what this thing should be. This thing we are gonna um uh design as a new remote control. Uh should be original, trendy, and of course user friendly.",
+        "start": 149.41,
+        "end": 162.31
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm-hmm.",
+        "start": 159.5,
+        "end": 159.87
+      },
+      {
+        "speaker": "S01",
+        "text": "So maybe I'll make some notes of that.",
+        "start": 165.14,
+        "end": 166.97
+      },
+      {
+        "speaker": "S01",
+        "text": "Okay.",
+        "start": 188.01,
+        "end": 188.47
+      },
+      {
+        "speaker": "S01",
+        "text": "Okay?",
+        "start": 195.01,
+        "end": 195.37
+      },
+      {
+        "speaker": "S04",
+        "text": "Mm-hmm.",
+        "start": 195.54,
+        "end": 195.87
+      },
+      {
+        "speaker": "S01",
+        "text": "Alright. Here is what the functional design is supposed to achieve. Um",
+        "start": 196.31,
+        "end": 202.47
+      },
+      {
+        "speaker": "S01",
+        "text": "That is, it's gonna be individual work and then at the meeting we'll discuss what uh we have come up with. The same goes for the conceptual design. There will be individual work with and then discussion afterwards.",
+        "start": 203.74,
+        "end": 218.21
+      },
+      {
+        "speaker": "S01",
+        "text": "Detailed design, same thing basically.",
+        "start": 219.41,
+        "end": 222.11
+      },
+      {
+        "speaker": "S02",
+        "text": "Okay, so three different types of design that we're gonna be concerned with, isn't it?",
+        "start": 220.44,
+        "end": 226.31
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm-hmm.",
+        "start": 225.97,
+        "end": 226.41
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm-hmm.",
+        "start": 226.91,
+        "end": 227.31
+      },
+      {
+        "speaker": "S02",
+        "text": "Conception.",
+        "start": 236.01,
+        "end": 238.31
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "[16.95][S01]Doesn't it work?[19.21][23.01][S02]The microphone is supposed to be to your right.[24.83][25.78][S01]Right, cool, mm-hmm.[27.01][27.21][S02]Mm.[27.53][28.21][S03]And then where's the other one? Oh here.[29.87][54.94][S01]Okay, everybody ready?[56.57][55.68][S02]Okay.[56.01][56.88][S03]Mm.[57.11][57.22][S02]I think so.[57.75][57.67][S01]Uh I think the first thing we do is introduce ourselves.[60.89][61.53][S02]Yeah, that's a good plan.[62.41][61.98][S01]And uh, whose name and what your function is, so maybe you start.[66.81][66.58][S04]Okay.[66.93][66.88][S01]Mm-hmm.[67.27][67.36][S04]Yeah, my name is Francina and I'm uh a User Interface. My role is uh the main responsibility is User Interface.[76.07][76.08][S01]Mm-hmm.[76.53][76.58][S04]And my role is to design a uh television remote control.[80.87][81.02][S01]Mm-hmm.[81.41][81.67][S01]Okay.[82.11][83.35][S02]And I'm a marketing person. I wanna figure out how to sell them.[86.97][87.44][S01]Mm-hmm.[87.91][87.97][S01]And your name is?[88.67][88.82][S02]My name is Eileen.[89.67][90.16][S01]Okay.[90.57][91.30][S04]Yeah uh I'm Janavi. I'm um my role is Industrial Designer and my responsibilities are uh uh um uh deal with the technical functional designs and specifications of user interface and dealing with user interface design.[107.47][107.86][S01]Very good. And as you already know, I'm Betsy. I'm the project manager for today. So why don't we look at the presentation to see what we really are supposed to do.[118.17][118.74][S02]Okay.[119.07][119.24][S01]Um[119.97][121.34][S01]uh here's the opening, acquaintance, tool training. Well, the tools are I think we already I guess the tool is really our the computer.[130.97][131.10][S02]Mm-hmm.[131.47][131.35][S01]As far as I can see. Uh we get ins each of us will get instructions and we'll take it from there. Project plan that falls under the same heading pretty much. Um I don't think we have any great discussion at this point.[145.07][145.53][S02]Hmm.[145.87][146.14][S01]Um[146.77][149.41][S01]Here is what this thing should be. This thing we are gonna um uh design as a new remote control. Uh should be original, trendy, and of course user friendly.[162.31][159.50][S02]Mm-hmm.[159.87][165.14][S01]So maybe I'll make some notes of that.[166.97][188.01][S01]Okay.[188.47][195.01][S01]Okay?[195.37][195.54][S04]Mm-hmm.[195.87][196.31][S01]Alright. Here is what the functional design is supposed to achieve. Um[202.47][203.74][S01]That is, it's gonna be individual work and then at the meeting we'll discuss what uh we have come up with. The same goes for the conceptual design. There will be individual work with and then discussion afterwards.[218.21][219.41][S01]Detailed design, same thing basically.[222.11][220.44][S02]Okay, so three different types of design that we're gonna be concerned with, isn't it?[226.31][225.97][S01]Mm-hmm.[226.41][226.91][S01]Mm-hmm.[227.31][236.01][S02]Conception.[238.31]",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 11.354812288074754,
+  "rtf": 0.047311717866978145,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 2360456192,
+      "reserved_bytes": 2627731456
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 2850721792
+}

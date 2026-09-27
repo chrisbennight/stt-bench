@@ -1,0 +1,196 @@
+{
+  "id": "TS3003a-15360000",
+  "duration": 240.0,
+  "seed": 3702278715,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "0",
+        "text": "Okay.",
+        "start": 5.41,
+        "end": 6.73
+      },
+      {
+        "speaker": "1",
+        "text": "Interesting. Sweet.",
+        "start": 7.81,
+        "end": 10.73
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah.",
+        "start": 10.91,
+        "end": 11.99
+      },
+      {
+        "speaker": "0",
+        "text": "You know what this is?",
+        "start": 11.99,
+        "end": 13.67
+      },
+      {
+        "speaker": "1",
+        "text": "Uh-huh.",
+        "start": 14.21,
+        "end": 15.53
+      },
+      {
+        "speaker": "0",
+        "text": "Garfield.",
+        "start": 15.53,
+        "end": 16.37
+      },
+      {
+        "speaker": "1",
+        "text": "Garfield.",
+        "start": 16.37,
+        "end": 17.53
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah.",
+        "start": 23.13,
+        "end": 24.61
+      },
+      {
+        "speaker": "2",
+        "text": "So, uh.",
+        "start": 25.71,
+        "end": 27.61
+      },
+      {
+        "speaker": "2",
+        "text": "Just a blank one.",
+        "start": 33.37,
+        "end": 34.94
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, just a blank. Should be good.",
+        "start": 34.94,
+        "end": 37.25
+      },
+      {
+        "speaker": "0",
+        "text": "Mine was gonna draw a cat too, so.",
+        "start": 48.51,
+        "end": 51.57
+      },
+      {
+        "speaker": "0",
+        "text": "Let's try something else.",
+        "start": 53.73,
+        "end": 56.03
+      },
+      {
+        "speaker": "2",
+        "text": "Something different than the Garfield.",
+        "start": 57.63,
+        "end": 60.95
+      },
+      {
+        "speaker": "2",
+        "text": "Mine is a bit more skinny.",
+        "start": 79.29,
+        "end": 81.0
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, skinny cat.",
+        "start": 81.0,
+        "end": 82.79
+      },
+      {
+        "speaker": "1",
+        "text": "Is it your cat or did you find him on the street?",
+        "start": 87.69,
+        "end": 91.03
+      },
+      {
+        "speaker": "2",
+        "text": "Well, it's supposed to be a cat and I like cats because, so.",
+        "start": 96.19,
+        "end": 101.39
+      },
+      {
+        "speaker": "2",
+        "text": "They are, uh, independent.",
+        "start": 103.35,
+        "end": 108.49
+      },
+      {
+        "speaker": "1",
+        "text": "Good.",
+        "start": 120.81,
+        "end": 122.33
+      },
+      {
+        "speaker": "1",
+        "text": "So, everybody knows how to work with the whiteboard now. So, if you have any ideas or if you want to throw anything on the whiteboard, just ask and go ahead. It's really easy.",
+        "start": 124.15,
+        "end": 136.81
+      },
+      {
+        "speaker": "1",
+        "text": "So, we've got the tool introduction. Move along to the project's finance.",
+        "start": 143.23,
+        "end": 154.12
+      },
+      {
+        "speaker": "1",
+        "text": "Um, as you can see, the, um, for a remote control, the starting price is, uh, 25 euros, our starting price.",
+        "start": 154.24,
+        "end": 165.62
+      },
+      {
+        "speaker": "1",
+        "text": "Uh, our profit aim is 50 million euros. Uh, that's the least we have to get from our remote controls. So, we have to work together to reach our aims.",
+        "start": 165.62,
+        "end": 177.11
+      },
+      {
+        "speaker": "1",
+        "text": "Uh, we can do it international. So, we have to focus on different kind of users, different kind of cultures, and different kind of trends as well. Um, but that's all in a later stadium. Our production cost, um, can be maximum 12 and a half euros. So, that's also a point we have to keep in mind if we want, like, remote controls with small televisions inside and stuff like that.",
+        "start": 177.11,
+        "end": 208.91
+      },
+      {
+        "speaker": "1",
+        "text": "One word.",
+        "start": 208.91,
+        "end": 209.84
+      },
+      {
+        "speaker": "1",
+        "text": "So, just try to remember these points. Selling price, 25, profit aim, 50 million, um, but more important, just the international market we're trying to focus on, and production cost, uh, maximum 12 and a half euros.",
+        "start": 209.84,
+        "end": 227.78
+      },
+      {
+        "speaker": "1",
+        "text": "So, that leads us to our little discussion. We've got about five or ten minutes left for discussion. So, I'm gonna...",
+        "start": 228.56,
+        "end": 240.0
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "assistant\n[{\"Start\":0,\"End\":5.41,\"Content\":\"[Environmental Sounds]\"},{\"Start\":5.41,\"End\":6.73,\"Speaker\":0,\"Content\":\"Okay.\"},{\"Start\":7.81,\"End\":10.73,\"Speaker\":1,\"Content\":\"Interesting. Sweet.\"},{\"Start\":10.91,\"End\":11.99,\"Speaker\":2,\"Content\":\"Yeah.\"},{\"Start\":11.99,\"End\":13.67,\"Speaker\":0,\"Content\":\"You know what this is?\"},{\"Start\":14.21,\"End\":15.53,\"Speaker\":1,\"Content\":\"Uh-huh.\"},{\"Start\":15.53,\"End\":16.37,\"Speaker\":0,\"Content\":\"Garfield.\"},{\"Start\":16.37,\"End\":17.53,\"Speaker\":1,\"Content\":\"Garfield.\"},{\"Start\":17.53,\"End\":23.13,\"Content\":\"[Environmental Sounds]\"},{\"Start\":23.13,\"End\":24.61,\"Speaker\":1,\"Content\":\"Yeah.\"},{\"Start\":25.71,\"End\":27.61,\"Speaker\":2,\"Content\":\"So, uh.\"},{\"Start\":27.61,\"End\":33.37,\"Content\":\"[Speech]\"},{\"Start\":33.37,\"End\":34.94,\"Speaker\":2,\"Content\":\"Just a blank one.\"},{\"Start\":34.94,\"End\":37.25,\"Speaker\":1,\"Content\":\"Yeah, just a blank. Should be good.\"},{\"Start\":37.25,\"End\":48.51,\"Content\":\"[Environmental Sounds]\"},{\"Start\":48.51,\"End\":51.57,\"Speaker\":0,\"Content\":\"Mine was gonna draw a cat too, so.\"},{\"Start\":51.57,\"End\":53.73,\"Content\":\"[Music]\"},{\"Start\":53.73,\"End\":56.03,\"Speaker\":0,\"Content\":\"Let's try something else.\"},{\"Start\":57.63,\"End\":60.95,\"Speaker\":2,\"Content\":\"Something different than the Garfield.\"},{\"Start\":60.95,\"End\":79.29,\"Content\":\"[Environmental Sounds]\"},{\"Start\":79.29,\"End\":81.0,\"Speaker\":2,\"Content\":\"Mine is a bit more skinny.\"},{\"Start\":81.0,\"End\":82.79,\"Speaker\":1,\"Content\":\"Yeah, skinny cat.\"},{\"Start\":82.79,\"End\":87.69,\"Content\":\"[Human Sounds]\"},{\"Start\":87.69,\"End\":91.03,\"Speaker\":1,\"Content\":\"Is it your cat or did you find him on the street?\"},{\"Start\":91.03,\"End\":96.19,\"Content\":\"[Human Sounds]\"},{\"Start\":96.19,\"End\":101.39,\"Speaker\":2,\"Content\":\"Well, it's supposed to be a cat and I like cats because, so.\"},{\"Start\":103.35,\"End\":108.49,\"Speaker\":2,\"Content\":\"They are, uh, independent.\"},{\"Start\":108.49,\"End\":120.81,\"Content\":\"[Environmental Sounds]\"},{\"Start\":120.81,\"End\":122.33,\"Speaker\":1,\"Content\":\"Good.\"},{\"Start\":124.15,\"End\":136.81,\"Speaker\":1,\"Content\":\"So, everybody knows how to work with the whiteboard now. So, if you have any ideas or if you want to throw anything on the whiteboard, just ask and go ahead. It's really easy.\"},{\"Start\":136.81,\"End\":143.23,\"Content\":\"[Human Sounds]\"},{\"Start\":143.23,\"End\":154.12,\"Speaker\":1,\"Content\":\"So, we've got the tool introduction. Move along to the project's finance.\"},{\"Start\":154.24,\"End\":165.62,\"Speaker\":1,\"Content\":\"Um, as you can see, the, um, for a remote control, the starting price is, uh, 25 euros, our starting price.\"},{\"Start\":165.62,\"End\":177.11,\"Speaker\":1,\"Content\":\"Uh, our profit aim is 50 million euros. Uh, that's the least we have to get from our remote controls. So, we have to work together to reach our aims.\"},{\"Start\":177.11,\"End\":208.91,\"Speaker\":1,\"Content\":\"Uh, we can do it international. So, we have to focus on different kind of users, different kind of cultures, and different kind of trends as well. Um, but that's all in a later stadium. Our production cost, um, can be maximum 12 and a half euros. So, that's also a point we have to keep in mind if we want, like, remote controls with small televisions inside and stuff like that.\"},{\"Start\":208.91,\"End\":209.84,\"Speaker\":1,\"Content\":\"One word.\"},{\"Start\":209.84,\"End\":227.78,\"Speaker\":1,\"Content\":\"So, just try to remember these points. Selling price, 25, profit aim, 50 million, um, but more important, just the international market we're trying to focus on, and production cost, uh, maximum 12 and a half euros.\"},{\"Start\":228.56,\"End\":240.0,\"Speaker\":1,\"Content\":\"So, that leads us to our little discussion. We've got about five or ten minutes left for discussion. So, I'm gonna...\"}]\n",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 25.051243661087938,
+  "rtf": 0.10438018192119974,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 21213673984,
+      "reserved_bytes": 22735224832
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 3490095104
+}

@@ -1,0 +1,382 @@
+{
+  "id": "EN2002a-26880000",
+  "duration": 240.0,
+  "seed": 1636221095,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "0",
+        "text": "We'll get it done by then, I mean.",
+        "start": 0.0,
+        "end": 2.21
+      },
+      {
+        "speaker": "1",
+        "text": "This year.",
+        "start": 2.21,
+        "end": 3.74
+      },
+      {
+        "speaker": "0",
+        "text": "Then we can write about it in the, in the interim report. You know, and then we've got something to show.",
+        "start": 3.74,
+        "end": 9.73
+      },
+      {
+        "speaker": "1",
+        "text": "So then.",
+        "start": 9.73,
+        "end": 10.66
+      },
+      {
+        "speaker": "2",
+        "text": "Just looking at the old deadlines.",
+        "start": 18.46,
+        "end": 21.12
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah.",
+        "start": 22.18,
+        "end": 23.58
+      },
+      {
+        "speaker": "0",
+        "text": "Um, oh, and the, the search interface.",
+        "start": 24.68,
+        "end": 28.34
+      },
+      {
+        "speaker": "0",
+        "text": "Maybe you should decide pretty, pretty early what kind of things you want to be able to search for. And then if you want, you can give that to me and I'll, I'll build you a nice, you know, a few tick boxes and drop down menus.",
+        "start": 30.15,
+        "end": 44.23
+      },
+      {
+        "speaker": "2",
+        "text": "Wasn't like what you have now?",
+        "start": 44.35,
+        "end": 47.14
+      },
+      {
+        "speaker": "0",
+        "text": "Wasn't that pretty much what you agreed on?",
+        "start": 47.14,
+        "end": 49.21
+      },
+      {
+        "speaker": "2",
+        "text": "Or was it just...",
+        "start": 49.21,
+        "end": 50.37
+      },
+      {
+        "speaker": "0",
+        "text": "Oh, that's, that's, that doesn't exist. That's completely cut and pasted.",
+        "start": 50.37,
+        "end": 55.97
+      },
+      {
+        "speaker": "2",
+        "text": "Oh, okay.",
+        "start": 55.97,
+        "end": 57.21
+      },
+      {
+        "speaker": "0",
+        "text": "That does not exist. Mine's done, though, isn't it?",
+        "start": 57.21,
+        "end": 60.33
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, it's quite busy, actually.",
+        "start": 60.33,
+        "end": 62.73
+      },
+      {
+        "speaker": "0",
+        "text": "It's actually all these, all these, um, things are, are nicked from, um, you know, all these drop down menus and tick boxes are nicked from Google.",
+        "start": 62.73,
+        "end": 70.36
+      },
+      {
+        "speaker": "0",
+        "text": "A screenshot of Google.",
+        "start": 72.96,
+        "end": 75.28
+      },
+      {
+        "speaker": "0",
+        "text": "No.",
+        "start": 76.44,
+        "end": 77.88
+      },
+      {
+        "speaker": "2",
+        "text": "Maybe you should make it exist then.",
+        "start": 79.24,
+        "end": 82.02
+      },
+      {
+        "speaker": "0",
+        "text": "It's going to be a little difficult, more difficult. Yeah, I mean, I was going to, but, you know, the whole, drop down menus and stuff. What we want to search for is not quite agreed on. We never agreed on what we want to be able to search for.",
+        "start": 82.8,
+        "end": 96.51
+      },
+      {
+        "speaker": "3",
+        "text": "No, it's not really, yeah. Decided on that over the weekend.",
+        "start": 96.51,
+        "end": 99.63
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, I do want to, you know, just get together and think about the different types of search we could possibly do and then, and we could discuss at next meeting which options we really want to include.",
+        "start": 99.63,
+        "end": 109.72
+      },
+      {
+        "speaker": "0",
+        "text": "That would probably involve researching the query language a bit as well to see what that can do.",
+        "start": 110.56,
+        "end": 116.44
+      },
+      {
+        "speaker": "2",
+        "text": "It would be nice to, um, have you up and you can sort of show us a bit, you know, already, so we don't sort of have to do all over again, you know, just like figuring out stuff.",
+        "start": 117.93,
+        "end": 129.98
+      },
+      {
+        "speaker": "3",
+        "text": "Oh, just get the basics, yeah.",
+        "start": 129.98,
+        "end": 131.83
+      },
+      {
+        "speaker": "0",
+        "text": "No, already, what?",
+        "start": 131.83,
+        "end": 133.39
+      },
+      {
+        "speaker": "2",
+        "text": "Just like accessing the corpus and stuff.",
+        "start": 133.39,
+        "end": 136.71
+      },
+      {
+        "speaker": "3",
+        "text": "Just like all the, unseeing the code and just sort of how, just to see the basics of what you've done, like just get a quick look over and just.",
+        "start": 136.71,
+        "end": 142.86
+      },
+      {
+        "speaker": "1",
+        "text": "Can take us to a tutorial.",
+        "start": 142.86,
+        "end": 144.99
+      },
+      {
+        "speaker": "3",
+        "text": "You know, the class paths, all that sort of thing, like, just to say, okay, well, here's, you know, everything's basic. And just, you know, just jump right in.",
+        "start": 144.99,
+        "end": 153.64
+      },
+      {
+        "speaker": "0",
+        "text": "The code.",
+        "start": 153.64,
+        "end": 154.78
+      },
+      {
+        "speaker": "3",
+        "text": "Next week's festival.",
+        "start": 155.36,
+        "end": 157.26
+      },
+      {
+        "speaker": "3",
+        "text": "In the morning.",
+        "start": 158.96,
+        "end": 160.55
+      },
+      {
+        "speaker": "0",
+        "text": "Oh, yeah. Well, it's some eye of the day. I'm not there, you can't do anything.",
+        "start": 160.55,
+        "end": 167.76
+      },
+      {
+        "speaker": "3",
+        "text": "The whole thing is, you know, yeah, something like that could happen anytime, because, um. You know, like, my schedule is like a class, break, class, break, class.",
+        "start": 167.76,
+        "end": 176.2
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, I was not going to take an hour.",
+        "start": 176.2,
+        "end": 177.74
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah, I know, exactly, exactly. That's what I'm thinking, so, something like that, and then if I have a class I can run off, do whatever.",
+        "start": 177.74,
+        "end": 182.57
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, pick a time.",
+        "start": 182.57,
+        "end": 183.78
+      },
+      {
+        "speaker": "2",
+        "text": "Um, yeah.",
+        "start": 184.64,
+        "end": 186.2
+      },
+      {
+        "speaker": "3",
+        "text": "Monday, Monday might be good.",
+        "start": 186.2,
+        "end": 187.98
+      },
+      {
+        "speaker": "0",
+        "text": "What, Monday? What did you say?",
+        "start": 188.1,
+        "end": 190.81
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, this Monday.",
+        "start": 190.81,
+        "end": 191.96
+      },
+      {
+        "speaker": "3",
+        "text": "Anytime, um, not at, not at noon or two or four. No, in between those, yeah, like one or three.",
+        "start": 191.96,
+        "end": 200.52
+      },
+      {
+        "speaker": "0",
+        "text": "Three o'clock? Actually, you know.",
+        "start": 200.52,
+        "end": 203.58
+      },
+      {
+        "speaker": "1",
+        "text": "Possibly. Three's all right. What time's today? I'll do four, isn't it?",
+        "start": 203.62,
+        "end": 208.11
+      },
+      {
+        "speaker": "2",
+        "text": "It's four, yeah.",
+        "start": 208.11,
+        "end": 208.88
+      },
+      {
+        "speaker": "0",
+        "text": "Unless you want to do after, um, after.",
+        "start": 208.88,
+        "end": 211.13
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah, that's an option too.",
+        "start": 211.13,
+        "end": 212.96
+      },
+      {
+        "speaker": "1",
+        "text": "Three's good, though, but we have, well, what's your, what's your fair?",
+        "start": 215.4,
+        "end": 219.97
+      },
+      {
+        "speaker": "3",
+        "text": "Or three thirty. I just, yeah.",
+        "start": 219.97,
+        "end": 223.11
+      },
+      {
+        "speaker": "2",
+        "text": "Well, it doesn't necessarily have.",
+        "start": 223.11,
+        "end": 224.58
+      },
+      {
+        "speaker": "3",
+        "text": "Necessarily.",
+        "start": 224.58,
+        "end": 225.1
+      },
+      {
+        "speaker": "1",
+        "text": "Three thirty in the, in the computer room in here.",
+        "start": 225.1,
+        "end": 227.27
+      },
+      {
+        "speaker": "3",
+        "text": "Which we just had to get in there, though.",
+        "start": 227.27,
+        "end": 228.99
+      },
+      {
+        "speaker": "1",
+        "text": "If you, can't, can you get in the front door? Oh, we haven't got a key, do you? Can none of you get in?",
+        "start": 228.99,
+        "end": 233.62
+      },
+      {
+        "speaker": "3",
+        "text": "Well, we can get in through the, through the.",
+        "start": 233.62,
+        "end": 235.82
+      },
+      {
+        "speaker": "1",
+        "text": "The, the, the computer rooms in here, the MSC computers.",
+        "start": 235.82,
+        "end": 238.62
+      },
+      {
+        "speaker": "0",
+        "text": "I've not found that yet.",
+        "start": 238.62,
+        "end": 239.59
+      },
+      {
+        "speaker": "1",
+        "text": "No, it's.",
+        "start": 239.59,
+        "end": 240.0
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "assistant\n[{\"Start\":0,\"End\":2.21,\"Speaker\":0,\"Content\":\"We'll get it done by then, I mean.\"},{\"Start\":2.21,\"End\":3.74,\"Speaker\":1,\"Content\":\"This year.\"},{\"Start\":3.74,\"End\":9.73,\"Speaker\":0,\"Content\":\"Then we can write about it in the, in the interim report. You know, and then we've got something to show.\"},{\"Start\":9.73,\"End\":10.66,\"Speaker\":1,\"Content\":\"So then.\"},{\"Start\":10.66,\"End\":18.46,\"Content\":\"[Environmental Sounds]\"},{\"Start\":18.46,\"End\":21.12,\"Speaker\":2,\"Content\":\"Just looking at the old deadlines.\"},{\"Start\":22.18,\"End\":23.58,\"Speaker\":2,\"Content\":\"Yeah.\"},{\"Start\":24.68,\"End\":28.34,\"Speaker\":0,\"Content\":\"Um, oh, and the, the search interface.\"},{\"Start\":30.15,\"End\":44.23,\"Speaker\":0,\"Content\":\"Maybe you should decide pretty, pretty early what kind of things you want to be able to search for. And then if you want, you can give that to me and I'll, I'll build you a nice, you know, a few tick boxes and drop down menus.\"},{\"Start\":44.35,\"End\":47.14,\"Speaker\":2,\"Content\":\"Wasn't like what you have now?\"},{\"Start\":47.14,\"End\":49.21,\"Speaker\":0,\"Content\":\"Wasn't that pretty much what you agreed on?\"},{\"Start\":49.21,\"End\":50.37,\"Speaker\":2,\"Content\":\"Or was it just...\"},{\"Start\":50.37,\"End\":55.97,\"Speaker\":0,\"Content\":\"Oh, that's, that's, that doesn't exist. That's completely cut and pasted.\"},{\"Start\":55.97,\"End\":57.21,\"Speaker\":2,\"Content\":\"Oh, okay.\"},{\"Start\":57.21,\"End\":60.33,\"Speaker\":0,\"Content\":\"That does not exist. Mine's done, though, isn't it?\"},{\"Start\":60.33,\"End\":62.73,\"Speaker\":2,\"Content\":\"Yeah, it's quite busy, actually.\"},{\"Start\":62.73,\"End\":70.36,\"Speaker\":0,\"Content\":\"It's actually all these, all these, um, things are, are nicked from, um, you know, all these drop down menus and tick boxes are nicked from Google.\"},{\"Start\":70.36,\"End\":72.96,\"Content\":\"[Human Sounds]\"},{\"Start\":72.96,\"End\":75.28,\"Speaker\":0,\"Content\":\"A screenshot of Google.\"},{\"Start\":76.44,\"End\":77.88,\"Speaker\":0,\"Content\":\"No.\"},{\"Start\":79.24,\"End\":82.02,\"Speaker\":2,\"Content\":\"Maybe you should make it exist then.\"},{\"Start\":82.8,\"End\":96.51,\"Speaker\":0,\"Content\":\"It's going to be a little difficult, more difficult. Yeah, I mean, I was going to, but, you know, the whole, drop down menus and stuff. What we want to search for is not quite agreed on. We never agreed on what we want to be able to search for.\"},{\"Start\":96.51,\"End\":99.63,\"Speaker\":3,\"Content\":\"No, it's not really, yeah. Decided on that over the weekend.\"},{\"Start\":99.63,\"End\":109.72,\"Speaker\":0,\"Content\":\"Yeah, I do want to, you know, just get together and think about the different types of search we could possibly do and then, and we could discuss at next meeting which options we really want to include.\"},{\"Start\":110.56,\"End\":116.44,\"Speaker\":0,\"Content\":\"That would probably involve researching the query language a bit as well to see what that can do.\"},{\"Start\":117.93,\"End\":129.98,\"Speaker\":2,\"Content\":\"It would be nice to, um, have you up and you can sort of show us a bit, you know, already, so we don't sort of have to do all over again, you know, just like figuring out stuff.\"},{\"Start\":129.98,\"End\":131.83,\"Speaker\":3,\"Content\":\"Oh, just get the basics, yeah.\"},{\"Start\":131.83,\"End\":133.39,\"Speaker\":0,\"Content\":\"No, already, what?\"},{\"Start\":133.39,\"End\":136.71,\"Speaker\":2,\"Content\":\"Just like accessing the corpus and stuff.\"},{\"Start\":136.71,\"End\":142.86,\"Speaker\":3,\"Content\":\"Just like all the, unseeing the code and just sort of how, just to see the basics of what you've done, like just get a quick look over and just.\"},{\"Start\":142.86,\"End\":144.99,\"Speaker\":1,\"Content\":\"Can take us to a tutorial.\"},{\"Start\":144.99,\"End\":153.64,\"Speaker\":3,\"Content\":\"You know, the class paths, all that sort of thing, like, just to say, okay, well, here's, you know, everything's basic. And just, you know, just jump right in.\"},{\"Start\":153.64,\"End\":154.78,\"Speaker\":0,\"Content\":\"The code.\"},{\"Start\":155.36,\"End\":157.26,\"Speaker\":3,\"Content\":\"Next week's festival.\"},{\"Start\":158.96,\"End\":160.55,\"Speaker\":3,\"Content\":\"In the morning.\"},{\"Start\":160.55,\"End\":167.76,\"Speaker\":0,\"Content\":\"Oh, yeah. Well, it's some eye of the day. I'm not there, you can't do anything.\"},{\"Start\":167.76,\"End\":176.2,\"Speaker\":3,\"Content\":\"The whole thing is, you know, yeah, something like that could happen anytime, because, um. You know, like, my schedule is like a class, break, class, break, class.\"},{\"Start\":176.2,\"End\":177.74,\"Speaker\":0,\"Content\":\"Yeah, I was not going to take an hour.\"},{\"Start\":177.74,\"End\":182.57,\"Speaker\":3,\"Content\":\"Yeah, I know, exactly, exactly. That's what I'm thinking, so, something like that, and then if I have a class I can run off, do whatever.\"},{\"Start\":182.57,\"End\":183.78,\"Speaker\":0,\"Content\":\"Yeah, pick a time.\"},{\"Start\":184.64,\"End\":186.2,\"Speaker\":2,\"Content\":\"Um, yeah.\"},{\"Start\":186.2,\"End\":187.98,\"Speaker\":3,\"Content\":\"Monday, Monday might be good.\"},{\"Start\":188.1,\"End\":190.81,\"Speaker\":0,\"Content\":\"What, Monday? What did you say?\"},{\"Start\":190.81,\"End\":191.96,\"Speaker\":2,\"Content\":\"Yeah, this Monday.\"},{\"Start\":191.96,\"End\":200.52,\"Speaker\":3,\"Content\":\"Anytime, um, not at, not at noon or two or four. No, in between those, yeah, like one or three.\"},{\"Start\":200.52,\"End\":203.58,\"Speaker\":0,\"Content\":\"Three o'clock? Actually, you know.\"},{\"Start\":203.62,\"End\":208.11,\"Speaker\":1,\"Content\":\"Possibly. Three's all right. What time's today? I'll do four, isn't it?\"},{\"Start\":208.11,\"End\":208.88,\"Speaker\":2,\"Content\":\"It's four, yeah.\"},{\"Start\":208.88,\"End\":211.13,\"Speaker\":0,\"Content\":\"Unless you want to do after, um, after.\"},{\"Start\":211.13,\"End\":212.96,\"Speaker\":3,\"Content\":\"Yeah, that's an option too.\"},{\"Start\":212.96,\"End\":215.4,\"Content\":\"[Music]\"},{\"Start\":215.4,\"End\":219.97,\"Speaker\":1,\"Content\":\"Three's good, though, but we have, well, what's your, what's your fair?\"},{\"Start\":219.97,\"End\":223.11,\"Speaker\":3,\"Content\":\"Or three thirty. I just, yeah.\"},{\"Start\":223.11,\"End\":224.58,\"Speaker\":2,\"Content\":\"Well, it doesn't necessarily have.\"},{\"Start\":224.58,\"End\":225.1,\"Speaker\":3,\"Content\":\"Necessarily.\"},{\"Start\":225.1,\"End\":227.27,\"Speaker\":1,\"Content\":\"Three thirty in the, in the computer room in here.\"},{\"Start\":227.27,\"End\":228.99,\"Speaker\":3,\"Content\":\"Which we just had to get in there, though.\"},{\"Start\":228.99,\"End\":233.62,\"Speaker\":1,\"Content\":\"If you, can't, can you get in the front door? Oh, we haven't got a key, do you? Can none of you get in?\"},{\"Start\":233.62,\"End\":235.82,\"Speaker\":3,\"Content\":\"Well, we can get in through the, through the.\"},{\"Start\":235.82,\"End\":238.62,\"Speaker\":1,\"Content\":\"The, the, the computer rooms in here, the MSC computers.\"},{\"Start\":238.62,\"End\":239.59,\"Speaker\":0,\"Content\":\"I've not found that yet.\"},{\"Start\":239.59,\"End\":240.0,\"Speaker\":1,\"Content\":\"No, it's.\"}]\n",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 44.85373762995005,
+  "rtf": 0.18689057345812518,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 21213673984,
+      "reserved_bytes": 22735224832
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 3490095104
+}

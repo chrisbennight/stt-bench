@@ -1,0 +1,256 @@
+{
+  "id": "IS1009a-7680000",
+  "duration": 240.0,
+  "seed": 2889051209,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "0",
+        "text": "Controlling the, uh, temperature inside the house, or for air conditioners, or for heating system.",
+        "start": 0.0,
+        "end": 6.63
+      },
+      {
+        "speaker": "1",
+        "text": "So it should be a multifunctional, uh, gadget that would, uh, control all your household, uh, uh, machines, basically.",
+        "start": 6.63,
+        "end": 15.11
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, exactly.",
+        "start": 15.11,
+        "end": 16.06
+      },
+      {
+        "speaker": "2",
+        "text": "But, um, 1250 euros per.",
+        "start": 16.56,
+        "end": 21.67
+      },
+      {
+        "speaker": "1",
+        "text": "Well.",
+        "start": 21.67,
+        "end": 23.34
+      },
+      {
+        "speaker": "2",
+        "text": "Well, who knows, if we get a really good seller, maybe we can do that. We certainly can try to, I agree with her, that to market something successfully, it should do some more things.",
+        "start": 23.34,
+        "end": 33.32
+      },
+      {
+        "speaker": "1",
+        "text": "It should be something new, it should, it should do something different than, than just what we have. Now, of course, the other thing to think there is maybe the design.",
+        "start": 33.32,
+        "end": 40.97
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, design should be, yeah, it should be different, all the, almost all the.",
+        "start": 40.97,
+        "end": 44.48
+      },
+      {
+        "speaker": "1",
+        "text": "Like the trend, you know, like, surely every so, maybe it should be something trendy, you know, maybe different colors, or materials, or, you know. Um, so, yeah, shapes, right? You know, like kidney-shaped, feels better in your hand or something, you know.",
+        "start": 44.48,
+        "end": 58.71
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, okay, friendly shape. That would help. I think another thing that would help is, um, if it beeps when you clap, because I think one of the big things that happens is people lose them, they can't find it.",
+        "start": 58.71,
+        "end": 71.66
+      },
+      {
+        "speaker": "1",
+        "text": "That is true, because they put a newspaper, or they put it behind a plant, or, you know, whatever, and, and they, suddenly the phone rings, and they want to turn the TV off, and they say, where the hell?",
+        "start": 71.78,
+        "end": 83.18
+      },
+      {
+        "speaker": "1",
+        "text": "My remote control, yeah. Or, or, yeah, or if it's really, if it's really in a dark spot, that it keeps out a, a, a sound or a signal or something.",
+        "start": 83.36,
+        "end": 93.52
+      },
+      {
+        "speaker": "2",
+        "text": "So it should either beep or a light should blink.",
+        "start": 93.52,
+        "end": 96.61
+      },
+      {
+        "speaker": "1",
+        "text": "A blast, uh, signal, throw a signal, you know.",
+        "start": 96.61,
+        "end": 101.39
+      },
+      {
+        "speaker": "3",
+        "text": "Or maybe it should have a light so that we can, we can just recognize where it is.",
+        "start": 101.39,
+        "end": 105.5
+      },
+      {
+        "speaker": "1",
+        "text": "Exactly, I mean, just, that's why I'm saying, I'm just saying, throw signal, meaning just whether it's a beep or whether a light.",
+        "start": 105.5,
+        "end": 112.13
+      },
+      {
+        "speaker": "2",
+        "text": "I think a good, um, clue for that is that it would respond to a clap, or it would respond to your voice, or it would respond, what, what should you have to do to make it beep or blink?",
+        "start": 112.13,
+        "end": 125.63
+      },
+      {
+        "speaker": "1",
+        "text": "Okay, my, my idea is maybe that the minute it's really hidden, in, in other words, if it's, like, in a dark spot.",
+        "start": 125.63,
+        "end": 133.19
+      },
+      {
+        "speaker": "2",
+        "text": "Mm-hmm.",
+        "start": 133.19,
+        "end": 133.81
+      },
+      {
+        "speaker": "1",
+        "text": "Uh, meaning, you know, like, newspaper is on top, a sweater is on top, or it's, it's behind a plant. At that moment, it's, it's like, it's like, um, what do you call it, the light sensors, you know. In, in that moment, it has a sensor. It, it gets a certain darkness, it has a sensor, and it gives out a signal, whether that be a light signal or a beep, I mean, that we can discuss that later, you know.",
+        "start": 133.81,
+        "end": 157.54
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, and, uh.",
+        "start": 157.54,
+        "end": 158.92
+      },
+      {
+        "speaker": "2",
+        "text": "So the light sensor would activate the signal.",
+        "start": 158.92,
+        "end": 161.22
+      },
+      {
+        "speaker": "1",
+        "text": "That's right. You know, it would be.",
+        "start": 161.22,
+        "end": 163.09
+      },
+      {
+        "speaker": "1",
+        "text": "Right, you have to have some kind of sensor. And I, I think, uh, voice or clapping, it's not specific enough. Uh, I know there are the lamps and stuff, you know, you can clap on and off, but I think they only work to a certain degree.",
+        "start": 163.09,
+        "end": 177.45
+      },
+      {
+        "speaker": "2",
+        "text": "But it could be something that's really obvious, and you still wouldn't be able to find it.",
+        "start": 177.45,
+        "end": 182.24
+      },
+      {
+        "speaker": "1",
+        "text": "What, with?",
+        "start": 183.4,
+        "end": 184.97
+      },
+      {
+        "speaker": "2",
+        "text": "Well, because you're, because you're silly, because people are silly.",
+        "start": 184.97,
+        "end": 187.86
+      },
+      {
+        "speaker": "1",
+        "text": "Oh, yeah, well, but then those people, we can't help everybody.",
+        "start": 187.86,
+        "end": 190.45
+      },
+      {
+        "speaker": "2",
+        "text": "Well, if, if we're, like, on top of your bookcase, and you usually kept it on the coffee table, um, you know, maybe we have to move along, I think.",
+        "start": 190.45,
+        "end": 199.91
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, we have to move along, but I think we have some good, good points to start with here.",
+        "start": 199.91,
+        "end": 204.3
+      },
+      {
+        "speaker": "1",
+        "text": "Okay, the next meeting will be in 30 minutes, I think you'll, did you get, uh, notices on your computer for this? Okay, so you'll get the notice, um,",
+        "start": 205.2,
+        "end": 214.68
+      },
+      {
+        "speaker": "1",
+        "text": "The working design, I guess that's the function ID, uh, who is this, the industrial designer?",
+        "start": 216.22,
+        "end": 222.69
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah.",
+        "start": 222.69,
+        "end": 223.34
+      },
+      {
+        "speaker": "1",
+        "text": "That's you?",
+        "start": 223.34,
+        "end": 224.13
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, it's functional, yeah, thank you.",
+        "start": 224.13,
+        "end": 226.76
+      },
+      {
+        "speaker": "1",
+        "text": "Okay, so we're looking for a working design when you come back.",
+        "start": 226.76,
+        "end": 231.36
+      },
+      {
+        "speaker": "0",
+        "text": "Uh, working design, yeah, it's, it's, uh, I mean, the technical functional design.",
+        "start": 231.36,
+        "end": 235.65
+      },
+      {
+        "speaker": "1",
+        "text": "And then the technical func, you're the technical function, so, so you're the working design.",
+        "start": 235.65,
+        "end": 240.0
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "assistant\n[{\"Start\":0,\"End\":6.63,\"Speaker\":0,\"Content\":\"Controlling the, uh, temperature inside the house, or for air conditioners, or for heating system.\"},{\"Start\":6.63,\"End\":15.11,\"Speaker\":1,\"Content\":\"So it should be a multifunctional, uh, gadget that would, uh, control all your household, uh, uh, machines, basically.\"},{\"Start\":15.11,\"End\":16.06,\"Speaker\":0,\"Content\":\"Yeah, exactly.\"},{\"Start\":16.56,\"End\":21.67,\"Speaker\":2,\"Content\":\"But, um, 1250 euros per.\"},{\"Start\":21.67,\"End\":23.34,\"Speaker\":1,\"Content\":\"Well.\"},{\"Start\":23.34,\"End\":33.32,\"Speaker\":2,\"Content\":\"Well, who knows, if we get a really good seller, maybe we can do that. We certainly can try to, I agree with her, that to market something successfully, it should do some more things.\"},{\"Start\":33.32,\"End\":40.97,\"Speaker\":1,\"Content\":\"It should be something new, it should, it should do something different than, than just what we have. Now, of course, the other thing to think there is maybe the design.\"},{\"Start\":40.97,\"End\":44.48,\"Speaker\":0,\"Content\":\"Yeah, design should be, yeah, it should be different, all the, almost all the.\"},{\"Start\":44.48,\"End\":58.71,\"Speaker\":1,\"Content\":\"Like the trend, you know, like, surely every so, maybe it should be something trendy, you know, maybe different colors, or materials, or, you know. Um, so, yeah, shapes, right? You know, like kidney-shaped, feels better in your hand or something, you know.\"},{\"Start\":58.71,\"End\":71.66,\"Speaker\":2,\"Content\":\"Yeah, okay, friendly shape. That would help. I think another thing that would help is, um, if it beeps when you clap, because I think one of the big things that happens is people lose them, they can't find it.\"},{\"Start\":71.78,\"End\":83.18,\"Speaker\":1,\"Content\":\"That is true, because they put a newspaper, or they put it behind a plant, or, you know, whatever, and, and they, suddenly the phone rings, and they want to turn the TV off, and they say, where the hell?\"},{\"Start\":83.36,\"End\":93.52,\"Speaker\":1,\"Content\":\"My remote control, yeah. Or, or, yeah, or if it's really, if it's really in a dark spot, that it keeps out a, a, a sound or a signal or something.\"},{\"Start\":93.52,\"End\":96.61,\"Speaker\":2,\"Content\":\"So it should either beep or a light should blink.\"},{\"Start\":96.61,\"End\":101.39,\"Speaker\":1,\"Content\":\"A blast, uh, signal, throw a signal, you know.\"},{\"Start\":101.39,\"End\":105.5,\"Speaker\":3,\"Content\":\"Or maybe it should have a light so that we can, we can just recognize where it is.\"},{\"Start\":105.5,\"End\":112.13,\"Speaker\":1,\"Content\":\"Exactly, I mean, just, that's why I'm saying, I'm just saying, throw signal, meaning just whether it's a beep or whether a light.\"},{\"Start\":112.13,\"End\":125.63,\"Speaker\":2,\"Content\":\"I think a good, um, clue for that is that it would respond to a clap, or it would respond to your voice, or it would respond, what, what should you have to do to make it beep or blink?\"},{\"Start\":125.63,\"End\":133.19,\"Speaker\":1,\"Content\":\"Okay, my, my idea is maybe that the minute it's really hidden, in, in other words, if it's, like, in a dark spot.\"},{\"Start\":133.19,\"End\":133.81,\"Speaker\":2,\"Content\":\"Mm-hmm.\"},{\"Start\":133.81,\"End\":157.54,\"Speaker\":1,\"Content\":\"Uh, meaning, you know, like, newspaper is on top, a sweater is on top, or it's, it's behind a plant. At that moment, it's, it's like, it's like, um, what do you call it, the light sensors, you know. In, in that moment, it has a sensor. It, it gets a certain darkness, it has a sensor, and it gives out a signal, whether that be a light signal or a beep, I mean, that we can discuss that later, you know.\"},{\"Start\":157.54,\"End\":158.92,\"Speaker\":0,\"Content\":\"Yeah, and, uh.\"},{\"Start\":158.92,\"End\":161.22,\"Speaker\":2,\"Content\":\"So the light sensor would activate the signal.\"},{\"Start\":161.22,\"End\":163.09,\"Speaker\":1,\"Content\":\"That's right. You know, it would be.\"},{\"Start\":163.09,\"End\":177.45,\"Speaker\":1,\"Content\":\"Right, you have to have some kind of sensor. And I, I think, uh, voice or clapping, it's not specific enough. Uh, I know there are the lamps and stuff, you know, you can clap on and off, but I think they only work to a certain degree.\"},{\"Start\":177.45,\"End\":182.24,\"Speaker\":2,\"Content\":\"But it could be something that's really obvious, and you still wouldn't be able to find it.\"},{\"Start\":183.4,\"End\":184.97,\"Speaker\":1,\"Content\":\"What, with?\"},{\"Start\":184.97,\"End\":187.86,\"Speaker\":2,\"Content\":\"Well, because you're, because you're silly, because people are silly.\"},{\"Start\":187.86,\"End\":190.45,\"Speaker\":1,\"Content\":\"Oh, yeah, well, but then those people, we can't help everybody.\"},{\"Start\":190.45,\"End\":199.91,\"Speaker\":2,\"Content\":\"Well, if, if we're, like, on top of your bookcase, and you usually kept it on the coffee table, um, you know, maybe we have to move along, I think.\"},{\"Start\":199.91,\"End\":204.3,\"Speaker\":1,\"Content\":\"Yeah, we have to move along, but I think we have some good, good points to start with here.\"},{\"Start\":205.2,\"End\":214.68,\"Speaker\":1,\"Content\":\"Okay, the next meeting will be in 30 minutes, I think you'll, did you get, uh, notices on your computer for this? Okay, so you'll get the notice, um,\"},{\"Start\":216.22,\"End\":222.69,\"Speaker\":1,\"Content\":\"The working design, I guess that's the function ID, uh, who is this, the industrial designer?\"},{\"Start\":222.69,\"End\":223.34,\"Speaker\":0,\"Content\":\"Yeah.\"},{\"Start\":223.34,\"End\":224.13,\"Speaker\":1,\"Content\":\"That's you?\"},{\"Start\":224.13,\"End\":226.76,\"Speaker\":0,\"Content\":\"Yeah, it's functional, yeah, thank you.\"},{\"Start\":226.76,\"End\":231.36,\"Speaker\":1,\"Content\":\"Okay, so we're looking for a working design when you come back.\"},{\"Start\":231.36,\"End\":235.65,\"Speaker\":0,\"Content\":\"Uh, working design, yeah, it's, it's, uh, I mean, the technical functional design.\"},{\"Start\":235.65,\"End\":240.0,\"Speaker\":1,\"Content\":\"And then the technical func, you're the technical function, so, so you're the working design.\"}]\n",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 36.06194813293405,
+  "rtf": 0.15025811722055854,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 21213673984,
+      "reserved_bytes": 22735224832
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 3490095104
+}

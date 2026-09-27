@@ -1,0 +1,736 @@
+{
+  "id": "EN2002a-26880000",
+  "duration": 240.0,
+  "seed": 1636221095,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "S01",
+        "text": "But we get it done by then, I mean.",
+        "start": 0.0,
+        "end": 1.86
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah sure.",
+        "start": 2.8,
+        "end": 3.48
+      },
+      {
+        "speaker": "S01",
+        "text": "Then we can write about it in the in the interim report. You know, now we've got something to show.",
+        "start": 4.43,
+        "end": 9.72
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 7.82,
+        "end": 8.16
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 7.86,
+        "end": 8.22
+      },
+      {
+        "speaker": "S02",
+        "text": "Okay, so.",
+        "start": 9.01,
+        "end": 10.12
+      },
+      {
+        "speaker": "S01",
+        "text": "So.",
+        "start": 17.01,
+        "end": 17.38
+      },
+      {
+        "speaker": "S01",
+        "text": "Just looking at my old deadlines.",
+        "start": 19.22,
+        "end": 20.84
+      },
+      {
+        "speaker": "S01",
+        "text": "See, yeah.",
+        "start": 22.68,
+        "end": 23.14
+      },
+      {
+        "speaker": "S01",
+        "text": "Um oh and the the search interface",
+        "start": 25.37,
+        "end": 28.16
+      },
+      {
+        "speaker": "S01",
+        "text": "maybe you should decide pretty pretty early what kind of things you wanna be able to search for.",
+        "start": 30.86,
+        "end": 36.85
+      },
+      {
+        "speaker": "S01",
+        "text": "And then if you want you can give that to me and I'll I'll build you nice, you know, a few tick boxes and dropdown menus.",
+        "start": 38.13,
+        "end": 43.96
+      },
+      {
+        "speaker": "S03",
+        "text": "Wasn't like what you have now, isn't that pretty much the new freedom or was it just like that one?",
+        "start": 44.95,
+        "end": 51.84
+      },
+      {
+        "speaker": "S01",
+        "text": "No.",
+        "start": 48.52,
+        "end": 48.94
+      },
+      {
+        "speaker": "S01",
+        "text": "Oh that's that's that doesn't exist.",
+        "start": 50.32,
+        "end": 52.88
+      },
+      {
+        "speaker": "S01",
+        "text": "That's completely cut and pasted.",
+        "start": 54.19,
+        "end": 55.81
+      },
+      {
+        "speaker": "S03",
+        "text": "Oh okay.",
+        "start": 56.2,
+        "end": 57.62
+      },
+      {
+        "speaker": "S01",
+        "text": "That does not exist. Nicely done though, isn't it?",
+        "start": 57.72,
+        "end": 60.25
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah, it's it's quite messy actually.",
+        "start": 60.41,
+        "end": 62.61
+      },
+      {
+        "speaker": "S05",
+        "text": "It's it's a once up again.",
+        "start": 62.61,
+        "end": 63.81
+      },
+      {
+        "speaker": "S01",
+        "text": "It's actually all these all these um things are are nicked from um you know, all these dropdown menus and tick boxes are nicked from Google.",
+        "start": 63.28,
+        "end": 70.0
+      },
+      {
+        "speaker": "S01",
+        "text": "A screenshot of Google, ooh.",
+        "start": 73.78,
+        "end": 75.44
+      },
+      {
+        "speaker": "S03",
+        "text": "Could that be that?",
+        "start": 76.88,
+        "end": 78.81
+      },
+      {
+        "speaker": "S04",
+        "text": "That's quite something.",
+        "start": 79.64,
+        "end": 80.54
+      },
+      {
+        "speaker": "S01",
+        "text": "This is so much fun.",
+        "start": 79.75,
+        "end": 80.74
+      },
+      {
+        "speaker": "S06",
+        "text": "Maybe you should make it exist then.",
+        "start": 79.98,
+        "end": 81.61
+      },
+      {
+        "speaker": "S01",
+        "text": "It's gonna be a little difficult, more difficult. Yeah, I mean I was going to but you know, the whole dropdown menus and stuff, what we wanna search for is not quite agreed on, we never agreed on what we wanna",
+        "start": 83.59,
+        "end": 94.64
+      },
+      {
+        "speaker": "S01",
+        "text": "be able to search for.",
+        "start": 95.51,
+        "end": 96.52
+      },
+      {
+        "speaker": "S04",
+        "text": "No, it's not, is it? Yeah.",
+        "start": 96.6,
+        "end": 97.68
+      },
+      {
+        "speaker": "S05",
+        "text": "True.",
+        "start": 97.03,
+        "end": 97.36
+      },
+      {
+        "speaker": "S01",
+        "text": "So",
+        "start": 97.79,
+        "end": 98.24
+      },
+      {
+        "speaker": "S05",
+        "text": "Decide on that on on the weekend.",
+        "start": 98.18,
+        "end": 99.64
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah, do you wanna, you know, just get together and think about the different types of search we could possibly do and then",
+        "start": 99.79,
+        "end": 104.77
+      },
+      {
+        "speaker": "S05",
+        "text": "Yeah.",
+        "start": 101.08,
+        "end": 101.34
+      },
+      {
+        "speaker": "S03",
+        "text": "Mm-hmm.",
+        "start": 105.06,
+        "end": 105.42
+      },
+      {
+        "speaker": "S01",
+        "text": "then we could discuss at next meeting which options we really wanna include.",
+        "start": 105.48,
+        "end": 109.31
+      },
+      {
+        "speaker": "S05",
+        "text": "Yeah.",
+        "start": 111.14,
+        "end": 111.36
+      },
+      {
+        "speaker": "S01",
+        "text": "That would probably involve researching the query language a bit as well to see what that can do.",
+        "start": 111.35,
+        "end": 116.01
+      },
+      {
+        "speaker": "S05",
+        "text": "Yeah.",
+        "start": 114.91,
+        "end": 115.16
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 116.46,
+        "end": 116.78
+      },
+      {
+        "speaker": "S03",
+        "text": "It would be nice to um meet up and you can sort of show us a bit, you know, already so we don't sort of have to do all the we can, you know, just like figuring out stuff.",
+        "start": 118.72,
+        "end": 129.86
+      },
+      {
+        "speaker": "S05",
+        "text": "Oh, just like the basics of like",
+        "start": 130.24,
+        "end": 131.94
+      },
+      {
+        "speaker": "S01",
+        "text": "No.",
+        "start": 130.63,
+        "end": 130.95
+      },
+      {
+        "speaker": "S01",
+        "text": "No, already, well.",
+        "start": 132.09,
+        "end": 132.98
+      },
+      {
+        "speaker": "S05",
+        "text": "Sure.",
+        "start": 133.57,
+        "end": 133.81
+      },
+      {
+        "speaker": "S01",
+        "text": "Just like",
+        "start": 133.91,
+        "end": 134.48
+      },
+      {
+        "speaker": "S03",
+        "text": "Accessing the corpus and stuff.",
+        "start": 134.82,
+        "end": 136.32
+      },
+      {
+        "speaker": "S01",
+        "text": "Oh yeah.",
+        "start": 136.27,
+        "end": 136.68
+      },
+      {
+        "speaker": "S05",
+        "text": "Yeah, just like all the unseeing the code and just sort of how just to see the basics of what you've done, like just get a a quick look over and just",
+        "start": 136.82,
+        "end": 142.84
+      },
+      {
+        "speaker": "S07",
+        "text": "Can take it for a tutorial, so.",
+        "start": 143.04,
+        "end": 144.71
+      },
+      {
+        "speaker": "S05",
+        "text": "because so",
+        "start": 143.41,
+        "end": 143.84
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 143.5,
+        "end": 143.78
+      },
+      {
+        "speaker": "S05",
+        "text": "Yeah, or like like you know, the class paths, all that sort of thing, like just just say, okay, well here's you know, everything's basic, all set up and then just yeah, just jump right in.",
+        "start": 144.52,
+        "end": 153.3
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 144.65,
+        "end": 144.91
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 149.68,
+        "end": 149.94
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah, can do that.",
+        "start": 150.55,
+        "end": 151.26
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 151.52,
+        "end": 151.81
+      },
+      {
+        "speaker": "S01",
+        "text": "Showing you the bits, the code.",
+        "start": 152.46,
+        "end": 154.34
+      },
+      {
+        "speaker": "S05",
+        "text": "Yeah.",
+        "start": 154.42,
+        "end": 154.65
+      },
+      {
+        "speaker": "S05",
+        "text": "Yeah.",
+        "start": 155.74,
+        "end": 155.91
+      },
+      {
+        "speaker": "S02",
+        "text": "Next week, so.",
+        "start": 155.93,
+        "end": 156.68
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 156.02,
+        "end": 156.26
+      },
+      {
+        "speaker": "S05",
+        "text": "That's cool.",
+        "start": 156.44,
+        "end": 156.84
+      },
+      {
+        "speaker": "S05",
+        "text": "In the morning, of course.",
+        "start": 159.74,
+        "end": 160.84
+      },
+      {
+        "speaker": "S06",
+        "text": "Oh yeah.",
+        "start": 161.0,
+        "end": 162.28
+      },
+      {
+        "speaker": "S06",
+        "text": "Well this time I am being taken.",
+        "start": 163.88,
+        "end": 165.24
+      },
+      {
+        "speaker": "S05",
+        "text": "Yeah.",
+        "start": 164.98,
+        "end": 165.31
+      },
+      {
+        "speaker": "S06",
+        "text": "But if I'm not there, you can't do anything.",
+        "start": 165.82,
+        "end": 167.64
+      },
+      {
+        "speaker": "S05",
+        "text": "Yeah, right. Well, the thing is, yeah, yeah, something like that could happen any time, 'cause uh yeah, like my schedule is like a class, break, class, break, class, you know, that sort of sense, sense.",
+        "start": 167.32,
+        "end": 177.64
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah, I thought it would take an hour just to get it anyway.",
+        "start": 176.32,
+        "end": 178.62
+      },
+      {
+        "speaker": "S05",
+        "text": "Yeah, I know, exactly, exactly, that's what I'm thinking, so something like that and then if I have a class I can run off and do it.",
+        "start": 177.72,
+        "end": 182.61
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, yeah, yeah.",
+        "start": 178.54,
+        "end": 179.22
+      },
+      {
+        "speaker": "S01",
+        "text": "I mean",
+        "start": 179.89,
+        "end": 180.28
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 182.58,
+        "end": 182.82
+      },
+      {
+        "speaker": "S01",
+        "text": "Pick your time.",
+        "start": 182.71,
+        "end": 183.41
+      },
+      {
+        "speaker": "S05",
+        "text": "Yeah.",
+        "start": 183.62,
+        "end": 183.84
+      },
+      {
+        "speaker": "S04",
+        "text": "Okay.",
+        "start": 184.41,
+        "end": 184.81
+      },
+      {
+        "speaker": "S03",
+        "text": "Um yeah, I don't know when I want",
+        "start": 185.11,
+        "end": 187.08
+      },
+      {
+        "speaker": "S05",
+        "text": "So Monday, Monday might be good, um",
+        "start": 186.14,
+        "end": 188.21
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 188.12,
+        "end": 188.44
+      },
+      {
+        "speaker": "S01",
+        "text": "What, Monday?",
+        "start": 188.64,
+        "end": 189.31
+      },
+      {
+        "speaker": "S05",
+        "text": "Yeah.",
+        "start": 190.24,
+        "end": 190.48
+      },
+      {
+        "speaker": "S03",
+        "text": "Fourteen six?",
+        "start": 190.28,
+        "end": 190.86
+      },
+      {
+        "speaker": "S05",
+        "text": "Yeah.",
+        "start": 190.92,
+        "end": 191.11
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, this Monday, just",
+        "start": 191.03,
+        "end": 192.14
+      },
+      {
+        "speaker": "S05",
+        "text": "Anytime, um not at not at noon or two or four.",
+        "start": 192.34,
+        "end": 196.28
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm, late afternoon.",
+        "start": 193.08,
+        "end": 194.78
+      },
+      {
+        "speaker": "S05",
+        "text": "No, in between those, yeah, like one or three or",
+        "start": 197.67,
+        "end": 200.58
+      },
+      {
+        "speaker": "S01",
+        "text": "Three o'clock?",
+        "start": 200.94,
+        "end": 201.64
+      },
+      {
+        "speaker": "S05",
+        "text": "Sure.",
+        "start": 201.96,
+        "end": 202.16
+      },
+      {
+        "speaker": "S01",
+        "text": "Actually, yeah.",
+        "start": 202.29,
+        "end": 203.11
+      },
+      {
+        "speaker": "S05",
+        "text": "T t t possibly.",
+        "start": 203.56,
+        "end": 204.74
+      },
+      {
+        "speaker": "S02",
+        "text": "Three's alright, yeah, well, the one times the N R G four is like",
+        "start": 204.24,
+        "end": 208.11
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 206.89,
+        "end": 207.11
+      },
+      {
+        "speaker": "S03",
+        "text": "It's four a m.",
+        "start": 208.32,
+        "end": 208.98
+      },
+      {
+        "speaker": "S01",
+        "text": "Unless you wanna do it absolutely.",
+        "start": 208.88,
+        "end": 210.01
+      },
+      {
+        "speaker": "S05",
+        "text": "Yeah.",
+        "start": 209.08,
+        "end": 209.38
+      },
+      {
+        "speaker": "S03",
+        "text": "Um after",
+        "start": 209.96,
+        "end": 211.04
+      },
+      {
+        "speaker": "S05",
+        "text": "Yeah, that's an option too, mm, after a game.",
+        "start": 211.56,
+        "end": 213.81
+      },
+      {
+        "speaker": "S01",
+        "text": "D",
+        "start": 211.88,
+        "end": 212.18
+      },
+      {
+        "speaker": "S03",
+        "text": "D",
+        "start": 213.25,
+        "end": 213.48
+      },
+      {
+        "speaker": "S05",
+        "text": "Sure.",
+        "start": 215.26,
+        "end": 215.56
+      },
+      {
+        "speaker": "S02",
+        "text": "Three's good though, uh but we have f whatever, what's your what's your f",
+        "start": 215.89,
+        "end": 219.91
+      },
+      {
+        "speaker": "S05",
+        "text": "Mm.",
+        "start": 219.12,
+        "end": 219.34
+      },
+      {
+        "speaker": "S05",
+        "text": "Or three thirty.",
+        "start": 220.12,
+        "end": 220.78
+      },
+      {
+        "speaker": "S05",
+        "text": "I just, yeah, I'm",
+        "start": 221.96,
+        "end": 223.71
+      },
+      {
+        "speaker": "S03",
+        "text": "Well, doesn't matter, it's a time.",
+        "start": 223.4,
+        "end": 224.71
+      },
+      {
+        "speaker": "S05",
+        "text": "Necessarily, necessarily we should.",
+        "start": 223.82,
+        "end": 225.48
+      },
+      {
+        "speaker": "S02",
+        "text": "Three thirty in the in the computer room in here and we can discuss, yeah.",
+        "start": 224.98,
+        "end": 228.28
+      },
+      {
+        "speaker": "S03",
+        "text": "Three, yeah, after",
+        "start": 225.21,
+        "end": 226.58
+      },
+      {
+        "speaker": "S05",
+        "text": "Actually, we can't get in there though.",
+        "start": 227.24,
+        "end": 228.78
+      },
+      {
+        "speaker": "S02",
+        "text": "If you can't can you get in the front door? Oh, you haven't got a key, do you? Can I have you get in?",
+        "start": 229.34,
+        "end": 233.64
+      },
+      {
+        "speaker": "S05",
+        "text": "Mm.",
+        "start": 232.6,
+        "end": 233.01
+      },
+      {
+        "speaker": "S05",
+        "text": "We well, we can get in through the through the the car, the car door.",
+        "start": 233.58,
+        "end": 237.28
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, I have, I'm not",
+        "start": 233.92,
+        "end": 235.11
+      },
+      {
+        "speaker": "S02",
+        "text": "The c there's there's computer rooms in here, the M S C computer room, yeah.",
+        "start": 235.84,
+        "end": 239.04
+      },
+      {
+        "speaker": "S03",
+        "text": "Oh.",
+        "start": 236.54,
+        "end": 236.84
+      },
+      {
+        "speaker": "S01",
+        "text": "I've not found that yet.",
+        "start": 238.62,
+        "end": 239.58
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "[0.00][S01]But we get it done by then, I mean.[1.86][2.80][S02]Yeah sure.[3.48][4.43][S01]Then we can write about it in the in the interim report. You know, now we've got something to show.[9.72][7.82][S03]Yeah.[8.16][7.86][S02]Yeah.[8.22][9.01][S02]Okay, so.[10.12][17.01][S01]So.[17.38][19.22][S01]Just looking at my old deadlines.[20.84][22.68][S01]See, yeah.[23.14][25.37][S01]Um oh and the the search interface[28.16][30.86][S01]maybe you should decide pretty pretty early what kind of things you wanna be able to search for.[36.85][38.13][S01]And then if you want you can give that to me and I'll I'll build you nice, you know, a few tick boxes and dropdown menus.[43.96][44.95][S03]Wasn't like what you have now, isn't that pretty much the new freedom or was it just like that one?[51.84][48.52][S01]No.[48.94][50.32][S01]Oh that's that's that doesn't exist.[52.88][54.19][S01]That's completely cut and pasted.[55.81][56.20][S03]Oh okay.[57.62][57.72][S01]That does not exist. Nicely done though, isn't it?[60.25][60.41][S04]Yeah, it's it's quite messy actually.[62.61][62.61][S05]It's it's a once up again.[63.81][63.28][S01]It's actually all these all these um things are are nicked from um you know, all these dropdown menus and tick boxes are nicked from Google.[70.00][73.78][S01]A screenshot of Google, ooh.[75.44][76.88][S03]Could that be that?[78.81][79.64][S04]That's quite something.[80.54][79.75][S01]This is so much fun.[80.74][79.98][S06]Maybe you should make it exist then.[81.61][83.59][S01]It's gonna be a little difficult, more difficult. Yeah, I mean I was going to but you know, the whole dropdown menus and stuff, what we wanna search for is not quite agreed on, we never agreed on what we wanna[94.64][95.51][S01]be able to search for.[96.52][96.60][S04]No, it's not, is it? Yeah.[97.68][97.03][S05]True.[97.36][97.79][S01]So[98.24][98.18][S05]Decide on that on on the weekend.[99.64][99.79][S01]Yeah, do you wanna, you know, just get together and think about the different types of search we could possibly do and then[104.77][101.08][S05]Yeah.[101.34][105.06][S03]Mm-hmm.[105.42][105.48][S01]then we could discuss at next meeting which options we really wanna include.[109.31][111.14][S05]Yeah.[111.36][111.35][S01]That would probably involve researching the query language a bit as well to see what that can do.[116.01][114.91][S05]Yeah.[115.16][116.46][S03]Yeah.[116.78][118.72][S03]It would be nice to um meet up and you can sort of show us a bit, you know, already so we don't sort of have to do all the we can, you know, just like figuring out stuff.[129.86][130.24][S05]Oh, just like the basics of like[131.94][130.63][S01]No.[130.95][132.09][S01]No, already, well.[132.98][133.57][S05]Sure.[133.81][133.91][S01]Just like[134.48][134.82][S03]Accessing the corpus and stuff.[136.32][136.27][S01]Oh yeah.[136.68][136.82][S05]Yeah, just like all the unseeing the code and just sort of how just to see the basics of what you've done, like just get a a quick look over and just[142.84][143.04][S07]Can take it for a tutorial, so.[144.71][143.41][S05]because so[143.84][143.50][S03]Yeah.[143.78][144.52][S05]Yeah, or like like you know, the class paths, all that sort of thing, like just just say, okay, well here's you know, everything's basic, all set up and then just yeah, just jump right in.[153.30][144.65][S03]Yeah.[144.91][149.68][S01]Yeah.[149.94][150.55][S01]Yeah, can do that.[151.26][151.52][S03]Yeah.[151.81][152.46][S01]Showing you the bits, the code.[154.34][154.42][S05]Yeah.[154.65][155.74][S05]Yeah.[155.91][155.93][S02]Next week, so.[156.68][156.02][S01]Yeah.[156.26][156.44][S05]That's cool.[156.84][159.74][S05]In the morning, of course.[160.84][161.00][S06]Oh yeah.[162.28][163.88][S06]Well this time I am being taken.[165.24][164.98][S05]Yeah.[165.31][165.82][S06]But if I'm not there, you can't do anything.[167.64][167.32][S05]Yeah, right. Well, the thing is, yeah, yeah, something like that could happen any time, 'cause uh yeah, like my schedule is like a class, break, class, break, class, you know, that sort of sense, sense.[177.64][176.32][S01]Yeah, I thought it would take an hour just to get it anyway.[178.62][177.72][S05]Yeah, I know, exactly, exactly, that's what I'm thinking, so something like that and then if I have a class I can run off and do it.[182.61][178.54][S03]Yeah, yeah, yeah.[179.22][179.89][S01]I mean[180.28][182.58][S03]Yeah.[182.82][182.71][S01]Pick your time.[183.41][183.62][S05]Yeah.[183.84][184.41][S04]Okay.[184.81][185.11][S03]Um yeah, I don't know when I want[187.08][186.14][S05]So Monday, Monday might be good, um[188.21][188.12][S03]Yeah.[188.44][188.64][S01]What, Monday?[189.31][190.24][S05]Yeah.[190.48][190.28][S03]Fourteen six?[190.86][190.92][S05]Yeah.[191.11][191.03][S03]Yeah, this Monday, just[192.14][192.34][S05]Anytime, um not at not at noon or two or four.[196.28][193.08][S02]Mm, late afternoon.[194.78][197.67][S05]No, in between those, yeah, like one or three or[200.58][200.94][S01]Three o'clock?[201.64][201.96][S05]Sure.[202.16][202.29][S01]Actually, yeah.[203.11][203.56][S05]T t t possibly.[204.74][204.24][S02]Three's alright, yeah, well, the one times the N R G four is like[208.11][206.89][S03]Yeah.[207.11][208.32][S03]It's four a m.[208.98][208.88][S01]Unless you wanna do it absolutely.[210.01][209.08][S05]Yeah.[209.38][209.96][S03]Um after[211.04][211.56][S05]Yeah, that's an option too, mm, after a game.[213.81][211.88][S01]D[212.18][213.25][S03]D[213.48][215.26][S05]Sure.[215.56][215.89][S02]Three's good though, uh but we have f whatever, what's your what's your f[219.91][219.12][S05]Mm.[219.34][220.12][S05]Or three thirty.[220.78][221.96][S05]I just, yeah, I'm[223.71][223.40][S03]Well, doesn't matter, it's a time.[224.71][223.82][S05]Necessarily, necessarily we should.[225.48][224.98][S02]Three thirty in the in the computer room in here and we can discuss, yeah.[228.28][225.21][S03]Three, yeah, after[226.58][227.24][S05]Actually, we can't get in there though.[228.78][229.34][S02]If you can't can you get in the front door? Oh, you haven't got a key, do you? Can I have you get in?[233.64][232.60][S05]Mm.[233.01][233.58][S05]We well, we can get in through the through the the car, the car door.[237.28][233.92][S03]Yeah, I have, I'm not[235.11][235.84][S02]The c there's there's computer rooms in here, the M S C computer room, yeah.[239.04][236.54][S03]Oh.[236.84][238.62][S01]I've not found that yet.[239.58]",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 27.234956885920838,
+  "rtf": 0.11347898702467016,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 2578498048,
+      "reserved_bytes": 2843738112
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 2850721792
+}

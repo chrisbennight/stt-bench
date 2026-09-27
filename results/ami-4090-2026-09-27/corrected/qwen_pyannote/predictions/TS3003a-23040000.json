@@ -1,0 +1,391 @@
+{
+  "id": "TS3003a-23040000",
+  "duration": 65.642625,
+  "seed": 3299688118,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Okay",
+        "start": 2.48,
+        "end": 4.0
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Then",
+        "start": 4.4,
+        "end": 4.56
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "I'll",
+        "start": 4.56,
+        "end": 4.72
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "put",
+        "start": 4.8,
+        "end": 4.88
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "the",
+        "start": 4.96,
+        "end": 5.44
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "minutes",
+        "start": 5.76,
+        "end": 6.0
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "from",
+        "start": 6.0,
+        "end": 6.24
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "this",
+        "start": 6.24,
+        "end": 6.4
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "meeting",
+        "start": 6.4,
+        "end": 6.72
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "in",
+        "start": 6.72,
+        "end": 6.88
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "the",
+        "start": 6.88,
+        "end": 7.04
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "project",
+        "start": 7.2,
+        "end": 7.44
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "folder",
+        "start": 7.44,
+        "end": 7.76
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "and",
+        "start": 9.36,
+        "end": 9.52
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "then",
+        "start": 9.52,
+        "end": 9.6
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "we",
+        "start": 9.6,
+        "end": 9.68
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "can",
+        "start": 9.76,
+        "end": 9.92
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "all",
+        "start": 9.92,
+        "end": 10.08
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "work",
+        "start": 10.16,
+        "end": 10.4
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Finish",
+        "start": 12.0,
+        "end": 12.32
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "meeting",
+        "start": 12.32,
+        "end": 12.72
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "now",
+        "start": 12.72,
+        "end": 12.96
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Okay",
+        "start": 14.16,
+        "end": 14.32
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "We",
+        "start": 15.28,
+        "end": 15.36
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "can",
+        "start": 15.36,
+        "end": 15.68
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "all",
+        "start": 15.68,
+        "end": 15.76
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "work",
+        "start": 15.84,
+        "end": 16.0
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "on",
+        "start": 17.76,
+        "end": 17.92
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "our",
+        "start": 18.4,
+        "end": 18.401
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "own",
+        "start": 18.48,
+        "end": 18.56
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "projects",
+        "start": 18.64,
+        "end": 19.2
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Okay",
+        "start": 19.2,
+        "end": 22.48
+      },
+      {
+        "speaker": "unassigned",
+        "text": "Then",
+        "start": 22.48,
+        "end": 22.481
+      },
+      {
+        "speaker": "unassigned",
+        "text": "I'll",
+        "start": 24.48,
+        "end": 25.5
+      },
+      {
+        "speaker": "unassigned",
+        "text": "meet",
+        "start": 26.52,
+        "end": 27.54
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "you",
+        "start": 28.56,
+        "end": 29.84
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "In",
+        "start": 30.88,
+        "end": 30.96
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "about",
+        "start": 31.12,
+        "end": 31.44
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "half",
+        "start": 32.32,
+        "end": 32.4
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "an",
+        "start": 32.96,
+        "end": 32.961
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "hour",
+        "start": 33.04,
+        "end": 33.041
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Okay",
+        "start": 33.04,
+        "end": 34.8
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Good",
+        "start": 34.8,
+        "end": 34.96
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "luck",
+        "start": 34.96,
+        "end": 35.04
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Yep",
+        "start": 35.44,
+        "end": 35.6
+      },
+      {
+        "speaker": "unassigned",
+        "text": "Oh",
+        "start": 60.0,
+        "end": 60.001
+      }
+    ],
+    "activity": [
+      {
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "start": 0.87471875,
+        "end": 0.9422187500000001
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "start": 1.1953437500000001,
+        "end": 1.8534687500000002
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "start": 2.46096875,
+        "end": 3.18659375
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "start": 3.76034375,
+        "end": 7.894718750000001
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "start": 9.31221875,
+        "end": 10.476593750000003
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "start": 11.927843750000001,
+        "end": 19.20096875
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "start": 28.27971875,
+        "end": 30.034718750000003
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "start": 30.794093750000002,
+        "end": 31.03034375
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "start": 31.148468750000003,
+        "end": 31.688468750000002
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "start": 31.97534375,
+        "end": 32.025968750000004
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "start": 32.21159375,
+        "end": 33.22409375
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "start": 33.96659375,
+        "end": 34.034093750000004
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "start": 34.135343750000004,
+        "end": 35.31659375
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "start": 35.43471875,
+        "end": 35.45159375
+      }
+    ],
+    "timing": "forced_alignment",
+    "events": [],
+    "metadata": {
+      "raw_text": "Okay. Then I'll put the minutes from this meeting in the project folder, and then we can all work. Finish meeting now. Okay. We can all work on our own projects. Okay. Then I'll meet you. In about half an hour. Okay. Good luck. Yep. Oh.",
+      "asr_chunk_seconds": 30,
+      "zero_duration_alignment_words": 5,
+      "assignment": "maximum overlap; no overlap becomes unassigned"
+    }
+  },
+  "wall_seconds": 1.1000474559841678,
+  "rtf": 0.016758127146563193,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 7633226752,
+      "reserved_bytes": 8470396928
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 5341011968
+}

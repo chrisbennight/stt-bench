@@ -1,0 +1,208 @@
+{
+  "id": "TS3003a-11520000",
+  "duration": 240.0,
+  "seed": 3022183691,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "S01",
+        "text": "I'll probably use a different line width.",
+        "start": 1.15,
+        "end": 2.51
+      },
+      {
+        "speaker": "S01",
+        "text": "And I'm gonna draw it like",
+        "start": 4.66,
+        "end": 6.05
+      },
+      {
+        "speaker": "S01",
+        "text": "like",
+        "start": 7.13,
+        "end": 7.35
+      },
+      {
+        "speaker": "S01",
+        "text": "uh",
+        "start": 9.66,
+        "end": 9.93
+      },
+      {
+        "speaker": "S01",
+        "text": "'kay, a lot much in the line width, but here you go.",
+        "start": 12.26,
+        "end": 15.81
+      },
+      {
+        "speaker": "S02",
+        "text": "Maybe it's easier to draw with a smaller line width, I think, because this is going a lot better than the idea.",
+        "start": 23.56,
+        "end": 31.23
+      },
+      {
+        "speaker": "S03",
+        "text": "Hmm.",
+        "start": 28.18,
+        "end": 28.45
+      },
+      {
+        "speaker": "S02",
+        "text": "I see.",
+        "start": 46.99,
+        "end": 47.45
+      },
+      {
+        "speaker": "S01",
+        "text": "Oh shit.",
+        "start": 81.61,
+        "end": 82.21
+      },
+      {
+        "speaker": "S01",
+        "text": "Okay, this is my um",
+        "start": 84.44,
+        "end": 86.25
+      },
+      {
+        "speaker": "S03",
+        "text": "Hmm.",
+        "start": 86.77,
+        "end": 86.98
+      },
+      {
+        "speaker": "S01",
+        "text": "Sheep.",
+        "start": 92.19,
+        "end": 92.58
+      },
+      {
+        "speaker": "S02",
+        "text": "It's nice.",
+        "start": 98.24,
+        "end": 98.84
+      },
+      {
+        "speaker": "S01",
+        "text": "Black colours.",
+        "start": 100.48,
+        "end": 101.31
+      },
+      {
+        "speaker": "S02",
+        "text": "But",
+        "start": 109.96,
+        "end": 110.41
+      },
+      {
+        "speaker": "S01",
+        "text": "Blue dot there was, and it's pretty on the pot.",
+        "start": 110.77,
+        "end": 113.11
+      },
+      {
+        "speaker": "S02",
+        "text": "It's a real Dutchy, yeah, recognishe, yeah, I see.",
+        "start": 114.99,
+        "end": 118.72
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 116.44,
+        "end": 116.76
+      },
+      {
+        "speaker": "S02",
+        "text": "Uh maybe you can also write your name somewhere, just uh",
+        "start": 123.02,
+        "end": 126.25
+      },
+      {
+        "speaker": "S01",
+        "text": "'Kay.",
+        "start": 123.54,
+        "end": 123.84
+      },
+      {
+        "speaker": "S01",
+        "text": "They are.",
+        "start": 126.47,
+        "end": 126.98
+      },
+      {
+        "speaker": "S01",
+        "text": "Let's go really slowly through the line.",
+        "start": 138.81,
+        "end": 140.48
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 141.6,
+        "end": 141.91
+      },
+      {
+        "speaker": "S01",
+        "text": "They're building anything, animals. And that's just a little bit thing. So",
+        "start": 159.42,
+        "end": 164.74
+      },
+      {
+        "speaker": "S01",
+        "text": "It's a parcel contour, but you need first to",
+        "start": 168.58,
+        "end": 171.01
+      },
+      {
+        "speaker": "S02",
+        "text": "'Kay.",
+        "start": 169.66,
+        "end": 170.04
+      },
+      {
+        "speaker": "S02",
+        "text": "Uh",
+        "start": 170.83,
+        "end": 171.38
+      },
+      {
+        "speaker": "S02",
+        "text": "Just gonna draw it uh",
+        "start": 172.53,
+        "end": 173.94
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm.",
+        "start": 175.42,
+        "end": 175.83
+      },
+      {
+        "speaker": "S02",
+        "text": "See.",
+        "start": 178.08,
+        "end": 178.38
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "[1.15][S01]I'll probably use a different line width.[2.51][4.66][S01]And I'm gonna draw it like[6.05][7.13][S01]like[7.35][9.66][S01]uh[9.93][12.26][S01]'kay, a lot much in the line width, but here you go.[15.81][23.56][S02]Maybe it's easier to draw with a smaller line width, I think, because this is going a lot better than the idea.[31.23][28.18][S03]Hmm.[28.45][46.99][S02]I see.[47.45][81.61][S01]Oh shit.[82.21][84.44][S01]Okay, this is my um[86.25][86.77][S03]Hmm.[86.98][92.19][S01]Sheep.[92.58][98.24][S02]It's nice.[98.84][100.48][S01]Black colours.[101.31][109.96][S02]But[110.41][110.77][S01]Blue dot there was, and it's pretty on the pot.[113.11][114.99][S02]It's a real Dutchy, yeah, recognishe, yeah, I see.[118.72][116.44][S01]Yeah.[116.76][123.02][S02]Uh maybe you can also write your name somewhere, just uh[126.25][123.54][S01]'Kay.[123.84][126.47][S01]They are.[126.98][138.81][S01]Let's go really slowly through the line.[140.48][141.60][S02]Yeah.[141.91][159.42][S01]They're building anything, animals. And that's just a little bit thing. So[164.74][168.58][S01]It's a parcel contour, but you need first to[171.01][169.66][S02]'Kay.[170.04][170.83][S02]Uh[171.38][172.53][S02]Just gonna draw it uh[173.94][175.42][S02]Mm.[175.83][178.08][S02]See.[178.38]",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 6.250192572013475,
+  "rtf": 0.026042469050056145,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 2292979200,
+      "reserved_bytes": 2627731456
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 2850721792
+}

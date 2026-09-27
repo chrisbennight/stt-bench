@@ -1,0 +1,166 @@
+{
+  "id": "TS3003a-7680000",
+  "duration": 240.0,
+  "seed": 1882112913,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "0",
+        "text": "of a few of its favorite characteristics. Uh, the only thing we have to uh look after is that we use different colors and different line weights. Uh this, I can start from there.",
+        "start": 0.0,
+        "end": 15.88
+      },
+      {
+        "speaker": "0",
+        "text": "You can use the pen by holding it like a like a little child because if you hold it like this, sensors will get blocked and then",
+        "start": 17.0,
+        "end": 25.84
+      },
+      {
+        "speaker": "1",
+        "text": "Okay.",
+        "start": 25.84,
+        "end": 26.98
+      },
+      {
+        "speaker": "0",
+        "text": "Another thing is you have to be a bit slow because if you've got to draw really fast then the pen won't hold up. So, just for now.",
+        "start": 28.51,
+        "end": 40.65
+      },
+      {
+        "speaker": "0",
+        "text": "We have to call our uh thing. The gray is broken. Then the line is it's it will be nice.",
+        "start": 40.65,
+        "end": 53.63
+      },
+      {
+        "speaker": "0",
+        "text": "Now you'll see my drawing capabilities. It's not very good.",
+        "start": 54.21,
+        "end": 60.02
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. You have to do it real slow.",
+        "start": 62.88,
+        "end": 66.18
+      },
+      {
+        "speaker": "1",
+        "text": "Sure.",
+        "start": 89.05,
+        "end": 90.51
+      },
+      {
+        "speaker": "0",
+        "text": "Ah, it's trying to grow a boat.",
+        "start": 90.51,
+        "end": 94.07
+      },
+      {
+        "speaker": "1",
+        "text": "It's kind of like thinking about a short fiction.",
+        "start": 96.35,
+        "end": 99.25
+      },
+      {
+        "speaker": "0",
+        "text": "So yeah, it's a bit of a story. Yeah, it's kind of like...",
+        "start": 99.25,
+        "end": 103.43
+      },
+      {
+        "speaker": "1",
+        "text": "Hm?",
+        "start": 103.43,
+        "end": 104.48
+      },
+      {
+        "speaker": "0",
+        "text": "Now we've got another function, you can erase it. And then you can undo this easily.",
+        "start": 104.48,
+        "end": 116.11
+      },
+      {
+        "speaker": "0",
+        "text": "uh, I'm going to write down a few of these characteristics. Uh, yeah.",
+        "start": 118.11,
+        "end": 127.27
+      },
+      {
+        "speaker": "0",
+        "text": "Ik heb een tekst toegevoegd.",
+        "start": 131.59,
+        "end": 134.51
+      },
+      {
+        "speaker": "0",
+        "text": "This is difficult to do actually, I think.",
+        "start": 149.91,
+        "end": 153.67
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah.",
+        "start": 153.67,
+        "end": 154.67
+      },
+      {
+        "speaker": "0",
+        "text": "Maybe I have to hold it a bit upside down. I think that's it because if you hold it like this, you're going to destroy it. I don't know. destroy",
+        "start": 159.11,
+        "end": 172.99
+      },
+      {
+        "speaker": "0",
+        "text": "It's not bad.",
+        "start": 177.71,
+        "end": 179.65
+      },
+      {
+        "speaker": "1",
+        "text": "Hmm.",
+        "start": 180.31,
+        "end": 181.45
+      },
+      {
+        "speaker": "0",
+        "text": "Maybe it's",
+        "start": 181.45,
+        "end": 182.75
+      },
+      {
+        "speaker": "0",
+        "text": "Thank you. Wants to draw another one? I don't know.",
+        "start": 203.73,
+        "end": 210.19
+      },
+      {
+        "speaker": "0",
+        "text": "not characteristic characteristic but both this with the so I'm gonna I'm gonna hand over then you can actually see so I just",
+        "start": 219.31,
+        "end": 232.81
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "assistant\n[{\"Start\":0,\"End\":15.88,\"Speaker\":0,\"Content\":\"of a few of its favorite characteristics. Uh, the only thing we have to uh look after is that we use different colors and different line weights. Uh this, I can start from there.\"},{\"Start\":17.0,\"End\":25.84,\"Speaker\":0,\"Content\":\"You can use the pen by holding it like a like a little child because if you hold it like this, sensors will get blocked and then\"},{\"Start\":25.84,\"End\":26.98,\"Speaker\":1,\"Content\":\"Okay.\"},{\"Start\":28.51,\"End\":40.65,\"Speaker\":0,\"Content\":\"Another thing is you have to be a bit slow because if you've got to draw really fast then the pen won't hold up. So, just for now.\"},{\"Start\":40.65,\"End\":53.63,\"Speaker\":0,\"Content\":\"We have to call our uh thing. The gray is broken. Then the line is it's it will be nice.\"},{\"Start\":54.21,\"End\":60.02,\"Speaker\":0,\"Content\":\"Now you'll see my drawing capabilities. It's not very good.\"},{\"Start\":60.02,\"End\":62.88,\"Content\":\"[Environmental Sounds]\"},{\"Start\":62.88,\"End\":66.18,\"Speaker\":0,\"Content\":\"Yeah. You have to do it real slow.\"},{\"Start\":66.18,\"End\":89.05,\"Content\":\"[Human Sounds]\"},{\"Start\":89.05,\"End\":90.51,\"Speaker\":1,\"Content\":\"Sure.\"},{\"Start\":90.51,\"End\":94.07,\"Speaker\":0,\"Content\":\"Ah, it's trying to grow a boat.\"},{\"Start\":94.07,\"End\":96.35,\"Content\":\"[Human Sounds]\"},{\"Start\":96.35,\"End\":99.25,\"Speaker\":1,\"Content\":\"It's kind of like thinking about a short fiction.\"},{\"Start\":99.25,\"End\":103.43,\"Speaker\":0,\"Content\":\"So yeah, it's a bit of a story. Yeah, it's kind of like...\"},{\"Start\":103.43,\"End\":104.48,\"Speaker\":1,\"Content\":\"Hm?\"},{\"Start\":104.48,\"End\":116.11,\"Speaker\":0,\"Content\":\"Now we've got another function, you can erase it. And then you can undo this easily.\"},{\"Start\":116.11,\"End\":118.11,\"Content\":\"[Human Sounds]\"},{\"Start\":118.11,\"End\":127.27,\"Speaker\":0,\"Content\":\"uh, I'm going to write down a few of these characteristics. Uh, yeah.\"},{\"Start\":127.27,\"End\":131.59,\"Content\":\"[Environmental Sounds]\"},{\"Start\":131.59,\"End\":134.51,\"Speaker\":0,\"Content\":\"Ik heb een tekst toegevoegd.\"},{\"Start\":134.51,\"End\":149.91,\"Content\":\"[Environmental Sounds]\"},{\"Start\":149.91,\"End\":153.67,\"Speaker\":0,\"Content\":\"This is difficult to do actually, I think.\"},{\"Start\":153.67,\"End\":154.67,\"Speaker\":1,\"Content\":\"Yeah.\"},{\"Start\":154.67,\"End\":159.11,\"Content\":\"[Human Sounds]\"},{\"Start\":159.11,\"End\":172.99,\"Speaker\":0,\"Content\":\"Maybe I have to hold it a bit upside down. I think that's it because if you hold it like this, you're going to destroy it. I don't know. destroy\"},{\"Start\":172.99,\"End\":177.71,\"Content\":\"[Human Sounds]\"},{\"Start\":177.71,\"End\":179.65,\"Speaker\":0,\"Content\":\"It's not bad.\"},{\"Start\":180.31,\"End\":181.45,\"Speaker\":1,\"Content\":\"Hmm.\"},{\"Start\":181.45,\"End\":182.75,\"Speaker\":0,\"Content\":\"Maybe it's\"},{\"Start\":182.75,\"End\":203.73,\"Content\":\"[Environmental Sounds]\"},{\"Start\":203.73,\"End\":210.19,\"Speaker\":0,\"Content\":\"Thank you. Wants to draw another one? I don't know.\"},{\"Start\":210.19,\"End\":219.31,\"Content\":\"[Environmental Sounds]\"},{\"Start\":219.31,\"End\":232.81,\"Speaker\":0,\"Content\":\"not characteristic characteristic but both this with the so I'm gonna I'm gonna hand over then you can actually see so I just\"},{\"Start\":232.81,\"End\":240.0,\"Content\":\"[Environmental Sounds]\"}]\n",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 22.214038475998677,
+  "rtf": 0.0925584936499945,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 21213673984,
+      "reserved_bytes": 22735224832
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 3490095104
+}

@@ -1,0 +1,709 @@
+{
+  "id": "TS3003a-3840000",
+  "duration": 240.0,
+  "seed": 4193340827,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "0",
+        "text": "I'm not an expert for, uh, the trendy trendy look. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "No. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Uh, the industrial designer.Uh, but that's also a user friendly look, originally. And we've got our user interface designer, Nils. So, so, that's about a new remote control. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Well, project method, um, is, uh, there are three phases we're going through. First is functional des\u2014 uh, design, the functional work meeting.After the functional design, then conceptual design, then the detailed design.I had some notes and conclusions down here. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "But I think you know it already.I am still. The industrial designer is going to work on the working design.Uh, components design, and a bit of the look and feel design.And the user interface designer is going to do the technical function design. User interface concept and user interface design.And the marketing expert is doing a little bit of user requirements specification. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "We're finishing trend watching and project, uh, product evaluation.That's a bit what you're going to do. But that will be all worked out in other meetings. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Then we've got our first tool training. We're going to work with a lot of high tech tools here. So it's, it's handy if we have a little bit of training first.As you can see, we've got the smart board here and here. And the whiteboard.Um, in the whiteboard here is a little toolbar. On this side there are some functions, you can save, uh, these functions without having anything to do with it. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "With. Only undo, you can undo a little.Easy going. A blank new document for each person.A select, a pen, an eraser. You can actually re-evaluate. Uh, then we've got our pen. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "This pen. You will find it that you can draw with it on this page.Um, in the, in the, uh, format. You can also select the current colour and the line width. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "But, uh, first you have to select the pen function. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "What we're going to work in, in a minute. Pen.Uh, that's very simple and it's easy to, uh, draw in.Findings, uh, drawings in there.Uh, and then a short thing about documents. We've got our shared folder, uh, project ma, project folder, project documents. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "So you can find all the, you all found that already because there are a lot of documents in it already. So that will be okay.Um, these are available on the smart boards as well. So if you have a document you want to show, you can just open that folder and then, uh, you have the simple toolbar. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Just wanted to set, say, move back or forward one page. Just switch between the different documents. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "And then we're going to try out the white board. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "So, as you can see, we're going, going to draw the animal. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Just to, uh, just to get a bit familiar with it.I'm not supposed to draw on the board. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "So, everybody's familiar with the, I think.We're going to, uh, draw an animal.And, uh, just...",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [
+      {
+        "audio_available_seconds": 3.466666666666667,
+        "chunk_end_seconds": 2.933333333333333,
+        "emitted_seconds": 3.8000897970050573,
+        "has_text": true,
+        "text": " \n Speaker 0:I'm not an expert for, uh, the trendy "
+      },
+      {
+        "audio_available_seconds": 6.4,
+        "chunk_end_seconds": 5.866666666666666,
+        "emitted_seconds": 6.663726572995074,
+        "has_text": true,
+        "text": "trendy look. \n Speaker 1:No."
+      },
+      {
+        "audio_available_seconds": 9.333333333333334,
+        "chunk_end_seconds": 8.8,
+        "emitted_seconds": 9.579317776951939,
+        "has_text": true,
+        "text": " \n Speaker 0:Uh, the industrial designer."
+      },
+      {
+        "audio_available_seconds": 12.266666666666667,
+        "chunk_end_seconds": 11.733333333333333,
+        "emitted_seconds": 12.533777386997826,
+        "has_text": true,
+        "text": "Uh, but that's also a user friendly look, "
+      },
+      {
+        "audio_available_seconds": 15.2,
+        "chunk_end_seconds": 14.666666666666666,
+        "emitted_seconds": 15.410575624904595,
+        "has_text": true,
+        "text": "originally. And we've got our "
+      },
+      {
+        "audio_available_seconds": 18.133333333333333,
+        "chunk_end_seconds": 17.6,
+        "emitted_seconds": 18.273370340000838,
+        "has_text": true,
+        "text": "user interface designer, "
+      },
+      {
+        "audio_available_seconds": 21.066666666666666,
+        "chunk_end_seconds": 20.533333333333335,
+        "emitted_seconds": 21.26556128798984,
+        "has_text": true,
+        "text": "Nils. So, so, "
+      },
+      {
+        "audio_available_seconds": 24.0,
+        "chunk_end_seconds": 23.466666666666665,
+        "emitted_seconds": 24.335945863975212,
+        "has_text": true,
+        "text": "that's about a new remote control. \n Speaker 1:Well, "
+      },
+      {
+        "audio_available_seconds": 26.933333333333334,
+        "chunk_end_seconds": 26.4,
+        "emitted_seconds": 27.094268334913068,
+        "has_text": true,
+        "text": "project method, um, "
+      },
+      {
+        "audio_available_seconds": 29.866666666666667,
+        "chunk_end_seconds": 29.333333333333332,
+        "emitted_seconds": 30.060626733931713,
+        "has_text": true,
+        "text": "is, uh, there are three "
+      },
+      {
+        "audio_available_seconds": 32.8,
+        "chunk_end_seconds": 32.266666666666666,
+        "emitted_seconds": 33.118457085918635,
+        "has_text": true,
+        "text": "phases we're going through. First is functional des\u2014 uh, "
+      },
+      {
+        "audio_available_seconds": 35.733333333333334,
+        "chunk_end_seconds": 35.2,
+        "emitted_seconds": 35.910138853942044,
+        "has_text": true,
+        "text": "design, the functional work meeting."
+      },
+      {
+        "audio_available_seconds": 38.666666666666664,
+        "chunk_end_seconds": 38.13333333333333,
+        "emitted_seconds": 38.86028273892589,
+        "has_text": true,
+        "text": "After the functional design, then conceptual "
+      },
+      {
+        "audio_available_seconds": 41.6,
+        "chunk_end_seconds": 41.06666666666667,
+        "emitted_seconds": 41.77632185595576,
+        "has_text": true,
+        "text": "design, then the detailed design."
+      },
+      {
+        "audio_available_seconds": 44.53333333333333,
+        "chunk_end_seconds": 44.0,
+        "emitted_seconds": 44.674010970979,
+        "has_text": true,
+        "text": "I had some notes "
+      },
+      {
+        "audio_available_seconds": 47.46666666666667,
+        "chunk_end_seconds": 46.93333333333333,
+        "emitted_seconds": 47.607126233982854,
+        "has_text": true,
+        "text": "and conclusions down here."
+      },
+      {
+        "audio_available_seconds": 50.4,
+        "chunk_end_seconds": 49.86666666666667,
+        "emitted_seconds": 50.68261438398622,
+        "has_text": true,
+        "text": " \n Speaker 1:But I think you know it already."
+      },
+      {
+        "audio_available_seconds": 53.333333333333336,
+        "chunk_end_seconds": 52.8,
+        "emitted_seconds": 53.49714143900201,
+        "has_text": true,
+        "text": "I am still. The "
+      },
+      {
+        "audio_available_seconds": 56.266666666666666,
+        "chunk_end_seconds": 55.733333333333334,
+        "emitted_seconds": 56.53238267300185,
+        "has_text": true,
+        "text": "industrial designer is going to work on the working design."
+      },
+      {
+        "audio_available_seconds": 59.2,
+        "chunk_end_seconds": 58.666666666666664,
+        "emitted_seconds": 59.430376253905706,
+        "has_text": true,
+        "text": "Uh, components design, and a bit of "
+      },
+      {
+        "audio_available_seconds": 62.13333333333333,
+        "chunk_end_seconds": 61.6,
+        "emitted_seconds": 62.29249553394038,
+        "has_text": true,
+        "text": "the look and feel design."
+      },
+      {
+        "audio_available_seconds": 65.06666666666666,
+        "chunk_end_seconds": 64.53333333333333,
+        "emitted_seconds": 65.31450228695758,
+        "has_text": true,
+        "text": "And the user interface designer is going to do the "
+      },
+      {
+        "audio_available_seconds": 68.0,
+        "chunk_end_seconds": 67.46666666666667,
+        "emitted_seconds": 68.15954109397717,
+        "has_text": true,
+        "text": "technical function design. User "
+      },
+      {
+        "audio_available_seconds": 70.93333333333334,
+        "chunk_end_seconds": 70.4,
+        "emitted_seconds": 71.11574031901546,
+        "has_text": true,
+        "text": "interface concept and user interface design."
+      },
+      {
+        "audio_available_seconds": 73.86666666666666,
+        "chunk_end_seconds": 73.33333333333333,
+        "emitted_seconds": 74.00993110600393,
+        "has_text": true,
+        "text": "And the marketing expert "
+      },
+      {
+        "audio_available_seconds": 76.8,
+        "chunk_end_seconds": 76.26666666666667,
+        "emitted_seconds": 77.01405601401348,
+        "has_text": true,
+        "text": "is doing a little bit of user requirements "
+      },
+      {
+        "audio_available_seconds": 79.73333333333333,
+        "chunk_end_seconds": 79.2,
+        "emitted_seconds": 80.12542149599176,
+        "has_text": true,
+        "text": "specification. \n Speaker 1:We're finishing trend watching and project, uh, "
+      },
+      {
+        "audio_available_seconds": 82.66666666666667,
+        "chunk_end_seconds": 82.13333333333334,
+        "emitted_seconds": 82.77313628594857,
+        "has_text": true,
+        "text": "product evaluation."
+      },
+      {
+        "audio_available_seconds": 85.6,
+        "chunk_end_seconds": 85.06666666666666,
+        "emitted_seconds": 85.90646456601098,
+        "has_text": true,
+        "text": "That's a bit what you're going to do. But that "
+      },
+      {
+        "audio_available_seconds": 88.53333333333333,
+        "chunk_end_seconds": 88.0,
+        "emitted_seconds": 88.74734094797168,
+        "has_text": true,
+        "text": "will be all worked out in other meetings."
+      },
+      {
+        "audio_available_seconds": 91.46666666666667,
+        "chunk_end_seconds": 90.93333333333334,
+        "emitted_seconds": 91.51977069792338,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 94.4,
+        "chunk_end_seconds": 93.86666666666666,
+        "emitted_seconds": 94.69286115001887,
+        "has_text": true,
+        "text": " \n Speaker 1:Then we've got our first tool "
+      },
+      {
+        "audio_available_seconds": 97.33333333333333,
+        "chunk_end_seconds": 96.8,
+        "emitted_seconds": 97.60144173295703,
+        "has_text": true,
+        "text": "training. We're going to work with a lot of "
+      },
+      {
+        "audio_available_seconds": 100.26666666666667,
+        "chunk_end_seconds": 99.73333333333333,
+        "emitted_seconds": 100.53558096697088,
+        "has_text": true,
+        "text": "high tech tools here. So it's, it's "
+      },
+      {
+        "audio_available_seconds": 103.2,
+        "chunk_end_seconds": 102.66666666666667,
+        "emitted_seconds": 103.4679611059837,
+        "has_text": true,
+        "text": "handy if we have a little bit of training first."
+      },
+      {
+        "audio_available_seconds": 106.13333333333334,
+        "chunk_end_seconds": 105.6,
+        "emitted_seconds": 106.42084581591189,
+        "has_text": true,
+        "text": "As you can see, we've got the smart board here "
+      },
+      {
+        "audio_available_seconds": 109.06666666666666,
+        "chunk_end_seconds": 108.53333333333333,
+        "emitted_seconds": 109.26428055390716,
+        "has_text": true,
+        "text": "and here. And the whiteboard."
+      },
+      {
+        "audio_available_seconds": 112.0,
+        "chunk_end_seconds": 111.46666666666667,
+        "emitted_seconds": 112.1795518649742,
+        "has_text": true,
+        "text": "Um, in the whiteboard "
+      },
+      {
+        "audio_available_seconds": 114.93333333333334,
+        "chunk_end_seconds": 114.4,
+        "emitted_seconds": 115.14968702697661,
+        "has_text": true,
+        "text": "here is a little toolbar. On this "
+      },
+      {
+        "audio_available_seconds": 117.86666666666666,
+        "chunk_end_seconds": 117.33333333333333,
+        "emitted_seconds": 118.08896859793458,
+        "has_text": true,
+        "text": "side there are some functions, you can "
+      },
+      {
+        "audio_available_seconds": 120.8,
+        "chunk_end_seconds": 120.26666666666667,
+        "emitted_seconds": 121.10507603199221,
+        "has_text": true,
+        "text": "save, uh, these functions without having anything to do with it."
+      },
+      {
+        "audio_available_seconds": 123.73333333333333,
+        "chunk_end_seconds": 123.2,
+        "emitted_seconds": 124.07543645892292,
+        "has_text": true,
+        "text": " \n Speaker 1:With. Only undo, you can undo a little."
+      },
+      {
+        "audio_available_seconds": 126.66666666666667,
+        "chunk_end_seconds": 126.13333333333334,
+        "emitted_seconds": 126.84315610199701,
+        "has_text": true,
+        "text": "Easy going. A blank "
+      },
+      {
+        "audio_available_seconds": 129.6,
+        "chunk_end_seconds": 129.06666666666666,
+        "emitted_seconds": 129.7618785710074,
+        "has_text": true,
+        "text": "new document for each person."
+      },
+      {
+        "audio_available_seconds": 132.53333333333333,
+        "chunk_end_seconds": 132.0,
+        "emitted_seconds": 132.83842108596582,
+        "has_text": true,
+        "text": "A select, a pen, an eraser. You can actually "
+      },
+      {
+        "audio_available_seconds": 135.46666666666667,
+        "chunk_end_seconds": 134.93333333333334,
+        "emitted_seconds": 135.650519857998,
+        "has_text": true,
+        "text": "re-evaluate. Uh, "
+      },
+      {
+        "audio_available_seconds": 138.4,
+        "chunk_end_seconds": 137.86666666666667,
+        "emitted_seconds": 138.58085835701786,
+        "has_text": true,
+        "text": "then we've got our pen."
+      },
+      {
+        "audio_available_seconds": 141.33333333333334,
+        "chunk_end_seconds": 140.8,
+        "emitted_seconds": 141.62181910697836,
+        "has_text": true,
+        "text": " \n Speaker 1:This pen. You will find it "
+      },
+      {
+        "audio_available_seconds": 144.26666666666668,
+        "chunk_end_seconds": 143.73333333333332,
+        "emitted_seconds": 144.50413623498753,
+        "has_text": true,
+        "text": "that you can draw with it on this page."
+      },
+      {
+        "audio_available_seconds": 147.2,
+        "chunk_end_seconds": 146.66666666666666,
+        "emitted_seconds": 147.36216109595262,
+        "has_text": true,
+        "text": "Um, in the, "
+      },
+      {
+        "audio_available_seconds": 150.13333333333333,
+        "chunk_end_seconds": 149.6,
+        "emitted_seconds": 150.36827695800457,
+        "has_text": true,
+        "text": "in the, uh, format. You can "
+      },
+      {
+        "audio_available_seconds": 153.06666666666666,
+        "chunk_end_seconds": 152.53333333333333,
+        "emitted_seconds": 153.3011774669867,
+        "has_text": true,
+        "text": "also select the current colour and the line width."
+      },
+      {
+        "audio_available_seconds": 156.0,
+        "chunk_end_seconds": 155.46666666666667,
+        "emitted_seconds": 156.36207635095343,
+        "has_text": true,
+        "text": " \n Speaker 1:But, uh, first you have to select the pen "
+      },
+      {
+        "audio_available_seconds": 158.93333333333334,
+        "chunk_end_seconds": 158.4,
+        "emitted_seconds": 159.24306302599143,
+        "has_text": true,
+        "text": "function. \n Speaker 1:What we're going to work "
+      },
+      {
+        "audio_available_seconds": 161.86666666666667,
+        "chunk_end_seconds": 161.33333333333334,
+        "emitted_seconds": 162.06709022494033,
+        "has_text": true,
+        "text": "in, in a minute. Pen."
+      },
+      {
+        "audio_available_seconds": 164.8,
+        "chunk_end_seconds": 164.26666666666668,
+        "emitted_seconds": 165.0356438779272,
+        "has_text": true,
+        "text": "Uh, that's very simple and it's "
+      },
+      {
+        "audio_available_seconds": 167.73333333333332,
+        "chunk_end_seconds": 167.2,
+        "emitted_seconds": 167.93293719599023,
+        "has_text": true,
+        "text": "easy to, uh, draw in."
+      },
+      {
+        "audio_available_seconds": 170.66666666666666,
+        "chunk_end_seconds": 170.13333333333333,
+        "emitted_seconds": 170.88391317101195,
+        "has_text": true,
+        "text": "Findings, uh, drawings in there."
+      },
+      {
+        "audio_available_seconds": 173.6,
+        "chunk_end_seconds": 173.06666666666666,
+        "emitted_seconds": 173.78110845491756,
+        "has_text": true,
+        "text": "Uh, and then a short "
+      },
+      {
+        "audio_available_seconds": 176.53333333333333,
+        "chunk_end_seconds": 176.0,
+        "emitted_seconds": 176.75116370792966,
+        "has_text": true,
+        "text": "thing about documents. We've got our "
+      },
+      {
+        "audio_available_seconds": 179.46666666666667,
+        "chunk_end_seconds": 178.93333333333334,
+        "emitted_seconds": 179.70244657597505,
+        "has_text": true,
+        "text": "shared folder, uh, project ma, project "
+      },
+      {
+        "audio_available_seconds": 182.4,
+        "chunk_end_seconds": 181.86666666666667,
+        "emitted_seconds": 182.70776915294118,
+        "has_text": true,
+        "text": "folder, project documents. \n Speaker 1:So you can "
+      },
+      {
+        "audio_available_seconds": 185.33333333333334,
+        "chunk_end_seconds": 184.8,
+        "emitted_seconds": 185.56888627191074,
+        "has_text": true,
+        "text": "find all the, you all found that already "
+      },
+      {
+        "audio_available_seconds": 188.26666666666668,
+        "chunk_end_seconds": 187.73333333333332,
+        "emitted_seconds": 188.6355907629477,
+        "has_text": true,
+        "text": "because there are a lot of documents in it already. So that will be okay."
+      },
+      {
+        "audio_available_seconds": 191.2,
+        "chunk_end_seconds": 190.66666666666666,
+        "emitted_seconds": 191.34589228394907,
+        "has_text": true,
+        "text": "Um, these are "
+      },
+      {
+        "audio_available_seconds": 194.13333333333333,
+        "chunk_end_seconds": 193.6,
+        "emitted_seconds": 194.4415222449461,
+        "has_text": true,
+        "text": "available on the smart boards as well. So if you have a "
+      },
+      {
+        "audio_available_seconds": 197.06666666666666,
+        "chunk_end_seconds": 196.53333333333333,
+        "emitted_seconds": 197.33913718094118,
+        "has_text": true,
+        "text": "document you want to show, you can just open that "
+      },
+      {
+        "audio_available_seconds": 200.0,
+        "chunk_end_seconds": 199.46666666666667,
+        "emitted_seconds": 200.14585089695174,
+        "has_text": true,
+        "text": "folder and then, "
+      },
+      {
+        "audio_available_seconds": 202.93333333333334,
+        "chunk_end_seconds": 202.4,
+        "emitted_seconds": 203.36903045198414,
+        "has_text": true,
+        "text": "uh, you have the simple toolbar. \n Speaker 1:Just wanted to set, say, "
+      },
+      {
+        "audio_available_seconds": 205.86666666666667,
+        "chunk_end_seconds": 205.33333333333334,
+        "emitted_seconds": 205.97831404895987,
+        "has_text": true,
+        "text": "move back "
+      },
+      {
+        "audio_available_seconds": 208.8,
+        "chunk_end_seconds": 208.26666666666668,
+        "emitted_seconds": 209.0007240989944,
+        "has_text": true,
+        "text": "or forward one page. Just switch "
+      },
+      {
+        "audio_available_seconds": 211.73333333333332,
+        "chunk_end_seconds": 211.2,
+        "emitted_seconds": 211.88001126400195,
+        "has_text": true,
+        "text": "between the different documents."
+      },
+      {
+        "audio_available_seconds": 214.66666666666666,
+        "chunk_end_seconds": 214.13333333333333,
+        "emitted_seconds": 214.9766211869428,
+        "has_text": true,
+        "text": " \n Speaker 1:And then we're going to try out "
+      },
+      {
+        "audio_available_seconds": 217.6,
+        "chunk_end_seconds": 217.06666666666666,
+        "emitted_seconds": 217.72856737591792,
+        "has_text": true,
+        "text": "the white board."
+      },
+      {
+        "audio_available_seconds": 220.53333333333333,
+        "chunk_end_seconds": 220.0,
+        "emitted_seconds": 220.96875969599932,
+        "has_text": true,
+        "text": " \n Speaker 1:So, as you can see, we're going, going to draw the "
+      },
+      {
+        "audio_available_seconds": 223.46666666666667,
+        "chunk_end_seconds": 222.93333333333334,
+        "emitted_seconds": 223.76124993700068,
+        "has_text": true,
+        "text": "animal. \n Speaker 1:Just to, uh, "
+      },
+      {
+        "audio_available_seconds": 226.4,
+        "chunk_end_seconds": 225.86666666666667,
+        "emitted_seconds": 226.61965263297316,
+        "has_text": true,
+        "text": "just to get a bit familiar with it."
+      },
+      {
+        "audio_available_seconds": 229.33333333333334,
+        "chunk_end_seconds": 228.8,
+        "emitted_seconds": 229.55287117697299,
+        "has_text": true,
+        "text": "I'm not supposed to draw on the "
+      },
+      {
+        "audio_available_seconds": 232.26666666666668,
+        "chunk_end_seconds": 231.73333333333332,
+        "emitted_seconds": 232.51995529897977,
+        "has_text": true,
+        "text": "board. \n Speaker 1:So, "
+      },
+      {
+        "audio_available_seconds": 235.2,
+        "chunk_end_seconds": 234.66666666666666,
+        "emitted_seconds": 235.4379365579225,
+        "has_text": true,
+        "text": "everybody's familiar with the, I think."
+      },
+      {
+        "audio_available_seconds": 238.13333333333333,
+        "chunk_end_seconds": 237.6,
+        "emitted_seconds": 238.39016728301067,
+        "has_text": true,
+        "text": "We're going to, uh, draw an animal."
+      },
+      {
+        "audio_available_seconds": 240.0,
+        "chunk_end_seconds": 240.0,
+        "emitted_seconds": 240.16425817401614,
+        "has_text": true,
+        "text": "And, uh, just..."
+      }
+    ],
+    "metadata": {
+      "raw_output": " \n Speaker 0:I'm not an expert for, uh, the trendy trendy look. \n Speaker 1:No. \n Speaker 0:Uh, the industrial designer.Uh, but that's also a user friendly look, originally. And we've got our user interface designer, Nils. So, so, that's about a new remote control. \n Speaker 1:Well, project method, um, is, uh, there are three phases we're going through. First is functional des\u2014 uh, design, the functional work meeting.After the functional design, then conceptual design, then the detailed design.I had some notes and conclusions down here. \n Speaker 1:But I think you know it already.I am still. The industrial designer is going to work on the working design.Uh, components design, and a bit of the look and feel design.And the user interface designer is going to do the technical function design. User interface concept and user interface design.And the marketing expert is doing a little bit of user requirements specification. \n Speaker 1:We're finishing trend watching and project, uh, product evaluation.That's a bit what you're going to do. But that will be all worked out in other meetings. \n Speaker 1:Then we've got our first tool training. We're going to work with a lot of high tech tools here. So it's, it's handy if we have a little bit of training first.As you can see, we've got the smart board here and here. And the whiteboard.Um, in the whiteboard here is a little toolbar. On this side there are some functions, you can save, uh, these functions without having anything to do with it. \n Speaker 1:With. Only undo, you can undo a little.Easy going. A blank new document for each person.A select, a pen, an eraser. You can actually re-evaluate. Uh, then we've got our pen. \n Speaker 1:This pen. You will find it that you can draw with it on this page.Um, in the, in the, uh, format. You can also select the current colour and the line width. \n Speaker 1:But, uh, first you have to select the pen function. \n Speaker 1:What we're going to work in, in a minute. Pen.Uh, that's very simple and it's easy to, uh, draw in.Findings, uh, drawings in there.Uh, and then a short thing about documents. We've got our shared folder, uh, project ma, project folder, project documents. \n Speaker 1:So you can find all the, you all found that already because there are a lot of documents in it already. So that will be okay.Um, these are available on the smart boards as well. So if you have a document you want to show, you can just open that folder and then, uh, you have the simple toolbar. \n Speaker 1:Just wanted to set, say, move back or forward one page. Just switch between the different documents. \n Speaker 1:And then we're going to try out the white board. \n Speaker 1:So, as you can see, we're going, going to draw the animal. \n Speaker 1:Just to, uh, just to get a bit familiar with it.I'm not supposed to draw on the board. \n Speaker 1:So, everybody's familiar with the, I think.We're going to, uh, draw an animal.And, uh, just...",
+      "realtime_paced": true,
+      "stream_compute_seconds": 18.965235413284972,
+      "timing_reason": "Official streaming output has no speech timestamps",
+      "generation_limit_hit": null,
+      "stream_output_parser": "joined-chunks-v1"
+    }
+  },
+  "wall_seconds": 240.21463068691082,
+  "rtf": 1.000894294528795,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 17662733312,
+      "reserved_bytes": 17943232512
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 3490643968
+}

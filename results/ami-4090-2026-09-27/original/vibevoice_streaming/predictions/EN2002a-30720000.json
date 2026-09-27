@@ -1,0 +1,1680 @@
+{
+  "id": "EN2002a-30720000",
+  "duration": 222.709375,
+  "seed": 1180211639,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "0",
+        "text": "How about if we take a, a tour? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Well, if you find me, I'll show you where ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "the\u2014 I'll let us all in there and we can all go in there. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "We can, we can look. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "No, afterwards. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, yeah, yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Exactly. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "You do need to have a ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "key, but that's\u2014 then you just get a knock door, but... ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Ah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Just for the thing, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, somebody'll have to... ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Actually, I was asking Steve about that, whether we can get ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "in, uh, whether he was gonna get us access and ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "that. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Into what? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "The computer room. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Okay, yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "it's only got this crap, it's only got about four or five computers in, but it would ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "do quite good for our job, cause it can also, it's not very lo\u2014 ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "long, and you know... ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "It don't mind. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Is there a printer in there, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "isn't there? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, it's a printer in there. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "And there's a photocopier.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "With the code on it, yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, that's, yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Let's get ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "on with it. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "That's what we have. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Uh, well, I ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "guess we can just... ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "And it's, it's part of our copy your, uh, assignment. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "If we ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "want to. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "We got on my computer.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, of all the comments I'm thinking. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. Okay. So what ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "time do we say? I just think it's better to do it afterwards when we have ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "all the time in the world. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, that's right. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, half, yeah, half an hour and then ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "we'll finish when we're ready. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, that's what I was thinking as well. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yep, yep.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Okay.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "As long as Danielle, she doesn't go late.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Hopefully it's not that man's though, it won't matter.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Actually, it's not even confirmed ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "anyway. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "What? Oh. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "She doesn't even know what ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "she's talking about. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Maybe it doesn't ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "matter at all. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Sounds like me. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "It's pretty ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "neat. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Should be. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Is it really? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Well, it's supposed to be. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Next week. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Next week.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "It's really... ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Reading. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Oh. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "I don't think we have a reading ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "anyway, have we? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "I don't know. We have one class at least one week, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "which is... ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "No, it's, it's not, yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Speech perception. We don't have any lectures, but I think ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "I have to go on the class as though. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "No, we don't. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Oh. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "No, I don't think there is. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "There is ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "not enough points even. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "I don't think there was an official one last ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "semester, I think it was just a bank holiday, wasn't it? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Oh. It's ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "something like that. I think one of, a couple of classes did last semester. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Some classes did and some ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "classes didn't. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "So we'll do it at the end. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "As long as they're ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "not, they know that was going to be the end anyway. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "I think the undergraduates had, oh, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "one. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Don't know. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "I think it was up to the professor whether, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "I think, did it or not. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Well, I don't feel like keeping ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "it. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "No. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "No, that didn't work. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. I think D. I. L. will probably have ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "one to make up for missing classes.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "What? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "D. I. L. No problem. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, we will ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "probably have, yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Unless ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "we... Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Must be a ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "memory. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Done. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Um, that's it. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yep.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Was there anything else? Do I have a long ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "one, like, like campus? I'm sure I do. I ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "will. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Oh, we're just checking. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Oh, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "no, there was something. Oh, I think it's your ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "physic reset.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "The same thing since I've been ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "gone. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Try go to the meeting.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Did you get it? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "No problem.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Um, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "is it really one for Windows from a single web?",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "What's single web? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "But most ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "we will probably want to go with default.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Oh, that was ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "pretty easy. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, I think the comments are basically the same as what you said. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "exactly, just the other comment about whether you want to ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "default speaker characterization and topic segmentation.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Was the last bit.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "No. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "I think so. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "And now we have ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "seven percent of the voices. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Oh.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Cricket. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Alright, so we need to be able to hear both, right? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "If ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "you're, uh, okay with having it, uh, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "as it is. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Whoops. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "As it is. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "There we go.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Just slightly off, I think. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Okay.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Shall we find these out, or... ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Shall we ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "go? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "I don't know.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "You should still ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "be here. Is he off? Yeah.",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [
+      {
+        "audio_available_seconds": 3.466666666666667,
+        "chunk_end_seconds": 2.933333333333333,
+        "emitted_seconds": 4.10164123098366,
+        "has_text": true,
+        "text": " \n Speaker 0:How about if we take a, a tour? \n Speaker 1:Well, if you find me, I'll show you where "
+      },
+      {
+        "audio_available_seconds": 6.4,
+        "chunk_end_seconds": 5.866666666666666,
+        "emitted_seconds": 6.98251063702628,
+        "has_text": true,
+        "text": "the\u2014 I'll let us all in there and we can all go in there. \n Speaker 2:We can, we can look. "
+      },
+      {
+        "audio_available_seconds": 9.333333333333334,
+        "chunk_end_seconds": 8.8,
+        "emitted_seconds": 9.987895234953612,
+        "has_text": true,
+        "text": "No, afterwards. \n Speaker 1:Yeah, yeah, yeah. \n Speaker 0:Exactly. \n Speaker 1:You do need to have a "
+      },
+      {
+        "audio_available_seconds": 12.266666666666667,
+        "chunk_end_seconds": 11.733333333333333,
+        "emitted_seconds": 12.92196949897334,
+        "has_text": true,
+        "text": "key, but that's\u2014 then you just get a knock door, but... \n Speaker 0:Ah. \n Speaker 0:Just for the thing, "
+      },
+      {
+        "audio_available_seconds": 15.2,
+        "chunk_end_seconds": 14.666666666666666,
+        "emitted_seconds": 15.835405971040018,
+        "has_text": true,
+        "text": "yeah. \n Speaker 1:Yeah, somebody'll have to... \n Speaker 0:Actually, I was asking Steve about that, whether we can get "
+      },
+      {
+        "audio_available_seconds": 18.133333333333333,
+        "chunk_end_seconds": 17.6,
+        "emitted_seconds": 18.41562994697597,
+        "has_text": true,
+        "text": "in, uh, whether he was gonna get us access and "
+      },
+      {
+        "audio_available_seconds": 21.066666666666666,
+        "chunk_end_seconds": 20.533333333333335,
+        "emitted_seconds": 21.746582695981488,
+        "has_text": true,
+        "text": "that. \n Speaker 2:Into what? \n Speaker 0:The computer room. \n Speaker 2:Okay, yeah. \n Speaker 1:Yeah, "
+      },
+      {
+        "audio_available_seconds": 24.0,
+        "chunk_end_seconds": 23.466666666666665,
+        "emitted_seconds": 24.441613413975574,
+        "has_text": true,
+        "text": "it's only got this crap, it's only got about four or five computers in, but it would "
+      },
+      {
+        "audio_available_seconds": 26.933333333333334,
+        "chunk_end_seconds": 26.4,
+        "emitted_seconds": 27.322302142973058,
+        "has_text": true,
+        "text": "do quite good for our job, cause it can also, it's not very lo\u2014 "
+      },
+      {
+        "audio_available_seconds": 29.866666666666667,
+        "chunk_end_seconds": 29.333333333333332,
+        "emitted_seconds": 30.54933326493483,
+        "has_text": true,
+        "text": "long, and you know... \n Speaker 0:Yeah. \n Speaker 1:It don't mind. \n Speaker 0:Is there a printer in there, "
+      },
+      {
+        "audio_available_seconds": 32.8,
+        "chunk_end_seconds": 32.266666666666666,
+        "emitted_seconds": 33.54277332697529,
+        "has_text": true,
+        "text": "isn't there? \n Speaker 1:Yeah, it's a printer in there. \n Speaker 0:Yeah. \n Speaker 1:And there's a photocopier."
+      },
+      {
+        "audio_available_seconds": 35.733333333333334,
+        "chunk_end_seconds": 35.2,
+        "emitted_seconds": 36.387821692973375,
+        "has_text": true,
+        "text": " \n Speaker 1:With the code on it, yeah. \n Speaker 0:Yeah, that's, yeah. \n Speaker 1:Let's get "
+      },
+      {
+        "audio_available_seconds": 38.666666666666664,
+        "chunk_end_seconds": 38.13333333333333,
+        "emitted_seconds": 39.18045790295582,
+        "has_text": true,
+        "text": "on with it. \n Speaker 0:That's what we have. \n Speaker 2:Uh, well, I "
+      },
+      {
+        "audio_available_seconds": 41.6,
+        "chunk_end_seconds": 41.06666666666667,
+        "emitted_seconds": 42.37825783598237,
+        "has_text": true,
+        "text": "guess we can just... \n Speaker 0:And it's, it's part of our copy your, uh, assignment. \n Speaker 2:Yeah. \n Speaker 0:If we "
+      },
+      {
+        "audio_available_seconds": 44.53333333333333,
+        "chunk_end_seconds": 44.0,
+        "emitted_seconds": 44.83445602993015,
+        "has_text": true,
+        "text": "want to. \n Speaker 2:We got on my computer."
+      },
+      {
+        "audio_available_seconds": 47.46666666666667,
+        "chunk_end_seconds": 46.93333333333333,
+        "emitted_seconds": 48.001516117947176,
+        "has_text": true,
+        "text": " \n Speaker 0:Yeah, of all the comments I'm thinking. \n Speaker 2:Yeah. Okay. So what "
+      },
+      {
+        "audio_available_seconds": 50.4,
+        "chunk_end_seconds": 49.86666666666667,
+        "emitted_seconds": 50.790505288983695,
+        "has_text": true,
+        "text": "time do we say? I just think it's better to do it afterwards when we have "
+      },
+      {
+        "audio_available_seconds": 53.333333333333336,
+        "chunk_end_seconds": 52.8,
+        "emitted_seconds": 54.014380445936695,
+        "has_text": true,
+        "text": "all the time in the world. \n Speaker 0:Yeah, that's right. \n Speaker 2:Yeah, half, yeah, half an hour and then "
+      },
+      {
+        "audio_available_seconds": 56.266666666666666,
+        "chunk_end_seconds": 55.733333333333334,
+        "emitted_seconds": 57.209948268020526,
+        "has_text": true,
+        "text": "we'll finish when we're ready. \n Speaker 0:Yeah, that's what I was thinking as well. \n Speaker 1:Yeah, yeah. \n Speaker 0:Yeah. \n Speaker 2:Yep, yep."
+      },
+      {
+        "audio_available_seconds": 59.2,
+        "chunk_end_seconds": 58.666666666666664,
+        "emitted_seconds": 59.378062551957555,
+        "has_text": true,
+        "text": " \n Speaker 2:Okay."
+      },
+      {
+        "audio_available_seconds": 62.13333333333333,
+        "chunk_end_seconds": 61.6,
+        "emitted_seconds": 62.47403603803832,
+        "has_text": true,
+        "text": " \n Speaker 0:As long as Danielle, she doesn't go late."
+      },
+      {
+        "audio_available_seconds": 65.06666666666666,
+        "chunk_end_seconds": 64.53333333333333,
+        "emitted_seconds": 65.45915193902329,
+        "has_text": true,
+        "text": " \n Speaker 1:Hopefully it's not that man's though, it won't matter."
+      },
+      {
+        "audio_available_seconds": 68.0,
+        "chunk_end_seconds": 67.46666666666667,
+        "emitted_seconds": 68.28494843095541,
+        "has_text": true,
+        "text": " \n Speaker 2:Actually, it's not even confirmed "
+      },
+      {
+        "audio_available_seconds": 70.93333333333334,
+        "chunk_end_seconds": 70.4,
+        "emitted_seconds": 71.41493520501535,
+        "has_text": true,
+        "text": "anyway. \n Speaker 0:What? Oh. \n Speaker 2:She doesn't even know what "
+      },
+      {
+        "audio_available_seconds": 73.86666666666666,
+        "chunk_end_seconds": 73.33333333333333,
+        "emitted_seconds": 74.18873487401288,
+        "has_text": true,
+        "text": "she's talking about. \n Speaker 2:Maybe it doesn't "
+      },
+      {
+        "audio_available_seconds": 76.8,
+        "chunk_end_seconds": 76.26666666666667,
+        "emitted_seconds": 77.24667408294044,
+        "has_text": true,
+        "text": "matter at all. \n Speaker 0:Sounds like me. \n Speaker 2:It's pretty "
+      },
+      {
+        "audio_available_seconds": 79.73333333333333,
+        "chunk_end_seconds": 79.2,
+        "emitted_seconds": 80.3759606690146,
+        "has_text": true,
+        "text": "neat. \n Speaker 0:Yeah. \n Speaker 2:Should be. \n Speaker 2:Is it really? \n Speaker 0:Yeah."
+      },
+      {
+        "audio_available_seconds": 82.66666666666667,
+        "chunk_end_seconds": 82.13333333333334,
+        "emitted_seconds": 83.2403872179566,
+        "has_text": true,
+        "text": " \n Speaker 2:Well, it's supposed to be. \n Speaker 0:Next week. \n Speaker 2:Next week."
+      },
+      {
+        "audio_available_seconds": 85.6,
+        "chunk_end_seconds": 85.06666666666666,
+        "emitted_seconds": 86.30571913800668,
+        "has_text": true,
+        "text": " \n Speaker 0:It's really... \n Speaker 2:Reading. \n Speaker 0:Oh. \n Speaker 2:I don't think we have a reading "
+      },
+      {
+        "audio_available_seconds": 88.53333333333333,
+        "chunk_end_seconds": 88.0,
+        "emitted_seconds": 89.03524540492799,
+        "has_text": true,
+        "text": "anyway, have we? \n Speaker 2:I don't know. We have one class at least one week, "
+      },
+      {
+        "audio_available_seconds": 91.46666666666667,
+        "chunk_end_seconds": 90.93333333333334,
+        "emitted_seconds": 92.20338858303148,
+        "has_text": true,
+        "text": "which is... \n Speaker 0:No, it's, it's not, yeah. \n Speaker 2:Speech perception. We don't have any lectures, but I think "
+      },
+      {
+        "audio_available_seconds": 94.4,
+        "chunk_end_seconds": 93.86666666666666,
+        "emitted_seconds": 95.36313899792731,
+        "has_text": true,
+        "text": "I have to go on the class as though. \n Speaker 0:No, we don't. \n Speaker 0:Oh. \n Speaker 2:No, I don't think there is. \n Speaker 2:There is "
+      },
+      {
+        "audio_available_seconds": 97.33333333333333,
+        "chunk_end_seconds": 96.8,
+        "emitted_seconds": 97.748437135946,
+        "has_text": true,
+        "text": "not enough points even. \n Speaker 2:I don't think there was an official one last "
+      },
+      {
+        "audio_available_seconds": 100.26666666666667,
+        "chunk_end_seconds": 99.73333333333333,
+        "emitted_seconds": 100.77135015302338,
+        "has_text": true,
+        "text": "semester, I think it was just a bank holiday, wasn't it? \n Speaker 0:Oh. It's "
+      },
+      {
+        "audio_available_seconds": 103.2,
+        "chunk_end_seconds": 102.66666666666667,
+        "emitted_seconds": 103.75866377493367,
+        "has_text": true,
+        "text": "something like that. I think one of, a couple of classes did last semester. \n Speaker 1:Some classes did and some "
+      },
+      {
+        "audio_available_seconds": 106.13333333333334,
+        "chunk_end_seconds": 105.6,
+        "emitted_seconds": 106.96028617594857,
+        "has_text": true,
+        "text": "classes didn't. \n Speaker 0:Yeah. \n Speaker 2:Yeah. \n Speaker 0:So we'll do it at the end. \n Speaker 1:As long as they're "
+      },
+      {
+        "audio_available_seconds": 109.06666666666666,
+        "chunk_end_seconds": 108.53333333333333,
+        "emitted_seconds": 109.73262222192716,
+        "has_text": true,
+        "text": "not, they know that was going to be the end anyway. \n Speaker 2:Yeah. \n Speaker 2:I think the undergraduates had, oh, "
+      },
+      {
+        "audio_available_seconds": 112.0,
+        "chunk_end_seconds": 111.46666666666667,
+        "emitted_seconds": 112.64963876502588,
+        "has_text": true,
+        "text": "one. \n Speaker 0:Yeah. \n Speaker 2:Don't know. \n Speaker 0:I think it was up to the professor whether, "
+      },
+      {
+        "audio_available_seconds": 114.93333333333334,
+        "chunk_end_seconds": 114.4,
+        "emitted_seconds": 115.50938803597819,
+        "has_text": true,
+        "text": "I think, did it or not. \n Speaker 2:Yeah. \n Speaker 0:Well, I don't feel like keeping "
+      },
+      {
+        "audio_available_seconds": 117.86666666666666,
+        "chunk_end_seconds": 117.33333333333333,
+        "emitted_seconds": 118.76821275393013,
+        "has_text": true,
+        "text": "it. \n Speaker 2:No. \n Speaker 0:No, that didn't work. \n Speaker 1:Yeah. \n Speaker 0:Yeah. I think D. I. L. will probably have "
+      },
+      {
+        "audio_available_seconds": 120.8,
+        "chunk_end_seconds": 120.26666666666667,
+        "emitted_seconds": 120.99969729792792,
+        "has_text": true,
+        "text": "one to make up for missing classes."
+      },
+      {
+        "audio_available_seconds": 123.73333333333333,
+        "chunk_end_seconds": 123.2,
+        "emitted_seconds": 124.32872373901773,
+        "has_text": true,
+        "text": " \n Speaker 2:What? \n Speaker 0:D. I. L. No problem. \n Speaker 2:Yeah, we will "
+      },
+      {
+        "audio_available_seconds": 126.66666666666667,
+        "chunk_end_seconds": 126.13333333333334,
+        "emitted_seconds": 127.06979847198818,
+        "has_text": true,
+        "text": "probably have, yeah. \n Speaker 0:Yeah. \n Speaker 2:Unless "
+      },
+      {
+        "audio_available_seconds": 129.6,
+        "chunk_end_seconds": 129.06666666666666,
+        "emitted_seconds": 130.01471662393305,
+        "has_text": true,
+        "text": "we... Okay. \n Speaker 0:Yeah. \n Speaker 2:Must be a "
+      },
+      {
+        "audio_available_seconds": 132.53333333333333,
+        "chunk_end_seconds": 132.0,
+        "emitted_seconds": 132.87754861300346,
+        "has_text": true,
+        "text": "memory. \n Speaker 1:Done. \n Speaker 2:Yeah."
+      },
+      {
+        "audio_available_seconds": 135.46666666666667,
+        "chunk_end_seconds": 134.93333333333334,
+        "emitted_seconds": 135.76080774294678,
+        "has_text": true,
+        "text": "Um, that's it. \n Speaker 1:Yep."
+      },
+      {
+        "audio_available_seconds": 138.4,
+        "chunk_end_seconds": 137.86666666666667,
+        "emitted_seconds": 138.7445999670308,
+        "has_text": true,
+        "text": " \n Speaker 2:Was there anything else? Do I have a long "
+      },
+      {
+        "audio_available_seconds": 141.33333333333334,
+        "chunk_end_seconds": 140.8,
+        "emitted_seconds": 141.66080608498305,
+        "has_text": true,
+        "text": "one, like, like campus? I'm sure I do. I "
+      },
+      {
+        "audio_available_seconds": 144.26666666666668,
+        "chunk_end_seconds": 143.73333333333332,
+        "emitted_seconds": 144.84629377699457,
+        "has_text": true,
+        "text": "will. \n Speaker 1:Oh, we're just checking. \n Speaker 0:Yeah. \n Speaker 2:Oh, "
+      },
+      {
+        "audio_available_seconds": 147.2,
+        "chunk_end_seconds": 146.66666666666666,
+        "emitted_seconds": 147.50962462101597,
+        "has_text": true,
+        "text": "no, there was something. Oh, I think it's your "
+      },
+      {
+        "audio_available_seconds": 150.13333333333333,
+        "chunk_end_seconds": 149.6,
+        "emitted_seconds": 150.26709347392898,
+        "has_text": true,
+        "text": "physic reset."
+      },
+      {
+        "audio_available_seconds": 153.06666666666666,
+        "chunk_end_seconds": 152.53333333333333,
+        "emitted_seconds": 153.34014492097776,
+        "has_text": true,
+        "text": " \n Speaker 2:The same thing since I've been "
+      },
+      {
+        "audio_available_seconds": 156.0,
+        "chunk_end_seconds": 155.46666666666667,
+        "emitted_seconds": 156.29215926793404,
+        "has_text": true,
+        "text": "gone. \n Speaker 2:Try go to the meeting."
+      },
+      {
+        "audio_available_seconds": 158.93333333333334,
+        "chunk_end_seconds": 158.4,
+        "emitted_seconds": 158.99536730302498,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 161.86666666666667,
+        "chunk_end_seconds": 161.33333333333334,
+        "emitted_seconds": 162.50150584697258,
+        "has_text": true,
+        "text": " \n Speaker 2:Did you get it? \n Speaker 0:Yeah. \n Speaker 2:Okay. \n Speaker 0:No problem."
+      },
+      {
+        "audio_available_seconds": 164.8,
+        "chunk_end_seconds": 164.26666666666668,
+        "emitted_seconds": 164.91070916003082,
+        "has_text": true,
+        "text": "Um, "
+      },
+      {
+        "audio_available_seconds": 167.73333333333332,
+        "chunk_end_seconds": 167.2,
+        "emitted_seconds": 167.98919228103478,
+        "has_text": true,
+        "text": "is it really one for Windows from a single web?"
+      },
+      {
+        "audio_available_seconds": 170.66666666666666,
+        "chunk_end_seconds": 170.13333333333333,
+        "emitted_seconds": 171.0494043090148,
+        "has_text": true,
+        "text": " \n Speaker 2:What's single web? \n Speaker 0:But most "
+      },
+      {
+        "audio_available_seconds": 173.6,
+        "chunk_end_seconds": 173.06666666666666,
+        "emitted_seconds": 173.8192953839898,
+        "has_text": true,
+        "text": "we will probably want to go with default."
+      },
+      {
+        "audio_available_seconds": 176.53333333333333,
+        "chunk_end_seconds": 176.0,
+        "emitted_seconds": 177.0248788089957,
+        "has_text": true,
+        "text": " \n Speaker 2:Yeah. \n Speaker 0:Yeah. \n Speaker 2:Oh, that was "
+      },
+      {
+        "audio_available_seconds": 179.46666666666667,
+        "chunk_end_seconds": 178.93333333333334,
+        "emitted_seconds": 180.08549293293618,
+        "has_text": true,
+        "text": "pretty easy. \n Speaker 1:Yeah, I think the comments are basically the same as what you said. \n Speaker 0:Yeah, "
+      },
+      {
+        "audio_available_seconds": 182.4,
+        "chunk_end_seconds": 181.86666666666667,
+        "emitted_seconds": 182.69383380596992,
+        "has_text": true,
+        "text": "exactly, just the other comment about whether you want to "
+      },
+      {
+        "audio_available_seconds": 185.33333333333334,
+        "chunk_end_seconds": 184.8,
+        "emitted_seconds": 185.51874764997046,
+        "has_text": true,
+        "text": "default speaker characterization and topic segmentation."
+      },
+      {
+        "audio_available_seconds": 188.26666666666668,
+        "chunk_end_seconds": 187.73333333333332,
+        "emitted_seconds": 188.63321198592894,
+        "has_text": true,
+        "text": " \n Speaker 2:Hmm. \n Speaker 0:Was the last bit."
+      },
+      {
+        "audio_available_seconds": 191.2,
+        "chunk_end_seconds": 190.66666666666666,
+        "emitted_seconds": 191.96749582502525,
+        "has_text": true,
+        "text": " \n Speaker 2:No. \n Speaker 0:I think so. \n Speaker 2:Yeah. \n Speaker 0:Okay. \n Speaker 2:And now we have "
+      },
+      {
+        "audio_available_seconds": 194.13333333333333,
+        "chunk_end_seconds": 193.6,
+        "emitted_seconds": 194.55307726899628,
+        "has_text": true,
+        "text": "seven percent of the voices. \n Speaker 0:Yeah. \n Speaker 2:Oh."
+      },
+      {
+        "audio_available_seconds": 197.06666666666666,
+        "chunk_end_seconds": 196.53333333333333,
+        "emitted_seconds": 197.52379987796303,
+        "has_text": true,
+        "text": " \n Speaker 1:Yeah. \n Speaker 2:Cricket. \n Speaker 0:Yeah."
+      },
+      {
+        "audio_available_seconds": 200.0,
+        "chunk_end_seconds": 199.46666666666667,
+        "emitted_seconds": 200.6568041050341,
+        "has_text": true,
+        "text": " \n Speaker 2:Alright, so we need to be able to hear both, right? \n Speaker 0:Yeah. \n Speaker 2:If "
+      },
+      {
+        "audio_available_seconds": 202.93333333333334,
+        "chunk_end_seconds": 202.4,
+        "emitted_seconds": 203.2271488319384,
+        "has_text": true,
+        "text": "you're, uh, okay with having it, uh, "
+      },
+      {
+        "audio_available_seconds": 205.86666666666667,
+        "chunk_end_seconds": 205.33333333333334,
+        "emitted_seconds": 206.47309899702668,
+        "has_text": true,
+        "text": "as it is. \n Speaker 0:Whoops. \n Speaker 1:As it is. \n Speaker 2:There we go."
+      },
+      {
+        "audio_available_seconds": 208.8,
+        "chunk_end_seconds": 208.26666666666668,
+        "emitted_seconds": 209.203714387957,
+        "has_text": true,
+        "text": " \n Speaker 1:Just slightly off, I think. \n Speaker 2:Yeah."
+      },
+      {
+        "audio_available_seconds": 211.73333333333332,
+        "chunk_end_seconds": 211.2,
+        "emitted_seconds": 211.91850772395264,
+        "has_text": true,
+        "text": " \n Speaker 0:Okay."
+      },
+      {
+        "audio_available_seconds": 214.66666666666666,
+        "chunk_end_seconds": 214.13333333333333,
+        "emitted_seconds": 215.14766976900864,
+        "has_text": true,
+        "text": " \n Speaker 2:Shall we find these out, or... \n Speaker 0:Shall we "
+      },
+      {
+        "audio_available_seconds": 217.6,
+        "chunk_end_seconds": 217.06666666666666,
+        "emitted_seconds": 217.85887227393687,
+        "has_text": true,
+        "text": "go? \n Speaker 2:I don't know."
+      },
+      {
+        "audio_available_seconds": 220.53333333333333,
+        "chunk_end_seconds": 220.0,
+        "emitted_seconds": 220.75511646002997,
+        "has_text": true,
+        "text": " \n Speaker 2:You should still "
+      },
+      {
+        "audio_available_seconds": 222.709375,
+        "chunk_end_seconds": 222.709375,
+        "emitted_seconds": 222.931923624943,
+        "has_text": true,
+        "text": "be here. Is he off? Yeah."
+      }
+    ],
+    "metadata": {
+      "raw_output": " \n Speaker 0:How about if we take a, a tour? \n Speaker 1:Well, if you find me, I'll show you where the\u2014 I'll let us all in there and we can all go in there. \n Speaker 2:We can, we can look. No, afterwards. \n Speaker 1:Yeah, yeah, yeah. \n Speaker 0:Exactly. \n Speaker 1:You do need to have a key, but that's\u2014 then you just get a knock door, but... \n Speaker 0:Ah. \n Speaker 0:Just for the thing, yeah. \n Speaker 1:Yeah, somebody'll have to... \n Speaker 0:Actually, I was asking Steve about that, whether we can get in, uh, whether he was gonna get us access and that. \n Speaker 2:Into what? \n Speaker 0:The computer room. \n Speaker 2:Okay, yeah. \n Speaker 1:Yeah, it's only got this crap, it's only got about four or five computers in, but it would do quite good for our job, cause it can also, it's not very lo\u2014 long, and you know... \n Speaker 0:Yeah. \n Speaker 1:It don't mind. \n Speaker 0:Is there a printer in there, isn't there? \n Speaker 1:Yeah, it's a printer in there. \n Speaker 0:Yeah. \n Speaker 1:And there's a photocopier. \n Speaker 1:With the code on it, yeah. \n Speaker 0:Yeah, that's, yeah. \n Speaker 1:Let's get on with it. \n Speaker 0:That's what we have. \n Speaker 2:Uh, well, I guess we can just... \n Speaker 0:And it's, it's part of our copy your, uh, assignment. \n Speaker 2:Yeah. \n Speaker 0:If we want to. \n Speaker 2:We got on my computer. \n Speaker 0:Yeah, of all the comments I'm thinking. \n Speaker 2:Yeah. Okay. So what time do we say? I just think it's better to do it afterwards when we have all the time in the world. \n Speaker 0:Yeah, that's right. \n Speaker 2:Yeah, half, yeah, half an hour and then we'll finish when we're ready. \n Speaker 0:Yeah, that's what I was thinking as well. \n Speaker 1:Yeah, yeah. \n Speaker 0:Yeah. \n Speaker 2:Yep, yep. \n Speaker 2:Okay. \n Speaker 0:As long as Danielle, she doesn't go late. \n Speaker 1:Hopefully it's not that man's though, it won't matter. \n Speaker 2:Actually, it's not even confirmed anyway. \n Speaker 0:What? Oh. \n Speaker 2:She doesn't even know what she's talking about. \n Speaker 2:Maybe it doesn't matter at all. \n Speaker 0:Sounds like me. \n Speaker 2:It's pretty neat. \n Speaker 0:Yeah. \n Speaker 2:Should be. \n Speaker 2:Is it really? \n Speaker 0:Yeah. \n Speaker 2:Well, it's supposed to be. \n Speaker 0:Next week. \n Speaker 2:Next week. \n Speaker 0:It's really... \n Speaker 2:Reading. \n Speaker 0:Oh. \n Speaker 2:I don't think we have a reading anyway, have we? \n Speaker 2:I don't know. We have one class at least one week, which is... \n Speaker 0:No, it's, it's not, yeah. \n Speaker 2:Speech perception. We don't have any lectures, but I think I have to go on the class as though. \n Speaker 0:No, we don't. \n Speaker 0:Oh. \n Speaker 2:No, I don't think there is. \n Speaker 2:There is not enough points even. \n Speaker 2:I don't think there was an official one last semester, I think it was just a bank holiday, wasn't it? \n Speaker 0:Oh. It's something like that. I think one of, a couple of classes did last semester. \n Speaker 1:Some classes did and some classes didn't. \n Speaker 0:Yeah. \n Speaker 2:Yeah. \n Speaker 0:So we'll do it at the end. \n Speaker 1:As long as they're not, they know that was going to be the end anyway. \n Speaker 2:Yeah. \n Speaker 2:I think the undergraduates had, oh, one. \n Speaker 0:Yeah. \n Speaker 2:Don't know. \n Speaker 0:I think it was up to the professor whether, I think, did it or not. \n Speaker 2:Yeah. \n Speaker 0:Well, I don't feel like keeping it. \n Speaker 2:No. \n Speaker 0:No, that didn't work. \n Speaker 1:Yeah. \n Speaker 0:Yeah. I think D. I. L. will probably have one to make up for missing classes. \n Speaker 2:What? \n Speaker 0:D. I. L. No problem. \n Speaker 2:Yeah, we will probably have, yeah. \n Speaker 0:Yeah. \n Speaker 2:Unless we... Okay. \n Speaker 0:Yeah. \n Speaker 2:Must be a memory. \n Speaker 1:Done. \n Speaker 2:Yeah.Um, that's it. \n Speaker 1:Yep. \n Speaker 2:Was there anything else? Do I have a long one, like, like campus? I'm sure I do. I will. \n Speaker 1:Oh, we're just checking. \n Speaker 0:Yeah. \n Speaker 2:Oh, no, there was something. Oh, I think it's your physic reset. \n Speaker 2:The same thing since I've been gone. \n Speaker 2:Try go to the meeting. \n Speaker 2:Did you get it? \n Speaker 0:Yeah. \n Speaker 2:Okay. \n Speaker 0:No problem.Um, is it really one for Windows from a single web? \n Speaker 2:What's single web? \n Speaker 0:But most we will probably want to go with default. \n Speaker 2:Yeah. \n Speaker 0:Yeah. \n Speaker 2:Oh, that was pretty easy. \n Speaker 1:Yeah, I think the comments are basically the same as what you said. \n Speaker 0:Yeah, exactly, just the other comment about whether you want to default speaker characterization and topic segmentation. \n Speaker 2:Hmm. \n Speaker 0:Was the last bit. \n Speaker 2:No. \n Speaker 0:I think so. \n Speaker 2:Yeah. \n Speaker 0:Okay. \n Speaker 2:And now we have seven percent of the voices. \n Speaker 0:Yeah. \n Speaker 2:Oh. \n Speaker 1:Yeah. \n Speaker 2:Cricket. \n Speaker 0:Yeah. \n Speaker 2:Alright, so we need to be able to hear both, right? \n Speaker 0:Yeah. \n Speaker 2:If you're, uh, okay with having it, uh, as it is. \n Speaker 0:Whoops. \n Speaker 1:As it is. \n Speaker 2:There we go. \n Speaker 1:Just slightly off, I think. \n Speaker 2:Yeah. \n Speaker 0:Okay. \n Speaker 2:Shall we find these out, or... \n Speaker 0:Shall we go? \n Speaker 2:I don't know. \n Speaker 2:You should still be here. Is he off? Yeah.",
+      "realtime_paced": true,
+      "stream_compute_seconds": 35.93129804346245,
+      "timing_reason": "Official streaming output has no speech timestamps",
+      "generation_limit_hit": null
+    }
+  },
+  "wall_seconds": 222.9782884629676,
+  "rtf": 1.0012074635967507,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 17706850304,
+      "reserved_bytes": 17943232512
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 3490643968
+}

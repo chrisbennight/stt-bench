@@ -1,0 +1,88 @@
+{
+  "id": "TS3003a-11520000",
+  "duration": 240.0,
+  "seed": 3022183691,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "0",
+        "text": "Okay, I don't know what you like this, but here you go.",
+        "start": 11.91,
+        "end": 16.28
+      },
+      {
+        "speaker": "0",
+        "text": "Maybe it's easier to draw with a smaller language, I think. Because this is going a little bit in ID.",
+        "start": 23.11,
+        "end": 31.77
+      },
+      {
+        "speaker": "0",
+        "text": "Sheep.",
+        "start": 46.65,
+        "end": 47.98
+      },
+      {
+        "speaker": "0",
+        "text": "Okay. This is my um... Sheep.",
+        "start": 84.0,
+        "end": 93.09
+      },
+      {
+        "speaker": "0",
+        "text": "It's nice. Of course.",
+        "start": 97.76,
+        "end": 101.66
+      },
+      {
+        "speaker": "0",
+        "text": "The new dot name is, it's right on the box. It's a real dead sheep. Yeah. Recognition. Yeah, I see.",
+        "start": 109.47,
+        "end": 119.16
+      },
+      {
+        "speaker": "0",
+        "text": "Maybe you can also write your name somewhere. It's just like where you are.",
+        "start": 122.59,
+        "end": 127.38
+      },
+      {
+        "speaker": "0",
+        "text": "It's been really slow this whole time. Yeah.",
+        "start": 138.28,
+        "end": 142.38
+      },
+      {
+        "speaker": "0",
+        "text": "There really isn't any. Unless it's just literally being. So.",
+        "start": 158.88,
+        "end": 165.19
+      },
+      {
+        "speaker": "0",
+        "text": "So how's the car to work? Yeah, it's usually the first time. Just can't handle it, it's a hit.",
+        "start": 168.07,
+        "end": 174.62
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "assistant\n[{\"Start\":0,\"End\":11.91,\"Content\":\"[Environmental Sounds]\"},{\"Start\":11.91,\"End\":16.28,\"Speaker\":0,\"Content\":\"Okay, I don't know what you like this, but here you go.\"},{\"Start\":16.28,\"End\":23.11,\"Content\":\"[Environmental Sounds]\"},{\"Start\":23.11,\"End\":31.77,\"Speaker\":0,\"Content\":\"Maybe it's easier to draw with a smaller language, I think. Because this is going a little bit in ID.\"},{\"Start\":31.77,\"End\":46.65,\"Content\":\"[Environmental Sounds]\"},{\"Start\":46.65,\"End\":47.98,\"Speaker\":0,\"Content\":\"Sheep.\"},{\"Start\":47.98,\"End\":84.0,\"Content\":\"[Environmental Sounds]\"},{\"Start\":84.0,\"End\":93.09,\"Speaker\":0,\"Content\":\"Okay. This is my um... Sheep.\"},{\"Start\":93.09,\"End\":97.76,\"Content\":\"[Environmental Sounds]\"},{\"Start\":97.76,\"End\":101.66,\"Speaker\":0,\"Content\":\"It's nice. Of course.\"},{\"Start\":101.66,\"End\":109.47,\"Content\":\"[Environmental Sounds]\"},{\"Start\":109.47,\"End\":119.16,\"Speaker\":0,\"Content\":\"The new dot name is, it's right on the box. It's a real dead sheep. Yeah. Recognition. Yeah, I see.\"},{\"Start\":119.16,\"End\":122.59,\"Content\":\"[Environmental Sounds]\"},{\"Start\":122.59,\"End\":127.38,\"Speaker\":0,\"Content\":\"Maybe you can also write your name somewhere. It's just like where you are.\"},{\"Start\":127.38,\"End\":138.28,\"Content\":\"[Environmental Sounds]\"},{\"Start\":138.28,\"End\":142.38,\"Speaker\":0,\"Content\":\"It's been really slow this whole time. Yeah.\"},{\"Start\":142.38,\"End\":158.88,\"Content\":\"[Environmental Sounds]\"},{\"Start\":158.88,\"End\":165.19,\"Speaker\":0,\"Content\":\"There really isn't any. Unless it's just literally being. So.\"},{\"Start\":165.19,\"End\":168.07,\"Content\":\"[Environmental Sounds]\"},{\"Start\":168.07,\"End\":174.62,\"Speaker\":0,\"Content\":\"So how's the car to work? Yeah, it's usually the first time. Just can't handle it, it's a hit.\"},{\"Start\":174.62,\"End\":240.0,\"Content\":\"[Environmental Sounds]\"}]\n",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 13.188267076038755,
+  "rtf": 0.05495111281682815,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 21213673984,
+      "reserved_bytes": 22735224832
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 3490095104
+}

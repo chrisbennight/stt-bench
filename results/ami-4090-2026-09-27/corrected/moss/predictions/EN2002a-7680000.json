@@ -1,0 +1,718 @@
+{
+  "id": "EN2002a-7680000",
+  "duration": 240.0,
+  "seed": 3838496989,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "S01",
+        "text": "What's the most common use to double click?",
+        "start": 0.0,
+        "end": 2.86
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah, yeah.",
+        "start": 0.0,
+        "end": 1.88
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 1.08,
+        "end": 1.88
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 2.48,
+        "end": 2.78
+      },
+      {
+        "speaker": "S01",
+        "text": "Uh okay.",
+        "start": 3.38,
+        "end": 4.0
+      },
+      {
+        "speaker": "S04",
+        "text": "Like I don't know, show the speaker characters, each one first and then.",
+        "start": 3.68,
+        "end": 7.82
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 6.06,
+        "end": 6.38
+      },
+      {
+        "speaker": "S05",
+        "text": "Yeah, but then then there's a problem with a lot of windows popping up again, and they pop up without you even being quite sure what it is, you know what I mean?",
+        "start": 6.32,
+        "end": 13.84
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm.",
+        "start": 11.56,
+        "end": 11.94
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 14.7,
+        "end": 15.7
+      },
+      {
+        "speaker": "S04",
+        "text": "But if you do double click on something, don't you expect something to happen, then yeah, maybe you sort of uh.",
+        "start": 16.22,
+        "end": 24.6
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 16.86,
+        "end": 17.14
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm.",
+        "start": 21.7,
+        "end": 21.98
+      },
+      {
+        "speaker": "S01",
+        "text": "It's not touching it right, it's the way you go, I'll go away, it's not coming up.",
+        "start": 24.54,
+        "end": 27.94
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah, I don't I don't need closer.",
+        "start": 26.78,
+        "end": 28.6
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 28.64,
+        "end": 28.88
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 29.54,
+        "end": 29.86
+      },
+      {
+        "speaker": "S02",
+        "text": "No, it's not it's not the end of the world.",
+        "start": 29.68,
+        "end": 31.1
+      },
+      {
+        "speaker": "S05",
+        "text": "Especially if you haven't touched a pad.",
+        "start": 31.8,
+        "end": 33.1
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah, yeah.",
+        "start": 33.5,
+        "end": 34.48
+      },
+      {
+        "speaker": "S05",
+        "text": "And then she goes oh.",
+        "start": 34.22,
+        "end": 35.22
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah, yeah.",
+        "start": 34.54,
+        "end": 35.02
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 35.58,
+        "end": 35.84
+      },
+      {
+        "speaker": "S02",
+        "text": "It doesn't break it.",
+        "start": 37.44,
+        "end": 38.48
+      },
+      {
+        "speaker": "S05",
+        "text": "Well I'll I'll check what it does on on um double click at the moment.",
+        "start": 37.62,
+        "end": 41.3
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 41.62,
+        "end": 41.9
+      },
+      {
+        "speaker": "S02",
+        "text": "Okay.",
+        "start": 41.76,
+        "end": 42.08
+      },
+      {
+        "speaker": "S05",
+        "text": "'Cause I think it might do something, but",
+        "start": 41.98,
+        "end": 43.78
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 42.58,
+        "end": 42.96
+      },
+      {
+        "speaker": "S04",
+        "text": "It's good for",
+        "start": 44.46,
+        "end": 45.4
+      },
+      {
+        "speaker": "S05",
+        "text": "Yeah.",
+        "start": 45.12,
+        "end": 45.44
+      },
+      {
+        "speaker": "S05",
+        "text": "But I don't I don't I d really don't see anything obvious that that",
+        "start": 46.56,
+        "end": 50.34
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 46.86,
+        "end": 47.14
+      },
+      {
+        "speaker": "S05",
+        "text": "I mean if we can think of something, right.",
+        "start": 52.28,
+        "end": 53.64
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm.",
+        "start": 54.86,
+        "end": 55.06
+      },
+      {
+        "speaker": "S05",
+        "text": "So.",
+        "start": 58.66,
+        "end": 59.06
+      },
+      {
+        "speaker": "S05",
+        "text": "I guess it depends on the",
+        "start": 62.28,
+        "end": 63.5
+      },
+      {
+        "speaker": "S04",
+        "text": "The",
+        "start": 64.24,
+        "end": 64.52
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah, what you're clicking on, so.",
+        "start": 66.24,
+        "end": 68.88
+      },
+      {
+        "speaker": "S05",
+        "text": "So, um yeah, another thing.",
+        "start": 68.48,
+        "end": 71.9
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm.",
+        "start": 69.8,
+        "end": 70.02
+      },
+      {
+        "speaker": "S05",
+        "text": "Single audio files, do we wanna use them or not?",
+        "start": 73.68,
+        "end": 76.62
+      },
+      {
+        "speaker": "S01",
+        "text": "We don't know yet, do we, David? Do you mean single channel?",
+        "start": 78.6,
+        "end": 81.58
+      },
+      {
+        "speaker": "S05",
+        "text": "Yeah, single cha those single channel files, do we want them? I mean",
+        "start": 81.76,
+        "end": 85.22
+      },
+      {
+        "speaker": "S04",
+        "text": "Single cha",
+        "start": 81.9,
+        "end": 82.42
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm.",
+        "start": 82.56,
+        "end": 82.98
+      },
+      {
+        "speaker": "S01",
+        "text": "Probably not, but we might need them for this fluencys.",
+        "start": 85.8,
+        "end": 88.66
+      },
+      {
+        "speaker": "S01",
+        "text": "If we try to do the audio.",
+        "start": 89.12,
+        "end": 90.34
+      },
+      {
+        "speaker": "S05",
+        "text": "Yeah, okay, yeah, yeah, I mean we might use them while, but to work with them, but do we wanna integrate them uh so that when you browse you can",
+        "start": 89.32,
+        "end": 97.42
+      },
+      {
+        "speaker": "S01",
+        "text": "But at the moment, no, but",
+        "start": 90.78,
+        "end": 92.8
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 94.62,
+        "end": 94.94
+      },
+      {
+        "speaker": "S01",
+        "text": "We might want to be able to say, oh just give me what that person's saying.",
+        "start": 97.9,
+        "end": 100.94
+      },
+      {
+        "speaker": "S05",
+        "text": "Do you though? I mean it's not gonna make much sense if you listen to it on its own, do you?",
+        "start": 101.36,
+        "end": 105.02
+      },
+      {
+        "speaker": "S04",
+        "text": "No.",
+        "start": 101.92,
+        "end": 102.42
+      },
+      {
+        "speaker": "S01",
+        "text": "Unless um you can't hear it properly or something, somebody's talking over somebody else or something, well",
+        "start": 105.04,
+        "end": 109.64
+      },
+      {
+        "speaker": "S01",
+        "text": "We'll just say no for now and put it in maybe or something, yeah.",
+        "start": 111.3,
+        "end": 114.0
+      },
+      {
+        "speaker": "S05",
+        "text": "No, mm, yeah.",
+        "start": 112.88,
+        "end": 114.6
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 115.94,
+        "end": 116.3
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah, 'cause otherwise it will de it will increase the amount of data we need, probably not want to",
+        "start": 116.8,
+        "end": 121.2
+      },
+      {
+        "speaker": "S05",
+        "text": "Yeah.",
+        "start": 121.52,
+        "end": 121.88
+      },
+      {
+        "speaker": "S01",
+        "text": "the footprint maybe, yeah.",
+        "start": 122.14,
+        "end": 123.1
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm.",
+        "start": 124.3,
+        "end": 124.54
+      },
+      {
+        "speaker": "S05",
+        "text": "Um",
+        "start": 126.8,
+        "end": 127.34
+      },
+      {
+        "speaker": "S05",
+        "text": "Yeah, wha what do people think in general about the windows cluttering that you've mentioned? Do you think do you think we have",
+        "start": 130.02,
+        "end": 136.18
+      },
+      {
+        "speaker": "S02",
+        "text": "I think we probably need that though, to have the the full flexibility we need to have, I don't know, but uh",
+        "start": 135.46,
+        "end": 140.1
+      },
+      {
+        "speaker": "S05",
+        "text": "That's what I feel as well. I mean I'm I'm very much I I wanna have everything customizable, um",
+        "start": 139.04,
+        "end": 146.08
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 140.34,
+        "end": 140.66
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm.",
+        "start": 145.06,
+        "end": 145.32
+      },
+      {
+        "speaker": "S02",
+        "text": "Although the thing is typically though is someone gonna have five windows open at the same time, probably not. Probably just two or two or three of whatever, whatever they're looking at with like dialog acts, whatever.",
+        "start": 146.34,
+        "end": 155.24
+      },
+      {
+        "speaker": "S05",
+        "text": "Probably not, no, yeah, two or three maybe, but yeah, but yeah, it depends, I mean I I really wanna put the summary in somewhere, you know.",
+        "start": 150.94,
+        "end": 159.0
+      },
+      {
+        "speaker": "S02",
+        "text": "Okay, that's",
+        "start": 155.8,
+        "end": 156.4
+      },
+      {
+        "speaker": "S05",
+        "text": "And the summary, for example, it's typical, you open the window, you read through it, you might click on, you know, close it again straight away.",
+        "start": 159.68,
+        "end": 165.86
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm-hmm.",
+        "start": 159.88,
+        "end": 160.22
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 166.18,
+        "end": 166.58
+      },
+      {
+        "speaker": "S05",
+        "text": "But it'd be good to have it there.",
+        "start": 166.52,
+        "end": 167.8
+      },
+      {
+        "speaker": "S01",
+        "text": "I think it's I think it's fine, yeah, I think I would agree with that.",
+        "start": 167.16,
+        "end": 169.74
+      },
+      {
+        "speaker": "S04",
+        "text": "But well, couldn't we, I mean you probably, I don't know if you wanna have like the the full transcription and the summary at the same time.",
+        "start": 168.28,
+        "end": 176.18
+      },
+      {
+        "speaker": "S04",
+        "text": "So maybe you can just like choose the s same window for transcription and summary.",
+        "start": 177.54,
+        "end": 183.4
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm.",
+        "start": 181.94,
+        "end": 182.24
+      },
+      {
+        "speaker": "S02",
+        "text": "It's like have a tab there, or something, that you choose to choose inside.",
+        "start": 183.62,
+        "end": 186.84
+      },
+      {
+        "speaker": "S04",
+        "text": "I was just",
+        "start": 185.0,
+        "end": 185.44
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah, uh yeah.",
+        "start": 185.32,
+        "end": 186.82
+      },
+      {
+        "speaker": "S04",
+        "text": "Tabs are nice.",
+        "start": 187.94,
+        "end": 188.66
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah, tabbed, it's good, zilla style.",
+        "start": 189.1,
+        "end": 190.78
+      },
+      {
+        "speaker": "S04",
+        "text": "I like tabs, yeah.",
+        "start": 189.46,
+        "end": 191.1
+      },
+      {
+        "speaker": "S05",
+        "text": "That's true.",
+        "start": 190.18,
+        "end": 190.92
+      },
+      {
+        "speaker": "S05",
+        "text": "Yeah, yeah. That's right, I'm not sure, yeah.",
+        "start": 191.14,
+        "end": 195.02
+      },
+      {
+        "speaker": "S04",
+        "text": "I don't know if you can say it.",
+        "start": 194.9,
+        "end": 195.94
+      },
+      {
+        "speaker": "S01",
+        "text": "Does anybody know how to do that? Can you, yeah, I don't think Java knows how to do that really, maybe, yeah, you probably can, but",
+        "start": 195.2,
+        "end": 200.5
+      },
+      {
+        "speaker": "S05",
+        "text": "Yeah.",
+        "start": 196.3,
+        "end": 196.66
+      },
+      {
+        "speaker": "S04",
+        "text": "No, I don't remember.",
+        "start": 197.28,
+        "end": 198.5
+      },
+      {
+        "speaker": "S02",
+        "text": "Uh.",
+        "start": 197.84,
+        "end": 198.28
+      },
+      {
+        "speaker": "S03",
+        "text": "Should be.",
+        "start": 198.32,
+        "end": 198.82
+      },
+      {
+        "speaker": "S04",
+        "text": "True.",
+        "start": 198.88,
+        "end": 199.4
+      },
+      {
+        "speaker": "S04",
+        "text": "I'm sure, I'm sure you can do anything.",
+        "start": 200.28,
+        "end": 202.64
+      },
+      {
+        "speaker": "S05",
+        "text": "Yeah.",
+        "start": 200.74,
+        "end": 201.1
+      },
+      {
+        "speaker": "S01",
+        "text": "If you really knew what you're doing, but I don't know.",
+        "start": 202.94,
+        "end": 204.84
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 202.96,
+        "end": 203.3
+      },
+      {
+        "speaker": "S01",
+        "text": "It's a bit of a cripple, Java's with knowing to look at the eight, is it sometimes, it's a bit of a cripple.",
+        "start": 205.8,
+        "end": 210.54
+      },
+      {
+        "speaker": "S05",
+        "text": "Mm.",
+        "start": 209.72,
+        "end": 210.22
+      },
+      {
+        "speaker": "S05",
+        "text": "Mm. I can have look.",
+        "start": 210.94,
+        "end": 212.78
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 214.1,
+        "end": 214.44
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah, or just, I don't know, yeah, change the",
+        "start": 214.84,
+        "end": 218.94
+      },
+      {
+        "speaker": "S05",
+        "text": "But yeah, that that might be an idea, yeah.",
+        "start": 216.92,
+        "end": 218.72
+      },
+      {
+        "speaker": "S04",
+        "text": "contents of the same window, like from transcription to summary.",
+        "start": 220.14,
+        "end": 223.3
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah, yeah.",
+        "start": 221.74,
+        "end": 222.2
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 224.32,
+        "end": 224.62
+      },
+      {
+        "speaker": "S04",
+        "text": "Or",
+        "start": 224.54,
+        "end": 224.88
+      },
+      {
+        "speaker": "S04",
+        "text": "Mm.",
+        "start": 226.26,
+        "end": 226.6
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah, or even just have buttons on it, toggle buttons or something on the toolbar for that window.",
+        "start": 227.74,
+        "end": 232.54
+      },
+      {
+        "speaker": "S05",
+        "text": "Hmm.",
+        "start": 233.1,
+        "end": 233.54
+      },
+      {
+        "speaker": "S02",
+        "text": "Just something.",
+        "start": 234.34,
+        "end": 234.98
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah, yeah, that could probably",
+        "start": 235.98,
+        "end": 237.22
+      },
+      {
+        "speaker": "S02",
+        "text": "Well, there are different ways we can do it, it doesn't doesn't have to be a tab or whatever, just kind of, yeah.",
+        "start": 236.0,
+        "end": 239.9
+      },
+      {
+        "speaker": "S04",
+        "text": "No, no, it could be",
+        "start": 239.0,
+        "end": 239.98
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "[0.00][S01]What's the most common use to double click?[2.86][0.00][S02]Yeah, yeah.[1.88][1.08][S03]Yeah.[1.88][2.48][S02]Yeah.[2.78][3.38][S01]Uh okay.[4.00][3.68][S04]Like I don't know, show the speaker characters, each one first and then.[7.82][6.06][S02]Yeah.[6.38][6.32][S05]Yeah, but then then there's a problem with a lot of windows popping up again, and they pop up without you even being quite sure what it is, you know what I mean?[13.84][11.56][S02]Mm.[11.94][14.70][S02]Yeah.[15.70][16.22][S04]But if you do double click on something, don't you expect something to happen, then yeah, maybe you sort of uh.[24.60][16.86][S02]Yeah.[17.14][21.70][S02]Mm.[21.98][24.54][S01]It's not touching it right, it's the way you go, I'll go away, it's not coming up.[27.94][26.78][S02]Yeah, I don't I don't need closer.[28.60][28.64][S01]Yeah.[28.88][29.54][S04]Yeah.[29.86][29.68][S02]No, it's not it's not the end of the world.[31.10][31.80][S05]Especially if you haven't touched a pad.[33.10][33.50][S01]Yeah, yeah.[34.48][34.22][S05]And then she goes oh.[35.22][34.54][S02]Yeah, yeah.[35.02][35.58][S02]Yeah.[35.84][37.44][S02]It doesn't break it.[38.48][37.62][S05]Well I'll I'll check what it does on on um double click at the moment.[41.30][41.62][S04]Yeah.[41.90][41.76][S02]Okay.[42.08][41.98][S05]'Cause I think it might do something, but[43.78][42.58][S04]Yeah.[42.96][44.46][S04]It's good for[45.40][45.12][S05]Yeah.[45.44][46.56][S05]But I don't I don't I d really don't see anything obvious that that[50.34][46.86][S02]Yeah.[47.14][52.28][S05]I mean if we can think of something, right.[53.64][54.86][S02]Mm.[55.06][58.66][S05]So.[59.06][62.28][S05]I guess it depends on the[63.50][64.24][S04]The[64.52][66.24][S04]Yeah, what you're clicking on, so.[68.88][68.48][S05]So, um yeah, another thing.[71.90][69.80][S02]Mm.[70.02][73.68][S05]Single audio files, do we wanna use them or not?[76.62][78.60][S01]We don't know yet, do we, David? Do you mean single channel?[81.58][81.76][S05]Yeah, single cha those single channel files, do we want them? I mean[85.22][81.90][S04]Single cha[82.42][82.56][S02]Mm.[82.98][85.80][S01]Probably not, but we might need them for this fluencys.[88.66][89.12][S01]If we try to do the audio.[90.34][89.32][S05]Yeah, okay, yeah, yeah, I mean we might use them while, but to work with them, but do we wanna integrate them uh so that when you browse you can[97.42][90.78][S01]But at the moment, no, but[92.80][94.62][S04]Yeah.[94.94][97.90][S01]We might want to be able to say, oh just give me what that person's saying.[100.94][101.36][S05]Do you though? I mean it's not gonna make much sense if you listen to it on its own, do you?[105.02][101.92][S04]No.[102.42][105.04][S01]Unless um you can't hear it properly or something, somebody's talking over somebody else or something, well[109.64][111.30][S01]We'll just say no for now and put it in maybe or something, yeah.[114.00][112.88][S05]No, mm, yeah.[114.60][115.94][S04]Yeah.[116.30][116.80][S01]Yeah, 'cause otherwise it will de it will increase the amount of data we need, probably not want to[121.20][121.52][S05]Yeah.[121.88][122.14][S01]the footprint maybe, yeah.[123.10][124.30][S02]Mm.[124.54][126.80][S05]Um[127.34][130.02][S05]Yeah, wha what do people think in general about the windows cluttering that you've mentioned? Do you think do you think we have[136.18][135.46][S02]I think we probably need that though, to have the the full flexibility we need to have, I don't know, but uh[140.10][139.04][S05]That's what I feel as well. I mean I'm I'm very much I I wanna have everything customizable, um[146.08][140.34][S02]Yeah.[140.66][145.06][S02]Mm.[145.32][146.34][S02]Although the thing is typically though is someone gonna have five windows open at the same time, probably not. Probably just two or two or three of whatever, whatever they're looking at with like dialog acts, whatever.[155.24][150.94][S05]Probably not, no, yeah, two or three maybe, but yeah, but yeah, it depends, I mean I I really wanna put the summary in somewhere, you know.[159.00][155.80][S02]Okay, that's[156.40][159.68][S05]And the summary, for example, it's typical, you open the window, you read through it, you might click on, you know, close it again straight away.[165.86][159.88][S02]Mm-hmm.[160.22][166.18][S01]Yeah.[166.58][166.52][S05]But it'd be good to have it there.[167.80][167.16][S01]I think it's I think it's fine, yeah, I think I would agree with that.[169.74][168.28][S04]But well, couldn't we, I mean you probably, I don't know if you wanna have like the the full transcription and the summary at the same time.[176.18][177.54][S04]So maybe you can just like choose the s same window for transcription and summary.[183.40][181.94][S02]Mm.[182.24][183.62][S02]It's like have a tab there, or something, that you choose to choose inside.[186.84][185.00][S04]I was just[185.44][185.32][S04]Yeah, uh yeah.[186.82][187.94][S04]Tabs are nice.[188.66][189.10][S01]Yeah, tabbed, it's good, zilla style.[190.78][189.46][S04]I like tabs, yeah.[191.10][190.18][S05]That's true.[190.92][191.14][S05]Yeah, yeah. That's right, I'm not sure, yeah.[195.02][194.90][S04]I don't know if you can say it.[195.94][195.20][S01]Does anybody know how to do that? Can you, yeah, I don't think Java knows how to do that really, maybe, yeah, you probably can, but[200.50][196.30][S05]Yeah.[196.66][197.28][S04]No, I don't remember.[198.50][197.84][S02]Uh.[198.28][198.32][S03]Should be.[198.82][198.88][S04]True.[199.40][200.28][S04]I'm sure, I'm sure you can do anything.[202.64][200.74][S05]Yeah.[201.10][202.94][S01]If you really knew what you're doing, but I don't know.[204.84][202.96][S04]Yeah.[203.30][205.80][S01]It's a bit of a cripple, Java's with knowing to look at the eight, is it sometimes, it's a bit of a cripple.[210.54][209.72][S05]Mm.[210.22][210.94][S05]Mm. I can have look.[212.78][214.10][S01]Yeah.[214.44][214.84][S04]Yeah, or just, I don't know, yeah, change the[218.94][216.92][S05]But yeah, that that might be an idea, yeah.[218.72][220.14][S04]contents of the same window, like from transcription to summary.[223.30][221.74][S01]Yeah, yeah.[222.20][224.32][S01]Yeah.[224.62][224.54][S04]Or[224.88][226.26][S04]Mm.[226.60][227.74][S02]Yeah, or even just have buttons on it, toggle buttons or something on the toolbar for that window.[232.54][233.10][S05]Hmm.[233.54][234.34][S02]Just something.[234.98][235.98][S04]Yeah, yeah, that could probably[237.22][236.00][S02]Well, there are different ways we can do it, it doesn't doesn't have to be a tab or whatever, just kind of, yeah.[239.90][239.00][S04]No, no, it could be[239.98]",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 27.069665706017986,
+  "rtf": 0.11279027377507495,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 2576409088,
+      "reserved_bytes": 2814377984
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 2850721792
+}

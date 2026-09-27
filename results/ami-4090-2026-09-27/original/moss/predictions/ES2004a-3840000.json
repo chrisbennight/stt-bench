@@ -1,0 +1,442 @@
+{
+  "id": "ES2004a-3840000",
+  "duration": 240.0,
+  "seed": 1110249044,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "S01",
+        "text": "We're running out of blue.",
+        "start": 3.21,
+        "end": 4.29
+      },
+      {
+        "speaker": "S01",
+        "text": "Okay, and I'm gonna ask you to guess and I'm gonna tell you that's supposed to be a tiger.",
+        "start": 6.94,
+        "end": 10.65
+      },
+      {
+        "speaker": "S01",
+        "text": "And I see them as majestic",
+        "start": 14.51,
+        "end": 17.31
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm-hmm.",
+        "start": 18.29,
+        "end": 18.67
+      },
+      {
+        "speaker": "S01",
+        "text": "and independent",
+        "start": 19.88,
+        "end": 22.23
+      },
+      {
+        "speaker": "S01",
+        "text": "and",
+        "start": 26.16,
+        "end": 26.93
+      },
+      {
+        "speaker": "S01",
+        "text": "proud.",
+        "start": 28.71,
+        "end": 29.11
+      },
+      {
+        "speaker": "S01",
+        "text": "No, who would like to go next?",
+        "start": 32.28,
+        "end": 34.51
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm.",
+        "start": 35.02,
+        "end": 35.47
+      },
+      {
+        "speaker": "S01",
+        "text": "'Kay.",
+        "start": 35.54,
+        "end": 35.87
+      },
+      {
+        "speaker": "S03",
+        "text": "Mm-hmm.",
+        "start": 36.21,
+        "end": 36.57
+      },
+      {
+        "speaker": "S02",
+        "text": "Got it.",
+        "start": 39.16,
+        "end": 39.71
+      },
+      {
+        "speaker": "S02",
+        "text": "Get this one though.",
+        "start": 45.16,
+        "end": 46.45
+      },
+      {
+        "speaker": "S01",
+        "text": "Let's see what we've got.",
+        "start": 47.41,
+        "end": 48.55
+      },
+      {
+        "speaker": "S02",
+        "text": "Oh, here we go. Thank you.",
+        "start": 49.05,
+        "end": 51.11
+      },
+      {
+        "speaker": "S02",
+        "text": "Um, maybe you can guess what I'm trying to make?",
+        "start": 53.33,
+        "end": 56.11
+      },
+      {
+        "speaker": "S04",
+        "text": "A kind of dog?",
+        "start": 66.35,
+        "end": 67.21
+      },
+      {
+        "speaker": "S02",
+        "text": "Yep.",
+        "start": 69.26,
+        "end": 69.63
+      },
+      {
+        "speaker": "S02",
+        "text": "It's actually sitting, so",
+        "start": 73.46,
+        "end": 75.21
+      },
+      {
+        "speaker": "S04",
+        "text": "Sorry?",
+        "start": 75.91,
+        "end": 76.31
+      },
+      {
+        "speaker": "S05",
+        "text": "It's sitting though.",
+        "start": 76.67,
+        "end": 77.51
+      },
+      {
+        "speaker": "S02",
+        "text": "It's sitting, it's not standing. Okay, I see it as one thing, it's very supportive.",
+        "start": 76.97,
+        "end": 81.75
+      },
+      {
+        "speaker": "S04",
+        "text": "Uh-huh.",
+        "start": 77.88,
+        "end": 78.21
+      },
+      {
+        "speaker": "S02",
+        "text": "It's your best friend in your you can talk to a dog, it can be your best friend, it doesn't discriminate between you, based on what you are. Second it's",
+        "start": 84.12,
+        "end": 92.03
+      },
+      {
+        "speaker": "S02",
+        "text": "loyal",
+        "start": 93.38,
+        "end": 93.95
+      },
+      {
+        "speaker": "S02",
+        "text": "and third thing, it's got intuition.",
+        "start": 95.51,
+        "end": 98.17
+      },
+      {
+        "speaker": "S02",
+        "text": "I mean, dogs can some sometimes make out between a thief and a",
+        "start": 100.66,
+        "end": 103.91
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm.",
+        "start": 104.88,
+        "end": 105.21
+      },
+      {
+        "speaker": "S02",
+        "text": "person, so basically these are the three unique features I think belong to a dog.",
+        "start": 105.15,
+        "end": 109.31
+      },
+      {
+        "speaker": "S04",
+        "text": "Okay, thank you.",
+        "start": 110.08,
+        "end": 111.01
+      },
+      {
+        "speaker": "S02",
+        "text": "Thank you.",
+        "start": 111.11,
+        "end": 111.51
+      },
+      {
+        "speaker": "S05",
+        "text": "Okay.",
+        "start": 113.91,
+        "end": 114.61
+      },
+      {
+        "speaker": "S02",
+        "text": "But",
+        "start": 116.35,
+        "end": 116.71
+      },
+      {
+        "speaker": "S04",
+        "text": "Do you please leave me a space at the bottom, I'm a little",
+        "start": 116.54,
+        "end": 118.81
+      },
+      {
+        "speaker": "S02",
+        "text": "Oh, there you go.",
+        "start": 119.05,
+        "end": 119.81
+      },
+      {
+        "speaker": "S04",
+        "text": "space at the top. He's standing on a chair.",
+        "start": 119.21,
+        "end": 121.71
+      },
+      {
+        "speaker": "S05",
+        "text": "Well, since you guys have chosen the ones I wanted to do, I'm",
+        "start": 121.73,
+        "end": 124.81
+      },
+      {
+        "speaker": "S03",
+        "text": "Okay.",
+        "start": 124.61,
+        "end": 125.51
+      },
+      {
+        "speaker": "S06",
+        "text": "Has to be like a dog at you.",
+        "start": 125.73,
+        "end": 127.11
+      },
+      {
+        "speaker": "S05",
+        "text": "I'm sorry, I'm a bit red.",
+        "start": 125.91,
+        "end": 127.21
+      },
+      {
+        "speaker": "S05",
+        "text": "And also my drawing skill isn't that great.",
+        "start": 131.43,
+        "end": 133.81
+      },
+      {
+        "speaker": "S03",
+        "text": "Well, as you can see, the quality of the work today is um",
+        "start": 133.83,
+        "end": 136.81
+      },
+      {
+        "speaker": "S06",
+        "text": "Mm.",
+        "start": 135.01,
+        "end": 135.41
+      },
+      {
+        "speaker": "S04",
+        "text": "I think it's outstandingly good.",
+        "start": 136.78,
+        "end": 138.11
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 138.18,
+        "end": 138.51
+      },
+      {
+        "speaker": "S05",
+        "text": "'Kay, now I'm gonna have to change what it was originally, 'cause that looks like a beak now, so.",
+        "start": 139.63,
+        "end": 144.41
+      },
+      {
+        "speaker": "S04",
+        "text": "Crocodile?",
+        "start": 151.11,
+        "end": 151.81
+      },
+      {
+        "speaker": "S05",
+        "text": "Yeah, it can be a crocodile. It can be a crocodile. Well, it was it was an at first firstly it was an attempt at a T-Rex and then it sort of changed into a pelican, but it can be a crocodile.",
+        "start": 154.35,
+        "end": 165.61
+      },
+      {
+        "speaker": "S03",
+        "text": "A crocodile.",
+        "start": 156.38,
+        "end": 156.81
+      },
+      {
+        "speaker": "S03",
+        "text": "Gonna be a pet.",
+        "start": 158.98,
+        "end": 159.71
+      },
+      {
+        "speaker": "S01",
+        "text": "That's lovely.",
+        "start": 180.08,
+        "end": 180.91
+      },
+      {
+        "speaker": "S05",
+        "text": "Yeah, and uh I'll have to think on the spot also, I think so it is. Um",
+        "start": 181.18,
+        "end": 186.51
+      },
+      {
+        "speaker": "S04",
+        "text": "Easy.",
+        "start": 181.43,
+        "end": 181.81
+      },
+      {
+        "speaker": "S05",
+        "text": "uh scary",
+        "start": 188.08,
+        "end": 190.01
+      },
+      {
+        "speaker": "S05",
+        "text": "uh strong",
+        "start": 192.48,
+        "end": 193.71
+      },
+      {
+        "speaker": "S05",
+        "text": "Yeah, that's finally not been good.",
+        "start": 198.73,
+        "end": 200.21
+      },
+      {
+        "speaker": "S01",
+        "text": "Okay.",
+        "start": 199.81,
+        "end": 200.21
+      },
+      {
+        "speaker": "S01",
+        "text": "That's okay.",
+        "start": 201.18,
+        "end": 202.01
+      },
+      {
+        "speaker": "S01",
+        "text": "I'm I'm very impressed with your artistic skills. I'm just dreadful.",
+        "start": 203.11,
+        "end": 206.61
+      },
+      {
+        "speaker": "S01",
+        "text": "Is that coming apart?",
+        "start": 208.28,
+        "end": 209.41
+      },
+      {
+        "speaker": "S05",
+        "text": "Mm.",
+        "start": 210.41,
+        "end": 210.71
+      },
+      {
+        "speaker": "S01",
+        "text": "I'm gonna click then, 'cause I'll hold it on.",
+        "start": 214.01,
+        "end": 216.11
+      },
+      {
+        "speaker": "S01",
+        "text": "Oh dear.",
+        "start": 218.48,
+        "end": 218.91
+      },
+      {
+        "speaker": "S04",
+        "text": "Tactical help.",
+        "start": 221.08,
+        "end": 222.01
+      },
+      {
+        "speaker": "S01",
+        "text": "Cut through that stale, two hundred pressure.",
+        "start": 225.38,
+        "end": 227.71
+      },
+      {
+        "speaker": "S05",
+        "text": "Mm.",
+        "start": 225.51,
+        "end": 225.81
+      },
+      {
+        "speaker": "S05",
+        "text": "Okay.",
+        "start": 227.91,
+        "end": 228.31
+      },
+      {
+        "speaker": "S01",
+        "text": "Okay, um",
+        "start": 228.51,
+        "end": 230.21
+      },
+      {
+        "speaker": "S01",
+        "text": "I guess it was off the top of my head, I was gonna do a big fat two, uh",
+        "start": 234.38,
+        "end": 238.51
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "[3.21][S01]We're running out of blue.[4.29][6.94][S01]Okay, and I'm gonna ask you to guess and I'm gonna tell you that's supposed to be a tiger.[10.65][14.51][S01]And I see them as majestic[17.31][18.29][S01]Mm-hmm.[18.67][19.88][S01]and independent[22.23][26.16][S01]and[26.93][28.71][S01]proud.[29.11][32.28][S01]No, who would like to go next?[34.51][35.02][S02]Mm.[35.47][35.54][S01]'Kay.[35.87][36.21][S03]Mm-hmm.[36.57][39.16][S02]Got it.[39.71][45.16][S02]Get this one though.[46.45][47.41][S01]Let's see what we've got.[48.55][49.05][S02]Oh, here we go. Thank you.[51.11][53.33][S02]Um, maybe you can guess what I'm trying to make?[56.11][66.35][S04]A kind of dog?[67.21][69.26][S02]Yep.[69.63][73.46][S02]It's actually sitting, so[75.21][75.91][S04]Sorry?[76.31][76.67][S05]It's sitting though.[77.51][76.97][S02]It's sitting, it's not standing. Okay, I see it as one thing, it's very supportive.[81.75][77.88][S04]Uh-huh.[78.21][84.12][S02]It's your best friend in your you can talk to a dog, it can be your best friend, it doesn't discriminate between you, based on what you are. Second it's[92.03][93.38][S02]loyal[93.95][95.51][S02]and third thing, it's got intuition.[98.17][100.66][S02]I mean, dogs can some sometimes make out between a thief and a[103.91][104.88][S01]Mm.[105.21][105.15][S02]person, so basically these are the three unique features I think belong to a dog.[109.31][110.08][S04]Okay, thank you.[111.01][111.11][S02]Thank you.[111.51][113.91][S05]Okay.[114.61][116.35][S02]But[116.71][116.54][S04]Do you please leave me a space at the bottom, I'm a little[118.81][119.05][S02]Oh, there you go.[119.81][119.21][S04]space at the top. He's standing on a chair.[121.71][121.73][S05]Well, since you guys have chosen the ones I wanted to do, I'm[124.81][124.61][S03]Okay.[125.51][125.73][S06]Has to be like a dog at you.[127.11][125.91][S05]I'm sorry, I'm a bit red.[127.21][131.43][S05]And also my drawing skill isn't that great.[133.81][133.83][S03]Well, as you can see, the quality of the work today is um[136.81][135.01][S06]Mm.[135.41][136.78][S04]I think it's outstandingly good.[138.11][138.18][S03]Yeah.[138.51][139.63][S05]'Kay, now I'm gonna have to change what it was originally, 'cause that looks like a beak now, so.[144.41][151.11][S04]Crocodile?[151.81][154.35][S05]Yeah, it can be a crocodile. It can be a crocodile. Well, it was it was an at first firstly it was an attempt at a T-Rex and then it sort of changed into a pelican, but it can be a crocodile.[165.61][156.38][S03]A crocodile.[156.81][158.98][S03]Gonna be a pet.[159.71][180.08][S01]That's lovely.[180.91][181.18][S05]Yeah, and uh I'll have to think on the spot also, I think so it is. Um[186.51][181.43][S04]Easy.[181.81][188.08][S05]uh scary[190.01][192.48][S05]uh strong[193.71][198.73][S05]Yeah, that's finally not been good.[200.21][199.81][S01]Okay.[200.21][201.18][S01]That's okay.[202.01][203.11][S01]I'm I'm very impressed with your artistic skills. I'm just dreadful.[206.61][208.28][S01]Is that coming apart?[209.41][210.41][S05]Mm.[210.71][214.01][S01]I'm gonna click then, 'cause I'll hold it on.[216.11][218.48][S01]Oh dear.[218.91][221.08][S04]Tactical help.[222.01][225.38][S01]Cut through that stale, two hundred pressure.[227.71][225.51][S05]Mm.[225.81][227.91][S05]Okay.[228.31][228.51][S01]Okay, um[230.21][234.38][S01]I guess it was off the top of my head, I was gonna do a big fat two, uh[238.51]",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 15.441767027019523,
+  "rtf": 0.06434069594591468,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 2417767936,
+      "reserved_bytes": 2552233984
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 2850721792
+}

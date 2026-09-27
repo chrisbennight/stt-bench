@@ -1,0 +1,874 @@
+{
+  "id": "EN2002a-30720000",
+  "duration": 222.709375,
+  "seed": 1180211639,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "S01",
+        "text": "So yeah.",
+        "start": 0.0,
+        "end": 0.36
+      },
+      {
+        "speaker": "S02",
+        "text": "How about if we take a",
+        "start": 0.02,
+        "end": 0.88
+      },
+      {
+        "speaker": "S01",
+        "text": "Well, if you find me, I'll show you where I I'll let us all in there and we can all go in there.",
+        "start": 0.91,
+        "end": 5.16
+      },
+      {
+        "speaker": "S03",
+        "text": "We can go look we can look now afterwards.",
+        "start": 3.41,
+        "end": 6.93
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah, exactly.",
+        "start": 6.77,
+        "end": 7.83
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah, you do need to have a key for it though, that's the thing, it's got a lock the one but",
+        "start": 7.21,
+        "end": 10.81
+      },
+      {
+        "speaker": "S02",
+        "text": "Okay.",
+        "start": 9.74,
+        "end": 10.21
+      },
+      {
+        "speaker": "S02",
+        "text": "Just for a bang on it.",
+        "start": 10.87,
+        "end": 11.81
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah, somebody at least.",
+        "start": 12.2,
+        "end": 13.04
+      },
+      {
+        "speaker": "S02",
+        "text": "Actually, I was asking Steve about that, whether we can get in there, whether he was gonna get us access into the",
+        "start": 12.8,
+        "end": 17.61
+      },
+      {
+        "speaker": "S03",
+        "text": "Into what?",
+        "start": 18.04,
+        "end": 18.71
+      },
+      {
+        "speaker": "S02",
+        "text": "The computer room.",
+        "start": 18.68,
+        "end": 19.21
+      },
+      {
+        "speaker": "S03",
+        "text": "Okay, well.",
+        "start": 19.38,
+        "end": 20.13
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah, it's only got its crap, it's only got about four or five computers in it. It would do quite a good for our job because in Kindle Sera it's not very obnoxious, we pick them and they're like",
+        "start": 20.33,
+        "end": 27.68
+      },
+      {
+        "speaker": "S02",
+        "text": "But print",
+        "start": 22.86,
+        "end": 23.55
+      },
+      {
+        "speaker": "S02",
+        "text": "Okay.",
+        "start": 25.06,
+        "end": 25.37
+      },
+      {
+        "speaker": "S03",
+        "text": "Mm.",
+        "start": 27.75,
+        "end": 28.11
+      },
+      {
+        "speaker": "S02",
+        "text": "Is there a printer there too?",
+        "start": 28.7,
+        "end": 29.61
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah, there's a printer. And there's a photocopier with the code on it, yeah, there.",
+        "start": 29.75,
+        "end": 33.73
+      },
+      {
+        "speaker": "S03",
+        "text": "Really?",
+        "start": 32.68,
+        "end": 33.03
+      },
+      {
+        "speaker": "S02",
+        "text": "Nice.",
+        "start": 33.92,
+        "end": 34.28
+      },
+      {
+        "speaker": "S01",
+        "text": "It's got all the",
+        "start": 34.68,
+        "end": 35.35
+      },
+      {
+        "speaker": "S03",
+        "text": "Really?",
+        "start": 34.71,
+        "end": 35.13
+      },
+      {
+        "speaker": "S02",
+        "text": "That's coming handy.",
+        "start": 35.46,
+        "end": 36.11
+      },
+      {
+        "speaker": "S03",
+        "text": "Oh. Well, I'm just",
+        "start": 36.56,
+        "end": 38.41
+      },
+      {
+        "speaker": "S02",
+        "text": "Hey, we could we could photocopy our uh assignment if we what.",
+        "start": 37.71,
+        "end": 41.48
+      },
+      {
+        "speaker": "S04",
+        "text": "But I'm I'm worried about that.",
+        "start": 38.28,
+        "end": 39.83
+      },
+      {
+        "speaker": "S03",
+        "text": "I've got it on my computer.",
+        "start": 42.56,
+        "end": 43.65
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 43.0,
+        "end": 43.23
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah, well, the comments, I'm thinking.",
+        "start": 44.03,
+        "end": 45.38
+      },
+      {
+        "speaker": "S03",
+        "text": "What else is on my computer?",
+        "start": 44.21,
+        "end": 45.21
+      },
+      {
+        "speaker": "S04",
+        "text": "So what time do we say?",
+        "start": 45.9,
+        "end": 47.71
+      },
+      {
+        "speaker": "S03",
+        "text": "I just think it's better to do afterwards, then we have all the time we need.",
+        "start": 48.03,
+        "end": 50.91
+      },
+      {
+        "speaker": "S01",
+        "text": "Uh",
+        "start": 48.06,
+        "end": 48.31
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah, that's true. So after D L G.",
+        "start": 50.6,
+        "end": 52.33
+      },
+      {
+        "speaker": "S01",
+        "text": "Oh, right.",
+        "start": 51.0,
+        "end": 51.35
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, then have half an hour and then we'll we'll surely run out.",
+        "start": 51.35,
+        "end": 54.17
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah, yeah.",
+        "start": 53.13,
+        "end": 53.65
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah, yeah.",
+        "start": 53.33,
+        "end": 54.31
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 55.32,
+        "end": 55.55
+      },
+      {
+        "speaker": "S03",
+        "text": "Okay.",
+        "start": 57.06,
+        "end": 57.93
+      },
+      {
+        "speaker": "S03",
+        "text": "Well",
+        "start": 58.66,
+        "end": 58.91
+      },
+      {
+        "speaker": "S02",
+        "text": "As long as D L G doesn't go late.",
+        "start": 58.74,
+        "end": 60.28
+      },
+      {
+        "speaker": "S01",
+        "text": "Hopefully it's not that man, so it won't matter.",
+        "start": 61.78,
+        "end": 63.51
+      },
+      {
+        "speaker": "S03",
+        "text": "Actually, it's not even confirmed yet.",
+        "start": 66.21,
+        "end": 67.83
+      },
+      {
+        "speaker": "S04",
+        "text": "What?",
+        "start": 68.6,
+        "end": 68.93
+      },
+      {
+        "speaker": "S02",
+        "text": "Oh.",
+        "start": 68.98,
+        "end": 69.31
+      },
+      {
+        "speaker": "S03",
+        "text": "She doesn't even know what she's talking about yet.",
+        "start": 69.51,
+        "end": 71.11
+      },
+      {
+        "speaker": "S03",
+        "text": "Maybe it doesn't happen at all.",
+        "start": 72.78,
+        "end": 74.03
+      },
+      {
+        "speaker": "S02",
+        "text": "Sounds",
+        "start": 72.85,
+        "end": 73.13
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 74.73,
+        "end": 75.11
+      },
+      {
+        "speaker": "S02",
+        "text": "Sounds like me.",
+        "start": 75.08,
+        "end": 75.78
+      },
+      {
+        "speaker": "S04",
+        "text": "It's reading week next week, it should be, it should be reading.",
+        "start": 75.53,
+        "end": 78.13
+      },
+      {
+        "speaker": "S02",
+        "text": "Wonderful.",
+        "start": 76.38,
+        "end": 76.73
+      },
+      {
+        "speaker": "S03",
+        "text": "Is it really?",
+        "start": 77.58,
+        "end": 78.21
+      },
+      {
+        "speaker": "S02",
+        "text": "Are you?",
+        "start": 78.38,
+        "end": 78.68
+      },
+      {
+        "speaker": "S04",
+        "text": "Well, it's supposed to be.",
+        "start": 79.08,
+        "end": 80.21
+      },
+      {
+        "speaker": "S02",
+        "text": "Next week, or the weekend?",
+        "start": 79.13,
+        "end": 80.41
+      },
+      {
+        "speaker": "S04",
+        "text": "Next week, it's week six next week.",
+        "start": 81.2,
+        "end": 83.08
+      },
+      {
+        "speaker": "S02",
+        "text": "Oh.",
+        "start": 81.31,
+        "end": 81.58
+      },
+      {
+        "speaker": "S03",
+        "text": "Really?",
+        "start": 82.31,
+        "end": 82.83
+      },
+      {
+        "speaker": "S02",
+        "text": "Oh.",
+        "start": 83.81,
+        "end": 84.11
+      },
+      {
+        "speaker": "S03",
+        "text": "I don't think we have a reading week though.",
+        "start": 84.08,
+        "end": 85.53
+      },
+      {
+        "speaker": "S04",
+        "text": "I don't know, we have one class at least when we like speech perception, we don't have any like",
+        "start": 85.51,
+        "end": 89.91
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 86.88,
+        "end": 87.11
+      },
+      {
+        "speaker": "S02",
+        "text": "That's cancelled.",
+        "start": 87.83,
+        "end": 88.48
+      },
+      {
+        "speaker": "S02",
+        "text": "Oh.",
+        "start": 89.73,
+        "end": 90.21
+      },
+      {
+        "speaker": "S04",
+        "text": "Sure, but I think we're having like all other classes, so there's not much point in it.",
+        "start": 89.81,
+        "end": 94.88
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, I don't think there was one. I don't think there was an official one last semester, I think it was just a back holiday, wasn't it?",
+        "start": 92.8,
+        "end": 98.71
+      },
+      {
+        "speaker": "S02",
+        "text": "Um, something like that. I think one a couple of classes were cancelled.",
+        "start": 99.0,
+        "end": 101.93
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, I think",
+        "start": 100.13,
+        "end": 100.68
+      },
+      {
+        "speaker": "S01",
+        "text": "Some classes didn't, some classes didn't",
+        "start": 101.18,
+        "end": 103.31
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah, exactly.",
+        "start": 103.26,
+        "end": 104.28
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 103.43,
+        "end": 103.88
+      },
+      {
+        "speaker": "S01",
+        "text": "It was already they didn't really know what was going on.",
+        "start": 103.91,
+        "end": 106.58
+      },
+      {
+        "speaker": "S04",
+        "text": "Well, it should've been a class.",
+        "start": 104.11,
+        "end": 105.01
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 105.31,
+        "end": 105.53
+      },
+      {
+        "speaker": "S04",
+        "text": "I think the undergraduates had uh were off totally.",
+        "start": 106.18,
+        "end": 109.88
+      },
+      {
+        "speaker": "S03",
+        "text": "No.",
+        "start": 106.63,
+        "end": 106.91
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 108.1,
+        "end": 108.41
+      },
+      {
+        "speaker": "S02",
+        "text": "It goes up to the professor whether they did it or not. Well, I don't feel like to, yeah, I don't care. I think, yeah, I think D I L will probably have one to make up for missing classes.",
+        "start": 109.66,
+        "end": 119.91
+      },
+      {
+        "speaker": "S01",
+        "text": "No, make 'em work.",
+        "start": 114.33,
+        "end": 115.21
+      },
+      {
+        "speaker": "S04",
+        "text": "What?",
+        "start": 120.56,
+        "end": 120.88
+      },
+      {
+        "speaker": "S02",
+        "text": "D I L will probably",
+        "start": 120.88,
+        "end": 122.11
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah, we will probably",
+        "start": 122.21,
+        "end": 123.48
+      },
+      {
+        "speaker": "S02",
+        "text": "have classes.",
+        "start": 122.86,
+        "end": 123.48
+      },
+      {
+        "speaker": "S04",
+        "text": "Oh, yeah, yeah.",
+        "start": 123.41,
+        "end": 124.28
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 124.06,
+        "end": 124.31
+      },
+      {
+        "speaker": "S04",
+        "text": "It's been uh last week.",
+        "start": 124.63,
+        "end": 126.48
+      },
+      {
+        "speaker": "S03",
+        "text": "Okay.",
+        "start": 127.18,
+        "end": 127.63
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 128.01,
+        "end": 128.28
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 128.48,
+        "end": 128.88
+      },
+      {
+        "speaker": "S03",
+        "text": "Let's meet Monday.",
+        "start": 128.53,
+        "end": 129.28
+      },
+      {
+        "speaker": "S01",
+        "text": "Done.",
+        "start": 130.33,
+        "end": 130.61
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 130.5,
+        "end": 130.88
+      },
+      {
+        "speaker": "S04",
+        "text": "Um",
+        "start": 131.88,
+        "end": 132.28
+      },
+      {
+        "speaker": "S04",
+        "text": "I guess",
+        "start": 133.13,
+        "end": 133.68
+      },
+      {
+        "speaker": "S03",
+        "text": "Hmm?",
+        "start": 133.68,
+        "end": 133.88
+      },
+      {
+        "speaker": "S04",
+        "text": "that's it. Was there anything else? Do anyone know if you wanna like take care of this or should I take care of it?",
+        "start": 134.33,
+        "end": 140.41
+      },
+      {
+        "speaker": "S02",
+        "text": "Okay.",
+        "start": 140.78,
+        "end": 141.08
+      },
+      {
+        "speaker": "S01",
+        "text": "Oh, we trust you.",
+        "start": 140.98,
+        "end": 141.81
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 142.0,
+        "end": 142.28
+      },
+      {
+        "speaker": "S04",
+        "text": "It's",
+        "start": 142.28,
+        "end": 142.53
+      },
+      {
+        "speaker": "S04",
+        "text": "I don't know if there was something. Oh, I think he basically said",
+        "start": 143.73,
+        "end": 147.31
+      },
+      {
+        "speaker": "S04",
+        "text": "Um, the same things as in the comments.",
+        "start": 149.58,
+        "end": 153.01
+      },
+      {
+        "speaker": "S04",
+        "text": "If I could read it.",
+        "start": 154.03,
+        "end": 154.88
+      },
+      {
+        "speaker": "S01",
+        "text": "Hmm?",
+        "start": 158.16,
+        "end": 158.38
+      },
+      {
+        "speaker": "S04",
+        "text": "Read that?",
+        "start": 158.21,
+        "end": 158.73
+      },
+      {
+        "speaker": "S02",
+        "text": "Come on, you've got one. Um",
+        "start": 159.21,
+        "end": 161.91
+      },
+      {
+        "speaker": "S02",
+        "text": "Do you really want multiple windows from a single app?",
+        "start": 164.28,
+        "end": 167.21
+      },
+      {
+        "speaker": "S04",
+        "text": "From a single app?",
+        "start": 168.86,
+        "end": 169.63
+      },
+      {
+        "speaker": "S02",
+        "text": "But most will probably want to go with defaults.",
+        "start": 169.6,
+        "end": 172.51
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah, well, that was basically",
+        "start": 174.38,
+        "end": 176.48
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 174.68,
+        "end": 174.91
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah, I think your comments are basically the same as what you said.",
+        "start": 176.43,
+        "end": 178.71
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah, exactly. Just the other comment about whether you wanna do both speaker characterization and topic segmentation.",
+        "start": 178.71,
+        "end": 184.91
+      },
+      {
+        "speaker": "S04",
+        "text": "Oh.",
+        "start": 178.88,
+        "end": 179.18
+      },
+      {
+        "speaker": "S04",
+        "text": "Mm.",
+        "start": 185.58,
+        "end": 185.91
+      },
+      {
+        "speaker": "S02",
+        "text": "Okay, that's fine. That makes sense.",
+        "start": 186.16,
+        "end": 188.61
+      },
+      {
+        "speaker": "S04",
+        "text": "Well, then, huh?",
+        "start": 187.78,
+        "end": 188.91
+      },
+      {
+        "speaker": "S02",
+        "text": "Okay.",
+        "start": 189.83,
+        "end": 190.28
+      },
+      {
+        "speaker": "S04",
+        "text": "And now we have seven percent of the course, maybe go.",
+        "start": 189.93,
+        "end": 193.51
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 194.01,
+        "end": 194.98
+      },
+      {
+        "speaker": "S03",
+        "text": "Oh yeah.",
+        "start": 194.91,
+        "end": 195.51
+      },
+      {
+        "speaker": "S04",
+        "text": "It's good, good.",
+        "start": 195.28,
+        "end": 195.81
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 196.11,
+        "end": 196.61
+      },
+      {
+        "speaker": "S03",
+        "text": "I think we need to t be okay, boss, right?",
+        "start": 196.81,
+        "end": 198.98
+      },
+      {
+        "speaker": "S04",
+        "text": "So we",
+        "start": 197.08,
+        "end": 197.61
+      },
+      {
+        "speaker": "S04",
+        "text": "If you're okay with having",
+        "start": 199.11,
+        "end": 201.11
+      },
+      {
+        "speaker": "S01",
+        "text": "Oop, that's the buzzers.",
+        "start": 201.18,
+        "end": 202.71
+      },
+      {
+        "speaker": "S03",
+        "text": "acting.",
+        "start": 201.78,
+        "end": 202.21
+      },
+      {
+        "speaker": "S01",
+        "text": "I'm signing off, anyway.",
+        "start": 205.91,
+        "end": 206.91
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 207.01,
+        "end": 207.38
+      },
+      {
+        "speaker": "S03",
+        "text": "Hmm.",
+        "start": 209.31,
+        "end": 209.91
+      },
+      {
+        "speaker": "S02",
+        "text": "Okay.",
+        "start": 209.88,
+        "end": 210.41
+      },
+      {
+        "speaker": "S03",
+        "text": "Should we turn these off or what?",
+        "start": 211.48,
+        "end": 212.71
+      },
+      {
+        "speaker": "S04",
+        "text": "We're done now.",
+        "start": 213.88,
+        "end": 214.88
+      },
+      {
+        "speaker": "S04",
+        "text": "Hmm.",
+        "start": 216.63,
+        "end": 217.01
+      },
+      {
+        "speaker": "S03",
+        "text": "Is she still here?",
+        "start": 219.26,
+        "end": 220.21
+      },
+      {
+        "speaker": "S04",
+        "text": "Guess you are.",
+        "start": 220.81,
+        "end": 221.51
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 221.58,
+        "end": 222.71
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "[0.00][S01]So yeah.[0.36][0.02][S02]How about if we take a[0.88][0.91][S01]Well, if you find me, I'll show you where I I'll let us all in there and we can all go in there.[5.16][3.41][S03]We can go look we can look now afterwards.[6.93][6.77][S02]Yeah, exactly.[7.83][7.21][S01]Yeah, you do need to have a key for it though, that's the thing, it's got a lock the one but[10.81][9.74][S02]Okay.[10.21][10.87][S02]Just for a bang on it.[11.81][12.20][S01]Yeah, somebody at least.[13.04][12.80][S02]Actually, I was asking Steve about that, whether we can get in there, whether he was gonna get us access into the[17.61][18.04][S03]Into what?[18.71][18.68][S02]The computer room.[19.21][19.38][S03]Okay, well.[20.13][20.33][S01]Yeah, it's only got its crap, it's only got about four or five computers in it. It would do quite a good for our job because in Kindle Sera it's not very obnoxious, we pick them and they're like[27.68][22.86][S02]But print[23.55][25.06][S02]Okay.[25.37][27.75][S03]Mm.[28.11][28.70][S02]Is there a printer there too?[29.61][29.75][S01]Yeah, there's a printer. And there's a photocopier with the code on it, yeah, there.[33.73][32.68][S03]Really?[33.03][33.92][S02]Nice.[34.28][34.68][S01]It's got all the[35.35][34.71][S03]Really?[35.13][35.46][S02]That's coming handy.[36.11][36.56][S03]Oh. Well, I'm just[38.41][37.71][S02]Hey, we could we could photocopy our uh assignment if we what.[41.48][38.28][S04]But I'm I'm worried about that.[39.83][42.56][S03]I've got it on my computer.[43.65][43.00][S04]Yeah.[43.23][44.03][S02]Yeah, well, the comments, I'm thinking.[45.38][44.21][S03]What else is on my computer?[45.21][45.90][S04]So what time do we say?[47.71][48.03][S03]I just think it's better to do afterwards, then we have all the time we need.[50.91][48.06][S01]Uh[48.31][50.60][S02]Yeah, that's true. So after D L G.[52.33][51.00][S01]Oh, right.[51.35][51.35][S03]Yeah, then have half an hour and then we'll we'll surely run out.[54.17][53.13][S01]Yeah, yeah.[53.65][53.33][S04]Yeah, yeah.[54.31][55.32][S04]Yeah.[55.55][57.06][S03]Okay.[57.93][58.66][S03]Well[58.91][58.74][S02]As long as D L G doesn't go late.[60.28][61.78][S01]Hopefully it's not that man, so it won't matter.[63.51][66.21][S03]Actually, it's not even confirmed yet.[67.83][68.60][S04]What?[68.93][68.98][S02]Oh.[69.31][69.51][S03]She doesn't even know what she's talking about yet.[71.11][72.78][S03]Maybe it doesn't happen at all.[74.03][72.85][S02]Sounds[73.13][74.73][S04]Yeah.[75.11][75.08][S02]Sounds like me.[75.78][75.53][S04]It's reading week next week, it should be, it should be reading.[78.13][76.38][S02]Wonderful.[76.73][77.58][S03]Is it really?[78.21][78.38][S02]Are you?[78.68][79.08][S04]Well, it's supposed to be.[80.21][79.13][S02]Next week, or the weekend?[80.41][81.20][S04]Next week, it's week six next week.[83.08][81.31][S02]Oh.[81.58][82.31][S03]Really?[82.83][83.81][S02]Oh.[84.11][84.08][S03]I don't think we have a reading week though.[85.53][85.51][S04]I don't know, we have one class at least when we like speech perception, we don't have any like[89.91][86.88][S02]Yeah.[87.11][87.83][S02]That's cancelled.[88.48][89.73][S02]Oh.[90.21][89.81][S04]Sure, but I think we're having like all other classes, so there's not much point in it.[94.88][92.80][S03]Yeah, I don't think there was one. I don't think there was an official one last semester, I think it was just a back holiday, wasn't it?[98.71][99.00][S02]Um, something like that. I think one a couple of classes were cancelled.[101.93][100.13][S03]Yeah, I think[100.68][101.18][S01]Some classes didn't, some classes didn't[103.31][103.26][S02]Yeah, exactly.[104.28][103.43][S04]Yeah.[103.88][103.91][S01]It was already they didn't really know what was going on.[106.58][104.11][S04]Well, it should've been a class.[105.01][105.31][S02]Yeah.[105.53][106.18][S04]I think the undergraduates had uh were off totally.[109.88][106.63][S03]No.[106.91][108.10][S02]Yeah.[108.41][109.66][S02]It goes up to the professor whether they did it or not. Well, I don't feel like to, yeah, I don't care. I think, yeah, I think D I L will probably have one to make up for missing classes.[119.91][114.33][S01]No, make 'em work.[115.21][120.56][S04]What?[120.88][120.88][S02]D I L will probably[122.11][122.21][S04]Yeah, we will probably[123.48][122.86][S02]have classes.[123.48][123.41][S04]Oh, yeah, yeah.[124.28][124.06][S02]Yeah.[124.31][124.63][S04]It's been uh last week.[126.48][127.18][S03]Okay.[127.63][128.01][S02]Yeah.[128.28][128.48][S04]Yeah.[128.88][128.53][S03]Let's meet Monday.[129.28][130.33][S01]Done.[130.61][130.50][S03]Yeah.[130.88][131.88][S04]Um[132.28][133.13][S04]I guess[133.68][133.68][S03]Hmm?[133.88][134.33][S04]that's it. Was there anything else? Do anyone know if you wanna like take care of this or should I take care of it?[140.41][140.78][S02]Okay.[141.08][140.98][S01]Oh, we trust you.[141.81][142.00][S02]Yeah.[142.28][142.28][S04]It's[142.53][143.73][S04]I don't know if there was something. Oh, I think he basically said[147.31][149.58][S04]Um, the same things as in the comments.[153.01][154.03][S04]If I could read it.[154.88][158.16][S01]Hmm?[158.38][158.21][S04]Read that?[158.73][159.21][S02]Come on, you've got one. Um[161.91][164.28][S02]Do you really want multiple windows from a single app?[167.21][168.86][S04]From a single app?[169.63][169.60][S02]But most will probably want to go with defaults.[172.51][174.38][S04]Yeah, well, that was basically[176.48][174.68][S02]Yeah.[174.91][176.43][S01]Yeah, I think your comments are basically the same as what you said.[178.71][178.71][S02]Yeah, exactly. Just the other comment about whether you wanna do both speaker characterization and topic segmentation.[184.91][178.88][S04]Oh.[179.18][185.58][S04]Mm.[185.91][186.16][S02]Okay, that's fine. That makes sense.[188.61][187.78][S04]Well, then, huh?[188.91][189.83][S02]Okay.[190.28][189.93][S04]And now we have seven percent of the course, maybe go.[193.51][194.01][S01]Yeah.[194.98][194.91][S03]Oh yeah.[195.51][195.28][S04]It's good, good.[195.81][196.11][S01]Yeah.[196.61][196.81][S03]I think we need to t be okay, boss, right?[198.98][197.08][S04]So we[197.61][199.11][S04]If you're okay with having[201.11][201.18][S01]Oop, that's the buzzers.[202.71][201.78][S03]acting.[202.21][205.91][S01]I'm signing off, anyway.[206.91][207.01][S04]Yeah.[207.38][209.31][S03]Hmm.[209.91][209.88][S02]Okay.[210.41][211.48][S03]Should we turn these off or what?[212.71][213.88][S04]We're done now.[214.88][216.63][S04]Hmm.[217.01][219.26][S03]Is she still here?[220.21][220.81][S04]Guess you are.[221.51][221.58][S03]Yeah.[222.71]",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 29.820010597934015,
+  "rtf": 0.13389652141017422,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 2585700352,
+      "reserved_bytes": 2843738112
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 2850721792
+}

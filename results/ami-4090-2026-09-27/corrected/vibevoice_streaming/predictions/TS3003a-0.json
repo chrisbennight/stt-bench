@@ -1,0 +1,955 @@
+{
+  "id": "TS3003a-0",
+  "duration": 240.0,
+  "seed": 2843022528,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "0",
+        "text": "Morning. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Morning. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Morning. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "See all the different places. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "So. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Everybody's sitting on the right. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Just, uh, I guess, uh... ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "That's, uh... ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "You're still introducing yourself. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Uh, my name's Marcus. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yes. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yes. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Welcome. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Thank you. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Uh, let's see. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Let's start off, um, with a little presentations. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Uh, first I play a little bit about the student. You can see there are a few panels here. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "We're gonna go with, uh, our actions.And you all have wires and you have plugs that we put the voice. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Uh, there are also some microphones there. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "But, um, you don't have to put a lot of attention on those because of the, it's very, uh, perfectly, uh, designed. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "So. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "This is our project documents folder.We have some notes written already. I just need to look at it. Uh, let's start with the presentation kickoff. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "So we will have a brief story, uh, from the beginning. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Of, uh, the research. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "My name is. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Uh, I don't know if you've noticed, but, uh, we're working for real reaction. Uh, it's a company, uh, that I joined. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "It's fashion and electronics, uh, they make it work.Uh, with, uh, a lot of effort in design and in the product itself.And I'm part of the project manager for all the project, the project. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "This is our agenda. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Uh, we're gonna open the documents, do the training. Once you've got your project closing. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Uh, maybe I can sit down and make a take some notes. Or let's see. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Maybe it will take a minute or two. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Sure. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Uh, it's not a lot, uh, just, uh, a few something, uh, I might, uh, just highlight.Uh, as you can see, uh, it's the opening. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "According to the still training, I think this is, uh, going a bit down a bit. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Uh, have you all seen the corporate website already? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yep. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Have you seen any flaws in it? I think I found one, but maybe not. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Uh, can you turn the page? Attention to that. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "See, it works or so. Yeah, it's working. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "It's working. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Welcome. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "But, um, on the corporate information site there's, uh, there was real remote instead of real reaction. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Oh yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Real remote is not really company we, we are, but that's a little, um. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Okay. What are we going to do? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Uh, project aim, as you can see in the new remote control. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "That has the original trendy and user friendly. So these are, uh, the points why, uh, we also hired you.You have the marketing.",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [
+      {
+        "audio_available_seconds": 3.466666666666667,
+        "chunk_end_seconds": 2.933333333333333,
+        "emitted_seconds": 3.569929450051859,
+        "has_text": false,
+        "text": "[Environmental "
+      },
+      {
+        "audio_available_seconds": 6.4,
+        "chunk_end_seconds": 5.866666666666666,
+        "emitted_seconds": 6.450062243035063,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 9.333333333333334,
+        "chunk_end_seconds": 8.8,
+        "emitted_seconds": 9.38361309200991,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 12.266666666666667,
+        "chunk_end_seconds": 11.733333333333333,
+        "emitted_seconds": 12.322492867009714,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 15.2,
+        "chunk_end_seconds": 14.666666666666666,
+        "emitted_seconds": 15.304044782067649,
+        "has_text": false,
+        "text": "Sounds] "
+      },
+      {
+        "audio_available_seconds": 18.133333333333333,
+        "chunk_end_seconds": 17.6,
+        "emitted_seconds": 18.698292330023833,
+        "has_text": true,
+        "text": " \n Speaker 0:Morning. \n Speaker 1:Morning. \n Speaker 0:Morning. \n Speaker 1:See all "
+      },
+      {
+        "audio_available_seconds": 21.066666666666666,
+        "chunk_end_seconds": 20.533333333333335,
+        "emitted_seconds": 21.52577241405379,
+        "has_text": true,
+        "text": "the different places. \n Speaker 0:So. \n Speaker 1:Everybody's sitting on the right."
+      },
+      {
+        "audio_available_seconds": 24.0,
+        "chunk_end_seconds": 23.466666666666665,
+        "emitted_seconds": 24.230689460993744,
+        "has_text": true,
+        "text": " \n Speaker 1:Just, uh, "
+      },
+      {
+        "audio_available_seconds": 26.933333333333334,
+        "chunk_end_seconds": 26.4,
+        "emitted_seconds": 27.073215906042606,
+        "has_text": true,
+        "text": "I guess, uh..."
+      },
+      {
+        "audio_available_seconds": 29.866666666666667,
+        "chunk_end_seconds": 29.333333333333332,
+        "emitted_seconds": 29.91785064805299,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 32.8,
+        "chunk_end_seconds": 32.266666666666666,
+        "emitted_seconds": 32.85114393103868,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 35.733333333333334,
+        "chunk_end_seconds": 35.2,
+        "emitted_seconds": 35.962881725048646,
+        "has_text": true,
+        "text": " \n Speaker 1:That's, uh..."
+      },
+      {
+        "audio_available_seconds": 38.666666666666664,
+        "chunk_end_seconds": 38.13333333333333,
+        "emitted_seconds": 38.91365823603701,
+        "has_text": true,
+        "text": " \n Speaker 1:You're still introducing yourself."
+      },
+      {
+        "audio_available_seconds": 41.6,
+        "chunk_end_seconds": 41.06666666666667,
+        "emitted_seconds": 42.00669138401281,
+        "has_text": true,
+        "text": " \n Speaker 1:Uh, my name's Marcus. \n Speaker 0:Uh, "
+      },
+      {
+        "audio_available_seconds": 44.53333333333333,
+        "chunk_end_seconds": 44.0,
+        "emitted_seconds": 48.565885870018974,
+        "has_text": true,
+        "text": "I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh"
+      },
+      {
+        "audio_available_seconds": 47.46666666666667,
+        "chunk_end_seconds": 46.93333333333333,
+        "emitted_seconds": 48.86455564002972,
+        "has_text": true,
+        "text": " \n Speaker 1:Yes. \n Speaker 0:Yes."
+      },
+      {
+        "audio_available_seconds": 50.4,
+        "chunk_end_seconds": 49.86666666666667,
+        "emitted_seconds": 50.71725163201336,
+        "has_text": true,
+        "text": " \n Speaker 1:Welcome. \n Speaker 0:Thank you."
+      },
+      {
+        "audio_available_seconds": 53.333333333333336,
+        "chunk_end_seconds": 52.8,
+        "emitted_seconds": 53.58528202702291,
+        "has_text": true,
+        "text": " \n Speaker 1:Uh, let's see."
+      },
+      {
+        "audio_available_seconds": 56.266666666666666,
+        "chunk_end_seconds": 55.733333333333334,
+        "emitted_seconds": 56.55118512909394,
+        "has_text": true,
+        "text": " \n Speaker 1:Let's start off, um, "
+      },
+      {
+        "audio_available_seconds": 59.2,
+        "chunk_end_seconds": 58.666666666666664,
+        "emitted_seconds": 59.343267360003665,
+        "has_text": true,
+        "text": "with a little presentations."
+      },
+      {
+        "audio_available_seconds": 62.13333333333333,
+        "chunk_end_seconds": 61.6,
+        "emitted_seconds": 62.18607783108018,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 65.06666666666666,
+        "chunk_end_seconds": 64.53333333333333,
+        "emitted_seconds": 65.11938323406503,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 68.0,
+        "chunk_end_seconds": 67.46666666666667,
+        "emitted_seconds": 68.33953509107232,
+        "has_text": true,
+        "text": " \n Speaker 1:Uh, first I play a little bit about the "
+      },
+      {
+        "audio_available_seconds": 70.93333333333334,
+        "chunk_end_seconds": 70.4,
+        "emitted_seconds": 71.20080258802045,
+        "has_text": true,
+        "text": "student. You can see there are a few panels here."
+      },
+      {
+        "audio_available_seconds": 73.86666666666666,
+        "chunk_end_seconds": 73.33333333333333,
+        "emitted_seconds": 74.20866112806834,
+        "has_text": true,
+        "text": " \n Speaker 1:We're gonna go with, uh, our actions."
+      },
+      {
+        "audio_available_seconds": 76.8,
+        "chunk_end_seconds": 76.26666666666667,
+        "emitted_seconds": 77.07353782805149,
+        "has_text": true,
+        "text": "And you all have wires and you have plugs that we "
+      },
+      {
+        "audio_available_seconds": 79.73333333333333,
+        "chunk_end_seconds": 79.2,
+        "emitted_seconds": 80.07196487707552,
+        "has_text": true,
+        "text": "put the voice. \n Speaker 1:Uh, there are also some "
+      },
+      {
+        "audio_available_seconds": 82.66666666666667,
+        "chunk_end_seconds": 82.13333333333334,
+        "emitted_seconds": 83.05978259607218,
+        "has_text": true,
+        "text": "microphones there. \n Speaker 1:But, um, you don't have to "
+      },
+      {
+        "audio_available_seconds": 85.6,
+        "chunk_end_seconds": 85.06666666666666,
+        "emitted_seconds": 85.86994564905763,
+        "has_text": true,
+        "text": "put a lot of attention on those because of the, "
+      },
+      {
+        "audio_available_seconds": 88.53333333333333,
+        "chunk_end_seconds": 88.0,
+        "emitted_seconds": 88.7123185840901,
+        "has_text": true,
+        "text": "it's very, uh, "
+      },
+      {
+        "audio_available_seconds": 91.46666666666667,
+        "chunk_end_seconds": 90.93333333333334,
+        "emitted_seconds": 91.64595921407454,
+        "has_text": true,
+        "text": "perfectly, uh, designed."
+      },
+      {
+        "audio_available_seconds": 94.4,
+        "chunk_end_seconds": 93.86666666666666,
+        "emitted_seconds": 94.79348731203936,
+        "has_text": true,
+        "text": " \n Speaker 1:So. \n Speaker 1:This is our project documents folder."
+      },
+      {
+        "audio_available_seconds": 97.33333333333333,
+        "chunk_end_seconds": 96.8,
+        "emitted_seconds": 97.56781142705586,
+        "has_text": true,
+        "text": "We have some notes written already. I just "
+      },
+      {
+        "audio_available_seconds": 100.26666666666667,
+        "chunk_end_seconds": 99.73333333333333,
+        "emitted_seconds": 100.48241048608907,
+        "has_text": true,
+        "text": "need to look at it. Uh, "
+      },
+      {
+        "audio_available_seconds": 103.2,
+        "chunk_end_seconds": 102.66666666666667,
+        "emitted_seconds": 103.39758571505081,
+        "has_text": true,
+        "text": "let's start with the presentation kickoff."
+      },
+      {
+        "audio_available_seconds": 106.13333333333334,
+        "chunk_end_seconds": 105.6,
+        "emitted_seconds": 106.18772211601026,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 109.06666666666666,
+        "chunk_end_seconds": 108.53333333333333,
+        "emitted_seconds": 109.34060990507714,
+        "has_text": true,
+        "text": " \n Speaker 1:So we will have a brief "
+      },
+      {
+        "audio_available_seconds": 112.0,
+        "chunk_end_seconds": 111.46666666666667,
+        "emitted_seconds": 112.32429988402873,
+        "has_text": true,
+        "text": "story, uh, from the beginning. \n Speaker 0:Okay."
+      },
+      {
+        "audio_available_seconds": 114.93333333333334,
+        "chunk_end_seconds": 114.4,
+        "emitted_seconds": 115.36757354508154,
+        "has_text": true,
+        "text": " \n Speaker 1:Of, uh, the research. \n Speaker 0:My name is."
+      },
+      {
+        "audio_available_seconds": 117.86666666666666,
+        "chunk_end_seconds": 117.33333333333333,
+        "emitted_seconds": 118.07913802703843,
+        "has_text": true,
+        "text": " \n Speaker 1:Uh, "
+      },
+      {
+        "audio_available_seconds": 120.8,
+        "chunk_end_seconds": 120.26666666666667,
+        "emitted_seconds": 121.06998164206743,
+        "has_text": true,
+        "text": "I don't know if you've noticed, but, "
+      },
+      {
+        "audio_available_seconds": 123.73333333333333,
+        "chunk_end_seconds": 123.2,
+        "emitted_seconds": 124.057558186003,
+        "has_text": true,
+        "text": "uh, we're working for real reaction. Uh, it's a "
+      },
+      {
+        "audio_available_seconds": 126.66666666666667,
+        "chunk_end_seconds": 126.13333333333334,
+        "emitted_seconds": 127.17732980509754,
+        "has_text": true,
+        "text": "company, uh, that I joined. \n Speaker 0:Hmm. \n Speaker 1:It's fashion and "
+      },
+      {
+        "audio_available_seconds": 129.6,
+        "chunk_end_seconds": 129.06666666666666,
+        "emitted_seconds": 129.81641907209996,
+        "has_text": true,
+        "text": "electronics, uh, they make it work."
+      },
+      {
+        "audio_available_seconds": 132.53333333333333,
+        "chunk_end_seconds": 132.0,
+        "emitted_seconds": 132.80387331708334,
+        "has_text": true,
+        "text": "Uh, with, uh, a lot of effort in "
+      },
+      {
+        "audio_available_seconds": 135.46666666666667,
+        "chunk_end_seconds": 134.93333333333334,
+        "emitted_seconds": 135.6472352630226,
+        "has_text": true,
+        "text": "design and in the product itself."
+      },
+      {
+        "audio_available_seconds": 138.4,
+        "chunk_end_seconds": 137.86666666666667,
+        "emitted_seconds": 138.67084516200703,
+        "has_text": true,
+        "text": "And I'm part of the project manager for all the "
+      },
+      {
+        "audio_available_seconds": 141.33333333333334,
+        "chunk_end_seconds": 140.8,
+        "emitted_seconds": 141.60422786604613,
+        "has_text": true,
+        "text": "project, the project. \n Speaker 1:This "
+      },
+      {
+        "audio_available_seconds": 144.26666666666668,
+        "chunk_end_seconds": 143.73333333333332,
+        "emitted_seconds": 144.39393663301598,
+        "has_text": true,
+        "text": "is our agenda."
+      },
+      {
+        "audio_available_seconds": 147.2,
+        "chunk_end_seconds": 146.66666666666666,
+        "emitted_seconds": 147.64919880405068,
+        "has_text": true,
+        "text": " \n Speaker 1:Uh, we're gonna open the documents, do the training. Once you've "
+      },
+      {
+        "audio_available_seconds": 150.13333333333333,
+        "chunk_end_seconds": 149.6,
+        "emitted_seconds": 150.28383325506002,
+        "has_text": true,
+        "text": "got your project closing."
+      },
+      {
+        "audio_available_seconds": 153.06666666666666,
+        "chunk_end_seconds": 152.53333333333333,
+        "emitted_seconds": 153.3918928951025,
+        "has_text": true,
+        "text": " \n Speaker 1:Uh, maybe I can sit down and make "
+      },
+      {
+        "audio_available_seconds": 156.0,
+        "chunk_end_seconds": 155.46666666666667,
+        "emitted_seconds": 156.18255776108708,
+        "has_text": true,
+        "text": "a take some notes. Or "
+      },
+      {
+        "audio_available_seconds": 158.93333333333334,
+        "chunk_end_seconds": 158.4,
+        "emitted_seconds": 159.06690421304666,
+        "has_text": true,
+        "text": "let's see."
+      },
+      {
+        "audio_available_seconds": 161.86666666666667,
+        "chunk_end_seconds": 161.33333333333334,
+        "emitted_seconds": 161.92200686305296,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 164.8,
+        "chunk_end_seconds": 164.26666666666668,
+        "emitted_seconds": 165.23440079204738,
+        "has_text": true,
+        "text": " \n Speaker 1:Maybe it will take a minute or two. \n Speaker 0:Sure."
+      },
+      {
+        "audio_available_seconds": 167.73333333333332,
+        "chunk_end_seconds": 167.2,
+        "emitted_seconds": 168.16788252000697,
+        "has_text": true,
+        "text": " \n Speaker 1:Uh, it's not a lot, uh, just, uh, a "
+      },
+      {
+        "audio_available_seconds": 170.66666666666666,
+        "chunk_end_seconds": 170.13333333333333,
+        "emitted_seconds": 170.9565283920383,
+        "has_text": true,
+        "text": "few something, uh, I might, uh, just highlight."
+      },
+      {
+        "audio_available_seconds": 173.6,
+        "chunk_end_seconds": 173.06666666666666,
+        "emitted_seconds": 173.89027937303763,
+        "has_text": true,
+        "text": "Uh, as you can see, uh, it's the "
+      },
+      {
+        "audio_available_seconds": 176.53333333333333,
+        "chunk_end_seconds": 176.0,
+        "emitted_seconds": 176.89639777003322,
+        "has_text": true,
+        "text": "opening. \n Speaker 1:According to the still training, I think this "
+      },
+      {
+        "audio_available_seconds": 179.46666666666667,
+        "chunk_end_seconds": 178.93333333333334,
+        "emitted_seconds": 179.72071625699755,
+        "has_text": true,
+        "text": "is, uh, going a bit down a bit."
+      },
+      {
+        "audio_available_seconds": 182.4,
+        "chunk_end_seconds": 181.86666666666667,
+        "emitted_seconds": 182.72653029602952,
+        "has_text": true,
+        "text": " \n Speaker 1:Uh, have you all seen the corporate website "
+      },
+      {
+        "audio_available_seconds": 185.33333333333334,
+        "chunk_end_seconds": 184.8,
+        "emitted_seconds": 186.32597791205626,
+        "has_text": true,
+        "text": "already? \n Speaker 0:Yep. \n Speaker 2:Yeah. \n Speaker 1:Yeah. \n Speaker 2:Yeah. \n Speaker 1:Okay. \n Speaker 2:Yeah. \n Speaker 1:Have you "
+      },
+      {
+        "audio_available_seconds": 188.26666666666668,
+        "chunk_end_seconds": 187.73333333333332,
+        "emitted_seconds": 188.5214530940866,
+        "has_text": true,
+        "text": "seen any flaws in it? I think I found "
+      },
+      {
+        "audio_available_seconds": 191.2,
+        "chunk_end_seconds": 190.66666666666666,
+        "emitted_seconds": 191.5092154419981,
+        "has_text": true,
+        "text": "one, but maybe not. \n Speaker 0:Uh, "
+      },
+      {
+        "audio_available_seconds": 194.13333333333333,
+        "chunk_end_seconds": 193.6,
+        "emitted_seconds": 194.37283499608748,
+        "has_text": true,
+        "text": "can you turn the page? Attention to that."
+      },
+      {
+        "audio_available_seconds": 197.06666666666666,
+        "chunk_end_seconds": 196.53333333333333,
+        "emitted_seconds": 197.2862799440045,
+        "has_text": true,
+        "text": " \n Speaker 1:See, it "
+      },
+      {
+        "audio_available_seconds": 200.0,
+        "chunk_end_seconds": 199.46666666666667,
+        "emitted_seconds": 200.5270530320704,
+        "has_text": true,
+        "text": "works or so. Yeah, it's working. \n Speaker 0:Yeah. \n Speaker 1:It's working."
+      },
+      {
+        "audio_available_seconds": 202.93333333333334,
+        "chunk_end_seconds": 202.4,
+        "emitted_seconds": 203.24414870201144,
+        "has_text": true,
+        "text": " \n Speaker 1:Okay. \n Speaker 1:Welcome."
+      },
+      {
+        "audio_available_seconds": 205.86666666666667,
+        "chunk_end_seconds": 205.33333333333334,
+        "emitted_seconds": 206.1218517801026,
+        "has_text": true,
+        "text": " \n Speaker 1:But, um, on "
+      },
+      {
+        "audio_available_seconds": 208.8,
+        "chunk_end_seconds": 208.26666666666668,
+        "emitted_seconds": 209.03784340899438,
+        "has_text": true,
+        "text": "the corporate information site there's, uh, "
+      },
+      {
+        "audio_available_seconds": 211.73333333333332,
+        "chunk_end_seconds": 211.2,
+        "emitted_seconds": 211.93533047602978,
+        "has_text": true,
+        "text": "there was real remote instead of real "
+      },
+      {
+        "audio_available_seconds": 214.66666666666666,
+        "chunk_end_seconds": 214.13333333333333,
+        "emitted_seconds": 215.108044720022,
+        "has_text": true,
+        "text": "reaction. \n Speaker 0:Oh yeah. \n Speaker 1:Real remote is not really "
+      },
+      {
+        "audio_available_seconds": 217.6,
+        "chunk_end_seconds": 217.06666666666666,
+        "emitted_seconds": 217.89189299102873,
+        "has_text": true,
+        "text": "company we, we are, but that's a little, "
+      },
+      {
+        "audio_available_seconds": 220.53333333333333,
+        "chunk_end_seconds": 220.0,
+        "emitted_seconds": 220.75411473610438,
+        "has_text": true,
+        "text": "um. \n Speaker 0:Yeah."
+      },
+      {
+        "audio_available_seconds": 223.46666666666667,
+        "chunk_end_seconds": 222.93333333333334,
+        "emitted_seconds": 223.78617726208176,
+        "has_text": true,
+        "text": " \n Speaker 1:Okay. What are we going to do?"
+      },
+      {
+        "audio_available_seconds": 226.4,
+        "chunk_end_seconds": 225.86666666666667,
+        "emitted_seconds": 226.78364512999542,
+        "has_text": true,
+        "text": " \n Speaker 1:Uh, project aim, as you can see in the new "
+      },
+      {
+        "audio_available_seconds": 229.33333333333334,
+        "chunk_end_seconds": 228.8,
+        "emitted_seconds": 229.628064742079,
+        "has_text": true,
+        "text": "remote control. \n Speaker 1:That has the original "
+      },
+      {
+        "audio_available_seconds": 232.26666666666668,
+        "chunk_end_seconds": 231.73333333333332,
+        "emitted_seconds": 232.48719911510125,
+        "has_text": true,
+        "text": "trendy and user friendly. So "
+      },
+      {
+        "audio_available_seconds": 235.2,
+        "chunk_end_seconds": 234.66666666666666,
+        "emitted_seconds": 235.43921859108377,
+        "has_text": true,
+        "text": "these are, uh, the points why, "
+      },
+      {
+        "audio_available_seconds": 238.13333333333333,
+        "chunk_end_seconds": 237.6,
+        "emitted_seconds": 238.3204191949917,
+        "has_text": true,
+        "text": "uh, we also hired you."
+      },
+      {
+        "audio_available_seconds": 240.0,
+        "chunk_end_seconds": 240.0,
+        "emitted_seconds": 240.1471660650568,
+        "has_text": true,
+        "text": "You have the marketing."
+      }
+    ],
+    "metadata": {
+      "raw_output": "[Environmental Sounds]  \n Speaker 0:Morning. \n Speaker 1:Morning. \n Speaker 0:Morning. \n Speaker 1:See all the different places. \n Speaker 0:So. \n Speaker 1:Everybody's sitting on the right. \n Speaker 1:Just, uh, I guess, uh... \n Speaker 1:That's, uh... \n Speaker 1:You're still introducing yourself. \n Speaker 1:Uh, my name's Marcus. \n Speaker 0:Uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh, I'm, uh \n Speaker 1:Yes. \n Speaker 0:Yes. \n Speaker 1:Welcome. \n Speaker 0:Thank you. \n Speaker 1:Uh, let's see. \n Speaker 1:Let's start off, um, with a little presentations. \n Speaker 1:Uh, first I play a little bit about the student. You can see there are a few panels here. \n Speaker 1:We're gonna go with, uh, our actions.And you all have wires and you have plugs that we put the voice. \n Speaker 1:Uh, there are also some microphones there. \n Speaker 1:But, um, you don't have to put a lot of attention on those because of the, it's very, uh, perfectly, uh, designed. \n Speaker 1:So. \n Speaker 1:This is our project documents folder.We have some notes written already. I just need to look at it. Uh, let's start with the presentation kickoff. \n Speaker 1:So we will have a brief story, uh, from the beginning. \n Speaker 0:Okay. \n Speaker 1:Of, uh, the research. \n Speaker 0:My name is. \n Speaker 1:Uh, I don't know if you've noticed, but, uh, we're working for real reaction. Uh, it's a company, uh, that I joined. \n Speaker 0:Hmm. \n Speaker 1:It's fashion and electronics, uh, they make it work.Uh, with, uh, a lot of effort in design and in the product itself.And I'm part of the project manager for all the project, the project. \n Speaker 1:This is our agenda. \n Speaker 1:Uh, we're gonna open the documents, do the training. Once you've got your project closing. \n Speaker 1:Uh, maybe I can sit down and make a take some notes. Or let's see. \n Speaker 1:Maybe it will take a minute or two. \n Speaker 0:Sure. \n Speaker 1:Uh, it's not a lot, uh, just, uh, a few something, uh, I might, uh, just highlight.Uh, as you can see, uh, it's the opening. \n Speaker 1:According to the still training, I think this is, uh, going a bit down a bit. \n Speaker 1:Uh, have you all seen the corporate website already? \n Speaker 0:Yep. \n Speaker 2:Yeah. \n Speaker 1:Yeah. \n Speaker 2:Yeah. \n Speaker 1:Okay. \n Speaker 2:Yeah. \n Speaker 1:Have you seen any flaws in it? I think I found one, but maybe not. \n Speaker 0:Uh, can you turn the page? Attention to that. \n Speaker 1:See, it works or so. Yeah, it's working. \n Speaker 0:Yeah. \n Speaker 1:It's working. \n Speaker 1:Okay. \n Speaker 1:Welcome. \n Speaker 1:But, um, on the corporate information site there's, uh, there was real remote instead of real reaction. \n Speaker 0:Oh yeah. \n Speaker 1:Real remote is not really company we, we are, but that's a little, um. \n Speaker 0:Yeah. \n Speaker 1:Okay. What are we going to do? \n Speaker 1:Uh, project aim, as you can see in the new remote control. \n Speaker 1:That has the original trendy and user friendly. So these are, uh, the points why, uh, we also hired you.You have the marketing.",
+      "realtime_paced": true,
+      "stream_compute_seconds": 25.49916270468384,
+      "timing_reason": "Official streaming output has no speech timestamps",
+      "generation_limit_hit": null,
+      "stream_output_parser": "joined-chunks-v1"
+    }
+  },
+  "wall_seconds": 240.19692111201584,
+  "rtf": 1.0008205046333993,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 17682032640,
+      "reserved_bytes": 17943232512
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 3490643968
+}

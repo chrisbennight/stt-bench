@@ -1,0 +1,17 @@
+{
+  "configs/five-systems.json": "485f77b34bb320548e6c5c60607e00648f38c18c32c4d3b33f6ee085cdb963b0",
+  "model-revisions.json": "07f83a9952e0446819cf73e0f0c61e73ede24f22768bd5fec042ac1cd06ba420",
+  "src/speaker_benchmark/__init__.py": "7f0d4c7b4a41a58f8307cb203cd99085a6f94ba6ddfd27d08a2ee8323e37dc22",
+  "src/speaker_benchmark/adapters/__init__.py": "316eaaa6a587090487862ed94ab9b2a3485c75a9a4e428c6ff4456ed02d4d770",
+  "src/speaker_benchmark/adapters/common.py": "e6649c172e3c929cb2604ee7733a9547a0aa79d03383c5fd97366b13b76a293b",
+  "src/speaker_benchmark/adapters/joint.py": "7142ce0f225b0de16ddebe54cce5e53afe0354d59a140715f0ac4ce5b5d287b9",
+  "src/speaker_benchmark/adapters/pipeline.py": "d732d914bb0ec35f51b92a4da9e579497b9bf0e917a66fcef061367bbe42b16a",
+  "src/speaker_benchmark/audio.py": "e00be5ee6ba67a760f6ce5974fedce00d907e4158775e97d3b7893c4c0127706",
+  "src/speaker_benchmark/cli.py": "af0e9478b9f99eef7d30242720eb512c5c9719855b98bd6217ea18bd99806423",
+  "src/speaker_benchmark/datasets.py": "c15b9613058f5c942ec04fbeb8e938635c452ed88000247431dd061c5756415b",
+  "src/speaker_benchmark/runner.py": "bf5ceea53021ba0a454886cd4cfaefd7b027b5122a79593d14d0bab9ea8a9f9c",
+  "src/speaker_benchmark/schema.py": "8d10f86b621393c5fe83cf280018b2c374a439dcb3d0c32b3719c1e744e6de5e",
+  "src/speaker_benchmark/scoring.py": "d14156f338aa09bc1e3f0463262f8d8db63dc537c925248f9e0a0235e27e123f",
+  "src/speaker_benchmark/worker.py": "6d3cc383d5fa37815a58efc25ca07c1356ecee9c286b3e168a626f14bbb7d633",
+  "upstream-revisions.json": "5c5c5879ce3062a70ad2e978de0d4be024c47808eeb477cc6db960dfae28acd8"
+}

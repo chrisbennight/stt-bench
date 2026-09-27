@@ -1,0 +1,1716 @@
+{
+  "id": "EN2002a-11520000",
+  "duration": 240.0,
+  "seed": 3436687995,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "0",
+        "text": "You like transcription? Someone who likes better s\u2014 ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "and you just press all the buttons. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. Or check marks, even ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "better, to avoid the\u2014 ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. That'll reduce the number of, um, windows ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "you open, which is quite good. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "So, boys, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Photoshop has a lot of windows. If you ever use Photoshop, it's got loads, and you're ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "always, like, forever going, oh, get out of the way, there's all this stuff in the ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "way, isn't there? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Um, I don't ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "know, I don't know if people get used to it. I mean, when you use a ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Windows or a Mac or whatever, you have ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "a lot of windows open. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "You do, yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "And manage them.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "True.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Unless Kenny, I don't suppose you can ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "minimise them and stuff, I don't know. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, you can minimise them. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Can you do that? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, yeah.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Oh, that works. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Of ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "course you can. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, I see, yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Like, load of these can be, like, once ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "we get the disfluencies out, then we can, you know, transcribe with a ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "disfluency, transcribe with the diffl\u2014 disfluency. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "that's a good idea. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "That'll work, yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "There, there have been, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "yeah, they're definitely gonna be in the same window, though. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Or sort of using the same window and probably, yeah, probably ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "mutually, yeah, well, we'll just dis\u2014 ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "choose. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, that, that was the plan for the disfluencies anyway, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "so. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, do you ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "wanna do that with summaries then? Put the summaries in ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "the, in the same window.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Mutually exclusive, yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah, um, well, could, I mean, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "with transcripts, I mean, it sounds ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "reasonable to have, like, transcripts, like maybe three or ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "four, like full meeting, meeting without ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "disfluencies, then summaries. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Mm-hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Mm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Right. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Summarise. Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Do you wanna do ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "that? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "That kinda makes sense. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, sounds good.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Mm.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Uh, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "finally, the prototype is paper.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "What kind of prototype could we produce?",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Ready for worry. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Cause I'm, I'm ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "just, you know, I won't go into the lab unless I know what we're gonna change today.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "You know, and it kind of just, it just ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "develops. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Knows what the future looks like. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "I'm not aiming for anything.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Do we wanna aim for something?",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Um.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "I'm, I'm pretty much getting there anyway.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "To be honest. It's not, it's not gonna be a lot more ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "work. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "I guess it is. I mean, just to try and ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "I mean for us to, to be able to do ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "something that we can include with your thing. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "that's what we need, yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "So that it's possible to use. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Something just slightly more than ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "just that, obviously. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Mm-hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, the second part of it we can just\u2014 ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Just so the integration works sort of between ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "the two. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Mm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, definitely.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Um, so I guess that's ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "what he was kinda talking about. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "I think that's kinda what he meant as well, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "wasn't it? Seeing it, seeing it sort of start to do stuff rather ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "than just being, um, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "trying to do GUI. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Oh, right, yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah. Well, I guess, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "I mean, that was probably our intention. But, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "you know, we might not have written it down so well. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "I ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "mean. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Actually, is the ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "code accessible? Like the, the GUI stuff that you've ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "done. Like can we just, like, copy, like, the latest stuff with it?",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "You'd have to, so, um. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Um, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "I don't know if you can access other ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "people's, like\u2014 ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Like if we're gonna just try and, like, take a look or something. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Like, yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, you can try and, like, select, like, if you can make it world readable, then anybody can. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Well, if you can make it ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "world readable, then\u2014 ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "If you just tell us the directory and just make the file readable, then ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "we can have the directory to get in there. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "But just, I don't ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "know, it'd be, it'd make it easier. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Sure. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "I don't know if it's readable at the moment. You ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "can, uh, I don't know. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "I think by default they are. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "No, they're not world readable at ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "the moment, but\u2014 ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "No, they aren't. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Oh. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "But default, there aren't any default, there aren't ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "any, only you can read them, I'm afraid. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Oh, right. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "You can see them, but you can't ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "read them. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Right, well, I'll make that readable then. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Okay.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Um, so the directory is ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "my number. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Or you can just email it to us, or I ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "can email it to you, and then I can just, yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Well, this is not difficult. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, right. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "It's ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "in all the emails. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "What's your number? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Okay, yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Your number. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "No, oh ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "four, oh four, five ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "five five, six ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "five. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Say that again. Oh four, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "five five six five, five six seven. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "And then it's\u2014",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "And then, um, there's a folder, um, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "L.S.S.D. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Mm, L.S.S.D., okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "And it's called\u2014",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [
+      {
+        "audio_available_seconds": 3.466666666666667,
+        "chunk_end_seconds": 2.933333333333333,
+        "emitted_seconds": 3.8011742379749194,
+        "has_text": true,
+        "text": " \n Speaker 0:You like transcription? Someone who likes better s\u2014 "
+      },
+      {
+        "audio_available_seconds": 6.4,
+        "chunk_end_seconds": 5.866666666666666,
+        "emitted_seconds": 6.946359770954587,
+        "has_text": true,
+        "text": "and you just press all the buttons. \n Speaker 1:Yeah. \n Speaker 2:Yeah. Or check marks, even "
+      },
+      {
+        "audio_available_seconds": 9.333333333333334,
+        "chunk_end_seconds": 8.8,
+        "emitted_seconds": 9.810627183993347,
+        "has_text": true,
+        "text": "better, to avoid the\u2014 \n Speaker 1:Yeah. That'll reduce the number of, um, windows "
+      },
+      {
+        "audio_available_seconds": 12.266666666666667,
+        "chunk_end_seconds": 11.733333333333333,
+        "emitted_seconds": 12.765832090983167,
+        "has_text": true,
+        "text": "you open, which is quite good. \n Speaker 2:Yeah. \n Speaker 1:So, boys, "
+      },
+      {
+        "audio_available_seconds": 15.2,
+        "chunk_end_seconds": 14.666666666666666,
+        "emitted_seconds": 15.667766871978529,
+        "has_text": true,
+        "text": "Photoshop has a lot of windows. If you ever use Photoshop, it's got loads, and you're "
+      },
+      {
+        "audio_available_seconds": 18.133333333333333,
+        "chunk_end_seconds": 17.6,
+        "emitted_seconds": 18.59290020505432,
+        "has_text": true,
+        "text": "always, like, forever going, oh, get out of the way, there's all this stuff in the "
+      },
+      {
+        "audio_available_seconds": 21.066666666666666,
+        "chunk_end_seconds": 20.533333333333335,
+        "emitted_seconds": 21.70398811902851,
+        "has_text": true,
+        "text": "way, isn't there? \n Speaker 2:Yeah, yeah. \n Speaker 0:Yeah. \n Speaker 0:Um, I don't "
+      },
+      {
+        "audio_available_seconds": 24.0,
+        "chunk_end_seconds": 23.466666666666665,
+        "emitted_seconds": 24.42420534498524,
+        "has_text": true,
+        "text": "know, I don't know if people get used to it. I mean, when you use a "
+      },
+      {
+        "audio_available_seconds": 26.933333333333334,
+        "chunk_end_seconds": 26.4,
+        "emitted_seconds": 27.165057834004983,
+        "has_text": true,
+        "text": "Windows or a Mac or whatever, you have "
+      },
+      {
+        "audio_available_seconds": 29.866666666666667,
+        "chunk_end_seconds": 29.333333333333332,
+        "emitted_seconds": 30.365926724974997,
+        "has_text": true,
+        "text": "a lot of windows open. \n Speaker 1:You do, yeah. \n Speaker 0:And manage them."
+      },
+      {
+        "audio_available_seconds": 32.8,
+        "chunk_end_seconds": 32.266666666666666,
+        "emitted_seconds": 33.22363108897116,
+        "has_text": true,
+        "text": " \n Speaker 1:Yeah. \n Speaker 2:Yeah. \n Speaker 1:True."
+      },
+      {
+        "audio_available_seconds": 35.733333333333334,
+        "chunk_end_seconds": 35.2,
+        "emitted_seconds": 36.17488685401622,
+        "has_text": true,
+        "text": " \n Speaker 2:Yeah. \n Speaker 1:Unless Kenny, I don't suppose you can "
+      },
+      {
+        "audio_available_seconds": 38.666666666666664,
+        "chunk_end_seconds": 38.13333333333333,
+        "emitted_seconds": 39.48572796199005,
+        "has_text": true,
+        "text": "minimise them and stuff, I don't know. \n Speaker 0:Yeah, you can minimise them. \n Speaker 1:Can you do that? \n Speaker 0:Yeah, yeah."
+      },
+      {
+        "audio_available_seconds": 41.6,
+        "chunk_end_seconds": 41.06666666666667,
+        "emitted_seconds": 42.45048288605176,
+        "has_text": true,
+        "text": " \n Speaker 2:Okay. \n Speaker 1:Okay. \n Speaker 2:Oh, that works. \n Speaker 1:Yeah. \n Speaker 2:Yeah. \n Speaker 1:Of "
+      },
+      {
+        "audio_available_seconds": 44.53333333333333,
+        "chunk_end_seconds": 44.0,
+        "emitted_seconds": 45.29493849398568,
+        "has_text": true,
+        "text": "course you can. \n Speaker 2:Yeah, I see, yeah. \n Speaker 1:Yeah. \n Speaker 2:Like, load of these can be, like, once "
+      },
+      {
+        "audio_available_seconds": 47.46666666666667,
+        "chunk_end_seconds": 46.93333333333333,
+        "emitted_seconds": 47.88062315899879,
+        "has_text": true,
+        "text": "we get the disfluencies out, then we can, you know, transcribe with a "
+      },
+      {
+        "audio_available_seconds": 50.4,
+        "chunk_end_seconds": 49.86666666666667,
+        "emitted_seconds": 50.86162785999477,
+        "has_text": true,
+        "text": "disfluency, transcribe with the diffl\u2014 disfluency. \n Speaker 0:Yeah, "
+      },
+      {
+        "audio_available_seconds": 53.333333333333336,
+        "chunk_end_seconds": 52.8,
+        "emitted_seconds": 53.906621013069525,
+        "has_text": true,
+        "text": "that's a good idea. \n Speaker 2:That'll work, yeah. \n Speaker 0:There, there have been, "
+      },
+      {
+        "audio_available_seconds": 56.266666666666666,
+        "chunk_end_seconds": 55.733333333333334,
+        "emitted_seconds": 56.91984676697757,
+        "has_text": true,
+        "text": "yeah, they're definitely gonna be in the same window, though. \n Speaker 2:Or sort of using the same window and probably, yeah, probably "
+      },
+      {
+        "audio_available_seconds": 59.2,
+        "chunk_end_seconds": 58.666666666666664,
+        "emitted_seconds": 59.48384782904759,
+        "has_text": true,
+        "text": "mutually, yeah, well, we'll just dis\u2014 "
+      },
+      {
+        "audio_available_seconds": 62.13333333333333,
+        "chunk_end_seconds": 61.6,
+        "emitted_seconds": 62.5972197529627,
+        "has_text": true,
+        "text": "choose. \n Speaker 0:Yeah, that, that was the plan for the disfluencies anyway, "
+      },
+      {
+        "audio_available_seconds": 65.06666666666666,
+        "chunk_end_seconds": 64.53333333333333,
+        "emitted_seconds": 65.45913372503128,
+        "has_text": true,
+        "text": "so. \n Speaker 2:Yeah. \n Speaker 0:Yeah, do you "
+      },
+      {
+        "audio_available_seconds": 68.0,
+        "chunk_end_seconds": 67.46666666666667,
+        "emitted_seconds": 68.28476436506025,
+        "has_text": true,
+        "text": "wanna do that with summaries then? Put the summaries in "
+      },
+      {
+        "audio_available_seconds": 70.93333333333334,
+        "chunk_end_seconds": 70.4,
+        "emitted_seconds": 71.11772266903426,
+        "has_text": true,
+        "text": "the, in the same window."
+      },
+      {
+        "audio_available_seconds": 73.86666666666666,
+        "chunk_end_seconds": 73.33333333333333,
+        "emitted_seconds": 74.33225731598213,
+        "has_text": true,
+        "text": "Mutually exclusive, yeah. \n Speaker 3:Yeah, um, well, could, I mean, "
+      },
+      {
+        "audio_available_seconds": 76.8,
+        "chunk_end_seconds": 76.26666666666667,
+        "emitted_seconds": 77.01472226798069,
+        "has_text": true,
+        "text": "with transcripts, I mean, it sounds "
+      },
+      {
+        "audio_available_seconds": 79.73333333333333,
+        "chunk_end_seconds": 79.2,
+        "emitted_seconds": 80.03414091502782,
+        "has_text": true,
+        "text": "reasonable to have, like, transcripts, like maybe three or "
+      },
+      {
+        "audio_available_seconds": 82.66666666666667,
+        "chunk_end_seconds": 82.13333333333334,
+        "emitted_seconds": 82.88164724397939,
+        "has_text": true,
+        "text": "four, like full meeting, meeting without "
+      },
+      {
+        "audio_available_seconds": 85.6,
+        "chunk_end_seconds": 85.06666666666666,
+        "emitted_seconds": 86.69008938106708,
+        "has_text": true,
+        "text": "disfluencies, then summaries. \n Speaker 0:Mm-hmm. \n Speaker 2:Mm. \n Speaker 2:Right. \n Speaker 0:Summarise. Yeah. \n Speaker 2:Yeah. \n Speaker 0:Do you wanna do "
+      },
+      {
+        "audio_available_seconds": 88.53333333333333,
+        "chunk_end_seconds": 88.0,
+        "emitted_seconds": 89.22919131803792,
+        "has_text": true,
+        "text": "that? \n Speaker 2:That kinda makes sense. \n Speaker 3:Yeah. \n Speaker 0:Yeah. \n Speaker 1:Yeah, sounds good."
+      },
+      {
+        "audio_available_seconds": 91.46666666666667,
+        "chunk_end_seconds": 90.93333333333334,
+        "emitted_seconds": 91.6493801419856,
+        "has_text": true,
+        "text": " \n Speaker 0:Mm."
+      },
+      {
+        "audio_available_seconds": 94.4,
+        "chunk_end_seconds": 93.86666666666666,
+        "emitted_seconds": 94.4538416940486,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 97.33333333333333,
+        "chunk_end_seconds": 96.8,
+        "emitted_seconds": 97.53184669103939,
+        "has_text": true,
+        "text": " \n Speaker 0:Uh, "
+      },
+      {
+        "audio_available_seconds": 100.26666666666667,
+        "chunk_end_seconds": 99.73333333333333,
+        "emitted_seconds": 100.44687158602756,
+        "has_text": true,
+        "text": "finally, the prototype is paper."
+      },
+      {
+        "audio_available_seconds": 103.2,
+        "chunk_end_seconds": 102.66666666666667,
+        "emitted_seconds": 103.39783272601198,
+        "has_text": true,
+        "text": "What kind of prototype could we produce?"
+      },
+      {
+        "audio_available_seconds": 106.13333333333334,
+        "chunk_end_seconds": 105.6,
+        "emitted_seconds": 106.56489391101059,
+        "has_text": true,
+        "text": " \n Speaker 2:Ready for worry. \n Speaker 0:Cause I'm, I'm "
+      },
+      {
+        "audio_available_seconds": 109.06666666666666,
+        "chunk_end_seconds": 108.53333333333333,
+        "emitted_seconds": 109.51597665599547,
+        "has_text": true,
+        "text": "just, you know, I won't go into the lab unless I know what we're gonna change today."
+      },
+      {
+        "audio_available_seconds": 112.0,
+        "chunk_end_seconds": 111.46666666666667,
+        "emitted_seconds": 112.28443378396332,
+        "has_text": true,
+        "text": "You know, and it kind of just, it just "
+      },
+      {
+        "audio_available_seconds": 114.93333333333334,
+        "chunk_end_seconds": 114.4,
+        "emitted_seconds": 115.47076719906181,
+        "has_text": true,
+        "text": "develops. \n Speaker 3:Knows what the future looks like. \n Speaker 0:I'm not aiming for anything."
+      },
+      {
+        "audio_available_seconds": 117.86666666666666,
+        "chunk_end_seconds": 117.33333333333333,
+        "emitted_seconds": 118.04741411306895,
+        "has_text": true,
+        "text": "Do we wanna aim for something?"
+      },
+      {
+        "audio_available_seconds": 120.8,
+        "chunk_end_seconds": 120.26666666666667,
+        "emitted_seconds": 120.980512515991,
+        "has_text": true,
+        "text": " \n Speaker 1:Um."
+      },
+      {
+        "audio_available_seconds": 123.73333333333333,
+        "chunk_end_seconds": 123.2,
+        "emitted_seconds": 124.05717899498995,
+        "has_text": true,
+        "text": " \n Speaker 0:I'm, I'm pretty much getting there anyway."
+      },
+      {
+        "audio_available_seconds": 126.66666666666667,
+        "chunk_end_seconds": 126.13333333333334,
+        "emitted_seconds": 127.02681853703689,
+        "has_text": true,
+        "text": "To be honest. It's not, it's not gonna be a lot more "
+      },
+      {
+        "audio_available_seconds": 129.6,
+        "chunk_end_seconds": 129.06666666666666,
+        "emitted_seconds": 129.99586393497884,
+        "has_text": true,
+        "text": "work. \n Speaker 3:I guess it is. I mean, just to try and "
+      },
+      {
+        "audio_available_seconds": 132.53333333333333,
+        "chunk_end_seconds": 132.0,
+        "emitted_seconds": 132.80402541300282,
+        "has_text": true,
+        "text": "I mean for us to, to be able to do "
+      },
+      {
+        "audio_available_seconds": 135.46666666666667,
+        "chunk_end_seconds": 134.93333333333334,
+        "emitted_seconds": 135.82883303205017,
+        "has_text": true,
+        "text": "something that we can include with your thing. \n Speaker 1:Yeah, "
+      },
+      {
+        "audio_available_seconds": 138.4,
+        "chunk_end_seconds": 137.86666666666667,
+        "emitted_seconds": 139.40787822403945,
+        "has_text": true,
+        "text": "that's what we need, yeah. \n Speaker 3:So that it's possible to use. \n Speaker 2:Yeah. \n Speaker 0:Yeah. \n Speaker 3:Yeah. \n Speaker 1:Something just slightly more than "
+      },
+      {
+        "audio_available_seconds": 141.33333333333334,
+        "chunk_end_seconds": 140.8,
+        "emitted_seconds": 142.3061840670416,
+        "has_text": true,
+        "text": "just that, obviously. \n Speaker 0:Mm-hmm. \n Speaker 3:Yeah. \n Speaker 2:Yeah, the second part of it we can just\u2014 \n Speaker 1:Yeah. \n Speaker 3:Yeah."
+      },
+      {
+        "audio_available_seconds": 144.26666666666668,
+        "chunk_end_seconds": 143.73333333333332,
+        "emitted_seconds": 144.48983681597747,
+        "has_text": true,
+        "text": "Just so the integration works sort of between "
+      },
+      {
+        "audio_available_seconds": 147.2,
+        "chunk_end_seconds": 146.66666666666666,
+        "emitted_seconds": 147.72283740504645,
+        "has_text": true,
+        "text": "the two. \n Speaker 1:Okay. \n Speaker 0:Mm. \n Speaker 1:Yeah, definitely."
+      },
+      {
+        "audio_available_seconds": 150.13333333333333,
+        "chunk_end_seconds": 149.6,
+        "emitted_seconds": 150.42371240700595,
+        "has_text": true,
+        "text": " \n Speaker 3:Um, so I guess that's "
+      },
+      {
+        "audio_available_seconds": 153.06666666666666,
+        "chunk_end_seconds": 152.53333333333333,
+        "emitted_seconds": 153.66259373503271,
+        "has_text": true,
+        "text": "what he was kinda talking about. \n Speaker 1:Yeah. \n Speaker 1:I think that's kinda what he meant as well, "
+      },
+      {
+        "audio_available_seconds": 156.0,
+        "chunk_end_seconds": 155.46666666666667,
+        "emitted_seconds": 156.3803744240431,
+        "has_text": true,
+        "text": "wasn't it? Seeing it, seeing it sort of start to do stuff rather "
+      },
+      {
+        "audio_available_seconds": 158.93333333333334,
+        "chunk_end_seconds": 158.4,
+        "emitted_seconds": 159.11578893801197,
+        "has_text": true,
+        "text": "than just being, um, "
+      },
+      {
+        "audio_available_seconds": 161.86666666666667,
+        "chunk_end_seconds": 161.33333333333334,
+        "emitted_seconds": 162.57191442104522,
+        "has_text": true,
+        "text": "trying to do GUI. \n Speaker 3:Yeah. \n Speaker 0:Oh, right, yeah. \n Speaker 3:Yeah. Well, I guess, "
+      },
+      {
+        "audio_available_seconds": 164.8,
+        "chunk_end_seconds": 164.26666666666668,
+        "emitted_seconds": 165.07309799001087,
+        "has_text": true,
+        "text": "I mean, that was probably our intention. But, "
+      },
+      {
+        "audio_available_seconds": 167.73333333333332,
+        "chunk_end_seconds": 167.2,
+        "emitted_seconds": 168.17102189303841,
+        "has_text": true,
+        "text": "you know, we might not have written it down so well. \n Speaker 1:Yeah, "
+      },
+      {
+        "audio_available_seconds": 170.66666666666666,
+        "chunk_end_seconds": 170.13333333333333,
+        "emitted_seconds": 170.8680255790241,
+        "has_text": true,
+        "text": "yeah. \n Speaker 3:I "
+      },
+      {
+        "audio_available_seconds": 173.6,
+        "chunk_end_seconds": 173.06666666666666,
+        "emitted_seconds": 173.873997193994,
+        "has_text": true,
+        "text": "mean. \n Speaker 2:Actually, is the "
+      },
+      {
+        "audio_available_seconds": 176.53333333333333,
+        "chunk_end_seconds": 176.0,
+        "emitted_seconds": 176.82850866997615,
+        "has_text": true,
+        "text": "code accessible? Like the, the GUI stuff that you've "
+      },
+      {
+        "audio_available_seconds": 179.46666666666667,
+        "chunk_end_seconds": 178.93333333333334,
+        "emitted_seconds": 179.86677657300606,
+        "has_text": true,
+        "text": "done. Like can we just, like, copy, like, the latest stuff with it?"
+      },
+      {
+        "audio_available_seconds": 182.4,
+        "chunk_end_seconds": 181.86666666666667,
+        "emitted_seconds": 182.76833855803125,
+        "has_text": true,
+        "text": "You'd have to, so, um. \n Speaker 3:Um, "
+      },
+      {
+        "audio_available_seconds": 185.33333333333334,
+        "chunk_end_seconds": 184.8,
+        "emitted_seconds": 185.57206745201256,
+        "has_text": true,
+        "text": "I don't know if you can access other "
+      },
+      {
+        "audio_available_seconds": 188.26666666666668,
+        "chunk_end_seconds": 187.73333333333332,
+        "emitted_seconds": 189.75147011200897,
+        "has_text": true,
+        "text": "people's, like\u2014 \n Speaker 2:Like if we're gonna just try and, like, take a look or something. \n Speaker 0:Like, yeah. \n Speaker 2:Yeah, you can try and, like, select, like, if you can make it world readable, then anybody can. \n Speaker 1:Well, if you can make it "
+      },
+      {
+        "audio_available_seconds": 191.2,
+        "chunk_end_seconds": 190.66666666666666,
+        "emitted_seconds": 191.72701053600758,
+        "has_text": true,
+        "text": "world readable, then\u2014 \n Speaker 2:If you just tell us the directory and just make the file readable, then "
+      },
+      {
+        "audio_available_seconds": 194.13333333333333,
+        "chunk_end_seconds": 193.6,
+        "emitted_seconds": 194.71598890901078,
+        "has_text": true,
+        "text": "we can have the directory to get in there. \n Speaker 3:Yeah. \n Speaker 2:But just, I don't "
+      },
+      {
+        "audio_available_seconds": 197.06666666666666,
+        "chunk_end_seconds": 196.53333333333333,
+        "emitted_seconds": 197.79356726398692,
+        "has_text": true,
+        "text": "know, it'd be, it'd make it easier. \n Speaker 3:Sure. \n Speaker 0:I don't know if it's readable at the moment. You "
+      },
+      {
+        "audio_available_seconds": 200.0,
+        "chunk_end_seconds": 199.46666666666667,
+        "emitted_seconds": 200.67915201105643,
+        "has_text": true,
+        "text": "can, uh, I don't know. \n Speaker 2:I think by default they are. \n Speaker 1:No, they're not world readable at "
+      },
+      {
+        "audio_available_seconds": 202.93333333333334,
+        "chunk_end_seconds": 202.4,
+        "emitted_seconds": 203.73469728499185,
+        "has_text": true,
+        "text": "the moment, but\u2014 \n Speaker 2:No, they aren't. \n Speaker 0:Oh. \n Speaker 1:But default, there aren't any default, there aren't "
+      },
+      {
+        "audio_available_seconds": 205.86666666666667,
+        "chunk_end_seconds": 205.33333333333334,
+        "emitted_seconds": 206.57701720204204,
+        "has_text": true,
+        "text": "any, only you can read them, I'm afraid. \n Speaker 0:Oh, right. \n Speaker 1:You can see them, but you can't "
+      },
+      {
+        "audio_available_seconds": 208.8,
+        "chunk_end_seconds": 208.26666666666668,
+        "emitted_seconds": 209.71742424205877,
+        "has_text": true,
+        "text": "read them. \n Speaker 2:Okay. \n Speaker 0:Okay. \n Speaker 2:Yeah. \n Speaker 0:Right, well, I'll make that readable then. \n Speaker 2:Okay."
+      },
+      {
+        "audio_available_seconds": 211.73333333333332,
+        "chunk_end_seconds": 211.2,
+        "emitted_seconds": 212.00911748304497,
+        "has_text": true,
+        "text": " \n Speaker 0:Um, so the directory is "
+      },
+      {
+        "audio_available_seconds": 214.66666666666666,
+        "chunk_end_seconds": 214.13333333333333,
+        "emitted_seconds": 215.08843381598126,
+        "has_text": true,
+        "text": "my number. \n Speaker 2:Or you can just email it to us, or I "
+      },
+      {
+        "audio_available_seconds": 217.6,
+        "chunk_end_seconds": 217.06666666666666,
+        "emitted_seconds": 218.43866489303764,
+        "has_text": true,
+        "text": "can email it to you, and then I can just, yeah. \n Speaker 0:Well, this is not difficult. \n Speaker 2:Yeah, right. \n Speaker 0:It's "
+      },
+      {
+        "audio_available_seconds": 220.53333333333333,
+        "chunk_end_seconds": 220.0,
+        "emitted_seconds": 221.2824015080696,
+        "has_text": true,
+        "text": "in all the emails. \n Speaker 2:What's your number? \n Speaker 2:Okay, yeah. \n Speaker 3:Yeah. \n Speaker 2:Yeah."
+      },
+      {
+        "audio_available_seconds": 223.46666666666667,
+        "chunk_end_seconds": 222.93333333333334,
+        "emitted_seconds": 223.83558543596882,
+        "has_text": true,
+        "text": " \n Speaker 1:Your number. \n Speaker 0:No, oh "
+      },
+      {
+        "audio_available_seconds": 226.4,
+        "chunk_end_seconds": 225.86666666666667,
+        "emitted_seconds": 226.5876979950117,
+        "has_text": true,
+        "text": "four, oh four, five "
+      },
+      {
+        "audio_available_seconds": 229.33333333333334,
+        "chunk_end_seconds": 228.8,
+        "emitted_seconds": 229.48339231102727,
+        "has_text": true,
+        "text": "five five, six "
+      },
+      {
+        "audio_available_seconds": 232.26666666666668,
+        "chunk_end_seconds": 231.73333333333332,
+        "emitted_seconds": 232.7272854220355,
+        "has_text": true,
+        "text": "five. \n Speaker 1:Okay. \n Speaker 0:Say that again. Oh four, "
+      },
+      {
+        "audio_available_seconds": 235.2,
+        "chunk_end_seconds": 234.66666666666666,
+        "emitted_seconds": 235.609573984053,
+        "has_text": true,
+        "text": "five five six five, five six seven. \n Speaker 1:And then it's\u2014"
+      },
+      {
+        "audio_available_seconds": 238.13333333333333,
+        "chunk_end_seconds": 237.6,
+        "emitted_seconds": 238.52288586099166,
+        "has_text": true,
+        "text": " \n Speaker 0:And then, um, there's a folder, um, "
+      },
+      {
+        "audio_available_seconds": 240.0,
+        "chunk_end_seconds": 240.0,
+        "emitted_seconds": 240.59052450803574,
+        "has_text": true,
+        "text": "L.S.S.D. \n Speaker 2:Mm, L.S.S.D., okay. \n Speaker 0:And it's called\u2014"
+      }
+    ],
+    "metadata": {
+      "raw_output": " \n Speaker 0:You like transcription? Someone who likes better s\u2014 and you just press all the buttons. \n Speaker 1:Yeah. \n Speaker 2:Yeah. Or check marks, even better, to avoid the\u2014 \n Speaker 1:Yeah. That'll reduce the number of, um, windows you open, which is quite good. \n Speaker 2:Yeah. \n Speaker 1:So, boys, Photoshop has a lot of windows. If you ever use Photoshop, it's got loads, and you're always, like, forever going, oh, get out of the way, there's all this stuff in the way, isn't there? \n Speaker 2:Yeah, yeah. \n Speaker 0:Yeah. \n Speaker 0:Um, I don't know, I don't know if people get used to it. I mean, when you use a Windows or a Mac or whatever, you have a lot of windows open. \n Speaker 1:You do, yeah. \n Speaker 0:And manage them. \n Speaker 1:Yeah. \n Speaker 2:Yeah. \n Speaker 1:True. \n Speaker 2:Yeah. \n Speaker 1:Unless Kenny, I don't suppose you can minimise them and stuff, I don't know. \n Speaker 0:Yeah, you can minimise them. \n Speaker 1:Can you do that? \n Speaker 0:Yeah, yeah. \n Speaker 2:Okay. \n Speaker 1:Okay. \n Speaker 2:Oh, that works. \n Speaker 1:Yeah. \n Speaker 2:Yeah. \n Speaker 1:Of course you can. \n Speaker 2:Yeah, I see, yeah. \n Speaker 1:Yeah. \n Speaker 2:Like, load of these can be, like, once we get the disfluencies out, then we can, you know, transcribe with a disfluency, transcribe with the diffl\u2014 disfluency. \n Speaker 0:Yeah, that's a good idea. \n Speaker 2:That'll work, yeah. \n Speaker 0:There, there have been, yeah, they're definitely gonna be in the same window, though. \n Speaker 2:Or sort of using the same window and probably, yeah, probably mutually, yeah, well, we'll just dis\u2014 choose. \n Speaker 0:Yeah, that, that was the plan for the disfluencies anyway, so. \n Speaker 2:Yeah. \n Speaker 0:Yeah, do you wanna do that with summaries then? Put the summaries in the, in the same window.Mutually exclusive, yeah. \n Speaker 3:Yeah, um, well, could, I mean, with transcripts, I mean, it sounds reasonable to have, like, transcripts, like maybe three or four, like full meeting, meeting without disfluencies, then summaries. \n Speaker 0:Mm-hmm. \n Speaker 2:Mm. \n Speaker 2:Right. \n Speaker 0:Summarise. Yeah. \n Speaker 2:Yeah. \n Speaker 0:Do you wanna do that? \n Speaker 2:That kinda makes sense. \n Speaker 3:Yeah. \n Speaker 0:Yeah. \n Speaker 1:Yeah, sounds good. \n Speaker 0:Mm. \n Speaker 0:Uh, finally, the prototype is paper.What kind of prototype could we produce? \n Speaker 2:Ready for worry. \n Speaker 0:Cause I'm, I'm just, you know, I won't go into the lab unless I know what we're gonna change today.You know, and it kind of just, it just develops. \n Speaker 3:Knows what the future looks like. \n Speaker 0:I'm not aiming for anything.Do we wanna aim for something? \n Speaker 1:Um. \n Speaker 0:I'm, I'm pretty much getting there anyway.To be honest. It's not, it's not gonna be a lot more work. \n Speaker 3:I guess it is. I mean, just to try and I mean for us to, to be able to do something that we can include with your thing. \n Speaker 1:Yeah, that's what we need, yeah. \n Speaker 3:So that it's possible to use. \n Speaker 2:Yeah. \n Speaker 0:Yeah. \n Speaker 3:Yeah. \n Speaker 1:Something just slightly more than just that, obviously. \n Speaker 0:Mm-hmm. \n Speaker 3:Yeah. \n Speaker 2:Yeah, the second part of it we can just\u2014 \n Speaker 1:Yeah. \n Speaker 3:Yeah.Just so the integration works sort of between the two. \n Speaker 1:Okay. \n Speaker 0:Mm. \n Speaker 1:Yeah, definitely. \n Speaker 3:Um, so I guess that's what he was kinda talking about. \n Speaker 1:Yeah. \n Speaker 1:I think that's kinda what he meant as well, wasn't it? Seeing it, seeing it sort of start to do stuff rather than just being, um, trying to do GUI. \n Speaker 3:Yeah. \n Speaker 0:Oh, right, yeah. \n Speaker 3:Yeah. Well, I guess, I mean, that was probably our intention. But, you know, we might not have written it down so well. \n Speaker 1:Yeah, yeah. \n Speaker 3:I mean. \n Speaker 2:Actually, is the code accessible? Like the, the GUI stuff that you've done. Like can we just, like, copy, like, the latest stuff with it?You'd have to, so, um. \n Speaker 3:Um, I don't know if you can access other people's, like\u2014 \n Speaker 2:Like if we're gonna just try and, like, take a look or something. \n Speaker 0:Like, yeah. \n Speaker 2:Yeah, you can try and, like, select, like, if you can make it world readable, then anybody can. \n Speaker 1:Well, if you can make it world readable, then\u2014 \n Speaker 2:If you just tell us the directory and just make the file readable, then we can have the directory to get in there. \n Speaker 3:Yeah. \n Speaker 2:But just, I don't know, it'd be, it'd make it easier. \n Speaker 3:Sure. \n Speaker 0:I don't know if it's readable at the moment. You can, uh, I don't know. \n Speaker 2:I think by default they are. \n Speaker 1:No, they're not world readable at the moment, but\u2014 \n Speaker 2:No, they aren't. \n Speaker 0:Oh. \n Speaker 1:But default, there aren't any default, there aren't any, only you can read them, I'm afraid. \n Speaker 0:Oh, right. \n Speaker 1:You can see them, but you can't read them. \n Speaker 2:Okay. \n Speaker 0:Okay. \n Speaker 2:Yeah. \n Speaker 0:Right, well, I'll make that readable then. \n Speaker 2:Okay. \n Speaker 0:Um, so the directory is my number. \n Speaker 2:Or you can just email it to us, or I can email it to you, and then I can just, yeah. \n Speaker 0:Well, this is not difficult. \n Speaker 2:Yeah, right. \n Speaker 0:It's in all the emails. \n Speaker 2:What's your number? \n Speaker 2:Okay, yeah. \n Speaker 3:Yeah. \n Speaker 2:Yeah. \n Speaker 1:Your number. \n Speaker 0:No, oh four, oh four, five five five, six five. \n Speaker 1:Okay. \n Speaker 0:Say that again. Oh four, five five six five, five six seven. \n Speaker 1:And then it's\u2014 \n Speaker 0:And then, um, there's a folder, um, L.S.S.D. \n Speaker 2:Mm, L.S.S.D., okay. \n Speaker 0:And it's called\u2014",
+      "realtime_paced": true,
+      "stream_compute_seconds": 37.77201308484655,
+      "timing_reason": "Official streaming output has no speech timestamps",
+      "generation_limit_hit": null
+    }
+  },
+  "wall_seconds": 240.64045492908917,
+  "rtf": 1.0026685622045381,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 17719124992,
+      "reserved_bytes": 17943232512
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 3490643968
+}

@@ -1,0 +1,700 @@
+{
+  "id": "EN2002a-15360000",
+  "duration": 240.0,
+  "seed": 1335160836,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "S01",
+        "text": "Or the N browser.",
+        "start": 0.0,
+        "end": 1.76
+      },
+      {
+        "speaker": "S02",
+        "text": "The N browser?",
+        "start": 2.48,
+        "end": 3.6
+      },
+      {
+        "speaker": "S01",
+        "text": "Yes.",
+        "start": 3.66,
+        "end": 4.2
+      },
+      {
+        "speaker": "S03",
+        "text": "Or a case.",
+        "start": 3.98,
+        "end": 4.7
+      },
+      {
+        "speaker": "S02",
+        "text": "The N for meetings.",
+        "start": 4.01,
+        "end": 5.51
+      },
+      {
+        "speaker": "S02",
+        "text": "Hope you hope you never have to look in my directory, it's just pure chaos.",
+        "start": 6.34,
+        "end": 10.02
+      },
+      {
+        "speaker": "S01",
+        "text": "Really?",
+        "start": 10.01,
+        "end": 10.45
+      },
+      {
+        "speaker": "S01",
+        "text": "No, I'm I'm extremely organized, really. I've got goals, everything, I love goals.",
+        "start": 11.35,
+        "end": 15.95
+      },
+      {
+        "speaker": "S02",
+        "text": "Mine is serious chaos.",
+        "start": 16.08,
+        "end": 17.82
+      },
+      {
+        "speaker": "S02",
+        "text": "Falls everywhere.",
+        "start": 20.06,
+        "end": 20.84
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm.",
+        "start": 26.3,
+        "end": 26.64
+      },
+      {
+        "speaker": "S01",
+        "text": "Yep, so that's me, do someone else want to talk about this stuff?",
+        "start": 26.5,
+        "end": 29.28
+      },
+      {
+        "speaker": "S02",
+        "text": "Type of Java ones.",
+        "start": 31.93,
+        "end": 32.88
+      },
+      {
+        "speaker": "S04",
+        "text": "I can tell you what, I'm an S P two.",
+        "start": 34.69,
+        "end": 36.25
+      },
+      {
+        "speaker": "S03",
+        "text": "I got it, freeze.",
+        "start": 37.0,
+        "end": 37.84
+      },
+      {
+        "speaker": "S04",
+        "text": "So um I don't know, I basically I started like browsing a bit, just like trying to see if there's anything out there to use, sort of, um just",
+        "start": 39.91,
+        "end": 51.47
+      },
+      {
+        "speaker": "S01",
+        "text": "What what were you doing again?",
+        "start": 51.42,
+        "end": 52.8
+      },
+      {
+        "speaker": "S03",
+        "text": "Mm.",
+        "start": 52.87,
+        "end": 53.28
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah, so yeah, so",
+        "start": 53.4,
+        "end": 55.54
+      },
+      {
+        "speaker": "S03",
+        "text": "All the searching stuff.",
+        "start": 53.84,
+        "end": 54.72
+      },
+      {
+        "speaker": "S01",
+        "text": "Oh yeah, so",
+        "start": 54.84,
+        "end": 55.52
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, really.",
+        "start": 55.51,
+        "end": 56.22
+      },
+      {
+        "speaker": "S01",
+        "text": "So",
+        "start": 55.68,
+        "end": 56.02
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, the file stuff and the the next search query and all that.",
+        "start": 55.81,
+        "end": 58.72
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah, yeah.",
+        "start": 56.81,
+        "end": 57.44
+      },
+      {
+        "speaker": "S04",
+        "text": "Could just",
+        "start": 58.0,
+        "end": 58.44
+      },
+      {
+        "speaker": "S04",
+        "text": "Okay.",
+        "start": 58.95,
+        "end": 59.31
+      },
+      {
+        "speaker": "S04",
+        "text": "Found a tutorial, but inverted search indexing, but I haven't read it yet, I think so.",
+        "start": 59.4,
+        "end": 64.76
+      },
+      {
+        "speaker": "S03",
+        "text": "Mm.",
+        "start": 62.54,
+        "end": 62.78
+      },
+      {
+        "speaker": "S03",
+        "text": "So you could probably just use that code, like that was behind the question she asked him earlier, it's just you know, the reusing code and stuff, it's just like",
+        "start": 63.55,
+        "end": 70.26
+      },
+      {
+        "speaker": "S01",
+        "text": "Oh, yeah.",
+        "start": 68.15,
+        "end": 68.92
+      },
+      {
+        "speaker": "S01",
+        "text": "Oh right, oh that's pretty much there, is it?",
+        "start": 70.08,
+        "end": 72.28
+      },
+      {
+        "speaker": "S02",
+        "text": "Okay.",
+        "start": 70.3,
+        "end": 70.68
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah, found some code for for in the",
+        "start": 70.93,
+        "end": 73.4
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah, well I don't know if it's usable, I could I haven't looked at it, but but I found some code for like from a tutorial about in indexing, yeah.",
+        "start": 72.84,
+        "end": 81.5
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, yeah.",
+        "start": 75.55,
+        "end": 76.5
+      },
+      {
+        "speaker": "S02",
+        "text": "Oh right.",
+        "start": 75.82,
+        "end": 76.26
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 77.64,
+        "end": 77.88
+      },
+      {
+        "speaker": "S01",
+        "text": "Of making",
+        "start": 77.92,
+        "end": 78.68
+      },
+      {
+        "speaker": "S02",
+        "text": "Oh right, come on, cool, so even if it doesn't work, you can jiggle, re-pugger it around and make it work properly.",
+        "start": 79.75,
+        "end": 84.88
+      },
+      {
+        "speaker": "S01",
+        "text": "Oh, right.",
+        "start": 80.68,
+        "end": 81.2
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 84.21,
+        "end": 84.54
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah, yeah.",
+        "start": 84.55,
+        "end": 85.3
+      },
+      {
+        "speaker": "S03",
+        "text": "Well probably still have to do some other file management, I mean equation, messing around some of them.",
+        "start": 85.21,
+        "end": 89.5
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah, yeah, this is a nonsense, but yeah, the basics, isn't it? Okay, that's okay.",
+        "start": 88.34,
+        "end": 92.22
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 90.6,
+        "end": 90.88
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 92.02,
+        "end": 92.34
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah, that's handy.",
+        "start": 93.11,
+        "end": 93.88
+      },
+      {
+        "speaker": "S03",
+        "text": "Mm.",
+        "start": 94.08,
+        "end": 94.28
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm.",
+        "start": 94.64,
+        "end": 95.02
+      },
+      {
+        "speaker": "S03",
+        "text": "Mm.",
+        "start": 95.07,
+        "end": 95.44
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 95.75,
+        "end": 96.12
+      },
+      {
+        "speaker": "S01",
+        "text": "So you think it shouldn't be too difficult?",
+        "start": 96.44,
+        "end": 97.92
+      },
+      {
+        "speaker": "S04",
+        "text": "I don't know, I I'm I was a bit worried about when well, when he when he talked about this with um file, messing around with files, I mean how much do we actually need to do, like extracting things from the X M L files and stuff to be able to do the indexing?",
+        "start": 100.11,
+        "end": 117.68
+      },
+      {
+        "speaker": "S03",
+        "text": "Mm.",
+        "start": 116.01,
+        "end": 116.34
+      },
+      {
+        "speaker": "S01",
+        "text": "Oh, I see, yeah.",
+        "start": 117.95,
+        "end": 119.68
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 119.62,
+        "end": 120.02
+      },
+      {
+        "speaker": "S01",
+        "text": "You have to convert it to some sort of format, I suppose.",
+        "start": 119.84,
+        "end": 122.58
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 122.64,
+        "end": 122.84
+      },
+      {
+        "speaker": "S02",
+        "text": "I've been trying to write something to read the X M L and get rid of it, and I can get rid of it, but I'm having trouble putting it anywhere else, so it'll come up on the screen.",
+        "start": 123.4,
+        "end": 133.4
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 132.44,
+        "end": 132.78
+      },
+      {
+        "speaker": "S04",
+        "text": "Okay.",
+        "start": 135.48,
+        "end": 136.04
+      },
+      {
+        "speaker": "S02",
+        "text": "For the moment, I haven't managed to put it into a vector or whatever in Java to play with it, but I guess it's not very difficult.",
+        "start": 136.4,
+        "end": 142.22
+      },
+      {
+        "speaker": "S04",
+        "text": "Okay.",
+        "start": 139.59,
+        "end": 139.94
+      },
+      {
+        "speaker": "S03",
+        "text": "Mm.",
+        "start": 141.14,
+        "end": 141.44
+      },
+      {
+        "speaker": "S04",
+        "text": "What are you writing in Java or?",
+        "start": 141.2,
+        "end": 142.88
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah, Java.",
+        "start": 142.71,
+        "end": 143.32
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah, okay.",
+        "start": 143.0,
+        "end": 143.8
+      },
+      {
+        "speaker": "S03",
+        "text": "Right.",
+        "start": 143.87,
+        "end": 144.12
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm.",
+        "start": 144.75,
+        "end": 144.98
+      },
+      {
+        "speaker": "S04",
+        "text": "It's only a little bunch of files.",
+        "start": 146.15,
+        "end": 148.48
+      },
+      {
+        "speaker": "S01",
+        "text": "I mean, you should look at look have a look at the the browser code then, because um you know, they already extract, for example, transcripts.",
+        "start": 146.71,
+        "end": 154.22
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah, yeah, I'm sure I do, yeah.",
+        "start": 154.38,
+        "end": 156.98
+      },
+      {
+        "speaker": "S01",
+        "text": "Or to make it at least.",
+        "start": 155.12,
+        "end": 156.38
+      },
+      {
+        "speaker": "S03",
+        "text": "That's good.",
+        "start": 158.38,
+        "end": 158.88
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 159.38,
+        "end": 159.78
+      },
+      {
+        "speaker": "S02",
+        "text": "Oh yeah, I don't know.",
+        "start": 161.75,
+        "end": 162.74
+      },
+      {
+        "speaker": "S02",
+        "text": "I'm sure it's I'm I'm sure I'm making a main of it.",
+        "start": 164.06,
+        "end": 166.42
+      },
+      {
+        "speaker": "S04",
+        "text": "Um yeah, I guess, I mean, it was a good point you had, that like collaborating with file things, I mean, if you already started on on coding stuff, I guess we can",
+        "start": 173.94,
+        "end": 188.38
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 182.22,
+        "end": 182.54
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah, yeah, absolutely, yeah.",
+        "start": 185.69,
+        "end": 187.52
+      },
+      {
+        "speaker": "S02",
+        "text": "Should share as much as possible.",
+        "start": 188.89,
+        "end": 190.22
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 190.22,
+        "end": 190.68
+      },
+      {
+        "speaker": "S03",
+        "text": "Mm-hmm, libraries.",
+        "start": 190.77,
+        "end": 191.94
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 192.74,
+        "end": 193.04
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 193.38,
+        "end": 193.68
+      },
+      {
+        "speaker": "S04",
+        "text": "Should we, I don't know",
+        "start": 195.18,
+        "end": 196.38
+      },
+      {
+        "speaker": "S04",
+        "text": "meet up and see what we could do, I mean, I don't know, see what you've done and see what we need, when we know more, what we need maybe.",
+        "start": 198.28,
+        "end": 206.92
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 204.64,
+        "end": 204.94
+      },
+      {
+        "speaker": "S02",
+        "text": "Next week sometime.",
+        "start": 207.28,
+        "end": 208.28
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, yeah, exactly, so you're still working.",
+        "start": 207.38,
+        "end": 211.22
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 208.02,
+        "end": 208.38
+      },
+      {
+        "speaker": "S02",
+        "text": "I actually haven't done anything this week, 'cause this week's been manic, but",
+        "start": 210.84,
+        "end": 213.8
+      },
+      {
+        "speaker": "S03",
+        "text": "Yes, exactly, same here, yeah, I mean, but",
+        "start": 213.6,
+        "end": 215.98
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 213.93,
+        "end": 214.22
+      },
+      {
+        "speaker": "S04",
+        "text": "You mean, this week's only two days old.",
+        "start": 215.28,
+        "end": 217.28
+      },
+      {
+        "speaker": "S03",
+        "text": "Um",
+        "start": 217.03,
+        "end": 217.44
+      },
+      {
+        "speaker": "S02",
+        "text": "Well, whatever it was last week, um the the the week as as is rather than the proper week, you know, I mean, it's been all a bit manic the last the last week.",
+        "start": 217.5,
+        "end": 226.62
+      },
+      {
+        "speaker": "S03",
+        "text": "That's",
+        "start": 218.02,
+        "end": 218.32
+      },
+      {
+        "speaker": "S04",
+        "text": "What, oh last week.",
+        "start": 218.62,
+        "end": 219.82
+      },
+      {
+        "speaker": "S03",
+        "text": "Right.",
+        "start": 224.11,
+        "end": 224.42
+      },
+      {
+        "speaker": "S03",
+        "text": "Well, well, you're an S P and L P and S P two, right?",
+        "start": 225.74,
+        "end": 228.12
+      },
+      {
+        "speaker": "S02",
+        "text": "That's right, yeah.",
+        "start": 228.18,
+        "end": 228.92
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 228.6,
+        "end": 228.88
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, that's why I'm",
+        "start": 229.04,
+        "end": 229.82
+      },
+      {
+        "speaker": "S02",
+        "text": "And then we had to do an I R P, whatever it was last week as well, which is only a page one, but it's quite difficult to write a page.",
+        "start": 229.68,
+        "end": 236.0
+      },
+      {
+        "speaker": "S03",
+        "text": "Mm.",
+        "start": 233.91,
+        "end": 234.18
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, yeah, oh yeah.",
+        "start": 236.5,
+        "end": 237.74
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 236.89,
+        "end": 237.38
+      },
+      {
+        "speaker": "S01",
+        "text": "Oh, that's complete rubbish, yeah.",
+        "start": 237.71,
+        "end": 239.12
+      },
+      {
+        "speaker": "S02",
+        "text": "Well",
+        "start": 237.94,
+        "end": 238.32
+      },
+      {
+        "speaker": "S02",
+        "text": "It was, it wasn't",
+        "start": 239.24,
+        "end": 239.92
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "[0.00][S01]Or the N browser.[1.76][2.48][S02]The N browser?[3.60][3.66][S01]Yes.[4.20][3.98][S03]Or a case.[4.70][4.01][S02]The N for meetings.[5.51][6.34][S02]Hope you hope you never have to look in my directory, it's just pure chaos.[10.02][10.01][S01]Really?[10.45][11.35][S01]No, I'm I'm extremely organized, really. I've got goals, everything, I love goals.[15.95][16.08][S02]Mine is serious chaos.[17.82][20.06][S02]Falls everywhere.[20.84][26.30][S01]Mm.[26.64][26.50][S01]Yep, so that's me, do someone else want to talk about this stuff?[29.28][31.93][S02]Type of Java ones.[32.88][34.69][S04]I can tell you what, I'm an S P two.[36.25][37.00][S03]I got it, freeze.[37.84][39.91][S04]So um I don't know, I basically I started like browsing a bit, just like trying to see if there's anything out there to use, sort of, um just[51.47][51.42][S01]What what were you doing again?[52.80][52.87][S03]Mm.[53.28][53.40][S04]Yeah, so yeah, so[55.54][53.84][S03]All the searching stuff.[54.72][54.84][S01]Oh yeah, so[55.52][55.51][S03]Yeah, really.[56.22][55.68][S01]So[56.02][55.81][S03]Yeah, the file stuff and the the next search query and all that.[58.72][56.81][S04]Yeah, yeah.[57.44][58.00][S04]Could just[58.44][58.95][S04]Okay.[59.31][59.40][S04]Found a tutorial, but inverted search indexing, but I haven't read it yet, I think so.[64.76][62.54][S03]Mm.[62.78][63.55][S03]So you could probably just use that code, like that was behind the question she asked him earlier, it's just you know, the reusing code and stuff, it's just like[70.26][68.15][S01]Oh, yeah.[68.92][70.08][S01]Oh right, oh that's pretty much there, is it?[72.28][70.30][S02]Okay.[70.68][70.93][S02]Yeah, found some code for for in the[73.40][72.84][S04]Yeah, well I don't know if it's usable, I could I haven't looked at it, but but I found some code for like from a tutorial about in indexing, yeah.[81.50][75.55][S03]Yeah, yeah.[76.50][75.82][S02]Oh right.[76.26][77.64][S03]Yeah.[77.88][77.92][S01]Of making[78.68][79.75][S02]Oh right, come on, cool, so even if it doesn't work, you can jiggle, re-pugger it around and make it work properly.[84.88][80.68][S01]Oh, right.[81.20][84.21][S03]Yeah.[84.54][84.55][S04]Yeah, yeah.[85.30][85.21][S03]Well probably still have to do some other file management, I mean equation, messing around some of them.[89.50][88.34][S02]Yeah, yeah, this is a nonsense, but yeah, the basics, isn't it? Okay, that's okay.[92.22][90.60][S01]Yeah.[90.88][92.02][S01]Yeah.[92.34][93.11][S01]Yeah, that's handy.[93.88][94.08][S03]Mm.[94.28][94.64][S01]Mm.[95.02][95.07][S03]Mm.[95.44][95.75][S01]Yeah.[96.12][96.44][S01]So you think it shouldn't be too difficult?[97.92][100.11][S04]I don't know, I I'm I was a bit worried about when well, when he when he talked about this with um file, messing around with files, I mean how much do we actually need to do, like extracting things from the X M L files and stuff to be able to do the indexing?[117.68][116.01][S03]Mm.[116.34][117.95][S01]Oh, I see, yeah.[119.68][119.62][S02]Yeah.[120.02][119.84][S01]You have to convert it to some sort of format, I suppose.[122.58][122.64][S03]Yeah.[122.84][123.40][S02]I've been trying to write something to read the X M L and get rid of it, and I can get rid of it, but I'm having trouble putting it anywhere else, so it'll come up on the screen.[133.40][132.44][S01]Yeah.[132.78][135.48][S04]Okay.[136.04][136.40][S02]For the moment, I haven't managed to put it into a vector or whatever in Java to play with it, but I guess it's not very difficult.[142.22][139.59][S04]Okay.[139.94][141.14][S03]Mm.[141.44][141.20][S04]What are you writing in Java or?[142.88][142.71][S02]Yeah, Java.[143.32][143.00][S04]Yeah, okay.[143.80][143.87][S03]Right.[144.12][144.75][S02]Mm.[144.98][146.15][S04]It's only a little bunch of files.[148.48][146.71][S01]I mean, you should look at look have a look at the the browser code then, because um you know, they already extract, for example, transcripts.[154.22][154.38][S02]Yeah, yeah, I'm sure I do, yeah.[156.98][155.12][S01]Or to make it at least.[156.38][158.38][S03]That's good.[158.88][159.38][S02]Yeah.[159.78][161.75][S02]Oh yeah, I don't know.[162.74][164.06][S02]I'm sure it's I'm I'm sure I'm making a main of it.[166.42][173.94][S04]Um yeah, I guess, I mean, it was a good point you had, that like collaborating with file things, I mean, if you already started on on coding stuff, I guess we can[188.38][182.22][S03]Yeah.[182.54][185.69][S02]Yeah, yeah, absolutely, yeah.[187.52][188.89][S02]Should share as much as possible.[190.22][190.22][S04]Yeah.[190.68][190.77][S03]Mm-hmm, libraries.[191.94][192.74][S02]Yeah.[193.04][193.38][S04]Yeah.[193.68][195.18][S04]Should we, I don't know[196.38][198.28][S04]meet up and see what we could do, I mean, I don't know, see what you've done and see what we need, when we know more, what we need maybe.[206.92][204.64][S02]Yeah.[204.94][207.28][S02]Next week sometime.[208.28][207.38][S03]Yeah, yeah, exactly, so you're still working.[211.22][208.02][S01]Yeah.[208.38][210.84][S02]I actually haven't done anything this week, 'cause this week's been manic, but[213.80][213.60][S03]Yes, exactly, same here, yeah, I mean, but[215.98][213.93][S04]Yeah.[214.22][215.28][S04]You mean, this week's only two days old.[217.28][217.03][S03]Um[217.44][217.50][S02]Well, whatever it was last week, um the the the week as as is rather than the proper week, you know, I mean, it's been all a bit manic the last the last week.[226.62][218.02][S03]That's[218.32][218.62][S04]What, oh last week.[219.82][224.11][S03]Right.[224.42][225.74][S03]Well, well, you're an S P and L P and S P two, right?[228.12][228.18][S02]That's right, yeah.[228.92][228.60][S04]Yeah.[228.88][229.04][S03]Yeah, that's why I'm[229.82][229.68][S02]And then we had to do an I R P, whatever it was last week as well, which is only a page one, but it's quite difficult to write a page.[236.00][233.91][S03]Mm.[234.18][236.50][S03]Yeah, yeah, oh yeah.[237.74][236.89][S04]Yeah.[237.38][237.71][S01]Oh, that's complete rubbish, yeah.[239.12][237.94][S02]Well[238.32][239.24][S02]It was, it wasn't[239.92]",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 25.941063423990272,
+  "rtf": 0.10808776426662613,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 2558791680,
+      "reserved_bytes": 2843738112
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 2850721792
+}

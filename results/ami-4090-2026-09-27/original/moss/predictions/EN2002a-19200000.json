@@ -1,0 +1,454 @@
+{
+  "id": "EN2002a-19200000",
+  "duration": 240.0,
+  "seed": 1452194234,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "S01",
+        "text": "But it was I had to sit there and think about it for a bit, that's just a bit really, I think. Yeah, but I spent I think huh.",
+        "start": 0.0,
+        "end": 5.62
+      },
+      {
+        "speaker": "S02",
+        "text": "She's so stupid.",
+        "start": 0.83,
+        "end": 1.87
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, that's fun.",
+        "start": 5.83,
+        "end": 6.79
+      },
+      {
+        "speaker": "S03",
+        "text": "Oh yeah.",
+        "start": 9.28,
+        "end": 9.68
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm.",
+        "start": 9.91,
+        "end": 10.21
+      },
+      {
+        "speaker": "S03",
+        "text": "Okay. So yeah, I was thinking the weekend probably to uh start attacking this seriously. I'm just um",
+        "start": 10.93,
+        "end": 17.71
+      },
+      {
+        "speaker": "S02",
+        "text": "Um.",
+        "start": 11.83,
+        "end": 12.31
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah, I'll probably be there.",
+        "start": 14.14,
+        "end": 15.31
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 15.98,
+        "end": 16.31
+      },
+      {
+        "speaker": "S03",
+        "text": "you know, hopefully have something by next week that we can sort of try and integrate into the GUI.",
+        "start": 18.53,
+        "end": 22.67
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm-hmm.",
+        "start": 23.05,
+        "end": 23.43
+      },
+      {
+        "speaker": "S03",
+        "text": "Okay.",
+        "start": 23.53,
+        "end": 23.87
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 23.88,
+        "end": 24.15
+      },
+      {
+        "speaker": "S03",
+        "text": "I think that should be possible.",
+        "start": 25.01,
+        "end": 26.01
+      },
+      {
+        "speaker": "S02",
+        "text": "Well, um the browsers I use it now or as um now it was um when I took it. Um it uses the um the N X T search to get the data out of the out of the files.",
+        "start": 25.12,
+        "end": 39.27
+      },
+      {
+        "speaker": "S03",
+        "text": "Okay.",
+        "start": 36.92,
+        "end": 37.31
+      },
+      {
+        "speaker": "S02",
+        "text": "Which I think is odd, but I'm not quite sure how it works it, I don't quite understand it.",
+        "start": 40.15,
+        "end": 43.81
+      },
+      {
+        "speaker": "S01",
+        "text": "So when it when it",
+        "start": 44.78,
+        "end": 46.27
+      },
+      {
+        "speaker": "S02",
+        "text": "To get the data, for example to get summarisation data, you have to search for I think the I Ds or something. Yeah.",
+        "start": 47.32,
+        "end": 55.75
+      },
+      {
+        "speaker": "S01",
+        "text": "That's pretty bizarre, isn't it? But I guess it's like where it's we've got the",
+        "start": 56.44,
+        "end": 59.57
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 57.51,
+        "end": 58.05
+      },
+      {
+        "speaker": "S01",
+        "text": "That is pretty bizarre.",
+        "start": 61.6,
+        "end": 62.45
+      },
+      {
+        "speaker": "S02",
+        "text": "So they don't, you know, they don't say look in that in that folder, but they say search everything.",
+        "start": 63.68,
+        "end": 69.01
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah, yeah.",
+        "start": 67.13,
+        "end": 67.81
+      },
+      {
+        "speaker": "S01",
+        "text": "That is pretty bizarre, right?",
+        "start": 70.45,
+        "end": 71.61
+      },
+      {
+        "speaker": "S03",
+        "text": "Hmm. Well, they did say it wasn't the most efficient.",
+        "start": 72.77,
+        "end": 75.47
+      },
+      {
+        "speaker": "S02",
+        "text": "And it does load up quite quickly, it's not you know, it's not too bad. But you know, you could have a lot of",
+        "start": 77.52,
+        "end": 82.91
+      },
+      {
+        "speaker": "S01",
+        "text": "Very clear, very clear.",
+        "start": 77.88,
+        "end": 78.95
+      },
+      {
+        "speaker": "S04",
+        "text": "Okay. But wha what is it like a window where you have to r write a search query or is it just what's behind it so or what where",
+        "start": 80.38,
+        "end": 89.87
+      },
+      {
+        "speaker": "S02",
+        "text": "No, this is not the actual search. This is just when you open w you know, to load the transcript for example, to find the transcript for a certain meeting. It does does an N X T search for the string, I don't know, transcript or text or whatever.",
+        "start": 89.12,
+        "end": 106.81
+      },
+      {
+        "speaker": "S04",
+        "text": "Okay.",
+        "start": 91.09,
+        "end": 91.47
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 95.16,
+        "end": 95.45
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 96.96,
+        "end": 97.25
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm.",
+        "start": 105.66,
+        "end": 105.87
+      },
+      {
+        "speaker": "S04",
+        "text": "Okay.",
+        "start": 106.03,
+        "end": 106.41
+      },
+      {
+        "speaker": "S01",
+        "text": "For and it what it like it just has an open variable transcript this whatever, find everything that's got that and then like",
+        "start": 106.94,
+        "end": 113.71
+      },
+      {
+        "speaker": "S02",
+        "text": "Yes.",
+        "start": 110.66,
+        "end": 111.05
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah, so I don't know if you've looked at the search query language, but it's like a dollar A to text, I",
+        "start": 113.21,
+        "end": 120.71
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah, uh-huh.",
+        "start": 119.48,
+        "end": 120.01
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah, yeah, 'cause that's the uh the guy could declare a variable, doesn't it, and it could probably",
+        "start": 120.82,
+        "end": 125.37
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 123.87,
+        "end": 124.17
+      },
+      {
+        "speaker": "S02",
+        "text": "And then, yeah, because every every year all of these um",
+        "start": 125.16,
+        "end": 130.07
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 126.48,
+        "end": 126.81
+      },
+      {
+        "speaker": "S02",
+        "text": "these files have got um the an I D and all the transcript files have got the string, I don't know what it is, words or text or something in it. So it just searches for those files. Okay.",
+        "start": 131.38,
+        "end": 142.71
+      },
+      {
+        "speaker": "S01",
+        "text": "Right.",
+        "start": 142.85,
+        "end": 143.27
+      },
+      {
+        "speaker": "S02",
+        "text": "Okay.",
+        "start": 143.21,
+        "end": 143.61
+      },
+      {
+        "speaker": "S04",
+        "text": "What do you like is there a open thingy or what do you like well what did you do to like how did you figure out that this uses N X T search like? Is it",
+        "start": 145.57,
+        "end": 158.17
+      },
+      {
+        "speaker": "S02",
+        "text": "Um, well, it's in the code, just that it you know, it you ha you define a search object and then you'd search that string. I had to figure out how to how to do the same thing for the summary, that's how I",
+        "start": 157.46,
+        "end": 170.41
+      },
+      {
+        "speaker": "S04",
+        "text": "Okay.",
+        "start": 161.21,
+        "end": 161.61
+      },
+      {
+        "speaker": "S04",
+        "text": "Okay.",
+        "start": 164.89,
+        "end": 165.31
+      },
+      {
+        "speaker": "S02",
+        "text": "had to had to understand how to do the transcript, how they did the transcript to do the summary myself.",
+        "start": 172.01,
+        "end": 176.57
+      },
+      {
+        "speaker": "S01",
+        "text": "Oh, see, I was",
+        "start": 172.06,
+        "end": 173.17
+      },
+      {
+        "speaker": "S01",
+        "text": "So did you have to write it in the way that they wrote it, is that what you did?",
+        "start": 176.6,
+        "end": 179.27
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah, just search for specific string.",
+        "start": 179.3,
+        "end": 183.01
+      },
+      {
+        "speaker": "S01",
+        "text": "Alright.",
+        "start": 183.41,
+        "end": 183.77
+      },
+      {
+        "speaker": "S01",
+        "text": "Okay, okay.",
+        "start": 185.21,
+        "end": 185.81
+      },
+      {
+        "speaker": "S02",
+        "text": "So you could just, you know, you could use that when you if you wanna um take the data out, put it in, yeah.",
+        "start": 185.41,
+        "end": 192.37
+      },
+      {
+        "speaker": "S01",
+        "text": "Fished the data out, I was just thinking that, yeah.",
+        "start": 191.26,
+        "end": 193.11
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 193.08,
+        "end": 193.47
+      },
+      {
+        "speaker": "S02",
+        "text": "If you have a a question about what the the code means or where to find the code that you wanna, you know, whatever you wanna do, then just send me an email.",
+        "start": 196.65,
+        "end": 205.57
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm.",
+        "start": 205.71,
+        "end": 205.91
+      },
+      {
+        "speaker": "S02",
+        "text": "I can explain it, yeah.",
+        "start": 206.81,
+        "end": 208.51
+      },
+      {
+        "speaker": "S01",
+        "text": "Have you annotated your code, I was",
+        "start": 208.83,
+        "end": 210.21
+      },
+      {
+        "speaker": "S02",
+        "text": "Oh yeah. Actually, in the moment it's got a load of rubbish because the the the browsers that I used from this from, you know, that they gave us had a lot of extra stuff in and I haven't dared thrown out to throw out all the functions I have, you know, that I don't need. Yeah, just in case, exactly. Yes. So they're all in there, yeah, still. A lot of rubbish, but it will be get will be chucked out by the end, I think.",
+        "start": 210.68,
+        "end": 236.01
+      },
+      {
+        "speaker": "S01",
+        "text": "Oh, yeah.",
+        "start": 210.98,
+        "end": 211.57
+      },
+      {
+        "speaker": "S01",
+        "text": "Just in case, for the",
+        "start": 224.81,
+        "end": 225.81
+      },
+      {
+        "speaker": "S03",
+        "text": "That's mission critical.",
+        "start": 225.81,
+        "end": 227.31
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 229.31,
+        "end": 229.67
+      },
+      {
+        "speaker": "S01",
+        "text": "Hmm, commenting it out one bit at a time, running it, does it work?",
+        "start": 236.63,
+        "end": 239.77
+      },
+      {
+        "speaker": "S02",
+        "text": "Yes.",
+        "start": 239.26,
+        "end": 239.71
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 239.73,
+        "end": 239.97
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "[0.00][S01]But it was I had to sit there and think about it for a bit, that's just a bit really, I think. Yeah, but I spent I think huh.[5.62][0.83][S02]She's so stupid.[1.87][5.83][S03]Yeah, that's fun.[6.79][9.28][S03]Oh yeah.[9.68][9.91][S02]Mm.[10.21][10.93][S03]Okay. So yeah, I was thinking the weekend probably to uh start attacking this seriously. I'm just um[17.71][11.83][S02]Um.[12.31][14.14][S02]Yeah, I'll probably be there.[15.31][15.98][S01]Yeah.[16.31][18.53][S03]you know, hopefully have something by next week that we can sort of try and integrate into the GUI.[22.67][23.05][S02]Mm-hmm.[23.43][23.53][S03]Okay.[23.87][23.88][S02]Yeah.[24.15][25.01][S03]I think that should be possible.[26.01][25.12][S02]Well, um the browsers I use it now or as um now it was um when I took it. Um it uses the um the N X T search to get the data out of the out of the files.[39.27][36.92][S03]Okay.[37.31][40.15][S02]Which I think is odd, but I'm not quite sure how it works it, I don't quite understand it.[43.81][44.78][S01]So when it when it[46.27][47.32][S02]To get the data, for example to get summarisation data, you have to search for I think the I Ds or something. Yeah.[55.75][56.44][S01]That's pretty bizarre, isn't it? But I guess it's like where it's we've got the[59.57][57.51][S02]Yeah.[58.05][61.60][S01]That is pretty bizarre.[62.45][63.68][S02]So they don't, you know, they don't say look in that in that folder, but they say search everything.[69.01][67.13][S01]Yeah, yeah.[67.81][70.45][S01]That is pretty bizarre, right?[71.61][72.77][S03]Hmm. Well, they did say it wasn't the most efficient.[75.47][77.52][S02]And it does load up quite quickly, it's not you know, it's not too bad. But you know, you could have a lot of[82.91][77.88][S01]Very clear, very clear.[78.95][80.38][S04]Okay. But wha what is it like a window where you have to r write a search query or is it just what's behind it so or what where[89.87][89.12][S02]No, this is not the actual search. This is just when you open w you know, to load the transcript for example, to find the transcript for a certain meeting. It does does an N X T search for the string, I don't know, transcript or text or whatever.[106.81][91.09][S04]Okay.[91.47][95.16][S04]Yeah.[95.45][96.96][S04]Yeah.[97.25][105.66][S01]Mm.[105.87][106.03][S04]Okay.[106.41][106.94][S01]For and it what it like it just has an open variable transcript this whatever, find everything that's got that and then like[113.71][110.66][S02]Yes.[111.05][113.21][S02]Yeah, so I don't know if you've looked at the search query language, but it's like a dollar A to text, I[120.71][119.48][S01]Yeah, uh-huh.[120.01][120.82][S01]Yeah, yeah, 'cause that's the uh the guy could declare a variable, doesn't it, and it could probably[125.37][123.87][S02]Yeah.[124.17][125.16][S02]And then, yeah, because every every year all of these um[130.07][126.48][S01]Yeah.[126.81][131.38][S02]these files have got um the an I D and all the transcript files have got the string, I don't know what it is, words or text or something in it. So it just searches for those files. Okay.[142.71][142.85][S01]Right.[143.27][143.21][S02]Okay.[143.61][145.57][S04]What do you like is there a open thingy or what do you like well what did you do to like how did you figure out that this uses N X T search like? Is it[158.17][157.46][S02]Um, well, it's in the code, just that it you know, it you ha you define a search object and then you'd search that string. I had to figure out how to how to do the same thing for the summary, that's how I[170.41][161.21][S04]Okay.[161.61][164.89][S04]Okay.[165.31][172.01][S02]had to had to understand how to do the transcript, how they did the transcript to do the summary myself.[176.57][172.06][S01]Oh, see, I was[173.17][176.60][S01]So did you have to write it in the way that they wrote it, is that what you did?[179.27][179.30][S02]Yeah, just search for specific string.[183.01][183.41][S01]Alright.[183.77][185.21][S01]Okay, okay.[185.81][185.41][S02]So you could just, you know, you could use that when you if you wanna um take the data out, put it in, yeah.[192.37][191.26][S01]Fished the data out, I was just thinking that, yeah.[193.11][193.08][S02]Yeah.[193.47][196.65][S02]If you have a a question about what the the code means or where to find the code that you wanna, you know, whatever you wanna do, then just send me an email.[205.57][205.71][S01]Mm.[205.91][206.81][S02]I can explain it, yeah.[208.51][208.83][S01]Have you annotated your code, I was[210.21][210.68][S02]Oh yeah. Actually, in the moment it's got a load of rubbish because the the the browsers that I used from this from, you know, that they gave us had a lot of extra stuff in and I haven't dared thrown out to throw out all the functions I have, you know, that I don't need. Yeah, just in case, exactly. Yes. So they're all in there, yeah, still. A lot of rubbish, but it will be get will be chucked out by the end, I think.[236.01][210.98][S01]Oh, yeah.[211.57][224.81][S01]Just in case, for the[225.81][225.81][S03]That's mission critical.[227.31][229.31][S01]Yeah.[229.67][236.63][S01]Hmm, commenting it out one bit at a time, running it, does it work?[239.77][239.26][S02]Yes.[239.71][239.73][S03]Yeah.[239.97]",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 19.300115797901526,
+  "rtf": 0.08041714915792303,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 2467835904,
+      "reserved_bytes": 2843738112
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 2850721792
+}

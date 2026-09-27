@@ -1,0 +1,6 @@
+{
+  "NVIDIA-NeMo/Speech": "cf724ac337d1ebc7d0dda1e23fb80916f52927a5",
+  "microsoft/VibeVoice": "1541f590c7099820f10ea012f48d2399282df69f",
+  "OpenMOSS/MOSS-Transcribe-Diarize": "61bc29cd4120be7b5d3b761b64cd5dff57263642",
+  "pyannote/AMI-diarization-setup": "67c2d539286e89f68952d5dcf83912bd9f01dfae"
+}

@@ -1,0 +1,1933 @@
+{
+  "id": "ES2004a-0",
+  "duration": 240.0,
+  "seed": 1956091378,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "unassigned",
+        "text": "Are",
+        "start": 7.6,
+        "end": 7.601
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "we",
+        "start": 11.04,
+        "end": 11.36
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "We're",
+        "start": 12.16,
+        "end": 12.32
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "not",
+        "start": 12.32,
+        "end": 12.48
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "allowed",
+        "start": 12.48,
+        "end": 12.481
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "to",
+        "start": 12.56,
+        "end": 12.561
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "turn",
+        "start": 12.72,
+        "end": 12.8
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "lights",
+        "start": 12.96,
+        "end": 13.12
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "I",
+        "start": 13.28,
+        "end": 13.280999999999999
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "think",
+        "start": 13.76,
+        "end": 14.16
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "this",
+        "start": 14.24,
+        "end": 14.4
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "goes",
+        "start": 14.4,
+        "end": 14.56
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "around",
+        "start": 14.56,
+        "end": 14.72
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "the",
+        "start": 14.8,
+        "end": 15.04
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "backside",
+        "start": 15.04,
+        "end": 15.040999999999999
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "No",
+        "start": 18.4,
+        "end": 18.56
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "unfortunately",
+        "start": 19.04,
+        "end": 19.52
+      },
+      {
+        "speaker": "unassigned",
+        "text": "because",
+        "start": 19.68,
+        "end": 19.84
+      },
+      {
+        "speaker": "unassigned",
+        "text": "of",
+        "start": 19.92,
+        "end": 20.0
+      },
+      {
+        "speaker": "unassigned",
+        "text": "the",
+        "start": 20.88,
+        "end": 20.96
+      },
+      {
+        "speaker": "unassigned",
+        "text": "the",
+        "start": 20.96,
+        "end": 20.961000000000002
+      },
+      {
+        "speaker": "unassigned",
+        "text": "cameras",
+        "start": 21.44,
+        "end": 21.68
+      },
+      {
+        "speaker": "unassigned",
+        "text": "Am",
+        "start": 22.48,
+        "end": 22.56
+      },
+      {
+        "speaker": "unassigned",
+        "text": "I",
+        "start": 22.56,
+        "end": 22.561
+      },
+      {
+        "speaker": "unassigned",
+        "text": "supposed",
+        "start": 22.64,
+        "end": 22.88
+      },
+      {
+        "speaker": "unassigned",
+        "text": "to",
+        "start": 22.88,
+        "end": 22.881
+      },
+      {
+        "speaker": "unassigned",
+        "text": "be",
+        "start": 22.88,
+        "end": 22.881
+      },
+      {
+        "speaker": "unassigned",
+        "text": "standing",
+        "start": 22.88,
+        "end": 23.36
+      },
+      {
+        "speaker": "unassigned",
+        "text": "up",
+        "start": 23.36,
+        "end": 24.08
+      },
+      {
+        "speaker": "unassigned",
+        "text": "there",
+        "start": 24.24,
+        "end": 24.32
+      },
+      {
+        "speaker": "unassigned",
+        "text": "You",
+        "start": 24.64,
+        "end": 24.72
+      },
+      {
+        "speaker": "unassigned",
+        "text": "don't",
+        "start": 24.72,
+        "end": 24.8
+      },
+      {
+        "speaker": "unassigned",
+        "text": "have",
+        "start": 25.52,
+        "end": 25.6
+      },
+      {
+        "speaker": "unassigned",
+        "text": "to",
+        "start": 25.6,
+        "end": 25.601000000000003
+      },
+      {
+        "speaker": "unassigned",
+        "text": "Both",
+        "start": 25.6,
+        "end": 25.601000000000003
+      },
+      {
+        "speaker": "unassigned",
+        "text": "of",
+        "start": 25.6,
+        "end": 25.601000000000003
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "these",
+        "start": 25.6,
+        "end": 28.16
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "could",
+        "start": 28.16,
+        "end": 28.161
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "Did",
+        "start": 28.16,
+        "end": 28.161
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "you",
+        "start": 28.18,
+        "end": 28.2
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "just",
+        "start": 28.22,
+        "end": 28.24
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "change",
+        "start": 28.48,
+        "end": 28.64
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "the",
+        "start": 29.2,
+        "end": 29.28
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "slide",
+        "start": 29.28,
+        "end": 29.36
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Yeah",
+        "start": 30.0,
+        "end": 30.24
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "but",
+        "start": 30.96,
+        "end": 30.961
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Yes",
+        "start": 31.52,
+        "end": 31.521
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Yeah",
+        "start": 31.52,
+        "end": 31.6
+      },
+      {
+        "speaker": "unassigned",
+        "text": "Right",
+        "start": 60.0,
+        "end": 71.44
+      },
+      {
+        "speaker": "unassigned",
+        "text": "Good",
+        "start": 79.03999999999999,
+        "end": 79.041
+      },
+      {
+        "speaker": "unassigned",
+        "text": "Okay",
+        "start": 80.64,
+        "end": 82.08
+      },
+      {
+        "speaker": "unassigned",
+        "text": "Hello",
+        "start": 82.08,
+        "end": 82.081
+      },
+      {
+        "speaker": "unassigned",
+        "text": "everybody",
+        "start": 82.16,
+        "end": 82.4
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "I'm",
+        "start": 83.84,
+        "end": 84.64
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Sarah",
+        "start": 84.8,
+        "end": 85.12
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "project",
+        "start": 86.0,
+        "end": 86.24
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "manager",
+        "start": 86.56,
+        "end": 86.561
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "and",
+        "start": 87.92,
+        "end": 88.0
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "this",
+        "start": 88.64,
+        "end": 88.72
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "is",
+        "start": 88.8,
+        "end": 88.801
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "our",
+        "start": 88.96000000000001,
+        "end": 88.961
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "first",
+        "start": 89.28,
+        "end": 89.36
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "meeting",
+        "start": 89.6,
+        "end": 89.601
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Surprisingly",
+        "start": 90.64,
+        "end": 90.96
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "okay",
+        "start": 92.08,
+        "end": 92.24
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "This",
+        "start": 92.32,
+        "end": 92.4
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "is",
+        "start": 92.4,
+        "end": 92.48
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "our",
+        "start": 92.56,
+        "end": 92.64
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "agenda",
+        "start": 92.64,
+        "end": 92.8
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Um",
+        "start": 93.6,
+        "end": 94.08
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "we",
+        "start": 95.84,
+        "end": 96.4
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "will",
+        "start": 96.72,
+        "end": 96.8
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "do",
+        "start": 97.76,
+        "end": 97.84
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "some",
+        "start": 97.84,
+        "end": 98.0
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "stuff",
+        "start": 98.0,
+        "end": 98.24
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "get",
+        "start": 98.4,
+        "end": 98.56
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "to",
+        "start": 98.64,
+        "end": 98.72
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "know",
+        "start": 98.72,
+        "end": 98.8
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "each",
+        "start": 98.88,
+        "end": 98.96000000000001
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "other",
+        "start": 99.03999999999999,
+        "end": 99.12
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "a",
+        "start": 99.12,
+        "end": 99.2
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "bit",
+        "start": 99.2,
+        "end": 99.28
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "better",
+        "start": 99.36,
+        "end": 99.44
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "feel",
+        "start": 100.08,
+        "end": 100.24
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "more",
+        "start": 100.24,
+        "end": 100.4
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "comfortable",
+        "start": 100.48,
+        "end": 100.8
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "with",
+        "start": 100.8,
+        "end": 100.88
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "each",
+        "start": 100.96000000000001,
+        "end": 101.03999999999999
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "other",
+        "start": 101.03999999999999,
+        "end": 101.2
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Um",
+        "start": 102.32,
+        "end": 102.321
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "then",
+        "start": 102.32,
+        "end": 102.64
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "we'll",
+        "start": 102.88,
+        "end": 102.96000000000001
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "go",
+        "start": 103.12,
+        "end": 103.52
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "do",
+        "start": 104.24,
+        "end": 104.4
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "tool",
+        "start": 104.48,
+        "end": 104.72
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "training",
+        "start": 104.72,
+        "end": 105.2
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "talk",
+        "start": 106.32,
+        "end": 106.48
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "about",
+        "start": 106.48,
+        "end": 106.64
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "the",
+        "start": 106.64,
+        "end": 106.641
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "project",
+        "start": 106.72,
+        "end": 106.96000000000001
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "plan",
+        "start": 107.03999999999999,
+        "end": 107.12
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "discuss",
+        "start": 108.16,
+        "end": 108.56
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "our",
+        "start": 108.56,
+        "end": 108.72
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "own",
+        "start": 108.8,
+        "end": 108.88
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "ideas",
+        "start": 109.03999999999999,
+        "end": 109.12
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "and",
+        "start": 109.12,
+        "end": 109.2
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "everything",
+        "start": 109.6,
+        "end": 109.76
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Um",
+        "start": 110.8,
+        "end": 110.96000000000001
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "and",
+        "start": 112.4,
+        "end": 112.401
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "we've",
+        "start": 112.4,
+        "end": 112.48
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "got",
+        "start": 112.56,
+        "end": 112.72
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "25",
+        "start": 112.96000000000001,
+        "end": 113.2
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "minutes",
+        "start": 113.52,
+        "end": 113.84
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "to",
+        "start": 113.92,
+        "end": 114.0
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "do",
+        "start": 114.0,
+        "end": 114.08
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "that",
+        "start": 114.08,
+        "end": 114.081
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "as",
+        "start": 114.56,
+        "end": 114.64
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "far",
+        "start": 114.72,
+        "end": 114.8
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "as",
+        "start": 114.8,
+        "end": 114.96000000000001
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "I",
+        "start": 114.96000000000001,
+        "end": 115.03999999999999
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "can",
+        "start": 115.12,
+        "end": 115.2
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "understand",
+        "start": 115.28,
+        "end": 115.6
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Now",
+        "start": 117.6,
+        "end": 117.76
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "we're",
+        "start": 118.4,
+        "end": 118.88
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "developing",
+        "start": 118.88,
+        "end": 119.28
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "a",
+        "start": 119.28,
+        "end": 119.36
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "remote",
+        "start": 119.36,
+        "end": 119.6
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "control",
+        "start": 119.68,
+        "end": 119.92
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Which",
+        "start": 120.0,
+        "end": 120.16
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "you",
+        "start": 120.32,
+        "end": 120.321
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "probably",
+        "start": 120.32,
+        "end": 120.321
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "already",
+        "start": 120.56,
+        "end": 120.561
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "know",
+        "start": 120.64,
+        "end": 120.72
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "we",
+        "start": 122.48,
+        "end": 122.56
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "want",
+        "start": 122.64,
+        "end": 122.8
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "it",
+        "start": 122.88,
+        "end": 122.96
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "to",
+        "start": 122.96,
+        "end": 122.961
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "be",
+        "start": 123.12,
+        "end": 123.44
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "original",
+        "start": 123.68,
+        "end": 124.0
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "something",
+        "start": 124.8,
+        "end": 124.96
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "that",
+        "start": 124.96,
+        "end": 125.04
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "people",
+        "start": 126.0,
+        "end": 126.24
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "haven't",
+        "start": 126.24,
+        "end": 126.48
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "thought",
+        "start": 126.56,
+        "end": 126.8
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "of",
+        "start": 126.88,
+        "end": 126.96
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "so",
+        "start": 126.96,
+        "end": 127.04
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "it's",
+        "start": 127.04,
+        "end": 127.2
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "not",
+        "start": 127.2,
+        "end": 127.28
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "out",
+        "start": 127.28,
+        "end": 127.36
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "in",
+        "start": 129.04,
+        "end": 129.2
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "the",
+        "start": 129.2,
+        "end": 129.201
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "shops",
+        "start": 129.2,
+        "end": 129.36
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "trendy",
+        "start": 129.36,
+        "end": 130.0
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "appealing",
+        "start": 130.4,
+        "end": 130.64
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "to",
+        "start": 130.72,
+        "end": 130.8
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "a",
+        "start": 130.8,
+        "end": 130.801
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "wide",
+        "start": 130.88,
+        "end": 131.12
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "market",
+        "start": 131.2,
+        "end": 131.68
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "but",
+        "start": 132.08,
+        "end": 132.16
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "you",
+        "start": 133.36,
+        "end": 133.44
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "know",
+        "start": 133.44,
+        "end": 133.52
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "not",
+        "start": 134.0,
+        "end": 134.16
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "a",
+        "start": 134.24,
+        "end": 134.24099999999999
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "hunk",
+        "start": 134.24,
+        "end": 134.4
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "of",
+        "start": 134.4,
+        "end": 134.48
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "metal",
+        "start": 134.48,
+        "end": 134.64
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "and",
+        "start": 135.6,
+        "end": 135.68
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "user",
+        "start": 135.68,
+        "end": 136.0
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "friendly",
+        "start": 136.07999999999998,
+        "end": 136.64
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "grannies",
+        "start": 137.12,
+        "end": 137.6
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "to",
+        "start": 137.68,
+        "end": 137.76
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "kids",
+        "start": 137.84,
+        "end": 138.4
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "maybe",
+        "start": 139.36,
+        "end": 139.6
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "even",
+        "start": 139.6,
+        "end": 139.68
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "pooches",
+        "start": 139.76,
+        "end": 140.0
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "should",
+        "start": 140.16,
+        "end": 140.32
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "be",
+        "start": 140.32,
+        "end": 140.48
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "able",
+        "start": 140.48,
+        "end": 140.56
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "to",
+        "start": 140.56,
+        "end": 140.64
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "use",
+        "start": 140.72,
+        "end": 140.88
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "it",
+        "start": 142.88,
+        "end": 142.881
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Okay",
+        "start": 142.88,
+        "end": 143.2
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "first",
+        "start": 144.4,
+        "end": 144.8
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "is",
+        "start": 144.8,
+        "end": 144.96
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "the",
+        "start": 144.96,
+        "end": 144.961
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "functional",
+        "start": 145.12,
+        "end": 145.52
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "design",
+        "start": 145.52,
+        "end": 145.76
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "This",
+        "start": 146.88,
+        "end": 146.96
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "is",
+        "start": 147.04,
+        "end": 147.041
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "where",
+        "start": 147.12,
+        "end": 147.2
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "we",
+        "start": 147.2,
+        "end": 147.36
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "all",
+        "start": 147.36,
+        "end": 147.44
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "go",
+        "start": 147.52,
+        "end": 147.6
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "off",
+        "start": 147.68,
+        "end": 147.76
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "and",
+        "start": 147.92000000000002,
+        "end": 147.921
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "do",
+        "start": 147.92000000000002,
+        "end": 148.0
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "our",
+        "start": 148.07999999999998,
+        "end": 148.081
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "individual",
+        "start": 148.07999999999998,
+        "end": 148.56
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "work",
+        "start": 148.64,
+        "end": 148.8
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "What",
+        "start": 150.48,
+        "end": 150.64
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "needs",
+        "start": 150.88,
+        "end": 151.36
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "need",
+        "start": 151.44,
+        "end": 151.6
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "to",
+        "start": 151.6,
+        "end": 151.76
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "be",
+        "start": 151.76,
+        "end": 152.08
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "fulfilled",
+        "start": 152.24,
+        "end": 152.48
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "by",
+        "start": 152.56,
+        "end": 152.72
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "the",
+        "start": 152.72,
+        "end": 152.8
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "product",
+        "start": 152.88,
+        "end": 153.12
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "um",
+        "start": 154.0,
+        "end": 154.08
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "what",
+        "start": 154.48,
+        "end": 154.64
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "effect",
+        "start": 154.64,
+        "end": 154.96
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "the",
+        "start": 154.96,
+        "end": 154.961
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "product",
+        "start": 155.04,
+        "end": 155.28
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "has",
+        "start": 155.28,
+        "end": 155.281
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "to",
+        "start": 157.36,
+        "end": 157.361
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "have",
+        "start": 157.36,
+        "end": 157.361
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "and",
+        "start": 157.36,
+        "end": 157.361
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "how",
+        "start": 157.36,
+        "end": 157.361
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "it's",
+        "start": 157.36,
+        "end": 157.6
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "actually",
+        "start": 157.6,
+        "end": 157.92
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "going",
+        "start": 158.16,
+        "end": 158.24
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "to",
+        "start": 159.44,
+        "end": 159.52
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "do",
+        "start": 159.52,
+        "end": 159.521
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "that",
+        "start": 159.52,
+        "end": 159.521
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "um",
+        "start": 159.52,
+        "end": 159.68
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "conceptual",
+        "start": 159.76,
+        "end": 160.24
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "design",
+        "start": 160.24,
+        "end": 160.88
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "What",
+        "start": 162.32,
+        "end": 162.56
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "we're",
+        "start": 162.56,
+        "end": 162.64
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "thinking",
+        "start": 162.72,
+        "end": 163.12
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "how",
+        "start": 163.2,
+        "end": 163.28
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "it's",
+        "start": 163.28,
+        "end": 163.44
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "going",
+        "start": 163.44,
+        "end": 163.6
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "to",
+        "start": 163.6,
+        "end": 163.601
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "go",
+        "start": 163.6,
+        "end": 163.76
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "and",
+        "start": 163.76,
+        "end": 163.761
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "then",
+        "start": 164.56,
+        "end": 164.64
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "the",
+        "start": 164.64,
+        "end": 164.72
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "detail",
+        "start": 164.72,
+        "end": 165.12
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "design",
+        "start": 165.12,
+        "end": 165.36
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "how",
+        "start": 165.36,
+        "end": 165.68
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "we're",
+        "start": 165.68,
+        "end": 165.84
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "actually",
+        "start": 165.84,
+        "end": 166.16
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "going",
+        "start": 166.16,
+        "end": 166.32
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "to",
+        "start": 166.32,
+        "end": 166.321
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "put",
+        "start": 166.32,
+        "end": 166.321
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "it",
+        "start": 166.48,
+        "end": 166.56
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "into",
+        "start": 166.56,
+        "end": 166.64
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "practice",
+        "start": 166.64,
+        "end": 167.2
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "and",
+        "start": 167.2,
+        "end": 167.201
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "make",
+        "start": 167.2,
+        "end": 167.28
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "it",
+        "start": 167.36,
+        "end": 167.44
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "work",
+        "start": 167.44,
+        "end": 167.441
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Okay",
+        "start": 170.56,
+        "end": 170.8
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "right",
+        "start": 171.28,
+        "end": 171.36
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "We're",
+        "start": 172.07999999999998,
+        "end": 172.16
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "going",
+        "start": 172.16,
+        "end": 172.32
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "to",
+        "start": 172.32,
+        "end": 172.321
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "practice",
+        "start": 172.88,
+        "end": 173.2
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "with",
+        "start": 173.2,
+        "end": 173.36
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "the",
+        "start": 173.36,
+        "end": 173.361
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "pens",
+        "start": 173.68,
+        "end": 174.0
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "and",
+        "start": 174.8,
+        "end": 174.96
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "draw",
+        "start": 175.12,
+        "end": 175.28
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "our",
+        "start": 175.68,
+        "end": 175.76
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "favorite",
+        "start": 175.92000000000002,
+        "end": 176.24
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "animal",
+        "start": 176.32,
+        "end": 176.8
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "on",
+        "start": 177.28,
+        "end": 177.52
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "the",
+        "start": 177.52,
+        "end": 177.52100000000002
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "whiteboard",
+        "start": 177.52,
+        "end": 178.16
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "I'll",
+        "start": 178.4,
+        "end": 178.48
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "go",
+        "start": 178.56,
+        "end": 178.64
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "first",
+        "start": 179.68,
+        "end": 179.681
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Um",
+        "start": 179.76,
+        "end": 179.761
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Sum",
+        "start": 180.8,
+        "end": 180.96
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "up",
+        "start": 181.04,
+        "end": 181.2
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "the",
+        "start": 181.2,
+        "end": 181.28
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "characteristics",
+        "start": 181.36,
+        "end": 182.4
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "of",
+        "start": 182.48,
+        "end": 182.64
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "that",
+        "start": 182.72,
+        "end": 182.88
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "animal",
+        "start": 182.96,
+        "end": 183.2
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "So",
+        "start": 184.16,
+        "end": 184.32
+      },
+      {
+        "speaker": "unassigned",
+        "text": "okay",
+        "start": 186.56,
+        "end": 186.72
+      },
+      {
+        "speaker": "unassigned",
+        "text": "this",
+        "start": 186.72,
+        "end": 186.721
+      },
+      {
+        "speaker": "unassigned",
+        "text": "is",
+        "start": 186.72,
+        "end": 186.721
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "very",
+        "start": 190.56,
+        "end": 190.72
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "nice",
+        "start": 190.72,
+        "end": 190.721
+      },
+      {
+        "speaker": "unassigned",
+        "text": "Okay",
+        "start": 215.2,
+        "end": 215.28
+      }
+    ],
+    "activity": [
+      {
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "start": 10.93221875,
+        "end": 14.509718750000001
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "start": 10.965968750000002,
+        "end": 11.539718750000002
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "start": 13.665968750000001,
+        "end": 15.387218750000002
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "start": 18.340343750000002,
+        "end": 19.234718750000003
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "start": 27.824093750000003,
+        "end": 30.28784375
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "start": 29.84909375,
+        "end": 32.58284375
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "start": 32.58284375,
+        "end": 32.70096875
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "start": 32.70096875,
+        "end": 32.768468750000004
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "start": 32.768468750000004,
+        "end": 34.18596875
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "start": 34.18596875,
+        "end": 35.95784375
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "start": 38.64096875,
+        "end": 39.822218750000005
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "start": 39.95721875,
+        "end": 40.68284375
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "start": 39.97409375,
+        "end": 40.73346875
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "start": 40.73346875,
+        "end": 40.767218750000005
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "start": 40.85159375,
+        "end": 46.62284375
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "start": 50.65596875,
+        "end": 50.80784375
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "start": 50.80784375,
+        "end": 50.94284375
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "start": 50.94284375,
+        "end": 50.976593750000006
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "start": 50.976593750000006,
+        "end": 51.02721875
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "start": 82.97159375000001,
+        "end": 94.34534375000001
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "start": 94.93596875,
+        "end": 95.08784375
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "start": 95.62784375000001,
+        "end": 117.39659375000001
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "start": 115.55721875,
+        "end": 115.67534375000001
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "start": 117.58221875000001,
+        "end": 141.12284375000002
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "start": 142.81034375000002,
+        "end": 167.73471875
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "start": 147.97409375,
+        "end": 148.02471875
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "start": 148.04159375,
+        "end": 148.10909375
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "start": 170.35034375,
+        "end": 184.81221875
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "start": 188.92971875,
+        "end": 193.23284375
+      }
+    ],
+    "timing": "forced_alignment",
+    "events": [],
+    "metadata": {
+      "raw_text": "Are we? We're not allowed to turn lights. I think this goes around the backside. No, unfortunately, because of the the cameras. Am I supposed to be standing up there? You don't have to. Both of these could. Did you just change the slide? Yeah, but. Yes. Yeah. Right. Good. Okay. Hello, everybody. I'm Sarah, project manager, and this is our first meeting. Surprisingly, okay. This is our agenda. Um, we will do some stuff, get to know each other a bit better, feel more comfortable with each other. Um, then we'll go do tool training, talk about the project plan, discuss our own ideas and everything. Um, and we've got 25 minutes to do that, as far as I can understand. Now we're developing a remote control. Which you probably already know, we want it to be original, something that people haven't thought of, so it's not out in the shops, trendy, appealing to a wide market, but you know, not a hunk of metal, and user friendly, grannies to kids, maybe even pooches should be able to use it. Okay, first is the functional design. This is where we all go off and do our individual work. What needs need to be fulfilled by the product, um, what effect the product has to have, and how it's actually going to do that, um, conceptual design. What we're thinking, how it's going to go, and then the detail design, how we're actually going to put it into practice and make it work. Okay, right. We're going to practice with the pens, and draw our favorite animal on the whiteboard. I'll go first. Um. Sum up the characteristics of that animal. So, okay, this is very nice. Okay.",
+      "asr_chunk_seconds": 30,
+      "zero_duration_alignment_words": 60,
+      "assignment": "maximum overlap; no overlap becomes unassigned"
+    }
+  },
+  "wall_seconds": 6.318751904997043,
+  "rtf": 0.026328132937487682,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 7633226752,
+      "reserved_bytes": 8470396928
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 5341011968
+}

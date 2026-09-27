@@ -1,0 +1,118 @@
+{
+  "id": "ES2004a-15360000",
+  "duration": 89.3546875,
+  "seed": 178953250,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "0",
+        "text": "No reason we need to make it look as fashionable and stylish as a mobile phone. It can still be lightweight plastic and, you know, something that's easily molded and, jeez. Yeah, sorry, I'm treading on your territory again.",
+        "start": 0.0,
+        "end": 10.66
+      },
+      {
+        "speaker": "1",
+        "text": "No, no, no, no.",
+        "start": 10.66,
+        "end": 11.94
+      },
+      {
+        "speaker": "0",
+        "text": "Um, right, okay, we've got half an hour before the next meeting, so we're all gonna go off and do our individual things. Um, I think that's probably about it, and then we'll come back and meet again.",
+        "start": 12.52,
+        "end": 25.23
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah.",
+        "start": 25.23,
+        "end": 25.85
+      },
+      {
+        "speaker": "0",
+        "text": "And I get to do another fantastic PowerPoint presentation.",
+        "start": 25.85,
+        "end": 29.47
+      },
+      {
+        "speaker": "1",
+        "text": "Just a quick thing about the, um, uh, what you were saying about the, doesn't, doesn't need to be fashionable, the, so I, I had a quick look at the company website, and it's like the, the, uh, we put the fashion into electronics.",
+        "start": 29.47,
+        "end": 45.0
+      },
+      {
+        "speaker": "0",
+        "text": "Oh, right.",
+        "start": 45.0,
+        "end": 45.54
+      },
+      {
+        "speaker": "1",
+        "text": "So I think, I think the whole design thing might be quite, I mean, you don't, you, you can still have plastic and it look quite good, but.",
+        "start": 45.54,
+        "end": 54.67
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, I mean, it doesn't have to be that, you know, that was my main point, you don't have to use metal, I don't know, if you use plastic, it doesn't make it cheaper, I presume, or.",
+        "start": 54.67,
+        "end": 62.15
+      },
+      {
+        "speaker": "1",
+        "text": "It would, yeah.",
+        "start": 62.15,
+        "end": 63.22
+      },
+      {
+        "speaker": "0",
+        "text": "Probably. I mean, the Sky remote controls and everything, they're kind of molded and look a bit different, and the Tally West remote controls are silver plastic, which looks a bit smarter, so, yeah, I guess that's stuff that we can look at.",
+        "start": 63.22,
+        "end": 77.99
+      },
+      {
+        "speaker": "0",
+        "text": "Okay, so, let's break it up here. Okay. So, see you in half an hour.",
+        "start": 78.09,
+        "end": 84.59
+      },
+      {
+        "speaker": "1",
+        "text": "Do we go back to.",
+        "start": 85.61,
+        "end": 87.59
+      },
+      {
+        "speaker": "0",
+        "text": "I think so.",
+        "start": 87.59,
+        "end": 88.52
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah.",
+        "start": 88.52,
+        "end": 89.35
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "assistant\n[{\"Start\":0,\"End\":10.66,\"Speaker\":0,\"Content\":\"No reason we need to make it look as fashionable and stylish as a mobile phone. It can still be lightweight plastic and, you know, something that's easily molded and, jeez. Yeah, sorry, I'm treading on your territory again.\"},{\"Start\":10.66,\"End\":11.94,\"Speaker\":1,\"Content\":\"No, no, no, no.\"},{\"Start\":12.52,\"End\":25.23,\"Speaker\":0,\"Content\":\"Um, right, okay, we've got half an hour before the next meeting, so we're all gonna go off and do our individual things. Um, I think that's probably about it, and then we'll come back and meet again.\"},{\"Start\":25.23,\"End\":25.85,\"Speaker\":1,\"Content\":\"Yeah.\"},{\"Start\":25.85,\"End\":29.47,\"Speaker\":0,\"Content\":\"And I get to do another fantastic PowerPoint presentation.\"},{\"Start\":29.47,\"End\":45.0,\"Speaker\":1,\"Content\":\"Just a quick thing about the, um, uh, what you were saying about the, doesn't, doesn't need to be fashionable, the, so I, I had a quick look at the company website, and it's like the, the, uh, we put the fashion into electronics.\"},{\"Start\":45.0,\"End\":45.54,\"Speaker\":0,\"Content\":\"Oh, right.\"},{\"Start\":45.54,\"End\":54.67,\"Speaker\":1,\"Content\":\"So I think, I think the whole design thing might be quite, I mean, you don't, you, you can still have plastic and it look quite good, but.\"},{\"Start\":54.67,\"End\":62.15,\"Speaker\":0,\"Content\":\"Yeah, I mean, it doesn't have to be that, you know, that was my main point, you don't have to use metal, I don't know, if you use plastic, it doesn't make it cheaper, I presume, or.\"},{\"Start\":62.15,\"End\":63.22,\"Speaker\":1,\"Content\":\"It would, yeah.\"},{\"Start\":63.22,\"End\":77.99,\"Speaker\":0,\"Content\":\"Probably. I mean, the Sky remote controls and everything, they're kind of molded and look a bit different, and the Tally West remote controls are silver plastic, which looks a bit smarter, so, yeah, I guess that's stuff that we can look at.\"},{\"Start\":78.09,\"End\":84.59,\"Speaker\":0,\"Content\":\"Okay, so, let's break it up here. Okay. So, see you in half an hour.\"},{\"Start\":85.61,\"End\":87.59,\"Speaker\":1,\"Content\":\"Do we go back to.\"},{\"Start\":87.59,\"End\":88.52,\"Speaker\":0,\"Content\":\"I think so.\"},{\"Start\":88.52,\"End\":89.35,\"Speaker\":1,\"Content\":\"Yeah.\"}]\n",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 13.179366498021409,
+  "rtf": 0.14749496491744107,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 20784685568,
+      "reserved_bytes": 22735224832
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 3490095104
+}

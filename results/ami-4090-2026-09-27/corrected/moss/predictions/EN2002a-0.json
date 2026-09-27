@@ -1,0 +1,538 @@
+{
+  "id": "EN2002a-0",
+  "duration": 240.0,
+  "seed": 1590348409,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "S01",
+        "text": "Funky.",
+        "start": 0.51,
+        "end": 0.91
+      },
+      {
+        "speaker": "S02",
+        "text": "I wonder how much of the meetings is talking about the stuff at the meetings.",
+        "start": 0.93,
+        "end": 3.61
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, exactly, yeah, yeah, yeah.",
+        "start": 3.58,
+        "end": 5.34
+      },
+      {
+        "speaker": "S01",
+        "text": "No, no, no, they stop.",
+        "start": 5.41,
+        "end": 6.39
+      },
+      {
+        "speaker": "S04",
+        "text": "Oh, well then start.",
+        "start": 6.38,
+        "end": 7.65
+      },
+      {
+        "speaker": "S03",
+        "text": "Okay.",
+        "start": 8.56,
+        "end": 8.95
+      },
+      {
+        "speaker": "S01",
+        "text": "Okay.",
+        "start": 8.78,
+        "end": 9.21
+      },
+      {
+        "speaker": "S01",
+        "text": "Right.",
+        "start": 11.83,
+        "end": 12.17
+      },
+      {
+        "speaker": "S04",
+        "text": "It's all probably what we need to talk about.",
+        "start": 12.14,
+        "end": 14.57
+      },
+      {
+        "speaker": "S03",
+        "text": "Shall we",
+        "start": 13.16,
+        "end": 13.55
+      },
+      {
+        "speaker": "S01",
+        "text": "Has anybody",
+        "start": 14.93,
+        "end": 15.47
+      },
+      {
+        "speaker": "S03",
+        "text": "Well, shall we just go round and everyone says what they what they've been doing?",
+        "start": 15.18,
+        "end": 19.01
+      },
+      {
+        "speaker": "S01",
+        "text": "Has anybody done anything?",
+        "start": 19.05,
+        "end": 19.95
+      },
+      {
+        "speaker": "S02",
+        "text": "Not a lot.",
+        "start": 21.43,
+        "end": 22.05
+      },
+      {
+        "speaker": "S03",
+        "text": "Well, I'd say.",
+        "start": 24.16,
+        "end": 25.03
+      },
+      {
+        "speaker": "S02",
+        "text": "Right.",
+        "start": 25.48,
+        "end": 25.73
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 25.76,
+        "end": 26.05
+      },
+      {
+        "speaker": "S02",
+        "text": "Okay, sounds like you've done some.",
+        "start": 26.39,
+        "end": 27.85
+      },
+      {
+        "speaker": "S01",
+        "text": "Sorry.",
+        "start": 28.71,
+        "end": 29.15
+      },
+      {
+        "speaker": "S03",
+        "text": "Okay, well I've got a browser now, which already don't.",
+        "start": 29.91,
+        "end": 34.57
+      },
+      {
+        "speaker": "S04",
+        "text": "Whoops.",
+        "start": 32.97,
+        "end": 33.51
+      },
+      {
+        "speaker": "S04",
+        "text": "Good start.",
+        "start": 35.46,
+        "end": 35.97
+      },
+      {
+        "speaker": "S03",
+        "text": "Mm-hmm.",
+        "start": 36.27,
+        "end": 36.61
+      },
+      {
+        "speaker": "S04",
+        "text": "Oh, I dropped mine as well.",
+        "start": 38.01,
+        "end": 39.07
+      },
+      {
+        "speaker": "S01",
+        "text": "Give it this.",
+        "start": 42.92,
+        "end": 43.41
+      },
+      {
+        "speaker": "S04",
+        "text": "It's possibly a good start.",
+        "start": 43.72,
+        "end": 44.99
+      },
+      {
+        "speaker": "S04",
+        "text": "Okay.",
+        "start": 48.25,
+        "end": 48.71
+      },
+      {
+        "speaker": "S03",
+        "text": "Okay.",
+        "start": 48.69,
+        "end": 49.03
+      },
+      {
+        "speaker": "S04",
+        "text": "So yeah.",
+        "start": 49.31,
+        "end": 50.03
+      },
+      {
+        "speaker": "S03",
+        "text": "So yeah, we've got a browser with um which comes up automatically with the transcription box and the topics, and then when you go on the menu, you can select a summarisation box, which pops up, and an audio player.",
+        "start": 50.32,
+        "end": 66.71
+      },
+      {
+        "speaker": "S01",
+        "text": "Right.",
+        "start": 68.18,
+        "end": 68.51
+      },
+      {
+        "speaker": "S03",
+        "text": "Um and that's I think the search works as well, so you can pop up a search. And it loads up um just the background window, so empty, and um so when you start, you have to either open open a particular observation or do a search and open it through that.",
+        "start": 68.75,
+        "end": 84.77
+      },
+      {
+        "speaker": "S03",
+        "text": "If that makes sense.",
+        "start": 86.41,
+        "end": 87.07
+      },
+      {
+        "speaker": "S03",
+        "text": "Um the transcription box has got a summarise bo button, which doesn't do anything yet. Um now, I wonder how we wanna do, you know, we want a pop-up window with the speaker characterisation.",
+        "start": 88.58,
+        "end": 103.93
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 106.12,
+        "end": 106.65
+      },
+      {
+        "speaker": "S03",
+        "text": "Um either we could do that, you know, when does it pop up come, either we can when you click on the the I D, any sort of I D in the transcription box, or we can put an extra button, extra few buttons next to the summarise button, so that you actually in the transcription box, but so that you click on a button and then it opens whatever that speaker characterisation is.",
+        "start": 106.2,
+        "end": 127.31
+      },
+      {
+        "speaker": "S03",
+        "text": "The problem is, the the left click is already used because it highlights that um",
+        "start": 128.33,
+        "end": 134.85
+      },
+      {
+        "speaker": "S03",
+        "text": "that part of speech or whatever that what he's saying, you know.",
+        "start": 136.58,
+        "end": 139.61
+      },
+      {
+        "speaker": "S01",
+        "text": "The the left cli right.",
+        "start": 138.75,
+        "end": 140.41
+      },
+      {
+        "speaker": "S05",
+        "text": "The left click highlights it.",
+        "start": 140.6,
+        "end": 142.03
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 140.86,
+        "end": 141.15
+      },
+      {
+        "speaker": "S01",
+        "text": "Right.",
+        "start": 142.1,
+        "end": 142.45
+      },
+      {
+        "speaker": "S03",
+        "text": "So that you can",
+        "start": 142.56,
+        "end": 143.67
+      },
+      {
+        "speaker": "S04",
+        "text": "Can you double-click?",
+        "start": 142.6,
+        "end": 143.65
+      },
+      {
+        "speaker": "S03",
+        "text": "Right.",
+        "start": 143.74,
+        "end": 144.01
+      },
+      {
+        "speaker": "S03",
+        "text": "I don't know what happens when you double-click actually, but that'd be a bit annoying if you have left-click for one thing and double-click for something else.",
+        "start": 145.12,
+        "end": 151.85
+      },
+      {
+        "speaker": "S04",
+        "text": "Mm-hmm.",
+        "start": 152.34,
+        "end": 152.81
+      },
+      {
+        "speaker": "S03",
+        "text": "Um I think so yeah, when you left-click it, you can for example set set the marker there so that the the audio goes from there, I think.",
+        "start": 152.89,
+        "end": 160.71
+      },
+      {
+        "speaker": "S03",
+        "text": "Um so we can't put it on left-click, we could put it on a right-click, we could for example have a little menu that pops up.",
+        "start": 162.66,
+        "end": 168.71
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah, that would be quite good, I suppose.",
+        "start": 169.42,
+        "end": 170.75
+      },
+      {
+        "speaker": "S03",
+        "text": "So right-click on a menu, you know, and you can click on speaker characterisation, that pops the window.",
+        "start": 170.63,
+        "end": 176.67
+      },
+      {
+        "speaker": "S01",
+        "text": "What else could we have in the menu?",
+        "start": 176.88,
+        "end": 179.81
+      },
+      {
+        "speaker": "S03",
+        "text": "That's a good point. I don't know.",
+        "start": 180.3,
+        "end": 182.15
+      },
+      {
+        "speaker": "S01",
+        "text": "",
+        "start": 181.68,
+        "end": 182.11
+      },
+      {
+        "speaker": "S03",
+        "text": "Anything else.",
+        "start": 182.94,
+        "end": 183.57
+      },
+      {
+        "speaker": "S01",
+        "text": "So otherwise we just have a right-click or do",
+        "start": 183.0,
+        "end": 184.85
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, yeah, but um I don't know about you, but uh usually in Windows, right-click doesn't do anything, does it? It opens a menu.",
+        "start": 185.12,
+        "end": 192.35
+      },
+      {
+        "speaker": "S01",
+        "text": "But",
+        "start": 186.68,
+        "end": 186.95
+      },
+      {
+        "speaker": "S01",
+        "text": "It's a window.",
+        "start": 190.03,
+        "end": 190.65
+      },
+      {
+        "speaker": "S01",
+        "text": "A menu, yeah, yeah, that's something that we've done, yeah. I said we might be a bit weird for it to just start bringing up stuff, wouldn't it?",
+        "start": 192.28,
+        "end": 197.85
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, so yeah.",
+        "start": 192.78,
+        "end": 194.51
+      },
+      {
+        "speaker": "S03",
+        "text": "So but that'd be yeah.",
+        "start": 194.98,
+        "end": 196.27
+      },
+      {
+        "speaker": "S02",
+        "text": "Right.",
+        "start": 196.61,
+        "end": 196.87
+      },
+      {
+        "speaker": "S03",
+        "text": "If you just yeah.",
+        "start": 196.83,
+        "end": 197.87
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah, to just have sort of the same sort of idiom throughout, kinda.",
+        "start": 197.98,
+        "end": 201.81
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 202.08,
+        "end": 202.45
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 203.2,
+        "end": 203.57
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm-hmm.",
+        "start": 203.9,
+        "end": 204.27
+      },
+      {
+        "speaker": "S03",
+        "text": "Um or just, you know, or just the button.",
+        "start": 204.62,
+        "end": 206.57
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 207.58,
+        "end": 207.81
+      },
+      {
+        "speaker": "S04",
+        "text": "I guess a button button makes a bit more sense, 'cause otherwise you don't really know that oh, what if I right-click now, what happens then, like maybe.",
+        "start": 207.76,
+        "end": 219.11
+      },
+      {
+        "speaker": "S03",
+        "text": "Well, no, no, you still have the menu the menu pop-up that",
+        "start": 218.32,
+        "end": 221.57
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah, it's just uh it's more",
+        "start": 218.93,
+        "end": 221.27
+      },
+      {
+        "speaker": "S03",
+        "text": "Well, oh yeah, it's more obvious, isn't it, what you can do.",
+        "start": 223.01,
+        "end": 226.21
+      },
+      {
+        "speaker": "S04",
+        "text": "You can like",
+        "start": 224.94,
+        "end": 225.57
+      },
+      {
+        "speaker": "S01",
+        "text": "It's already a clue, isn't it, if it's got a button.",
+        "start": 225.08,
+        "end": 227.27
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 226.82,
+        "end": 227.15
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, that's true. That's true, yeah, it's more interesting.",
+        "start": 227.78,
+        "end": 230.61
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 228.12,
+        "end": 228.47
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 228.61,
+        "end": 228.91
+      },
+      {
+        "speaker": "S02",
+        "text": "But then it's not as expensive, like if you wanna add more things in the future, then we have to, you know, new buttons, kind of, a new menu, I think it's more flexible, I would, but probably I could be a bit too",
+        "start": 230.48,
+        "end": 239.95
+      },
+      {
+        "speaker": "S04",
+        "text": "But well, but but",
+        "start": 231.12,
+        "end": 232.97
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah, but where's the",
+        "start": 234.58,
+        "end": 235.31
+      },
+      {
+        "speaker": "S03",
+        "text": "Maybe, maybe.",
+        "start": 235.52,
+        "end": 236.81
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah, well, in in",
+        "start": 238.88,
+        "end": 239.91
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "[0.51][S01]Funky.[0.91][0.93][S02]I wonder how much of the meetings is talking about the stuff at the meetings.[3.61][3.58][S03]Yeah, exactly, yeah, yeah, yeah.[5.34][5.41][S01]No, no, no, they stop.[6.39][6.38][S04]Oh, well then start.[7.65][8.56][S03]Okay.[8.95][8.78][S01]Okay.[9.21][11.83][S01]Right.[12.17][12.14][S04]It's all probably what we need to talk about.[14.57][13.16][S03]Shall we[13.55][14.93][S01]Has anybody[15.47][15.18][S03]Well, shall we just go round and everyone says what they what they've been doing?[19.01][19.05][S01]Has anybody done anything?[19.95][21.43][S02]Not a lot.[22.05][24.16][S03]Well, I'd say.[25.03][25.48][S02]Right.[25.73][25.76][S04]Yeah.[26.05][26.39][S02]Okay, sounds like you've done some.[27.85][28.71][S01]Sorry.[29.15][29.91][S03]Okay, well I've got a browser now, which already don't.[34.57][32.97][S04]Whoops.[33.51][35.46][S04]Good start.[35.97][36.27][S03]Mm-hmm.[36.61][38.01][S04]Oh, I dropped mine as well.[39.07][42.92][S01]Give it this.[43.41][43.72][S04]It's possibly a good start.[44.99][48.25][S04]Okay.[48.71][48.69][S03]Okay.[49.03][49.31][S04]So yeah.[50.03][50.32][S03]So yeah, we've got a browser with um which comes up automatically with the transcription box and the topics, and then when you go on the menu, you can select a summarisation box, which pops up, and an audio player.[66.71][68.18][S01]Right.[68.51][68.75][S03]Um and that's I think the search works as well, so you can pop up a search. And it loads up um just the background window, so empty, and um so when you start, you have to either open open a particular observation or do a search and open it through that.[84.77][86.41][S03]If that makes sense.[87.07][88.58][S03]Um the transcription box has got a summarise bo button, which doesn't do anything yet. Um now, I wonder how we wanna do, you know, we want a pop-up window with the speaker characterisation.[103.93][106.12][S01]Yeah.[106.65][106.20][S03]Um either we could do that, you know, when does it pop up come, either we can when you click on the the I D, any sort of I D in the transcription box, or we can put an extra button, extra few buttons next to the summarise button, so that you actually in the transcription box, but so that you click on a button and then it opens whatever that speaker characterisation is.[127.31][128.33][S03]The problem is, the the left click is already used because it highlights that um[134.85][136.58][S03]that part of speech or whatever that what he's saying, you know.[139.61][138.75][S01]The the left cli right.[140.41][140.60][S05]The left click highlights it.[142.03][140.86][S04]Yeah.[141.15][142.10][S01]Right.[142.45][142.56][S03]So that you can[143.67][142.60][S04]Can you double-click?[143.65][143.74][S03]Right.[144.01][145.12][S03]I don't know what happens when you double-click actually, but that'd be a bit annoying if you have left-click for one thing and double-click for something else.[151.85][152.34][S04]Mm-hmm.[152.81][152.89][S03]Um I think so yeah, when you left-click it, you can for example set set the marker there so that the the audio goes from there, I think.[160.71][162.66][S03]Um so we can't put it on left-click, we could put it on a right-click, we could for example have a little menu that pops up.[168.71][169.42][S01]Yeah, that would be quite good, I suppose.[170.75][170.63][S03]So right-click on a menu, you know, and you can click on speaker characterisation, that pops the window.[176.67][176.88][S01]What else could we have in the menu?[179.81][180.30][S03]That's a good point. I don't know.[182.15][181.68][S01][182.11][182.94][S03]Anything else.[183.57][183.00][S01]So otherwise we just have a right-click or do[184.85][185.12][S03]Yeah, yeah, but um I don't know about you, but uh usually in Windows, right-click doesn't do anything, does it? It opens a menu.[192.35][186.68][S01]But[186.95][190.03][S01]It's a window.[190.65][192.28][S01]A menu, yeah, yeah, that's something that we've done, yeah. I said we might be a bit weird for it to just start bringing up stuff, wouldn't it?[197.85][192.78][S03]Yeah, so yeah.[194.51][194.98][S03]So but that'd be yeah.[196.27][196.61][S02]Right.[196.87][196.83][S03]If you just yeah.[197.87][197.98][S02]Yeah, to just have sort of the same sort of idiom throughout, kinda.[201.81][202.08][S03]Yeah.[202.45][203.20][S01]Yeah.[203.57][203.90][S02]Mm-hmm.[204.27][204.62][S03]Um or just, you know, or just the button.[206.57][207.58][S02]Yeah.[207.81][207.76][S04]I guess a button button makes a bit more sense, 'cause otherwise you don't really know that oh, what if I right-click now, what happens then, like maybe.[219.11][218.32][S03]Well, no, no, you still have the menu the menu pop-up that[221.57][218.93][S01]Yeah, it's just uh it's more[221.27][223.01][S03]Well, oh yeah, it's more obvious, isn't it, what you can do.[226.21][224.94][S04]You can like[225.57][225.08][S01]It's already a clue, isn't it, if it's got a button.[227.27][226.82][S03]Yeah.[227.15][227.78][S03]Yeah, that's true. That's true, yeah, it's more interesting.[230.61][228.12][S04]Yeah.[228.47][228.61][S02]Yeah.[228.91][230.48][S02]But then it's not as expensive, like if you wanna add more things in the future, then we have to, you know, new buttons, kind of, a new menu, I think it's more flexible, I would, but probably I could be a bit too[239.95][231.12][S04]But well, but but[232.97][234.58][S01]Yeah, but where's the[235.31][235.52][S03]Maybe, maybe.[236.81][238.88][S01]Yeah, well, in in[239.91]",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 21.134286482003517,
+  "rtf": 0.08805952700834799,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 2500591616,
+      "reserved_bytes": 2627731456
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 2850721792
+}

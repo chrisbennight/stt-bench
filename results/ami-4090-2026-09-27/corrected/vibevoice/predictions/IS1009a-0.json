@@ -1,0 +1,214 @@
+{
+  "id": "IS1009a-0",
+  "duration": 240.0,
+  "seed": 3597138583,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "0",
+        "text": "I'm just a woman.",
+        "start": 17.91,
+        "end": 19.55
+      },
+      {
+        "speaker": "1",
+        "text": "The microphone is supposed to be to your right.",
+        "start": 22.55,
+        "end": 25.21
+      },
+      {
+        "speaker": "0",
+        "text": "Right?",
+        "start": 25.21,
+        "end": 26.51
+      },
+      {
+        "speaker": "0",
+        "text": "And then there's another one. Okay.",
+        "start": 27.79,
+        "end": 30.23
+      },
+      {
+        "speaker": "0",
+        "text": "Okay. Okay, everybody ready?",
+        "start": 54.33,
+        "end": 56.71
+      },
+      {
+        "speaker": "1",
+        "text": "I think so.",
+        "start": 56.71,
+        "end": 57.72
+      },
+      {
+        "speaker": "0",
+        "text": "Uh, I think the first thing we do is introduce ourselves.",
+        "start": 57.72,
+        "end": 60.96
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, that's a good thing.",
+        "start": 60.96,
+        "end": 62.33
+      },
+      {
+        "speaker": "0",
+        "text": "And, um, his name and what your function is. So, maybe, Okay, good.",
+        "start": 62.33,
+        "end": 67.28
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, my name is Franzana, and I'm, uh, in user interface. My role is, uh, the main responsibility is user interface. And my role is to design, uh, uh, television remote control.",
+        "start": 67.28,
+        "end": 80.89
+      },
+      {
+        "speaker": "1",
+        "text": "Mhm.",
+        "start": 80.89,
+        "end": 81.51
+      },
+      {
+        "speaker": "0",
+        "text": "Okay.",
+        "start": 81.51,
+        "end": 82.51
+      },
+      {
+        "speaker": "1",
+        "text": "And I'm a marketing person. I want to figure out how to sell them.",
+        "start": 82.61,
+        "end": 87.21
+      },
+      {
+        "speaker": "0",
+        "text": "Mhm. And your name is?",
+        "start": 87.21,
+        "end": 88.65
+      },
+      {
+        "speaker": "1",
+        "text": "My name is Ivy.",
+        "start": 88.65,
+        "end": 89.84
+      },
+      {
+        "speaker": "0",
+        "text": "Okay.",
+        "start": 89.84,
+        "end": 90.91
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah, uh, I'm Janvi. I'm, um, my role is industrial designer. And my responsibilities are, uh, uh, um, deal with the technical functional designs and specifications of user interface and dealing with user interface design.",
+        "start": 90.91,
+        "end": 107.51
+      },
+      {
+        "speaker": "0",
+        "text": "Very good. And as you already know, I'm Betsy. I'm the project manager for today. So, why don't we look at the presentation to see what we really are supposed to do?",
+        "start": 107.51,
+        "end": 118.34
+      },
+      {
+        "speaker": "1",
+        "text": "Okay.",
+        "start": 118.34,
+        "end": 119.21
+      },
+      {
+        "speaker": "0",
+        "text": "Um, there's an opening, acquaintance, tool training. Well, the tools, uh, I think we already, I guess the tool is really our, the computer, as far as I can see. Um, we get, each of us will get instructions, and we'll take it from there. Project plan, that falls under the same heading, pretty much. Um, I don't think we have any great discussion at this point.",
+        "start": 119.21,
+        "end": 145.11
+      },
+      {
+        "speaker": "1",
+        "text": "No.",
+        "start": 145.11,
+        "end": 146.0
+      },
+      {
+        "speaker": "0",
+        "text": "Um, here is what this thing should be. This thing here we're gonna, um, uh, design. There's a new remote control, uh, super original, trendy, and, of course, user-friendly.",
+        "start": 146.0,
+        "end": 162.66
+      },
+      {
+        "speaker": "0",
+        "text": "So maybe we'll make some notes of that.",
+        "start": 164.28,
+        "end": 167.28
+      },
+      {
+        "speaker": "0",
+        "text": "Okay.",
+        "start": 194.21,
+        "end": 195.39
+      },
+      {
+        "speaker": "1",
+        "text": "Mhm.",
+        "start": 195.39,
+        "end": 196.08
+      },
+      {
+        "speaker": "0",
+        "text": "Alright.",
+        "start": 196.08,
+        "end": 197.0
+      },
+      {
+        "speaker": "0",
+        "text": "Here is what the functional design is supposed to achieve. Um, that is, it's going to be individual work, and then at the meeting we will discuss what, uh, we have come up with. The same goes for the conceptual design. There will be individual work, and then discussion afterwards. Detailed design.",
+        "start": 197.0,
+        "end": 220.35
+      },
+      {
+        "speaker": "1",
+        "text": "Okay.",
+        "start": 220.35,
+        "end": 220.83
+      },
+      {
+        "speaker": "0",
+        "text": "Same thing, basically.",
+        "start": 220.83,
+        "end": 222.49
+      },
+      {
+        "speaker": "1",
+        "text": "Different types of design that we're going to be concerned with.",
+        "start": 222.74,
+        "end": 225.96
+      },
+      {
+        "speaker": "0",
+        "text": "Mhm.",
+        "start": 225.96,
+        "end": 226.9
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "assistant\n[{\"Start\":0,\"End\":17.91,\"Content\":\"[Environmental Sounds]\"},{\"Start\":17.91,\"End\":19.55,\"Speaker\":0,\"Content\":\"I'm just a woman.\"},{\"Start\":19.55,\"End\":22.55,\"Content\":\"[Environmental Sounds]\"},{\"Start\":22.55,\"End\":25.21,\"Speaker\":1,\"Content\":\"The microphone is supposed to be to your right.\"},{\"Start\":25.21,\"End\":26.51,\"Speaker\":0,\"Content\":\"Right?\"},{\"Start\":27.79,\"End\":30.23,\"Speaker\":0,\"Content\":\"And then there's another one. Okay.\"},{\"Start\":30.23,\"End\":54.33,\"Content\":\"[Environmental Sounds]\"},{\"Start\":54.33,\"End\":56.71,\"Speaker\":0,\"Content\":\"Okay. Okay, everybody ready?\"},{\"Start\":56.71,\"End\":57.72,\"Speaker\":1,\"Content\":\"I think so.\"},{\"Start\":57.72,\"End\":60.96,\"Speaker\":0,\"Content\":\"Uh, I think the first thing we do is introduce ourselves.\"},{\"Start\":60.96,\"End\":62.33,\"Speaker\":1,\"Content\":\"Yeah, that's a good thing.\"},{\"Start\":62.33,\"End\":67.28,\"Speaker\":0,\"Content\":\"And, um, his name and what your function is. So, maybe, Okay, good.\"},{\"Start\":67.28,\"End\":80.89,\"Speaker\":2,\"Content\":\"Yeah, my name is Franzana, and I'm, uh, in user interface. My role is, uh, the main responsibility is user interface. And my role is to design, uh, uh, television remote control.\"},{\"Start\":80.89,\"End\":81.51,\"Speaker\":1,\"Content\":\"Mhm.\"},{\"Start\":81.51,\"End\":82.51,\"Speaker\":0,\"Content\":\"Okay.\"},{\"Start\":82.61,\"End\":87.21,\"Speaker\":1,\"Content\":\"And I'm a marketing person. I want to figure out how to sell them.\"},{\"Start\":87.21,\"End\":88.65,\"Speaker\":0,\"Content\":\"Mhm. And your name is?\"},{\"Start\":88.65,\"End\":89.84,\"Speaker\":1,\"Content\":\"My name is Ivy.\"},{\"Start\":89.84,\"End\":90.91,\"Speaker\":0,\"Content\":\"Okay.\"},{\"Start\":90.91,\"End\":107.51,\"Speaker\":3,\"Content\":\"Yeah, uh, I'm Janvi. I'm, um, my role is industrial designer. And my responsibilities are, uh, uh, um, deal with the technical functional designs and specifications of user interface and dealing with user interface design.\"},{\"Start\":107.51,\"End\":118.34,\"Speaker\":0,\"Content\":\"Very good. And as you already know, I'm Betsy. I'm the project manager for today. So, why don't we look at the presentation to see what we really are supposed to do?\"},{\"Start\":118.34,\"End\":119.21,\"Speaker\":1,\"Content\":\"Okay.\"},{\"Start\":119.21,\"End\":145.11,\"Speaker\":0,\"Content\":\"Um, there's an opening, acquaintance, tool training. Well, the tools, uh, I think we already, I guess the tool is really our, the computer, as far as I can see. Um, we get, each of us will get instructions, and we'll take it from there. Project plan, that falls under the same heading, pretty much. Um, I don't think we have any great discussion at this point.\"},{\"Start\":145.11,\"End\":146.0,\"Speaker\":1,\"Content\":\"No.\"},{\"Start\":146.0,\"End\":162.66,\"Speaker\":0,\"Content\":\"Um, here is what this thing should be. This thing here we're gonna, um, uh, design. There's a new remote control, uh, super original, trendy, and, of course, user-friendly.\"},{\"Start\":164.28,\"End\":167.28,\"Speaker\":0,\"Content\":\"So maybe we'll make some notes of that.\"},{\"Start\":167.28,\"End\":194.21,\"Content\":\"[Environmental Sounds]\"},{\"Start\":194.21,\"End\":195.39,\"Speaker\":0,\"Content\":\"Okay.\"},{\"Start\":195.39,\"End\":196.08,\"Speaker\":1,\"Content\":\"Mhm.\"},{\"Start\":196.08,\"End\":197.0,\"Speaker\":0,\"Content\":\"Alright.\"},{\"Start\":197.0,\"End\":220.35,\"Speaker\":0,\"Content\":\"Here is what the functional design is supposed to achieve. Um, that is, it's going to be individual work, and then at the meeting we will discuss what, uh, we have come up with. The same goes for the conceptual design. There will be individual work, and then discussion afterwards. Detailed design.\"},{\"Start\":220.35,\"End\":220.83,\"Speaker\":1,\"Content\":\"Okay.\"},{\"Start\":220.83,\"End\":222.49,\"Speaker\":0,\"Content\":\"Same thing, basically.\"},{\"Start\":222.74,\"End\":225.96,\"Speaker\":1,\"Content\":\"Different types of design that we're going to be concerned with.\"},{\"Start\":225.96,\"End\":226.9,\"Speaker\":0,\"Content\":\"Mhm.\"},{\"Start\":226.9,\"End\":240.0,\"Content\":\"[Noise]\"}]\n",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 25.652107259025797,
+  "rtf": 0.10688378024594082,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 21213673984,
+      "reserved_bytes": 22735224832
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 3490095104
+}

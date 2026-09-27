@@ -1,0 +1,538 @@
+{
+  "id": "ES2004a-7680000",
+  "duration": 240.0,
+  "seed": 1262417696,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "S01",
+        "text": "Mm.",
+        "start": 1.23,
+        "end": 1.45
+      },
+      {
+        "speaker": "S02",
+        "text": "It doesn't look what like what I want it to be.",
+        "start": 1.35,
+        "end": 3.29
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm.",
+        "start": 7.06,
+        "end": 7.61
+      },
+      {
+        "speaker": "S03",
+        "text": "Uh.",
+        "start": 7.38,
+        "end": 7.81
+      },
+      {
+        "speaker": "S02",
+        "text": "It's not a vampire, that, honestly.",
+        "start": 8.81,
+        "end": 10.01
+      },
+      {
+        "speaker": "S03",
+        "text": "See.",
+        "start": 9.22,
+        "end": 9.65
+      },
+      {
+        "speaker": "S04",
+        "text": "Okay.",
+        "start": 9.88,
+        "end": 10.81
+      },
+      {
+        "speaker": "S02",
+        "text": "I found somewhere that the body's not.",
+        "start": 12.88,
+        "end": 14.73
+      },
+      {
+        "speaker": "S03",
+        "text": "Okay, that's all.",
+        "start": 17.22,
+        "end": 18.21
+      },
+      {
+        "speaker": "S02",
+        "text": "That's my dreadful of the worst jet. Meant to be an eagle.",
+        "start": 17.78,
+        "end": 21.55
+      },
+      {
+        "speaker": "S03",
+        "text": "But.",
+        "start": 18.63,
+        "end": 18.95
+      },
+      {
+        "speaker": "S04",
+        "text": "Seagull, right, not seagull.",
+        "start": 21.21,
+        "end": 23.55
+      },
+      {
+        "speaker": "S03",
+        "text": "No, no, no, no.",
+        "start": 21.71,
+        "end": 22.71
+      },
+      {
+        "speaker": "S01",
+        "text": "That could could have been a fly, that could have been a seagull, I had a thought of a seagull. An eagle, um again I'm thinking on my feet, goodness. Of course they're also independent, I'll put that one down again.",
+        "start": 21.99,
+        "end": 34.05
+      },
+      {
+        "speaker": "S02",
+        "text": "Um.",
+        "start": 37.88,
+        "end": 38.65
+      },
+      {
+        "speaker": "S03",
+        "text": "They're good at golf.",
+        "start": 39.85,
+        "end": 40.51
+      },
+      {
+        "speaker": "S02",
+        "text": "Depen independent. Do you say they're good at golf? Are they?",
+        "start": 40.41,
+        "end": 45.31
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, uh yeah.",
+        "start": 44.28,
+        "end": 45.75
+      },
+      {
+        "speaker": "S04",
+        "text": "Eagle.",
+        "start": 45.48,
+        "end": 45.93
+      },
+      {
+        "speaker": "S03",
+        "text": "An eagle.",
+        "start": 46.21,
+        "end": 46.85
+      },
+      {
+        "speaker": "S02",
+        "text": "Oh, oh right, uh I'm not good at golf. I'd say they're quite free spirited, flying around everywhere.",
+        "start": 46.22,
+        "end": 53.35
+      },
+      {
+        "speaker": "S02",
+        "text": "Doing their own thing.",
+        "start": 55.57,
+        "end": 56.68
+      },
+      {
+        "speaker": "S02",
+        "text": "And uh",
+        "start": 61.41,
+        "end": 62.61
+      },
+      {
+        "speaker": "S02",
+        "text": "birds of prey, I'm a idea. Intrepid, intrepid.",
+        "start": 63.75,
+        "end": 68.75
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm-hmm.",
+        "start": 65.3,
+        "end": 65.68
+      },
+      {
+        "speaker": "S02",
+        "text": "There we go.",
+        "start": 73.68,
+        "end": 74.31
+      },
+      {
+        "speaker": "S01",
+        "text": "That's the dream.",
+        "start": 74.45,
+        "end": 75.15
+      },
+      {
+        "speaker": "S02",
+        "text": "And gonna be okay.",
+        "start": 74.91,
+        "end": 76.28
+      },
+      {
+        "speaker": "S04",
+        "text": "Okay.",
+        "start": 81.08,
+        "end": 81.55
+      },
+      {
+        "speaker": "S04",
+        "text": "That was fun. Right. Um finance wise, we've got uh selling price at twenty five Euros, which I don't actually know what that is in pounds at all. Any ideas?",
+        "start": 83.06,
+        "end": 95.28
+      },
+      {
+        "speaker": "S03",
+        "text": "So that",
+        "start": 95.15,
+        "end": 95.68
+      },
+      {
+        "speaker": "S04",
+        "text": "Seventeen.",
+        "start": 96.51,
+        "end": 97.15
+      },
+      {
+        "speaker": "S05",
+        "text": "One point four, something like that. One point four Euro would make a lot of money or something.",
+        "start": 96.63,
+        "end": 101.01
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 97.25,
+        "end": 97.61
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, yeah, something like that. So yeah, about seventeen, seventeen pounds, something like that.",
+        "start": 100.85,
+        "end": 107.05
+      },
+      {
+        "speaker": "S04",
+        "text": "Fifteen, seventeen.",
+        "start": 104.38,
+        "end": 105.71
+      },
+      {
+        "speaker": "S04",
+        "text": "Okay, that's expensive.",
+        "start": 106.35,
+        "end": 108.01
+      },
+      {
+        "speaker": "S02",
+        "text": "Should we be making notes of this? We can just refer to the flyer to come back.",
+        "start": 108.35,
+        "end": 111.15
+      },
+      {
+        "speaker": "S03",
+        "text": "But",
+        "start": 110.85,
+        "end": 111.11
+      },
+      {
+        "speaker": "S04",
+        "text": "I think so, I think so. I'd be able to um pull it up, or I could put it in the shared folder or something.",
+        "start": 110.98,
+        "end": 115.51
+      },
+      {
+        "speaker": "S03",
+        "text": "Hav having said that though, if you wanna get one of those, the the ones on the market at the moment, they're they're about twenty pounds anyway. So",
+        "start": 114.21,
+        "end": 123.61
+      },
+      {
+        "speaker": "S02",
+        "text": "Right.",
+        "start": 123.48,
+        "end": 123.91
+      },
+      {
+        "speaker": "S01",
+        "text": "Really?",
+        "start": 123.85,
+        "end": 124.21
+      },
+      {
+        "speaker": "S03",
+        "text": "It's t yeah. We had to buy one.",
+        "start": 124.01,
+        "end": 126.35
+      },
+      {
+        "speaker": "S04",
+        "text": "So",
+        "start": 125.81,
+        "end": 126.05
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm.",
+        "start": 126.65,
+        "end": 127.01
+      },
+      {
+        "speaker": "S02",
+        "text": "So I suppose later it depends if we want to undercut the price, we do or or is it going to make our product look a cheapy cheapy option or?",
+        "start": 128.05,
+        "end": 133.91
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 128.45,
+        "end": 128.71
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah, um production cost at twelve fifty, so",
+        "start": 133.51,
+        "end": 137.81
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 134.05,
+        "end": 134.41
+      },
+      {
+        "speaker": "S05",
+        "text": "Yeah, pretty good, imagine.",
+        "start": 137.68,
+        "end": 139.18
+      },
+      {
+        "speaker": "S04",
+        "text": "half of the selling price is taken out by building it. Um and profit aim is fifty million Euros, which is uh",
+        "start": 139.08,
+        "end": 149.45
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 141.45,
+        "end": 141.81
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm.",
+        "start": 142.0,
+        "end": 142.21
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm-hmm.",
+        "start": 143.85,
+        "end": 144.25
+      },
+      {
+        "speaker": "S01",
+        "text": "In our first year.",
+        "start": 150.35,
+        "end": 151.18
+      },
+      {
+        "speaker": "S04",
+        "text": "Ye yes. Um yeah, I presume so. Um",
+        "start": 151.21,
+        "end": 157.05
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm-hmm.",
+        "start": 155.51,
+        "end": 155.88
+      },
+      {
+        "speaker": "S01",
+        "text": "You've got market range international, and you did say earlier it's got to be a um accessible and usable by sort of all age groups, just we're not focusing on business market, any particular thing, it's everyone, user oriented, everyone. Okay.",
+        "start": 158.05,
+        "end": 171.61
+      },
+      {
+        "speaker": "S04",
+        "text": "Mm-hmm.",
+        "start": 165.15,
+        "end": 165.61
+      },
+      {
+        "speaker": "S04",
+        "text": "No, yeah.",
+        "start": 169.11,
+        "end": 170.21
+      },
+      {
+        "speaker": "S01",
+        "text": "Big target group.",
+        "start": 173.38,
+        "end": 174.21
+      },
+      {
+        "speaker": "S04",
+        "text": "So",
+        "start": 173.45,
+        "end": 173.95
+      },
+      {
+        "speaker": "S04",
+        "text": "Yes, yes. I don't think we have to, I don't think it's a case of worrying about different languages and things like that",
+        "start": 174.35,
+        "end": 181.51
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm.",
+        "start": 181.85,
+        "end": 182.21
+      },
+      {
+        "speaker": "S04",
+        "text": "um making a key point. Just that it's going to be in international market, like Australia, America, things like that. Okay.",
+        "start": 182.21,
+        "end": 190.21
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm.",
+        "start": 186.68,
+        "end": 186.95
+      },
+      {
+        "speaker": "S04",
+        "text": "What are your experiences with remote controls? I mean I've got, we got um we had three videos, a T_V_ and a sort of amp thing all set up. So we got one of the universal remote controls",
+        "start": 195.15,
+        "end": 210.95
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm-hmm.",
+        "start": 207.28,
+        "end": 207.68
+      },
+      {
+        "speaker": "S03",
+        "text": "Hmm.",
+        "start": 208.11,
+        "end": 208.41
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 211.05,
+        "end": 211.38
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 211.21,
+        "end": 211.61
+      },
+      {
+        "speaker": "S04",
+        "text": "um that you programme each of your things into, but that kept losing the signals, so we'd have to reprogram it every now and again. I think it was quite cheapy as well.",
+        "start": 211.51,
+        "end": 220.91
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm.",
+        "start": 221.05,
+        "end": 221.38
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 221.11,
+        "end": 221.61
+      },
+      {
+        "speaker": "S04",
+        "text": "So that might have had something to do with it. But that was quite good, the fact that you could",
+        "start": 221.35,
+        "end": 224.78
+      },
+      {
+        "speaker": "S03",
+        "text": "Use all the ones as as",
+        "start": 225.18,
+        "end": 226.81
+      },
+      {
+        "speaker": "S04",
+        "text": "didn't have six remote controls sitting in front of you.",
+        "start": 226.08,
+        "end": 228.81
+      },
+      {
+        "speaker": "S01",
+        "text": "Right.",
+        "start": 228.05,
+        "end": 228.61
+      },
+      {
+        "speaker": "S05",
+        "text": "Okay, you wanna you create everything into one, like",
+        "start": 228.65,
+        "end": 230.95
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 231.21,
+        "end": 231.65
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm.",
+        "start": 231.88,
+        "end": 232.18
+      },
+      {
+        "speaker": "S05",
+        "text": "Okay.",
+        "start": 232.28,
+        "end": 232.78
+      },
+      {
+        "speaker": "S03",
+        "text": "'Cause he",
+        "start": 232.85,
+        "end": 233.31
+      },
+      {
+        "speaker": "S02",
+        "text": "My experience has only been being given the remote control with the object I buy, not doing any tampering with it and programming, using it to programme",
+        "start": 232.88,
+        "end": 239.95
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "[1.23][S01]Mm.[1.45][1.35][S02]It doesn't look what like what I want it to be.[3.29][7.06][S02]Mm.[7.61][7.38][S03]Uh.[7.81][8.81][S02]It's not a vampire, that, honestly.[10.01][9.22][S03]See.[9.65][9.88][S04]Okay.[10.81][12.88][S02]I found somewhere that the body's not.[14.73][17.22][S03]Okay, that's all.[18.21][17.78][S02]That's my dreadful of the worst jet. Meant to be an eagle.[21.55][18.63][S03]But.[18.95][21.21][S04]Seagull, right, not seagull.[23.55][21.71][S03]No, no, no, no.[22.71][21.99][S01]That could could have been a fly, that could have been a seagull, I had a thought of a seagull. An eagle, um again I'm thinking on my feet, goodness. Of course they're also independent, I'll put that one down again.[34.05][37.88][S02]Um.[38.65][39.85][S03]They're good at golf.[40.51][40.41][S02]Depen independent. Do you say they're good at golf? Are they?[45.31][44.28][S03]Yeah, uh yeah.[45.75][45.48][S04]Eagle.[45.93][46.21][S03]An eagle.[46.85][46.22][S02]Oh, oh right, uh I'm not good at golf. I'd say they're quite free spirited, flying around everywhere.[53.35][55.57][S02]Doing their own thing.[56.68][61.41][S02]And uh[62.61][63.75][S02]birds of prey, I'm a idea. Intrepid, intrepid.[68.75][65.30][S01]Mm-hmm.[65.68][73.68][S02]There we go.[74.31][74.45][S01]That's the dream.[75.15][74.91][S02]And gonna be okay.[76.28][81.08][S04]Okay.[81.55][83.06][S04]That was fun. Right. Um finance wise, we've got uh selling price at twenty five Euros, which I don't actually know what that is in pounds at all. Any ideas?[95.28][95.15][S03]So that[95.68][96.51][S04]Seventeen.[97.15][96.63][S05]One point four, something like that. One point four Euro would make a lot of money or something.[101.01][97.25][S03]Yeah.[97.61][100.85][S03]Yeah, yeah, something like that. So yeah, about seventeen, seventeen pounds, something like that.[107.05][104.38][S04]Fifteen, seventeen.[105.71][106.35][S04]Okay, that's expensive.[108.01][108.35][S02]Should we be making notes of this? We can just refer to the flyer to come back.[111.15][110.85][S03]But[111.11][110.98][S04]I think so, I think so. I'd be able to um pull it up, or I could put it in the shared folder or something.[115.51][114.21][S03]Hav having said that though, if you wanna get one of those, the the ones on the market at the moment, they're they're about twenty pounds anyway. So[123.61][123.48][S02]Right.[123.91][123.85][S01]Really?[124.21][124.01][S03]It's t yeah. We had to buy one.[126.35][125.81][S04]So[126.05][126.65][S01]Mm.[127.01][128.05][S02]So I suppose later it depends if we want to undercut the price, we do or or is it going to make our product look a cheapy cheapy option or?[133.91][128.45][S01]Yeah.[128.71][133.51][S04]Yeah, um production cost at twelve fifty, so[137.81][134.05][S03]Yeah.[134.41][137.68][S05]Yeah, pretty good, imagine.[139.18][139.08][S04]half of the selling price is taken out by building it. Um and profit aim is fifty million Euros, which is uh[149.45][141.45][S03]Yeah.[141.81][142.00][S01]Mm.[142.21][143.85][S01]Mm-hmm.[144.25][150.35][S01]In our first year.[151.18][151.21][S04]Ye yes. Um yeah, I presume so. Um[157.05][155.51][S01]Mm-hmm.[155.88][158.05][S01]You've got market range international, and you did say earlier it's got to be a um accessible and usable by sort of all age groups, just we're not focusing on business market, any particular thing, it's everyone, user oriented, everyone. Okay.[171.61][165.15][S04]Mm-hmm.[165.61][169.11][S04]No, yeah.[170.21][173.38][S01]Big target group.[174.21][173.45][S04]So[173.95][174.35][S04]Yes, yes. I don't think we have to, I don't think it's a case of worrying about different languages and things like that[181.51][181.85][S01]Mm.[182.21][182.21][S04]um making a key point. Just that it's going to be in international market, like Australia, America, things like that. Okay.[190.21][186.68][S01]Mm.[186.95][195.15][S04]What are your experiences with remote controls? I mean I've got, we got um we had three videos, a T_V_ and a sort of amp thing all set up. So we got one of the universal remote controls[210.95][207.28][S01]Mm-hmm.[207.68][208.11][S03]Hmm.[208.41][211.05][S01]Yeah.[211.38][211.21][S03]Yeah.[211.61][211.51][S04]um that you programme each of your things into, but that kept losing the signals, so we'd have to reprogram it every now and again. I think it was quite cheapy as well.[220.91][221.05][S01]Mm.[221.38][221.11][S03]Yeah.[221.61][221.35][S04]So that might have had something to do with it. But that was quite good, the fact that you could[224.78][225.18][S03]Use all the ones as as[226.81][226.08][S04]didn't have six remote controls sitting in front of you.[228.81][228.05][S01]Right.[228.61][228.65][S05]Okay, you wanna you create everything into one, like[230.95][231.21][S03]Yeah.[231.65][231.88][S01]Mm.[232.18][232.28][S05]Okay.[232.78][232.85][S03]'Cause he[233.31][232.88][S02]My experience has only been being given the remote control with the object I buy, not doing any tampering with it and programming, using it to programme[239.95]",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 20.37345576705411,
+  "rtf": 0.08488939902939213,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 2483481600,
+      "reserved_bytes": 2602565632
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 2850721792
+}

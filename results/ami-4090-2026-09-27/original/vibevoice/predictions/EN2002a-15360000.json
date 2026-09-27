@@ -1,0 +1,424 @@
+{
+  "id": "EN2002a-15360000",
+  "duration": 240.0,
+  "seed": 1335160836,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "0",
+        "text": "The N browser.",
+        "start": 0.0,
+        "end": 1.92
+      },
+      {
+        "speaker": "1",
+        "text": "The N browser.",
+        "start": 1.92,
+        "end": 3.55
+      },
+      {
+        "speaker": "0",
+        "text": "Yes.",
+        "start": 3.55,
+        "end": 3.99
+      },
+      {
+        "speaker": "1",
+        "text": "For reading.",
+        "start": 3.99,
+        "end": 4.51
+      },
+      {
+        "speaker": "0",
+        "text": "The N for reading.",
+        "start": 4.51,
+        "end": 5.71
+      },
+      {
+        "speaker": "1",
+        "text": "And we, and we never have to look in my directory, it's just pure chaos.",
+        "start": 5.71,
+        "end": 10.44
+      },
+      {
+        "speaker": "2",
+        "text": "No, I was, I was dreaming all day.",
+        "start": 10.44,
+        "end": 13.51
+      },
+      {
+        "speaker": "0",
+        "text": "I've got goals, everything I look forward.",
+        "start": 13.51,
+        "end": 15.95
+      },
+      {
+        "speaker": "1",
+        "text": "Mine is serious chaos.",
+        "start": 15.95,
+        "end": 18.1
+      },
+      {
+        "speaker": "1",
+        "text": "Fails everywhere.",
+        "start": 19.38,
+        "end": 21.2
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, so that's me done. Someone else want to talk about their stuff?",
+        "start": 25.66,
+        "end": 29.76
+      },
+      {
+        "speaker": "1",
+        "text": "I will jump around.",
+        "start": 31.12,
+        "end": 33.32
+      },
+      {
+        "speaker": "2",
+        "text": "I can tell you what I've done in SPT.",
+        "start": 33.82,
+        "end": 36.66
+      },
+      {
+        "speaker": "2",
+        "text": "Oh, um, I don't know. I basically, I started, like, browsing a bit, just, like, trying to see if there's anything out there to use, sort of. Um, what were you doing again? Yeah.",
+        "start": 39.16,
+        "end": 53.77
+      },
+      {
+        "speaker": "3",
+        "text": "Other searching stuff.",
+        "start": 53.77,
+        "end": 54.77
+      },
+      {
+        "speaker": "2",
+        "text": "Oh, yeah, sorry.",
+        "start": 54.77,
+        "end": 55.52
+      },
+      {
+        "speaker": "3",
+        "text": "Inverted files.",
+        "start": 55.52,
+        "end": 57.06
+      },
+      {
+        "speaker": "2",
+        "text": "Found a tutorial, but inverted search and indexing, but I haven't read it yet.",
+        "start": 58.92,
+        "end": 63.62
+      },
+      {
+        "speaker": "3",
+        "text": "So you could probably just use that code. Like, that was behind the question chat somewhere.",
+        "start": 63.62,
+        "end": 67.34
+      },
+      {
+        "speaker": "0",
+        "text": "Oh.",
+        "start": 67.6,
+        "end": 68.55
+      },
+      {
+        "speaker": "3",
+        "text": "You know, we're using code and stuff, and just like, probably.",
+        "start": 68.55,
+        "end": 70.71
+      },
+      {
+        "speaker": "1",
+        "text": "I found some code for it.",
+        "start": 70.71,
+        "end": 72.51
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, well, I don't know if it's usable, I haven't looked at it, but I found some code for, like, someone, a tutorial about indexing.",
+        "start": 72.51,
+        "end": 80.63
+      },
+      {
+        "speaker": "0",
+        "text": "Oh, okay.",
+        "start": 80.63,
+        "end": 81.23
+      },
+      {
+        "speaker": "1",
+        "text": "So even if it doesn't work, you can jiggle your point grid around and make your own problem.",
+        "start": 81.23,
+        "end": 84.97
+      },
+      {
+        "speaker": "3",
+        "text": "We'll probably still do some other file management.",
+        "start": 84.97,
+        "end": 87.78
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, yeah, yeah. Yeah, yeah, yeah. The basics is there. Okay, that's good.",
+        "start": 87.78,
+        "end": 92.52
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, that's handy.",
+        "start": 92.52,
+        "end": 94.26
+      },
+      {
+        "speaker": "0",
+        "text": "So you think it shouldn't be too difficult?",
+        "start": 95.74,
+        "end": 98.26
+      },
+      {
+        "speaker": "2",
+        "text": "I don't know, I mean, I was a bit worried about when, well, we talked about this with, um, file, I don't know, with files, I mean, how much do they actually need to do, like, extracting things from the XML files and stuff, to be able to do the indexing?",
+        "start": 99.4,
+        "end": 117.66
+      },
+      {
+        "speaker": "0",
+        "text": "Oh, I see. You have to convert it to some sort of format, I suppose.",
+        "start": 117.66,
+        "end": 122.81
+      },
+      {
+        "speaker": "1",
+        "text": "I've been trying to write something to read the XML and get rid of it. And I can get rid of it, but I'm having trouble putting it anywhere else. So it'll come up on the screen.",
+        "start": 122.81,
+        "end": 134.73
+      },
+      {
+        "speaker": "1",
+        "text": "But at the moment, I haven't managed to put it into a vector or whatever in Java to play with it, but.",
+        "start": 134.73,
+        "end": 140.81
+      },
+      {
+        "speaker": "2",
+        "text": "Are you running in Java?",
+        "start": 140.81,
+        "end": 142.94
+      },
+      {
+        "speaker": "0",
+        "text": "I mean, you should look at, look, have a look at the browser code then, because, um, you know, they already extract, for example, transcripts.",
+        "start": 145.91,
+        "end": 154.23
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, yeah, I'm sure they do, yeah.",
+        "start": 154.23,
+        "end": 155.91
+      },
+      {
+        "speaker": "0",
+        "text": "At least.",
+        "start": 155.91,
+        "end": 156.77
+      },
+      {
+        "speaker": "3",
+        "text": "That's a good idea.",
+        "start": 157.73,
+        "end": 159.49
+      },
+      {
+        "speaker": "1",
+        "text": "Oh, yeah, I will. I'm sure I'm making a meal of it, if I'm actually.",
+        "start": 161.01,
+        "end": 168.23
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, I guess, I mean, it was a good point you had, that, like, collaborating with file things, I mean, if you're already starting on, on.",
+        "start": 174.83,
+        "end": 185.65
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, yeah, absolutely, yeah.",
+        "start": 185.65,
+        "end": 187.46
+      },
+      {
+        "speaker": "2",
+        "text": "We can.",
+        "start": 187.46,
+        "end": 188.36
+      },
+      {
+        "speaker": "1",
+        "text": "Should share as much as possible.",
+        "start": 188.36,
+        "end": 190.59
+      },
+      {
+        "speaker": "3",
+        "text": "Libraries.",
+        "start": 190.89,
+        "end": 192.15
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah.",
+        "start": 192.15,
+        "end": 193.41
+      },
+      {
+        "speaker": "2",
+        "text": "Should we, I don't know, meet up and see what we could do, I mean, I don't know, see what you've done and see what we need.",
+        "start": 194.47,
+        "end": 204.25
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah.",
+        "start": 204.25,
+        "end": 204.8
+      },
+      {
+        "speaker": "2",
+        "text": "What we know more than we need, maybe.",
+        "start": 204.8,
+        "end": 206.93
+      },
+      {
+        "speaker": "1",
+        "text": "Next week, something.",
+        "start": 206.93,
+        "end": 208.24
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, exactly.",
+        "start": 208.24,
+        "end": 209.83
+      },
+      {
+        "speaker": "3",
+        "text": "So you're still.",
+        "start": 209.83,
+        "end": 210.86
+      },
+      {
+        "speaker": "1",
+        "text": "Actually, we haven't done anything this week, because this week's been manic.",
+        "start": 210.86,
+        "end": 213.46
+      },
+      {
+        "speaker": "3",
+        "text": "Yes, exactly.",
+        "start": 213.46,
+        "end": 214.48
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, I mean, this week's only two days old.",
+        "start": 214.48,
+        "end": 217.29
+      },
+      {
+        "speaker": "1",
+        "text": "Well, whatever it was last week.",
+        "start": 217.29,
+        "end": 218.98
+      },
+      {
+        "speaker": "2",
+        "text": "Oh, last week.",
+        "start": 218.98,
+        "end": 219.83
+      },
+      {
+        "speaker": "1",
+        "text": "The, the, the week as, as it is, rather than the proper week, you know what I mean, so it's been all a bit manic, but that's, that's.",
+        "start": 219.83,
+        "end": 226.26
+      },
+      {
+        "speaker": "3",
+        "text": "Put your an SP and LP and an SP2 around.",
+        "start": 226.26,
+        "end": 228.08
+      },
+      {
+        "speaker": "1",
+        "text": "That's right, yeah.",
+        "start": 228.08,
+        "end": 228.9
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah, that's fine.",
+        "start": 228.9,
+        "end": 229.66
+      },
+      {
+        "speaker": "1",
+        "text": "And then we had to do an IRP, whatever it was last week as well. Which is only a page long, but it's quite difficult to write a page.",
+        "start": 229.66,
+        "end": 236.11
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah.",
+        "start": 236.11,
+        "end": 236.77
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah.",
+        "start": 236.77,
+        "end": 237.22
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah, oh yeah.",
+        "start": 237.22,
+        "end": 237.68
+      },
+      {
+        "speaker": "0",
+        "text": "Oh, that's completely ridiculous.",
+        "start": 237.68,
+        "end": 239.08
+      },
+      {
+        "speaker": "1",
+        "text": "It was, it was.",
+        "start": 239.08,
+        "end": 240.0
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "assistant\n[{\"Start\":0,\"End\":1.92,\"Speaker\":0,\"Content\":\"The N browser.\"},{\"Start\":1.92,\"End\":3.55,\"Speaker\":1,\"Content\":\"The N browser.\"},{\"Start\":3.55,\"End\":3.99,\"Speaker\":0,\"Content\":\"Yes.\"},{\"Start\":3.99,\"End\":4.51,\"Speaker\":1,\"Content\":\"For reading.\"},{\"Start\":4.51,\"End\":5.71,\"Speaker\":0,\"Content\":\"The N for reading.\"},{\"Start\":5.71,\"End\":10.44,\"Speaker\":1,\"Content\":\"And we, and we never have to look in my directory, it's just pure chaos.\"},{\"Start\":10.44,\"End\":13.51,\"Speaker\":2,\"Content\":\"No, I was, I was dreaming all day.\"},{\"Start\":13.51,\"End\":15.95,\"Speaker\":0,\"Content\":\"I've got goals, everything I look forward.\"},{\"Start\":15.95,\"End\":18.1,\"Speaker\":1,\"Content\":\"Mine is serious chaos.\"},{\"Start\":19.38,\"End\":21.2,\"Speaker\":1,\"Content\":\"Fails everywhere.\"},{\"Start\":21.2,\"End\":25.66,\"Content\":\"[Human Sounds]\"},{\"Start\":25.66,\"End\":29.76,\"Speaker\":0,\"Content\":\"Yeah, so that's me done. Someone else want to talk about their stuff?\"},{\"Start\":31.12,\"End\":33.32,\"Speaker\":1,\"Content\":\"I will jump around.\"},{\"Start\":33.82,\"End\":36.66,\"Speaker\":2,\"Content\":\"I can tell you what I've done in SPT.\"},{\"Start\":36.66,\"End\":39.16,\"Content\":\"[Human Sounds]\"},{\"Start\":39.16,\"End\":53.77,\"Speaker\":2,\"Content\":\"Oh, um, I don't know. I basically, I started, like, browsing a bit, just, like, trying to see if there's anything out there to use, sort of. Um, what were you doing again? Yeah.\"},{\"Start\":53.77,\"End\":54.77,\"Speaker\":3,\"Content\":\"Other searching stuff.\"},{\"Start\":54.77,\"End\":55.52,\"Speaker\":2,\"Content\":\"Oh, yeah, sorry.\"},{\"Start\":55.52,\"End\":57.06,\"Speaker\":3,\"Content\":\"Inverted files.\"},{\"Start\":58.92,\"End\":63.62,\"Speaker\":2,\"Content\":\"Found a tutorial, but inverted search and indexing, but I haven't read it yet.\"},{\"Start\":63.62,\"End\":67.34,\"Speaker\":3,\"Content\":\"So you could probably just use that code. Like, that was behind the question chat somewhere.\"},{\"Start\":67.6,\"End\":68.55,\"Speaker\":0,\"Content\":\"Oh.\"},{\"Start\":68.55,\"End\":70.71,\"Speaker\":3,\"Content\":\"You know, we're using code and stuff, and just like, probably.\"},{\"Start\":70.71,\"End\":72.51,\"Speaker\":1,\"Content\":\"I found some code for it.\"},{\"Start\":72.51,\"End\":80.63,\"Speaker\":2,\"Content\":\"Yeah, well, I don't know if it's usable, I haven't looked at it, but I found some code for, like, someone, a tutorial about indexing.\"},{\"Start\":80.63,\"End\":81.23,\"Speaker\":0,\"Content\":\"Oh, okay.\"},{\"Start\":81.23,\"End\":84.97,\"Speaker\":1,\"Content\":\"So even if it doesn't work, you can jiggle your point grid around and make your own problem.\"},{\"Start\":84.97,\"End\":87.78,\"Speaker\":3,\"Content\":\"We'll probably still do some other file management.\"},{\"Start\":87.78,\"End\":92.52,\"Speaker\":1,\"Content\":\"Yeah, yeah, yeah. Yeah, yeah, yeah. The basics is there. Okay, that's good.\"},{\"Start\":92.52,\"End\":94.26,\"Speaker\":0,\"Content\":\"Yeah, that's handy.\"},{\"Start\":95.74,\"End\":98.26,\"Speaker\":0,\"Content\":\"So you think it shouldn't be too difficult?\"},{\"Start\":99.4,\"End\":117.66,\"Speaker\":2,\"Content\":\"I don't know, I mean, I was a bit worried about when, well, we talked about this with, um, file, I don't know, with files, I mean, how much do they actually need to do, like, extracting things from the XML files and stuff, to be able to do the indexing?\"},{\"Start\":117.66,\"End\":122.81,\"Speaker\":0,\"Content\":\"Oh, I see. You have to convert it to some sort of format, I suppose.\"},{\"Start\":122.81,\"End\":134.73,\"Speaker\":1,\"Content\":\"I've been trying to write something to read the XML and get rid of it. And I can get rid of it, but I'm having trouble putting it anywhere else. So it'll come up on the screen.\"},{\"Start\":134.73,\"End\":140.81,\"Speaker\":1,\"Content\":\"But at the moment, I haven't managed to put it into a vector or whatever in Java to play with it, but.\"},{\"Start\":140.81,\"End\":142.94,\"Speaker\":2,\"Content\":\"Are you running in Java?\"},{\"Start\":142.94,\"End\":145.91,\"Content\":\"[Silence]\"},{\"Start\":145.91,\"End\":154.23,\"Speaker\":0,\"Content\":\"I mean, you should look at, look, have a look at the browser code then, because, um, you know, they already extract, for example, transcripts.\"},{\"Start\":154.23,\"End\":155.91,\"Speaker\":1,\"Content\":\"Yeah, yeah, I'm sure they do, yeah.\"},{\"Start\":155.91,\"End\":156.77,\"Speaker\":0,\"Content\":\"At least.\"},{\"Start\":157.73,\"End\":159.49,\"Speaker\":3,\"Content\":\"That's a good idea.\"},{\"Start\":161.01,\"End\":168.23,\"Speaker\":1,\"Content\":\"Oh, yeah, I will. I'm sure I'm making a meal of it, if I'm actually.\"},{\"Start\":168.23,\"End\":174.83,\"Content\":\"[Human Sounds]\"},{\"Start\":174.83,\"End\":185.65,\"Speaker\":2,\"Content\":\"Yeah, I guess, I mean, it was a good point you had, that, like, collaborating with file things, I mean, if you're already starting on, on.\"},{\"Start\":185.65,\"End\":187.46,\"Speaker\":1,\"Content\":\"Yeah, yeah, absolutely, yeah.\"},{\"Start\":187.46,\"End\":188.36,\"Speaker\":2,\"Content\":\"We can.\"},{\"Start\":188.36,\"End\":190.59,\"Speaker\":1,\"Content\":\"Should share as much as possible.\"},{\"Start\":190.89,\"End\":192.15,\"Speaker\":3,\"Content\":\"Libraries.\"},{\"Start\":192.15,\"End\":193.41,\"Speaker\":1,\"Content\":\"Yeah.\"},{\"Start\":194.47,\"End\":204.25,\"Speaker\":2,\"Content\":\"Should we, I don't know, meet up and see what we could do, I mean, I don't know, see what you've done and see what we need.\"},{\"Start\":204.25,\"End\":204.8,\"Speaker\":1,\"Content\":\"Yeah.\"},{\"Start\":204.8,\"End\":206.93,\"Speaker\":2,\"Content\":\"What we know more than we need, maybe.\"},{\"Start\":206.93,\"End\":208.24,\"Speaker\":1,\"Content\":\"Next week, something.\"},{\"Start\":208.24,\"End\":209.83,\"Speaker\":2,\"Content\":\"Yeah, exactly.\"},{\"Start\":209.83,\"End\":210.86,\"Speaker\":3,\"Content\":\"So you're still.\"},{\"Start\":210.86,\"End\":213.46,\"Speaker\":1,\"Content\":\"Actually, we haven't done anything this week, because this week's been manic.\"},{\"Start\":213.46,\"End\":214.48,\"Speaker\":3,\"Content\":\"Yes, exactly.\"},{\"Start\":214.48,\"End\":217.29,\"Speaker\":2,\"Content\":\"Yeah, I mean, this week's only two days old.\"},{\"Start\":217.29,\"End\":218.98,\"Speaker\":1,\"Content\":\"Well, whatever it was last week.\"},{\"Start\":218.98,\"End\":219.83,\"Speaker\":2,\"Content\":\"Oh, last week.\"},{\"Start\":219.83,\"End\":226.26,\"Speaker\":1,\"Content\":\"The, the, the week as, as it is, rather than the proper week, you know what I mean, so it's been all a bit manic, but that's, that's.\"},{\"Start\":226.26,\"End\":228.08,\"Speaker\":3,\"Content\":\"Put your an SP and LP and an SP2 around.\"},{\"Start\":228.08,\"End\":228.9,\"Speaker\":1,\"Content\":\"That's right, yeah.\"},{\"Start\":228.9,\"End\":229.66,\"Speaker\":3,\"Content\":\"Yeah, that's fine.\"},{\"Start\":229.66,\"End\":236.11,\"Speaker\":1,\"Content\":\"And then we had to do an IRP, whatever it was last week as well. Which is only a page long, but it's quite difficult to write a page.\"},{\"Start\":236.11,\"End\":236.77,\"Speaker\":3,\"Content\":\"Yeah.\"},{\"Start\":236.77,\"End\":237.22,\"Speaker\":0,\"Content\":\"Yeah.\"},{\"Start\":237.22,\"End\":237.68,\"Speaker\":3,\"Content\":\"Yeah, oh yeah.\"},{\"Start\":237.68,\"End\":239.08,\"Speaker\":0,\"Content\":\"Oh, that's completely ridiculous.\"},{\"Start\":239.08,\"End\":240.0,\"Speaker\":1,\"Content\":\"It was, it was.\"}]\n",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 47.25126819103025,
+  "rtf": 0.1968802841292927,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 21213673984,
+      "reserved_bytes": 22735224832
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 3490095104
+}

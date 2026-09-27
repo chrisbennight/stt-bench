@@ -1,0 +1,322 @@
+{
+  "id": "TS3003a-19200000",
+  "duration": 240.0,
+  "seed": 3465313605,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "0",
+        "text": "It's easier when you have a message. I've got a message.",
+        "start": 0.0,
+        "end": 5.58
+      },
+      {
+        "speaker": "1",
+        "text": "Five minutes.",
+        "start": 5.58,
+        "end": 6.88
+      },
+      {
+        "speaker": "2",
+        "text": "Okay, yeah, so.",
+        "start": 6.88,
+        "end": 7.64
+      },
+      {
+        "speaker": "1",
+        "text": "Good, good time.",
+        "start": 7.64,
+        "end": 9.12
+      },
+      {
+        "speaker": "0",
+        "text": "So, just on a side note, why is it my laptop is only giving me a black screen?",
+        "start": 9.28,
+        "end": 14.56
+      },
+      {
+        "speaker": "1",
+        "text": "Maybe you have to say the magic word.",
+        "start": 14.82,
+        "end": 17.82
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah.",
+        "start": 17.82,
+        "end": 19.24
+      },
+      {
+        "speaker": "1",
+        "text": "Does it do that?",
+        "start": 20.36,
+        "end": 22.11
+      },
+      {
+        "speaker": "2",
+        "text": "No.",
+        "start": 22.11,
+        "end": 23.13
+      },
+      {
+        "speaker": "1",
+        "text": "Maybe you have to just clap it down, back up again.",
+        "start": 23.13,
+        "end": 29.56
+      },
+      {
+        "speaker": "1",
+        "text": "Hmm.",
+        "start": 34.81,
+        "end": 35.92
+      },
+      {
+        "speaker": "0",
+        "text": "It's off now.",
+        "start": 35.92,
+        "end": 36.82
+      },
+      {
+        "speaker": "1",
+        "text": "It's off. Nice. Way back on.",
+        "start": 36.82,
+        "end": 39.33
+      },
+      {
+        "speaker": "2",
+        "text": "Okay.",
+        "start": 39.33,
+        "end": 40.21
+      },
+      {
+        "speaker": "0",
+        "text": "Well, it was on.",
+        "start": 40.21,
+        "end": 41.59
+      },
+      {
+        "speaker": "1",
+        "text": "Uh, it's those laptops.",
+        "start": 42.91,
+        "end": 45.61
+      },
+      {
+        "speaker": "2",
+        "text": "Oh, there we are.",
+        "start": 46.21,
+        "end": 48.31
+      },
+      {
+        "speaker": "1",
+        "text": "Okay. But, um, does everybody has, um, experiences with, uh, remote controls? And, I mean, not the ordinary remote controls, but also a little bit different ones, like you can use for other.",
+        "start": 48.43,
+        "end": 64.11
+      },
+      {
+        "speaker": "2",
+        "text": "Oh, really?",
+        "start": 64.11,
+        "end": 65.03
+      },
+      {
+        "speaker": "1",
+        "text": "No?",
+        "start": 65.03,
+        "end": 66.26
+      },
+      {
+        "speaker": "0",
+        "text": "Well, we have a kind of broad TV at home and a DVD player, so we got, like, a lot of remote controls, one for the TV, one for the video recorder, one for the DVD player.",
+        "start": 66.78,
+        "end": 79.54
+      },
+      {
+        "speaker": "0",
+        "text": "And I think it's, it would be best to just make one remote control that can operate them all.",
+        "start": 79.6,
+        "end": 84.48
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, yeah, I've, I've got one at home and you can, uh, program, I think, eight different devices in it. And you can use it for your television.",
+        "start": 84.48,
+        "end": 94.61
+      },
+      {
+        "speaker": "2",
+        "text": "Okay, yeah.",
+        "start": 94.61,
+        "end": 95.35
+      },
+      {
+        "speaker": "1",
+        "text": "Everything else. And it also operates on infrared, so you have to got a little device inside your room, and then you can operate it from the third or second floor.",
+        "start": 95.35,
+        "end": 107.73
+      },
+      {
+        "speaker": "0",
+        "text": "Oh, really?",
+        "start": 107.73,
+        "end": 108.51
+      },
+      {
+        "speaker": "1",
+        "text": "So that's pretty handy when you have a video recorder or DVD player downstairs, and you've got a link to your TV on the second floor. So that's a pretty handy, uh, thing.",
+        "start": 108.51,
+        "end": 120.9
+      },
+      {
+        "speaker": "1",
+        "text": "But I would need a, I think that if you can put different kind of devices in one remote control, it makes it a lot easier as well.",
+        "start": 122.59,
+        "end": 133.77
+      },
+      {
+        "speaker": "1",
+        "text": "It's good to remember.",
+        "start": 135.69,
+        "end": 137.54
+      },
+      {
+        "speaker": "0",
+        "text": "So I think you can take the minutes again.",
+        "start": 137.54,
+        "end": 139.71
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, it's nice.",
+        "start": 139.71,
+        "end": 141.0
+      },
+      {
+        "speaker": "0",
+        "text": "I think it's your job.",
+        "start": 141.0,
+        "end": 142.39
+      },
+      {
+        "speaker": "1",
+        "text": "So we, we want different functions.",
+        "start": 142.39,
+        "end": 145.17
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah.",
+        "start": 145.25,
+        "end": 146.51
+      },
+      {
+        "speaker": "1",
+        "text": "Uh, and we can, maybe see if we can do something with infrared, but I don't know if that will exceed the production cost. It's something we have to find out, I think.",
+        "start": 146.51,
+        "end": 160.22
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, but that would be really good if we could do that.",
+        "start": 160.22,
+        "end": 164.06
+      },
+      {
+        "speaker": "1",
+        "text": "And other functions for a remote control. You can have the.",
+        "start": 165.14,
+        "end": 172.22
+      },
+      {
+        "speaker": "0",
+        "text": "I think it has to be shockproof.",
+        "start": 173.24,
+        "end": 175.78
+      },
+      {
+        "speaker": "1",
+        "text": "Proof.",
+        "start": 176.86,
+        "end": 178.03
+      },
+      {
+        "speaker": "0",
+        "text": "My remote control tends to fall over. So.",
+        "start": 178.03,
+        "end": 182.08
+      },
+      {
+        "speaker": "2",
+        "text": "Hey, you never know. No, I, I mean, uh.",
+        "start": 182.08,
+        "end": 185.38
+      },
+      {
+        "speaker": "0",
+        "text": "Waterproof.",
+        "start": 186.18,
+        "end": 187.92
+      },
+      {
+        "speaker": "1",
+        "text": "Okay, so these are a few things we can think of. Um, I will put the minutes from this meeting, uh, in our budget folder.",
+        "start": 189.02,
+        "end": 200.66
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, one other little thing. I thought it might be handy to put a battery status display on it. So you can see battery status. How much is left in the battery.",
+        "start": 200.74,
+        "end": 212.5
+      },
+      {
+        "speaker": "0",
+        "text": "But, it will also really track up the production costs, so. We'll have to see about that, too.",
+        "start": 213.48,
+        "end": 220.36
+      },
+      {
+        "speaker": "0",
+        "text": "But maybe just a little bit, um.",
+        "start": 221.54,
+        "end": 224.68
+      },
+      {
+        "speaker": "1",
+        "text": "That's an idea as well. Other ideas?",
+        "start": 225.06,
+        "end": 228.26
+      },
+      {
+        "speaker": "2",
+        "text": "Good ideas. They were all mentioned.",
+        "start": 228.44,
+        "end": 232.54
+      },
+      {
+        "speaker": "1",
+        "text": "Any questions about this, uh, presentation? Kick-off presentation?",
+        "start": 232.54,
+        "end": 238.06
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "assistant\n[{\"Start\":0,\"End\":5.58,\"Speaker\":0,\"Content\":\"It's easier when you have a message. I've got a message.\"},{\"Start\":5.58,\"End\":6.88,\"Speaker\":1,\"Content\":\"Five minutes.\"},{\"Start\":6.88,\"End\":7.64,\"Speaker\":2,\"Content\":\"Okay, yeah, so.\"},{\"Start\":7.64,\"End\":9.12,\"Speaker\":1,\"Content\":\"Good, good time.\"},{\"Start\":9.28,\"End\":14.56,\"Speaker\":0,\"Content\":\"So, just on a side note, why is it my laptop is only giving me a black screen?\"},{\"Start\":14.82,\"End\":17.82,\"Speaker\":1,\"Content\":\"Maybe you have to say the magic word.\"},{\"Start\":17.82,\"End\":19.24,\"Speaker\":2,\"Content\":\"Yeah.\"},{\"Start\":20.36,\"End\":22.11,\"Speaker\":1,\"Content\":\"Does it do that?\"},{\"Start\":22.11,\"End\":23.13,\"Speaker\":2,\"Content\":\"No.\"},{\"Start\":23.13,\"End\":29.56,\"Speaker\":1,\"Content\":\"Maybe you have to just clap it down, back up again.\"},{\"Start\":29.56,\"End\":34.81,\"Content\":\"[Noise]\"},{\"Start\":34.81,\"End\":35.92,\"Speaker\":1,\"Content\":\"Hmm.\"},{\"Start\":35.92,\"End\":36.82,\"Speaker\":0,\"Content\":\"It's off now.\"},{\"Start\":36.82,\"End\":39.33,\"Speaker\":1,\"Content\":\"It's off. Nice. Way back on.\"},{\"Start\":39.33,\"End\":40.21,\"Speaker\":2,\"Content\":\"Okay.\"},{\"Start\":40.21,\"End\":41.59,\"Speaker\":0,\"Content\":\"Well, it was on.\"},{\"Start\":42.91,\"End\":45.61,\"Speaker\":1,\"Content\":\"Uh, it's those laptops.\"},{\"Start\":46.21,\"End\":48.31,\"Speaker\":2,\"Content\":\"Oh, there we are.\"},{\"Start\":48.43,\"End\":64.11,\"Speaker\":1,\"Content\":\"Okay. But, um, does everybody has, um, experiences with, uh, remote controls? And, I mean, not the ordinary remote controls, but also a little bit different ones, like you can use for other.\"},{\"Start\":64.11,\"End\":65.03,\"Speaker\":2,\"Content\":\"Oh, really?\"},{\"Start\":65.03,\"End\":66.26,\"Speaker\":1,\"Content\":\"No?\"},{\"Start\":66.78,\"End\":79.54,\"Speaker\":0,\"Content\":\"Well, we have a kind of broad TV at home and a DVD player, so we got, like, a lot of remote controls, one for the TV, one for the video recorder, one for the DVD player.\"},{\"Start\":79.6,\"End\":84.48,\"Speaker\":0,\"Content\":\"And I think it's, it would be best to just make one remote control that can operate them all.\"},{\"Start\":84.48,\"End\":94.61,\"Speaker\":1,\"Content\":\"Yeah, yeah, I've, I've got one at home and you can, uh, program, I think, eight different devices in it. And you can use it for your television.\"},{\"Start\":94.61,\"End\":95.35,\"Speaker\":2,\"Content\":\"Okay, yeah.\"},{\"Start\":95.35,\"End\":107.73,\"Speaker\":1,\"Content\":\"Everything else. And it also operates on infrared, so you have to got a little device inside your room, and then you can operate it from the third or second floor.\"},{\"Start\":107.73,\"End\":108.51,\"Speaker\":0,\"Content\":\"Oh, really?\"},{\"Start\":108.51,\"End\":120.9,\"Speaker\":1,\"Content\":\"So that's pretty handy when you have a video recorder or DVD player downstairs, and you've got a link to your TV on the second floor. So that's a pretty handy, uh, thing.\"},{\"Start\":122.59,\"End\":133.77,\"Speaker\":1,\"Content\":\"But I would need a, I think that if you can put different kind of devices in one remote control, it makes it a lot easier as well.\"},{\"Start\":135.69,\"End\":137.54,\"Speaker\":1,\"Content\":\"It's good to remember.\"},{\"Start\":137.54,\"End\":139.71,\"Speaker\":0,\"Content\":\"So I think you can take the minutes again.\"},{\"Start\":139.71,\"End\":141.0,\"Speaker\":1,\"Content\":\"Yeah, it's nice.\"},{\"Start\":141.0,\"End\":142.39,\"Speaker\":0,\"Content\":\"I think it's your job.\"},{\"Start\":142.39,\"End\":145.17,\"Speaker\":1,\"Content\":\"So we, we want different functions.\"},{\"Start\":145.25,\"End\":146.51,\"Speaker\":0,\"Content\":\"Yeah.\"},{\"Start\":146.51,\"End\":160.22,\"Speaker\":1,\"Content\":\"Uh, and we can, maybe see if we can do something with infrared, but I don't know if that will exceed the production cost. It's something we have to find out, I think.\"},{\"Start\":160.22,\"End\":164.06,\"Speaker\":0,\"Content\":\"Yeah, but that would be really good if we could do that.\"},{\"Start\":165.14,\"End\":172.22,\"Speaker\":1,\"Content\":\"And other functions for a remote control. You can have the.\"},{\"Start\":173.24,\"End\":175.78,\"Speaker\":0,\"Content\":\"I think it has to be shockproof.\"},{\"Start\":176.86,\"End\":178.03,\"Speaker\":1,\"Content\":\"Proof.\"},{\"Start\":178.03,\"End\":182.08,\"Speaker\":0,\"Content\":\"My remote control tends to fall over. So.\"},{\"Start\":182.08,\"End\":185.38,\"Speaker\":2,\"Content\":\"Hey, you never know. No, I, I mean, uh.\"},{\"Start\":186.18,\"End\":187.92,\"Speaker\":0,\"Content\":\"Waterproof.\"},{\"Start\":189.02,\"End\":200.66,\"Speaker\":1,\"Content\":\"Okay, so these are a few things we can think of. Um, I will put the minutes from this meeting, uh, in our budget folder.\"},{\"Start\":200.74,\"End\":212.5,\"Speaker\":0,\"Content\":\"Yeah, one other little thing. I thought it might be handy to put a battery status display on it. So you can see battery status. How much is left in the battery.\"},{\"Start\":213.48,\"End\":220.36,\"Speaker\":0,\"Content\":\"But, it will also really track up the production costs, so. We'll have to see about that, too.\"},{\"Start\":221.54,\"End\":224.68,\"Speaker\":0,\"Content\":\"But maybe just a little bit, um.\"},{\"Start\":225.06,\"End\":228.26,\"Speaker\":1,\"Content\":\"That's an idea as well. Other ideas?\"},{\"Start\":228.44,\"End\":232.54,\"Speaker\":2,\"Content\":\"Good ideas. They were all mentioned.\"},{\"Start\":232.54,\"End\":238.06,\"Speaker\":1,\"Content\":\"Any questions about this, uh, presentation? Kick-off presentation?\"},{\"Start\":238.06,\"End\":240.0,\"Content\":\"[Human Sounds]\"}]\n",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 35.23537741799373,
+  "rtf": 0.1468140725749739,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 21213673984,
+      "reserved_bytes": 22735224832
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 3490095104
+}

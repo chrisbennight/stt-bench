@@ -1,0 +1,112 @@
+{
+  "id": "IS1009a-11520000",
+  "duration": 118.9973125,
+  "seed": 121160637,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "0",
+        "text": "So, you have working design, and then you have functional design, and the marketing manager is coming up with some user requirements specification, like friendliness, and what we just discussed in general.",
+        "start": 0.0,
+        "end": 13.98
+      },
+      {
+        "speaker": "0",
+        "text": "That would be your idea, and of course, price. That it, that it, that the price is a good price. I mean, the price is given, but that with",
+        "start": 14.0,
+        "end": 24.84
+      },
+      {
+        "speaker": "1",
+        "text": "We have to justify that price by having sufficient features to make it sell at that price.",
+        "start": 24.95,
+        "end": 29.41
+      },
+      {
+        "speaker": "0",
+        "text": "That's right. And, you know, you, you will get specific, um, instructions for that. I think that's the end of the show.",
+        "start": 29.41,
+        "end": 37.75
+      },
+      {
+        "speaker": "0",
+        "text": "So, um, we have, well, we have a time, two, two, two, three minutes. Um, any questions at this point, or suggestions?",
+        "start": 44.14,
+        "end": 56.31
+      },
+      {
+        "speaker": "0",
+        "text": "I think, basically, basically, you will get instructions to work with, and if you have any questions, then, um, I guess you can",
+        "start": 57.33,
+        "end": 67.25
+      },
+      {
+        "speaker": "1",
+        "text": "Okay, I think I have a lot to think about for our next meeting. How about you people?",
+        "start": 67.25,
+        "end": 72.43
+      },
+      {
+        "speaker": "0",
+        "text": "Yes, I think, yeah. Okay.",
+        "start": 72.43,
+        "end": 76.12
+      },
+      {
+        "speaker": "1",
+        "text": "Alright, well, um.",
+        "start": 76.12,
+        "end": 77.71
+      },
+      {
+        "speaker": "0",
+        "text": "Then, uh, we see you in about thirty minutes, and see what we can come up with.",
+        "start": 77.71,
+        "end": 83.56
+      },
+      {
+        "speaker": "1",
+        "text": "Okay, very good.",
+        "start": 83.56,
+        "end": 84.58
+      },
+      {
+        "speaker": "0",
+        "text": "Okay, yeah.",
+        "start": 84.58,
+        "end": 86.12
+      },
+      {
+        "speaker": "0",
+        "text": "So now we have to walk out.",
+        "start": 93.92,
+        "end": 96.06
+      },
+      {
+        "speaker": "0",
+        "text": "Can we take this? No, I think we have to keep it here.",
+        "start": 99.2,
+        "end": 102.62
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "assistant\n[{\"Start\":0,\"End\":13.98,\"Speaker\":0,\"Content\":\"So, you have working design, and then you have functional design, and the marketing manager is coming up with some user requirements specification, like friendliness, and what we just discussed in general.\"},{\"Start\":14.0,\"End\":24.84,\"Speaker\":0,\"Content\":\"That would be your idea, and of course, price. That it, that it, that the price is a good price. I mean, the price is given, but that with\"},{\"Start\":24.95,\"End\":29.41,\"Speaker\":1,\"Content\":\"We have to justify that price by having sufficient features to make it sell at that price.\"},{\"Start\":29.41,\"End\":37.75,\"Speaker\":0,\"Content\":\"That's right. And, you know, you, you will get specific, um, instructions for that. I think that's the end of the show.\"},{\"Start\":37.75,\"End\":44.14,\"Content\":\"[Environmental Sounds]\"},{\"Start\":44.14,\"End\":56.31,\"Speaker\":0,\"Content\":\"So, um, we have, well, we have a time, two, two, two, three minutes. Um, any questions at this point, or suggestions?\"},{\"Start\":57.33,\"End\":67.25,\"Speaker\":0,\"Content\":\"I think, basically, basically, you will get instructions to work with, and if you have any questions, then, um, I guess you can\"},{\"Start\":67.25,\"End\":72.43,\"Speaker\":1,\"Content\":\"Okay, I think I have a lot to think about for our next meeting. How about you people?\"},{\"Start\":72.43,\"End\":76.12,\"Speaker\":0,\"Content\":\"Yes, I think, yeah. Okay.\"},{\"Start\":76.12,\"End\":77.71,\"Speaker\":1,\"Content\":\"Alright, well, um.\"},{\"Start\":77.71,\"End\":83.56,\"Speaker\":0,\"Content\":\"Then, uh, we see you in about thirty minutes, and see what we can come up with.\"},{\"Start\":83.56,\"End\":84.58,\"Speaker\":1,\"Content\":\"Okay, very good.\"},{\"Start\":84.58,\"End\":86.12,\"Speaker\":0,\"Content\":\"Okay, yeah.\"},{\"Start\":86.12,\"End\":93.92,\"Content\":\"[Environmental Sounds]\"},{\"Start\":93.92,\"End\":96.06,\"Speaker\":0,\"Content\":\"So now we have to walk out.\"},{\"Start\":96.06,\"End\":99.2,\"Content\":\"[Environmental Sounds]\"},{\"Start\":99.2,\"End\":102.62,\"Speaker\":0,\"Content\":\"Can we take this? No, I think we have to keep it here.\"},{\"Start\":102.62,\"End\":119.0,\"Content\":\"[Environmental Sounds]\"}]\n",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 13.066263859975152,
+  "rtf": 0.10980301643346063,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 21170121216,
+      "reserved_bytes": 22735224832
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 3490095104
+}

@@ -1,0 +1,859 @@
+{
+  "id": "IS1009a-0",
+  "duration": 240.0,
+  "seed": 3597138583,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "0",
+        "text": "How am I supposed to get to your robes? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Right. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Right. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "And then there's the other one. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Okay.Okay, is it ready, ready? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "I think so. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Uh, I think the first thing we do is introduce ourselves. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Oh, that's a good point. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "And, uh, whose name and what you're function is, so maybe we start with you. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Okay, cool. Yeah, my name is Franzana, and I'm, uh, a newself interface. My role is, uh, the main responsibility is usual interface. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Mm-hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "And my role is to design, uh, uh, television remote control. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Mm-hmm. Okay.And I'm a marketing person. I wanna figure out how to sell em. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Mm-hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "And your name is? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "My name is Eileen. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, uh, I'm Genevieve. I'm, um, my role is industrial designer, and my responsibilities are, uh, um, deal with the technical functional designs and specifications of user interface and dealing with user interface design. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Very good.And as you all already know, I'm Betsy. I'm the project manager for today. So why don't we look at, uh, presentation to see what we really need to suppose to do. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "And...Uh, there's the opening. Quaint as tool training. Well, the tools, uh, I think we already, I guess the tool is really our, the computer, as far as I can see. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Mm-hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Uh, we get intro, each of us will get instructions, and we'll take it from there. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Mm-hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Project plan that falls under the same heading pretty much.Um, I don't think we have any great discussion at this point. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "No. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Um, here is what this thing should be. This thing here are our design. There's a new remote control. Uh, should be original. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Mm-hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Trendy, and of course user friendly. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Mm-hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "So maybe I'll make some notes on that. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Mm-hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Alright.Here is what the functional design is supposed to achieve. Um, that is, it's gonna be individual work, and then at the meeting we'll discuss what, um, we have come up with.The same goes for the conceptual design.That will be individual work. We, and then discussion afterwards, detailed design. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Same thing, basically. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Group different types of design that we're gonna be concerned with. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Mm-hmm. Mm-hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "So, instruction...",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [
+      {
+        "audio_available_seconds": 3.466666666666667,
+        "chunk_end_seconds": 2.933333333333333,
+        "emitted_seconds": 3.516737009980716,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 6.4,
+        "chunk_end_seconds": 5.866666666666666,
+        "emitted_seconds": 6.4500918469857424,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 9.333333333333334,
+        "chunk_end_seconds": 8.8,
+        "emitted_seconds": 9.388703002943657,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 12.266666666666667,
+        "chunk_end_seconds": 11.733333333333333,
+        "emitted_seconds": 12.31724546989426,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 15.2,
+        "chunk_end_seconds": 14.666666666666666,
+        "emitted_seconds": 15.250666585983709,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 18.133333333333333,
+        "chunk_end_seconds": 17.6,
+        "emitted_seconds": 18.18475081899669,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 21.066666666666666,
+        "chunk_end_seconds": 20.533333333333335,
+        "emitted_seconds": 21.117319142911583,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 24.0,
+        "chunk_end_seconds": 23.466666666666665,
+        "emitted_seconds": 24.051066353917122,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 26.933333333333334,
+        "chunk_end_seconds": 26.4,
+        "emitted_seconds": 27.37461930490099,
+        "has_text": true,
+        "text": " \n Speaker 0:How am I supposed to get to your robes? \n Speaker 1:Right."
+      },
+      {
+        "audio_available_seconds": 29.866666666666667,
+        "chunk_end_seconds": 29.333333333333332,
+        "emitted_seconds": 30.274609306943603,
+        "has_text": true,
+        "text": " \n Speaker 0:Right. \n Speaker 1:And then there's the other one."
+      },
+      {
+        "audio_available_seconds": 32.8,
+        "chunk_end_seconds": 32.266666666666666,
+        "emitted_seconds": 32.979920892976224,
+        "has_text": true,
+        "text": " \n Speaker 0:Okay."
+      },
+      {
+        "audio_available_seconds": 35.733333333333334,
+        "chunk_end_seconds": 35.2,
+        "emitted_seconds": 35.78547185799107,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 38.666666666666664,
+        "chunk_end_seconds": 38.13333333333333,
+        "emitted_seconds": 38.71780870191287,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 41.6,
+        "chunk_end_seconds": 41.06666666666667,
+        "emitted_seconds": 41.658537662937306,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 44.53333333333333,
+        "chunk_end_seconds": 44.0,
+        "emitted_seconds": 44.58499227196444,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 47.46666666666667,
+        "chunk_end_seconds": 46.93333333333333,
+        "emitted_seconds": 47.518147980910726,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 50.4,
+        "chunk_end_seconds": 49.86666666666667,
+        "emitted_seconds": 50.451470606960356,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 53.333333333333336,
+        "chunk_end_seconds": 52.8,
+        "emitted_seconds": 53.38494347897358,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 56.266666666666666,
+        "chunk_end_seconds": 55.733333333333334,
+        "emitted_seconds": 56.44365823897533,
+        "has_text": true,
+        "text": " \n Speaker 1:Okay."
+      },
+      {
+        "audio_available_seconds": 59.2,
+        "chunk_end_seconds": 58.666666666666664,
+        "emitted_seconds": 59.74943384795915,
+        "has_text": true,
+        "text": "Okay, is it ready, ready? \n Speaker 0:I think so. \n Speaker 1:Uh, I think the first "
+      },
+      {
+        "audio_available_seconds": 62.13333333333333,
+        "chunk_end_seconds": 61.6,
+        "emitted_seconds": 62.45277661795262,
+        "has_text": true,
+        "text": "thing we do is introduce ourselves. \n Speaker 0:Oh, "
+      },
+      {
+        "audio_available_seconds": 65.06666666666666,
+        "chunk_end_seconds": 64.53333333333333,
+        "emitted_seconds": 65.50991999299731,
+        "has_text": true,
+        "text": "that's a good point. \n Speaker 1:And, uh, whose name and what you're "
+      },
+      {
+        "audio_available_seconds": 68.0,
+        "chunk_end_seconds": 67.46666666666667,
+        "emitted_seconds": 68.44526538695209,
+        "has_text": true,
+        "text": "function is, so maybe we start with you. \n Speaker 2:Okay, cool. Yeah, "
+      },
+      {
+        "audio_available_seconds": 70.93333333333334,
+        "chunk_end_seconds": 70.4,
+        "emitted_seconds": 71.23526163899805,
+        "has_text": true,
+        "text": "my name is Franzana, and I'm, uh, a "
+      },
+      {
+        "audio_available_seconds": 73.86666666666666,
+        "chunk_end_seconds": 73.33333333333333,
+        "emitted_seconds": 74.13716946099885,
+        "has_text": true,
+        "text": "newself interface. My role is, uh, the "
+      },
+      {
+        "audio_available_seconds": 76.8,
+        "chunk_end_seconds": 76.26666666666667,
+        "emitted_seconds": 76.95978221890982,
+        "has_text": true,
+        "text": "main responsibility is usual interface."
+      },
+      {
+        "audio_available_seconds": 79.73333333333333,
+        "chunk_end_seconds": 79.2,
+        "emitted_seconds": 80.24918594199698,
+        "has_text": true,
+        "text": " \n Speaker 0:Mm-hmm. \n Speaker 2:And my role is to design, uh, uh, "
+      },
+      {
+        "audio_available_seconds": 82.66666666666667,
+        "chunk_end_seconds": 82.13333333333334,
+        "emitted_seconds": 83.00440692494158,
+        "has_text": true,
+        "text": "television remote control. \n Speaker 0:Mm-hmm. Okay."
+      },
+      {
+        "audio_available_seconds": 85.6,
+        "chunk_end_seconds": 85.06666666666666,
+        "emitted_seconds": 85.79597899597138,
+        "has_text": true,
+        "text": "And I'm a marketing person. "
+      },
+      {
+        "audio_available_seconds": 88.53333333333333,
+        "chunk_end_seconds": 88.0,
+        "emitted_seconds": 88.90868248592597,
+        "has_text": true,
+        "text": "I wanna figure out how to sell em. \n Speaker 0:Mm-hmm."
+      },
+      {
+        "audio_available_seconds": 91.46666666666667,
+        "chunk_end_seconds": 90.93333333333334,
+        "emitted_seconds": 92.01957304798998,
+        "has_text": true,
+        "text": " \n Speaker 1:And your name is? \n Speaker 0:My name is Eileen. \n Speaker 1:Okay."
+      },
+      {
+        "audio_available_seconds": 94.4,
+        "chunk_end_seconds": 93.86666666666666,
+        "emitted_seconds": 94.82872868992854,
+        "has_text": true,
+        "text": " \n Speaker 2:Yeah, uh, I'm Genevieve. I'm, um, "
+      },
+      {
+        "audio_available_seconds": 97.33333333333333,
+        "chunk_end_seconds": 96.8,
+        "emitted_seconds": 97.5522812489653,
+        "has_text": true,
+        "text": "my role is industrial designer, and my "
+      },
+      {
+        "audio_available_seconds": 100.26666666666667,
+        "chunk_end_seconds": 99.73333333333333,
+        "emitted_seconds": 100.48141991090961,
+        "has_text": true,
+        "text": "responsibilities are, uh, um, "
+      },
+      {
+        "audio_available_seconds": 103.2,
+        "chunk_end_seconds": 102.66666666666667,
+        "emitted_seconds": 103.36163834691979,
+        "has_text": true,
+        "text": "deal with the technical functional "
+      },
+      {
+        "audio_available_seconds": 106.13333333333334,
+        "chunk_end_seconds": 105.6,
+        "emitted_seconds": 106.33146742393728,
+        "has_text": true,
+        "text": "designs and specifications of user interface "
+      },
+      {
+        "audio_available_seconds": 109.06666666666666,
+        "chunk_end_seconds": 108.53333333333333,
+        "emitted_seconds": 109.39023073099088,
+        "has_text": true,
+        "text": "and dealing with user interface design. \n Speaker 1:Very good."
+      },
+      {
+        "audio_available_seconds": 112.0,
+        "chunk_end_seconds": 111.46666666666667,
+        "emitted_seconds": 112.35909080400597,
+        "has_text": true,
+        "text": "And as you all already know, I'm Betsy. I'm the project "
+      },
+      {
+        "audio_available_seconds": 114.93333333333334,
+        "chunk_end_seconds": 114.4,
+        "emitted_seconds": 115.2560681370087,
+        "has_text": true,
+        "text": "manager for today. So why don't we look at, uh, "
+      },
+      {
+        "audio_available_seconds": 117.86666666666666,
+        "chunk_end_seconds": 117.33333333333333,
+        "emitted_seconds": 118.08219650899991,
+        "has_text": true,
+        "text": "presentation to see what we really need to "
+      },
+      {
+        "audio_available_seconds": 120.8,
+        "chunk_end_seconds": 120.26666666666667,
+        "emitted_seconds": 121.19585562089924,
+        "has_text": true,
+        "text": "suppose to do. \n Speaker 0:Okay. \n Speaker 1:And..."
+      },
+      {
+        "audio_available_seconds": 123.73333333333333,
+        "chunk_end_seconds": 123.2,
+        "emitted_seconds": 123.89593710098416,
+        "has_text": true,
+        "text": "Uh, there's the "
+      },
+      {
+        "audio_available_seconds": 126.66666666666667,
+        "chunk_end_seconds": 126.13333333333334,
+        "emitted_seconds": 126.93630326492712,
+        "has_text": true,
+        "text": "opening. Quaint as tool training. Well, the "
+      },
+      {
+        "audio_available_seconds": 129.6,
+        "chunk_end_seconds": 129.06666666666666,
+        "emitted_seconds": 129.85203489498235,
+        "has_text": true,
+        "text": "tools, uh, I think we already, I "
+      },
+      {
+        "audio_available_seconds": 132.53333333333333,
+        "chunk_end_seconds": 132.0,
+        "emitted_seconds": 132.87489764892962,
+        "has_text": true,
+        "text": "guess the tool is really our, the computer, as far as I can "
+      },
+      {
+        "audio_available_seconds": 135.46666666666667,
+        "chunk_end_seconds": 134.93333333333334,
+        "emitted_seconds": 136.02252269093879,
+        "has_text": true,
+        "text": "see. \n Speaker 0:Mm-hmm. \n Speaker 1:Uh, we get intro, each of us will get "
+      },
+      {
+        "audio_available_seconds": 138.4,
+        "chunk_end_seconds": 137.86666666666667,
+        "emitted_seconds": 138.79530319292098,
+        "has_text": true,
+        "text": "instructions, and we'll take it from there. \n Speaker 0:Mm-hmm."
+      },
+      {
+        "audio_available_seconds": 141.33333333333334,
+        "chunk_end_seconds": 140.8,
+        "emitted_seconds": 141.68100252293516,
+        "has_text": true,
+        "text": " \n Speaker 1:Project plan that falls under the same heading pretty much."
+      },
+      {
+        "audio_available_seconds": 144.26666666666668,
+        "chunk_end_seconds": 143.73333333333332,
+        "emitted_seconds": 144.5187848879723,
+        "has_text": true,
+        "text": "Um, I don't think we have any great "
+      },
+      {
+        "audio_available_seconds": 147.2,
+        "chunk_end_seconds": 146.66666666666666,
+        "emitted_seconds": 147.6133725940017,
+        "has_text": true,
+        "text": "discussion at this point. \n Speaker 0:No. \n Speaker 1:Um, "
+      },
+      {
+        "audio_available_seconds": 150.13333333333333,
+        "chunk_end_seconds": 149.6,
+        "emitted_seconds": 150.19003209890798,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 153.06666666666666,
+        "chunk_end_seconds": 152.53333333333333,
+        "emitted_seconds": 153.37918103591073,
+        "has_text": true,
+        "text": "here is what this thing should be. This thing here are our "
+      },
+      {
+        "audio_available_seconds": 156.0,
+        "chunk_end_seconds": 155.46666666666667,
+        "emitted_seconds": 156.14517646993045,
+        "has_text": true,
+        "text": "design. There's "
+      },
+      {
+        "audio_available_seconds": 158.93333333333334,
+        "chunk_end_seconds": 158.4,
+        "emitted_seconds": 159.16912037390284,
+        "has_text": true,
+        "text": "a new remote control. Uh, should be "
+      },
+      {
+        "audio_available_seconds": 161.86666666666667,
+        "chunk_end_seconds": 161.33333333333334,
+        "emitted_seconds": 162.32480917393696,
+        "has_text": true,
+        "text": "original. \n Speaker 0:Mm-hmm. \n Speaker 1:Trendy, and of "
+      },
+      {
+        "audio_available_seconds": 164.8,
+        "chunk_end_seconds": 164.26666666666668,
+        "emitted_seconds": 165.0893728689989,
+        "has_text": true,
+        "text": "course user friendly. \n Speaker 0:Mm-hmm."
+      },
+      {
+        "audio_available_seconds": 167.73333333333332,
+        "chunk_end_seconds": 167.2,
+        "emitted_seconds": 168.05851656000596,
+        "has_text": true,
+        "text": " \n Speaker 1:So maybe I'll make some notes on that."
+      },
+      {
+        "audio_available_seconds": 170.66666666666666,
+        "chunk_end_seconds": 170.13333333333333,
+        "emitted_seconds": 170.72186399600469,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 173.6,
+        "chunk_end_seconds": 173.06666666666666,
+        "emitted_seconds": 173.6551552079618,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 176.53333333333333,
+        "chunk_end_seconds": 176.0,
+        "emitted_seconds": 176.58860225300305,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 179.46666666666667,
+        "chunk_end_seconds": 178.93333333333334,
+        "emitted_seconds": 179.52183154399972,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 182.4,
+        "chunk_end_seconds": 181.86666666666667,
+        "emitted_seconds": 182.45954654098023,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 185.33333333333334,
+        "chunk_end_seconds": 184.8,
+        "emitted_seconds": 185.3886980409734,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 188.26666666666668,
+        "chunk_end_seconds": 187.73333333333332,
+        "emitted_seconds": 188.32207739993464,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 191.2,
+        "chunk_end_seconds": 190.66666666666666,
+        "emitted_seconds": 191.38177570898551,
+        "has_text": true,
+        "text": " \n Speaker 1:Okay."
+      },
+      {
+        "audio_available_seconds": 194.13333333333333,
+        "chunk_end_seconds": 193.6,
+        "emitted_seconds": 194.18982057797257,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 197.06666666666666,
+        "chunk_end_seconds": 196.53333333333333,
+        "emitted_seconds": 197.53762755391654,
+        "has_text": true,
+        "text": " \n Speaker 1:Okay. \n Speaker 0:Mm-hmm. \n Speaker 1:Alright."
+      },
+      {
+        "audio_available_seconds": 200.0,
+        "chunk_end_seconds": 199.46666666666667,
+        "emitted_seconds": 200.1827482219087,
+        "has_text": true,
+        "text": "Here is what the functional design "
+      },
+      {
+        "audio_available_seconds": 202.93333333333334,
+        "chunk_end_seconds": 202.4,
+        "emitted_seconds": 203.1331156649394,
+        "has_text": true,
+        "text": "is supposed to achieve. Um, "
+      },
+      {
+        "audio_available_seconds": 205.86666666666667,
+        "chunk_end_seconds": 205.33333333333334,
+        "emitted_seconds": 206.0869112999644,
+        "has_text": true,
+        "text": "that is, it's gonna be individual "
+      },
+      {
+        "audio_available_seconds": 208.8,
+        "chunk_end_seconds": 208.26666666666668,
+        "emitted_seconds": 209.09129911090713,
+        "has_text": true,
+        "text": "work, and then at the meeting we'll discuss what, "
+      },
+      {
+        "audio_available_seconds": 211.73333333333332,
+        "chunk_end_seconds": 211.2,
+        "emitted_seconds": 211.93392500898335,
+        "has_text": true,
+        "text": "um, we have come up with."
+      },
+      {
+        "audio_available_seconds": 214.66666666666666,
+        "chunk_end_seconds": 214.13333333333333,
+        "emitted_seconds": 214.8687902529491,
+        "has_text": true,
+        "text": "The same goes for the conceptual design."
+      },
+      {
+        "audio_available_seconds": 217.6,
+        "chunk_end_seconds": 217.06666666666666,
+        "emitted_seconds": 217.8602898879908,
+        "has_text": true,
+        "text": "That will be individual work. We, and then "
+      },
+      {
+        "audio_available_seconds": 220.53333333333333,
+        "chunk_end_seconds": 220.0,
+        "emitted_seconds": 220.67983555898536,
+        "has_text": true,
+        "text": "discussion afterwards, detailed "
+      },
+      {
+        "audio_available_seconds": 223.46666666666667,
+        "chunk_end_seconds": 222.93333333333334,
+        "emitted_seconds": 224.118793386966,
+        "has_text": true,
+        "text": "design. \n Speaker 0:Okay. \n Speaker 1:Same thing, basically. \n Speaker 0:Okay. \n Speaker 0:Group "
+      },
+      {
+        "audio_available_seconds": 226.4,
+        "chunk_end_seconds": 225.86666666666667,
+        "emitted_seconds": 226.6782713358989,
+        "has_text": true,
+        "text": "different types of design that we're gonna be concerned with."
+      },
+      {
+        "audio_available_seconds": 229.33333333333334,
+        "chunk_end_seconds": 228.8,
+        "emitted_seconds": 229.6423127159942,
+        "has_text": true,
+        "text": " \n Speaker 1:Mm-hmm. Mm-hmm."
+      },
+      {
+        "audio_available_seconds": 232.26666666666668,
+        "chunk_end_seconds": 231.73333333333332,
+        "emitted_seconds": 232.32323060499039,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 235.2,
+        "chunk_end_seconds": 234.66666666666666,
+        "emitted_seconds": 235.25664616096765,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 238.13333333333333,
+        "chunk_end_seconds": 237.6,
+        "emitted_seconds": 238.33658830297645,
+        "has_text": true,
+        "text": " \n Speaker 1:So, "
+      },
+      {
+        "audio_available_seconds": 240.0,
+        "chunk_end_seconds": 240.0,
+        "emitted_seconds": 240.09299647191074,
+        "has_text": true,
+        "text": "instruction..."
+      }
+    ],
+    "metadata": {
+      "raw_output": " \n Speaker 0:How am I supposed to get to your robes? \n Speaker 1:Right. \n Speaker 0:Right. \n Speaker 1:And then there's the other one. \n Speaker 0:Okay. \n Speaker 1:Okay.Okay, is it ready, ready? \n Speaker 0:I think so. \n Speaker 1:Uh, I think the first thing we do is introduce ourselves. \n Speaker 0:Oh, that's a good point. \n Speaker 1:And, uh, whose name and what you're function is, so maybe we start with you. \n Speaker 2:Okay, cool. Yeah, my name is Franzana, and I'm, uh, a newself interface. My role is, uh, the main responsibility is usual interface. \n Speaker 0:Mm-hmm. \n Speaker 2:And my role is to design, uh, uh, television remote control. \n Speaker 0:Mm-hmm. Okay.And I'm a marketing person. I wanna figure out how to sell em. \n Speaker 0:Mm-hmm. \n Speaker 1:And your name is? \n Speaker 0:My name is Eileen. \n Speaker 1:Okay. \n Speaker 2:Yeah, uh, I'm Genevieve. I'm, um, my role is industrial designer, and my responsibilities are, uh, um, deal with the technical functional designs and specifications of user interface and dealing with user interface design. \n Speaker 1:Very good.And as you all already know, I'm Betsy. I'm the project manager for today. So why don't we look at, uh, presentation to see what we really need to suppose to do. \n Speaker 0:Okay. \n Speaker 1:And...Uh, there's the opening. Quaint as tool training. Well, the tools, uh, I think we already, I guess the tool is really our, the computer, as far as I can see. \n Speaker 0:Mm-hmm. \n Speaker 1:Uh, we get intro, each of us will get instructions, and we'll take it from there. \n Speaker 0:Mm-hmm. \n Speaker 1:Project plan that falls under the same heading pretty much.Um, I don't think we have any great discussion at this point. \n Speaker 0:No. \n Speaker 1:Um, here is what this thing should be. This thing here are our design. There's a new remote control. Uh, should be original. \n Speaker 0:Mm-hmm. \n Speaker 1:Trendy, and of course user friendly. \n Speaker 0:Mm-hmm. \n Speaker 1:So maybe I'll make some notes on that. \n Speaker 1:Okay. \n Speaker 1:Okay. \n Speaker 0:Mm-hmm. \n Speaker 1:Alright.Here is what the functional design is supposed to achieve. Um, that is, it's gonna be individual work, and then at the meeting we'll discuss what, um, we have come up with.The same goes for the conceptual design.That will be individual work. We, and then discussion afterwards, detailed design. \n Speaker 0:Okay. \n Speaker 1:Same thing, basically. \n Speaker 0:Okay. \n Speaker 0:Group different types of design that we're gonna be concerned with. \n Speaker 1:Mm-hmm. Mm-hmm. \n Speaker 1:So, instruction...",
+      "realtime_paced": true,
+      "stream_compute_seconds": 18.531564529868774,
+      "timing_reason": "Official streaming output has no speech timestamps",
+      "generation_limit_hit": null,
+      "stream_output_parser": "joined-chunks-v1"
+    }
+  },
+  "wall_seconds": 240.1432355910074,
+  "rtf": 1.0005968149625308,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 17661192192,
+      "reserved_bytes": 17943232512
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 3490643968
+}

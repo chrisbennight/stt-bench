@@ -1,0 +1,29 @@
+{
+  "Qwen/Qwen2.5-7B": {
+    "revision": "d149729398750b98c0af14eb82c78cfe92750796"
+  },
+  "OpenMOSS-Team/MOSS-Transcribe-Diarize": {
+    "revision": "704aa4a9c304e8520be88901e0d1960158ef5b15"
+  },
+  "microsoft/VibeVoice-ASR": {
+    "revision": "d0c9efdb8d614685062c04425d91e01b6f37d944"
+  },
+  "microsoft/VibeVoice-ASR-Streaming-7B": {
+    "revision": "60d858b518b4e19d404af3737f848fc185b30177"
+  },
+  "Qwen/Qwen3-ASR-1.7B": {
+    "revision": "7278e1e70fe206f11671096ffdd38061171dd6e5"
+  },
+  "Qwen/Qwen3-ForcedAligner-0.6B": {
+    "revision": "c7cbfc2048c462b0d63a45797104fc9db3ad62b7"
+  },
+  "pyannote/speaker-diarization-community-1": {
+    "revision": "3533c8cf8e369892e6b79ff1bf80f7b0286a54ee"
+  },
+  "nvidia/Nemotron-3-Diarization": {
+    "revision": "f667ed73aee57d40cc39428eb768b4fd87a0a29e",
+    "nemo_files": [
+      "Nemotron-3-Diarization.nemo"
+    ]
+  }
+}

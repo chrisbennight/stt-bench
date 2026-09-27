@@ -1,0 +1,38 @@
+{
+  "protocol": {"tcp_collar": 5.0, "der_collar": 0.0, "worker_timeout_seconds": 14400},
+  "models": [
+    {
+      "id": "moss", "adapter": "moss", "python": "../.venv-moss/bin/python",
+      "options": {"model": "../models/moss", "device": "cuda:0", "max_new_tokens": 32768}
+    },
+    {
+      "id": "vibevoice", "adapter": "vibevoice", "python": "../.venv-vibevoice/bin/python",
+      "options": {"model": "../models/vibevoice", "tokenizer": "../models/vibevoice_tokenizer", "device": "cuda:0", "max_new_tokens": 32768}
+    },
+    {
+      "id": "qwen_pyannote", "adapter": "qwen_pyannote",
+      "python": "../.venv-qwen_pyannote/bin/python",
+      "options": {
+        "model": "../models/qwen", "aligner": "../models/aligner",
+        "diarizer": "../models/pyannote", "device": "cuda:0", "asr_chunk_seconds": 30
+      }
+    },
+    {
+      "id": "qwen_nemotron", "adapter": "qwen_nemotron",
+      "python": "../.venv-qwen_nemotron/bin/python",
+      "options": {
+        "model": "../models/qwen", "aligner": "../models/aligner",
+        "diarizer": "../models/nemotron/Nemotron-3-Diarization.nemo",
+        "device": "cuda:0", "asr_chunk_seconds": 30
+      }
+    },
+    {
+      "id": "vibevoice_streaming", "adapter": "vibevoice_streaming",
+      "python": "../.venv-vibevoice/bin/python",
+      "options": {
+        "model": "../models/vibevoice_streaming", "device": "cuda:0",
+        "max_new_tokens_per_chunk": 256, "realtime": true
+      }
+    }
+  ]
+}

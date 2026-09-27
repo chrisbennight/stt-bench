@@ -1,0 +1,442 @@
+{
+  "id": "ES2004a-15360000",
+  "duration": 89.3546875,
+  "seed": 178953250,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "0",
+        "text": "No reason, we need to make it look as fashionable and stylish as a mobile phone. It can still be lightweight plastic and, you know... ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Something that's easily molded and cheap. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Sorry, I'm treading on your territory. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "No, no, it's fine. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Sorry.Um, right, okay, we've got half an hour before the next meeting, so we're all gonna go off and do our individual things. Um, I think that's probably about it, and then we'll come back in a hiz again and I get to do another fantastic PowerPoint presentation. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Just, just a quick thing about the, um, about what you were saying about the doesn't need to be fashionable. The, so I, I had a quick look at the company website and it's like the, the, uh, we put the fashion into electronics. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Fashion. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Oh, okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "So I think, think the whole design thing might be quite, I mean, you don't, you, you can still have plastic and it look quite good, but... ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Sure. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. Yeah. I mean, it doesn't have to be that, you know, that was my main point with the remote unit is metal. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "I don't know if using plastic does make it cheap. I have to see what the, you know, the... ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Okay.I mean, the Sky remote controls and everything, they're kind of molded and look a bit different, and the Telewest remote control is like silver plastic, which, uh, looks a bit smarter. So yeah, I guess that's definitely quite good. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Okay.So let's break it up then. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "So I'll see you in half an hour. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Do we go back to Room 204? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah.",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [
+      {
+        "audio_available_seconds": 3.466666666666667,
+        "chunk_end_seconds": 2.933333333333333,
+        "emitted_seconds": 3.835577812977135,
+        "has_text": true,
+        "text": " \n Speaker 0:No reason, we need to make it look as fashionable and "
+      },
+      {
+        "audio_available_seconds": 6.4,
+        "chunk_end_seconds": 5.866666666666666,
+        "emitted_seconds": 6.894043979002163,
+        "has_text": true,
+        "text": "stylish as a mobile phone. It can still be lightweight plastic and, you know... \n Speaker 1:Yeah."
+      },
+      {
+        "audio_available_seconds": 9.333333333333334,
+        "chunk_end_seconds": 8.8,
+        "emitted_seconds": 9.73941585898865,
+        "has_text": true,
+        "text": " \n Speaker 2:Yeah. \n Speaker 0:Something that's easily molded and cheap."
+      },
+      {
+        "audio_available_seconds": 12.266666666666667,
+        "chunk_end_seconds": 11.733333333333333,
+        "emitted_seconds": 13.0690168220317,
+        "has_text": true,
+        "text": " \n Speaker 1:Yeah. \n Speaker 0:Sorry, I'm treading on your territory. \n Speaker 2:No, no, it's fine. \n Speaker 0:Sorry."
+      },
+      {
+        "audio_available_seconds": 15.2,
+        "chunk_end_seconds": 14.666666666666666,
+        "emitted_seconds": 15.42866705195047,
+        "has_text": true,
+        "text": "Um, right, okay, we've got "
+      },
+      {
+        "audio_available_seconds": 18.133333333333333,
+        "chunk_end_seconds": 17.6,
+        "emitted_seconds": 18.521656107041053,
+        "has_text": true,
+        "text": "half an hour before the next meeting, so we're all gonna go off and do our "
+      },
+      {
+        "audio_available_seconds": 21.066666666666666,
+        "chunk_end_seconds": 20.533333333333335,
+        "emitted_seconds": 21.22476178803481,
+        "has_text": true,
+        "text": "individual things. Um, "
+      },
+      {
+        "audio_available_seconds": 24.0,
+        "chunk_end_seconds": 23.466666666666665,
+        "emitted_seconds": 24.21161953196861,
+        "has_text": true,
+        "text": "I think that's probably about it, "
+      },
+      {
+        "audio_available_seconds": 26.933333333333334,
+        "chunk_end_seconds": 26.4,
+        "emitted_seconds": 27.269246943993494,
+        "has_text": true,
+        "text": "and then we'll come back in a hiz again and I get to "
+      },
+      {
+        "audio_available_seconds": 29.866666666666667,
+        "chunk_end_seconds": 29.333333333333332,
+        "emitted_seconds": 30.007979162968695,
+        "has_text": true,
+        "text": "do another fantastic PowerPoint "
+      },
+      {
+        "audio_available_seconds": 32.8,
+        "chunk_end_seconds": 32.266666666666666,
+        "emitted_seconds": 33.312905270955525,
+        "has_text": true,
+        "text": "presentation. \n Speaker 2:Yeah. \n Speaker 2:Just, just a quick thing about the, um, "
+      },
+      {
+        "audio_available_seconds": 35.733333333333334,
+        "chunk_end_seconds": 35.2,
+        "emitted_seconds": 35.928435798035935,
+        "has_text": true,
+        "text": "about what you were saying about the "
+      },
+      {
+        "audio_available_seconds": 38.666666666666664,
+        "chunk_end_seconds": 38.13333333333333,
+        "emitted_seconds": 38.98622423002962,
+        "has_text": true,
+        "text": "doesn't need to be fashionable. The, so I, I had "
+      },
+      {
+        "audio_available_seconds": 41.6,
+        "chunk_end_seconds": 41.06666666666667,
+        "emitted_seconds": 41.864739703945816,
+        "has_text": true,
+        "text": "a quick look at the company website and it's like "
+      },
+      {
+        "audio_available_seconds": 44.53333333333333,
+        "chunk_end_seconds": 44.0,
+        "emitted_seconds": 44.78208811103832,
+        "has_text": true,
+        "text": "the, the, uh, we put the fashion "
+      },
+      {
+        "audio_available_seconds": 47.46666666666667,
+        "chunk_end_seconds": 46.93333333333333,
+        "emitted_seconds": 48.05416596797295,
+        "has_text": true,
+        "text": "into electronics. \n Speaker 1:Fashion. \n Speaker 1:Oh, okay. \n Speaker 2:So I think, think "
+      },
+      {
+        "audio_available_seconds": 50.4,
+        "chunk_end_seconds": 49.86666666666667,
+        "emitted_seconds": 50.64275100303348,
+        "has_text": true,
+        "text": "the whole design thing might be quite, I "
+      },
+      {
+        "audio_available_seconds": 53.333333333333336,
+        "chunk_end_seconds": 52.8,
+        "emitted_seconds": 53.68794725998305,
+        "has_text": true,
+        "text": "mean, you don't, you, you can still have plastic and it look "
+      },
+      {
+        "audio_available_seconds": 56.266666666666666,
+        "chunk_end_seconds": 55.733333333333334,
+        "emitted_seconds": 56.94905121799093,
+        "has_text": true,
+        "text": "quite good, but... \n Speaker 1:Yeah. \n Speaker 1:Sure. \n Speaker 1:Yeah. Yeah. I mean, it doesn't "
+      },
+      {
+        "audio_available_seconds": 59.2,
+        "chunk_end_seconds": 58.666666666666664,
+        "emitted_seconds": 59.50227721501142,
+        "has_text": true,
+        "text": "have to be that, you know, that was my main point "
+      },
+      {
+        "audio_available_seconds": 62.13333333333333,
+        "chunk_end_seconds": 61.6,
+        "emitted_seconds": 62.80813558399677,
+        "has_text": true,
+        "text": "with the remote unit is metal. \n Speaker 2:Yeah. \n Speaker 1:I don't know if using plastic does make it cheap. I have to see "
+      },
+      {
+        "audio_available_seconds": 65.06666666666666,
+        "chunk_end_seconds": 64.53333333333333,
+        "emitted_seconds": 65.76018952496815,
+        "has_text": true,
+        "text": "what the, you know, the... \n Speaker 2:Yeah. \n Speaker 1:Yeah. \n Speaker 2:Yeah. \n Speaker 1:Okay."
+      },
+      {
+        "audio_available_seconds": 68.0,
+        "chunk_end_seconds": 67.46666666666667,
+        "emitted_seconds": 68.32026822201442,
+        "has_text": true,
+        "text": "I mean, the Sky remote controls and everything, they're kind of "
+      },
+      {
+        "audio_available_seconds": 70.93333333333334,
+        "chunk_end_seconds": 70.4,
+        "emitted_seconds": 71.25489403295796,
+        "has_text": true,
+        "text": "molded and look a bit different, and the Telewest remote "
+      },
+      {
+        "audio_available_seconds": 73.86666666666666,
+        "chunk_end_seconds": 73.33333333333333,
+        "emitted_seconds": 74.08204502798617,
+        "has_text": true,
+        "text": "control is like silver plastic, which, "
+      },
+      {
+        "audio_available_seconds": 76.8,
+        "chunk_end_seconds": 76.26666666666667,
+        "emitted_seconds": 77.06809222802985,
+        "has_text": true,
+        "text": "uh, looks a bit smarter. So yeah, I "
+      },
+      {
+        "audio_available_seconds": 79.73333333333333,
+        "chunk_end_seconds": 79.2,
+        "emitted_seconds": 80.41142810101155,
+        "has_text": true,
+        "text": "guess that's definitely quite good. \n Speaker 0:Yeah. \n Speaker 1:Okay. \n Speaker 0:Okay. \n Speaker 1:Okay."
+      },
+      {
+        "audio_available_seconds": 82.66666666666667,
+        "chunk_end_seconds": 82.13333333333334,
+        "emitted_seconds": 82.86438830196857,
+        "has_text": true,
+        "text": "So let's break it up then."
+      },
+      {
+        "audio_available_seconds": 85.6,
+        "chunk_end_seconds": 85.06666666666666,
+        "emitted_seconds": 86.171592063969,
+        "has_text": true,
+        "text": " \n Speaker 0:Okay. \n Speaker 2:Okay. \n Speaker 1:So I'll see you in half an hour."
+      },
+      {
+        "audio_available_seconds": 88.53333333333333,
+        "chunk_end_seconds": 88.0,
+        "emitted_seconds": 88.78415665205102,
+        "has_text": true,
+        "text": " \n Speaker 0:Do we go back to "
+      },
+      {
+        "audio_available_seconds": 89.35470833333333,
+        "chunk_end_seconds": 89.3546875,
+        "emitted_seconds": 89.76554368599318,
+        "has_text": true,
+        "text": "Room 204? \n Speaker 1:Yeah. \n Speaker 0:Yeah."
+      }
+    ],
+    "metadata": {
+      "raw_output": " \n Speaker 0:No reason, we need to make it look as fashionable and stylish as a mobile phone. It can still be lightweight plastic and, you know... \n Speaker 1:Yeah. \n Speaker 2:Yeah. \n Speaker 0:Something that's easily molded and cheap. \n Speaker 1:Yeah. \n Speaker 0:Sorry, I'm treading on your territory. \n Speaker 2:No, no, it's fine. \n Speaker 0:Sorry.Um, right, okay, we've got half an hour before the next meeting, so we're all gonna go off and do our individual things. Um, I think that's probably about it, and then we'll come back in a hiz again and I get to do another fantastic PowerPoint presentation. \n Speaker 2:Yeah. \n Speaker 2:Just, just a quick thing about the, um, about what you were saying about the doesn't need to be fashionable. The, so I, I had a quick look at the company website and it's like the, the, uh, we put the fashion into electronics. \n Speaker 1:Fashion. \n Speaker 1:Oh, okay. \n Speaker 2:So I think, think the whole design thing might be quite, I mean, you don't, you, you can still have plastic and it look quite good, but... \n Speaker 1:Yeah. \n Speaker 1:Sure. \n Speaker 1:Yeah. Yeah. I mean, it doesn't have to be that, you know, that was my main point with the remote unit is metal. \n Speaker 2:Yeah. \n Speaker 1:I don't know if using plastic does make it cheap. I have to see what the, you know, the... \n Speaker 2:Yeah. \n Speaker 1:Yeah. \n Speaker 2:Yeah. \n Speaker 1:Okay.I mean, the Sky remote controls and everything, they're kind of molded and look a bit different, and the Telewest remote control is like silver plastic, which, uh, looks a bit smarter. So yeah, I guess that's definitely quite good. \n Speaker 0:Yeah. \n Speaker 1:Okay. \n Speaker 0:Okay. \n Speaker 1:Okay.So let's break it up then. \n Speaker 0:Okay. \n Speaker 2:Okay. \n Speaker 1:So I'll see you in half an hour. \n Speaker 0:Do we go back to Room 204? \n Speaker 1:Yeah. \n Speaker 0:Yeah.",
+      "realtime_paced": true,
+      "stream_compute_seconds": 11.839313831063919,
+      "timing_reason": "Official streaming output has no speech timestamps",
+      "generation_limit_hit": null,
+      "stream_output_parser": "joined-chunks-v1"
+    }
+  },
+  "wall_seconds": 89.78442405594978,
+  "rtf": 1.0048093342159559,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 17565190144,
+      "reserved_bytes": 17943232512
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 3490643968
+}

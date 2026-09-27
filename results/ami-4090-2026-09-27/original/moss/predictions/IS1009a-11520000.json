@@ -1,0 +1,268 @@
+{
+  "id": "IS1009a-11520000",
+  "duration": 118.9973125,
+  "seed": 121160637,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "S01",
+        "text": "And so you have a working design and then a functional design. And the marketing manager is coming up with some user requirement specification, like friendliness and what we just discussed in general. That would be your idea. And of course price, that it that it that the price is a good price. I mean the price is given but uh that with",
+        "start": 0.0,
+        "end": 24.68
+      },
+      {
+        "speaker": "S02",
+        "text": "Okay.",
+        "start": 0.44,
+        "end": 0.88
+      },
+      {
+        "speaker": "S03",
+        "text": "Mm-hmm.",
+        "start": 5.23,
+        "end": 5.61
+      },
+      {
+        "speaker": "S01",
+        "text": "We have to justify that price by having sufficient features to make it sell at that price.",
+        "start": 5.3,
+        "end": 9.88
+      },
+      {
+        "speaker": "S01",
+        "text": "That's right.",
+        "start": 6.33,
+        "end": 6.87
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm.",
+        "start": 9.41,
+        "end": 9.67
+      },
+      {
+        "speaker": "S03",
+        "text": "Mm-hmm.",
+        "start": 11.31,
+        "end": 11.75
+      },
+      {
+        "speaker": "S03",
+        "text": "Mm-hmm.",
+        "start": 21.31,
+        "end": 21.73
+      },
+      {
+        "speaker": "S03",
+        "text": "We have to justify that price by having sufficient features to make it sell at that price.",
+        "start": 25.23,
+        "end": 29.83
+      },
+      {
+        "speaker": "S01",
+        "text": "That's right.",
+        "start": 26.32,
+        "end": 26.85
+      },
+      {
+        "speaker": "S01",
+        "text": "That's right.",
+        "start": 29.41,
+        "end": 29.97
+      },
+      {
+        "speaker": "S01",
+        "text": "And you know besp you you will get specific um instructions for that. I think that's the end of the show. Yeah.",
+        "start": 31.35,
+        "end": 38.01
+      },
+      {
+        "speaker": "S03",
+        "text": "Mm.",
+        "start": 31.61,
+        "end": 31.87
+      },
+      {
+        "speaker": "S01",
+        "text": "So um we have well we have a f time two two two three minutes. Um any questions at this point or uh suggestions?",
+        "start": 44.68,
+        "end": 55.97
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm.",
+        "start": 57.2,
+        "end": 57.85
+      },
+      {
+        "speaker": "S01",
+        "text": "I think basically basically you will get instructions to work with and if you have any questions and uh I guess you can uh",
+        "start": 57.78,
+        "end": 67.11
+      },
+      {
+        "speaker": "S02",
+        "text": "Okay.",
+        "start": 62.71,
+        "end": 63.21
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 64.21,
+        "end": 64.51
+      },
+      {
+        "speaker": "S03",
+        "text": "Okay, I think I have enough to think about till our next meeting.",
+        "start": 67.56,
+        "end": 70.77
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm-hmm.",
+        "start": 70.92,
+        "end": 71.27
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah, either of us. Yeah, you may have a pick, yeah.",
+        "start": 71.21,
+        "end": 73.97
+      },
+      {
+        "speaker": "S03",
+        "text": "How about you people? Um",
+        "start": 71.59,
+        "end": 73.11
+      },
+      {
+        "speaker": "S01",
+        "text": "Yes, mm-hmm.",
+        "start": 72.6,
+        "end": 73.55
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 73.58,
+        "end": 73.91
+      },
+      {
+        "speaker": "S01",
+        "text": "'Kay.",
+        "start": 74.44,
+        "end": 74.75
+      },
+      {
+        "speaker": "S01",
+        "text": "Okay.",
+        "start": 75.55,
+        "end": 75.93
+      },
+      {
+        "speaker": "S03",
+        "text": "Alright, well uh",
+        "start": 76.45,
+        "end": 77.71
+      },
+      {
+        "speaker": "S04",
+        "text": "So let's see.",
+        "start": 77.02,
+        "end": 77.81
+      },
+      {
+        "speaker": "S01",
+        "text": "Then uh we see you in about thirty minutes and see what we can come up with.",
+        "start": 77.94,
+        "end": 83.51
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm.",
+        "start": 81.88,
+        "end": 82.21
+      },
+      {
+        "speaker": "S04",
+        "text": "Mm-hmm.",
+        "start": 83.38,
+        "end": 83.73
+      },
+      {
+        "speaker": "S03",
+        "text": "Okay, very good.",
+        "start": 83.78,
+        "end": 84.57
+      },
+      {
+        "speaker": "S02",
+        "text": "Okay.",
+        "start": 84.01,
+        "end": 84.45
+      },
+      {
+        "speaker": "S01",
+        "text": "Okay?",
+        "start": 84.77,
+        "end": 85.15
+      },
+      {
+        "speaker": "S04",
+        "text": "Yes.",
+        "start": 85.25,
+        "end": 85.71
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 85.45,
+        "end": 85.77
+      },
+      {
+        "speaker": "S01",
+        "text": "Okay.",
+        "start": 86.89,
+        "end": 87.21
+      },
+      {
+        "speaker": "S01",
+        "text": "So now we have to walk out.",
+        "start": 94.46,
+        "end": 95.71
+      },
+      {
+        "speaker": "S02",
+        "text": "Can we take this?",
+        "start": 99.84,
+        "end": 100.61
+      },
+      {
+        "speaker": "S04",
+        "text": "No, no, I think we have to keep it here. It's",
+        "start": 100.63,
+        "end": 103.27
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "[0.00][S01]And so you have a working design and then a functional design. And the marketing manager is coming up with some user requirement specification, like friendliness and what we just discussed in general. That would be your idea. And of course price, that it that it that the price is a good price. I mean the price is given but uh that with[24.68][0.44][S02]Okay.[0.88][5.23][S03]Mm-hmm.[5.61][5.30][S01]We have to justify that price by having sufficient features to make it sell at that price.[9.88][6.33][S01]That's right.[6.87][9.41][S01]Mm.[9.67][11.31][S03]Mm-hmm.[11.75][21.31][S03]Mm-hmm.[21.73][25.23][S03]We have to justify that price by having sufficient features to make it sell at that price.[29.83][26.32][S01]That's right.[26.85][29.41][S01]That's right.[29.97][31.35][S01]And you know besp you you will get specific um instructions for that. I think that's the end of the show. Yeah.[38.01][31.61][S03]Mm.[31.87][44.68][S01]So um we have well we have a f time two two two three minutes. Um any questions at this point or uh suggestions?[55.97][57.20][S02]Mm.[57.85][57.78][S01]I think basically basically you will get instructions to work with and if you have any questions and uh I guess you can uh[67.11][62.71][S02]Okay.[63.21][64.21][S02]Yeah.[64.51][67.56][S03]Okay, I think I have enough to think about till our next meeting.[70.77][70.92][S01]Mm-hmm.[71.27][71.21][S02]Yeah, either of us. Yeah, you may have a pick, yeah.[73.97][71.59][S03]How about you people? Um[73.11][72.60][S01]Yes, mm-hmm.[73.55][73.58][S04]Yeah.[73.91][74.44][S01]'Kay.[74.75][75.55][S01]Okay.[75.93][76.45][S03]Alright, well uh[77.71][77.02][S04]So let's see.[77.81][77.94][S01]Then uh we see you in about thirty minutes and see what we can come up with.[83.51][81.88][S02]Mm.[82.21][83.38][S04]Mm-hmm.[83.73][83.78][S03]Okay, very good.[84.57][84.01][S02]Okay.[84.45][84.77][S01]Okay?[85.15][85.25][S04]Yes.[85.71][85.45][S02]Yeah.[85.77][86.89][S01]Okay.[87.21][94.46][S01]So now we have to walk out.[95.71][99.84][S02]Can we take this?[100.61][100.63][S04]No, no, I think we have to keep it here. It's[103.27]",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 8.756308673066087,
+  "rtf": 0.07358408764959365,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 2137588224,
+      "reserved_bytes": 2627731456
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 2850721792
+}

@@ -1,0 +1,334 @@
+{
+  "id": "EN2002a-23040000",
+  "duration": 240.0,
+  "seed": 3717778605,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "1",
+        "text": "Yeah.",
+        "start": 1.26,
+        "end": 2.12
+      },
+      {
+        "speaker": "0",
+        "text": "Good fun.",
+        "start": 5.56,
+        "end": 7.3
+      },
+      {
+        "speaker": "1",
+        "text": "So basically, we got to kind of do some work, man.",
+        "start": 11.34,
+        "end": 14.11
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, that's true.",
+        "start": 14.11,
+        "end": 15.01
+      },
+      {
+        "speaker": "1",
+        "text": "The answer to that is, I mean, we're going to show it.",
+        "start": 15.01,
+        "end": 17.96
+      },
+      {
+        "speaker": "0",
+        "text": "Weekend, but weekend's still four days off.",
+        "start": 17.96,
+        "end": 20.64
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. Still at the bottom of the mountain.",
+        "start": 20.64,
+        "end": 25.11
+      },
+      {
+        "speaker": "2",
+        "text": "How many hours is this?",
+        "start": 25.11,
+        "end": 27.27
+      },
+      {
+        "speaker": "0",
+        "text": "I don't think I should have that much to do, but, you know.",
+        "start": 27.27,
+        "end": 29.59
+      },
+      {
+        "speaker": "1",
+        "text": "Well, should you play any more to explore any other?",
+        "start": 29.59,
+        "end": 32.76
+      },
+      {
+        "speaker": "0",
+        "text": "No idea.",
+        "start": 33.64,
+        "end": 35.26
+      },
+      {
+        "speaker": "1",
+        "text": "How's your, how's your, um, uh, quantifier raising?",
+        "start": 35.26,
+        "end": 39.8
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah.",
+        "start": 40.18,
+        "end": 41.93
+      },
+      {
+        "speaker": "0",
+        "text": "I can't remember what I'm supposed to do, by the way. Am I supposed to do the summarization thing you bought?",
+        "start": 41.93,
+        "end": 48.0
+      },
+      {
+        "speaker": "0",
+        "text": "No.",
+        "start": 53.26,
+        "end": 54.7
+      },
+      {
+        "speaker": "2",
+        "text": "Who was doing?",
+        "start": 54.7,
+        "end": 56.5
+      },
+      {
+        "speaker": "0",
+        "text": "You do.",
+        "start": 58.5,
+        "end": 59.64
+      },
+      {
+        "speaker": "2",
+        "text": "Oh, really?",
+        "start": 59.64,
+        "end": 60.52
+      },
+      {
+        "speaker": "0",
+        "text": "Well, I'll do that then.",
+        "start": 61.36,
+        "end": 62.85
+      },
+      {
+        "speaker": "2",
+        "text": "These can be changed.",
+        "start": 62.85,
+        "end": 63.81
+      },
+      {
+        "speaker": "0",
+        "text": "Should I do that?",
+        "start": 63.81,
+        "end": 65.21
+      },
+      {
+        "speaker": "2",
+        "text": "Um, I don't know, it doesn't matter.",
+        "start": 65.21,
+        "end": 66.99
+      },
+      {
+        "speaker": "0",
+        "text": "Well, you know.",
+        "start": 66.99,
+        "end": 67.52
+      },
+      {
+        "speaker": "2",
+        "text": "If you want to, you know, it's just, you know, play around with some extra stuff, you have some time, why not?",
+        "start": 67.52,
+        "end": 72.21
+      },
+      {
+        "speaker": "0",
+        "text": "They showed me to do it, didn't they?",
+        "start": 72.21,
+        "end": 73.96
+      },
+      {
+        "speaker": "1",
+        "text": "So what courses should I have picked if we're not doing any work?",
+        "start": 76.18,
+        "end": 79.36
+      },
+      {
+        "speaker": "0",
+        "text": "Well, I'm doing communications, which I had one exercise, and I've done that, like, two weeks ago. That's in two weeks.",
+        "start": 80.4,
+        "end": 89.81
+      },
+      {
+        "speaker": "2",
+        "text": "Is that the informatics course?",
+        "start": 89.81,
+        "end": 92.58
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, it's a.",
+        "start": 92.58,
+        "end": 94.01
+      },
+      {
+        "speaker": "2",
+        "text": "Oh, like, digital.",
+        "start": 94.01,
+        "end": 95.45
+      },
+      {
+        "speaker": "0",
+        "text": "Non-courses or something.",
+        "start": 95.45,
+        "end": 97.49
+      },
+      {
+        "speaker": "1",
+        "text": "Oh, I see, I see, yeah.",
+        "start": 97.49,
+        "end": 98.88
+      },
+      {
+        "speaker": "0",
+        "text": "And then, um, I'm doing Powell programming languages and systems, which we had one exercise as well, and that's in, like, Friday.",
+        "start": 98.88,
+        "end": 108.18
+      },
+      {
+        "speaker": "0",
+        "text": "Well, I'm not doing any backband meetings, so, you know.",
+        "start": 110.7,
+        "end": 114.06
+      },
+      {
+        "speaker": "2",
+        "text": "I'll be happy when this week is over.",
+        "start": 121.61,
+        "end": 124.36
+      },
+      {
+        "speaker": "0",
+        "text": "I'll be happy when this course is over.",
+        "start": 124.36,
+        "end": 127.39
+      },
+      {
+        "speaker": "2",
+        "text": "I think that's about it then. Anything else we need to discuss? Did we want to meet before we talk to Steve next week?",
+        "start": 129.63,
+        "end": 140.97
+      },
+      {
+        "speaker": "2",
+        "text": "Well, I don't know. We'll probably get some work done over the weekend, so. I know, after D and LG or something, maybe just have a little quick little update and just.",
+        "start": 142.27,
+        "end": 151.46
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, if you like. We can all decide then.",
+        "start": 151.64,
+        "end": 155.04
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, exactly.",
+        "start": 155.04,
+        "end": 155.98
+      },
+      {
+        "speaker": "0",
+        "text": "Um, so, what, what are you planning to do over the weekend then?",
+        "start": 156.72,
+        "end": 160.09
+      },
+      {
+        "speaker": "2",
+        "text": "Search.",
+        "start": 160.09,
+        "end": 161.18
+      },
+      {
+        "speaker": "0",
+        "text": "You're gonna do the search. You're gonna implement the search.",
+        "start": 161.38,
+        "end": 165.24
+      },
+      {
+        "speaker": "2",
+        "text": "Couldn't be that hard. Well, it'll be, you know, still a limited version of, you know, the next query.",
+        "start": 165.24,
+        "end": 173.18
+      },
+      {
+        "speaker": "2",
+        "text": "Won't be the whole thing, but. Um, like, we can just decide sort of things that we do want to do. Well, actually, most of it's just dialogue hacks, so. This one's.",
+        "start": 174.44,
+        "end": 184.44
+      },
+      {
+        "speaker": "2",
+        "text": "There's so many topics.",
+        "start": 190.28,
+        "end": 193.42
+      },
+      {
+        "speaker": "0",
+        "text": "It's just that I think we need to set ourselves some milestones. Because otherwise, you know.",
+        "start": 198.14,
+        "end": 205.68
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, we'll get behind schedule, you know, pretty quick. Like you're saying, yeah. Well, actually, do we want to set a date for interim prototype? Specifically, a date?",
+        "start": 206.43,
+        "end": 218.59
+      },
+      {
+        "speaker": "0",
+        "text": "Um, well, you decide, I don't know much about prototypes. Um, the progress report is June 23rd of February.",
+        "start": 220.27,
+        "end": 234.65
+      },
+      {
+        "speaker": "1",
+        "text": "Sort, sort, sort, two weeks.",
+        "start": 235.28,
+        "end": 237.13
+      },
+      {
+        "speaker": "0",
+        "text": "Um, well, how about.",
+        "start": 237.13,
+        "end": 240.0
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "assistant\n[{\"Start\":0,\"End\":1.26,\"Speaker\":0,\"Content\":\"[Laughter]\"},{\"Start\":1.26,\"End\":2.12,\"Speaker\":1,\"Content\":\"Yeah.\"},{\"Start\":2.12,\"End\":3.36,\"Speaker\":0,\"Content\":\"[Laughter]\"},{\"Start\":3.36,\"End\":5.56,\"Content\":\"[Human Sounds]\"},{\"Start\":5.56,\"End\":7.3,\"Speaker\":0,\"Content\":\"Good fun.\"},{\"Start\":7.3,\"End\":11.34,\"Content\":\"[Noise]\"},{\"Start\":11.34,\"End\":14.11,\"Speaker\":1,\"Content\":\"So basically, we got to kind of do some work, man.\"},{\"Start\":14.11,\"End\":15.01,\"Speaker\":2,\"Content\":\"Yeah, that's true.\"},{\"Start\":15.01,\"End\":17.96,\"Speaker\":1,\"Content\":\"The answer to that is, I mean, we're going to show it.\"},{\"Start\":17.96,\"End\":20.64,\"Speaker\":0,\"Content\":\"Weekend, but weekend's still four days off.\"},{\"Start\":20.64,\"End\":25.11,\"Speaker\":1,\"Content\":\"Yeah. Still at the bottom of the mountain.\"},{\"Start\":25.11,\"End\":27.27,\"Speaker\":2,\"Content\":\"How many hours is this?\"},{\"Start\":27.27,\"End\":29.59,\"Speaker\":0,\"Content\":\"I don't think I should have that much to do, but, you know.\"},{\"Start\":29.59,\"End\":32.76,\"Speaker\":1,\"Content\":\"Well, should you play any more to explore any other?\"},{\"Start\":33.64,\"End\":35.26,\"Speaker\":0,\"Content\":\"No idea.\"},{\"Start\":35.26,\"End\":39.8,\"Speaker\":1,\"Content\":\"How's your, how's your, um, uh, quantifier raising?\"},{\"Start\":40.18,\"End\":41.93,\"Speaker\":2,\"Content\":\"Yeah.\"},{\"Start\":41.93,\"End\":48.0,\"Speaker\":0,\"Content\":\"I can't remember what I'm supposed to do, by the way. Am I supposed to do the summarization thing you bought?\"},{\"Start\":48.0,\"End\":53.26,\"Content\":\"[Noise]\"},{\"Start\":53.26,\"End\":54.7,\"Speaker\":0,\"Content\":\"No.\"},{\"Start\":54.7,\"End\":56.5,\"Speaker\":2,\"Content\":\"Who was doing?\"},{\"Start\":56.5,\"End\":58.5,\"Content\":\"[Silence]\"},{\"Start\":58.5,\"End\":59.64,\"Speaker\":0,\"Content\":\"You do.\"},{\"Start\":59.64,\"End\":60.52,\"Speaker\":2,\"Content\":\"Oh, really?\"},{\"Start\":61.36,\"End\":62.85,\"Speaker\":0,\"Content\":\"Well, I'll do that then.\"},{\"Start\":62.85,\"End\":63.81,\"Speaker\":2,\"Content\":\"These can be changed.\"},{\"Start\":63.81,\"End\":65.21,\"Speaker\":0,\"Content\":\"Should I do that?\"},{\"Start\":65.21,\"End\":66.99,\"Speaker\":2,\"Content\":\"Um, I don't know, it doesn't matter.\"},{\"Start\":66.99,\"End\":67.52,\"Speaker\":0,\"Content\":\"Well, you know.\"},{\"Start\":67.52,\"End\":72.21,\"Speaker\":2,\"Content\":\"If you want to, you know, it's just, you know, play around with some extra stuff, you have some time, why not?\"},{\"Start\":72.21,\"End\":73.96,\"Speaker\":0,\"Content\":\"They showed me to do it, didn't they?\"},{\"Start\":73.96,\"End\":76.18,\"Content\":\"[Music]\"},{\"Start\":76.18,\"End\":79.36,\"Speaker\":1,\"Content\":\"So what courses should I have picked if we're not doing any work?\"},{\"Start\":80.4,\"End\":89.81,\"Speaker\":0,\"Content\":\"Well, I'm doing communications, which I had one exercise, and I've done that, like, two weeks ago. That's in two weeks.\"},{\"Start\":89.81,\"End\":92.58,\"Speaker\":2,\"Content\":\"Is that the informatics course?\"},{\"Start\":92.58,\"End\":94.01,\"Speaker\":0,\"Content\":\"Yeah, it's a.\"},{\"Start\":94.01,\"End\":95.45,\"Speaker\":2,\"Content\":\"Oh, like, digital.\"},{\"Start\":95.45,\"End\":97.49,\"Speaker\":0,\"Content\":\"Non-courses or something.\"},{\"Start\":97.49,\"End\":98.88,\"Speaker\":1,\"Content\":\"Oh, I see, I see, yeah.\"},{\"Start\":98.88,\"End\":108.18,\"Speaker\":0,\"Content\":\"And then, um, I'm doing Powell programming languages and systems, which we had one exercise as well, and that's in, like, Friday.\"},{\"Start\":108.18,\"End\":110.7,\"Content\":\"[Human Sounds]\"},{\"Start\":110.7,\"End\":114.06,\"Speaker\":0,\"Content\":\"Well, I'm not doing any backband meetings, so, you know.\"},{\"Start\":114.06,\"End\":121.61,\"Content\":\"[Human Sounds]\"},{\"Start\":121.61,\"End\":124.36,\"Speaker\":2,\"Content\":\"I'll be happy when this week is over.\"},{\"Start\":124.36,\"End\":127.39,\"Speaker\":0,\"Content\":\"I'll be happy when this course is over.\"},{\"Start\":127.39,\"End\":129.63,\"Content\":\"[Human Sounds]\"},{\"Start\":129.63,\"End\":140.97,\"Speaker\":2,\"Content\":\"I think that's about it then. Anything else we need to discuss? Did we want to meet before we talk to Steve next week?\"},{\"Start\":142.27,\"End\":151.46,\"Speaker\":2,\"Content\":\"Well, I don't know. We'll probably get some work done over the weekend, so. I know, after D and LG or something, maybe just have a little quick little update and just.\"},{\"Start\":151.64,\"End\":155.04,\"Speaker\":0,\"Content\":\"Yeah, if you like. We can all decide then.\"},{\"Start\":155.04,\"End\":155.98,\"Speaker\":2,\"Content\":\"Yeah, exactly.\"},{\"Start\":156.72,\"End\":160.09,\"Speaker\":0,\"Content\":\"Um, so, what, what are you planning to do over the weekend then?\"},{\"Start\":160.09,\"End\":161.18,\"Speaker\":2,\"Content\":\"Search.\"},{\"Start\":161.38,\"End\":165.24,\"Speaker\":0,\"Content\":\"You're gonna do the search. You're gonna implement the search.\"},{\"Start\":165.24,\"End\":173.18,\"Speaker\":2,\"Content\":\"Couldn't be that hard. Well, it'll be, you know, still a limited version of, you know, the next query.\"},{\"Start\":174.44,\"End\":184.44,\"Speaker\":2,\"Content\":\"Won't be the whole thing, but. Um, like, we can just decide sort of things that we do want to do. Well, actually, most of it's just dialogue hacks, so. This one's.\"},{\"Start\":184.44,\"End\":190.28,\"Content\":\"[Environmental Sounds]\"},{\"Start\":190.28,\"End\":193.42,\"Speaker\":2,\"Content\":\"There's so many topics.\"},{\"Start\":193.42,\"End\":198.14,\"Content\":\"[Environmental Sounds]\"},{\"Start\":198.14,\"End\":205.68,\"Speaker\":0,\"Content\":\"It's just that I think we need to set ourselves some milestones. Because otherwise, you know.\"},{\"Start\":206.43,\"End\":218.59,\"Speaker\":2,\"Content\":\"Yeah, we'll get behind schedule, you know, pretty quick. Like you're saying, yeah. Well, actually, do we want to set a date for interim prototype? Specifically, a date?\"},{\"Start\":220.27,\"End\":234.65,\"Speaker\":0,\"Content\":\"Um, well, you decide, I don't know much about prototypes. Um, the progress report is June 23rd of February.\"},{\"Start\":235.28,\"End\":237.13,\"Speaker\":1,\"Content\":\"Sort, sort, sort, two weeks.\"},{\"Start\":237.13,\"End\":240.0,\"Speaker\":0,\"Content\":\"Um, well, how about.\"}]\n",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 40.34286209999118,
+  "rtf": 0.16809525874996326,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 21213673984,
+      "reserved_bytes": 22735224832
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 3490095104
+}

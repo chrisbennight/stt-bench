@@ -1,0 +1,202 @@
+{
+  "id": "TS3003a-0",
+  "duration": 240.0,
+  "seed": 2843022528,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "0",
+        "text": "Morning.",
+        "start": 13.62,
+        "end": 14.84
+      },
+      {
+        "speaker": "1",
+        "text": "Morning.",
+        "start": 14.84,
+        "end": 15.98
+      },
+      {
+        "speaker": "0",
+        "text": "See you all, find your places. Everybody sitting on the right, please.",
+        "start": 16.24,
+        "end": 21.48
+      },
+      {
+        "speaker": "0",
+        "text": "Yes, sir.",
+        "start": 22.6,
+        "end": 24.42
+      },
+      {
+        "speaker": "0",
+        "text": "I'll still introduce myself. Um, everybody knows me as, I'm Mark, right? Mark.",
+        "start": 35.31,
+        "end": 42.39
+      },
+      {
+        "speaker": "1",
+        "text": "I'm Rich.",
+        "start": 42.39,
+        "end": 43.63
+      },
+      {
+        "speaker": "0",
+        "text": "Mark.",
+        "start": 43.63,
+        "end": 44.57
+      },
+      {
+        "speaker": "1",
+        "text": "Yes.",
+        "start": 44.71,
+        "end": 45.71
+      },
+      {
+        "speaker": "0",
+        "text": "Mark. Welcome. Thank you.",
+        "start": 45.71,
+        "end": 48.87
+      },
+      {
+        "speaker": "0",
+        "text": "Let's see. Let's start off, um, with our presentation.",
+        "start": 50.69,
+        "end": 58.35
+      },
+      {
+        "speaker": "0",
+        "text": "First, I'd like to talk about the setting. You can see a few cameras here. They'll record, uh, our actions. And you'll have lawyers and you'll have clothes that will record your voice.",
+        "start": 65.11,
+        "end": 77.35
+      },
+      {
+        "speaker": "0",
+        "text": "And there are also some microphones there. But, um, you don't have to pay a lot of attention on those. Because of the spare and the other things.",
+        "start": 77.35,
+        "end": 90.01
+      },
+      {
+        "speaker": "0",
+        "text": "Is our project document scrolling? There are some, Notes in it already, I see. Documents. Uh, I'll start with the presentation kickoff.",
+        "start": 90.95,
+        "end": 101.82
+      },
+      {
+        "speaker": "0",
+        "text": "We will have a ministry. Okay. With the ministry.",
+        "start": 106.14,
+        "end": 113.62
+      },
+      {
+        "speaker": "0",
+        "text": "Well, I don't know if you've noticed, but, uh, we're working for real reaction. Uh, it's a company in, uh, Electronics.",
+        "start": 115.9,
+        "end": 124.86
+      },
+      {
+        "speaker": "0",
+        "text": "It's fashion and electronics, uh, we make it work, uh, with the love, effort, and desire, and the product itself. I'm Bart Bart, I'm the project manager, so I'll direct you through the project.",
+        "start": 124.86,
+        "end": 138.92
+      },
+      {
+        "speaker": "0",
+        "text": "This is our agenda. Uh, we are going to open the conference tool to our project plan discussion closing.",
+        "start": 139.74,
+        "end": 148.04
+      },
+      {
+        "speaker": "0",
+        "text": "Uh, maybe I can sit down and I can take some. Notes, or, let's see, maybe you can take notes.",
+        "start": 148.8,
+        "end": 162.82
+      },
+      {
+        "speaker": "1",
+        "text": "Sure.",
+        "start": 162.96,
+        "end": 164.13
+      },
+      {
+        "speaker": "0",
+        "text": "I don't know, it's not a lot of work, it's just, uh, if you have something, uh, write down, just write it down. Uh, as you can see, uh, it's the opening, painting the stool to any, uh, paintings is, uh, point fifth down a bit.",
+        "start": 164.13,
+        "end": 178.62
+      },
+      {
+        "speaker": "0",
+        "text": "Uh, have you all seen the corporate website already?",
+        "start": 178.62,
+        "end": 182.27
+      },
+      {
+        "speaker": "1",
+        "text": "Yep, yep.",
+        "start": 182.27,
+        "end": 183.38
+      },
+      {
+        "speaker": "0",
+        "text": "Have you seen any flaws? I think I found one. Mm-hmm. I can't really pay much attention to it.",
+        "start": 183.42,
+        "end": 192.98
+      },
+      {
+        "speaker": "0",
+        "text": "Let's see if the rest is, uh, doesn't look good. Okay. No problem.",
+        "start": 195.14,
+        "end": 202.89
+      },
+      {
+        "speaker": "0",
+        "text": "But, um, on the corporate information side, there's, uh, there was real remote instead of real reaction.",
+        "start": 202.89,
+        "end": 211.72
+      },
+      {
+        "speaker": "1",
+        "text": "Oh, yeah.",
+        "start": 211.72,
+        "end": 212.65
+      },
+      {
+        "speaker": "0",
+        "text": "Real remote is not really the company we are, but, still.",
+        "start": 212.65,
+        "end": 217.22
+      },
+      {
+        "speaker": "0",
+        "text": "Um, okay. What are we going to do?",
+        "start": 218.52,
+        "end": 222.5
+      },
+      {
+        "speaker": "0",
+        "text": "Uh, our project aim, as you can see, a new remote control, that has the original, trendy, and user-friendly. So, these are, uh, the points why, uh, we also hired you. You have the, uh,",
+        "start": 222.5,
+        "end": 240.0
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "assistant\n[{\"Start\":0,\"End\":13.62,\"Content\":\"[Environmental Sounds]\"},{\"Start\":13.62,\"End\":14.84,\"Speaker\":0,\"Content\":\"Morning.\"},{\"Start\":14.84,\"End\":15.98,\"Speaker\":1,\"Content\":\"Morning.\"},{\"Start\":16.24,\"End\":21.48,\"Speaker\":0,\"Content\":\"See you all, find your places. Everybody sitting on the right, please.\"},{\"Start\":22.6,\"End\":24.42,\"Speaker\":0,\"Content\":\"Yes, sir.\"},{\"Start\":24.42,\"End\":35.31,\"Content\":\"[Environmental Sounds]\"},{\"Start\":35.31,\"End\":42.39,\"Speaker\":0,\"Content\":\"I'll still introduce myself. Um, everybody knows me as, I'm Mark, right? Mark.\"},{\"Start\":42.39,\"End\":43.63,\"Speaker\":1,\"Content\":\"I'm Rich.\"},{\"Start\":43.63,\"End\":44.57,\"Speaker\":0,\"Content\":\"Mark.\"},{\"Start\":44.71,\"End\":45.71,\"Speaker\":1,\"Content\":\"Yes.\"},{\"Start\":45.71,\"End\":48.87,\"Speaker\":0,\"Content\":\"Mark. Welcome. Thank you.\"},{\"Start\":50.69,\"End\":58.35,\"Speaker\":0,\"Content\":\"Let's see. Let's start off, um, with our presentation.\"},{\"Start\":58.35,\"End\":65.11,\"Content\":\"[Environmental Sounds]\"},{\"Start\":65.11,\"End\":77.35,\"Speaker\":0,\"Content\":\"First, I'd like to talk about the setting. You can see a few cameras here. They'll record, uh, our actions. And you'll have lawyers and you'll have clothes that will record your voice.\"},{\"Start\":77.35,\"End\":90.01,\"Speaker\":0,\"Content\":\"And there are also some microphones there. But, um, you don't have to pay a lot of attention on those. Because of the spare and the other things.\"},{\"Start\":90.95,\"End\":101.82,\"Speaker\":0,\"Content\":\"Is our project document scrolling? There are some, Notes in it already, I see. Documents. Uh, I'll start with the presentation kickoff.\"},{\"Start\":101.82,\"End\":106.14,\"Content\":\"[Environmental Sounds]\"},{\"Start\":106.14,\"End\":113.62,\"Speaker\":0,\"Content\":\"We will have a ministry. Okay. With the ministry.\"},{\"Start\":113.62,\"End\":115.9,\"Content\":\"[Music]\"},{\"Start\":115.9,\"End\":124.86,\"Speaker\":0,\"Content\":\"Well, I don't know if you've noticed, but, uh, we're working for real reaction. Uh, it's a company in, uh, Electronics.\"},{\"Start\":124.86,\"End\":138.92,\"Speaker\":0,\"Content\":\"It's fashion and electronics, uh, we make it work, uh, with the love, effort, and desire, and the product itself. I'm Bart Bart, I'm the project manager, so I'll direct you through the project.\"},{\"Start\":139.74,\"End\":148.04,\"Speaker\":0,\"Content\":\"This is our agenda. Uh, we are going to open the conference tool to our project plan discussion closing.\"},{\"Start\":148.8,\"End\":162.82,\"Speaker\":0,\"Content\":\"Uh, maybe I can sit down and I can take some. Notes, or, let's see, maybe you can take notes.\"},{\"Start\":162.96,\"End\":164.13,\"Speaker\":1,\"Content\":\"Sure.\"},{\"Start\":164.13,\"End\":178.62,\"Speaker\":0,\"Content\":\"I don't know, it's not a lot of work, it's just, uh, if you have something, uh, write down, just write it down. Uh, as you can see, uh, it's the opening, painting the stool to any, uh, paintings is, uh, point fifth down a bit.\"},{\"Start\":178.62,\"End\":182.27,\"Speaker\":0,\"Content\":\"Uh, have you all seen the corporate website already?\"},{\"Start\":182.27,\"End\":183.38,\"Speaker\":1,\"Content\":\"Yep, yep.\"},{\"Start\":183.42,\"End\":192.98,\"Speaker\":0,\"Content\":\"Have you seen any flaws? I think I found one. Mm-hmm. I can't really pay much attention to it.\"},{\"Start\":192.98,\"End\":195.14,\"Content\":\"[Music]\"},{\"Start\":195.14,\"End\":202.89,\"Speaker\":0,\"Content\":\"Let's see if the rest is, uh, doesn't look good. Okay. No problem.\"},{\"Start\":202.89,\"End\":211.72,\"Speaker\":0,\"Content\":\"But, um, on the corporate information side, there's, uh, there was real remote instead of real reaction.\"},{\"Start\":211.72,\"End\":212.65,\"Speaker\":1,\"Content\":\"Oh, yeah.\"},{\"Start\":212.65,\"End\":217.22,\"Speaker\":0,\"Content\":\"Real remote is not really the company we are, but, still.\"},{\"Start\":218.52,\"End\":222.5,\"Speaker\":0,\"Content\":\"Um, okay. What are we going to do?\"},{\"Start\":222.5,\"End\":240.0,\"Speaker\":0,\"Content\":\"Uh, our project aim, as you can see, a new remote control, that has the original, trendy, and user-friendly. So, these are, uh, the points why, uh, we also hired you. You have the, uh,\"}]\n",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 26.51543197897263,
+  "rtf": 0.11048096657905263,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 21213673984,
+      "reserved_bytes": 22735224832
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 3490095104
+}

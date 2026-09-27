@@ -1,0 +1,310 @@
+{
+  "id": "ES2004a-0",
+  "duration": 240.0,
+  "seed": 1956091378,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "S01",
+        "text": "Mm.",
+        "start": 1.02,
+        "end": 1.54
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm.",
+        "start": 5.04,
+        "end": 6.12
+      },
+      {
+        "speaker": "S03",
+        "text": "Are we we're not allowed to get in lights, so we can see.",
+        "start": 10.94,
+        "end": 13.92
+      },
+      {
+        "speaker": "S02",
+        "text": "No.",
+        "start": 11.38,
+        "end": 11.68
+      },
+      {
+        "speaker": "S02",
+        "text": "I think this goes around the back side.",
+        "start": 13.64,
+        "end": 15.62
+      },
+      {
+        "speaker": "S03",
+        "text": "Okay.",
+        "start": 15.76,
+        "end": 16.12
+      },
+      {
+        "speaker": "S02",
+        "text": "Back side, yeah.",
+        "start": 16.32,
+        "end": 17.32
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 17.82,
+        "end": 18.22
+      },
+      {
+        "speaker": "S02",
+        "text": "No, unfortunately, 'cause of the the cameras, they have to.",
+        "start": 18.3,
+        "end": 22.32
+      },
+      {
+        "speaker": "S01",
+        "text": "Back side.",
+        "start": 19.68,
+        "end": 20.32
+      },
+      {
+        "speaker": "S03",
+        "text": "Am I supposed to be standing up there?",
+        "start": 22.36,
+        "end": 23.74
+      },
+      {
+        "speaker": "S02",
+        "text": "Um, you don't have to.",
+        "start": 24.08,
+        "end": 25.1
+      },
+      {
+        "speaker": "S03",
+        "text": "Okay.",
+        "start": 25.14,
+        "end": 25.5
+      },
+      {
+        "speaker": "S02",
+        "text": "Back side is clipped on.",
+        "start": 25.46,
+        "end": 26.52
+      },
+      {
+        "speaker": "S01",
+        "text": "Can you just change the slide a little?",
+        "start": 27.8,
+        "end": 29.88
+      },
+      {
+        "speaker": "S02",
+        "text": "But it's just a little bit.",
+        "start": 28.5,
+        "end": 30.02
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, good.",
+        "start": 29.84,
+        "end": 30.42
+      },
+      {
+        "speaker": "S02",
+        "text": "But.",
+        "start": 31.68,
+        "end": 31.98
+      },
+      {
+        "speaker": "S01",
+        "text": "Sorry about this.",
+        "start": 33.14,
+        "end": 34.06
+      },
+      {
+        "speaker": "S03",
+        "text": "Next.",
+        "start": 34.22,
+        "end": 34.78
+      },
+      {
+        "speaker": "S02",
+        "text": "Do it one second.",
+        "start": 34.9,
+        "end": 35.92
+      },
+      {
+        "speaker": "S01",
+        "text": "How far?",
+        "start": 38.62,
+        "end": 39.12
+      },
+      {
+        "speaker": "S02",
+        "text": "Oh, it's totally.",
+        "start": 39.94,
+        "end": 40.82
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 40.9,
+        "end": 41.34
+      },
+      {
+        "speaker": "S01",
+        "text": "So.",
+        "start": 43.88,
+        "end": 44.28
+      },
+      {
+        "speaker": "S01",
+        "text": "Don't wanna carry.",
+        "start": 45.72,
+        "end": 46.42
+      },
+      {
+        "speaker": "S02",
+        "text": "What's that?",
+        "start": 48.98,
+        "end": 49.54
+      },
+      {
+        "speaker": "S01",
+        "text": "It's a slide.",
+        "start": 49.72,
+        "end": 50.54
+      },
+      {
+        "speaker": "S02",
+        "text": "Well.",
+        "start": 50.62,
+        "end": 51.12
+      },
+      {
+        "speaker": "S02",
+        "text": "It's it's cameras, 'cause that's why.",
+        "start": 57.66,
+        "end": 58.92
+      },
+      {
+        "speaker": "S03",
+        "text": "Doesn't look.",
+        "start": 64.88,
+        "end": 65.54
+      },
+      {
+        "speaker": "S01",
+        "text": "Um.",
+        "start": 71.26,
+        "end": 71.54
+      },
+      {
+        "speaker": "S02",
+        "text": "Good.",
+        "start": 71.92,
+        "end": 72.2
+      },
+      {
+        "speaker": "S01",
+        "text": "Sorry.",
+        "start": 72.38,
+        "end": 72.82
+      },
+      {
+        "speaker": "S02",
+        "text": "Okay.",
+        "start": 77.08,
+        "end": 77.34
+      },
+      {
+        "speaker": "S02",
+        "text": "We're in here.",
+        "start": 78.14,
+        "end": 78.82
+      },
+      {
+        "speaker": "S03",
+        "text": "Okay. Hello everybody. Um, I'm Sarah, the project manager, and this is our first meeting, surprising me enough. Okay, this is our agenda. Um",
+        "start": 80.46,
+        "end": 94.14
+      },
+      {
+        "speaker": "S01",
+        "text": "Hi.",
+        "start": 83.16,
+        "end": 83.54
+      },
+      {
+        "speaker": "S03",
+        "text": "we will do some stuff, get to know each other a bit better, to feel more comfortable with each other. Um, then we'll go do chill training, talk about the project plan, discuss our own ideas and everything. Um",
+        "start": 95.66,
+        "end": 111.1
+      },
+      {
+        "speaker": "S03",
+        "text": "and we've got twenty five minutes to do that, as far as I can understand.",
+        "start": 112.02,
+        "end": 115.88
+      },
+      {
+        "speaker": "S03",
+        "text": "Now, we're developing a remote control, which you probably already know. Um, we want it to be original, something that s people haven't thought of, it's not out in the shops, um trendy, appealing to a wide market, but",
+        "start": 117.6,
+        "end": 132.32
+      },
+      {
+        "speaker": "S03",
+        "text": "you know, not a hunk of metal, and user friendly, grannies to kids, maybe even poots should be able to use it.",
+        "start": 133.22,
+        "end": 141.06
+      },
+      {
+        "speaker": "S03",
+        "text": "Okay. Um, first is the functional design. Um, this is where we all go off and do our individual work. Um, what needs need to be fulfilled by the product, um what effect the product has to have, and how it's actually going to do that. Um, conceptual design,",
+        "start": 142.84,
+        "end": 160.96
+      },
+      {
+        "speaker": "S03",
+        "text": "what we're thinking, how it's gonna go, and then the detailed design, how we're actually gonna put it into practice and make it work.",
+        "start": 162.28,
+        "end": 167.88
+      },
+      {
+        "speaker": "S03",
+        "text": "Okay, right. We're gonna practise with the pens and draw our favourite animal on the whiteboard. I'll go first. And um so what's the characteristics of that animal? So",
+        "start": 170.34,
+        "end": 184.82
+      },
+      {
+        "speaker": "S03",
+        "text": "Okay. This place right now is um",
+        "start": 188.84,
+        "end": 192.92
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm.",
+        "start": 200.92,
+        "end": 201.28
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "[1.02][S01]Mm.[1.54][5.04][S02]Mm.[6.12][10.94][S03]Are we we're not allowed to get in lights, so we can see.[13.92][11.38][S02]No.[11.68][13.64][S02]I think this goes around the back side.[15.62][15.76][S03]Okay.[16.12][16.32][S02]Back side, yeah.[17.32][17.82][S01]Yeah.[18.22][18.30][S02]No, unfortunately, 'cause of the the cameras, they have to.[22.32][19.68][S01]Back side.[20.32][22.36][S03]Am I supposed to be standing up there?[23.74][24.08][S02]Um, you don't have to.[25.10][25.14][S03]Okay.[25.50][25.46][S02]Back side is clipped on.[26.52][27.80][S01]Can you just change the slide a little?[29.88][28.50][S02]But it's just a little bit.[30.02][29.84][S03]Yeah, good.[30.42][31.68][S02]But.[31.98][33.14][S01]Sorry about this.[34.06][34.22][S03]Next.[34.78][34.90][S02]Do it one second.[35.92][38.62][S01]How far?[39.12][39.94][S02]Oh, it's totally.[40.82][40.90][S01]Yeah.[41.34][43.88][S01]So.[44.28][45.72][S01]Don't wanna carry.[46.42][48.98][S02]What's that?[49.54][49.72][S01]It's a slide.[50.54][50.62][S02]Well.[51.12][57.66][S02]It's it's cameras, 'cause that's why.[58.92][64.88][S03]Doesn't look.[65.54][71.26][S01]Um.[71.54][71.92][S02]Good.[72.20][72.38][S01]Sorry.[72.82][77.08][S02]Okay.[77.34][78.14][S02]We're in here.[78.82][80.46][S03]Okay. Hello everybody. Um, I'm Sarah, the project manager, and this is our first meeting, surprising me enough. Okay, this is our agenda. Um[94.14][83.16][S01]Hi.[83.54][95.66][S03]we will do some stuff, get to know each other a bit better, to feel more comfortable with each other. Um, then we'll go do chill training, talk about the project plan, discuss our own ideas and everything. Um[111.10][112.02][S03]and we've got twenty five minutes to do that, as far as I can understand.[115.88][117.60][S03]Now, we're developing a remote control, which you probably already know. Um, we want it to be original, something that s people haven't thought of, it's not out in the shops, um trendy, appealing to a wide market, but[132.32][133.22][S03]you know, not a hunk of metal, and user friendly, grannies to kids, maybe even poots should be able to use it.[141.06][142.84][S03]Okay. Um, first is the functional design. Um, this is where we all go off and do our individual work. Um, what needs need to be fulfilled by the product, um what effect the product has to have, and how it's actually going to do that. Um, conceptual design,[160.96][162.28][S03]what we're thinking, how it's gonna go, and then the detailed design, how we're actually gonna put it into practice and make it work.[167.88][170.34][S03]Okay, right. We're gonna practise with the pens and draw our favourite animal on the whiteboard. I'll go first. And um so what's the characteristics of that animal? So[184.82][188.84][S03]Okay. This place right now is um[192.92][200.92][S02]Mm.[201.28]",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 11.998052185052074,
+  "rtf": 0.04999188410438364,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 2358316032,
+      "reserved_bytes": 2510290944
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 2850721792
+}

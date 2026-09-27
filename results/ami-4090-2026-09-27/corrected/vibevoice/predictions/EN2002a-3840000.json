@@ -1,0 +1,286 @@
+{
+  "id": "EN2002a-3840000",
+  "duration": 240.0,
+  "seed": 1185136061,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "0",
+        "text": "I guess in, in, in, meeting browser 1.1, you can have a menu instead of a button. But, this might be.",
+        "start": 0.0,
+        "end": 8.93
+      },
+      {
+        "speaker": "1",
+        "text": "But, actually, what we could do is, on, in that menu as well, we could have an option that pops up a window with all the, all the meetings that that user has been in.",
+        "start": 8.93,
+        "end": 20.54
+      },
+      {
+        "speaker": "1",
+        "text": "Like, search for that user. Is that gonna be useful or too much, or?",
+        "start": 20.86,
+        "end": 26.9
+      },
+      {
+        "speaker": "0",
+        "text": "I guess so. So, what I do, part of the, the menu that comes down is, says, give me all your meetings.",
+        "start": 26.9,
+        "end": 32.53
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, so, when you right click on it, one, one option will be, give me all your meetings, characterize the speaker.",
+        "start": 32.53,
+        "end": 39.48
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah.",
+        "start": 39.48,
+        "end": 40.84
+      },
+      {
+        "speaker": "1",
+        "text": "Or is that too much, I mean?",
+        "start": 43.28,
+        "end": 45.44
+      },
+      {
+        "speaker": "2",
+        "text": "I don't know.",
+        "start": 45.44,
+        "end": 46.04
+      },
+      {
+        "speaker": "0",
+        "text": "I guess so.",
+        "start": 46.04,
+        "end": 46.65
+      },
+      {
+        "speaker": "2",
+        "text": "I mean, it's more like, part of the, browsing, sort of thing, more than the speaker character. Yeah, Steve mentioned.",
+        "start": 46.65,
+        "end": 57.73
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, that's true.",
+        "start": 57.73,
+        "end": 58.42
+      },
+      {
+        "speaker": "2",
+        "text": "We don't know how to involve the speaker character.",
+        "start": 58.42,
+        "end": 61.05
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, that's true. It'd be nice to have it interconnected.",
+        "start": 61.05,
+        "end": 63.42
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah, like maybe tie that in with Dialog X or something as well. I mean, speaker characterization tied into, I don't know, just some way to sort of leverage that information. Like, we have it, we're doing it, but what, how does it help the browsing? Or what can it give us?",
+        "start": 63.42,
+        "end": 76.42
+      },
+      {
+        "speaker": "1",
+        "text": "What do you mean, the speaker characterization? Oh, well, yeah, I mean, I don't know about that. I mean, it's, the speaker characterization is a bit like you said, I mean, it's like a nice thing. We don't, we're not actually sure what the user wants with it, but it's interesting, so why not give it to him?",
+        "start": 76.42,
+        "end": 92.44
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, yeah.",
+        "start": 92.44,
+        "end": 93.46
+      },
+      {
+        "speaker": "1",
+        "text": "I, I think we should do it, I mean.",
+        "start": 93.46,
+        "end": 95.89
+      },
+      {
+        "speaker": "2",
+        "text": "I mean, I guess maybe we could have that as another thing of, like, well, if you get speaker characterization that someone talks a lot in a certain topic, and then if you, I don't know, click on that topic, you get. I think that's in that topic, or whatever.",
+        "start": 95.89,
+        "end": 114.45
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, I mean, that's, that's still another level further. I mean, we're not even there yet, you know.",
+        "start": 114.45,
+        "end": 118.82
+      },
+      {
+        "speaker": "2",
+        "text": "No, no, no.",
+        "start": 118.82,
+        "end": 119.4
+      },
+      {
+        "speaker": "1",
+        "text": "Doesn't pop up the speaker characterization yet. We have to first define what, what happens when you click on a user.",
+        "start": 119.4,
+        "end": 124.28
+      },
+      {
+        "speaker": "0",
+        "text": "We have to have a speaker characterization first, before we cross any of the other. Yeah, yeah, that's true.",
+        "start": 124.28,
+        "end": 128.85
+      },
+      {
+        "speaker": "1",
+        "text": "So, should we try, try to do a right click menu then?",
+        "start": 128.85,
+        "end": 132.34
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. Alright, why not?",
+        "start": 134.06,
+        "end": 136.28
+      },
+      {
+        "speaker": "3",
+        "text": "Is that just from the menu?",
+        "start": 136.28,
+        "end": 137.51
+      },
+      {
+        "speaker": "0",
+        "text": "Even if it's one.",
+        "start": 137.51,
+        "end": 138.72
+      },
+      {
+        "speaker": "3",
+        "text": "Is that from any particular window? Like, do we want to? Sort of get, like, if we're on the users versus, like, topic or something, have a right click for these various things.",
+        "start": 138.72,
+        "end": 147.22
+      },
+      {
+        "speaker": "1",
+        "text": "Wait, yeah, there's a second thing about the topics. The topic window, we want to somehow click, be able to click on a topic and it pops up with all the meetings that contain that.",
+        "start": 147.22,
+        "end": 157.62
+      },
+      {
+        "speaker": "3",
+        "text": "Right, yeah.",
+        "start": 157.62,
+        "end": 158.7
+      },
+      {
+        "speaker": "1",
+        "text": "So we could do that in a similar way, do it right click as well.",
+        "start": 158.98,
+        "end": 162.37
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, so this dot is for, um, distance run. On the speaker.",
+        "start": 162.37,
+        "end": 168.38
+      },
+      {
+        "speaker": "1",
+        "text": "So.",
+        "start": 168.98,
+        "end": 170.07
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, this stuff is.",
+        "start": 170.07,
+        "end": 171.36
+      },
+      {
+        "speaker": "1",
+        "text": "So we have basically two options of, of browsing the meetings is by either, um, searching and opening individual observations and when, then we have the interlinking by right click, basically.",
+        "start": 171.36,
+        "end": 184.48
+      },
+      {
+        "speaker": "3",
+        "text": "Actually, yeah, like, um, another common thing, like, we have it sort of set up that, um, if you double click and it goes to a default thing on the menu, I mean, that's kind of a typical kind of action.",
+        "start": 185.46,
+        "end": 195.4
+      },
+      {
+        "speaker": "1",
+        "text": "Double click.",
+        "start": 195.4,
+        "end": 196.06
+      },
+      {
+        "speaker": "3",
+        "text": "If you double click on a particular topic or something, then it goes to sort of like a default.",
+        "start": 196.06,
+        "end": 200.12
+      },
+      {
+        "speaker": "1",
+        "text": "Oh.",
+        "start": 200.12,
+        "end": 200.9
+      },
+      {
+        "speaker": "3",
+        "text": "So it will be like all the, um, cases of that topic, either, whatever we decide the default to be, whether it's in all meetings or just in one meeting, and just show up the particular instances of that topic in the meeting. Like, I'm just thinking to have the default there, so if somebody knows exactly what they want to do, and we know that that's the most common thing that's going to happen, so the double click will do that instead of having the trouble of right clicking and choosing the item on the menu.",
+        "start": 200.9,
+        "end": 222.71
+      },
+      {
+        "speaker": "1",
+        "text": "I don't see there anything obvious that would, that would be able, you know, that would be.",
+        "start": 222.71,
+        "end": 226.85
+      },
+      {
+        "speaker": "3",
+        "text": "Well, it might come to us. Start playing with it.",
+        "start": 226.85,
+        "end": 229.44
+      },
+      {
+        "speaker": "0",
+        "text": "What was that? I didn't quite understand. Do you mean?",
+        "start": 229.44,
+        "end": 231.47
+      },
+      {
+        "speaker": "3",
+        "text": "Um, like, we have the, the right click menu. Right click, but instead of, like, have a default double click, so there's, there'll be a choice menu.",
+        "start": 231.47,
+        "end": 240.0
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "assistant\n[{\"Start\":0,\"End\":8.93,\"Speaker\":0,\"Content\":\"I guess in, in, in, meeting browser 1.1, you can have a menu instead of a button. But, this might be.\"},{\"Start\":8.93,\"End\":20.54,\"Speaker\":1,\"Content\":\"But, actually, what we could do is, on, in that menu as well, we could have an option that pops up a window with all the, all the meetings that that user has been in.\"},{\"Start\":20.86,\"End\":26.9,\"Speaker\":1,\"Content\":\"Like, search for that user. Is that gonna be useful or too much, or?\"},{\"Start\":26.9,\"End\":32.53,\"Speaker\":0,\"Content\":\"I guess so. So, what I do, part of the, the menu that comes down is, says, give me all your meetings.\"},{\"Start\":32.53,\"End\":39.48,\"Speaker\":1,\"Content\":\"Yeah, so, when you right click on it, one, one option will be, give me all your meetings, characterize the speaker.\"},{\"Start\":39.48,\"End\":40.84,\"Speaker\":0,\"Content\":\"Yeah.\"},{\"Start\":40.84,\"End\":43.28,\"Content\":\"[Environmental Sounds]\"},{\"Start\":43.28,\"End\":45.44,\"Speaker\":1,\"Content\":\"Or is that too much, I mean?\"},{\"Start\":45.44,\"End\":46.04,\"Speaker\":2,\"Content\":\"I don't know.\"},{\"Start\":46.04,\"End\":46.65,\"Speaker\":0,\"Content\":\"I guess so.\"},{\"Start\":46.65,\"End\":57.73,\"Speaker\":2,\"Content\":\"I mean, it's more like, part of the, browsing, sort of thing, more than the speaker character. Yeah, Steve mentioned.\"},{\"Start\":57.73,\"End\":58.42,\"Speaker\":1,\"Content\":\"Yeah, that's true.\"},{\"Start\":58.42,\"End\":61.05,\"Speaker\":2,\"Content\":\"We don't know how to involve the speaker character.\"},{\"Start\":61.05,\"End\":63.42,\"Speaker\":1,\"Content\":\"Yeah, that's true. It'd be nice to have it interconnected.\"},{\"Start\":63.42,\"End\":76.42,\"Speaker\":3,\"Content\":\"Yeah, like maybe tie that in with Dialog X or something as well. I mean, speaker characterization tied into, I don't know, just some way to sort of leverage that information. Like, we have it, we're doing it, but what, how does it help the browsing? Or what can it give us?\"},{\"Start\":76.42,\"End\":92.44,\"Speaker\":1,\"Content\":\"What do you mean, the speaker characterization? Oh, well, yeah, I mean, I don't know about that. I mean, it's, the speaker characterization is a bit like you said, I mean, it's like a nice thing. We don't, we're not actually sure what the user wants with it, but it's interesting, so why not give it to him?\"},{\"Start\":92.44,\"End\":93.46,\"Speaker\":0,\"Content\":\"Yeah, yeah.\"},{\"Start\":93.46,\"End\":95.89,\"Speaker\":1,\"Content\":\"I, I think we should do it, I mean.\"},{\"Start\":95.89,\"End\":114.45,\"Speaker\":2,\"Content\":\"I mean, I guess maybe we could have that as another thing of, like, well, if you get speaker characterization that someone talks a lot in a certain topic, and then if you, I don't know, click on that topic, you get. I think that's in that topic, or whatever.\"},{\"Start\":114.45,\"End\":118.82,\"Speaker\":1,\"Content\":\"Yeah, I mean, that's, that's still another level further. I mean, we're not even there yet, you know.\"},{\"Start\":118.82,\"End\":119.4,\"Speaker\":2,\"Content\":\"No, no, no.\"},{\"Start\":119.4,\"End\":124.28,\"Speaker\":1,\"Content\":\"Doesn't pop up the speaker characterization yet. We have to first define what, what happens when you click on a user.\"},{\"Start\":124.28,\"End\":128.85,\"Speaker\":0,\"Content\":\"We have to have a speaker characterization first, before we cross any of the other. Yeah, yeah, that's true.\"},{\"Start\":128.85,\"End\":132.34,\"Speaker\":1,\"Content\":\"So, should we try, try to do a right click menu then?\"},{\"Start\":134.06,\"End\":136.28,\"Speaker\":0,\"Content\":\"Yeah. Alright, why not?\"},{\"Start\":136.28,\"End\":137.51,\"Speaker\":3,\"Content\":\"Is that just from the menu?\"},{\"Start\":137.51,\"End\":138.72,\"Speaker\":0,\"Content\":\"Even if it's one.\"},{\"Start\":138.72,\"End\":147.22,\"Speaker\":3,\"Content\":\"Is that from any particular window? Like, do we want to? Sort of get, like, if we're on the users versus, like, topic or something, have a right click for these various things.\"},{\"Start\":147.22,\"End\":157.62,\"Speaker\":1,\"Content\":\"Wait, yeah, there's a second thing about the topics. The topic window, we want to somehow click, be able to click on a topic and it pops up with all the meetings that contain that.\"},{\"Start\":157.62,\"End\":158.7,\"Speaker\":3,\"Content\":\"Right, yeah.\"},{\"Start\":158.98,\"End\":162.37,\"Speaker\":1,\"Content\":\"So we could do that in a similar way, do it right click as well.\"},{\"Start\":162.37,\"End\":168.38,\"Speaker\":0,\"Content\":\"Yeah, so this dot is for, um, distance run. On the speaker.\"},{\"Start\":168.98,\"End\":170.07,\"Speaker\":1,\"Content\":\"So.\"},{\"Start\":170.07,\"End\":171.36,\"Speaker\":0,\"Content\":\"Yeah, this stuff is.\"},{\"Start\":171.36,\"End\":184.48,\"Speaker\":1,\"Content\":\"So we have basically two options of, of browsing the meetings is by either, um, searching and opening individual observations and when, then we have the interlinking by right click, basically.\"},{\"Start\":185.46,\"End\":195.4,\"Speaker\":3,\"Content\":\"Actually, yeah, like, um, another common thing, like, we have it sort of set up that, um, if you double click and it goes to a default thing on the menu, I mean, that's kind of a typical kind of action.\"},{\"Start\":195.4,\"End\":196.06,\"Speaker\":1,\"Content\":\"Double click.\"},{\"Start\":196.06,\"End\":200.12,\"Speaker\":3,\"Content\":\"If you double click on a particular topic or something, then it goes to sort of like a default.\"},{\"Start\":200.12,\"End\":200.9,\"Speaker\":1,\"Content\":\"Oh.\"},{\"Start\":200.9,\"End\":222.71,\"Speaker\":3,\"Content\":\"So it will be like all the, um, cases of that topic, either, whatever we decide the default to be, whether it's in all meetings or just in one meeting, and just show up the particular instances of that topic in the meeting. Like, I'm just thinking to have the default there, so if somebody knows exactly what they want to do, and we know that that's the most common thing that's going to happen, so the double click will do that instead of having the trouble of right clicking and choosing the item on the menu.\"},{\"Start\":222.71,\"End\":226.85,\"Speaker\":1,\"Content\":\"I don't see there anything obvious that would, that would be able, you know, that would be.\"},{\"Start\":226.85,\"End\":229.44,\"Speaker\":3,\"Content\":\"Well, it might come to us. Start playing with it.\"},{\"Start\":229.44,\"End\":231.47,\"Speaker\":0,\"Content\":\"What was that? I didn't quite understand. Do you mean?\"},{\"Start\":231.47,\"End\":240.0,\"Speaker\":3,\"Content\":\"Um, like, we have the, the right click menu. Right click, but instead of, like, have a default double click, so there's, there'll be a choice menu.\"}]\n",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 38.805101130041294,
+  "rtf": 0.16168792137517204,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 21213673984,
+      "reserved_bytes": 22735224832
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 3490095104
+}

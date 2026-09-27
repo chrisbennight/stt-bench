@@ -1,0 +1,248 @@
+{
+  "id": "TS3003a-23040000",
+  "duration": 65.642625,
+  "seed": 3299688118,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "0",
+        "text": "Yep. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "No. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Then I'll put the minutes from this meeting in the project folder.And we can all work through this meeting now. Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "And we can all work, uh, on our own projects. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Okay, now we'll meet you in about half an hour. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "So we'll meet at\u2014",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [
+      {
+        "audio_available_seconds": 3.466666666666667,
+        "chunk_end_seconds": 2.933333333333333,
+        "emitted_seconds": 3.76424309797585,
+        "has_text": true,
+        "text": " \n Speaker 0:Yep. \n Speaker 1:No."
+      },
+      {
+        "audio_available_seconds": 6.4,
+        "chunk_end_seconds": 5.866666666666666,
+        "emitted_seconds": 6.893808268941939,
+        "has_text": true,
+        "text": " \n Speaker 0:Okay. \n Speaker 1:Okay. \n Speaker 0:Then I'll put the "
+      },
+      {
+        "audio_available_seconds": 9.333333333333334,
+        "chunk_end_seconds": 8.8,
+        "emitted_seconds": 9.543640207033604,
+        "has_text": true,
+        "text": "minutes from this meeting in the project folder."
+      },
+      {
+        "audio_available_seconds": 12.266666666666667,
+        "chunk_end_seconds": 11.733333333333333,
+        "emitted_seconds": 12.424147796002217,
+        "has_text": true,
+        "text": "And we can all work "
+      },
+      {
+        "audio_available_seconds": 15.2,
+        "chunk_end_seconds": 14.666666666666666,
+        "emitted_seconds": 15.375266556977294,
+        "has_text": true,
+        "text": "through this meeting now. Okay."
+      },
+      {
+        "audio_available_seconds": 18.133333333333333,
+        "chunk_end_seconds": 17.6,
+        "emitted_seconds": 18.432938760961406,
+        "has_text": true,
+        "text": " \n Speaker 1:And we can all work, uh, "
+      },
+      {
+        "audio_available_seconds": 21.066666666666666,
+        "chunk_end_seconds": 20.533333333333335,
+        "emitted_seconds": 21.207394361961633,
+        "has_text": true,
+        "text": "on our own projects."
+      },
+      {
+        "audio_available_seconds": 24.0,
+        "chunk_end_seconds": 23.466666666666665,
+        "emitted_seconds": 24.050922435941175,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 26.933333333333334,
+        "chunk_end_seconds": 26.4,
+        "emitted_seconds": 26.984520877012983,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 29.866666666666667,
+        "chunk_end_seconds": 29.333333333333332,
+        "emitted_seconds": 30.083647951949388,
+        "has_text": true,
+        "text": " \n Speaker 0:Okay, now "
+      },
+      {
+        "audio_available_seconds": 32.8,
+        "chunk_end_seconds": 32.266666666666666,
+        "emitted_seconds": 32.99403731897473,
+        "has_text": true,
+        "text": "we'll meet you in about half "
+      },
+      {
+        "audio_available_seconds": 35.733333333333334,
+        "chunk_end_seconds": 35.2,
+        "emitted_seconds": 36.139958671992645,
+        "has_text": true,
+        "text": "an hour. \n Speaker 1:Okay. \n Speaker 0:So we'll meet "
+      },
+      {
+        "audio_available_seconds": 38.666666666666664,
+        "chunk_end_seconds": 38.13333333333333,
+        "emitted_seconds": 38.75394277495798,
+        "has_text": true,
+        "text": "at\u2014"
+      },
+      {
+        "audio_available_seconds": 41.6,
+        "chunk_end_seconds": 41.06666666666667,
+        "emitted_seconds": 41.651435259962454,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 44.53333333333333,
+        "chunk_end_seconds": 44.0,
+        "emitted_seconds": 44.58891086198855,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 47.46666666666667,
+        "chunk_end_seconds": 46.93333333333333,
+        "emitted_seconds": 47.51821699901484,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 50.4,
+        "chunk_end_seconds": 49.86666666666667,
+        "emitted_seconds": 50.45189003297128,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 53.333333333333336,
+        "chunk_end_seconds": 52.8,
+        "emitted_seconds": 53.390795920044184,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 56.266666666666666,
+        "chunk_end_seconds": 55.733333333333334,
+        "emitted_seconds": 56.31858714099508,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 59.2,
+        "chunk_end_seconds": 58.666666666666664,
+        "emitted_seconds": 59.25262126594316,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 62.13333333333333,
+        "chunk_end_seconds": 61.6,
+        "emitted_seconds": 62.185726008960046,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 65.06666666666666,
+        "chunk_end_seconds": 64.53333333333333,
+        "emitted_seconds": 65.11876724497415,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 65.642625,
+        "chunk_end_seconds": 65.642625,
+        "emitted_seconds": 65.694620301947,
+        "has_text": false,
+        "text": ""
+      }
+    ],
+    "metadata": {
+      "raw_output": " \n Speaker 0:Yep. \n Speaker 1:No. \n Speaker 0:Okay. \n Speaker 1:Okay. \n Speaker 0:Then I'll put the minutes from this meeting in the project folder.And we can all work through this meeting now. Okay. \n Speaker 1:And we can all work, uh, on our own projects. \n Speaker 0:Okay, now we'll meet you in about half an hour. \n Speaker 1:Okay. \n Speaker 0:So we'll meet at\u2014",
+      "realtime_paced": true,
+      "stream_compute_seconds": 3.3038254455896094,
+      "timing_reason": "Official streaming output has no speech timestamps",
+      "generation_limit_hit": null,
+      "stream_output_parser": "joined-chunks-v1"
+    }
+  },
+  "wall_seconds": 65.70871717296541,
+  "rtf": 1.0010068484154224,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 17522296832,
+      "reserved_bytes": 17943232512
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 3490643968
+}

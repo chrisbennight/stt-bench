@@ -1,0 +1,634 @@
+{
+  "id": "EN2002a-23040000",
+  "duration": 240.0,
+  "seed": 3717778605,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "S01",
+        "text": "That's",
+        "start": 0.0,
+        "end": 0.98
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah, precise, yeah.",
+        "start": 1.45,
+        "end": 3.33
+      },
+      {
+        "speaker": "S01",
+        "text": "Good fun.",
+        "start": 6.28,
+        "end": 6.94
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 6.62,
+        "end": 7.02
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm.",
+        "start": 8.67,
+        "end": 9.05
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 12.0,
+        "end": 12.32
+      },
+      {
+        "speaker": "S01",
+        "text": "So basically we go and kinda do some work maybe, that sort of thing.",
+        "start": 12.06,
+        "end": 15.02
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, interesting, on the weekend.",
+        "start": 14.18,
+        "end": 15.7
+      },
+      {
+        "speaker": "S01",
+        "text": "The art, the art still out, isn't it, the log in the short with it.",
+        "start": 15.06,
+        "end": 18.0
+      },
+      {
+        "speaker": "S02",
+        "text": "The weekend, the weekend's still four days off.",
+        "start": 18.0,
+        "end": 20.22
+      },
+      {
+        "speaker": "S03",
+        "text": "Wha",
+        "start": 18.74,
+        "end": 18.88
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 20.06,
+        "end": 20.34
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 21.2,
+        "end": 21.8
+      },
+      {
+        "speaker": "S03",
+        "text": "Ah.",
+        "start": 23.01,
+        "end": 23.44
+      },
+      {
+        "speaker": "S01",
+        "text": "Still at the bottom of the mountain.",
+        "start": 23.38,
+        "end": 24.62
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 24.76,
+        "end": 25.04
+      },
+      {
+        "speaker": "S03",
+        "text": "How many hours is this?",
+        "start": 26.08,
+        "end": 27.16
+      },
+      {
+        "speaker": "S02",
+        "text": "I don't actually have that much to do at the moment.",
+        "start": 27.56,
+        "end": 29.5
+      },
+      {
+        "speaker": "S01",
+        "text": "Well, should you finally want to explore any other",
+        "start": 29.91,
+        "end": 32.34
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 30.89,
+        "end": 31.16
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, it's pretty fun.",
+        "start": 33.73,
+        "end": 34.62
+      },
+      {
+        "speaker": "S02",
+        "text": "Oh dear.",
+        "start": 34.22,
+        "end": 35.14
+      },
+      {
+        "speaker": "S01",
+        "text": "Well, how's how's your how's your um uh quantifier raising?",
+        "start": 35.46,
+        "end": 39.52
+      },
+      {
+        "speaker": "S02",
+        "text": "Well",
+        "start": 35.69,
+        "end": 36.04
+      },
+      {
+        "speaker": "S03",
+        "text": "Hmm, yeah.",
+        "start": 40.1,
+        "end": 41.26
+      },
+      {
+        "speaker": "S02",
+        "text": "I can't remember what I'm supposed to do by the way, am I supposed to do the summarisation thing you bought?",
+        "start": 43.1,
+        "end": 47.54
+      },
+      {
+        "speaker": "S03",
+        "text": "Mm.",
+        "start": 48.74,
+        "end": 49.14
+      },
+      {
+        "speaker": "S03",
+        "text": "Mm.",
+        "start": 53.32,
+        "end": 53.66
+      },
+      {
+        "speaker": "S02",
+        "text": "No.",
+        "start": 54.0,
+        "end": 54.32
+      },
+      {
+        "speaker": "S03",
+        "text": "Who was doing that?",
+        "start": 55.52,
+        "end": 56.14
+      },
+      {
+        "speaker": "S02",
+        "text": "You do.",
+        "start": 59.3,
+        "end": 59.64
+      },
+      {
+        "speaker": "S03",
+        "text": "Oh really?",
+        "start": 59.72,
+        "end": 60.02
+      },
+      {
+        "speaker": "S01",
+        "text": "I think you did that, yeah.",
+        "start": 60.48,
+        "end": 61.62
+      },
+      {
+        "speaker": "S02",
+        "text": "Well, I'll do that then.",
+        "start": 62.1,
+        "end": 62.88
+      },
+      {
+        "speaker": "S03",
+        "text": "These can be changed a little bit.",
+        "start": 62.88,
+        "end": 64.0
+      },
+      {
+        "speaker": "S02",
+        "text": "Shall I do that then, I mean.",
+        "start": 64.38,
+        "end": 65.82
+      },
+      {
+        "speaker": "S03",
+        "text": "Um, I don't know, it doesn't matter, if if you want to, I mean, it's just, you know, play around with some extra stuff if you have some time, why not?",
+        "start": 65.42,
+        "end": 72.14
+      },
+      {
+        "speaker": "S02",
+        "text": "Well, you can.",
+        "start": 67.02,
+        "end": 67.82
+      },
+      {
+        "speaker": "S02",
+        "text": "It shouldn't be too different.",
+        "start": 72.36,
+        "end": 73.42
+      },
+      {
+        "speaker": "S01",
+        "text": "So what courses should I have picked that we're not doing anyway?",
+        "start": 76.88,
+        "end": 78.94
+      },
+      {
+        "speaker": "S02",
+        "text": "Well, I'm doing communications, which we had one exercise and I've done that like two weeks ago.",
+        "start": 81.12,
+        "end": 87.14
+      },
+      {
+        "speaker": "S04",
+        "text": "That's cool.",
+        "start": 83.22,
+        "end": 83.78
+      },
+      {
+        "speaker": "S03",
+        "text": "Hmm.",
+        "start": 87.71,
+        "end": 87.88
+      },
+      {
+        "speaker": "S02",
+        "text": "And that's in in two weeks.",
+        "start": 88.05,
+        "end": 89.74
+      },
+      {
+        "speaker": "S03",
+        "text": "Is that in informatics course or?",
+        "start": 90.21,
+        "end": 92.82
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah, it's a",
+        "start": 92.9,
+        "end": 93.92
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 93.16,
+        "end": 93.54
+      },
+      {
+        "speaker": "S03",
+        "text": "I would like digital, right, okay.",
+        "start": 94.26,
+        "end": 96.62
+      },
+      {
+        "speaker": "S02",
+        "text": "nine, nine quarters or ten or something, yeah.",
+        "start": 94.83,
+        "end": 97.64
+      },
+      {
+        "speaker": "S03",
+        "text": "Okay.",
+        "start": 97.42,
+        "end": 97.74
+      },
+      {
+        "speaker": "S01",
+        "text": "Well, I suppose, yeah.",
+        "start": 97.82,
+        "end": 98.94
+      },
+      {
+        "speaker": "S02",
+        "text": "And then I'm I'm doing Pala programming languages and systems.",
+        "start": 98.98,
+        "end": 103.84
+      },
+      {
+        "speaker": "S03",
+        "text": "Hmm.",
+        "start": 104.22,
+        "end": 104.48
+      },
+      {
+        "speaker": "S02",
+        "text": "Which we had one exercise as well and that's in like Friday.",
+        "start": 104.94,
+        "end": 107.84
+      },
+      {
+        "speaker": "S02",
+        "text": "Well, I'm not doing any backhand things, so you know.",
+        "start": 111.52,
+        "end": 113.62
+      },
+      {
+        "speaker": "S04",
+        "text": "Big lately.",
+        "start": 117.02,
+        "end": 117.64
+      },
+      {
+        "speaker": "S02",
+        "text": "So, it's big, yeah.",
+        "start": 117.28,
+        "end": 119.32
+      },
+      {
+        "speaker": "S03",
+        "text": "Hmm.",
+        "start": 119.54,
+        "end": 119.94
+      },
+      {
+        "speaker": "S04",
+        "text": "Hmm.",
+        "start": 120.52,
+        "end": 120.84
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, I'll be happy when this week is over.",
+        "start": 121.64,
+        "end": 123.72
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah, it's true.",
+        "start": 124.3,
+        "end": 125.02
+      },
+      {
+        "speaker": "S04",
+        "text": "Happy halfway, please cautious over, okay.",
+        "start": 125.34,
+        "end": 127.24
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 127.08,
+        "end": 127.54
+      },
+      {
+        "speaker": "S03",
+        "text": "I don't know, is that about it then, or anything else we need to discuss?",
+        "start": 130.48,
+        "end": 134.72
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 131.86,
+        "end": 132.12
+      },
+      {
+        "speaker": "S04",
+        "text": "Uh-huh.",
+        "start": 134.34,
+        "end": 134.72
+      },
+      {
+        "speaker": "S03",
+        "text": "Did we wanna meet before we talk to Steve next week?",
+        "start": 136.5,
+        "end": 140.62
+      },
+      {
+        "speaker": "S03",
+        "text": "Well, I don't know, we'll probably get some work done over the weekend, so I know f after D N L G or something, maybe just have a little quick little update and just",
+        "start": 142.96,
+        "end": 151.04
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 146.74,
+        "end": 147.12
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah, if you like.",
+        "start": 152.32,
+        "end": 153.04
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, well, we could decide, yeah, exactly, sure, yeah.",
+        "start": 153.84,
+        "end": 156.32
+      },
+      {
+        "speaker": "S02",
+        "text": "We can always decide then, I don't know, yeah.",
+        "start": 154.04,
+        "end": 155.82
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 155.68,
+        "end": 155.98
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah, um, so what what are you planning to do over the weekend then?",
+        "start": 156.66,
+        "end": 159.94
+      },
+      {
+        "speaker": "S03",
+        "text": "Search.",
+        "start": 160.36,
+        "end": 160.82
+      },
+      {
+        "speaker": "S03",
+        "text": "And",
+        "start": 161.82,
+        "end": 162.14
+      },
+      {
+        "speaker": "S02",
+        "text": "You're gonna do the search, you're gonna implement the search.",
+        "start": 162.04,
+        "end": 164.82
+      },
+      {
+        "speaker": "S03",
+        "text": "I'm",
+        "start": 163.18,
+        "end": 163.44
+      },
+      {
+        "speaker": "S03",
+        "text": "Shut the line, couldn't be done on it.",
+        "start": 164.32,
+        "end": 166.74
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 164.98,
+        "end": 165.34
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 167.62,
+        "end": 167.94
+      },
+      {
+        "speaker": "S03",
+        "text": "Well, it'll be, you know, still a limited version of, you know, the next query change, but, um, won't be the whole thing, but um, like, we can just decide sort of things that we do wanna do, you know.",
+        "start": 167.82,
+        "end": 179.94
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm.",
+        "start": 176.42,
+        "end": 176.78
+      },
+      {
+        "speaker": "S03",
+        "text": "Well, actually, what was it, just dialogue acts or?",
+        "start": 180.62,
+        "end": 182.62
+      },
+      {
+        "speaker": "S03",
+        "text": "I suppose",
+        "start": 183.28,
+        "end": 183.84
+      },
+      {
+        "speaker": "S03",
+        "text": "There's summary topics to change.",
+        "start": 190.96,
+        "end": 193.42
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm.",
+        "start": 193.32,
+        "end": 193.74
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 198.24,
+        "end": 198.62
+      },
+      {
+        "speaker": "S02",
+        "text": "It's just that I think we need to set ourselves some milestones, because otherwise",
+        "start": 198.88,
+        "end": 202.94
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 199.12,
+        "end": 199.38
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 202.0,
+        "end": 202.24
+      },
+      {
+        "speaker": "S02",
+        "text": "you know.",
+        "start": 204.86,
+        "end": 205.34
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, we'd get a high schedule, you know, pretty quick, like you're saying, yeah. Well, actually, do we wanna set a date for interim prototype?",
+        "start": 207.3,
+        "end": 215.84
+      },
+      {
+        "speaker": "S02",
+        "text": "weeks will go by.",
+        "start": 207.86,
+        "end": 208.82
+      },
+      {
+        "speaker": "S03",
+        "text": "Specifically, a date?",
+        "start": 216.98,
+        "end": 218.14
+      },
+      {
+        "speaker": "S04",
+        "text": "Mm, so you decide, I don't have very much for that prototype.",
+        "start": 220.86,
+        "end": 224.34
+      },
+      {
+        "speaker": "S04",
+        "text": "The progress report is June twenty",
+        "start": 227.78,
+        "end": 230.52
+      },
+      {
+        "speaker": "S02",
+        "text": "The third of February.",
+        "start": 230.88,
+        "end": 233.04
+      },
+      {
+        "speaker": "S04",
+        "text": "Of February.",
+        "start": 232.94,
+        "end": 234.24
+      },
+      {
+        "speaker": "S01",
+        "text": "So, so it's like two weeks basically.",
+        "start": 235.32,
+        "end": 237.54
+      },
+      {
+        "speaker": "S02",
+        "text": "Um, well, how about",
+        "start": 237.28,
+        "end": 239.98
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "[0.00][S01]That's[0.98][1.45][S02]Yeah, precise, yeah.[3.33][6.28][S01]Good fun.[6.94][6.62][S02]Yeah.[7.02][8.67][S02]Mm.[9.05][12.00][S02]Yeah.[12.32][12.06][S01]So basically we go and kinda do some work maybe, that sort of thing.[15.02][14.18][S03]Yeah, interesting, on the weekend.[15.70][15.06][S01]The art, the art still out, isn't it, the log in the short with it.[18.00][18.00][S02]The weekend, the weekend's still four days off.[20.22][18.74][S03]Wha[18.88][20.06][S01]Yeah.[20.34][21.20][S01]Yeah.[21.80][23.01][S03]Ah.[23.44][23.38][S01]Still at the bottom of the mountain.[24.62][24.76][S03]Yeah.[25.04][26.08][S03]How many hours is this?[27.16][27.56][S02]I don't actually have that much to do at the moment.[29.50][29.91][S01]Well, should you finally want to explore any other[32.34][30.89][S02]Yeah.[31.16][33.73][S03]Yeah, it's pretty fun.[34.62][34.22][S02]Oh dear.[35.14][35.46][S01]Well, how's how's your how's your um uh quantifier raising?[39.52][35.69][S02]Well[36.04][40.10][S03]Hmm, yeah.[41.26][43.10][S02]I can't remember what I'm supposed to do by the way, am I supposed to do the summarisation thing you bought?[47.54][48.74][S03]Mm.[49.14][53.32][S03]Mm.[53.66][54.00][S02]No.[54.32][55.52][S03]Who was doing that?[56.14][59.30][S02]You do.[59.64][59.72][S03]Oh really?[60.02][60.48][S01]I think you did that, yeah.[61.62][62.10][S02]Well, I'll do that then.[62.88][62.88][S03]These can be changed a little bit.[64.00][64.38][S02]Shall I do that then, I mean.[65.82][65.42][S03]Um, I don't know, it doesn't matter, if if you want to, I mean, it's just, you know, play around with some extra stuff if you have some time, why not?[72.14][67.02][S02]Well, you can.[67.82][72.36][S02]It shouldn't be too different.[73.42][76.88][S01]So what courses should I have picked that we're not doing anyway?[78.94][81.12][S02]Well, I'm doing communications, which we had one exercise and I've done that like two weeks ago.[87.14][83.22][S04]That's cool.[83.78][87.71][S03]Hmm.[87.88][88.05][S02]And that's in in two weeks.[89.74][90.21][S03]Is that in informatics course or?[92.82][92.90][S02]Yeah, it's a[93.92][93.16][S03]Yeah.[93.54][94.26][S03]I would like digital, right, okay.[96.62][94.83][S02]nine, nine quarters or ten or something, yeah.[97.64][97.42][S03]Okay.[97.74][97.82][S01]Well, I suppose, yeah.[98.94][98.98][S02]And then I'm I'm doing Pala programming languages and systems.[103.84][104.22][S03]Hmm.[104.48][104.94][S02]Which we had one exercise as well and that's in like Friday.[107.84][111.52][S02]Well, I'm not doing any backhand things, so you know.[113.62][117.02][S04]Big lately.[117.64][117.28][S02]So, it's big, yeah.[119.32][119.54][S03]Hmm.[119.94][120.52][S04]Hmm.[120.84][121.64][S03]Yeah, I'll be happy when this week is over.[123.72][124.30][S01]Yeah, it's true.[125.02][125.34][S04]Happy halfway, please cautious over, okay.[127.24][127.08][S03]Yeah.[127.54][130.48][S03]I don't know, is that about it then, or anything else we need to discuss?[134.72][131.86][S04]Yeah.[132.12][134.34][S04]Uh-huh.[134.72][136.50][S03]Did we wanna meet before we talk to Steve next week?[140.62][142.96][S03]Well, I don't know, we'll probably get some work done over the weekend, so I know f after D N L G or something, maybe just have a little quick little update and just[151.04][146.74][S02]Yeah.[147.12][152.32][S02]Yeah, if you like.[153.04][153.84][S03]Yeah, well, we could decide, yeah, exactly, sure, yeah.[156.32][154.04][S02]We can always decide then, I don't know, yeah.[155.82][155.68][S04]Yeah.[155.98][156.66][S02]Yeah, um, so what what are you planning to do over the weekend then?[159.94][160.36][S03]Search.[160.82][161.82][S03]And[162.14][162.04][S02]You're gonna do the search, you're gonna implement the search.[164.82][163.18][S03]I'm[163.44][164.32][S03]Shut the line, couldn't be done on it.[166.74][164.98][S04]Yeah.[165.34][167.62][S04]Yeah.[167.94][167.82][S03]Well, it'll be, you know, still a limited version of, you know, the next query change, but, um, won't be the whole thing, but um, like, we can just decide sort of things that we do wanna do, you know.[179.94][176.42][S02]Mm.[176.78][180.62][S03]Well, actually, what was it, just dialogue acts or?[182.62][183.28][S03]I suppose[183.84][190.96][S03]There's summary topics to change.[193.42][193.32][S02]Mm.[193.74][198.24][S03]Yeah.[198.62][198.88][S02]It's just that I think we need to set ourselves some milestones, because otherwise[202.94][199.12][S04]Yeah.[199.38][202.00][S03]Yeah.[202.24][204.86][S02]you know.[205.34][207.30][S03]Yeah, we'd get a high schedule, you know, pretty quick, like you're saying, yeah. Well, actually, do we wanna set a date for interim prototype?[215.84][207.86][S02]weeks will go by.[208.82][216.98][S03]Specifically, a date?[218.14][220.86][S04]Mm, so you decide, I don't have very much for that prototype.[224.34][227.78][S04]The progress report is June twenty[230.52][230.88][S02]The third of February.[233.04][232.94][S04]Of February.[234.24][235.32][S01]So, so it's like two weeks basically.[237.54][237.28][S02]Um, well, how about[239.98]",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 22.14900262199808,
+  "rtf": 0.092287510924992,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 2513579008,
+      "reserved_bytes": 2843738112
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 2850721792
+}

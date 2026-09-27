@@ -1,0 +1,400 @@
+{
+  "id": "EN2002a-30720000",
+  "duration": 222.709375,
+  "seed": 1180211639,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "0",
+        "text": "How about if we take a...",
+        "start": 0.0,
+        "end": 0.84
+      },
+      {
+        "speaker": "1",
+        "text": "Well, if you find me, I'll show you where I'll let us all in there and we can look at it.",
+        "start": 0.84,
+        "end": 4.99
+      },
+      {
+        "speaker": "2",
+        "text": "We can look now afterwards.",
+        "start": 4.99,
+        "end": 6.81
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, yeah, exactly. You do need to have a key for it though, that's the thing. You've got to knock the door.",
+        "start": 6.81,
+        "end": 10.8
+      },
+      {
+        "speaker": "0",
+        "text": "Just for the thing.",
+        "start": 10.8,
+        "end": 11.94
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, somebody.",
+        "start": 11.94,
+        "end": 12.82
+      },
+      {
+        "speaker": "0",
+        "text": "Actually, I was asking Steve about that, whether we can get in there, whether he was going to get us access into the...",
+        "start": 12.82,
+        "end": 17.74
+      },
+      {
+        "speaker": "3",
+        "text": "Into what?",
+        "start": 17.74,
+        "end": 18.66
+      },
+      {
+        "speaker": "0",
+        "text": "The computer room.",
+        "start": 18.66,
+        "end": 19.72
+      },
+      {
+        "speaker": "1",
+        "text": "It's only got this crack, it's only got about four or five computers in, but it would do quite good for our job because we can all sit there and it's not very normally many people in there.",
+        "start": 19.94,
+        "end": 27.98
+      },
+      {
+        "speaker": "0",
+        "text": "Is there a printer in there too?",
+        "start": 28.02,
+        "end": 29.65
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, it's a printer. And there's a photocopier. With the code on it, yeah. It's cool, yeah.",
+        "start": 29.65,
+        "end": 35.9
+      },
+      {
+        "speaker": "3",
+        "text": "Well, I'm just...",
+        "start": 37.14,
+        "end": 38.34
+      },
+      {
+        "speaker": "0",
+        "text": "You need to put it up your assignment.",
+        "start": 38.34,
+        "end": 40.56
+      },
+      {
+        "speaker": "3",
+        "text": "I've got it on my computer.",
+        "start": 41.9,
+        "end": 43.76
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, all the comments, I'm thinking.",
+        "start": 43.76,
+        "end": 45.54
+      },
+      {
+        "speaker": "2",
+        "text": "So, what time do we say?",
+        "start": 45.54,
+        "end": 47.74
+      },
+      {
+        "speaker": "3",
+        "text": "I just think it's better to do it afterwards when we have all the time.",
+        "start": 47.74,
+        "end": 50.55
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, that's true.",
+        "start": 50.55,
+        "end": 51.27
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah, we'll have half an hour and then we'll...",
+        "start": 51.27,
+        "end": 53.54
+      },
+      {
+        "speaker": "3",
+        "text": "Okay.",
+        "start": 56.74,
+        "end": 58.03
+      },
+      {
+        "speaker": "0",
+        "text": "As long as DMLG doesn't go late.",
+        "start": 58.03,
+        "end": 60.76
+      },
+      {
+        "speaker": "1",
+        "text": "Hopefully it's not that man, so it won't matter.",
+        "start": 61.16,
+        "end": 63.84
+      },
+      {
+        "speaker": "3",
+        "text": "Actually, it's not even confirmed yet.",
+        "start": 65.6,
+        "end": 68.16
+      },
+      {
+        "speaker": "2",
+        "text": "What?",
+        "start": 68.16,
+        "end": 69.15
+      },
+      {
+        "speaker": "3",
+        "text": "She doesn't even know what she's talking about. Maybe it doesn't happen at all.",
+        "start": 69.15,
+        "end": 74.46
+      },
+      {
+        "speaker": "0",
+        "text": "Sounds like me.",
+        "start": 74.46,
+        "end": 75.68
+      },
+      {
+        "speaker": "2",
+        "text": "It's raining. It's raining. It should be.",
+        "start": 75.68,
+        "end": 77.38
+      },
+      {
+        "speaker": "3",
+        "text": "Is it really?",
+        "start": 77.38,
+        "end": 78.45
+      },
+      {
+        "speaker": "2",
+        "text": "Well, it's supposed to be. Next week.",
+        "start": 78.45,
+        "end": 81.78
+      },
+      {
+        "speaker": "3",
+        "text": "It's week two. I don't think we have a reading week though.",
+        "start": 81.78,
+        "end": 85.47
+      },
+      {
+        "speaker": "2",
+        "text": "I don't know. We have one class at least where we have speech perception. We don't have any extras, but I think we have like 12 other classes, so.",
+        "start": 85.47,
+        "end": 92.78
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah, I don't think there was one.",
+        "start": 92.78,
+        "end": 93.62
+      },
+      {
+        "speaker": "2",
+        "text": "There's not much point in it.",
+        "start": 93.62,
+        "end": 94.78
+      },
+      {
+        "speaker": "3",
+        "text": "I don't think there was an official one last semester. I think it was just a back order, wasn't it?",
+        "start": 94.78,
+        "end": 98.84
+      },
+      {
+        "speaker": "0",
+        "text": "Um, something like that. I think one of a couple classes.",
+        "start": 98.84,
+        "end": 101.24
+      },
+      {
+        "speaker": "1",
+        "text": "Some classes did and some classes didn't. It was all really, they didn't really know what was going on.",
+        "start": 101.24,
+        "end": 106.24
+      },
+      {
+        "speaker": "2",
+        "text": "I think the undergraduates had, um, were told.",
+        "start": 106.24,
+        "end": 109.36
+      },
+      {
+        "speaker": "0",
+        "text": "I think it was up to the professor whether they did it or not. Well, I don't feel like taking it.",
+        "start": 109.36,
+        "end": 113.99
+      },
+      {
+        "speaker": "1",
+        "text": "No, I can work.",
+        "start": 113.99,
+        "end": 115.7
+      },
+      {
+        "speaker": "0",
+        "text": "I think DIL will probably have one to make up for missing classes. DIL will probably.",
+        "start": 115.82,
+        "end": 122.12
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, we will probably have, yeah.",
+        "start": 122.12,
+        "end": 124.26
+      },
+      {
+        "speaker": "3",
+        "text": "Okay. Let's meet Monday.",
+        "start": 126.58,
+        "end": 129.7
+      },
+      {
+        "speaker": "2",
+        "text": "Um, I guess. So, was there anything else? Do you have any other ones you want to, like, take care of? There's some shit I have to take care of.",
+        "start": 131.36,
+        "end": 140.55
+      },
+      {
+        "speaker": "1",
+        "text": "Oh, we trust you.",
+        "start": 140.55,
+        "end": 142.26
+      },
+      {
+        "speaker": "2",
+        "text": "I don't know if there was something. I think you've basically said the same things as in the comments. If I could read it.",
+        "start": 142.76,
+        "end": 155.38
+      },
+      {
+        "speaker": "2",
+        "text": "Can you read that?",
+        "start": 157.26,
+        "end": 158.92
+      },
+      {
+        "speaker": "0",
+        "text": "I think we have a couple. Um, do we really want multiple windows from a single app?",
+        "start": 158.92,
+        "end": 167.54
+      },
+      {
+        "speaker": "2",
+        "text": "From a single app.",
+        "start": 168.0,
+        "end": 169.56
+      },
+      {
+        "speaker": "0",
+        "text": "But most, we will probably want to go with defaults.",
+        "start": 169.56,
+        "end": 174.08
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. Oh, that was what I was saying.",
+        "start": 174.08,
+        "end": 176.41
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, I think it comments that basically sums up what you said.",
+        "start": 176.41,
+        "end": 178.67
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, exactly. Just the other comment about whether you want to do both speaker characterization and topic segmentation. That's pretty much it. That's pretty much it.",
+        "start": 178.67,
+        "end": 188.98
+      },
+      {
+        "speaker": "2",
+        "text": "And now we have seven percent or something.",
+        "start": 189.28,
+        "end": 192.42
+      },
+      {
+        "speaker": "3",
+        "text": "I think we need to be okay with, right?",
+        "start": 196.26,
+        "end": 199.05
+      },
+      {
+        "speaker": "2",
+        "text": "If you're okay with having these 13 questions.",
+        "start": 199.05,
+        "end": 202.91
+      },
+      {
+        "speaker": "1",
+        "text": "Just signing off on it.",
+        "start": 205.01,
+        "end": 207.33
+      },
+      {
+        "speaker": "0",
+        "text": "Okay.",
+        "start": 209.13,
+        "end": 210.65
+      },
+      {
+        "speaker": "3",
+        "text": "Should we turn these off or no?",
+        "start": 210.89,
+        "end": 212.93
+      },
+      {
+        "speaker": "2",
+        "text": "For a pound now.",
+        "start": 213.01,
+        "end": 215.21
+      },
+      {
+        "speaker": "3",
+        "text": "You should still read it. It's your.",
+        "start": 218.37,
+        "end": 221.48
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah.",
+        "start": 221.48,
+        "end": 222.71
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "assistant\n[{\"Start\":0,\"End\":0.84,\"Speaker\":0,\"Content\":\"How about if we take a...\"},{\"Start\":0.84,\"End\":4.99,\"Speaker\":1,\"Content\":\"Well, if you find me, I'll show you where I'll let us all in there and we can look at it.\"},{\"Start\":4.99,\"End\":6.81,\"Speaker\":2,\"Content\":\"We can look now afterwards.\"},{\"Start\":6.81,\"End\":10.8,\"Speaker\":1,\"Content\":\"Yeah, yeah, exactly. You do need to have a key for it though, that's the thing. You've got to knock the door.\"},{\"Start\":10.8,\"End\":11.94,\"Speaker\":0,\"Content\":\"Just for the thing.\"},{\"Start\":11.94,\"End\":12.82,\"Speaker\":1,\"Content\":\"Yeah, somebody.\"},{\"Start\":12.82,\"End\":17.74,\"Speaker\":0,\"Content\":\"Actually, I was asking Steve about that, whether we can get in there, whether he was going to get us access into the...\"},{\"Start\":17.74,\"End\":18.66,\"Speaker\":3,\"Content\":\"Into what?\"},{\"Start\":18.66,\"End\":19.72,\"Speaker\":0,\"Content\":\"The computer room.\"},{\"Start\":19.94,\"End\":27.98,\"Speaker\":1,\"Content\":\"It's only got this crack, it's only got about four or five computers in, but it would do quite good for our job because we can all sit there and it's not very normally many people in there.\"},{\"Start\":28.02,\"End\":29.65,\"Speaker\":0,\"Content\":\"Is there a printer in there too?\"},{\"Start\":29.65,\"End\":35.9,\"Speaker\":1,\"Content\":\"Yeah, it's a printer. And there's a photocopier. With the code on it, yeah. It's cool, yeah.\"},{\"Start\":37.14,\"End\":38.34,\"Speaker\":3,\"Content\":\"Well, I'm just...\"},{\"Start\":38.34,\"End\":40.56,\"Speaker\":0,\"Content\":\"You need to put it up your assignment.\"},{\"Start\":41.9,\"End\":43.76,\"Speaker\":3,\"Content\":\"I've got it on my computer.\"},{\"Start\":43.76,\"End\":45.54,\"Speaker\":0,\"Content\":\"Yeah, all the comments, I'm thinking.\"},{\"Start\":45.54,\"End\":47.74,\"Speaker\":2,\"Content\":\"So, what time do we say?\"},{\"Start\":47.74,\"End\":50.55,\"Speaker\":3,\"Content\":\"I just think it's better to do it afterwards when we have all the time.\"},{\"Start\":50.55,\"End\":51.27,\"Speaker\":0,\"Content\":\"Yeah, that's true.\"},{\"Start\":51.27,\"End\":53.54,\"Speaker\":3,\"Content\":\"Yeah, we'll have half an hour and then we'll...\"},{\"Start\":53.54,\"End\":56.74,\"Content\":\"[Noise]\"},{\"Start\":56.74,\"End\":58.03,\"Speaker\":3,\"Content\":\"Okay.\"},{\"Start\":58.03,\"End\":60.76,\"Speaker\":0,\"Content\":\"As long as DMLG doesn't go late.\"},{\"Start\":61.16,\"End\":63.84,\"Speaker\":1,\"Content\":\"Hopefully it's not that man, so it won't matter.\"},{\"Start\":65.6,\"End\":68.16,\"Speaker\":3,\"Content\":\"Actually, it's not even confirmed yet.\"},{\"Start\":68.16,\"End\":69.15,\"Speaker\":2,\"Content\":\"What?\"},{\"Start\":69.15,\"End\":74.46,\"Speaker\":3,\"Content\":\"She doesn't even know what she's talking about. Maybe it doesn't happen at all.\"},{\"Start\":74.46,\"End\":75.68,\"Speaker\":0,\"Content\":\"Sounds like me.\"},{\"Start\":75.68,\"End\":77.38,\"Speaker\":2,\"Content\":\"It's raining. It's raining. It should be.\"},{\"Start\":77.38,\"End\":78.45,\"Speaker\":3,\"Content\":\"Is it really?\"},{\"Start\":78.45,\"End\":81.78,\"Speaker\":2,\"Content\":\"Well, it's supposed to be. Next week.\"},{\"Start\":81.78,\"End\":85.47,\"Speaker\":3,\"Content\":\"It's week two. I don't think we have a reading week though.\"},{\"Start\":85.47,\"End\":92.78,\"Speaker\":2,\"Content\":\"I don't know. We have one class at least where we have speech perception. We don't have any extras, but I think we have like 12 other classes, so.\"},{\"Start\":92.78,\"End\":93.62,\"Speaker\":3,\"Content\":\"Yeah, I don't think there was one.\"},{\"Start\":93.62,\"End\":94.78,\"Speaker\":2,\"Content\":\"There's not much point in it.\"},{\"Start\":94.78,\"End\":98.84,\"Speaker\":3,\"Content\":\"I don't think there was an official one last semester. I think it was just a back order, wasn't it?\"},{\"Start\":98.84,\"End\":101.24,\"Speaker\":0,\"Content\":\"Um, something like that. I think one of a couple classes.\"},{\"Start\":101.24,\"End\":106.24,\"Speaker\":1,\"Content\":\"Some classes did and some classes didn't. It was all really, they didn't really know what was going on.\"},{\"Start\":106.24,\"End\":109.36,\"Speaker\":2,\"Content\":\"I think the undergraduates had, um, were told.\"},{\"Start\":109.36,\"End\":113.99,\"Speaker\":0,\"Content\":\"I think it was up to the professor whether they did it or not. Well, I don't feel like taking it.\"},{\"Start\":113.99,\"End\":115.7,\"Speaker\":1,\"Content\":\"No, I can work.\"},{\"Start\":115.82,\"End\":122.12,\"Speaker\":0,\"Content\":\"I think DIL will probably have one to make up for missing classes. DIL will probably.\"},{\"Start\":122.12,\"End\":124.26,\"Speaker\":2,\"Content\":\"Yeah, we will probably have, yeah.\"},{\"Start\":124.26,\"End\":126.58,\"Content\":\"[Noise]\"},{\"Start\":126.58,\"End\":129.7,\"Speaker\":3,\"Content\":\"Okay. Let's meet Monday.\"},{\"Start\":131.36,\"End\":140.55,\"Speaker\":2,\"Content\":\"Um, I guess. So, was there anything else? Do you have any other ones you want to, like, take care of? There's some shit I have to take care of.\"},{\"Start\":140.55,\"End\":142.26,\"Speaker\":1,\"Content\":\"Oh, we trust you.\"},{\"Start\":142.76,\"End\":155.38,\"Speaker\":2,\"Content\":\"I don't know if there was something. I think you've basically said the same things as in the comments. If I could read it.\"},{\"Start\":157.26,\"End\":158.92,\"Speaker\":2,\"Content\":\"Can you read that?\"},{\"Start\":158.92,\"End\":167.54,\"Speaker\":0,\"Content\":\"I think we have a couple. Um, do we really want multiple windows from a single app?\"},{\"Start\":168.0,\"End\":169.56,\"Speaker\":2,\"Content\":\"From a single app.\"},{\"Start\":169.56,\"End\":174.08,\"Speaker\":0,\"Content\":\"But most, we will probably want to go with defaults.\"},{\"Start\":174.08,\"End\":176.41,\"Speaker\":2,\"Content\":\"Yeah. Oh, that was what I was saying.\"},{\"Start\":176.41,\"End\":178.67,\"Speaker\":1,\"Content\":\"Yeah, I think it comments that basically sums up what you said.\"},{\"Start\":178.67,\"End\":188.98,\"Speaker\":0,\"Content\":\"Yeah, exactly. Just the other comment about whether you want to do both speaker characterization and topic segmentation. That's pretty much it. That's pretty much it.\"},{\"Start\":189.28,\"End\":192.42,\"Speaker\":2,\"Content\":\"And now we have seven percent or something.\"},{\"Start\":192.42,\"End\":196.26,\"Content\":\"[Human Sounds]\"},{\"Start\":196.26,\"End\":199.05,\"Speaker\":3,\"Content\":\"I think we need to be okay with, right?\"},{\"Start\":199.05,\"End\":202.91,\"Speaker\":2,\"Content\":\"If you're okay with having these 13 questions.\"},{\"Start\":202.91,\"End\":205.01,\"Content\":\"[Human Sounds]\"},{\"Start\":205.01,\"End\":207.33,\"Speaker\":1,\"Content\":\"Just signing off on it.\"},{\"Start\":209.13,\"End\":210.65,\"Speaker\":0,\"Content\":\"Okay.\"},{\"Start\":210.89,\"End\":212.93,\"Speaker\":3,\"Content\":\"Should we turn these off or no?\"},{\"Start\":213.01,\"End\":215.21,\"Speaker\":2,\"Content\":\"For a pound now.\"},{\"Start\":215.21,\"End\":218.37,\"Content\":\"[Environmental Sounds]\"},{\"Start\":218.37,\"End\":221.48,\"Speaker\":3,\"Content\":\"You should still read it. It's your.\"},{\"Start\":221.48,\"End\":222.71,\"Speaker\":2,\"Content\":\"Yeah.\"}]\n",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 44.53411268698983,
+  "rtf": 0.19996514599796184,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 21210431488,
+      "reserved_bytes": 22735224832
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 3490095104
+}

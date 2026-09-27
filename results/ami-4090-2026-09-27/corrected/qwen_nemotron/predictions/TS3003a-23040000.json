@@ -1,0 +1,433 @@
+{
+  "id": "TS3003a-23040000",
+  "duration": 65.642625,
+  "seed": 3299688118,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "speaker_1",
+        "text": "Okay",
+        "start": 2.48,
+        "end": 4.0
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "Then",
+        "start": 4.4,
+        "end": 4.56
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "I'll",
+        "start": 4.56,
+        "end": 4.72
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "put",
+        "start": 4.8,
+        "end": 4.88
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "the",
+        "start": 4.96,
+        "end": 5.44
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "minutes",
+        "start": 5.76,
+        "end": 6.0
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "from",
+        "start": 6.0,
+        "end": 6.24
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "this",
+        "start": 6.24,
+        "end": 6.4
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "meeting",
+        "start": 6.4,
+        "end": 6.72
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "in",
+        "start": 6.72,
+        "end": 6.88
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "the",
+        "start": 6.88,
+        "end": 7.04
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "project",
+        "start": 7.2,
+        "end": 7.44
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "folder",
+        "start": 7.44,
+        "end": 7.76
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "and",
+        "start": 9.36,
+        "end": 9.52
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "then",
+        "start": 9.52,
+        "end": 9.6
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "we",
+        "start": 9.6,
+        "end": 9.68
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "can",
+        "start": 9.76,
+        "end": 9.92
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "all",
+        "start": 9.92,
+        "end": 10.08
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "work",
+        "start": 10.16,
+        "end": 10.4
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "Finish",
+        "start": 12.0,
+        "end": 12.32
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "meeting",
+        "start": 12.32,
+        "end": 12.72
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "now",
+        "start": 12.72,
+        "end": 12.96
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "Okay",
+        "start": 14.16,
+        "end": 14.32
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "We",
+        "start": 15.28,
+        "end": 15.36
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "can",
+        "start": 15.36,
+        "end": 15.68
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "all",
+        "start": 15.68,
+        "end": 15.76
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "work",
+        "start": 15.84,
+        "end": 16.0
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "on",
+        "start": 17.76,
+        "end": 17.92
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "our",
+        "start": 18.4,
+        "end": 18.401
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "own",
+        "start": 18.48,
+        "end": 18.56
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "projects",
+        "start": 18.64,
+        "end": 19.2
+      },
+      {
+        "speaker": "unassigned",
+        "text": "Okay",
+        "start": 19.2,
+        "end": 22.48
+      },
+      {
+        "speaker": "unassigned",
+        "text": "Then",
+        "start": 22.48,
+        "end": 22.481
+      },
+      {
+        "speaker": "unassigned",
+        "text": "I'll",
+        "start": 24.48,
+        "end": 25.5
+      },
+      {
+        "speaker": "unassigned",
+        "text": "meet",
+        "start": 26.52,
+        "end": 27.54
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "you",
+        "start": 28.56,
+        "end": 29.84
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "In",
+        "start": 30.88,
+        "end": 30.96
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "about",
+        "start": 31.12,
+        "end": 31.44
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "half",
+        "start": 32.32,
+        "end": 32.4
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "an",
+        "start": 32.96,
+        "end": 32.961
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "hour",
+        "start": 33.04,
+        "end": 33.041
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "Okay",
+        "start": 33.04,
+        "end": 34.8
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "Good",
+        "start": 34.8,
+        "end": 34.96
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "luck",
+        "start": 34.96,
+        "end": 35.04
+      },
+      {
+        "speaker": "speaker_0",
+        "text": "Yep",
+        "start": 35.44,
+        "end": 35.6
+      },
+      {
+        "speaker": "unassigned",
+        "text": "Oh",
+        "start": 60.0,
+        "end": 60.001
+      }
+    ],
+    "activity": [
+      {
+        "speaker": "speaker_0",
+        "text": "",
+        "start": 0.8,
+        "end": 1.02
+      },
+      {
+        "speaker": "speaker_0",
+        "text": "",
+        "start": 1.2,
+        "end": 1.79
+      },
+      {
+        "speaker": "speaker_0",
+        "text": "",
+        "start": 2.86,
+        "end": 3.05
+      },
+      {
+        "speaker": "speaker_0",
+        "text": "",
+        "start": 13.82,
+        "end": 13.99
+      },
+      {
+        "speaker": "speaker_0",
+        "text": "",
+        "start": 15.37,
+        "end": 15.69
+      },
+      {
+        "speaker": "speaker_0",
+        "text": "",
+        "start": 34.29,
+        "end": 34.51
+      },
+      {
+        "speaker": "speaker_0",
+        "text": "",
+        "start": 35.45,
+        "end": 35.53
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "",
+        "start": 2.45,
+        "end": 2.65
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "",
+        "start": 3.79,
+        "end": 4.13
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "",
+        "start": 4.37,
+        "end": 5.5
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "",
+        "start": 5.74,
+        "end": 7.87
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "",
+        "start": 9.34,
+        "end": 10.49
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "",
+        "start": 11.72,
+        "end": 13.08
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "",
+        "start": 14.17,
+        "end": 14.38
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "",
+        "start": 15.17,
+        "end": 16.57
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "",
+        "start": 17.73,
+        "end": 18.14
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "",
+        "start": 18.37,
+        "end": 19.19
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "",
+        "start": 28.36,
+        "end": 29.9
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "",
+        "start": 30.81,
+        "end": 31.68
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "",
+        "start": 32.24,
+        "end": 33.21
+      },
+      {
+        "speaker": "speaker_1",
+        "text": "",
+        "start": 34.64,
+        "end": 35.08
+      }
+    ],
+    "timing": "forced_alignment",
+    "events": [],
+    "metadata": {
+      "raw_text": "Okay. Then I'll put the minutes from this meeting in the project folder, and then we can all work. Finish meeting now. Okay. We can all work on our own projects. Okay. Then I'll meet you. In about half an hour. Okay. Good luck. Yep. Oh.",
+      "asr_chunk_seconds": 30,
+      "zero_duration_alignment_words": 5,
+      "assignment": "maximum overlap; no overlap becomes unassigned"
+    }
+  },
+  "wall_seconds": 0.7683227579109371,
+  "rtf": 0.011704631828951647,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 6577740288,
+      "reserved_bytes": 6884950016
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 5376430080
+}

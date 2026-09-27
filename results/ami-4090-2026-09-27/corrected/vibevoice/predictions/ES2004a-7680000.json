@@ -1,0 +1,358 @@
+{
+  "id": "ES2004a-7680000",
+  "duration": 240.0,
+  "seed": 1262417696,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "0",
+        "text": "I don't know if I'm going to want it to be.",
+        "start": 0.0,
+        "end": 3.7
+      },
+      {
+        "speaker": "0",
+        "text": "Um, it's not a bad time to be on it.",
+        "start": 6.72,
+        "end": 10.52
+      },
+      {
+        "speaker": "0",
+        "text": "It's not going to the body of the mind.",
+        "start": 12.74,
+        "end": 15.12
+      },
+      {
+        "speaker": "1",
+        "text": "Okay.",
+        "start": 16.72,
+        "end": 17.73
+      },
+      {
+        "speaker": "0",
+        "text": "It's a dreadful word, the word is jet. It's meant to be an eagle.",
+        "start": 17.73,
+        "end": 21.61
+      },
+      {
+        "speaker": "1",
+        "text": "Right, not a seagull.",
+        "start": 21.61,
+        "end": 24.39
+      },
+      {
+        "speaker": "0",
+        "text": "Could have been a seagull, and then a dog, a seagull. There you go, um, again, I'm thinking of a fake, isn't it? I thought they were also in the patent, but that one there again.",
+        "start": 24.39,
+        "end": 34.48
+      },
+      {
+        "speaker": "0",
+        "text": "Um.",
+        "start": 37.38,
+        "end": 38.78
+      },
+      {
+        "speaker": "2",
+        "text": "We could have got.",
+        "start": 39.28,
+        "end": 40.45
+      },
+      {
+        "speaker": "0",
+        "text": "Independent, independent. Did you say they could have got?",
+        "start": 40.45,
+        "end": 44.19
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah.",
+        "start": 44.19,
+        "end": 44.78
+      },
+      {
+        "speaker": "0",
+        "text": "I don't know.",
+        "start": 44.78,
+        "end": 45.38
+      },
+      {
+        "speaker": "1",
+        "text": "Eagle.",
+        "start": 45.38,
+        "end": 46.05
+      },
+      {
+        "speaker": "2",
+        "text": "Eagle.",
+        "start": 46.05,
+        "end": 46.83
+      },
+      {
+        "speaker": "0",
+        "text": "Oh, right.",
+        "start": 46.83,
+        "end": 47.68
+      },
+      {
+        "speaker": "1",
+        "text": "Okay.",
+        "start": 47.68,
+        "end": 48.72
+      },
+      {
+        "speaker": "0",
+        "text": "I'll do the Q&A for you, so this is, find where I end up with that.",
+        "start": 48.72,
+        "end": 53.74
+      },
+      {
+        "speaker": "0",
+        "text": "Do you know anything?",
+        "start": 54.84,
+        "end": 56.98
+      },
+      {
+        "speaker": "0",
+        "text": "And, um, a grace of prayer, would you be trekked?",
+        "start": 60.81,
+        "end": 67.01
+      },
+      {
+        "speaker": "1",
+        "text": "Thank you.",
+        "start": 67.01,
+        "end": 68.83
+      },
+      {
+        "speaker": "0",
+        "text": "There we go, that's something that I'm going to be looking at.",
+        "start": 72.69,
+        "end": 76.51
+      },
+      {
+        "speaker": "1",
+        "text": "Okay. That was one. Right.",
+        "start": 80.29,
+        "end": 84.99
+      },
+      {
+        "speaker": "1",
+        "text": "Um, finance-wise, we've got a selling price at 25 euros. Which I don't actually know what that is in pounds at all. Any ideas?",
+        "start": 84.99,
+        "end": 95.22
+      },
+      {
+        "speaker": "2",
+        "text": "No.",
+        "start": 95.22,
+        "end": 96.02
+      },
+      {
+        "speaker": "1",
+        "text": "Somebody might know.",
+        "start": 96.02,
+        "end": 97.98
+      },
+      {
+        "speaker": "3",
+        "text": "1.4 euro would make a lot of pounds, I think.",
+        "start": 97.98,
+        "end": 100.89
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, yeah, same amount. So, yeah, that's.",
+        "start": 100.89,
+        "end": 104.46
+      },
+      {
+        "speaker": "0",
+        "text": "15, 17.",
+        "start": 104.46,
+        "end": 105.36
+      },
+      {
+        "speaker": "2",
+        "text": "17 pounds.",
+        "start": 105.36,
+        "end": 106.22
+      },
+      {
+        "speaker": "1",
+        "text": "Okay. Sounds good.",
+        "start": 106.22,
+        "end": 108.12
+      },
+      {
+        "speaker": "0",
+        "text": "Should we be making notes of this? We can just refer to the future.",
+        "start": 108.12,
+        "end": 110.96
+      },
+      {
+        "speaker": "1",
+        "text": "I think so, I think so. I'd be able to pull it up, or I could put it in the shared folder.",
+        "start": 110.96,
+        "end": 115.15
+      },
+      {
+        "speaker": "2",
+        "text": "Having said that, though, if you want to get one of those. The, the ones on the market at the moment, they're about 20 pounds anyway. So.",
+        "start": 115.15,
+        "end": 123.47
+      },
+      {
+        "speaker": "0",
+        "text": "Right, do we still?",
+        "start": 123.47,
+        "end": 124.31
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, we have to buy one.",
+        "start": 124.31,
+        "end": 126.45
+      },
+      {
+        "speaker": "0",
+        "text": "Mm, so I suppose a lot of it depends if we want to undercut the price, or is it going to make our product look a cheapie, cheapie option?",
+        "start": 126.45,
+        "end": 133.71
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, um, production costs at 1250, so.",
+        "start": 133.71,
+        "end": 137.63
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah, pretty huge margin.",
+        "start": 137.63,
+        "end": 139.06
+      },
+      {
+        "speaker": "1",
+        "text": "Half of the selling price is taken up by building it. Um. And the profit aim is 50 million euros, which is a.",
+        "start": 139.06,
+        "end": 149.7
+      },
+      {
+        "speaker": "0",
+        "text": "In our first year.",
+        "start": 149.7,
+        "end": 151.17
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, yes. Um, yeah, I presume so. Um.",
+        "start": 151.17,
+        "end": 157.28
+      },
+      {
+        "speaker": "0",
+        "text": "You've got market range international, and you did say earlier it's got to be accessible and usable by sort of all age groups. Just, we're not focusing on business market, any particular thing, it's an everyone, reasonably adaptable.",
+        "start": 157.46,
+        "end": 170.81
+      },
+      {
+        "speaker": "0",
+        "text": "Okay. Big target group.",
+        "start": 170.81,
+        "end": 174.28
+      },
+      {
+        "speaker": "1",
+        "text": "Yes, yes, I don't think we have to, I don't think it's a case of worrying about different languages and things like that, um, making that a key point, just that it's going to be in an international market, like Australia, America, things like that.",
+        "start": 174.28,
+        "end": 189.1
+      },
+      {
+        "speaker": "1",
+        "text": "Okay.",
+        "start": 189.1,
+        "end": 190.5
+      },
+      {
+        "speaker": "0",
+        "text": "What are your experiences with remote controls?",
+        "start": 194.38,
+        "end": 197.98
+      },
+      {
+        "speaker": "1",
+        "text": "I mean, I've got, we've got, um. We had three videos, a TV, and a sort of amp thing all set up. So we got one of the universal remote controls.",
+        "start": 198.0,
+        "end": 210.88
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, yeah.",
+        "start": 210.88,
+        "end": 211.63
+      },
+      {
+        "speaker": "1",
+        "text": "Um, that you program each of your things into, but that kept losing the signals, so we'd have to reprogram it every now and again. I think it was quite cheapy as well. So that might have had something to do with it, but that was quite good, the fact that you could.",
+        "start": 211.63,
+        "end": 224.82
+      },
+      {
+        "speaker": "2",
+        "text": "Use all the ones.",
+        "start": 224.82,
+        "end": 226.12
+      },
+      {
+        "speaker": "1",
+        "text": "Didn't have six remote controls sitting in front of you.",
+        "start": 226.12,
+        "end": 228.91
+      },
+      {
+        "speaker": "3",
+        "text": "You want to integrate everything into one leg.",
+        "start": 228.91,
+        "end": 230.97
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah.",
+        "start": 230.97,
+        "end": 231.77
+      },
+      {
+        "speaker": "1",
+        "text": "Okay.",
+        "start": 231.77,
+        "end": 232.66
+      },
+      {
+        "speaker": "0",
+        "text": "My experience has only been being given the remote control with the object I buy, not doing any tampering with it and programming, using it to program.",
+        "start": 232.66,
+        "end": 240.0
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "assistant\n[{\"Start\":0,\"End\":3.7,\"Speaker\":0,\"Content\":\"I don't know if I'm going to want it to be.\"},{\"Start\":3.7,\"End\":6.72,\"Content\":\"[Silence]\"},{\"Start\":6.72,\"End\":10.52,\"Speaker\":0,\"Content\":\"Um, it's not a bad time to be on it.\"},{\"Start\":10.52,\"End\":12.74,\"Content\":\"[Silence]\"},{\"Start\":12.74,\"End\":15.12,\"Speaker\":0,\"Content\":\"It's not going to the body of the mind.\"},{\"Start\":16.72,\"End\":17.73,\"Speaker\":1,\"Content\":\"Okay.\"},{\"Start\":17.73,\"End\":21.61,\"Speaker\":0,\"Content\":\"It's a dreadful word, the word is jet. It's meant to be an eagle.\"},{\"Start\":21.61,\"End\":24.39,\"Speaker\":1,\"Content\":\"Right, not a seagull.\"},{\"Start\":24.39,\"End\":34.48,\"Speaker\":0,\"Content\":\"Could have been a seagull, and then a dog, a seagull. There you go, um, again, I'm thinking of a fake, isn't it? I thought they were also in the patent, but that one there again.\"},{\"Start\":34.48,\"End\":37.38,\"Content\":\"[Environmental Sounds]\"},{\"Start\":37.38,\"End\":38.78,\"Speaker\":0,\"Content\":\"Um.\"},{\"Start\":39.28,\"End\":40.45,\"Speaker\":2,\"Content\":\"We could have got.\"},{\"Start\":40.45,\"End\":44.19,\"Speaker\":0,\"Content\":\"Independent, independent. Did you say they could have got?\"},{\"Start\":44.19,\"End\":44.78,\"Speaker\":2,\"Content\":\"Yeah.\"},{\"Start\":44.78,\"End\":45.38,\"Speaker\":0,\"Content\":\"I don't know.\"},{\"Start\":45.38,\"End\":46.05,\"Speaker\":1,\"Content\":\"Eagle.\"},{\"Start\":46.05,\"End\":46.83,\"Speaker\":2,\"Content\":\"Eagle.\"},{\"Start\":46.83,\"End\":47.68,\"Speaker\":0,\"Content\":\"Oh, right.\"},{\"Start\":47.68,\"End\":48.72,\"Speaker\":1,\"Content\":\"Okay.\"},{\"Start\":48.72,\"End\":53.74,\"Speaker\":0,\"Content\":\"I'll do the Q&A for you, so this is, find where I end up with that.\"},{\"Start\":54.84,\"End\":56.98,\"Speaker\":0,\"Content\":\"Do you know anything?\"},{\"Start\":56.98,\"End\":60.81,\"Content\":\"[Environmental Sounds]\"},{\"Start\":60.81,\"End\":67.01,\"Speaker\":0,\"Content\":\"And, um, a grace of prayer, would you be trekked?\"},{\"Start\":67.01,\"End\":68.83,\"Speaker\":1,\"Content\":\"Thank you.\"},{\"Start\":68.83,\"End\":72.69,\"Content\":\"[Environmental Sounds]\"},{\"Start\":72.69,\"End\":76.51,\"Speaker\":0,\"Content\":\"There we go, that's something that I'm going to be looking at.\"},{\"Start\":76.51,\"End\":80.29,\"Content\":\"[Environmental Sounds]\"},{\"Start\":80.29,\"End\":84.99,\"Speaker\":1,\"Content\":\"Okay. That was one. Right.\"},{\"Start\":84.99,\"End\":95.22,\"Speaker\":1,\"Content\":\"Um, finance-wise, we've got a selling price at 25 euros. Which I don't actually know what that is in pounds at all. Any ideas?\"},{\"Start\":95.22,\"End\":96.02,\"Speaker\":2,\"Content\":\"No.\"},{\"Start\":96.02,\"End\":97.98,\"Speaker\":1,\"Content\":\"Somebody might know.\"},{\"Start\":97.98,\"End\":100.89,\"Speaker\":3,\"Content\":\"1.4 euro would make a lot of pounds, I think.\"},{\"Start\":100.89,\"End\":104.46,\"Speaker\":2,\"Content\":\"Yeah, yeah, same amount. So, yeah, that's.\"},{\"Start\":104.46,\"End\":105.36,\"Speaker\":0,\"Content\":\"15, 17.\"},{\"Start\":105.36,\"End\":106.22,\"Speaker\":2,\"Content\":\"17 pounds.\"},{\"Start\":106.22,\"End\":108.12,\"Speaker\":1,\"Content\":\"Okay. Sounds good.\"},{\"Start\":108.12,\"End\":110.96,\"Speaker\":0,\"Content\":\"Should we be making notes of this? We can just refer to the future.\"},{\"Start\":110.96,\"End\":115.15,\"Speaker\":1,\"Content\":\"I think so, I think so. I'd be able to pull it up, or I could put it in the shared folder.\"},{\"Start\":115.15,\"End\":123.47,\"Speaker\":2,\"Content\":\"Having said that, though, if you want to get one of those. The, the ones on the market at the moment, they're about 20 pounds anyway. So.\"},{\"Start\":123.47,\"End\":124.31,\"Speaker\":0,\"Content\":\"Right, do we still?\"},{\"Start\":124.31,\"End\":126.45,\"Speaker\":2,\"Content\":\"Yeah, we have to buy one.\"},{\"Start\":126.45,\"End\":133.71,\"Speaker\":0,\"Content\":\"Mm, so I suppose a lot of it depends if we want to undercut the price, or is it going to make our product look a cheapie, cheapie option?\"},{\"Start\":133.71,\"End\":137.63,\"Speaker\":1,\"Content\":\"Yeah, um, production costs at 1250, so.\"},{\"Start\":137.63,\"End\":139.06,\"Speaker\":3,\"Content\":\"Yeah, pretty huge margin.\"},{\"Start\":139.06,\"End\":149.7,\"Speaker\":1,\"Content\":\"Half of the selling price is taken up by building it. Um. And the profit aim is 50 million euros, which is a.\"},{\"Start\":149.7,\"End\":151.17,\"Speaker\":0,\"Content\":\"In our first year.\"},{\"Start\":151.17,\"End\":157.28,\"Speaker\":1,\"Content\":\"Yeah, yes. Um, yeah, I presume so. Um.\"},{\"Start\":157.46,\"End\":170.81,\"Speaker\":0,\"Content\":\"You've got market range international, and you did say earlier it's got to be accessible and usable by sort of all age groups. Just, we're not focusing on business market, any particular thing, it's an everyone, reasonably adaptable.\"},{\"Start\":170.81,\"End\":174.28,\"Speaker\":0,\"Content\":\"Okay. Big target group.\"},{\"Start\":174.28,\"End\":189.1,\"Speaker\":1,\"Content\":\"Yes, yes, I don't think we have to, I don't think it's a case of worrying about different languages and things like that, um, making that a key point, just that it's going to be in an international market, like Australia, America, things like that.\"},{\"Start\":189.1,\"End\":190.5,\"Speaker\":1,\"Content\":\"Okay.\"},{\"Start\":190.5,\"End\":194.38,\"Content\":\"[Environmental Sounds]\"},{\"Start\":194.38,\"End\":197.98,\"Speaker\":0,\"Content\":\"What are your experiences with remote controls?\"},{\"Start\":198.0,\"End\":210.88,\"Speaker\":1,\"Content\":\"I mean, I've got, we've got, um. We had three videos, a TV, and a sort of amp thing all set up. So we got one of the universal remote controls.\"},{\"Start\":210.88,\"End\":211.63,\"Speaker\":2,\"Content\":\"Yeah, yeah.\"},{\"Start\":211.63,\"End\":224.82,\"Speaker\":1,\"Content\":\"Um, that you program each of your things into, but that kept losing the signals, so we'd have to reprogram it every now and again. I think it was quite cheapy as well. So that might have had something to do with it, but that was quite good, the fact that you could.\"},{\"Start\":224.82,\"End\":226.12,\"Speaker\":2,\"Content\":\"Use all the ones.\"},{\"Start\":226.12,\"End\":228.91,\"Speaker\":1,\"Content\":\"Didn't have six remote controls sitting in front of you.\"},{\"Start\":228.91,\"End\":230.97,\"Speaker\":3,\"Content\":\"You want to integrate everything into one leg.\"},{\"Start\":230.97,\"End\":231.77,\"Speaker\":2,\"Content\":\"Yeah.\"},{\"Start\":231.77,\"End\":232.66,\"Speaker\":1,\"Content\":\"Okay.\"},{\"Start\":232.66,\"End\":240.0,\"Speaker\":0,\"Content\":\"My experience has only been being given the remote control with the object I buy, not doing any tampering with it and programming, using it to program.\"}]\n",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 42.48885012790561,
+  "rtf": 0.17703687553294004,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 21213673984,
+      "reserved_bytes": 22670213120
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 3490095104
+}

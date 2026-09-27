@@ -1,0 +1,406 @@
+{
+  "id": "EN2002a-11520000",
+  "duration": 240.0,
+  "seed": 3436687995,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "0",
+        "text": "Like, transcription, so I'm gonna, like, split us, and then just press on which one.",
+        "start": 0.0,
+        "end": 5.08
+      },
+      {
+        "speaker": "1",
+        "text": "Or check marks even have two of them.",
+        "start": 5.08,
+        "end": 6.54
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, that would reduce the number of, um, windows that you wouldn't just want to use. Otherwise, Photoshop has a lot of windows. If you ever use Photoshop, it's got loads, and you're always, forever going, oh, get out of the way, there's always stuff in the way, isn't it?",
+        "start": 6.54,
+        "end": 18.56
+      },
+      {
+        "speaker": "3",
+        "text": "But I mean, people get used to it. I mean, when you use a Windows, or Linux, whatever, you have a lot of windows open.",
+        "start": 19.64,
+        "end": 27.54
+      },
+      {
+        "speaker": "2",
+        "text": "You do, yeah.",
+        "start": 27.54,
+        "end": 28.1
+      },
+      {
+        "speaker": "3",
+        "text": "You manage them.",
+        "start": 28.1,
+        "end": 29.08
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah.",
+        "start": 30.82,
+        "end": 31.64
+      },
+      {
+        "speaker": "2",
+        "text": "True. Unless, can you, I don't suppose you can minimize them and stuff like that?",
+        "start": 31.64,
+        "end": 36.32
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah, you can minimize them.",
+        "start": 36.32,
+        "end": 37.28
+      },
+      {
+        "speaker": "2",
+        "text": "Can you do that?",
+        "start": 37.28,
+        "end": 37.72
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah, yeah.",
+        "start": 37.72,
+        "end": 38.5
+      },
+      {
+        "speaker": "2",
+        "text": "Okay, well, that's, yeah, of course you can, actually, yeah.",
+        "start": 38.5,
+        "end": 42.12
+      },
+      {
+        "speaker": "1",
+        "text": "Like, a lot of these can be, like, once we get the disfluencies out, then we can, you know, transcript with a, the disfluency, transcript with a different disfluency. Yeah, that's true, yeah, they're definitely, you know, how about these sort of, using the same window, and so we have to have a lot.",
+        "start": 42.12,
+        "end": 53.3
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah, they're definitely gonna be in the same window, yeah.",
+        "start": 53.3,
+        "end": 54.66
+      },
+      {
+        "speaker": "1",
+        "text": "And probably mutually, um, you know.",
+        "start": 54.66,
+        "end": 57.7
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah, that, that was the plan for the disfluencies anyway. So, yeah, do you want to do that with summaries then? Put the summaries in, in the same window. Mutually exclusive things.",
+        "start": 58.86,
+        "end": 71.48
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, well, could, I don't know, with transcripts, it sounds reasonable to have, like, transcripts, like, maybe three alternatives then, like, full meeting, meeting without disfluencies, and summaries.",
+        "start": 71.48,
+        "end": 84.26
+      },
+      {
+        "speaker": "3",
+        "text": "Do you want to do that?",
+        "start": 84.26,
+        "end": 85.21
+      },
+      {
+        "speaker": "1",
+        "text": "That kind of makes sense.",
+        "start": 85.21,
+        "end": 86.28
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, sounds good.",
+        "start": 86.32,
+        "end": 88.08
+      },
+      {
+        "speaker": "3",
+        "text": "And finally, the prototype you spoke about. What kind of prototype could we produce?",
+        "start": 95.82,
+        "end": 102.64
+      },
+      {
+        "speaker": "1",
+        "text": "I mean, if it were.",
+        "start": 102.64,
+        "end": 104.03
+      },
+      {
+        "speaker": "3",
+        "text": "Because I'm, I'm just, you know, I go into the lab and I say, right, what am I going to change today, you know? And it kind of just, it just develops. I'm not aiming for anything. Do we want to aim for something?",
+        "start": 104.03,
+        "end": 116.82
+      },
+      {
+        "speaker": "2",
+        "text": "Um.",
+        "start": 117.22,
+        "end": 118.66
+      },
+      {
+        "speaker": "3",
+        "text": "I mean, I'm pretty much getting there anyway, to be honest, so it's not going to be a lot more work.",
+        "start": 120.7,
+        "end": 126.57
+      },
+      {
+        "speaker": "0",
+        "text": "I guess it is, I mean, just to try and, I mean, for us to, to be able to do something that we can include with your thing.",
+        "start": 126.57,
+        "end": 134.5
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, that's what we need to do. Something just slightly more than just that on its own.",
+        "start": 134.5,
+        "end": 138.82
+      },
+      {
+        "speaker": "1",
+        "text": "Different point of interest.",
+        "start": 138.82,
+        "end": 140.02
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, just so, see the integration works, sort of, between the.",
+        "start": 140.02,
+        "end": 144.44
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, definitely.",
+        "start": 144.62,
+        "end": 146.72
+      },
+      {
+        "speaker": "0",
+        "text": "So, I guess that's what we were going for.",
+        "start": 148.1,
+        "end": 150.94
+      },
+      {
+        "speaker": "2",
+        "text": "I think that's kind of what you meant as well, isn't it? Taking it, taking it sort of start to do stuff rather than just think.",
+        "start": 150.94,
+        "end": 156.21
+      },
+      {
+        "speaker": "3",
+        "text": "Oh, right, okay.",
+        "start": 156.21,
+        "end": 157.44
+      },
+      {
+        "speaker": "2",
+        "text": "A prototype of the GUI.",
+        "start": 157.44,
+        "end": 159.23
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, well, I guess, I mean, that was probably our intention, but we might not have written it down, so.",
+        "start": 159.23,
+        "end": 166.61
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, yeah.",
+        "start": 166.61,
+        "end": 168.0
+      },
+      {
+        "speaker": "1",
+        "text": "Actually, is the code accessible? Like, the, the GUI stuff that you've done? Like, can we just, like, copy, like, the latest stuff out of your directory or something?",
+        "start": 171.39,
+        "end": 180.2
+      },
+      {
+        "speaker": "0",
+        "text": "Um.",
+        "start": 180.2,
+        "end": 180.78
+      },
+      {
+        "speaker": "1",
+        "text": "Like, if we're gonna just try and, like, take a look or something.",
+        "start": 180.78,
+        "end": 183.17
+      },
+      {
+        "speaker": "3",
+        "text": "I don't know, can we access other people's?",
+        "start": 183.17,
+        "end": 185.05
+      },
+      {
+        "speaker": "2",
+        "text": "If you make it world readable, then anybody can.",
+        "start": 185.05,
+        "end": 187.55
+      },
+      {
+        "speaker": "1",
+        "text": "Well, if you just tell us the directory and just make the file readable, then we'll know the directory to get in.",
+        "start": 187.55,
+        "end": 192.1
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah, sure.",
+        "start": 192.1,
+        "end": 193.56
+      },
+      {
+        "speaker": "1",
+        "text": "That might be.",
+        "start": 193.56,
+        "end": 194.2
+      },
+      {
+        "speaker": "3",
+        "text": "I don't know if it's readable at the moment, but you can try.",
+        "start": 194.2,
+        "end": 196.71
+      },
+      {
+        "speaker": "1",
+        "text": "I think by default they aren't.",
+        "start": 196.71,
+        "end": 198.24
+      },
+      {
+        "speaker": "2",
+        "text": "No, they're not world readable, they're not down, they're not. They're only developed, then only you can read them.",
+        "start": 198.24,
+        "end": 203.46
+      },
+      {
+        "speaker": "3",
+        "text": "Oh, right.",
+        "start": 203.46,
+        "end": 204.07
+      },
+      {
+        "speaker": "2",
+        "text": "You can see them, but you can't read them.",
+        "start": 204.07,
+        "end": 205.83
+      },
+      {
+        "speaker": "3",
+        "text": "Right, well, I'll make that readable then. Um, so the directory is my number.",
+        "start": 205.83,
+        "end": 212.41
+      },
+      {
+        "speaker": "1",
+        "text": "Or you can just email to it. Okay, yeah, yeah.",
+        "start": 212.41,
+        "end": 214.67
+      },
+      {
+        "speaker": "3",
+        "text": "Well, this is not difficult.",
+        "start": 214.67,
+        "end": 215.92
+      },
+      {
+        "speaker": "2",
+        "text": "What's your number?",
+        "start": 215.92,
+        "end": 217.13
+      },
+      {
+        "speaker": "1",
+        "text": "Okay.",
+        "start": 217.13,
+        "end": 217.78
+      },
+      {
+        "speaker": "3",
+        "text": "In all the emails.",
+        "start": 217.78,
+        "end": 219.6
+      },
+      {
+        "speaker": "2",
+        "text": "Your number.",
+        "start": 219.6,
+        "end": 221.45
+      },
+      {
+        "speaker": "3",
+        "text": "O four.",
+        "start": 222.25,
+        "end": 223.47
+      },
+      {
+        "speaker": "2",
+        "text": "Okay.",
+        "start": 223.47,
+        "end": 224.34
+      },
+      {
+        "speaker": "3",
+        "text": "O four five five five six zero. Say that again. O four five five five six zero.",
+        "start": 224.34,
+        "end": 232.76
+      },
+      {
+        "speaker": "2",
+        "text": "And then it's.",
+        "start": 232.76,
+        "end": 234.18
+      },
+      {
+        "speaker": "3",
+        "text": "And then, um, there's a folder, um, analysis D.",
+        "start": 234.18,
+        "end": 238.4
+      },
+      {
+        "speaker": "2",
+        "text": "Analysis D.",
+        "start": 238.4,
+        "end": 239.41
+      },
+      {
+        "speaker": "3",
+        "text": "And it's called.",
+        "start": 239.41,
+        "end": 240.0
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "assistant\n[{\"Start\":0,\"End\":5.08,\"Speaker\":0,\"Content\":\"Like, transcription, so I'm gonna, like, split us, and then just press on which one.\"},{\"Start\":5.08,\"End\":6.54,\"Speaker\":1,\"Content\":\"Or check marks even have two of them.\"},{\"Start\":6.54,\"End\":18.56,\"Speaker\":2,\"Content\":\"Yeah, that would reduce the number of, um, windows that you wouldn't just want to use. Otherwise, Photoshop has a lot of windows. If you ever use Photoshop, it's got loads, and you're always, forever going, oh, get out of the way, there's always stuff in the way, isn't it?\"},{\"Start\":19.64,\"End\":27.54,\"Speaker\":3,\"Content\":\"But I mean, people get used to it. I mean, when you use a Windows, or Linux, whatever, you have a lot of windows open.\"},{\"Start\":27.54,\"End\":28.1,\"Speaker\":2,\"Content\":\"You do, yeah.\"},{\"Start\":28.1,\"End\":29.08,\"Speaker\":3,\"Content\":\"You manage them.\"},{\"Start\":30.82,\"End\":31.64,\"Speaker\":1,\"Content\":\"Yeah.\"},{\"Start\":31.64,\"End\":36.32,\"Speaker\":2,\"Content\":\"True. Unless, can you, I don't suppose you can minimize them and stuff like that?\"},{\"Start\":36.32,\"End\":37.28,\"Speaker\":3,\"Content\":\"Yeah, you can minimize them.\"},{\"Start\":37.28,\"End\":37.72,\"Speaker\":2,\"Content\":\"Can you do that?\"},{\"Start\":37.72,\"End\":38.5,\"Speaker\":3,\"Content\":\"Yeah, yeah.\"},{\"Start\":38.5,\"End\":42.12,\"Speaker\":2,\"Content\":\"Okay, well, that's, yeah, of course you can, actually, yeah.\"},{\"Start\":42.12,\"End\":53.3,\"Speaker\":1,\"Content\":\"Like, a lot of these can be, like, once we get the disfluencies out, then we can, you know, transcript with a, the disfluency, transcript with a different disfluency. Yeah, that's true, yeah, they're definitely, you know, how about these sort of, using the same window, and so we have to have a lot.\"},{\"Start\":53.3,\"End\":54.66,\"Speaker\":3,\"Content\":\"Yeah, they're definitely gonna be in the same window, yeah.\"},{\"Start\":54.66,\"End\":57.7,\"Speaker\":1,\"Content\":\"And probably mutually, um, you know.\"},{\"Start\":58.86,\"End\":71.48,\"Speaker\":3,\"Content\":\"Yeah, that, that was the plan for the disfluencies anyway. So, yeah, do you want to do that with summaries then? Put the summaries in, in the same window. Mutually exclusive things.\"},{\"Start\":71.48,\"End\":84.26,\"Speaker\":0,\"Content\":\"Yeah, well, could, I don't know, with transcripts, it sounds reasonable to have, like, transcripts, like, maybe three alternatives then, like, full meeting, meeting without disfluencies, and summaries.\"},{\"Start\":84.26,\"End\":85.21,\"Speaker\":3,\"Content\":\"Do you want to do that?\"},{\"Start\":85.21,\"End\":86.28,\"Speaker\":1,\"Content\":\"That kind of makes sense.\"},{\"Start\":86.32,\"End\":88.08,\"Speaker\":2,\"Content\":\"Yeah, sounds good.\"},{\"Start\":88.08,\"End\":95.82,\"Content\":\"[Environmental Sounds]\"},{\"Start\":95.82,\"End\":102.64,\"Speaker\":3,\"Content\":\"And finally, the prototype you spoke about. What kind of prototype could we produce?\"},{\"Start\":102.64,\"End\":104.03,\"Speaker\":1,\"Content\":\"I mean, if it were.\"},{\"Start\":104.03,\"End\":116.82,\"Speaker\":3,\"Content\":\"Because I'm, I'm just, you know, I go into the lab and I say, right, what am I going to change today, you know? And it kind of just, it just develops. I'm not aiming for anything. Do we want to aim for something?\"},{\"Start\":117.22,\"End\":118.66,\"Speaker\":2,\"Content\":\"Um.\"},{\"Start\":118.66,\"End\":120.7,\"Content\":\"[Music]\"},{\"Start\":120.7,\"End\":126.57,\"Speaker\":3,\"Content\":\"I mean, I'm pretty much getting there anyway, to be honest, so it's not going to be a lot more work.\"},{\"Start\":126.57,\"End\":134.5,\"Speaker\":0,\"Content\":\"I guess it is, I mean, just to try and, I mean, for us to, to be able to do something that we can include with your thing.\"},{\"Start\":134.5,\"End\":138.82,\"Speaker\":2,\"Content\":\"Yeah, that's what we need to do. Something just slightly more than just that on its own.\"},{\"Start\":138.82,\"End\":140.02,\"Speaker\":1,\"Content\":\"Different point of interest.\"},{\"Start\":140.02,\"End\":144.44,\"Speaker\":0,\"Content\":\"Yeah, just so, see the integration works, sort of, between the.\"},{\"Start\":144.62,\"End\":146.72,\"Speaker\":2,\"Content\":\"Yeah, definitely.\"},{\"Start\":148.1,\"End\":150.94,\"Speaker\":0,\"Content\":\"So, I guess that's what we were going for.\"},{\"Start\":150.94,\"End\":156.21,\"Speaker\":2,\"Content\":\"I think that's kind of what you meant as well, isn't it? Taking it, taking it sort of start to do stuff rather than just think.\"},{\"Start\":156.21,\"End\":157.44,\"Speaker\":3,\"Content\":\"Oh, right, okay.\"},{\"Start\":157.44,\"End\":159.23,\"Speaker\":2,\"Content\":\"A prototype of the GUI.\"},{\"Start\":159.23,\"End\":166.61,\"Speaker\":0,\"Content\":\"Yeah, well, I guess, I mean, that was probably our intention, but we might not have written it down, so.\"},{\"Start\":166.61,\"End\":168.0,\"Speaker\":2,\"Content\":\"Yeah, yeah.\"},{\"Start\":168.0,\"End\":171.39,\"Content\":\"[Human Sounds]\"},{\"Start\":171.39,\"End\":180.2,\"Speaker\":1,\"Content\":\"Actually, is the code accessible? Like, the, the GUI stuff that you've done? Like, can we just, like, copy, like, the latest stuff out of your directory or something?\"},{\"Start\":180.2,\"End\":180.78,\"Speaker\":0,\"Content\":\"Um.\"},{\"Start\":180.78,\"End\":183.17,\"Speaker\":1,\"Content\":\"Like, if we're gonna just try and, like, take a look or something.\"},{\"Start\":183.17,\"End\":185.05,\"Speaker\":3,\"Content\":\"I don't know, can we access other people's?\"},{\"Start\":185.05,\"End\":187.55,\"Speaker\":2,\"Content\":\"If you make it world readable, then anybody can.\"},{\"Start\":187.55,\"End\":192.1,\"Speaker\":1,\"Content\":\"Well, if you just tell us the directory and just make the file readable, then we'll know the directory to get in.\"},{\"Start\":192.1,\"End\":193.56,\"Speaker\":3,\"Content\":\"Yeah, sure.\"},{\"Start\":193.56,\"End\":194.2,\"Speaker\":1,\"Content\":\"That might be.\"},{\"Start\":194.2,\"End\":196.71,\"Speaker\":3,\"Content\":\"I don't know if it's readable at the moment, but you can try.\"},{\"Start\":196.71,\"End\":198.24,\"Speaker\":1,\"Content\":\"I think by default they aren't.\"},{\"Start\":198.24,\"End\":203.46,\"Speaker\":2,\"Content\":\"No, they're not world readable, they're not down, they're not. They're only developed, then only you can read them.\"},{\"Start\":203.46,\"End\":204.07,\"Speaker\":3,\"Content\":\"Oh, right.\"},{\"Start\":204.07,\"End\":205.83,\"Speaker\":2,\"Content\":\"You can see them, but you can't read them.\"},{\"Start\":205.83,\"End\":212.41,\"Speaker\":3,\"Content\":\"Right, well, I'll make that readable then. Um, so the directory is my number.\"},{\"Start\":212.41,\"End\":214.67,\"Speaker\":1,\"Content\":\"Or you can just email to it. Okay, yeah, yeah.\"},{\"Start\":214.67,\"End\":215.92,\"Speaker\":3,\"Content\":\"Well, this is not difficult.\"},{\"Start\":215.92,\"End\":217.13,\"Speaker\":2,\"Content\":\"What's your number?\"},{\"Start\":217.13,\"End\":217.78,\"Speaker\":1,\"Content\":\"Okay.\"},{\"Start\":217.78,\"End\":219.6,\"Speaker\":3,\"Content\":\"In all the emails.\"},{\"Start\":219.6,\"End\":221.45,\"Speaker\":2,\"Content\":\"Your number.\"},{\"Start\":222.25,\"End\":223.47,\"Speaker\":3,\"Content\":\"O four.\"},{\"Start\":223.47,\"End\":224.34,\"Speaker\":2,\"Content\":\"Okay.\"},{\"Start\":224.34,\"End\":232.76,\"Speaker\":3,\"Content\":\"O four five five five six zero. Say that again. O four five five five six zero.\"},{\"Start\":232.76,\"End\":234.18,\"Speaker\":2,\"Content\":\"And then it's.\"},{\"Start\":234.18,\"End\":238.4,\"Speaker\":3,\"Content\":\"And then, um, there's a folder, um, analysis D.\"},{\"Start\":238.4,\"End\":239.41,\"Speaker\":2,\"Content\":\"Analysis D.\"},{\"Start\":239.41,\"End\":240.0,\"Speaker\":3,\"Content\":\"And it's called.\"}]\n",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 47.63304666604381,
+  "rtf": 0.19847102777518255,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 21213673984,
+      "reserved_bytes": 22735224832
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 3490095104
+}

@@ -1,0 +1,316 @@
+{
+  "id": "TS3003a-15360000",
+  "duration": 240.0,
+  "seed": 3702278715,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "S01",
+        "text": "Okay.",
+        "start": 5.88,
+        "end": 6.22
+      },
+      {
+        "speaker": "S02",
+        "text": "Sweet.",
+        "start": 9.91,
+        "end": 10.38
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah. You know what that is?",
+        "start": 11.48,
+        "end": 13.24
+      },
+      {
+        "speaker": "S01",
+        "text": "Uh-huh.",
+        "start": 15.01,
+        "end": 15.41
+      },
+      {
+        "speaker": "S03",
+        "text": "A rug.",
+        "start": 15.48,
+        "end": 15.84
+      },
+      {
+        "speaker": "S02",
+        "text": "Carfield.",
+        "start": 15.72,
+        "end": 16.22
+      },
+      {
+        "speaker": "S01",
+        "text": "A rug, yeah.",
+        "start": 16.48,
+        "end": 17.4
+      },
+      {
+        "speaker": "S03",
+        "text": "Carfield, yeah.",
+        "start": 16.63,
+        "end": 17.41
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 17.26,
+        "end": 17.61
+      },
+      {
+        "speaker": "S01",
+        "text": "Good stuff.",
+        "start": 18.48,
+        "end": 18.91
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 23.96,
+        "end": 24.18
+      },
+      {
+        "speaker": "S01",
+        "text": "So uh",
+        "start": 26.51,
+        "end": 27.28
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 30.15,
+        "end": 30.48
+      },
+      {
+        "speaker": "S01",
+        "text": "Um",
+        "start": 33.03,
+        "end": 33.78
+      },
+      {
+        "speaker": "S01",
+        "text": "Who's uh playing for?",
+        "start": 34.06,
+        "end": 35.04
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah, just a blank.",
+        "start": 34.91,
+        "end": 35.91
+      },
+      {
+        "speaker": "S01",
+        "text": "She can.",
+        "start": 36.38,
+        "end": 36.81
+      },
+      {
+        "speaker": "S01",
+        "text": "Mine's gonna draw a cat too, so",
+        "start": 49.31,
+        "end": 51.08
+      },
+      {
+        "speaker": "S01",
+        "text": "Let's try something else.",
+        "start": 54.41,
+        "end": 55.58
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 57.46,
+        "end": 57.71
+      },
+      {
+        "speaker": "S01",
+        "text": "Something different than a carfield.",
+        "start": 58.16,
+        "end": 60.51
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah, a cat.",
+        "start": 81.03,
+        "end": 82.01
+      },
+      {
+        "speaker": "S01",
+        "text": "Okay.",
+        "start": 84.41,
+        "end": 84.91
+      },
+      {
+        "speaker": "S02",
+        "text": "Is it your cat, or did you find it on the street?",
+        "start": 88.48,
+        "end": 90.68
+      },
+      {
+        "speaker": "S01",
+        "text": "Well",
+        "start": 96.91,
+        "end": 97.21
+      },
+      {
+        "speaker": "S01",
+        "text": "it's supposed to be a cat. I like cats because uh",
+        "start": 98.58,
+        "end": 100.91
+      },
+      {
+        "speaker": "S01",
+        "text": "they are uh",
+        "start": 104.03,
+        "end": 104.68
+      },
+      {
+        "speaker": "S01",
+        "text": "in the pen.",
+        "start": 107.48,
+        "end": 108.01
+      },
+      {
+        "speaker": "S01",
+        "text": "So",
+        "start": 120.81,
+        "end": 121.08
+      },
+      {
+        "speaker": "S02",
+        "text": "Okay.",
+        "start": 121.61,
+        "end": 121.91
+      },
+      {
+        "speaker": "S02",
+        "text": "That's",
+        "start": 123.68,
+        "end": 124.11
+      },
+      {
+        "speaker": "S02",
+        "text": "Okay, so everybody knows how to work the whiteboard now. So if you have any ideas or if you wanna throw anything on the whiteboard, just ask and go ahead.",
+        "start": 124.31,
+        "end": 134.01
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 128.31,
+        "end": 128.61
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 128.78,
+        "end": 129.01
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 135.31,
+        "end": 135.81
+      },
+      {
+        "speaker": "S02",
+        "text": "Easy.",
+        "start": 135.98,
+        "end": 136.48
+      },
+      {
+        "speaker": "S02",
+        "text": "Hey.",
+        "start": 140.91,
+        "end": 141.18
+      },
+      {
+        "speaker": "S03",
+        "text": "So we're being home to",
+        "start": 141.78,
+        "end": 142.91
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah, home to the whiteboard.",
+        "start": 143.88,
+        "end": 145.01
+      },
+      {
+        "speaker": "S02",
+        "text": "So we've got the tool uh introduction.",
+        "start": 146.81,
+        "end": 149.51
+      },
+      {
+        "speaker": "S02",
+        "text": "Move along to the project finance.",
+        "start": 151.23,
+        "end": 153.81
+      },
+      {
+        "speaker": "S02",
+        "text": "Um",
+        "start": 155.08,
+        "end": 155.88
+      },
+      {
+        "speaker": "S02",
+        "text": "as you can see, the um for a remote control, the selling price is uh twenty five Euros, our selling price.",
+        "start": 156.93,
+        "end": 165.28
+      },
+      {
+        "speaker": "S02",
+        "text": "Uh our profit aim is fifty million Euros. Uh that's the least we have to get from our remote controls. So we have to work together to reach our aims. Uh we can do it international, so we have to focus on different kind of users, different kind of cultures, and different kind of trends as well. Um",
+        "start": 166.48,
+        "end": 188.11
+      },
+      {
+        "speaker": "S02",
+        "text": "but that's all in the later stadium.",
+        "start": 189.53,
+        "end": 191.28
+      },
+      {
+        "speaker": "S02",
+        "text": "Our production cost um can be maximum twelve and a half Euros. So that's also a point we have to keep in mind. Hopefully we won't make remote controls with small televisions inside and stuff like that. Won't work. So just try to remember these points. Selling price twenty five, profit aim is fifty million, um but more important is the in international market we're trying to focus on. And production cost uh maximum twelve and a half Euros.",
+        "start": 192.31,
+        "end": 227.51
+      },
+      {
+        "speaker": "S02",
+        "text": "So that leads us to our little discussion. We've got about five or ten minutes left for discussion.",
+        "start": 229.48,
+        "end": 236.81
+      },
+      {
+        "speaker": "S02",
+        "text": "So I'm gonna",
+        "start": 237.83,
+        "end": 239.58
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "[5.88][S01]Okay.[6.22][9.91][S02]Sweet.[10.38][11.48][S01]Yeah. You know what that is?[13.24][15.01][S01]Uh-huh.[15.41][15.48][S03]A rug.[15.84][15.72][S02]Carfield.[16.22][16.48][S01]A rug, yeah.[17.40][16.63][S03]Carfield, yeah.[17.41][17.26][S02]Yeah.[17.61][18.48][S01]Good stuff.[18.91][23.96][S01]Yeah.[24.18][26.51][S01]So uh[27.28][30.15][S01]Yeah.[30.48][33.03][S01]Um[33.78][34.06][S01]Who's uh playing for?[35.04][34.91][S02]Yeah, just a blank.[35.91][36.38][S01]She can.[36.81][49.31][S01]Mine's gonna draw a cat too, so[51.08][54.41][S01]Let's try something else.[55.58][57.46][S02]Yeah.[57.71][58.16][S01]Something different than a carfield.[60.51][81.03][S02]Yeah, a cat.[82.01][84.41][S01]Okay.[84.91][88.48][S02]Is it your cat, or did you find it on the street?[90.68][96.91][S01]Well[97.21][98.58][S01]it's supposed to be a cat. I like cats because uh[100.91][104.03][S01]they are uh[104.68][107.48][S01]in the pen.[108.01][120.81][S01]So[121.08][121.61][S02]Okay.[121.91][123.68][S02]That's[124.11][124.31][S02]Okay, so everybody knows how to work the whiteboard now. So if you have any ideas or if you wanna throw anything on the whiteboard, just ask and go ahead.[134.01][128.31][S01]Yeah.[128.61][128.78][S03]Yeah.[129.01][135.31][S03]Yeah.[135.81][135.98][S02]Easy.[136.48][140.91][S02]Hey.[141.18][141.78][S03]So we're being home to[142.91][143.88][S02]Yeah, home to the whiteboard.[145.01][146.81][S02]So we've got the tool uh introduction.[149.51][151.23][S02]Move along to the project finance.[153.81][155.08][S02]Um[155.88][156.93][S02]as you can see, the um for a remote control, the selling price is uh twenty five Euros, our selling price.[165.28][166.48][S02]Uh our profit aim is fifty million Euros. Uh that's the least we have to get from our remote controls. So we have to work together to reach our aims. Uh we can do it international, so we have to focus on different kind of users, different kind of cultures, and different kind of trends as well. Um[188.11][189.53][S02]but that's all in the later stadium.[191.28][192.31][S02]Our production cost um can be maximum twelve and a half Euros. So that's also a point we have to keep in mind. Hopefully we won't make remote controls with small televisions inside and stuff like that. Won't work. So just try to remember these points. Selling price twenty five, profit aim is fifty million, um but more important is the in international market we're trying to focus on. And production cost uh maximum twelve and a half Euros.[227.51][229.48][S02]So that leads us to our little discussion. We've got about five or ten minutes left for discussion.[236.81][237.83][S02]So I'm gonna[239.58]",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 10.91834967106115,
+  "rtf": 0.04549312362942146,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 2355500544,
+      "reserved_bytes": 2627731456
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 2850721792
+}

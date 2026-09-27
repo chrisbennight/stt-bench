@@ -1,0 +1,476 @@
+{
+  "id": "IS1009a-11520000",
+  "duration": 118.9973125,
+  "seed": 121160637,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "0",
+        "text": "So we have the working design, and then the functional design, and the marketing manager is coming up with some user requirement specification. Like friendliness, and what we just discussed in general. That would be your idea. And of course price.But it, that it, that the price is a good price. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Mm-hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "I mean, the price is given, but, uh, that with, uh, that with that's right. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "We have to justify that price by having sufficient features to make it sell at that price. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "That's right. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "And, you know, you, you will get specific, um, instructions for that. I think that's the end of the chat. Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "So, um, we have, well, we have time. Two, two, two three minutes. Um, any questions at this point or, uh, suggestions? I think basically, basically we'll get instructions to work with, and if you have any questions, um, I guess you can, um... ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Okay, I think I will have to think about our next meeting. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Mm-hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "How about you people? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, I have some. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Mm-hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Right, well, uh, let's see. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Then, uh, we see you in about thirty minutes. And see what we can come up with. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Mm-hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Okay, very good. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "So now we have to work out the... ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Can we take this? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Mm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "I think we have to keep it here.",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [
+      {
+        "audio_available_seconds": 3.466666666666667,
+        "chunk_end_seconds": 2.933333333333333,
+        "emitted_seconds": 3.8170956230023876,
+        "has_text": true,
+        "text": " \n Speaker 0:So we have the working design, and then the functional "
+      },
+      {
+        "audio_available_seconds": 6.4,
+        "chunk_end_seconds": 5.866666666666666,
+        "emitted_seconds": 6.541437993058935,
+        "has_text": true,
+        "text": "design, and the "
+      },
+      {
+        "audio_available_seconds": 9.333333333333334,
+        "chunk_end_seconds": 8.8,
+        "emitted_seconds": 9.54394136206247,
+        "has_text": true,
+        "text": "marketing manager is coming up with some user "
+      },
+      {
+        "audio_available_seconds": 12.266666666666667,
+        "chunk_end_seconds": 11.733333333333333,
+        "emitted_seconds": 12.496315535041504,
+        "has_text": true,
+        "text": "requirement specification. Like friendliness, and "
+      },
+      {
+        "audio_available_seconds": 15.2,
+        "chunk_end_seconds": 14.666666666666666,
+        "emitted_seconds": 15.447120500029996,
+        "has_text": true,
+        "text": "what we just discussed in general. That would be "
+      },
+      {
+        "audio_available_seconds": 18.133333333333333,
+        "chunk_end_seconds": 17.6,
+        "emitted_seconds": 18.330634946003556,
+        "has_text": true,
+        "text": "your idea. And of course price."
+      },
+      {
+        "audio_available_seconds": 21.066666666666666,
+        "chunk_end_seconds": 20.533333333333335,
+        "emitted_seconds": 21.331320649012923,
+        "has_text": true,
+        "text": "But it, that it, that the price is a "
+      },
+      {
+        "audio_available_seconds": 24.0,
+        "chunk_end_seconds": 23.466666666666665,
+        "emitted_seconds": 24.53020248701796,
+        "has_text": true,
+        "text": "good price. \n Speaker 1:Mm-hmm. \n Speaker 0:I mean, the price is given, but, "
+      },
+      {
+        "audio_available_seconds": 26.933333333333334,
+        "chunk_end_seconds": 26.4,
+        "emitted_seconds": 27.163070455077104,
+        "has_text": true,
+        "text": "uh, that with, uh, that with "
+      },
+      {
+        "audio_available_seconds": 29.866666666666667,
+        "chunk_end_seconds": 29.333333333333332,
+        "emitted_seconds": 30.380047191982158,
+        "has_text": true,
+        "text": "that's right. \n Speaker 1:We have to justify that price by having sufficient features to make it sell at that "
+      },
+      {
+        "audio_available_seconds": 32.8,
+        "chunk_end_seconds": 32.266666666666666,
+        "emitted_seconds": 33.24294360703789,
+        "has_text": true,
+        "text": "price. \n Speaker 0:That's right. \n Speaker 0:And, you know, "
+      },
+      {
+        "audio_available_seconds": 35.733333333333334,
+        "chunk_end_seconds": 35.2,
+        "emitted_seconds": 35.963624441064894,
+        "has_text": true,
+        "text": "you, you will get specific, um, "
+      },
+      {
+        "audio_available_seconds": 38.666666666666664,
+        "chunk_end_seconds": 38.13333333333333,
+        "emitted_seconds": 39.002514061983675,
+        "has_text": true,
+        "text": "instructions for that. I think that's the end of the chat. Yeah."
+      },
+      {
+        "audio_available_seconds": 41.6,
+        "chunk_end_seconds": 41.06666666666667,
+        "emitted_seconds": 41.65176153706852,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 44.53333333333333,
+        "chunk_end_seconds": 44.0,
+        "emitted_seconds": 44.59258143405896,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 47.46666666666667,
+        "chunk_end_seconds": 46.93333333333333,
+        "emitted_seconds": 47.69588365696836,
+        "has_text": true,
+        "text": " \n Speaker 0:So, um, "
+      },
+      {
+        "audio_available_seconds": 50.4,
+        "chunk_end_seconds": 49.86666666666667,
+        "emitted_seconds": 50.71796198596712,
+        "has_text": true,
+        "text": "we have, well, we have time. Two, two, two "
+      },
+      {
+        "audio_available_seconds": 53.333333333333336,
+        "chunk_end_seconds": 52.8,
+        "emitted_seconds": 53.54693861398846,
+        "has_text": true,
+        "text": "three minutes. Um, any questions at "
+      },
+      {
+        "audio_available_seconds": 56.266666666666666,
+        "chunk_end_seconds": 55.733333333333334,
+        "emitted_seconds": 56.45535388402641,
+        "has_text": true,
+        "text": "this point or, uh, "
+      },
+      {
+        "audio_available_seconds": 59.2,
+        "chunk_end_seconds": 58.666666666666664,
+        "emitted_seconds": 59.39613431401085,
+        "has_text": true,
+        "text": "suggestions? I think basically, "
+      },
+      {
+        "audio_available_seconds": 62.13333333333333,
+        "chunk_end_seconds": 61.6,
+        "emitted_seconds": 62.32915740297176,
+        "has_text": true,
+        "text": "basically we'll get instructions to "
+      },
+      {
+        "audio_available_seconds": 65.06666666666666,
+        "chunk_end_seconds": 64.53333333333333,
+        "emitted_seconds": 65.31552937300876,
+        "has_text": true,
+        "text": "work with, and if you have any questions, "
+      },
+      {
+        "audio_available_seconds": 68.0,
+        "chunk_end_seconds": 67.46666666666667,
+        "emitted_seconds": 68.19941577001009,
+        "has_text": true,
+        "text": "um, I guess you can, "
+      },
+      {
+        "audio_available_seconds": 70.93333333333334,
+        "chunk_end_seconds": 70.4,
+        "emitted_seconds": 71.3427728570532,
+        "has_text": true,
+        "text": "um... \n Speaker 1:Okay, I think I will have to think about our next "
+      },
+      {
+        "audio_available_seconds": 73.86666666666666,
+        "chunk_end_seconds": 73.33333333333333,
+        "emitted_seconds": 74.47108950896654,
+        "has_text": true,
+        "text": "meeting. \n Speaker 0:Mm-hmm. \n Speaker 1:How about you people? \n Speaker 2:Yeah, I have "
+      },
+      {
+        "audio_available_seconds": 76.8,
+        "chunk_end_seconds": 76.26666666666667,
+        "emitted_seconds": 77.29850468505174,
+        "has_text": true,
+        "text": "some. \n Speaker 0:Mm-hmm. \n Speaker 2:Yeah. \n Speaker 0:Okay."
+      },
+      {
+        "audio_available_seconds": 79.73333333333333,
+        "chunk_end_seconds": 79.2,
+        "emitted_seconds": 80.24932835798245,
+        "has_text": true,
+        "text": " \n Speaker 1:Right, well, uh, let's see. \n Speaker 0:Then, uh, we "
+      },
+      {
+        "audio_available_seconds": 82.66666666666667,
+        "chunk_end_seconds": 82.13333333333334,
+        "emitted_seconds": 82.88008170505054,
+        "has_text": true,
+        "text": "see you in about thirty minutes. And "
+      },
+      {
+        "audio_available_seconds": 85.6,
+        "chunk_end_seconds": 85.06666666666666,
+        "emitted_seconds": 86.38549023296218,
+        "has_text": true,
+        "text": "see what we can come up with. \n Speaker 2:Mm-hmm. \n Speaker 1:Okay, very good. \n Speaker 0:Okay. \n Speaker 2:Okay."
+      },
+      {
+        "audio_available_seconds": 88.53333333333333,
+        "chunk_end_seconds": 88.0,
+        "emitted_seconds": 88.83718099002726,
+        "has_text": true,
+        "text": " \n Speaker 0:Yeah. \n Speaker 0:Okay."
+      },
+      {
+        "audio_available_seconds": 91.46666666666667,
+        "chunk_end_seconds": 90.93333333333334,
+        "emitted_seconds": 91.5200202370761,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 94.4,
+        "chunk_end_seconds": 93.86666666666666,
+        "emitted_seconds": 94.45350885298103,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 97.33333333333333,
+        "chunk_end_seconds": 96.8,
+        "emitted_seconds": 97.6206801730441,
+        "has_text": true,
+        "text": " \n Speaker 0:So now we have to work out "
+      },
+      {
+        "audio_available_seconds": 100.26666666666667,
+        "chunk_end_seconds": 99.73333333333333,
+        "emitted_seconds": 100.35828271904029,
+        "has_text": true,
+        "text": "the..."
+      },
+      {
+        "audio_available_seconds": 103.2,
+        "chunk_end_seconds": 102.66666666666667,
+        "emitted_seconds": 103.79070800996851,
+        "has_text": true,
+        "text": " \n Speaker 2:Can we take this? \n Speaker 0:Mm. \n Speaker 2:I think we have to keep it here."
+      },
+      {
+        "audio_available_seconds": 106.13333333333334,
+        "chunk_end_seconds": 105.6,
+        "emitted_seconds": 106.18811654101592,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 109.06666666666666,
+        "chunk_end_seconds": 108.53333333333333,
+        "emitted_seconds": 109.13630239106715,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 112.0,
+        "chunk_end_seconds": 111.46666666666667,
+        "emitted_seconds": 112.05348451901227,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 114.93333333333334,
+        "chunk_end_seconds": 114.4,
+        "emitted_seconds": 114.98705305403564,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 117.86666666666666,
+        "chunk_end_seconds": 117.33333333333333,
+        "emitted_seconds": 117.92028026096523,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 118.99733333333333,
+        "chunk_end_seconds": 118.9973125,
+        "emitted_seconds": 119.05134266498499,
+        "has_text": false,
+        "text": ""
+      }
+    ],
+    "metadata": {
+      "raw_output": " \n Speaker 0:So we have the working design, and then the functional design, and the marketing manager is coming up with some user requirement specification. Like friendliness, and what we just discussed in general. That would be your idea. And of course price.But it, that it, that the price is a good price. \n Speaker 1:Mm-hmm. \n Speaker 0:I mean, the price is given, but, uh, that with, uh, that with that's right. \n Speaker 1:We have to justify that price by having sufficient features to make it sell at that price. \n Speaker 0:That's right. \n Speaker 0:And, you know, you, you will get specific, um, instructions for that. I think that's the end of the chat. Yeah. \n Speaker 0:So, um, we have, well, we have time. Two, two, two three minutes. Um, any questions at this point or, uh, suggestions? I think basically, basically we'll get instructions to work with, and if you have any questions, um, I guess you can, um... \n Speaker 1:Okay, I think I will have to think about our next meeting. \n Speaker 0:Mm-hmm. \n Speaker 1:How about you people? \n Speaker 2:Yeah, I have some. \n Speaker 0:Mm-hmm. \n Speaker 2:Yeah. \n Speaker 0:Okay. \n Speaker 1:Right, well, uh, let's see. \n Speaker 0:Then, uh, we see you in about thirty minutes. And see what we can come up with. \n Speaker 2:Mm-hmm. \n Speaker 1:Okay, very good. \n Speaker 0:Okay. \n Speaker 2:Okay. \n Speaker 0:Yeah. \n Speaker 0:Okay. \n Speaker 0:So now we have to work out the... \n Speaker 2:Can we take this? \n Speaker 0:Mm. \n Speaker 2:I think we have to keep it here.",
+      "realtime_paced": true,
+      "stream_compute_seconds": 10.558838395169005,
+      "timing_reason": "Official streaming output has no speech timestamps",
+      "generation_limit_hit": null,
+      "stream_output_parser": "joined-chunks-v1"
+    }
+  },
+  "wall_seconds": 119.07663771801163,
+  "rtf": 1.0006666135255082,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 17576800256,
+      "reserved_bytes": 17943232512
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 3490643968
+}

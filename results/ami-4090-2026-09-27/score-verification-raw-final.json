@@ -1,0 +1,14 @@
+{
+  "checked_records": 125,
+  "models": 5,
+  "recordings_per_model": 25,
+  "score_mismatches": [],
+  "score_file_sha256": {
+    "moss": "8add888dfc2229cd78344b047c612fc60700225e68c40e9bf0d6d048e2aa7134",
+    "vibevoice": "3ac5b47e690d30f347144e94af7fbcd616479ffb9873d43e5a812a608803c364",
+    "qwen_pyannote": "a055ca7395d6c8e9f33dfe56ef7a9cb4fdc984e4fbc423384aec07de25efceeb",
+    "qwen_nemotron": "8fc6c2468284d7062370347a3242378ebdc69fd8e1363aa459c0588add272953",
+    "vibevoice_streaming": "94655a82958ce1f3aa0c0b3eb39a8ffd4710ae1666ecd850008c916a3b986dec"
+  },
+  "verification": "Local recomputation from saved predictions and references"
+}

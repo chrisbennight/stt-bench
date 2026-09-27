@@ -1,0 +1,40 @@
+{
+  "id": "TS3003a-23040000",
+  "duration": 65.642625,
+  "seed": 3299688118,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "0",
+        "text": "Okay, then I'll put the minutes from this meeting in the project folder. And then we can all work through this meeting now. Okay. And we can all work on our own projects.",
+        "start": 2.21,
+        "end": 19.55
+      },
+      {
+        "speaker": "0",
+        "text": "Okay, so that'll be two in about a half an hour. Okay. Have a good look.",
+        "start": 27.73,
+        "end": 35.25
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "assistant\n[{\"Start\":0,\"End\":2.21,\"Content\":\"[Silence]\"},{\"Start\":2.21,\"End\":19.55,\"Speaker\":0,\"Content\":\"Okay, then I'll put the minutes from this meeting in the project folder. And then we can all work through this meeting now. Okay. And we can all work on our own projects.\"},{\"Start\":19.55,\"End\":27.73,\"Content\":\"[Environmental Sounds]\"},{\"Start\":27.73,\"End\":35.25,\"Speaker\":0,\"Content\":\"Okay, so that'll be two in about a half an hour. Okay. Have a good look.\"},{\"Start\":35.25,\"End\":65.64,\"Content\":\"[Environmental Sounds]\"}]\n",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 3.48092846700456,
+  "rtf": 0.05302847756323822,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 20779468800,
+      "reserved_bytes": 22735224832
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 3490095104
+}

@@ -1,0 +1,1117 @@
+{
+  "id": "EN2002a-19200000",
+  "duration": 240.0,
+  "seed": 1452194234,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "0",
+        "text": "But it was, I have to sit there and think about it for a bit, which is a bit of a letdown. Yeah, but I spent on Facebook. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah.That's fun. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "So yeah, I was thinking the weekend probably, but, uh, start attacking this seriously and just, uh\u2014 ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, I was thinking the weekend. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "You know, hopefully have something by next week, the weekend, sort of try integrate into the group, um, become, uh, become something possible. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Mm-hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Well, the browsers I use now, or as I use them now, see, it was there when I took it.Um, uses the, um, the N.X.T. search to get the data out the files. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Mm-hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Which I think is odd, but I'm not quite sure how it works yet. I don't quite understand it. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "So when it, when it\u2014 ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "To get the data, for example, to get summarisation data, you have to search for, I think they're I.D.s or something. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Mm-hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "That was pretty bizarre, wasn't it? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "I guess that's how it works.They've got, they, that is very bizarre. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "So they don't, you know, they don't say, look in that and that folder, but they say, search everything. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, yeah, yeah.It is pretty bizarre, yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Well, they did say it wasn't the most efficient thing. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "It is very bizarre. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "But it does load up quite quickly, I tell you, that's what's impressive. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "But, you know, but what, what part\u2014 ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Well, is it like a window where you have to r\u2014 write a switch query, or is it just what's behind it so, or automatically loads? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "No, this is not the actual search.This is just when you open, you know, to load the transcript, for example. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "To find the transcript, what's that meeting? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "It does, does N.X.T. search for the string I. L. A. transcript or text or whatever. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Mm-hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "For, and it, what it li\u2014 it just has an open variable, transcript. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Just whatever, find everything that's got that and then load. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, so I don't know if you've looked at the search query language, but it's like a dollar, A. dot text, so\u2014 ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, I have. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, yeah, cause that's there, I'd like it declares a variable, doesn't it, doesn't it? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "To pop everything up. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "And then, yeah, because every, every, uh, all of these, um, these files have got, um, an I. D. and all the transcript files got the string I. L. A. what it is, or text or something. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "So it just searches for those files. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "So that would be handy. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Right. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Were you, like, is there a open thingy or what are you, like, what, what did you do to, like, how did you figure out that this uses N.X.T. search, like\u2014 ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Um. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Is it\u2014 ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Um, well, it's in the code. Just that it, you know, it, you define a search object and then you search for that string. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "I had to figure out how to, how to do the same thing, but somewhere that's how I, how I did it. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Oh, I see, I see. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Had to understand how to do the transcript, how they did the transcript, to do the summarisation. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "So did you have to write it in the way that they wrote it? Is that what you did? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, just search for the specific string. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Right. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "So you could just, you know, you could, use that when you, if you wanna, um, take the data out. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Take the data out. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Just thinking that, yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "If you have, uh, a question about what the code means or where to find the code that you wanna, you know, whatever you wanna do, then just send me an email. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "3",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Mm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "I can explain it, yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. Have you annotated your code? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Oh yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Okay. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Actually, in the moment it's got a load of rubbish because the, the, the browser that I used from, from, you know, that they gave us had a lot of extra stuff in. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "And had data thrown at it to throw out all the functions I had, I don't need. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Just a test. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, just a test. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Doesn't say anything in the code to do it. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "So, yes.So they're all in there still, a lot of rubbish, but we'll be g\u2014 we won't be chucked out by the end, I think. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Comin\u2014 completing it out one bit at a time, running it to, uh, yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah.",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [
+      {
+        "audio_available_seconds": 3.466666666666667,
+        "chunk_end_seconds": 2.933333333333333,
+        "emitted_seconds": 3.9603827849496156,
+        "has_text": true,
+        "text": " \n Speaker 0:But it was, I have to sit there and think about it for a bit, which is "
+      },
+      {
+        "audio_available_seconds": 6.4,
+        "chunk_end_seconds": 5.866666666666666,
+        "emitted_seconds": 6.840862374985591,
+        "has_text": true,
+        "text": "a bit of a letdown. Yeah, but I spent on Facebook. \n Speaker 1:Yeah."
+      },
+      {
+        "audio_available_seconds": 9.333333333333334,
+        "chunk_end_seconds": 8.8,
+        "emitted_seconds": 9.57994006597437,
+        "has_text": true,
+        "text": "That's fun. \n Speaker 0:Yeah."
+      },
+      {
+        "audio_available_seconds": 12.266666666666667,
+        "chunk_end_seconds": 11.733333333333333,
+        "emitted_seconds": 12.565808312036097,
+        "has_text": true,
+        "text": " \n Speaker 1:Okay. \n Speaker 2:Okay."
+      },
+      {
+        "audio_available_seconds": 15.2,
+        "chunk_end_seconds": 14.666666666666666,
+        "emitted_seconds": 15.607264776946977,
+        "has_text": true,
+        "text": " \n Speaker 1:So yeah, I was thinking the weekend probably, but, uh, "
+      },
+      {
+        "audio_available_seconds": 18.133333333333333,
+        "chunk_end_seconds": 17.6,
+        "emitted_seconds": 18.822141806944273,
+        "has_text": true,
+        "text": "start attacking this seriously and just, uh\u2014 \n Speaker 2:Yeah, I was thinking the weekend. \n Speaker 0:Yeah. \n Speaker 2:Yeah."
+      },
+      {
+        "audio_available_seconds": 21.066666666666666,
+        "chunk_end_seconds": 20.533333333333335,
+        "emitted_seconds": 21.432911701966077,
+        "has_text": true,
+        "text": " \n Speaker 1:You know, hopefully have something by next week, the "
+      },
+      {
+        "audio_available_seconds": 24.0,
+        "chunk_end_seconds": 23.466666666666665,
+        "emitted_seconds": 24.302637311979197,
+        "has_text": true,
+        "text": "weekend, sort of try integrate into the group, um, "
+      },
+      {
+        "audio_available_seconds": 26.933333333333334,
+        "chunk_end_seconds": 26.4,
+        "emitted_seconds": 27.569869586033747,
+        "has_text": true,
+        "text": "become, uh, become something possible. \n Speaker 2:Mm-hmm. \n Speaker 0:Yeah. \n Speaker 2:Well, "
+      },
+      {
+        "audio_available_seconds": 29.866666666666667,
+        "chunk_end_seconds": 29.333333333333332,
+        "emitted_seconds": 30.100293425028212,
+        "has_text": true,
+        "text": "the browsers I use now, or as I "
+      },
+      {
+        "audio_available_seconds": 32.8,
+        "chunk_end_seconds": 32.266666666666666,
+        "emitted_seconds": 33.105336113017984,
+        "has_text": true,
+        "text": "use them now, see, it was there when I took it."
+      },
+      {
+        "audio_available_seconds": 35.733333333333334,
+        "chunk_end_seconds": 35.2,
+        "emitted_seconds": 35.945018430938944,
+        "has_text": true,
+        "text": "Um, uses the, um, the "
+      },
+      {
+        "audio_available_seconds": 38.666666666666664,
+        "chunk_end_seconds": 38.13333333333333,
+        "emitted_seconds": 38.92365245195106,
+        "has_text": true,
+        "text": "N.X.T. search to get the data out "
+      },
+      {
+        "audio_available_seconds": 41.6,
+        "chunk_end_seconds": 41.06666666666667,
+        "emitted_seconds": 42.095911912969314,
+        "has_text": true,
+        "text": "the files. \n Speaker 0:Mm-hmm. \n Speaker 2:Which I think is odd, but "
+      },
+      {
+        "audio_available_seconds": 44.53333333333333,
+        "chunk_end_seconds": 44.0,
+        "emitted_seconds": 44.89083690394182,
+        "has_text": true,
+        "text": "I'm not quite sure how it works yet. I don't quite understand it."
+      },
+      {
+        "audio_available_seconds": 47.46666666666667,
+        "chunk_end_seconds": 46.93333333333333,
+        "emitted_seconds": 47.73237558698747,
+        "has_text": true,
+        "text": " \n Speaker 0:So when it, when it\u2014"
+      },
+      {
+        "audio_available_seconds": 50.4,
+        "chunk_end_seconds": 49.86666666666667,
+        "emitted_seconds": 50.73672991397325,
+        "has_text": true,
+        "text": " \n Speaker 2:To get the data, for example, to get "
+      },
+      {
+        "audio_available_seconds": 53.333333333333336,
+        "chunk_end_seconds": 52.8,
+        "emitted_seconds": 53.63527150102891,
+        "has_text": true,
+        "text": "summarisation data, you have to search for, I think "
+      },
+      {
+        "audio_available_seconds": 56.266666666666666,
+        "chunk_end_seconds": 55.733333333333334,
+        "emitted_seconds": 56.74474360595923,
+        "has_text": true,
+        "text": "they're I.D.s or something. \n Speaker 0:Mm-hmm. \n Speaker 2:Yeah."
+      },
+      {
+        "audio_available_seconds": 59.2,
+        "chunk_end_seconds": 58.666666666666664,
+        "emitted_seconds": 59.84068792895414,
+        "has_text": true,
+        "text": " \n Speaker 0:That was pretty bizarre, wasn't it? \n Speaker 2:Yeah. \n Speaker 0:I guess that's how it works."
+      },
+      {
+        "audio_available_seconds": 62.13333333333333,
+        "chunk_end_seconds": 61.6,
+        "emitted_seconds": 62.318512585014105,
+        "has_text": true,
+        "text": "They've got, they, "
+      },
+      {
+        "audio_available_seconds": 65.06666666666666,
+        "chunk_end_seconds": 64.53333333333333,
+        "emitted_seconds": 65.42462753097061,
+        "has_text": true,
+        "text": "that is very bizarre. \n Speaker 2:So they don't, you "
+      },
+      {
+        "audio_available_seconds": 68.0,
+        "chunk_end_seconds": 67.46666666666667,
+        "emitted_seconds": 68.35752126993611,
+        "has_text": true,
+        "text": "know, they don't say, look in that and that folder, but they "
+      },
+      {
+        "audio_available_seconds": 70.93333333333334,
+        "chunk_end_seconds": 70.4,
+        "emitted_seconds": 71.27251863200217,
+        "has_text": true,
+        "text": "say, search everything. \n Speaker 0:Yeah, yeah, yeah."
+      },
+      {
+        "audio_available_seconds": 73.86666666666666,
+        "chunk_end_seconds": 73.33333333333333,
+        "emitted_seconds": 74.04530430096202,
+        "has_text": true,
+        "text": "It is pretty bizarre, yeah."
+      },
+      {
+        "audio_available_seconds": 76.8,
+        "chunk_end_seconds": 76.26666666666667,
+        "emitted_seconds": 77.15699994796887,
+        "has_text": true,
+        "text": " \n Speaker 1:Well, they did say it wasn't the most efficient "
+      },
+      {
+        "audio_available_seconds": 79.73333333333333,
+        "chunk_end_seconds": 79.2,
+        "emitted_seconds": 80.2507837950252,
+        "has_text": true,
+        "text": "thing. \n Speaker 0:It is very bizarre. \n Speaker 2:But it does load up quite quickly, "
+      },
+      {
+        "audio_available_seconds": 82.66666666666667,
+        "chunk_end_seconds": 82.13333333333334,
+        "emitted_seconds": 83.23738496203441,
+        "has_text": true,
+        "text": "I tell you, that's what's impressive. \n Speaker 0:Yeah. \n Speaker 2:But, you know, but "
+      },
+      {
+        "audio_available_seconds": 85.6,
+        "chunk_end_seconds": 85.06666666666666,
+        "emitted_seconds": 86.11798226193059,
+        "has_text": true,
+        "text": "what, what part\u2014 \n Speaker 3:Well, is it like a window where you have to r\u2014 write a "
+      },
+      {
+        "audio_available_seconds": 88.53333333333333,
+        "chunk_end_seconds": 88.0,
+        "emitted_seconds": 88.8009675629437,
+        "has_text": true,
+        "text": "switch query, or is it just what's behind it "
+      },
+      {
+        "audio_available_seconds": 91.46666666666667,
+        "chunk_end_seconds": 90.93333333333334,
+        "emitted_seconds": 91.8776291370159,
+        "has_text": true,
+        "text": "so, or automatically loads? \n Speaker 2:No, this is not the actual search."
+      },
+      {
+        "audio_available_seconds": 94.4,
+        "chunk_end_seconds": 93.86666666666666,
+        "emitted_seconds": 94.70866560493596,
+        "has_text": true,
+        "text": "This is just when you open, you know, to load the "
+      },
+      {
+        "audio_available_seconds": 97.33333333333333,
+        "chunk_end_seconds": 96.8,
+        "emitted_seconds": 97.81736040895339,
+        "has_text": true,
+        "text": "transcript, for example. \n Speaker 3:Yeah. \n Speaker 2:To find the transcript, "
+      },
+      {
+        "audio_available_seconds": 100.26666666666667,
+        "chunk_end_seconds": 99.73333333333333,
+        "emitted_seconds": 100.78549535898492,
+        "has_text": true,
+        "text": "what's that meeting? \n Speaker 3:Yeah. \n Speaker 2:It does, does N.X.T. "
+      },
+      {
+        "audio_available_seconds": 103.2,
+        "chunk_end_seconds": 102.66666666666667,
+        "emitted_seconds": 103.34407200396527,
+        "has_text": true,
+        "text": "search for the string "
+      },
+      {
+        "audio_available_seconds": 106.13333333333334,
+        "chunk_end_seconds": 105.6,
+        "emitted_seconds": 106.34935246699024,
+        "has_text": true,
+        "text": "I. L. A. transcript or "
+      },
+      {
+        "audio_available_seconds": 109.06666666666666,
+        "chunk_end_seconds": 108.53333333333333,
+        "emitted_seconds": 109.7680535960244,
+        "has_text": true,
+        "text": "text or whatever. \n Speaker 0:Mm-hmm. \n Speaker 3:Okay. \n Speaker 0:For, and it, what it li\u2014 it "
+      },
+      {
+        "audio_available_seconds": 112.0,
+        "chunk_end_seconds": 111.46666666666667,
+        "emitted_seconds": 112.48473730497062,
+        "has_text": true,
+        "text": "just has an open variable, transcript. \n Speaker 2:Yeah. \n Speaker 0:Just whatever, "
+      },
+      {
+        "audio_available_seconds": 114.93333333333334,
+        "chunk_end_seconds": 114.4,
+        "emitted_seconds": 115.32942770502996,
+        "has_text": true,
+        "text": "find everything that's got that and then load. \n Speaker 2:Yeah, so "
+      },
+      {
+        "audio_available_seconds": 117.86666666666666,
+        "chunk_end_seconds": 117.33333333333333,
+        "emitted_seconds": 118.15868635103106,
+        "has_text": true,
+        "text": "I don't know if you've looked at the search query "
+      },
+      {
+        "audio_available_seconds": 120.8,
+        "chunk_end_seconds": 120.26666666666667,
+        "emitted_seconds": 121.08803144900594,
+        "has_text": true,
+        "text": "language, but it's like a dollar, A. dot "
+      },
+      {
+        "audio_available_seconds": 123.73333333333333,
+        "chunk_end_seconds": 123.2,
+        "emitted_seconds": 124.54079564800486,
+        "has_text": true,
+        "text": "text, so\u2014 \n Speaker 0:Yeah, I have. \n Speaker 1:Yeah. \n Speaker 0:Yeah, yeah, cause that's there, I'd like it declares a "
+      },
+      {
+        "audio_available_seconds": 126.66666666666667,
+        "chunk_end_seconds": 126.13333333333334,
+        "emitted_seconds": 127.40239451196976,
+        "has_text": true,
+        "text": "variable, doesn't it, doesn't it? \n Speaker 2:Yeah. \n Speaker 0:To pop everything up. \n Speaker 2:And then, yeah, "
+      },
+      {
+        "audio_available_seconds": 129.6,
+        "chunk_end_seconds": 129.06666666666666,
+        "emitted_seconds": 129.8175940880319,
+        "has_text": true,
+        "text": "because every, every, uh, all "
+      },
+      {
+        "audio_available_seconds": 132.53333333333333,
+        "chunk_end_seconds": 132.0,
+        "emitted_seconds": 132.75030077493284,
+        "has_text": true,
+        "text": "of these, um, these files have "
+      },
+      {
+        "audio_available_seconds": 135.46666666666667,
+        "chunk_end_seconds": 134.93333333333334,
+        "emitted_seconds": 135.77313668001443,
+        "has_text": true,
+        "text": "got, um, an I. D. and all the transcript "
+      },
+      {
+        "audio_available_seconds": 138.4,
+        "chunk_end_seconds": 137.86666666666667,
+        "emitted_seconds": 138.7256532999454,
+        "has_text": true,
+        "text": "files got the string I. L. A. what it is, "
+      },
+      {
+        "audio_available_seconds": 141.33333333333334,
+        "chunk_end_seconds": 140.8,
+        "emitted_seconds": 141.80184172804002,
+        "has_text": true,
+        "text": "or text or something. \n Speaker 3:Yeah. \n Speaker 2:So it just searches for "
+      },
+      {
+        "audio_available_seconds": 144.26666666666668,
+        "chunk_end_seconds": 143.73333333333332,
+        "emitted_seconds": 144.825430263998,
+        "has_text": true,
+        "text": "those files. \n Speaker 3:Okay. \n Speaker 2:So that would be handy. \n Speaker 0:Right."
+      },
+      {
+        "audio_available_seconds": 147.2,
+        "chunk_end_seconds": 146.66666666666666,
+        "emitted_seconds": 147.4556810199283,
+        "has_text": true,
+        "text": " \n Speaker 3:Were you, like, "
+      },
+      {
+        "audio_available_seconds": 150.13333333333333,
+        "chunk_end_seconds": 149.6,
+        "emitted_seconds": 150.34918563102838,
+        "has_text": true,
+        "text": "is there a open thingy or "
+      },
+      {
+        "audio_available_seconds": 153.06666666666666,
+        "chunk_end_seconds": 152.53333333333333,
+        "emitted_seconds": 153.3937772050267,
+        "has_text": true,
+        "text": "what are you, like, what, what did you do to, "
+      },
+      {
+        "audio_available_seconds": 156.0,
+        "chunk_end_seconds": 155.46666666666667,
+        "emitted_seconds": 156.2551957470132,
+        "has_text": true,
+        "text": "like, how did you figure out that this uses "
+      },
+      {
+        "audio_available_seconds": 158.93333333333334,
+        "chunk_end_seconds": 158.4,
+        "emitted_seconds": 159.39270172896795,
+        "has_text": true,
+        "text": "N.X.T. search, like\u2014 \n Speaker 2:Um. \n Speaker 3:Is it\u2014"
+      },
+      {
+        "audio_available_seconds": 161.86666666666667,
+        "chunk_end_seconds": 161.33333333333334,
+        "emitted_seconds": 162.22908636799548,
+        "has_text": true,
+        "text": " \n Speaker 2:Um, well, it's in the code. Just "
+      },
+      {
+        "audio_available_seconds": 164.8,
+        "chunk_end_seconds": 164.26666666666668,
+        "emitted_seconds": 165.0908905849792,
+        "has_text": true,
+        "text": "that it, you know, it, you define a search "
+      },
+      {
+        "audio_available_seconds": 167.73333333333332,
+        "chunk_end_seconds": 167.2,
+        "emitted_seconds": 168.36749997502193,
+        "has_text": true,
+        "text": "object and then you search for that string. \n Speaker 3:Okay. \n Speaker 3:Okay. \n Speaker 2:I had to figure "
+      },
+      {
+        "audio_available_seconds": 170.66666666666666,
+        "chunk_end_seconds": 170.13333333333333,
+        "emitted_seconds": 171.01093243493233,
+        "has_text": true,
+        "text": "out how to, how to do the same thing, but somewhere that's "
+      },
+      {
+        "audio_available_seconds": 173.6,
+        "chunk_end_seconds": 173.06666666666666,
+        "emitted_seconds": 174.18011099193245,
+        "has_text": true,
+        "text": "how I, how I did it. \n Speaker 0:Oh, I see, I see. \n Speaker 2:Had to "
+      },
+      {
+        "audio_available_seconds": 176.53333333333333,
+        "chunk_end_seconds": 176.0,
+        "emitted_seconds": 176.9151079970179,
+        "has_text": true,
+        "text": "understand how to do the transcript, how they did the transcript, to do the "
+      },
+      {
+        "audio_available_seconds": 179.46666666666667,
+        "chunk_end_seconds": 178.93333333333334,
+        "emitted_seconds": 180.02810436394066,
+        "has_text": true,
+        "text": "summarisation. \n Speaker 0:So did you have to write it in the way that they wrote it? Is that what "
+      },
+      {
+        "audio_available_seconds": 182.4,
+        "chunk_end_seconds": 181.86666666666667,
+        "emitted_seconds": 182.75063349294942,
+        "has_text": true,
+        "text": "you did? \n Speaker 2:Yeah, just search for the specific "
+      },
+      {
+        "audio_available_seconds": 185.33333333333334,
+        "chunk_end_seconds": 184.8,
+        "emitted_seconds": 185.55294088099618,
+        "has_text": true,
+        "text": "string. \n Speaker 0:Right."
+      },
+      {
+        "audio_available_seconds": 188.26666666666668,
+        "chunk_end_seconds": 187.73333333333332,
+        "emitted_seconds": 188.63116936502047,
+        "has_text": true,
+        "text": " \n Speaker 2:So you could just, you know, you could, "
+      },
+      {
+        "audio_available_seconds": 191.2,
+        "chunk_end_seconds": 190.66666666666666,
+        "emitted_seconds": 191.5283354780404,
+        "has_text": true,
+        "text": "use that when you, if you wanna, um, take the data "
+      },
+      {
+        "audio_available_seconds": 194.13333333333333,
+        "chunk_end_seconds": 193.6,
+        "emitted_seconds": 194.7332995729521,
+        "has_text": true,
+        "text": "out. \n Speaker 0:Take the data out. \n Speaker 2:Yeah. \n Speaker 0:Just thinking that, yeah."
+      },
+      {
+        "audio_available_seconds": 197.06666666666666,
+        "chunk_end_seconds": 196.53333333333333,
+        "emitted_seconds": 197.1236302879406,
+        "has_text": false,
+        "text": ""
+      },
+      {
+        "audio_available_seconds": 200.0,
+        "chunk_end_seconds": 199.46666666666667,
+        "emitted_seconds": 200.33028451004066,
+        "has_text": true,
+        "text": " \n Speaker 2:If you have, uh, a question about "
+      },
+      {
+        "audio_available_seconds": 202.93333333333334,
+        "chunk_end_seconds": 202.4,
+        "emitted_seconds": 203.19047017698176,
+        "has_text": true,
+        "text": "what the code means or where to find the code "
+      },
+      {
+        "audio_available_seconds": 205.86666666666667,
+        "chunk_end_seconds": 205.33333333333334,
+        "emitted_seconds": 206.24996685492806,
+        "has_text": true,
+        "text": "that you wanna, you know, whatever you wanna do, then just send me an "
+      },
+      {
+        "audio_available_seconds": 208.8,
+        "chunk_end_seconds": 208.26666666666668,
+        "emitted_seconds": 209.33034450002015,
+        "has_text": true,
+        "text": "email. \n Speaker 3:Yeah. \n Speaker 0:Mm. \n Speaker 2:I can explain it, "
+      },
+      {
+        "audio_available_seconds": 211.73333333333332,
+        "chunk_end_seconds": 211.2,
+        "emitted_seconds": 212.33470015600324,
+        "has_text": true,
+        "text": "yeah. \n Speaker 0:Yeah. Have you annotated your code? \n Speaker 2:Oh yeah. \n Speaker 0:Okay."
+      },
+      {
+        "audio_available_seconds": 214.66666666666666,
+        "chunk_end_seconds": 214.13333333333333,
+        "emitted_seconds": 215.03217385103926,
+        "has_text": true,
+        "text": " \n Speaker 2:Actually, in the moment it's got a load of "
+      },
+      {
+        "audio_available_seconds": 217.6,
+        "chunk_end_seconds": 217.06666666666666,
+        "emitted_seconds": 217.89426751702558,
+        "has_text": true,
+        "text": "rubbish because the, the, the browser that I "
+      },
+      {
+        "audio_available_seconds": 220.53333333333333,
+        "chunk_end_seconds": 220.0,
+        "emitted_seconds": 220.82697945297696,
+        "has_text": true,
+        "text": "used from, from, you know, that they gave us "
+      },
+      {
+        "audio_available_seconds": 223.46666666666667,
+        "chunk_end_seconds": 222.93333333333334,
+        "emitted_seconds": 224.01908078603446,
+        "has_text": true,
+        "text": "had a lot of extra stuff in. \n Speaker 0:Yeah. \n Speaker 2:And had data thrown at it "
+      },
+      {
+        "audio_available_seconds": 226.4,
+        "chunk_end_seconds": 225.86666666666667,
+        "emitted_seconds": 227.02068523003254,
+        "has_text": true,
+        "text": "to throw out all the functions I had, I don't need. \n Speaker 0:Just a test. \n Speaker 2:Yeah, "
+      },
+      {
+        "audio_available_seconds": 229.33333333333334,
+        "chunk_end_seconds": 228.8,
+        "emitted_seconds": 229.93728464702144,
+        "has_text": true,
+        "text": "just a test. \n Speaker 0:Doesn't say anything in the code to do it. \n Speaker 2:So, yes."
+      },
+      {
+        "audio_available_seconds": 232.26666666666668,
+        "chunk_end_seconds": 231.73333333333332,
+        "emitted_seconds": 232.50642926397268,
+        "has_text": true,
+        "text": "So they're all in there still, a "
+      },
+      {
+        "audio_available_seconds": 235.2,
+        "chunk_end_seconds": 234.66666666666666,
+        "emitted_seconds": 235.53550680796616,
+        "has_text": true,
+        "text": "lot of rubbish, but we'll be g\u2014 we won't be "
+      },
+      {
+        "audio_available_seconds": 238.13333333333333,
+        "chunk_end_seconds": 237.6,
+        "emitted_seconds": 238.6652284299489,
+        "has_text": true,
+        "text": "chucked out by the end, I think. \n Speaker 0:Yeah. \n Speaker 0:Comin\u2014 "
+      },
+      {
+        "audio_available_seconds": 240.0,
+        "chunk_end_seconds": 240.0,
+        "emitted_seconds": 240.52946735697333,
+        "has_text": true,
+        "text": "completing it out one bit at a time, running it to, uh, yeah. \n Speaker 2:Yeah."
+      }
+    ],
+    "metadata": {
+      "raw_output": " \n Speaker 0:But it was, I have to sit there and think about it for a bit, which is a bit of a letdown. Yeah, but I spent on Facebook. \n Speaker 1:Yeah.That's fun. \n Speaker 0:Yeah. \n Speaker 1:Okay. \n Speaker 2:Okay. \n Speaker 1:So yeah, I was thinking the weekend probably, but, uh, start attacking this seriously and just, uh\u2014 \n Speaker 2:Yeah, I was thinking the weekend. \n Speaker 0:Yeah. \n Speaker 2:Yeah. \n Speaker 1:You know, hopefully have something by next week, the weekend, sort of try integrate into the group, um, become, uh, become something possible. \n Speaker 2:Mm-hmm. \n Speaker 0:Yeah. \n Speaker 2:Well, the browsers I use now, or as I use them now, see, it was there when I took it.Um, uses the, um, the N.X.T. search to get the data out the files. \n Speaker 0:Mm-hmm. \n Speaker 2:Which I think is odd, but I'm not quite sure how it works yet. I don't quite understand it. \n Speaker 0:So when it, when it\u2014 \n Speaker 2:To get the data, for example, to get summarisation data, you have to search for, I think they're I.D.s or something. \n Speaker 0:Mm-hmm. \n Speaker 2:Yeah. \n Speaker 0:That was pretty bizarre, wasn't it? \n Speaker 2:Yeah. \n Speaker 0:I guess that's how it works.They've got, they, that is very bizarre. \n Speaker 2:So they don't, you know, they don't say, look in that and that folder, but they say, search everything. \n Speaker 0:Yeah, yeah, yeah.It is pretty bizarre, yeah. \n Speaker 1:Well, they did say it wasn't the most efficient thing. \n Speaker 0:It is very bizarre. \n Speaker 2:But it does load up quite quickly, I tell you, that's what's impressive. \n Speaker 0:Yeah. \n Speaker 2:But, you know, but what, what part\u2014 \n Speaker 3:Well, is it like a window where you have to r\u2014 write a switch query, or is it just what's behind it so, or automatically loads? \n Speaker 2:No, this is not the actual search.This is just when you open, you know, to load the transcript, for example. \n Speaker 3:Yeah. \n Speaker 2:To find the transcript, what's that meeting? \n Speaker 3:Yeah. \n Speaker 2:It does, does N.X.T. search for the string I. L. A. transcript or text or whatever. \n Speaker 0:Mm-hmm. \n Speaker 3:Okay. \n Speaker 0:For, and it, what it li\u2014 it just has an open variable, transcript. \n Speaker 2:Yeah. \n Speaker 0:Just whatever, find everything that's got that and then load. \n Speaker 2:Yeah, so I don't know if you've looked at the search query language, but it's like a dollar, A. dot text, so\u2014 \n Speaker 0:Yeah, I have. \n Speaker 1:Yeah. \n Speaker 0:Yeah, yeah, cause that's there, I'd like it declares a variable, doesn't it, doesn't it? \n Speaker 2:Yeah. \n Speaker 0:To pop everything up. \n Speaker 2:And then, yeah, because every, every, uh, all of these, um, these files have got, um, an I. D. and all the transcript files got the string I. L. A. what it is, or text or something. \n Speaker 3:Yeah. \n Speaker 2:So it just searches for those files. \n Speaker 3:Okay. \n Speaker 2:So that would be handy. \n Speaker 0:Right. \n Speaker 3:Were you, like, is there a open thingy or what are you, like, what, what did you do to, like, how did you figure out that this uses N.X.T. search, like\u2014 \n Speaker 2:Um. \n Speaker 3:Is it\u2014 \n Speaker 2:Um, well, it's in the code. Just that it, you know, it, you define a search object and then you search for that string. \n Speaker 3:Okay. \n Speaker 3:Okay. \n Speaker 2:I had to figure out how to, how to do the same thing, but somewhere that's how I, how I did it. \n Speaker 0:Oh, I see, I see. \n Speaker 2:Had to understand how to do the transcript, how they did the transcript, to do the summarisation. \n Speaker 0:So did you have to write it in the way that they wrote it? Is that what you did? \n Speaker 2:Yeah, just search for the specific string. \n Speaker 0:Right. \n Speaker 2:So you could just, you know, you could, use that when you, if you wanna, um, take the data out. \n Speaker 0:Take the data out. \n Speaker 2:Yeah. \n Speaker 0:Just thinking that, yeah. \n Speaker 2:If you have, uh, a question about what the code means or where to find the code that you wanna, you know, whatever you wanna do, then just send me an email. \n Speaker 3:Yeah. \n Speaker 0:Mm. \n Speaker 2:I can explain it, yeah. \n Speaker 0:Yeah. Have you annotated your code? \n Speaker 2:Oh yeah. \n Speaker 0:Okay. \n Speaker 2:Actually, in the moment it's got a load of rubbish because the, the, the browser that I used from, from, you know, that they gave us had a lot of extra stuff in. \n Speaker 0:Yeah. \n Speaker 2:And had data thrown at it to throw out all the functions I had, I don't need. \n Speaker 0:Just a test. \n Speaker 2:Yeah, just a test. \n Speaker 0:Doesn't say anything in the code to do it. \n Speaker 2:So, yes.So they're all in there still, a lot of rubbish, but we'll be g\u2014 we won't be chucked out by the end, I think. \n Speaker 0:Yeah. \n Speaker 0:Comin\u2014 completing it out one bit at a time, running it to, uh, yeah. \n Speaker 2:Yeah.",
+      "realtime_paced": true,
+      "stream_compute_seconds": 32.32951262756251,
+      "timing_reason": "Official streaming output has no speech timestamps",
+      "generation_limit_hit": null,
+      "stream_output_parser": "joined-chunks-v1"
+    }
+  },
+  "wall_seconds": 240.57993092597462,
+  "rtf": 1.0024163788582277,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 17703598080,
+      "reserved_bytes": 17943232512
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 3490643968
+}

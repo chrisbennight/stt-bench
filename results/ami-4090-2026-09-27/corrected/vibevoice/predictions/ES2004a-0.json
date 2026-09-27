@@ -1,0 +1,154 @@
+{
+  "id": "ES2004a-0",
+  "duration": 240.0,
+  "seed": 1956091378,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "0",
+        "text": "Are we in now? We're not allowed to dim the lights, so.",
+        "start": 10.51,
+        "end": 13.53
+      },
+      {
+        "speaker": "1",
+        "text": "I think this goes around the back side.",
+        "start": 13.53,
+        "end": 15.95
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah.",
+        "start": 17.41,
+        "end": 18.27
+      },
+      {
+        "speaker": "1",
+        "text": "No, otherwise it'll be 'cause of the, the cameras and the.",
+        "start": 18.27,
+        "end": 22.29
+      },
+      {
+        "speaker": "0",
+        "text": "Am I supposed to be standing up then?",
+        "start": 22.29,
+        "end": 23.83
+      },
+      {
+        "speaker": "1",
+        "text": "Um, you don't have to, I think I'll go back to these quick ones.",
+        "start": 23.83,
+        "end": 26.95
+      },
+      {
+        "speaker": "2",
+        "text": "Can you just change the slides?",
+        "start": 27.41,
+        "end": 29.61
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah, good.",
+        "start": 29.61,
+        "end": 30.91
+      },
+      {
+        "speaker": "1",
+        "text": "I'm sorry, I'm like.",
+        "start": 39.37,
+        "end": 40.81
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah.",
+        "start": 40.81,
+        "end": 41.73
+      },
+      {
+        "speaker": "1",
+        "text": "What's that?",
+        "start": 48.41,
+        "end": 49.55
+      },
+      {
+        "speaker": "2",
+        "text": "It's a slide.",
+        "start": 49.55,
+        "end": 50.56
+      },
+      {
+        "speaker": "1",
+        "text": "Oh.",
+        "start": 50.56,
+        "end": 51.51
+      },
+      {
+        "speaker": "0",
+        "text": "Hello, everybody.",
+        "start": 81.25,
+        "end": 83.05
+      },
+      {
+        "speaker": "2",
+        "text": "Hi.",
+        "start": 83.05,
+        "end": 83.67
+      },
+      {
+        "speaker": "0",
+        "text": "Um, I'm Sarah, the project manager, and this is our first meeting, surprisingly enough. Okay, this is our agenda. Um, we will do some stuff, get to know each other a bit better, feel more comfortable with each other. Um, then we'll go do teal training, talk about the project plan, discuss our own ideas and everything. Um, and we've got 25 minutes to do that, as far as I can understand.",
+        "start": 83.67,
+        "end": 116.2
+      },
+      {
+        "speaker": "0",
+        "text": "Now, we're developing a remote control, which you probably already know. Um, we want it to be original, something that's, people haven't thought of, it's not out in the shops. Um, trendy, appealing to a wide market, but, you know, not hunk of metal. And user-friendly, grannies to kids, maybe even pooches should be able to use it.",
+        "start": 116.92,
+        "end": 141.58
+      },
+      {
+        "speaker": "0",
+        "text": "Okay.",
+        "start": 142.26,
+        "end": 143.59
+      },
+      {
+        "speaker": "0",
+        "text": "Um, first is the functional design. Um, this is where we all go off and do our individual work. Um, what needs need to be fulfilled by the product, um, what effects the product has to have, and how it's actually going to do that. Um, conceptual design, what we're thinking, how it's going to go, and then the detailed design, how we're actually going to put it into practice and make it work.",
+        "start": 143.59,
+        "end": 168.26
+      },
+      {
+        "speaker": "0",
+        "text": "Okay. Right. We're gonna practice with the pens and draw our favourite animal on the whiteboard. I'll go first. And, and sum up some characteristics of that animal.",
+        "start": 169.55,
+        "end": 183.57
+      },
+      {
+        "speaker": "0",
+        "text": "So.",
+        "start": 183.57,
+        "end": 185.01
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "assistant\n[{\"Start\":0,\"End\":10.51,\"Content\":\"[Environmental Sounds]\"},{\"Start\":10.51,\"End\":13.53,\"Speaker\":0,\"Content\":\"Are we in now? We're not allowed to dim the lights, so.\"},{\"Start\":13.53,\"End\":15.95,\"Speaker\":1,\"Content\":\"I think this goes around the back side.\"},{\"Start\":17.41,\"End\":18.27,\"Speaker\":2,\"Content\":\"Yeah.\"},{\"Start\":18.27,\"End\":22.29,\"Speaker\":1,\"Content\":\"No, otherwise it'll be 'cause of the, the cameras and the.\"},{\"Start\":22.29,\"End\":23.83,\"Speaker\":0,\"Content\":\"Am I supposed to be standing up then?\"},{\"Start\":23.83,\"End\":26.95,\"Speaker\":1,\"Content\":\"Um, you don't have to, I think I'll go back to these quick ones.\"},{\"Start\":27.41,\"End\":29.61,\"Speaker\":2,\"Content\":\"Can you just change the slides?\"},{\"Start\":29.61,\"End\":30.91,\"Speaker\":0,\"Content\":\"Yeah, good.\"},{\"Start\":30.91,\"End\":39.37,\"Content\":\"[Human Sounds]\"},{\"Start\":39.37,\"End\":40.81,\"Speaker\":1,\"Content\":\"I'm sorry, I'm like.\"},{\"Start\":40.81,\"End\":41.73,\"Speaker\":2,\"Content\":\"Yeah.\"},{\"Start\":41.73,\"End\":48.41,\"Content\":\"[Environmental Sounds]\"},{\"Start\":48.41,\"End\":49.55,\"Speaker\":1,\"Content\":\"What's that?\"},{\"Start\":49.55,\"End\":50.56,\"Speaker\":2,\"Content\":\"It's a slide.\"},{\"Start\":50.56,\"End\":51.51,\"Speaker\":1,\"Content\":\"Oh.\"},{\"Start\":51.51,\"End\":81.25,\"Content\":\"[Environmental Sounds]\"},{\"Start\":81.25,\"End\":83.05,\"Speaker\":0,\"Content\":\"Hello, everybody.\"},{\"Start\":83.05,\"End\":83.67,\"Speaker\":2,\"Content\":\"Hi.\"},{\"Start\":83.67,\"End\":116.2,\"Speaker\":0,\"Content\":\"Um, I'm Sarah, the project manager, and this is our first meeting, surprisingly enough. Okay, this is our agenda. Um, we will do some stuff, get to know each other a bit better, feel more comfortable with each other. Um, then we'll go do teal training, talk about the project plan, discuss our own ideas and everything. Um, and we've got 25 minutes to do that, as far as I can understand.\"},{\"Start\":116.92,\"End\":141.58,\"Speaker\":0,\"Content\":\"Now, we're developing a remote control, which you probably already know. Um, we want it to be original, something that's, people haven't thought of, it's not out in the shops. Um, trendy, appealing to a wide market, but, you know, not hunk of metal. And user-friendly, grannies to kids, maybe even pooches should be able to use it.\"},{\"Start\":142.26,\"End\":143.59,\"Speaker\":0,\"Content\":\"Okay.\"},{\"Start\":143.59,\"End\":168.26,\"Speaker\":0,\"Content\":\"Um, first is the functional design. Um, this is where we all go off and do our individual work. Um, what needs need to be fulfilled by the product, um, what effects the product has to have, and how it's actually going to do that. Um, conceptual design, what we're thinking, how it's going to go, and then the detailed design, how we're actually going to put it into practice and make it work.\"},{\"Start\":169.55,\"End\":183.57,\"Speaker\":0,\"Content\":\"Okay. Right. We're gonna practice with the pens and draw our favourite animal on the whiteboard. I'll go first. And, and sum up some characteristics of that animal.\"},{\"Start\":183.57,\"End\":185.01,\"Speaker\":0,\"Content\":\"So.\"},{\"Start\":185.01,\"End\":240.0,\"Content\":\"[Environmental Sounds]\"}]\n",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 20.436787524959072,
+  "rtf": 0.08515328135399614,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 21210924544,
+      "reserved_bytes": 22670213120
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 3490095104
+}

@@ -1,0 +1,178 @@
+{
+  "id": "ES2004a-15360000",
+  "duration": 89.3546875,
+  "seed": 178953250,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "S01",
+        "text": "There's no reason we need to make it look as fashionable and stylish as a mobile phone, it can still be lightweight plastic, you know, something that's easily moulded and produced.",
+        "start": 0.0,
+        "end": 8.84
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm.",
+        "start": 5.12,
+        "end": 5.6
+      },
+      {
+        "speaker": "S03",
+        "text": "Right.",
+        "start": 6.22,
+        "end": 6.54
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 8.84,
+        "end": 9.24
+      },
+      {
+        "speaker": "S01",
+        "text": "Sorry, I'm treading on your territory, guys.",
+        "start": 9.2,
+        "end": 10.84
+      },
+      {
+        "speaker": "S03",
+        "text": "No, no.",
+        "start": 10.69,
+        "end": 11.64
+      },
+      {
+        "speaker": "S02",
+        "text": "Um right, okay, we've got half an hour before the next meeting, so we're all gonna go off and do our individual things. Um I think that's probably about it, and then we'll come back and raise again, and I get to do another fantastic PowerPoint presentation.",
+        "start": 12.94,
+        "end": 29.52
+      },
+      {
+        "speaker": "S03",
+        "text": "Mm yeah.",
+        "start": 25.4,
+        "end": 25.92
+      },
+      {
+        "speaker": "S03",
+        "text": "Just just a quick thing about the um uh what you were saying about the doesn't doesn't need to be fashionable, the sort of I I had a quick look at the company website and it's like the the uh we put the fashion into electronics, so I think I think the whole design thing might be quite I mean you don't you you can still have plastic and it look quite good, but",
+        "start": 28.84,
+        "end": 54.68
+      },
+      {
+        "speaker": "S01",
+        "text": "Sure.",
+        "start": 31.08,
+        "end": 31.52
+      },
+      {
+        "speaker": "S01",
+        "text": "Oh, I realised, okay, okay.",
+        "start": 45.04,
+        "end": 47.44
+      },
+      {
+        "speaker": "S01",
+        "text": "Sure.",
+        "start": 49.2,
+        "end": 49.76
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 50.7,
+        "end": 51.2
+      },
+      {
+        "speaker": "S01",
+        "text": "But yeah, I mean it doesn't have to be that, you know, uh that was my main point, we don't have to use metal, I don't know if using plastic does make it cheaper, I've seen it would.",
+        "start": 53.68,
+        "end": 62.04
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 58.58,
+        "end": 58.96
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm.",
+        "start": 59.96,
+        "end": 60.36
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, yeah.",
+        "start": 62.0,
+        "end": 63.04
+      },
+      {
+        "speaker": "S02",
+        "text": "It would, it would probably, yeah. I mean the Sky remote controls and everything, they're kind of moulded and look a bit different, and the Telly West remote controls are silver plastic, which looks a bit smarter, so yeah, I guess that's stuff we can think about. Okay, so let's break it up then, okay, so see you in half an hour.",
+        "start": 62.3,
+        "end": 84.14
+      },
+      {
+        "speaker": "S01",
+        "text": "Shall we?",
+        "start": 72.64,
+        "end": 73.4
+      },
+      {
+        "speaker": "S01",
+        "text": "'Kay.",
+        "start": 82.14,
+        "end": 82.6
+      },
+      {
+        "speaker": "S03",
+        "text": "Okay.",
+        "start": 82.6,
+        "end": 82.98
+      },
+      {
+        "speaker": "S01",
+        "text": "Do we go back to our room?",
+        "start": 86.4,
+        "end": 87.94
+      },
+      {
+        "speaker": "S02",
+        "text": "Think so.",
+        "start": 87.84,
+        "end": 88.44
+      },
+      {
+        "speaker": "S03",
+        "text": "Mm yeah.",
+        "start": 88.04,
+        "end": 88.42
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 88.66,
+        "end": 88.96
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "[0.00][S01]There's no reason we need to make it look as fashionable and stylish as a mobile phone, it can still be lightweight plastic, you know, something that's easily moulded and produced.[8.84][5.12][S02]Mm.[5.60][6.22][S03]Right.[6.54][8.84][S01]Yeah.[9.24][9.20][S01]Sorry, I'm treading on your territory, guys.[10.84][10.69][S03]No, no.[11.64][12.94][S02]Um right, okay, we've got half an hour before the next meeting, so we're all gonna go off and do our individual things. Um I think that's probably about it, and then we'll come back and raise again, and I get to do another fantastic PowerPoint presentation.[29.52][25.40][S03]Mm yeah.[25.92][28.84][S03]Just just a quick thing about the um uh what you were saying about the doesn't doesn't need to be fashionable, the sort of I I had a quick look at the company website and it's like the the uh we put the fashion into electronics, so I think I think the whole design thing might be quite I mean you don't you you can still have plastic and it look quite good, but[54.68][31.08][S01]Sure.[31.52][45.04][S01]Oh, I realised, okay, okay.[47.44][49.20][S01]Sure.[49.76][50.70][S01]Yeah.[51.20][53.68][S01]But yeah, I mean it doesn't have to be that, you know, uh that was my main point, we don't have to use metal, I don't know if using plastic does make it cheaper, I've seen it would.[62.04][58.58][S03]Yeah.[58.96][59.96][S02]Mm.[60.36][62.00][S03]Yeah, yeah.[63.04][62.30][S02]It would, it would probably, yeah. I mean the Sky remote controls and everything, they're kind of moulded and look a bit different, and the Telly West remote controls are silver plastic, which looks a bit smarter, so yeah, I guess that's stuff we can think about. Okay, so let's break it up then, okay, so see you in half an hour.[84.14][72.64][S01]Shall we?[73.40][82.14][S01]'Kay.[82.60][82.60][S03]Okay.[82.98][86.40][S01]Do we go back to our room?[87.94][87.84][S02]Think so.[88.44][88.04][S03]Mm yeah.[88.42][88.66][S01]Yeah.[88.96]",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 6.753208564012311,
+  "rtf": 0.07557755225781873,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 2066682368,
+      "reserved_bytes": 2627731456
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 2850721792
+}

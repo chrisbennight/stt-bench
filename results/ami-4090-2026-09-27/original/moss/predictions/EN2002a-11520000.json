@@ -1,0 +1,634 @@
+{
+  "id": "EN2002a-11520000",
+  "duration": 240.0,
+  "seed": 3436687995,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "S01",
+        "text": "Like transcription summary, like two letters and you just press all of which yeah.",
+        "start": 0.0,
+        "end": 5.2
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 1.85,
+        "end": 2.11
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 3.92,
+        "end": 4.21
+      },
+      {
+        "speaker": "S02",
+        "text": "Or checkmarks even have two of them check boxes.",
+        "start": 5.06,
+        "end": 7.28
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, that'll reduce the number of um windows you needed, wouldn't it, which is probably good. 'Cause otherwise Photoshop has a lot of windows. If you have to use Photoshop, it's got loads and you're always could forever going, oh get out of the way, there's always stuff in the way, isn't there.",
+        "start": 6.15,
+        "end": 18.19
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 9.24,
+        "end": 9.53
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah, but",
+        "start": 16.74,
+        "end": 17.23
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah, a lot of that.",
+        "start": 18.98,
+        "end": 20.78
+      },
+      {
+        "speaker": "S01",
+        "text": "But I mean people get used to it. I mean w when you use a Windows or the next format uh you have a lot of windows open, how do you manage them?",
+        "start": 20.41,
+        "end": 28.71
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 21.34,
+        "end": 21.57
+      },
+      {
+        "speaker": "S03",
+        "text": "You do, yeah. Yeah.",
+        "start": 27.76,
+        "end": 29.68
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm.",
+        "start": 27.85,
+        "end": 28.11
+      },
+      {
+        "speaker": "S02",
+        "text": "True.",
+        "start": 31.78,
+        "end": 32.01
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah. Unless can you I don't suppose you can minimise them and stuff like that. Can can you do that?",
+        "start": 32.03,
+        "end": 37.83
+      },
+      {
+        "speaker": "S01",
+        "text": "I guess that",
+        "start": 33.81,
+        "end": 34.41
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah, you can minimise them. Yeah, yeah.",
+        "start": 36.34,
+        "end": 38.23
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm.",
+        "start": 36.48,
+        "end": 36.68
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 37.81,
+        "end": 38.06
+      },
+      {
+        "speaker": "S02",
+        "text": "Okay.",
+        "start": 38.37,
+        "end": 38.68
+      },
+      {
+        "speaker": "S03",
+        "text": "Okay, well that's all right, yeah. Yeah, of course you can actually, yes.",
+        "start": 38.87,
+        "end": 42.11
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah. Yeah, like a lot of these can be like once we get the disfluencies out then we can, you know, transcript with all the disfluency, transcript with the deflu disfluency, have all these, you know, have all these sort of using the same window and so we can put a lot of",
+        "start": 41.33,
+        "end": 53.96
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah, that's true. They're they're definitely",
+        "start": 50.0,
+        "end": 51.62
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah, they're definitely gonna be in the same window, yeah.",
+        "start": 53.07,
+        "end": 55.15
+      },
+      {
+        "speaker": "S02",
+        "text": "And probably mutually um what dis yeah.",
+        "start": 54.59,
+        "end": 58.51
+      },
+      {
+        "speaker": "S01",
+        "text": "It's gonna it's gonna yeah, that that was the plan for the disfluencies anyway. So",
+        "start": 57.78,
+        "end": 62.65
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 61.88,
+        "end": 62.07
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah, do you wanna do that with summaries then? Put the summaries in in the same way now. Mutually it's gonna be",
+        "start": 64.01,
+        "end": 71.43
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah, um well could I don't know, with transcripts it sounds reasonable to have like transcripts like maybe three alternates then, like full meeting, meeting without disfluencies and summaries.",
+        "start": 70.76,
+        "end": 83.86
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm.",
+        "start": 75.74,
+        "end": 76.05
+      },
+      {
+        "speaker": "S03",
+        "text": "Right.",
+        "start": 80.32,
+        "end": 80.73
+      },
+      {
+        "speaker": "S01",
+        "text": "Summarise. Yeah? Do you wanna do that?",
+        "start": 83.2,
+        "end": 85.24
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah. That kinda makes sense.",
+        "start": 84.45,
+        "end": 85.88
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah.",
+        "start": 85.88,
+        "end": 86.11
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah?",
+        "start": 86.34,
+        "end": 86.63
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, sounds good.",
+        "start": 86.85,
+        "end": 87.63
+      },
+      {
+        "speaker": "S01",
+        "text": "Yeah, yeah.",
+        "start": 90.32,
+        "end": 91.41
+      },
+      {
+        "speaker": "S01",
+        "text": "And finally, the prototype he spoke about. What kind of prototype could we produce?",
+        "start": 96.52,
+        "end": 102.45
+      },
+      {
+        "speaker": "S02",
+        "text": "When is it February?",
+        "start": 103.05,
+        "end": 103.92
+      },
+      {
+        "speaker": "S01",
+        "text": "'Cause I'm I'm just, you know, I go into the lab and I say like what am I gonna change today, you know? And it kind of just it just develops. I'm not aiming for anything. Do we wanna aim for something?",
+        "start": 104.28,
+        "end": 116.44
+      },
+      {
+        "speaker": "S03",
+        "text": "Um",
+        "start": 117.8,
+        "end": 118.71
+      },
+      {
+        "speaker": "S01",
+        "text": "I'm I'm pretty much getting there anyway, to be honest. It's not it's not gonna be a lot more uh",
+        "start": 121.49,
+        "end": 126.62
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 124.89,
+        "end": 125.11
+      },
+      {
+        "speaker": "S04",
+        "text": "I guess it is. I mean just to try and I mean for us to to be able to do something then we can include the your thing, so so we yeah, yeah.",
+        "start": 126.62,
+        "end": 136.28
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 134.58,
+        "end": 134.84
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, that's what we need, yeah. Something just slightly more than just that on its own.",
+        "start": 134.71,
+        "end": 138.81
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 135.83,
+        "end": 136.08
+      },
+      {
+        "speaker": "S01",
+        "text": "Oh.",
+        "start": 136.44,
+        "end": 136.83
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm, yeah.",
+        "start": 138.44,
+        "end": 139.07
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah, so we can plug it in and just",
+        "start": 138.54,
+        "end": 140.03
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 139.85,
+        "end": 140.11
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah, just so see the integration works sort of between the I think uh",
+        "start": 140.06,
+        "end": 144.63
+      },
+      {
+        "speaker": "S01",
+        "text": "Mm, true.",
+        "start": 145.06,
+        "end": 145.75
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, definitely.",
+        "start": 145.34,
+        "end": 146.36
+      },
+      {
+        "speaker": "S04",
+        "text": "Um",
+        "start": 146.83,
+        "end": 147.25
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm.",
+        "start": 148.47,
+        "end": 148.88
+      },
+      {
+        "speaker": "S04",
+        "text": "So I guess that's what we need to have, well",
+        "start": 148.88,
+        "end": 150.97
+      },
+      {
+        "speaker": "S03",
+        "text": "I think that's kinda what he meant as well, isn't it really? Seeing it seeing it sort of start to do stuff rather than just be",
+        "start": 150.93,
+        "end": 156.11
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 152.78,
+        "end": 153.05
+      },
+      {
+        "speaker": "S01",
+        "text": "Oh, I see, mm.",
+        "start": 156.3,
+        "end": 157.51
+      },
+      {
+        "speaker": "S02",
+        "text": "Mm-hmm.",
+        "start": 157.65,
+        "end": 157.96
+      },
+      {
+        "speaker": "S03",
+        "text": "A prototype of the GUI.",
+        "start": 158.0,
+        "end": 159.12
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah, well if I guess I mean that was probably our intention, but we might not have written it down, so I guess. I don't know.",
+        "start": 159.3,
+        "end": 170.01
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah, yeah.",
+        "start": 166.38,
+        "end": 167.51
+      },
+      {
+        "speaker": "S02",
+        "text": "Actually, is the code accessible, like the the GUI stuff that you've done there? Like can we just like copy like the latest stuff out of your directory or something there? Like if we're gonna just try and like take a look or something, try and just plug into",
+        "start": 171.93,
+        "end": 184.82
+      },
+      {
+        "speaker": "S04",
+        "text": "Um no.",
+        "start": 180.34,
+        "end": 182.31
+      },
+      {
+        "speaker": "S04",
+        "text": "I don't know, can we access other people's?",
+        "start": 183.32,
+        "end": 185.11
+      },
+      {
+        "speaker": "S03",
+        "text": "You can make if you make it world readable, then anybody can.",
+        "start": 185.06,
+        "end": 187.55
+      },
+      {
+        "speaker": "S02",
+        "text": "I think we can, which",
+        "start": 185.22,
+        "end": 186.01
+      },
+      {
+        "speaker": "S02",
+        "text": "Well, if you just tell us the directory and just make the file readable, then we know the directory to get in and and just",
+        "start": 187.28,
+        "end": 192.68
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 190.53,
+        "end": 190.83
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah, sure.",
+        "start": 192.41,
+        "end": 193.64
+      },
+      {
+        "speaker": "S02",
+        "text": "It might be might be needed.",
+        "start": 193.62,
+        "end": 195.05
+      },
+      {
+        "speaker": "S04",
+        "text": "I don't know if it's readable at the moment, but you can sure have a have a look.",
+        "start": 194.54,
+        "end": 197.28
+      },
+      {
+        "speaker": "S02",
+        "text": "I think by default they are.",
+        "start": 196.83,
+        "end": 198.11
+      },
+      {
+        "speaker": "S03",
+        "text": "It no, they're not world readable, they're not they're default they're only default then only you can read them, I think. You can see them, but you can't read them.",
+        "start": 197.72,
+        "end": 205.41
+      },
+      {
+        "speaker": "S04",
+        "text": "Yeah.",
+        "start": 198.34,
+        "end": 198.65
+      },
+      {
+        "speaker": "S02",
+        "text": "No, or",
+        "start": 199.51,
+        "end": 200.12
+      },
+      {
+        "speaker": "S04",
+        "text": "Oh.",
+        "start": 200.15,
+        "end": 200.41
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 202.51,
+        "end": 202.73
+      },
+      {
+        "speaker": "S04",
+        "text": "Oh, right.",
+        "start": 203.62,
+        "end": 204.11
+      },
+      {
+        "speaker": "S02",
+        "text": "Okay.",
+        "start": 203.81,
+        "end": 204.15
+      },
+      {
+        "speaker": "S04",
+        "text": "Okay.",
+        "start": 205.58,
+        "end": 205.95
+      },
+      {
+        "speaker": "S02",
+        "text": "Okay, alright.",
+        "start": 205.67,
+        "end": 206.55
+      },
+      {
+        "speaker": "S04",
+        "text": "Right, well I'll make that readable then.",
+        "start": 206.3,
+        "end": 207.74
+      },
+      {
+        "speaker": "S02",
+        "text": "Okay.",
+        "start": 207.83,
+        "end": 208.11
+      },
+      {
+        "speaker": "S03",
+        "text": "Yeah.",
+        "start": 208.01,
+        "end": 208.31
+      },
+      {
+        "speaker": "S04",
+        "text": "Um so the directory is my number.",
+        "start": 208.8,
+        "end": 212.38
+      },
+      {
+        "speaker": "S02",
+        "text": "Or you could just email to it. Okay, yeah, yeah, okay, yeah, right, okay.",
+        "start": 212.56,
+        "end": 216.23
+      },
+      {
+        "speaker": "S04",
+        "text": "Well, this is not difficult.",
+        "start": 214.69,
+        "end": 215.74
+      },
+      {
+        "speaker": "S03",
+        "text": "What's your number?",
+        "start": 216.43,
+        "end": 217.07
+      },
+      {
+        "speaker": "S02",
+        "text": "Okay.",
+        "start": 217.31,
+        "end": 217.78
+      },
+      {
+        "speaker": "S04",
+        "text": "It's in all the emails.",
+        "start": 217.81,
+        "end": 219.01
+      },
+      {
+        "speaker": "S02",
+        "text": "Yeah.",
+        "start": 219.16,
+        "end": 219.43
+      },
+      {
+        "speaker": "S03",
+        "text": "Your number.",
+        "start": 220.47,
+        "end": 221.05
+      },
+      {
+        "speaker": "S04",
+        "text": "No, oh four.",
+        "start": 222.01,
+        "end": 223.31
+      },
+      {
+        "speaker": "S03",
+        "text": "Okay.",
+        "start": 223.9,
+        "end": 224.33
+      },
+      {
+        "speaker": "S04",
+        "text": "Oh four five oh five six oh. Say that again, oh four. Oh four five five five six oh.",
+        "start": 224.38,
+        "end": 232.71
+      },
+      {
+        "speaker": "S03",
+        "text": "And then it's",
+        "start": 232.94,
+        "end": 233.81
+      },
+      {
+        "speaker": "S04",
+        "text": "And then um there's a folder um N L S S D.",
+        "start": 234.92,
+        "end": 238.25
+      },
+      {
+        "speaker": "S03",
+        "text": "N L S S D.",
+        "start": 238.61,
+        "end": 239.33
+      },
+      {
+        "speaker": "S04",
+        "text": "And it's called",
+        "start": 239.52,
+        "end": 240.0
+      }
+    ],
+    "activity": null,
+    "timing": "native",
+    "events": [],
+    "metadata": {
+      "raw_output": "[0.00][S01]Like transcription summary, like two letters and you just press all of which yeah.[5.20][1.85][S02]Yeah.[2.11][3.92][S03]Yeah.[4.21][5.06][S02]Or checkmarks even have two of them check boxes.[7.28][6.15][S03]Yeah, that'll reduce the number of um windows you needed, wouldn't it, which is probably good. 'Cause otherwise Photoshop has a lot of windows. If you have to use Photoshop, it's got loads and you're always could forever going, oh get out of the way, there's always stuff in the way, isn't there.[18.19][9.24][S02]Yeah.[9.53][16.74][S02]Yeah, but[17.23][18.98][S04]Yeah, a lot of that.[20.78][20.41][S01]But I mean people get used to it. I mean w when you use a Windows or the next format uh you have a lot of windows open, how do you manage them?[28.71][21.34][S02]Yeah.[21.57][27.76][S03]You do, yeah. Yeah.[29.68][27.85][S02]Mm.[28.11][31.78][S02]True.[32.01][32.03][S03]Yeah. Unless can you I don't suppose you can minimise them and stuff like that. Can can you do that?[37.83][33.81][S01]I guess that[34.41][36.34][S01]Yeah, you can minimise them. Yeah, yeah.[38.23][36.48][S02]Mm.[36.68][37.81][S02]Yeah.[38.06][38.37][S02]Okay.[38.68][38.87][S03]Okay, well that's all right, yeah. Yeah, of course you can actually, yes.[42.11][41.33][S02]Yeah. Yeah, like a lot of these can be like once we get the disfluencies out then we can, you know, transcript with all the disfluency, transcript with the deflu disfluency, have all these, you know, have all these sort of using the same window and so we can put a lot of[53.96][50.00][S01]Yeah, that's true. They're they're definitely[51.62][53.07][S01]Yeah, they're definitely gonna be in the same window, yeah.[55.15][54.59][S02]And probably mutually um what dis yeah.[58.51][57.78][S01]It's gonna it's gonna yeah, that that was the plan for the disfluencies anyway. So[62.65][61.88][S02]Yeah.[62.07][64.01][S01]Yeah, do you wanna do that with summaries then? Put the summaries in in the same way now. Mutually it's gonna be[71.43][70.76][S04]Yeah, um well could I don't know, with transcripts it sounds reasonable to have like transcripts like maybe three alternates then, like full meeting, meeting without disfluencies and summaries.[83.86][75.74][S02]Mm.[76.05][80.32][S03]Right.[80.73][83.20][S01]Summarise. Yeah? Do you wanna do that?[85.24][84.45][S02]Yeah. That kinda makes sense.[85.88][85.88][S01]Yeah.[86.11][86.34][S01]Yeah?[86.63][86.85][S03]Yeah, sounds good.[87.63][90.32][S01]Yeah, yeah.[91.41][96.52][S01]And finally, the prototype he spoke about. What kind of prototype could we produce?[102.45][103.05][S02]When is it February?[103.92][104.28][S01]'Cause I'm I'm just, you know, I go into the lab and I say like what am I gonna change today, you know? And it kind of just it just develops. I'm not aiming for anything. Do we wanna aim for something?[116.44][117.80][S03]Um[118.71][121.49][S01]I'm I'm pretty much getting there anyway, to be honest. It's not it's not gonna be a lot more uh[126.62][124.89][S02]Yeah.[125.11][126.62][S04]I guess it is. I mean just to try and I mean for us to to be able to do something then we can include the your thing, so so we yeah, yeah.[136.28][134.58][S02]Yeah.[134.84][134.71][S03]Yeah, that's what we need, yeah. Something just slightly more than just that on its own.[138.81][135.83][S02]Yeah.[136.08][136.44][S01]Oh.[136.83][138.44][S01]Mm, yeah.[139.07][138.54][S02]Yeah, so we can plug it in and just[140.03][139.85][S03]Yeah.[140.11][140.06][S04]Yeah, just so see the integration works sort of between the I think uh[144.63][145.06][S01]Mm, true.[145.75][145.34][S03]Yeah, definitely.[146.36][146.83][S04]Um[147.25][148.47][S02]Mm.[148.88][148.88][S04]So I guess that's what we need to have, well[150.97][150.93][S03]I think that's kinda what he meant as well, isn't it really? Seeing it seeing it sort of start to do stuff rather than just be[156.11][152.78][S04]Yeah.[153.05][156.30][S01]Oh, I see, mm.[157.51][157.65][S02]Mm-hmm.[157.96][158.00][S03]A prototype of the GUI.[159.12][159.30][S04]Yeah, well if I guess I mean that was probably our intention, but we might not have written it down, so I guess. I don't know.[170.01][166.38][S03]Yeah, yeah.[167.51][171.93][S02]Actually, is the code accessible, like the the GUI stuff that you've done there? Like can we just like copy like the latest stuff out of your directory or something there? Like if we're gonna just try and like take a look or something, try and just plug into[184.82][180.34][S04]Um no.[182.31][183.32][S04]I don't know, can we access other people's?[185.11][185.06][S03]You can make if you make it world readable, then anybody can.[187.55][185.22][S02]I think we can, which[186.01][187.28][S02]Well, if you just tell us the directory and just make the file readable, then we know the directory to get in and and just[192.68][190.53][S03]Yeah.[190.83][192.41][S04]Yeah, sure.[193.64][193.62][S02]It might be might be needed.[195.05][194.54][S04]I don't know if it's readable at the moment, but you can sure have a have a look.[197.28][196.83][S02]I think by default they are.[198.11][197.72][S03]It no, they're not world readable, they're not they're default they're only default then only you can read them, I think. You can see them, but you can't read them.[205.41][198.34][S04]Yeah.[198.65][199.51][S02]No, or[200.12][200.15][S04]Oh.[200.41][202.51][S02]Yeah.[202.73][203.62][S04]Oh, right.[204.11][203.81][S02]Okay.[204.15][205.58][S04]Okay.[205.95][205.67][S02]Okay, alright.[206.55][206.30][S04]Right, well I'll make that readable then.[207.74][207.83][S02]Okay.[208.11][208.01][S03]Yeah.[208.31][208.80][S04]Um so the directory is my number.[212.38][212.56][S02]Or you could just email to it. Okay, yeah, yeah, okay, yeah, right, okay.[216.23][214.69][S04]Well, this is not difficult.[215.74][216.43][S03]What's your number?[217.07][217.31][S02]Okay.[217.78][217.81][S04]It's in all the emails.[219.01][219.16][S02]Yeah.[219.43][220.47][S03]Your number.[221.05][222.01][S04]No, oh four.[223.31][223.90][S03]Okay.[224.33][224.38][S04]Oh four five oh five six oh. Say that again, oh four. Oh four five five five six oh.[232.71][232.94][S03]And then it's[233.81][234.92][S04]And then um there's a folder um N L S S D.[238.25][238.61][S03]N L S S D.[239.33][239.52][S04]And it's called[240.00]",
+      "generation_limit_hit": false
+    }
+  },
+  "wall_seconds": 24.81508017401211,
+  "rtf": 0.10339616739171713,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 2546400256,
+      "reserved_bytes": 2814377984
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 2850721792
+}

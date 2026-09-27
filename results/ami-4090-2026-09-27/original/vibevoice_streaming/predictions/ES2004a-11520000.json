@@ -1,0 +1,1566 @@
+{
+  "id": "ES2004a-11520000",
+  "duration": 240.0,
+  "seed": 2401582415,
+  "status": "ok",
+  "prediction": {
+    "segments": [
+      {
+        "speaker": "0",
+        "text": "Um, T.V., uh, videos and things that ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "basically on/off, volume up and down, channel one ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "two, that basic function. I don't think I could go any further ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "with it than that. So ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "it's got to be something usable by someone like me as ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "well. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Mm-hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah, the main\u2014 that's the main stuff anyway, I ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "mean. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "That's all I want. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "You don't want to\u2014 I hate, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "I hate looking at a control and ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "seeing a million tiny little buttons with tiny little words ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "saying what they all do and just sitting there ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "searching for the teletext button or something like that. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "And it's the voice that you don't have to ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "understand. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "The symbols you'll never understand, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "but the voice you can understand. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, the voice, the voice. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "When, uh, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "when you've got the main things on the ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "front of it and a section opens up or something, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "to the other functions when you ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "can do sound or options, kind of. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Mm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Recording, things like that inside it, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "cause it doesn't make\u2014 when you pick it up, it doesn't make it really complicated to look ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "at. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Mm-hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "It's obvious what you're doing. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Mm-hmm.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Um. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Actually, that just raises a point. I wonder what our ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "design people think. But you know, on a mobile ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "phone, you can press the key and it gives you a menu. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Mm-hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Mm-hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "It's got a ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "menu, doesn't it? I wonder if incorporating that into the design ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "of a remote control might be\u2014 so you've got a little ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "L.C.D. display. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Uh, I was thinking the same lines you\u2014 ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "instead of having too many buttons and make it ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "complicated for the user, may\u2014 maybe having L.C.D. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "display or something like that, like on a mobile. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "With menus. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "And with ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "menus, and if it's somewhat similar to what you have on ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "mobile phone, people might find it easier to browse than\u2014 than we are ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "now. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "What about the older generation, like ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "grannies, grandads? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Um, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "my grandad can answer his mobile phone, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "but he couldn't even dream of texting or something ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "like that. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "They're less familiar with it. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Can he program his remote ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "control? Is he basic with that too? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Mm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "I don't think ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "he\u2014 I don't think he takes it as standard. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "No. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "My grandad, that's better ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "than me using teletext, so yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Right.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "So that's a problem regardless of\u2014 of any design ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "modifications you\u2014 you come up with. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "That's gonna be a problem ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "anyway with the older generation. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "They won't s\u2014 they won't ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "know. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "They're not familiar with it. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "They won't have got that. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Well, I just think it's really\u2014 as long ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "as it's sort of self intuitive and you can\u2014 can ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "work out why everything's doing.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Cause, I mean, menus on, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "sort of, neat phones now, they're sort ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "of got all these pictures and stuff which makes it fairly ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "obvious what you're trying to do. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Mm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Uh-huh.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "I don't know, I'm\u2014 I don't ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "like the\u2014 you know, the new phones that have kind of got a Windows ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "based running system. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "I don't know how. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Oh, yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Mm-hmm.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "I find it really confusing. I kept getting ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "lost in the pho\u2014 I d\u2014 I have not got a new one, but, um, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "my friend got a new one and I was trying to do things with it.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "And I just kept getting lost, but ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "that's just me. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah, I don't\u2014 I don't know how ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "for 25 or 12 ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "euros fifties how much of a excellent screen ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "you do get. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "You know. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "You'd\u2014 you'd have to sort of keep it down ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "to a black and white L.C.D. menu or something. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Is it ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "possible that\u2014 that for the older generation you could have like an ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "extra button that you press for larger print, like you do in larger print books?",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Did it say that? ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Oh, I\u2014 it's not that far to the back, actually. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Teletext.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Just maybe less on the screen, but as long as they can read it, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "that's the main thing. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Or what about kind of a dual ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "function in that you've got the basic ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "buttons just for your play, volume, programme, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "things, and also\u2014 and ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "then a menu to go into ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "with obvious pictures, obvious symbols, and ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "that's where you control recording and ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "things like that. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Mm-hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yes. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Mm-hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "The other thing is just ta\u2014 ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "tackling into mobile phone design features again.",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "You can have a flip top remote control, so that when you flip over the ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "top, your screen is\u2014 you can have a bigger screen in the\u2014 ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "when you flip over. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "I think ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "that's a cost thing. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "I don't\u2014 we don't know how much ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "we're gonna know about\u2014 ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "You don't know. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "And like say, lot of little spaces, ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "we\u2014 we sort of bu\u2014 bulk it, make it small. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Mm-hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "Yes, mm-hmm. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "2",
+        "text": "Yeah. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "But ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "1",
+        "text": "it might have its cost implications. ",
+        "start": null,
+        "end": null
+      },
+      {
+        "speaker": "0",
+        "text": "And there's an\u2014",
+        "start": null,
+        "end": null
+      }
+    ],
+    "activity": null,
+    "timing": "unavailable",
+    "events": [
+      {
+        "audio_available_seconds": 3.466666666666667,
+        "chunk_end_seconds": 2.933333333333333,
+        "emitted_seconds": 3.8282846519723535,
+        "has_text": true,
+        "text": " \n Speaker 0:Um, T.V., uh, videos and things that "
+      },
+      {
+        "audio_available_seconds": 6.4,
+        "chunk_end_seconds": 5.866666666666666,
+        "emitted_seconds": 6.6815008480334654,
+        "has_text": true,
+        "text": "basically on/off, volume up and down, channel one "
+      },
+      {
+        "audio_available_seconds": 9.333333333333334,
+        "chunk_end_seconds": 8.8,
+        "emitted_seconds": 9.669548794045113,
+        "has_text": true,
+        "text": "two, that basic function. I don't think I could go any further "
+      },
+      {
+        "audio_available_seconds": 12.266666666666667,
+        "chunk_end_seconds": 11.733333333333333,
+        "emitted_seconds": 12.445615826989524,
+        "has_text": true,
+        "text": "with it than that. So "
+      },
+      {
+        "audio_available_seconds": 15.2,
+        "chunk_end_seconds": 14.666666666666666,
+        "emitted_seconds": 15.482375781983137,
+        "has_text": true,
+        "text": "it's got to be something usable by someone like me as "
+      },
+      {
+        "audio_available_seconds": 18.133333333333333,
+        "chunk_end_seconds": 17.6,
+        "emitted_seconds": 18.71658007800579,
+        "has_text": true,
+        "text": "well. \n Speaker 1:Mm-hmm. \n Speaker 2:Yeah, the main\u2014 that's the main stuff anyway, I "
+      },
+      {
+        "audio_available_seconds": 21.066666666666666,
+        "chunk_end_seconds": 20.533333333333335,
+        "emitted_seconds": 21.62431986106094,
+        "has_text": true,
+        "text": "mean. \n Speaker 0:That's all I want. \n Speaker 2:You don't want to\u2014 I hate, "
+      },
+      {
+        "audio_available_seconds": 24.0,
+        "chunk_end_seconds": 23.466666666666665,
+        "emitted_seconds": 24.19376039004419,
+        "has_text": true,
+        "text": "I hate looking at a control and "
+      },
+      {
+        "audio_available_seconds": 26.933333333333334,
+        "chunk_end_seconds": 26.4,
+        "emitted_seconds": 27.180399256991223,
+        "has_text": true,
+        "text": "seeing a million tiny little buttons with tiny little words "
+      },
+      {
+        "audio_available_seconds": 29.866666666666667,
+        "chunk_end_seconds": 29.333333333333332,
+        "emitted_seconds": 30.1135131099727,
+        "has_text": true,
+        "text": "saying what they all do and just sitting there "
+      },
+      {
+        "audio_available_seconds": 32.8,
+        "chunk_end_seconds": 32.266666666666666,
+        "emitted_seconds": 33.63164319796488,
+        "has_text": true,
+        "text": "searching for the teletext button or something like that. \n Speaker 0:Yeah. \n Speaker 1:Yeah. \n Speaker 0:And it's the voice that you don't have to "
+      },
+      {
+        "audio_available_seconds": 35.733333333333334,
+        "chunk_end_seconds": 35.2,
+        "emitted_seconds": 36.17548183701001,
+        "has_text": true,
+        "text": "understand. \n Speaker 2:Yeah. \n Speaker 0:The symbols you'll never understand, "
+      },
+      {
+        "audio_available_seconds": 38.666666666666664,
+        "chunk_end_seconds": 38.13333333333333,
+        "emitted_seconds": 39.24967769696377,
+        "has_text": true,
+        "text": "but the voice you can understand. \n Speaker 1:Yeah, the voice, the voice. \n Speaker 2:When, uh, "
+      },
+      {
+        "audio_available_seconds": 41.6,
+        "chunk_end_seconds": 41.06666666666667,
+        "emitted_seconds": 41.84212807402946,
+        "has_text": true,
+        "text": "when you've got the main things on the "
+      },
+      {
+        "audio_available_seconds": 44.53333333333333,
+        "chunk_end_seconds": 44.0,
+        "emitted_seconds": 44.80228955100756,
+        "has_text": true,
+        "text": "front of it and a section opens up or something, "
+      },
+      {
+        "audio_available_seconds": 47.46666666666667,
+        "chunk_end_seconds": 46.93333333333333,
+        "emitted_seconds": 47.643993851030245,
+        "has_text": true,
+        "text": "to the other functions when you "
+      },
+      {
+        "audio_available_seconds": 50.4,
+        "chunk_end_seconds": 49.86666666666667,
+        "emitted_seconds": 50.86094950104598,
+        "has_text": true,
+        "text": "can do sound or options, kind of. \n Speaker 0:Mm. \n Speaker 1:Yeah."
+      },
+      {
+        "audio_available_seconds": 53.333333333333336,
+        "chunk_end_seconds": 52.8,
+        "emitted_seconds": 53.641360222012736,
+        "has_text": true,
+        "text": " \n Speaker 2:Recording, things like that inside it, "
+      },
+      {
+        "audio_available_seconds": 56.266666666666666,
+        "chunk_end_seconds": 55.733333333333334,
+        "emitted_seconds": 56.710173805011436,
+        "has_text": true,
+        "text": "cause it doesn't make\u2014 when you pick it up, it doesn't make it really complicated to look "
+      },
+      {
+        "audio_available_seconds": 59.2,
+        "chunk_end_seconds": 58.666666666666664,
+        "emitted_seconds": 59.96474510896951,
+        "has_text": true,
+        "text": "at. \n Speaker 0:Mm-hmm. \n Speaker 1:Yeah. \n Speaker 2:It's obvious what you're doing. \n Speaker 1:Mm-hmm."
+      },
+      {
+        "audio_available_seconds": 62.13333333333333,
+        "chunk_end_seconds": 61.6,
+        "emitted_seconds": 62.632025149068795,
+        "has_text": true,
+        "text": " \n Speaker 2:Um. \n Speaker 0:Actually, that just raises a point. I wonder what our "
+      },
+      {
+        "audio_available_seconds": 65.06666666666666,
+        "chunk_end_seconds": 64.53333333333333,
+        "emitted_seconds": 65.33326577197295,
+        "has_text": true,
+        "text": "design people think. But you know, on a mobile "
+      },
+      {
+        "audio_available_seconds": 68.0,
+        "chunk_end_seconds": 67.46666666666667,
+        "emitted_seconds": 68.80707358906511,
+        "has_text": true,
+        "text": "phone, you can press the key and it gives you a menu. \n Speaker 2:Mm-hmm. \n Speaker 1:Mm-hmm. \n Speaker 0:It's got a "
+      },
+      {
+        "audio_available_seconds": 70.93333333333334,
+        "chunk_end_seconds": 70.4,
+        "emitted_seconds": 71.2544078490464,
+        "has_text": true,
+        "text": "menu, doesn't it? I wonder if incorporating that into the design "
+      },
+      {
+        "audio_available_seconds": 73.86666666666666,
+        "chunk_end_seconds": 73.33333333333333,
+        "emitted_seconds": 74.16951503895689,
+        "has_text": true,
+        "text": "of a remote control might be\u2014 so you've got a little "
+      },
+      {
+        "audio_available_seconds": 76.8,
+        "chunk_end_seconds": 76.26666666666667,
+        "emitted_seconds": 77.37036439403892,
+        "has_text": true,
+        "text": "L.C.D. display. \n Speaker 1:Yeah. \n Speaker 1:Uh, I was thinking the same lines you\u2014 "
+      },
+      {
+        "audio_available_seconds": 79.73333333333333,
+        "chunk_end_seconds": 79.2,
+        "emitted_seconds": 79.96587427100167,
+        "has_text": true,
+        "text": "instead of having too many buttons and make it "
+      },
+      {
+        "audio_available_seconds": 82.66666666666667,
+        "chunk_end_seconds": 82.13333333333334,
+        "emitted_seconds": 82.98749151302036,
+        "has_text": true,
+        "text": "complicated for the user, may\u2014 maybe having L.C.D. "
+      },
+      {
+        "audio_available_seconds": 85.6,
+        "chunk_end_seconds": 85.06666666666666,
+        "emitted_seconds": 86.14337519998662,
+        "has_text": true,
+        "text": "display or something like that, like on a mobile. \n Speaker 0:With menus. \n Speaker 1:And with "
+      },
+      {
+        "audio_available_seconds": 88.53333333333333,
+        "chunk_end_seconds": 88.0,
+        "emitted_seconds": 88.83764984703157,
+        "has_text": true,
+        "text": "menus, and if it's somewhat similar to what you have on "
+      },
+      {
+        "audio_available_seconds": 91.46666666666667,
+        "chunk_end_seconds": 90.93333333333334,
+        "emitted_seconds": 91.80708875099663,
+        "has_text": true,
+        "text": "mobile phone, people might find it easier to browse than\u2014 than we are "
+      },
+      {
+        "audio_available_seconds": 94.4,
+        "chunk_end_seconds": 93.86666666666666,
+        "emitted_seconds": 94.97170092398301,
+        "has_text": true,
+        "text": "now. \n Speaker 2:Yeah. \n Speaker 0:Yeah. \n Speaker 2:What about the older generation, like "
+      },
+      {
+        "audio_available_seconds": 97.33333333333333,
+        "chunk_end_seconds": 96.8,
+        "emitted_seconds": 97.76463639398571,
+        "has_text": true,
+        "text": "grannies, grandads? \n Speaker 1:Yeah. \n Speaker 2:Um, "
+      },
+      {
+        "audio_available_seconds": 100.26666666666667,
+        "chunk_end_seconds": 99.73333333333333,
+        "emitted_seconds": 100.50057758402545,
+        "has_text": true,
+        "text": "my grandad can answer his mobile phone, "
+      },
+      {
+        "audio_available_seconds": 103.2,
+        "chunk_end_seconds": 102.66666666666667,
+        "emitted_seconds": 103.45203811302781,
+        "has_text": true,
+        "text": "but he couldn't even dream of texting or something "
+      },
+      {
+        "audio_available_seconds": 106.13333333333334,
+        "chunk_end_seconds": 105.6,
+        "emitted_seconds": 106.90478791401256,
+        "has_text": true,
+        "text": "like that. \n Speaker 1:They're less familiar with it. \n Speaker 0:Yeah. \n Speaker 1:Yeah. \n Speaker 0:Can he program his remote "
+      },
+      {
+        "audio_available_seconds": 109.06666666666666,
+        "chunk_end_seconds": 108.53333333333333,
+        "emitted_seconds": 109.56825384497643,
+        "has_text": true,
+        "text": "control? Is he basic with that too? \n Speaker 2:Mm. \n Speaker 0:I don't think "
+      },
+      {
+        "audio_available_seconds": 112.0,
+        "chunk_end_seconds": 111.46666666666667,
+        "emitted_seconds": 112.75458537705708,
+        "has_text": true,
+        "text": "he\u2014 I don't think he takes it as standard. \n Speaker 1:Yeah. \n Speaker 2:No. \n Speaker 1:My grandad, that's better "
+      },
+      {
+        "audio_available_seconds": 114.93333333333334,
+        "chunk_end_seconds": 114.4,
+        "emitted_seconds": 115.29717892606277,
+        "has_text": true,
+        "text": "than me using teletext, so yeah. \n Speaker 0:Right."
+      },
+      {
+        "audio_available_seconds": 117.86666666666666,
+        "chunk_end_seconds": 117.33333333333333,
+        "emitted_seconds": 118.13971250201575,
+        "has_text": true,
+        "text": "So that's a problem regardless of\u2014 of any design "
+      },
+      {
+        "audio_available_seconds": 120.8,
+        "chunk_end_seconds": 120.26666666666667,
+        "emitted_seconds": 121.35568202706054,
+        "has_text": true,
+        "text": "modifications you\u2014 you come up with. \n Speaker 1:Yeah. \n Speaker 0:That's gonna be a problem "
+      },
+      {
+        "audio_available_seconds": 123.73333333333333,
+        "chunk_end_seconds": 123.2,
+        "emitted_seconds": 124.29044694500044,
+        "has_text": true,
+        "text": "anyway with the older generation. \n Speaker 2:Yeah. \n Speaker 0:They won't s\u2014 they won't "
+      },
+      {
+        "audio_available_seconds": 126.66666666666667,
+        "chunk_end_seconds": 126.13333333333334,
+        "emitted_seconds": 127.62153748399578,
+        "has_text": true,
+        "text": "know. \n Speaker 2:They're not familiar with it. \n Speaker 1:Yeah. \n Speaker 0:They won't have got that. \n Speaker 1:Well, I just think it's really\u2014 as long "
+      },
+      {
+        "audio_available_seconds": 129.6,
+        "chunk_end_seconds": 129.06666666666666,
+        "emitted_seconds": 129.88980904896744,
+        "has_text": true,
+        "text": "as it's sort of self intuitive and you can\u2014 can "
+      },
+      {
+        "audio_available_seconds": 132.53333333333333,
+        "chunk_end_seconds": 132.0,
+        "emitted_seconds": 132.7145514730364,
+        "has_text": true,
+        "text": "work out why everything's doing."
+      },
+      {
+        "audio_available_seconds": 135.46666666666667,
+        "chunk_end_seconds": 134.93333333333334,
+        "emitted_seconds": 135.6986598620424,
+        "has_text": true,
+        "text": "Cause, I mean, menus on, "
+      },
+      {
+        "audio_available_seconds": 138.4,
+        "chunk_end_seconds": 137.86666666666667,
+        "emitted_seconds": 138.6557075290475,
+        "has_text": true,
+        "text": "sort of, neat phones now, they're sort "
+      },
+      {
+        "audio_available_seconds": 141.33333333333334,
+        "chunk_end_seconds": 140.8,
+        "emitted_seconds": 141.60601599898655,
+        "has_text": true,
+        "text": "of got all these pictures and stuff which makes it fairly "
+      },
+      {
+        "audio_available_seconds": 144.26666666666668,
+        "chunk_end_seconds": 143.73333333333332,
+        "emitted_seconds": 144.77162897097878,
+        "has_text": true,
+        "text": "obvious what you're trying to do. \n Speaker 0:Mm. \n Speaker 1:Uh-huh."
+      },
+      {
+        "audio_available_seconds": 147.2,
+        "chunk_end_seconds": 146.66666666666666,
+        "emitted_seconds": 147.54400007904042,
+        "has_text": true,
+        "text": " \n Speaker 2:I don't know, I'm\u2014 I don't "
+      },
+      {
+        "audio_available_seconds": 150.13333333333333,
+        "chunk_end_seconds": 149.6,
+        "emitted_seconds": 150.49705719202757,
+        "has_text": true,
+        "text": "like the\u2014 you know, the new phones that have kind of got a Windows "
+      },
+      {
+        "audio_available_seconds": 153.06666666666666,
+        "chunk_end_seconds": 152.53333333333333,
+        "emitted_seconds": 153.69811882602517,
+        "has_text": true,
+        "text": "based running system. \n Speaker 1:I don't know how. \n Speaker 1:Oh, yeah. \n Speaker 1:Mm-hmm."
+      },
+      {
+        "audio_available_seconds": 156.0,
+        "chunk_end_seconds": 155.46666666666667,
+        "emitted_seconds": 156.30769139097538,
+        "has_text": true,
+        "text": " \n Speaker 2:I find it really confusing. I kept getting "
+      },
+      {
+        "audio_available_seconds": 158.93333333333334,
+        "chunk_end_seconds": 158.4,
+        "emitted_seconds": 159.3899613560643,
+        "has_text": true,
+        "text": "lost in the pho\u2014 I d\u2014 I have not got a new one, but, um, "
+      },
+      {
+        "audio_available_seconds": 161.86666666666667,
+        "chunk_end_seconds": 161.33333333333334,
+        "emitted_seconds": 162.21054076601285,
+        "has_text": true,
+        "text": "my friend got a new one and I was trying to do things with it."
+      },
+      {
+        "audio_available_seconds": 164.8,
+        "chunk_end_seconds": 164.26666666666668,
+        "emitted_seconds": 165.01853616302833,
+        "has_text": true,
+        "text": "And I just kept getting lost, but "
+      },
+      {
+        "audio_available_seconds": 167.73333333333332,
+        "chunk_end_seconds": 167.2,
+        "emitted_seconds": 168.18764917796943,
+        "has_text": true,
+        "text": "that's just me. \n Speaker 1:Yeah, I don't\u2014 I don't know how "
+      },
+      {
+        "audio_available_seconds": 170.66666666666666,
+        "chunk_end_seconds": 170.13333333333333,
+        "emitted_seconds": 170.88584055402316,
+        "has_text": true,
+        "text": "for 25 or 12 "
+      },
+      {
+        "audio_available_seconds": 173.6,
+        "chunk_end_seconds": 173.06666666666666,
+        "emitted_seconds": 173.87284566904418,
+        "has_text": true,
+        "text": "euros fifties how much of a excellent screen "
+      },
+      {
+        "audio_available_seconds": 176.53333333333333,
+        "chunk_end_seconds": 176.0,
+        "emitted_seconds": 177.2604155150475,
+        "has_text": true,
+        "text": "you do get. \n Speaker 2:You know. \n Speaker 2:Yeah. \n Speaker 1:You'd\u2014 you'd have to sort of keep it down "
+      },
+      {
+        "audio_available_seconds": 179.46666666666667,
+        "chunk_end_seconds": 178.93333333333334,
+        "emitted_seconds": 180.01236296002753,
+        "has_text": true,
+        "text": "to a black and white L.C.D. menu or something. \n Speaker 0:Yeah. \n Speaker 0:Is it "
+      },
+      {
+        "audio_available_seconds": 182.4,
+        "chunk_end_seconds": 181.86666666666667,
+        "emitted_seconds": 182.70959699701052,
+        "has_text": true,
+        "text": "possible that\u2014 that for the older generation you could have like an "
+      },
+      {
+        "audio_available_seconds": 185.33333333333334,
+        "chunk_end_seconds": 184.8,
+        "emitted_seconds": 185.6987169990316,
+        "has_text": true,
+        "text": "extra button that you press for larger print, like you do in larger print books?"
+      },
+      {
+        "audio_available_seconds": 188.26666666666668,
+        "chunk_end_seconds": 187.73333333333332,
+        "emitted_seconds": 189.02918064803816,
+        "has_text": true,
+        "text": " \n Speaker 2:Did it say that? \n Speaker 0:Oh, I\u2014 it's not that far to the back, actually. \n Speaker 2:Teletext."
+      },
+      {
+        "audio_available_seconds": 191.2,
+        "chunk_end_seconds": 190.66666666666666,
+        "emitted_seconds": 191.65848441503476,
+        "has_text": true,
+        "text": " \n Speaker 0:Just maybe less on the screen, but as long as they can read it, "
+      },
+      {
+        "audio_available_seconds": 194.13333333333333,
+        "chunk_end_seconds": 193.6,
+        "emitted_seconds": 194.42878470895812,
+        "has_text": true,
+        "text": "that's the main thing. \n Speaker 2:Yeah."
+      },
+      {
+        "audio_available_seconds": 197.06666666666666,
+        "chunk_end_seconds": 196.53333333333333,
+        "emitted_seconds": 197.26901447202545,
+        "has_text": true,
+        "text": "Or what about kind of a dual "
+      },
+      {
+        "audio_available_seconds": 200.0,
+        "chunk_end_seconds": 199.46666666666667,
+        "emitted_seconds": 200.23317158501595,
+        "has_text": true,
+        "text": "function in that you've got the basic "
+      },
+      {
+        "audio_available_seconds": 202.93333333333334,
+        "chunk_end_seconds": 202.4,
+        "emitted_seconds": 203.19061736704316,
+        "has_text": true,
+        "text": "buttons just for your play, volume, programme, "
+      },
+      {
+        "audio_available_seconds": 205.86666666666667,
+        "chunk_end_seconds": 205.33333333333334,
+        "emitted_seconds": 206.05175895802677,
+        "has_text": true,
+        "text": "things, and also\u2014 and "
+      },
+      {
+        "audio_available_seconds": 208.8,
+        "chunk_end_seconds": 208.26666666666668,
+        "emitted_seconds": 208.98431227297988,
+        "has_text": true,
+        "text": "then a menu to go into "
+      },
+      {
+        "audio_available_seconds": 211.73333333333332,
+        "chunk_end_seconds": 211.2,
+        "emitted_seconds": 211.95576654502656,
+        "has_text": true,
+        "text": "with obvious pictures, obvious symbols, and "
+      },
+      {
+        "audio_available_seconds": 214.66666666666666,
+        "chunk_end_seconds": 214.13333333333333,
+        "emitted_seconds": 214.86980186903384,
+        "has_text": true,
+        "text": "that's where you control recording and "
+      },
+      {
+        "audio_available_seconds": 217.6,
+        "chunk_end_seconds": 217.06666666666666,
+        "emitted_seconds": 218.39941333699971,
+        "has_text": true,
+        "text": "things like that. \n Speaker 1:Mm-hmm. \n Speaker 0:Yes. \n Speaker 1:Mm-hmm. \n Speaker 0:The other thing is just ta\u2014 "
+      },
+      {
+        "audio_available_seconds": 220.53333333333333,
+        "chunk_end_seconds": 220.0,
+        "emitted_seconds": 220.775181606994,
+        "has_text": true,
+        "text": "tackling into mobile phone design features again."
+      },
+      {
+        "audio_available_seconds": 223.46666666666667,
+        "chunk_end_seconds": 222.93333333333334,
+        "emitted_seconds": 223.83406924200244,
+        "has_text": true,
+        "text": "You can have a flip top remote control, so that when you flip over the "
+      },
+      {
+        "audio_available_seconds": 226.4,
+        "chunk_end_seconds": 225.86666666666667,
+        "emitted_seconds": 226.74808146699797,
+        "has_text": true,
+        "text": "top, your screen is\u2014 you can have a bigger screen in the\u2014 "
+      },
+      {
+        "audio_available_seconds": 229.33333333333334,
+        "chunk_end_seconds": 228.8,
+        "emitted_seconds": 229.73691732098814,
+        "has_text": true,
+        "text": "when you flip over. \n Speaker 1:Yeah. \n Speaker 2:I think "
+      },
+      {
+        "audio_available_seconds": 232.26666666666668,
+        "chunk_end_seconds": 231.73333333333332,
+        "emitted_seconds": 232.8388421080308,
+        "has_text": true,
+        "text": "that's a cost thing. \n Speaker 0:Yeah. \n Speaker 2:I don't\u2014 we don't know how much "
+      },
+      {
+        "audio_available_seconds": 235.2,
+        "chunk_end_seconds": 234.66666666666666,
+        "emitted_seconds": 235.94784048199654,
+        "has_text": true,
+        "text": "we're gonna know about\u2014 \n Speaker 1:Yeah. \n Speaker 0:You don't know. \n Speaker 1:And like say, lot of little spaces, "
+      },
+      {
+        "audio_available_seconds": 238.13333333333333,
+        "chunk_end_seconds": 237.6,
+        "emitted_seconds": 239.06325187603943,
+        "has_text": true,
+        "text": "we\u2014 we sort of bu\u2014 bulk it, make it small. \n Speaker 2:Mm-hmm. \n Speaker 0:Yes, mm-hmm. \n Speaker 2:Yeah. \n Speaker 1:But "
+      },
+      {
+        "audio_available_seconds": 240.0,
+        "chunk_end_seconds": 240.0,
+        "emitted_seconds": 240.36639390396886,
+        "has_text": true,
+        "text": "it might have its cost implications. \n Speaker 0:And there's an\u2014"
+      }
+    ],
+    "metadata": {
+      "raw_output": " \n Speaker 0:Um, T.V., uh, videos and things that basically on/off, volume up and down, channel one two, that basic function. I don't think I could go any further with it than that. So it's got to be something usable by someone like me as well. \n Speaker 1:Mm-hmm. \n Speaker 2:Yeah, the main\u2014 that's the main stuff anyway, I mean. \n Speaker 0:That's all I want. \n Speaker 2:You don't want to\u2014 I hate, I hate looking at a control and seeing a million tiny little buttons with tiny little words saying what they all do and just sitting there searching for the teletext button or something like that. \n Speaker 0:Yeah. \n Speaker 1:Yeah. \n Speaker 0:And it's the voice that you don't have to understand. \n Speaker 2:Yeah. \n Speaker 0:The symbols you'll never understand, but the voice you can understand. \n Speaker 1:Yeah, the voice, the voice. \n Speaker 2:When, uh, when you've got the main things on the front of it and a section opens up or something, to the other functions when you can do sound or options, kind of. \n Speaker 0:Mm. \n Speaker 1:Yeah. \n Speaker 2:Recording, things like that inside it, cause it doesn't make\u2014 when you pick it up, it doesn't make it really complicated to look at. \n Speaker 0:Mm-hmm. \n Speaker 1:Yeah. \n Speaker 2:It's obvious what you're doing. \n Speaker 1:Mm-hmm. \n Speaker 2:Um. \n Speaker 0:Actually, that just raises a point. I wonder what our design people think. But you know, on a mobile phone, you can press the key and it gives you a menu. \n Speaker 2:Mm-hmm. \n Speaker 1:Mm-hmm. \n Speaker 0:It's got a menu, doesn't it? I wonder if incorporating that into the design of a remote control might be\u2014 so you've got a little L.C.D. display. \n Speaker 1:Yeah. \n Speaker 1:Uh, I was thinking the same lines you\u2014 instead of having too many buttons and make it complicated for the user, may\u2014 maybe having L.C.D. display or something like that, like on a mobile. \n Speaker 0:With menus. \n Speaker 1:And with menus, and if it's somewhat similar to what you have on mobile phone, people might find it easier to browse than\u2014 than we are now. \n Speaker 2:Yeah. \n Speaker 0:Yeah. \n Speaker 2:What about the older generation, like grannies, grandads? \n Speaker 1:Yeah. \n Speaker 2:Um, my grandad can answer his mobile phone, but he couldn't even dream of texting or something like that. \n Speaker 1:They're less familiar with it. \n Speaker 0:Yeah. \n Speaker 1:Yeah. \n Speaker 0:Can he program his remote control? Is he basic with that too? \n Speaker 2:Mm. \n Speaker 0:I don't think he\u2014 I don't think he takes it as standard. \n Speaker 1:Yeah. \n Speaker 2:No. \n Speaker 1:My grandad, that's better than me using teletext, so yeah. \n Speaker 0:Right.So that's a problem regardless of\u2014 of any design modifications you\u2014 you come up with. \n Speaker 1:Yeah. \n Speaker 0:That's gonna be a problem anyway with the older generation. \n Speaker 2:Yeah. \n Speaker 0:They won't s\u2014 they won't know. \n Speaker 2:They're not familiar with it. \n Speaker 1:Yeah. \n Speaker 0:They won't have got that. \n Speaker 1:Well, I just think it's really\u2014 as long as it's sort of self intuitive and you can\u2014 can work out why everything's doing.Cause, I mean, menus on, sort of, neat phones now, they're sort of got all these pictures and stuff which makes it fairly obvious what you're trying to do. \n Speaker 0:Mm. \n Speaker 1:Uh-huh. \n Speaker 2:I don't know, I'm\u2014 I don't like the\u2014 you know, the new phones that have kind of got a Windows based running system. \n Speaker 1:I don't know how. \n Speaker 1:Oh, yeah. \n Speaker 1:Mm-hmm. \n Speaker 2:I find it really confusing. I kept getting lost in the pho\u2014 I d\u2014 I have not got a new one, but, um, my friend got a new one and I was trying to do things with it.And I just kept getting lost, but that's just me. \n Speaker 1:Yeah, I don't\u2014 I don't know how for 25 or 12 euros fifties how much of a excellent screen you do get. \n Speaker 2:You know. \n Speaker 2:Yeah. \n Speaker 1:You'd\u2014 you'd have to sort of keep it down to a black and white L.C.D. menu or something. \n Speaker 0:Yeah. \n Speaker 0:Is it possible that\u2014 that for the older generation you could have like an extra button that you press for larger print, like you do in larger print books? \n Speaker 2:Did it say that? \n Speaker 0:Oh, I\u2014 it's not that far to the back, actually. \n Speaker 2:Teletext. \n Speaker 0:Just maybe less on the screen, but as long as they can read it, that's the main thing. \n Speaker 2:Yeah.Or what about kind of a dual function in that you've got the basic buttons just for your play, volume, programme, things, and also\u2014 and then a menu to go into with obvious pictures, obvious symbols, and that's where you control recording and things like that. \n Speaker 1:Mm-hmm. \n Speaker 0:Yes. \n Speaker 1:Mm-hmm. \n Speaker 0:The other thing is just ta\u2014 tackling into mobile phone design features again.You can have a flip top remote control, so that when you flip over the top, your screen is\u2014 you can have a bigger screen in the\u2014 when you flip over. \n Speaker 1:Yeah. \n Speaker 2:I think that's a cost thing. \n Speaker 0:Yeah. \n Speaker 2:I don't\u2014 we don't know how much we're gonna know about\u2014 \n Speaker 1:Yeah. \n Speaker 0:You don't know. \n Speaker 1:And like say, lot of little spaces, we\u2014 we sort of bu\u2014 bulk it, make it small. \n Speaker 2:Mm-hmm. \n Speaker 0:Yes, mm-hmm. \n Speaker 2:Yeah. \n Speaker 1:But it might have its cost implications. \n Speaker 0:And there's an\u2014",
+      "realtime_paced": true,
+      "stream_compute_seconds": 33.571850998094305,
+      "timing_reason": "Official streaming output has no speech timestamps",
+      "generation_limit_hit": null
+    }
+  },
+  "wall_seconds": 240.41616702498868,
+  "rtf": 1.0017340292707861,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 17707069440,
+      "reserved_bytes": 17941135360
+    }
+  ],
+  "process_lifetime_peak_rss_bytes": 3490643968
+}
