@@ -1,0 +1,16 @@
+{
+  "worker": {
+    "exit_code": 1,
+    "timed_out": false,
+    "sampled_process_tree_peak_rss_bytes": 5545332736
+  },
+  "predictions": [
+    {
+      "id": "ES2004a-0",
+      "duration": 60.0,
+      "seed": 1956091378,
+      "status": "inference_failed",
+      "error_type": "ValueError"
+    }
+  ]
+}

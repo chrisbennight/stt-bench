@@ -6,7 +6,7 @@ speaker attribution, diarization, speed, cost, and GPU memory, with per-metric m
 **MAI Transcribe 2 leads WER at 26.10%; MOSS leads the local models at 30.92% WER
 and leads all three speaker error metrics on the shared 77-clip subset.**
 
-This repository compares five downloadable speech systems and 20 OpenRouter routes on
+This repository compares 12 local speech systems and 20 OpenRouter routes on
 **92.28 minutes of English meeting audio**. Local models use one **RTX 4090**. It includes
 the small Python harness,
 model adapters, recorded package versions, pinned model revisions, predictions, references,
@@ -22,8 +22,10 @@ The corrected pass follows **42 bounded capability probes**, with tested request
 actual response fields, and limitations documented in the
 [capability audit](docs/OPENROUTER_CAPABILITY_AUDIT.md). The
 [cost ledger](results/openrouter-validated-2026-09-27/costs.json) includes those probes,
-the corrected pass, and failed attempts. The five local systems were each run once on
-the exact same manifest and their valid results are reused. No external diarizer or
+the corrected pass, and failed attempts. The original five local systems were each run once on
+the exact same manifest and their valid results are reused. Seven additional
+[local OpenRouter counterparts](results/local-openweights-2026-09-27/README.md) use
+pyannote Community-1 as their default diarizer. No external diarizer or
 invented timestamps are added to hosted outputs.
 
 ## What is being compared?
@@ -40,11 +42,13 @@ within a clip. They do not identify a person by name.
 | **Qwen3 + pyannote** | [Qwen3-ASR-1.7B](https://huggingface.co/Qwen/Qwen3-ASR-1.7B), [ForcedAligner-0.6B](https://huggingface.co/Qwen/Qwen3-ForcedAligner-0.6B), and [pyannote Community-1](https://huggingface.co/pyannote/speaker-diarization-community-1). Words are assigned to speakers by temporal overlap. |
 | **Qwen3 + Nemotron** | The same Qwen recognition/alignment stages, with [NVIDIA Nemotron 3 Diarization](https://huggingface.co/nvidia/Nemotron-3-Diarization) supplying speaker activity. |
 | **VibeVoice Streaming** | [VibeVoice-ASR-Streaming-7B](https://huggingface.co/microsoft/VibeVoice-ASR-Streaming-7B): incremental speaker-labelled text. This adapter receives no native speech timestamps. |
+| **Local OpenRouter counterparts + pyannote** | Parakeet, Nemotron ASR, Whisper large-v3 and Turbo, Qwen 0.6B, and Voxtral Mini/Small, with Qwen forced alignment and pyannote Community-1. Voxtral Small uses NF4 quantization. [Weights, configuration, and protocol](docs/LOCAL_OPENWEIGHTS.md). |
 
 Some models can also describe sound events. **Annotation/event accuracy is not evaluated**
 here; bracketed VibeVoice sound annotations are retained in raw output but excluded from
-speech-word scoring. These five systems use local inference; the additional model IDs
-use OpenRouter. Check each provider's model license and access terms separately.
+speech-word scoring. Names ending in **+ pyannote** identify local pipelines; the hosted
+routes retain their provider model names. Check each provider's model license and access terms
+separately.
 
 The scoring libraries are [MeetEval](https://github.com/fgnt/meeteval) and
 [pyannote.metrics](https://pyannote.github.io/pyannote-metrics/). Model cards describe upstream
@@ -63,7 +67,7 @@ We use the [AMI Meeting Corpus](https://groups.inf.ed.ac.uk/ami/corpus/), with o
 | Input | Array1-01 distant microphone, mono 16 kHz English audio; overlapping speech included |
 | Windows | 94 nonoverlapping clips, each at most 60 seconds; 5,536.704 seconds total |
 | Hardware | Local: one NVIDIA RTX 4090, 24 GB, one model at a time; hosted: provider-controlled |
-| Precision | Local: BF16, no quantization; hosted: provider-defined; no oracle speakers or reference text |
+| Precision | Local: BF16 or NeMo checkpoint default; Voxtral Small: NF4; hosted: provider-defined; no oracle speakers or reference text |
 | Timing | Local: loading excluded, no warmup; API: request wall time, including network/provider time |
 | Randomness | One local trial with per-window seeds from recording IDs; API generation seeds are not controlled |
 | Streaming | The same supplied audio, processed without artificial waits; state resets per window |
@@ -80,7 +84,7 @@ allowing anonymous labels to be renamed. DER measures who spoke when: missed spe
 alarms, and speaker confusion. It uses **zero collar and includes overlap** here. These are
 different objectives, so their rankings need not agree.
 
-The [single results table](results/openrouter-validated-2026-09-27/README.md) contains all 29 systems,
+The [single results table](results/openrouter-validated-2026-09-27/README.md) contains all 36 systems,
 sorted by WER. WER and coverage use 94 clips. Speaker metrics use one shared set of clips
 where all four speaker-labelled hosted routes supplied usable labels, including for
 the local systems; the count is in the column headings.
@@ -95,7 +99,16 @@ remain unavailable. The historical 25-window local run is retained in
   the lowest WER. On the shared 77 labelled clips, MOSS has 26.29% cpWER,
   27.10% tcpWER, and 23.57% DER. This speaker subset is conditional on the hosted
   systems returning labels; it is not an estimate for all 94 clips.
-- All five local systems returned valid output on all 94 clips in one pass each.
+- The original five local systems and five additional pipelines returned valid output
+  on all 94 clips. Voxtral Mini returned 92/94; Voxtral Small NF4 returned 93/94.
+  Their three repeating, token-limited generations are retained as failures and
+  count in dataset error rates.
+- Among the seven added local pipelines, **Parakeet + pyannote** has the lowest WER
+  (**33.33%**) and fastest measured processing (**0.011 RTF**). MOSS remains the best
+  local system by WER and the shared speaker-error metrics.
+- The added ASR pipelines share pyannote diarization, so equal DER values largely
+  reflect the same component. Their cpWER and tcpWER also measure transcription and
+  alignment errors. These are not native diarization scores for the ASR weights.
 - MAI 2, Deepgram, and Grok returned timed speaker labels. Fish Pro returned inline
   speaker-labelled text and separate speech timing, supporting cpWER and coverage
   without enough information for tcpWER or DER.

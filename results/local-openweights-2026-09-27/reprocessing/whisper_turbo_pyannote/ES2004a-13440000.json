@@ -1,0 +1,20 @@
+{
+  "id": "ES2004a-13440000",
+  "duration": 60.0,
+  "seed": 1589493308,
+  "status": "invalid_output",
+  "wall_seconds": 0.8206085420679301,
+  "rtf": 0.013676809034465501,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 3973157888,
+      "reserved_bytes": 6197084160
+    }
+  ],
+  "raw_output": " with the older generation perhaps, and that's another issue we tackle that. Well it just needs to be, as long as it's sort of self-intuitive and you can work out what everything's doing, because I mean menus on sort of new phones now, they've sort of got all these pictures and stuff which makes it fairly obvious what you're trying to do. I don't know how. I don't like the, you know, the new phones that have kind of got a windows based running system. I find it really confusing. I kept getting lost in the phone. I have not got a new one, but my friend got a new one, and I was trying to do things with it. And I just kept getting lost, but that's just me. Yeah, I don't know how, for \u20ac25 or \u20ac12 or \u20ac50, how much of an excellent screen You'd have to sort of keep it down to a black and white LCD thing. Is it possible that...",
+  "metadata": {
+    "reason": "alignment_changed_transcript"
+  }
+}

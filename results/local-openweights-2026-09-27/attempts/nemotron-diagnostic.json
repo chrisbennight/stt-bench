@@ -1,0 +1,6 @@
+{
+  "status": "failed",
+  "stage": "recognize",
+  "error_type": "ValueError",
+  "message": "Unknown prompt key: 'None'. Available: ['en-US', 'en', 'en-GB', 'enGB', 'es-ES', 'esES', 'es-US', 'es', 'zh-CN', 'zh-ZH']..."
+}

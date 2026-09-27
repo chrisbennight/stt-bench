@@ -1,0 +1,20 @@
+{
+  "id": "IS1009a-5760000",
+  "duration": 60.0,
+  "seed": 592562836,
+  "status": "invalid_output",
+  "wall_seconds": 0.5884115279186517,
+  "rtf": 0.009806858798644196,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 3972751360,
+      "reserved_bytes": 6199181312
+    }
+  ],
+  "raw_output": " I hope the kitty cat is hungry because I don't like snacks. Here's a project finance, which, of course, we all have to think about when we design this thing. Selling price is supposed to be 25 euro. Profit aim for the company is 50 million euro. The market range unlimited, meaning international. Okay. And production cost should not exceed, hopefully, should be less than \u20ac1250. Okay, that should keep everybody on their toes and challenged. Mm-hmm. So these are all the things, of course, to remember with the budget and when you design to materials, cost, etc. Now, I...",
+  "metadata": {
+    "reason": "alignment_changed_transcript"
+  }
+}

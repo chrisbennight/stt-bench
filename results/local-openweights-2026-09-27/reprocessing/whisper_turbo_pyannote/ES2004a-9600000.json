@@ -1,0 +1,20 @@
+{
+  "id": "ES2004a-9600000",
+  "duration": 60.0,
+  "seed": 579395740,
+  "status": "invalid_output",
+  "wall_seconds": 0.6320438929833472,
+  "rtf": 0.010534064883055786,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 3972946944,
+      "reserved_bytes": 6197084160
+    }
+  ],
+  "raw_output": " They're about \u00a320 anyway, so we have to buy one. So I suppose later it depends if we want to undercut the price, or is it going to make our product look a cheapy, cheapy option? Yeah, production costs at \u00a312.50, so half of the selling price is taken up by building it. and profit aim is 50 million euros which is in our first year yes and yeah I presume so you've got market range international and you did see earlier it's got to be accessible and usable by sort of all age groups just we're not focusing on business market any particular thing it's in every one use big target group yes yes I don't think we have to I don't think it's a case of worrying about",
+  "metadata": {
+    "reason": "alignment_changed_transcript"
+  }
+}

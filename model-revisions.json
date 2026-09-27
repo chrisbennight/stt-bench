@@ -1,4 +1,27 @@
 {
+  "nvidia/parakeet-tdt-0.6b-v3": {
+    "revision": "541d1f99c6b0c3cd0b11a95167540bb8edefd82b",
+    "nemo_files": ["parakeet-tdt-0.6b-v3.nemo"]
+  },
+  "nvidia/nemotron-3.5-asr-streaming-0.6b": {
+    "revision": "ea30d66debe3740a08b573244286791d423d6b3e",
+    "nemo_files": ["nemotron-3.5-asr-streaming-0.6b.nemo"]
+  },
+  "openai/whisper-large-v3": {
+    "revision": "06f233fe06e710322aca913c1bc4249a0d71fce1"
+  },
+  "openai/whisper-large-v3-turbo": {
+    "revision": "41f01f3fe87f28c78e2fbf8b568835947dd65ed9"
+  },
+  "Qwen/Qwen3-ASR-0.6B": {
+    "revision": "5eb144179a02acc5e5ba31e748d22b0cf3e303b0"
+  },
+  "mistralai/Voxtral-Mini-3B-2507": {
+    "revision": "3060fe34b35ba5d44202ce9ff3c097642914f8f3"
+  },
+  "mistralai/Voxtral-Small-24B-2507": {
+    "revision": "da5b42409f279fdd92febee0511a6c32828569c1"
+  },
   "Qwen/Qwen2.5-7B": {
     "revision": "d149729398750b98c0af14eb82c78cfe92750796"
   },

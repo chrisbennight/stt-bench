@@ -13,6 +13,7 @@ from speaker_benchmark.scoring import covered_speech, normalize, score_record
 ROOT = Path(__file__).resolve().parents[1]
 BUNDLE = ROOT / "results/openrouter-validated-2026-09-27"
 LOCAL_BUNDLE = ROOT / "results/ami-4090-94clips-2026-09-27"
+OPENWEIGHTS_BUNDLE = ROOT / "results/local-openweights-2026-09-27"
 INTRO = """# Consolidated benchmark results
 
 **One comparison, the same audio for every system.**
@@ -62,6 +63,10 @@ NOTES = """
 - **Output limitations:** no external diarizer or invented timestamps are added to hosted
   outputs. Gemini and Voxtral were asked for diarization but returned no speaker fields
   in the probe. This does not establish the limits of every upstream route.
+- **Local counterparts:** the additional local ASR pipelines use pyannote Community-1
+  and Qwen forced alignment. Voxtral Small uses NF4 quantization, as its name indicates.
+  Their diarization scores measure the shared pipeline, not native model diarization.
+  See the [local pipeline protocol](../../docs/LOCAL_OPENWEIGHTS.md).
 - **Scope:** four correlated meetings do not support claimed confidence intervals.
   Anonymous speaker labels do not test named-person identification or event annotation.
 
@@ -71,7 +76,8 @@ All **{verified_scores} clip scores** were recomputed from saved predictions and
 
 - **Results:** [CSV](consolidated.csv) · [Full metrics](consolidated.json)
 - **Provenance:** [Source selection](sources.json) ·
-  [Local run](../ami-4090-94clips-2026-09-27/sources.json)
+  [Original local run](../ami-4090-94clips-2026-09-27/sources.json) ·
+  [Local counterparts](../local-openweights-2026-09-27/sources.json)
 - **Audit:** [Request costs](costs.json) ·
   [Hosted capabilities](../../docs/OPENROUTER_CAPABILITY_AUDIT.md)
 
@@ -95,6 +101,13 @@ LABELS = {
     "qwen_pyannote": "Qwen3 + pyannote",
     "qwen_nemotron": "Qwen3 + Nemotron",
     "vibevoice_streaming": "VibeVoice Streaming",
+    "parakeet_pyannote": "Parakeet TDT v3 + pyannote",
+    "nemotron_asr_pyannote": "Nemotron 3.5 ASR + pyannote",
+    "whisper_pyannote": "Whisper Large v3 + pyannote",
+    "whisper_turbo_pyannote": "Whisper Turbo + pyannote",
+    "qwen_small_pyannote": "Qwen3 ASR 0.6B + pyannote",
+    "voxtral_mini_pyannote": "Voxtral Mini 3B + pyannote",
+    "voxtral_small_nf4_pyannote": "Voxtral Small 24B NF4 + pyannote",
     "google--gemini-3.5-transcribe": "Gemini 3.5 Transcribe",
     "google--chirp-3": "Google Chirp 3",
     "microsoft--mai-transcribe-1.5": "MAI Transcribe 1.5",
@@ -258,13 +271,24 @@ def build(verify=False):
         for scores in groups.values()
     ))
     common, speaker_scores = shared_speaker_scores(groups, common_ids)
-    local_records = [json.loads(line) for line in
-                     (LOCAL_BUNDLE / "manifest.jsonl").read_text().splitlines()]
-    validate_same_records(records, local_records)
+    local_sources = []
+    local_bundles = [LOCAL_BUNDLE]
+    if OPENWEIGHTS_BUNDLE.exists():
+        local_bundles.append(OPENWEIGHTS_BUNDLE)
+    for local_bundle in local_bundles:
+        local_records = [json.loads(line) for line in
+                         (local_bundle / "manifest.jsonl").read_text().splitlines()]
+        validate_same_records(records, local_records)
+        local_sources.extend(
+            (local_bundle, source)
+            for source in read_json(local_bundle / "sources.json")["models"]
+        )
     local_checked = 0
-    for source in read_json(LOCAL_BUNDLE / "sources.json")["models"]:
+    for local_bundle, source in local_sources:
         model = source["model"]
-        scores = read_json(LOCAL_BUNDLE / "scores" / f"{model}.json")
+        if model in {r["model"] for r in rows}:
+            raise ValueError("A model must appear only once in the consolidated comparison")
+        scores = read_json(local_bundle / "scores" / f"{model}.json")
         if len(scores) != len(records) or {r["id"] for r in scores} != set(record_map):
             raise ValueError("Local scores must cover each reference exactly once")
         if verify:
@@ -290,8 +314,11 @@ def build(verify=False):
         rows.append(summary)
         groups[model] = scores
     _, speaker_scores = shared_speaker_scores(groups, common)
-    if len(rows) != len(LABELS) or {r["model"] for r in rows} != set(LABELS):
-        raise ValueError("Consolidation requires all 24 API models and five local systems")
+    expected = {s["model"] for s in sources["models"]} | {
+        s["model"] for _, s in local_sources
+    }
+    if len(rows) != len(expected) or {r["model"] for r in rows} != expected:
+        raise ValueError("Consolidation must include every declared source exactly once")
     for row in rows:
         row["full_dataset_metrics"] = {k: row[k] for k in ("wer", "cpwer", "tcpwer", "der")}
         if row["model"] in speaker_scores:

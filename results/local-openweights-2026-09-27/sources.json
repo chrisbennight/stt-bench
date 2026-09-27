@@ -1,0 +1,434 @@
+{
+  "models": [
+    {
+      "model": "parakeet_pyannote",
+      "adapter": "nemo_pyannote",
+      "options": {
+        "model": "../models/parakeet/parakeet-tdt-0.6b-v3.nemo",
+        "aligner": "../models/aligner",
+        "diarizer": "../models/pyannote",
+        "device": "cuda:0"
+      },
+      "source_run": "ready-six",
+      "source_scores_sha256": "5819f7cc5d632998f83e13bd6cb0725d50ad8dfb7641b05185d62ba8623b37cc",
+      "source_manifest_sha256": "aa401b682a43f0b2b22f76681721c9c6c8cba4cc33c52c9c1375f740680ace81",
+      "model_provenance": {
+        "model": {
+          "sha256": "3cbdc85877e668ca7b82d0d56770eb1fac76691f55d6b97545e8d61ca588d10d"
+        },
+        "aligner": {
+          "snapshot_directory": "c7cbfc2048c462b0d63a45797104fc9db3ad62b7",
+          "config_sha256": {
+            "chat_template.json": "75a8cfca24f00de72d796fbfed6858fc9614ef3dabd8696684cc3bc03a9c58ff",
+            "config.json": "d616c65d46c4b90bdc651b0a0963ea932732241140f337f9bb6b0335a9c8ef09",
+            "generation_config.json": "948d089b23bca1d214e768d59c4438365665f52ec6d33678f4062206b3fbbb8c",
+            "preprocessor_config.json": "45e120a4eda2c20c5d7f2ea9354e63536bf35e27aa573fb7cdf78017b378770d",
+            "tokenizer_config.json": "3ab80063f8511deb9566e6ad438d17b7a6277fcffd52d92854112f19d36bd81c",
+            "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+          },
+          "weight_files": [
+            {
+              "name": "model.safetensors",
+              "bytes": 1835544544
+            }
+          ]
+        },
+        "diarizer": {
+          "snapshot_directory": "pyannote",
+          "config_sha256": {
+            "snapshot-revision.json": "68c24d4b4fc7dc59e71e27c660433b2f1fa89538be42ee257ee9bc81512cb9a4"
+          },
+          "weight_files": []
+        }
+      }
+    },
+    {
+      "model": "nemotron_asr_pyannote",
+      "adapter": "nemo_pyannote",
+      "options": {
+        "model": "../models/nemotron_asr/nemotron-3.5-asr-streaming-0.6b.nemo",
+        "aligner": "../models/aligner",
+        "diarizer": "../models/pyannote",
+        "device": "cuda:0",
+        "target_lang": "en-US"
+      },
+      "source_run": "nemotron-recovery",
+      "source_scores_sha256": "03991ffb0029dcabe51f3fdcc35033cc83dd82f4d6ed2a419ebf0b69c9689d39",
+      "source_manifest_sha256": "aa401b682a43f0b2b22f76681721c9c6c8cba4cc33c52c9c1375f740680ace81",
+      "model_provenance": {
+        "model": {
+          "sha256": "210214ed94039bf6bfbb9a047c7fa289628db75b103e2bf6381fa78285436a74"
+        },
+        "aligner": {
+          "snapshot_directory": "c7cbfc2048c462b0d63a45797104fc9db3ad62b7",
+          "config_sha256": {
+            "chat_template.json": "75a8cfca24f00de72d796fbfed6858fc9614ef3dabd8696684cc3bc03a9c58ff",
+            "config.json": "d616c65d46c4b90bdc651b0a0963ea932732241140f337f9bb6b0335a9c8ef09",
+            "generation_config.json": "948d089b23bca1d214e768d59c4438365665f52ec6d33678f4062206b3fbbb8c",
+            "preprocessor_config.json": "45e120a4eda2c20c5d7f2ea9354e63536bf35e27aa573fb7cdf78017b378770d",
+            "tokenizer_config.json": "3ab80063f8511deb9566e6ad438d17b7a6277fcffd52d92854112f19d36bd81c",
+            "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+          },
+          "weight_files": [
+            {
+              "name": "model.safetensors",
+              "bytes": 1835544544
+            }
+          ]
+        },
+        "diarizer": {
+          "snapshot_directory": "pyannote",
+          "config_sha256": {
+            "snapshot-revision.json": "68c24d4b4fc7dc59e71e27c660433b2f1fa89538be42ee257ee9bc81512cb9a4"
+          },
+          "weight_files": []
+        }
+      }
+    },
+    {
+      "model": "whisper_pyannote",
+      "adapter": "whisper_pyannote",
+      "options": {
+        "model": "../models/whisper",
+        "aligner": "../models/aligner",
+        "diarizer": "../models/pyannote",
+        "device": "cuda:0"
+      },
+      "source_run": "ready-six",
+      "source_scores_sha256": "04dd49bb11d69da428869c59773d07167ac5c24e5c2fca3bf440146784e918eb",
+      "source_manifest_sha256": "aa401b682a43f0b2b22f76681721c9c6c8cba4cc33c52c9c1375f740680ace81",
+      "model_provenance": {
+        "model": {
+          "snapshot_directory": "06f233fe06e710322aca913c1bc4249a0d71fce1",
+          "config_sha256": {
+            "added_tokens.json": "3c51f66c4c21f9e126970078f11ae77a78c74aee8df606ee9daba86e467108e0",
+            "config.json": "ad0e8d1e46f4d01f7861a21509e5d0f977d6cc1f367a370603c92541d819807b",
+            "generation_config.json": "fbdfa70135de9b1d31553393f14e80aaeb1936ea36576b2ba864055943c09d23",
+            "normalizer.json": "bf1c507dc8724ca9cf9903640dacfb69dae2f00edee4f21ceba106a7392f26dd",
+            "preprocessor_config.json": "7ccc62c6f2765af1f3b46c00c9b5894426835a05021c8b9c01eecb6dfb542711",
+            "special_tokens_map.json": "1c70773c078cb2ca96e0fcff113102f1d3e2b1504272c3bb63b035d4a6700d87",
+            "tokenizer.json": "6d8cbd7cd0d8d5815e478dac67b85a26bbe77c1f5e0c6d76d1ce2abc0e5f21ca",
+            "tokenizer_config.json": "844b642c73a91359722f47b35705f7174686df33d252695d8572cf9ac03a6389",
+            "vocab.json": "e2aa043ef015641d363d8288e7c241c85e36a5c761fb303598e0710233344387"
+          },
+          "weight_files": [
+            {
+              "name": "model.safetensors",
+              "bytes": 3087130976
+            }
+          ]
+        },
+        "aligner": {
+          "snapshot_directory": "c7cbfc2048c462b0d63a45797104fc9db3ad62b7",
+          "config_sha256": {
+            "chat_template.json": "75a8cfca24f00de72d796fbfed6858fc9614ef3dabd8696684cc3bc03a9c58ff",
+            "config.json": "d616c65d46c4b90bdc651b0a0963ea932732241140f337f9bb6b0335a9c8ef09",
+            "generation_config.json": "948d089b23bca1d214e768d59c4438365665f52ec6d33678f4062206b3fbbb8c",
+            "preprocessor_config.json": "45e120a4eda2c20c5d7f2ea9354e63536bf35e27aa573fb7cdf78017b378770d",
+            "tokenizer_config.json": "3ab80063f8511deb9566e6ad438d17b7a6277fcffd52d92854112f19d36bd81c",
+            "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+          },
+          "weight_files": [
+            {
+              "name": "model.safetensors",
+              "bytes": 1835544544
+            }
+          ]
+        },
+        "diarizer": {
+          "snapshot_directory": "pyannote",
+          "config_sha256": {
+            "snapshot-revision.json": "68c24d4b4fc7dc59e71e27c660433b2f1fa89538be42ee257ee9bc81512cb9a4"
+          },
+          "weight_files": []
+        }
+      }
+    },
+    {
+      "model": "whisper_turbo_pyannote",
+      "adapter": "whisper_pyannote",
+      "options": {
+        "model": "../models/whisper_turbo",
+        "aligner": "../models/aligner",
+        "diarizer": "../models/pyannote",
+        "device": "cuda:0"
+      },
+      "source_run": "ready-six",
+      "source_scores_sha256": "b1dc409138b29a62d63cf4fc6e07c9d7fc452fb4615c8fc63078ee94a69e8461",
+      "source_manifest_sha256": "aa401b682a43f0b2b22f76681721c9c6c8cba4cc33c52c9c1375f740680ace81",
+      "model_provenance": {
+        "model": {
+          "snapshot_directory": "41f01f3fe87f28c78e2fbf8b568835947dd65ed9",
+          "config_sha256": {
+            "added_tokens.json": "3c51f66c4c21f9e126970078f11ae77a78c74aee8df606ee9daba86e467108e0",
+            "config.json": "c5b526b3e3cd64cd8940dabb45e8ba726629e22d8ed389c29b552f9140daf04a",
+            "generation_config.json": "cce11bfe3aaa6ae9e072ea2637caaec8795e68d9b67e655a5af16ee509681a4c",
+            "normalizer.json": "bf1c507dc8724ca9cf9903640dacfb69dae2f00edee4f21ceba106a7392f26dd",
+            "preprocessor_config.json": "7ccc62c6f2765af1f3b46c00c9b5894426835a05021c8b9c01eecb6dfb542711",
+            "special_tokens_map.json": "baea4ea09372eb4fca86b4e4346139fd73cb807d5087e9de0948e971739c3e74",
+            "tokenizer.json": "297b13372ac43916285644fb9687add3cc62ee2a1adb60da3dc25cc94c1871fd",
+            "tokenizer_config.json": "844b642c73a91359722f47b35705f7174686df33d252695d8572cf9ac03a6389",
+            "vocab.json": "e2aa043ef015641d363d8288e7c241c85e36a5c761fb303598e0710233344387"
+          },
+          "weight_files": [
+            {
+              "name": "model.safetensors",
+              "bytes": 1617824864
+            }
+          ]
+        },
+        "aligner": {
+          "snapshot_directory": "c7cbfc2048c462b0d63a45797104fc9db3ad62b7",
+          "config_sha256": {
+            "chat_template.json": "75a8cfca24f00de72d796fbfed6858fc9614ef3dabd8696684cc3bc03a9c58ff",
+            "config.json": "d616c65d46c4b90bdc651b0a0963ea932732241140f337f9bb6b0335a9c8ef09",
+            "generation_config.json": "948d089b23bca1d214e768d59c4438365665f52ec6d33678f4062206b3fbbb8c",
+            "preprocessor_config.json": "45e120a4eda2c20c5d7f2ea9354e63536bf35e27aa573fb7cdf78017b378770d",
+            "tokenizer_config.json": "3ab80063f8511deb9566e6ad438d17b7a6277fcffd52d92854112f19d36bd81c",
+            "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+          },
+          "weight_files": [
+            {
+              "name": "model.safetensors",
+              "bytes": 1835544544
+            }
+          ]
+        },
+        "diarizer": {
+          "snapshot_directory": "pyannote",
+          "config_sha256": {
+            "snapshot-revision.json": "68c24d4b4fc7dc59e71e27c660433b2f1fa89538be42ee257ee9bc81512cb9a4"
+          },
+          "weight_files": []
+        }
+      }
+    },
+    {
+      "model": "qwen_small_pyannote",
+      "adapter": "qwen_pyannote",
+      "options": {
+        "model": "../models/qwen_small",
+        "aligner": "../models/aligner",
+        "diarizer": "../models/pyannote",
+        "device": "cuda:0",
+        "asr_chunk_seconds": 30
+      },
+      "source_run": "ready-six",
+      "source_scores_sha256": "d70d9cceaf5793e57f930b0b85967449a5b86e341e0a9d64edf6eb588d3e3227",
+      "source_manifest_sha256": "aa401b682a43f0b2b22f76681721c9c6c8cba4cc33c52c9c1375f740680ace81",
+      "model_provenance": {
+        "model": {
+          "snapshot_directory": "5eb144179a02acc5e5ba31e748d22b0cf3e303b0",
+          "config_sha256": {
+            "chat_template.json": "75a8cfca24f00de72d796fbfed6858fc9614ef3dabd8696684cc3bc03a9c58ff",
+            "config.json": "76d3ae4601ce939830b2517f4a6cadb86cc51316c3900af6b020b051c21a478c",
+            "generation_config.json": "1da527824d81e07118facff437e03f2e24a23311e3bdeb2368973fe77e5f275c",
+            "preprocessor_config.json": "45e120a4eda2c20c5d7f2ea9354e63536bf35e27aa573fb7cdf78017b378770d",
+            "tokenizer_config.json": "4942d005604266809309cabc9f4e9cb89ce855d59b14681fdc0e1cc62ea26c4c",
+            "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+          },
+          "weight_files": [
+            {
+              "name": "model.safetensors",
+              "bytes": 1876091704
+            }
+          ]
+        },
+        "aligner": {
+          "snapshot_directory": "c7cbfc2048c462b0d63a45797104fc9db3ad62b7",
+          "config_sha256": {
+            "chat_template.json": "75a8cfca24f00de72d796fbfed6858fc9614ef3dabd8696684cc3bc03a9c58ff",
+            "config.json": "d616c65d46c4b90bdc651b0a0963ea932732241140f337f9bb6b0335a9c8ef09",
+            "generation_config.json": "948d089b23bca1d214e768d59c4438365665f52ec6d33678f4062206b3fbbb8c",
+            "preprocessor_config.json": "45e120a4eda2c20c5d7f2ea9354e63536bf35e27aa573fb7cdf78017b378770d",
+            "tokenizer_config.json": "3ab80063f8511deb9566e6ad438d17b7a6277fcffd52d92854112f19d36bd81c",
+            "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+          },
+          "weight_files": [
+            {
+              "name": "model.safetensors",
+              "bytes": 1835544544
+            }
+          ]
+        },
+        "diarizer": {
+          "snapshot_directory": "pyannote",
+          "config_sha256": {
+            "snapshot-revision.json": "68c24d4b4fc7dc59e71e27c660433b2f1fa89538be42ee257ee9bc81512cb9a4"
+          },
+          "weight_files": []
+        }
+      }
+    },
+    {
+      "model": "voxtral_mini_pyannote",
+      "adapter": "voxtral_pyannote",
+      "options": {
+        "model": "../models/voxtral_mini",
+        "aligner": "../models/aligner",
+        "diarizer": "../models/pyannote",
+        "device": "cuda:0",
+        "upstream_model": "mistralai/Voxtral-Mini-3B-2507"
+      },
+      "source_run": "ready-six",
+      "source_scores_sha256": "545caebdf436a3ba8912608d2d1a173445e9ade43baf40bc3b95aceb98c3ceb6",
+      "source_manifest_sha256": "aa401b682a43f0b2b22f76681721c9c6c8cba4cc33c52c9c1375f740680ace81",
+      "model_provenance": {
+        "model": {
+          "snapshot_directory": "3060fe34b35ba5d44202ce9ff3c097642914f8f3",
+          "config_sha256": {
+            "config.json": "368124c9a9171b3a6c0cdb35cd7fedeff465eefecf315e2a621684bbed7dcd7e",
+            "generation_config.json": "cebeed3d4a1680c9b311863385d32b91008480dfbf8cf7abc2142447b8f73b76",
+            "model.safetensors.index.json": "7506794dd65e4324685f9634b3d83f20d36a723543650c1e6b72d81965289930",
+            "params.json": "4a37e19f2524a44bebf36a3da37a55dde31b8df9eab9b35d359b9a315c74e991",
+            "preprocessor_config.json": "86d67d926e17d3a9bb0bae334c9fc46bc163181992357a0357c0aec2c7e131d1",
+            "tekken.json": "4aaf3836c2a5332f029ce85a7a62255c966f47b6797ef81dedd0ade9c862e4a8"
+          },
+          "weight_files": [
+            {
+              "name": "model-00001-of-00002.safetensors",
+              "bytes": 4977385976
+            },
+            {
+              "name": "model-00002-of-00002.safetensors",
+              "bytes": 4379088336
+            }
+          ]
+        },
+        "aligner": {
+          "snapshot_directory": "c7cbfc2048c462b0d63a45797104fc9db3ad62b7",
+          "config_sha256": {
+            "chat_template.json": "75a8cfca24f00de72d796fbfed6858fc9614ef3dabd8696684cc3bc03a9c58ff",
+            "config.json": "d616c65d46c4b90bdc651b0a0963ea932732241140f337f9bb6b0335a9c8ef09",
+            "generation_config.json": "948d089b23bca1d214e768d59c4438365665f52ec6d33678f4062206b3fbbb8c",
+            "preprocessor_config.json": "45e120a4eda2c20c5d7f2ea9354e63536bf35e27aa573fb7cdf78017b378770d",
+            "tokenizer_config.json": "3ab80063f8511deb9566e6ad438d17b7a6277fcffd52d92854112f19d36bd81c",
+            "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+          },
+          "weight_files": [
+            {
+              "name": "model.safetensors",
+              "bytes": 1835544544
+            }
+          ]
+        },
+        "diarizer": {
+          "snapshot_directory": "pyannote",
+          "config_sha256": {
+            "snapshot-revision.json": "68c24d4b4fc7dc59e71e27c660433b2f1fa89538be42ee257ee9bc81512cb9a4"
+          },
+          "weight_files": []
+        }
+      }
+    },
+    {
+      "model": "voxtral_small_nf4_pyannote",
+      "adapter": "voxtral_pyannote",
+      "options": {
+        "model": "../models/voxtral_small",
+        "aligner": "../models/aligner",
+        "diarizer": "../models/pyannote",
+        "device": "cuda:0",
+        "upstream_model": "mistralai/Voxtral-Small-24B-2507",
+        "quantization": "nf4"
+      },
+      "source_run": "voxtral-small",
+      "source_scores_sha256": "da9b93ce70e398539e9dd1e0673ff2751939fcdcc33ad7091126bc04cc012ddd",
+      "source_manifest_sha256": "aa401b682a43f0b2b22f76681721c9c6c8cba4cc33c52c9c1375f740680ace81",
+      "model_provenance": {
+        "model": {
+          "snapshot_directory": "da5b42409f279fdd92febee0511a6c32828569c1",
+          "config_sha256": {
+            "config.json": "fcef38958b7d3063034518a14613a60511547e939f8f58fa107dad595483737c",
+            "generation_config.json": "cebeed3d4a1680c9b311863385d32b91008480dfbf8cf7abc2142447b8f73b76",
+            "model.safetensors.index.json": "fbea94e3cac2d9bea19af660c463aff0223cf345bc0fcf8061b17e8f4f7b7e9a",
+            "params.json": "f273e5826fb17fa3c2aa939211c2bb2997caa40d0084c337e11adb2541629a95",
+            "preprocessor_config.json": "86d67d926e17d3a9bb0bae334c9fc46bc163181992357a0357c0aec2c7e131d1",
+            "tekken.json": "4aaf3836c2a5332f029ce85a7a62255c966f47b6797ef81dedd0ade9c862e4a8"
+          },
+          "weight_files": [
+            {
+              "name": "model-00001-of-00011.safetensors",
+              "bytes": 4947893992
+            },
+            {
+              "name": "model-00002-of-00011.safetensors",
+              "bytes": 4781593336
+            },
+            {
+              "name": "model-00003-of-00011.safetensors",
+              "bytes": 4781593344
+            },
+            {
+              "name": "model-00004-of-00011.safetensors",
+              "bytes": 4886472248
+            },
+            {
+              "name": "model-00005-of-00011.safetensors",
+              "bytes": 4781593376
+            },
+            {
+              "name": "model-00006-of-00011.safetensors",
+              "bytes": 4781593368
+            },
+            {
+              "name": "model-00007-of-00011.safetensors",
+              "bytes": 4886472248
+            },
+            {
+              "name": "model-00008-of-00011.safetensors",
+              "bytes": 4781593376
+            },
+            {
+              "name": "model-00009-of-00011.safetensors",
+              "bytes": 4781593368
+            },
+            {
+              "name": "model-00010-of-00011.safetensors",
+              "bytes": 3670112232
+            },
+            {
+              "name": "model-00011-of-00011.safetensors",
+              "bytes": 1447035256
+            }
+          ]
+        },
+        "aligner": {
+          "snapshot_directory": "c7cbfc2048c462b0d63a45797104fc9db3ad62b7",
+          "config_sha256": {
+            "chat_template.json": "75a8cfca24f00de72d796fbfed6858fc9614ef3dabd8696684cc3bc03a9c58ff",
+            "config.json": "d616c65d46c4b90bdc651b0a0963ea932732241140f337f9bb6b0335a9c8ef09",
+            "generation_config.json": "948d089b23bca1d214e768d59c4438365665f52ec6d33678f4062206b3fbbb8c",
+            "preprocessor_config.json": "45e120a4eda2c20c5d7f2ea9354e63536bf35e27aa573fb7cdf78017b378770d",
+            "tokenizer_config.json": "3ab80063f8511deb9566e6ad438d17b7a6277fcffd52d92854112f19d36bd81c",
+            "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+          },
+          "weight_files": [
+            {
+              "name": "model.safetensors",
+              "bytes": 1835544544
+            }
+          ]
+        },
+        "diarizer": {
+          "snapshot_directory": "pyannote",
+          "config_sha256": {
+            "snapshot-revision.json": "68c24d4b4fc7dc59e71e27c660433b2f1fa89538be42ee257ee9bc81512cb9a4"
+          },
+          "weight_files": []
+        }
+      }
+    }
+  ],
+  "protocol": {
+    "tcp_collar": 5.0,
+    "der_collar": 0.0,
+    "worker_timeout_seconds": 14400
+  },
+  "configuration": "configs/local-openweights.json",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "identical_api_audio_hashes_and_references": true,
+  "selection": "One transcription per successful clip; failed setup attempts retained separately.",
+  "timing": "Includes alignment recovery work where required; model loading excluded.",
+  "reused_qwen_1_7b": "results/ami-4090-94clips-2026-09-27/scores/qwen_pyannote.json"
+}

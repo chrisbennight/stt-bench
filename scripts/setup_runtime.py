@@ -6,7 +6,7 @@ import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-RUNTIMES = ("moss", "vibevoice", "qwen_pyannote", "qwen_nemotron")
+RUNTIMES = ("moss", "vibevoice", "qwen_pyannote", "qwen_nemotron", "local_asr", "local_nemo")
 
 
 def main():
@@ -27,6 +27,15 @@ def main():
             f"VibeVoice@{revisions['microsoft/VibeVoice']}"
         ],
         "qwen_pyannote": ["qwen-asr==0.0.6", "pyannote.audio==4.0.7"],
+        "local_asr": [
+            "qwen-asr==0.0.6", "pyannote.audio==4.0.7",
+            "mistral-common[audio]>=1.8,<2", "bitsandbytes>=0.48,<0.51",
+        ],
+        "local_nemo": [
+            "qwen-asr==0.0.6", "pyannote.audio==4.0.7",
+            "nemo-toolkit[asr] @ git+https://github.com/NVIDIA-NeMo/"
+            f"Speech@{revisions['NVIDIA-NeMo/Speech']}",
+        ],
         "qwen_nemotron": [
             "qwen-asr==0.0.6",
             "nemo-toolkit[asr] @ git+https://github.com/NVIDIA-NeMo/"

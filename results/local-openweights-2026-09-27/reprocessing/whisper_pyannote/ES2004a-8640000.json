@@ -1,0 +1,20 @@
+{
+  "id": "ES2004a-8640000",
+  "duration": 60.0,
+  "seed": 2401940555,
+  "status": "invalid_output",
+  "wall_seconds": 2.5208901120349765,
+  "rtf": 0.04201483520058294,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 6361714176,
+      "reserved_bytes": 9047113728
+    }
+  ],
+  "raw_output": " And, where's the prayer? Intrepid. Intrepid. There we go. That's going to be okay. Okay. That was fun. Right. Finance-wise, we've got a selling price at 25 euros. which I don't actually know what that is in pounds at all. Any ideas? \u00a31.40 would make a lot of pounds. Yeah, yeah, same amount. Yeah, that's \u00a317. Okay, that's expensive. Should we be making notes of this? We can just refer to the flow to come up with something. I think so. I think so. I'd be able to pull it up, or I could put it in the shared folders. Having said that, though, if you want to get one of those, the ones on the market at the moment.",
+  "metadata": {
+    "reason": "alignment_changed_transcript"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "protocol": {
+    "tcp_collar": 5.0,
+    "der_collar": 0.0,
+    "worker_timeout_seconds": 14400
+  },
+  "models": [
+    {
+      "id": "parakeet_pyannote",
+      "adapter": "nemo_pyannote",
+      "python": "../.venv-local_nemo/bin/python",
+      "options": {
+        "model": "../models/parakeet/parakeet-tdt-0.6b-v3.nemo",
+        "aligner": "../models/aligner",
+        "diarizer": "../models/pyannote",
+        "device": "cuda:0"
+      }
+    },
+    {
+      "id": "nemotron_asr_pyannote",
+      "adapter": "nemo_pyannote",
+      "python": "../.venv-local_nemo/bin/python",
+      "options": {
+        "model": "../models/nemotron_asr/nemotron-3.5-asr-streaming-0.6b.nemo",
+        "aligner": "../models/aligner",
+        "diarizer": "../models/pyannote",
+        "device": "cuda:0",
+        "target_lang": "en-US"
+      }
+    },
+    {
+      "id": "whisper_pyannote",
+      "adapter": "whisper_pyannote",
+      "python": "../.venv-local_asr/bin/python",
+      "options": {
+        "model": "../models/whisper",
+        "aligner": "../models/aligner",
+        "diarizer": "../models/pyannote",
+        "device": "cuda:0"
+      }
+    },
+    {
+      "id": "whisper_turbo_pyannote",
+      "adapter": "whisper_pyannote",
+      "python": "../.venv-local_asr/bin/python",
+      "options": {
+        "model": "../models/whisper_turbo",
+        "aligner": "../models/aligner",
+        "diarizer": "../models/pyannote",
+        "device": "cuda:0"
+      }
+    },
+    {
+      "id": "qwen_small_pyannote",
+      "adapter": "qwen_pyannote",
+      "python": "../.venv-qwen_pyannote/bin/python",
+      "options": {
+        "model": "../models/qwen_small",
+        "aligner": "../models/aligner",
+        "diarizer": "../models/pyannote",
+        "device": "cuda:0",
+        "asr_chunk_seconds": 30
+      }
+    },
+    {
+      "id": "voxtral_mini_pyannote",
+      "adapter": "voxtral_pyannote",
+      "python": "../.venv-local_asr/bin/python",
+      "options": {
+        "model": "../models/voxtral_mini",
+        "aligner": "../models/aligner",
+        "diarizer": "../models/pyannote",
+        "device": "cuda:0",
+        "upstream_model": "mistralai/Voxtral-Mini-3B-2507"
+      }
+    },
+    {
+      "id": "voxtral_small_nf4_pyannote",
+      "adapter": "voxtral_pyannote",
+      "python": "../.venv-local_asr/bin/python",
+      "options": {
+        "model": "../models/voxtral_small",
+        "aligner": "../models/aligner",
+        "diarizer": "../models/pyannote",
+        "device": "cuda:0",
+        "upstream_model": "mistralai/Voxtral-Small-24B-2507",
+        "quantization": "nf4"
+      }
+    }
+  ]
+}

@@ -35,6 +35,9 @@ OPTION_KEYS = {
     "max_new_tokens_per_chunk",
     "asr_chunk_seconds",
     "realtime",
+    "quantization",
+    "upstream_model",
+    "target_lang",
 }
 
 
@@ -63,8 +66,17 @@ def plan(config_path, manifest_path):
             ) > options["max_audio_seconds_total"] + 1e-6:
                 raise ValueError("Manifest exceeds the configured OpenRouter allowance")
         required = (
-            {"model", "aligner", "diarizer"} if model["adapter"].startswith("qwen_") else {"model"}
+            {"model", "aligner", "diarizer"}
+            if model["adapter"].startswith("qwen_") or model["adapter"] in {
+                "whisper_pyannote", "voxtral_pyannote", "nemo_pyannote",
+            } else {"model"}
         )
+        if model["adapter"] == "voxtral_pyannote":
+            required.add("upstream_model")
+        if "quantization" in options and (
+            model["adapter"] != "voxtral_pyannote" or options["quantization"] != "nf4"
+        ):
+            raise ValueError("Only Voxtral NF4 quantization is supported")
         if model["adapter"] in BUILTINS and not required <= set(options):
             raise ValueError(f"{identifier}: required model paths are missing")
         for key in ("max_new_tokens", "max_new_tokens_per_chunk"):

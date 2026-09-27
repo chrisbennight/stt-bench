@@ -14,6 +14,13 @@ ALIASES = {
     "aligner": "Qwen/Qwen3-ForcedAligner-0.6B",
     "pyannote": "pyannote/speaker-diarization-community-1",
     "nemotron": "nvidia/Nemotron-3-Diarization",
+    "qwen_small": "Qwen/Qwen3-ASR-0.6B",
+    "parakeet": "nvidia/parakeet-tdt-0.6b-v3",
+    "nemotron_asr": "nvidia/nemotron-3.5-asr-streaming-0.6b",
+    "whisper": "openai/whisper-large-v3",
+    "whisper_turbo": "openai/whisper-large-v3-turbo",
+    "voxtral_mini": "mistralai/Voxtral-Mini-3B-2507",
+    "voxtral_small": "mistralai/Voxtral-Small-24B-2507",
 }
 
 
@@ -28,7 +35,18 @@ def main():
     destination.mkdir(exist_ok=True)
     for alias in args.models:
         repo = ALIASES[alias]
-        extra = {"allow_patterns": revisions[repo]["nemo_files"]} if alias == "nemotron" else {}
+        extra = (
+            {"allow_patterns": revisions[repo]["nemo_files"]}
+            if "nemo_files" in revisions[repo] else {}
+        )
+        if alias in {"qwen_small", "whisper", "whisper_turbo", "voxtral_mini", "voxtral_small"}:
+            extra = {
+                "allow_patterns": [
+                    "*.json", "*.txt", "*.model", "*.tiktoken", "*.jinja",
+                    "model.safetensors", "model-*.safetensors",
+                ],
+                "ignore_patterns": ["*fp32*"],
+            }
         if alias == "vibevoice_tokenizer":
             extra = {"allow_patterns": ["tokenizer*", "vocab.json", "merges.txt", "config.json"]}
         snapshot = Path(snapshot_download(repo, revision=revisions[repo]["revision"], **extra))

@@ -1,0 +1,20 @@
+{
+  "id": "IS1009a-7680000",
+  "duration": 60.0,
+  "seed": 2889051209,
+  "status": "invalid_output",
+  "wall_seconds": 2.5450349199818447,
+  "rtf": 0.04241724866636408,
+  "cuda_peak": [
+    {
+      "device": 0,
+      "name": "NVIDIA GeForce RTX 4090",
+      "allocated_bytes": 6345054208,
+      "reserved_bytes": 9047113728
+    }
+  ],
+  "raw_output": " controlling the temperature inside the house, or for air conditioners, or for heating system. So it should be a multifunctional gadget that would control all your household machines, basically. Exactly. What, \u20ac12.50 per? Well? Well, who knows? If we get a really good designer, maybe we can do that. We certainly can try to. I agree with her that to market something successfully it should do some more things it should do something different than just what we have now of course the other thing to think there is maybe the design design should be different like trendy maybe it should be something trendy maybe different colors or materials or you know so yeah shapes right like kidney shaped feels better in your hand or something Yeah, okay. Friendly shape.",
+  "metadata": {
+    "reason": "alignment_changed_transcript"
+  }
+}
