@@ -1,29 +1,30 @@
-# Speech transcription with speakers: a five-system benchmark
+# Speech transcription benchmark: local models and OpenRouter
 
-**MOSS produced the most accurate speaker-attributed transcripts in this test.** Qwen3 with
-pyannote had the lowest diarization timing error, and Qwen3 with NVIDIA Nemotron was the
-fastest offline pipeline. VibeVoice Streaming ran in real time but made more transcription
-and speaker-attribution errors on these recordings.
+**One consolidated comparison using the same 94 audio clips and references.** The
+[results table](results/openrouter-2026-09-27/README.md) compares transcription accuracy,
+speaker attribution, diarization, speed, cost, and GPU memory, with per-metric medals.
 
-This repository compares five downloadable speech systems on the **same 92.28 minutes of
-English meeting audio**, using one **RTX 4090**. It includes the small Python harness,
+This repository compares five downloadable speech systems and 24 OpenRouter model IDs on
+**92.28 minutes of English meeting audio**. Local models use one **RTX 4090**. It includes
+the small Python harness,
 model adapters, recorded package versions, pinned model revisions, predictions, references,
 and independently verified scores. The measurements were completed on **27 September 2026**.
 
 The question is practical: **which system gets the words and speakers right, how fast does
-it run, and how much GPU memory does it use?** This is a controlled, small meeting-audio
-comparison—not an OpenASR leaderboard reproduction or a universal model ranking.
+it run, and how much GPU memory does it use?** This small meeting-audio evaluation is
+not an OpenASR leaderboard reproduction or a universal model ranking.
 
 **OpenRouter extension:** the harness also supports hosted models through OpenRouter's
 speech-to-text API. The [implementation and cost estimate](docs/OPENROUTER.md) cover all
 24 transcription model IDs discovered on 27 September 2026. A four-minute screening pass
 is estimated at **$0.34 total**; the same audio duration as the full local benchmark is
-estimated at **$7.85 total**, using shorter API-compatible windows. These are prospective
+estimated at **$7.85 total**, using the shared 60-second windows. These are prospective
 costs, not measured model results. The
 [consolidated results table](results/openrouter-2026-09-27/README.md) now includes all
 24 hosted models and five local systems, sorted by WER with top-three metric badges.
-Window differences, speaker-metric coverage, and the four incomplete DeepInfra runs
-are identified in footnotes.
+The five local systems were each run once on the exact API manifest. Speaker-metric
+coverage is in the column headings; incomplete runs and Chirp's one split-request
+recovery are identified in the Clips column.
 
 ## What is being compared?
 
@@ -42,8 +43,8 @@ within a clip. They do not identify a person by name.
 
 Some models can also describe sound events. **Annotation/event accuracy is not evaluated**
 here; bracketed VibeVoice sound annotations are retained in raw output but excluded from
-speech-word scoring. All five systems use local inference; no paid transcription service is
-part of the measurement. Check each provider's model license and access terms separately.
+speech-word scoring. These five systems use local inference; the additional 24 model IDs
+use OpenRouter. Check each provider's model license and access terms separately.
 
 The scoring libraries are [MeetEval](https://github.com/fgnt/meeteval) and
 [pyannote.metrics](https://pyannote.github.io/pyannote-metrics/). Model cards describe upstream
@@ -60,12 +61,12 @@ We use the [AMI Meeting Corpus](https://groups.inf.ed.ac.uk/ami/corpus/), with o
 | --- | --- |
 | Meetings | ES2004a, IS1009a, TS3003a, EN2002a: four AMI test meeting groups |
 | Input | Array1-01 distant microphone, mono 16 kHz English audio; overlapping speech included |
-| Windows | 25 nonoverlapping clips, each at most 240 seconds; 5,536.704 seconds total |
-| Hardware | One NVIDIA RTX 4090, 24 GB; one model process at a time |
-| Precision | BF16, no quantization; no oracle speaker counts or reference text supplied to models |
-| Timing | Model loading excluded; no warmup; first inference includes cold effects |
-| Randomness | One trial; per-window seed derived from the recording ID, identical policy for all systems |
-| Streaming | Audio paced in real time, including lookahead; speaker state resets per window |
+| Windows | 94 nonoverlapping clips, each at most 60 seconds; 5,536.704 seconds total |
+| Hardware | Local: one NVIDIA RTX 4090, 24 GB, one model at a time; hosted: provider-controlled |
+| Precision | Local: BF16, no quantization; hosted: provider-defined; no oracle speakers or reference text |
+| Timing | Local: loading excluded, no warmup; API: request wall time, including network/provider time |
+| Randomness | One local trial with per-window seeds from recording IDs; API generation seeds are not controlled |
+| Streaming | The same supplied audio, processed without artificial waits; state resets per window |
 
 Text normalization preserves fillers, repetitions, and number spellings. No LLM cleans up
 the references or hypotheses. Errors are summed before division; the results are not an
@@ -79,49 +80,28 @@ allowing anonymous labels to be renamed. DER measures who spoke when: missed spe
 alarms, and speaker confusion. It uses **zero collar and includes overlap** here. These are
 different objectives, so their rankings need not agree.
 
-| System | cpWER | DER | Total inference time | Peak CUDA allocation | Valid outputs |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| **MOSS 0.9B** | **29.39%** | 26.50% | 7.06 min | **2.41 GiB** | 25/25 |
-| VibeVoice offline | 40.57% | 37.94% | 23.74 min | 19.76 GiB | 24/25 |
-| Qwen3 + pyannote | 44.38% | **24.68%** | 3.06 min | 7.11 GiB | 25/25 |
-| Qwen3 + Nemotron | 40.78% | 31.16% | **2.52 min** | 6.13 GiB | 25/25 |
-| VibeVoice Streaming | 54.33% | — | 92.43 min, paced | 16.51 GiB | 25/25 |
-
-Runtime includes failed generations. CUDA allocation is the PyTorch peak, not all device
-memory. Streaming wall time deliberately includes waiting for audio; its model-compute total
-was **10.55 minutes**. Its **p95 chunk-end-to-emission delay was 1.28 seconds** and mean first
-speech-text emission was **6.20 seconds**, including initial silence. These are chunk-level
-measurements, not word-aligned latency. Native DER, tcpWER, and coverage are unavailable for
-that adapter because its output has no speech timestamps.
-
-### Per-meeting cpWER
-
-| Meeting | MOSS | VibeVoice offline | Qwen/pyannote | Qwen/Nemotron | VibeVoice Streaming |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| EN2002a | **29.97%** | 45.14% | 49.40% | 44.46% | 51.86% |
-| ES2004a | **34.60%** | 38.90% | 39.13% | 36.64% | 55.07% |
-| IS1009a | **22.60%** | 27.75% | 36.27% | 33.55% | 61.10% |
-| TS3003a | **27.62%** | 38.75% | 41.24% | 39.78% | 55.60% |
-
-[Full results](docs/RESULTS.md) include WER, timing-constrained cpWER, coverage, failure details,
-and a sensitivity check on the 24 windows where every system returned valid output.
+The [single results table](results/openrouter-2026-09-27/README.md) contains all 29 systems,
+sorted by WER. WER and coverage use 94 clips. Speaker metrics use the same 89 clips where
+both tested diarizing API routes supplied speaker labels, including for the local systems.
+The [full JSON](results/openrouter-2026-09-27/consolidated.json) also retains each system's
+full-dataset metrics. Streaming has no native speech timestamps, so its DER and tcpWER
+remain unavailable. The historical 25-window local run is retained in
+[the archive](docs/RESULTS.md) and is excluded from the current comparison.
 
 ## Findings and limitations
 
-- **MOSS is the best starting point for this workload.** It has the lowest cpWER on all four
-  meetings, uses the least GPU memory, and processes the audio about 13 times faster than real time.
-- **Pyannote wins the timing-based diarization measure, not the complete transcription pipeline.**
-  Both Qwen pipelines produce identical raw ASR text; their speaker attribution differs.
-  Nemotron is the fastest offline combination here, at about 36.6 times real time.
-- **Offline VibeVoice had a real generation failure.** One window repeated text to the
-  32,768-token cap and produced invalid JSON. It is scored as an empty hypothesis, its raw output
-  is retained, and its runtime is included. Removing that same window from every system does
-  not change MOSS's lead. VibeVoice's and Qwen/Nemotron's aggregate cpWER values are close;
-  this trial does not establish a meaningful difference between them.
-- **Streaming trades accuracy for incremental output in this configuration.** It completed
-  all clips, but had the highest cpWER. A split sound annotation exposed a parser bug; the
-  published correction reparses saved text without rerunning inference or changing timing.
-  [The original records and the correction audit are both included](results/ami-4090-2026-09-27/README.md).
+- MAI Transcribe 2 had the lowest WER (26.10%), followed by MAI Transcribe 1.5
+  (26.54%) and MOSS (30.92%). MOSS led the speaker error metrics on the shared
+  89-clip subset: cpWER 27.76%, tcpWER 28.66%, and DER 25.31%.
+- All five local systems returned valid output on all 94 clips in one pass each.
+- Transcription accuracy, speaker attribution, and diarization timing are distinct measures;
+  their winners need not agree. Missing metric cells mean the tested output could not support
+  that score, rather than proving that every upstream route lacks the capability.
+- Four DeepInfra routes stopped early. Their missing transcripts count as deletions, and
+  they receive no medals. Chirp completed after one clip was processed in two halves;
+  its recovery is retained explicitly in the published records.
+- Local runs are sequential on one GPU. API timing includes network and provider processing;
+  the displayed speed is observed throughput, not a hardware-normalized model comparison.
 
 These are four correlated English meeting groups and one seeded trial. AMI may appear in
 model training or development. This does not measure multilingual accuracy, long-session
@@ -137,18 +117,17 @@ The checked-in results require **no GPU, model download, token, or audio downloa
 ```bash
 uv sync --locked --python 3.12
 uv run pytest -q
-uv run python scripts/verify_scores.py results/ami-4090-2026-09-27/corrected --output verification.json
+uv run python scripts/consolidate_results.py --verify
 ```
 
-The verifier recomputes all 125 scores from saved predictions and references and checks that
-scored outputs match the prediction files. The published original and corrected runs each
-have zero score mismatches. [Running the models](docs/RUNNING.md) covers environments, access
+The verifier recomputes all 2,726 scores from saved predictions and references and checks
+that the local and API clip hashes and references match. [Running the models](docs/RUNNING.md)
+covers environments, access
 terms, downloads, the exact four-meeting recipe, and the simple adapter interface.
 
-- [Result files and provenance guide](results/ami-4090-2026-09-27/README.md)
-- [CSV summary](results/ami-4090-2026-09-27/comparison/summary.csv),
-  [per-meeting CSV](results/ami-4090-2026-09-27/comparison/meetings.csv), and
-  [complete JSON comparison](results/ami-4090-2026-09-27/comparison/comparison.json)
+- [CSV summary](results/openrouter-2026-09-27/consolidated.csv) and
+  [complete JSON comparison](results/openrouter-2026-09-27/consolidated.json)
+- [Original 25-window archive](results/ami-4090-2026-09-27/README.md)
 - [Pinned model revisions](model-revisions.json) and [upstream source revisions](upstream-revisions.json)
 - [Security and publication scope](SECURITY.md)
 

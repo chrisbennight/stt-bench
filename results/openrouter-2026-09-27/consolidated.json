@@ -26,8 +26,14 @@
       "track": "api",
       "eligible": true,
       "rtf": 0.10227340322046638,
+      "full_dataset_metrics": {
+        "wer": 0.26096919862505896,
+        "cpwer": null,
+        "tcpwer": null,
+        "der": null
+      },
       "speaker_metric_clips": 89,
-      "label": "MAI Transcribe 2\u2021",
+      "label": "MAI Transcribe 2",
       "vram_gib": null
     },
     {
@@ -56,37 +62,48 @@
       "track": "api",
       "eligible": true,
       "rtf": 0.10596289435826323,
+      "full_dataset_metrics": {
+        "wer": 0.2654175372379861,
+        "cpwer": null,
+        "tcpwer": null,
+        "der": null
+      },
       "label": "MAI Transcribe 1.5",
       "vram_gib": null
     },
     {
       "model": "moss",
-      "recordings": 25,
-      "completed": 25,
+      "recordings": 94,
+      "completed": 94,
       "failed_or_unsupported": 0,
       "invalid_output": 0,
-      "wer": 0.30289142009840264,
-      "cpwer": 0.2939273438026555,
-      "tcpwer": 0.30619397452315156,
-      "der": 0.26502271544263634,
-      "speech_time_coverage": 0.8944472318217411,
-      "wall_seconds_completed": 423.56632661796175,
-      "rtf_completed": 0.07650152990262109,
-      "wall_seconds_attempted": 423.56632661796175,
-      "rtf_attempted": 0.07650152990262109,
-      "max_cuda_allocated_bytes": 2585700352,
-      "max_cuda_reserved_bytes": 2843738112,
+      "wer": 0.30915953359843634,
+      "cpwer": 0.2775636613902271,
+      "tcpwer": 0.28657949070887817,
+      "der": 0.253070582851607,
+      "speech_time_coverage": 0.888335060465247,
+      "wall_seconds_completed": 401.6938328562537,
+      "rtf_completed": 0.0725510760293947,
+      "wall_seconds_attempted": 401.6938328562537,
+      "rtf_attempted": 0.0725510760293947,
+      "max_cuda_allocated_bytes": 2066811392,
+      "max_cuda_reserved_bytes": 2178940928,
       "timing_sources": "native",
       "generation_limit_hits": 0,
       "mean_first_text_seconds": null,
       "p95_chunk_emission_lag_seconds": null,
-      "sampled_process_tree_peak_rss_bytes": 2793537536,
-      "source_run": "results/ami-4090-2026-09-27/corrected",
       "track": "local",
       "eligible": true,
-      "rtf": 0.07650152990262109,
-      "label": "MOSS 0.9B*",
-      "vram_gib": 2.408121109008789
+      "rtf": 0.0725510760293947,
+      "full_dataset_metrics": {
+        "wer": 0.30915953359843634,
+        "cpwer": 0.28031273168430276,
+        "tcpwer": 0.28934420704994274,
+        "der": 0.25725349885248977
+      },
+      "speaker_metric_clips": 89,
+      "label": "MOSS 0.9B",
+      "vram_gib": 1.924868106842041
     },
     {
       "model": "nvidia--parakeet-tdt-0.6b-v3",
@@ -114,6 +131,12 @@
       "track": "api",
       "eligible": true,
       "rtf": 0.09106682443785438,
+      "full_dataset_metrics": {
+        "wer": 0.32782907595875177,
+        "cpwer": null,
+        "tcpwer": null,
+        "der": null
+      },
       "label": "NVIDIA Parakeet TDT v3",
       "vram_gib": null
     },
@@ -143,6 +166,12 @@
       "track": "api",
       "eligible": true,
       "rtf": 0.09755095993338332,
+      "full_dataset_metrics": {
+        "wer": 0.33059243782435804,
+        "cpwer": null,
+        "tcpwer": null,
+        "der": null
+      },
       "label": "AssemblyAI Universal 3.5 Pro",
       "vram_gib": null
     },
@@ -172,65 +201,81 @@
       "track": "api",
       "eligible": true,
       "rtf": 0.10100497463253333,
+      "full_dataset_metrics": {
+        "wer": 0.33335579968996426,
+        "cpwer": null,
+        "tcpwer": null,
+        "der": null
+      },
       "label": "Qwen3 ASR Flash",
       "vram_gib": null
     },
     {
       "model": "qwen_pyannote",
-      "recordings": 25,
-      "completed": 25,
+      "recordings": 94,
+      "completed": 94,
       "failed_or_unsupported": 0,
       "invalid_output": 0,
-      "wer": 0.34036530295881917,
-      "cpwer": 0.4438228752443216,
-      "tcpwer": 0.4732088697175979,
-      "der": 0.24677990993814253,
-      "speech_time_coverage": 0.932935763294618,
-      "wall_seconds_completed": 183.54930018167943,
-      "rtf_completed": 0.03315136589958203,
-      "wall_seconds_attempted": 183.54930018167943,
-      "rtf_attempted": 0.03315136589958203,
+      "wer": 0.34171328435667586,
+      "cpwer": 0.4924294562973159,
+      "tcpwer": 0.5149346180316586,
+      "der": 0.2836858895338309,
+      "speech_time_coverage": 0.9299437490328849,
+      "wall_seconds_completed": 181.3077510005096,
+      "rtf_completed": 0.032746513268635924,
+      "wall_seconds_attempted": 181.3077510005096,
+      "rtf_attempted": 0.032746513268635924,
       "max_cuda_allocated_bytes": 7633226752,
       "max_cuda_reserved_bytes": 8470396928,
       "timing_sources": "forced_alignment",
       "generation_limit_hits": 0,
       "mean_first_text_seconds": null,
       "p95_chunk_emission_lag_seconds": null,
-      "sampled_process_tree_peak_rss_bytes": 5170974720,
-      "source_run": "results/ami-4090-2026-09-27/corrected",
       "track": "local",
       "eligible": true,
-      "rtf": 0.03315136589958203,
-      "label": "Qwen3 + pyannote*",
+      "rtf": 0.032746513268635924,
+      "full_dataset_metrics": {
+        "wer": 0.34171328435667586,
+        "cpwer": 0.4958549572015906,
+        "tcpwer": 0.5191076363146189,
+        "der": 0.2878705955922767
+      },
+      "speaker_metric_clips": 89,
+      "label": "Qwen3 + pyannote",
       "vram_gib": 7.108996391296387
     },
     {
       "model": "qwen_nemotron",
-      "recordings": 25,
-      "completed": 25,
+      "recordings": 94,
+      "completed": 94,
       "failed_or_unsupported": 0,
       "invalid_output": 0,
-      "wer": 0.34036530295881917,
-      "cpwer": 0.4077643728516546,
-      "tcpwer": 0.4238053514861495,
-      "der": 0.31157244229313397,
-      "speech_time_coverage": 0.78327229758561,
-      "wall_seconds_completed": 151.4623397870455,
-      "rtf_completed": 0.027356047891858675,
-      "wall_seconds_attempted": 151.4623397870455,
-      "rtf_attempted": 0.027356047891858675,
+      "wer": 0.34171328435667586,
+      "cpwer": 0.40812112869924294,
+      "tcpwer": 0.4227116311080523,
+      "der": 0.31357714541205417,
+      "speech_time_coverage": 0.779701589117662,
+      "wall_seconds_completed": 174.47160892677493,
+      "rtf_completed": 0.031511818028699914,
+      "wall_seconds_attempted": 174.47160892677493,
+      "rtf_attempted": 0.031511818028699914,
       "max_cuda_allocated_bytes": 6577740288,
-      "max_cuda_reserved_bytes": 7031750656,
+      "max_cuda_reserved_bytes": 7029653504,
       "timing_sources": "forced_alignment",
       "generation_limit_hits": 0,
       "mean_first_text_seconds": null,
       "p95_chunk_emission_lag_seconds": null,
-      "sampled_process_tree_peak_rss_bytes": 16184123392,
-      "source_run": "results/ami-4090-2026-09-27/corrected",
       "track": "local",
       "eligible": true,
-      "rtf": 0.027356047891858675,
-      "label": "Qwen3 + Nemotron*",
+      "rtf": 0.031511818028699914,
+      "full_dataset_metrics": {
+        "wer": 0.34171328435667586,
+        "cpwer": 0.4124823077441531,
+        "tcpwer": 0.42751230033025545,
+        "der": 0.31685303640924234
+      },
+      "speaker_metric_clips": 89,
+      "label": "Qwen3 + Nemotron",
       "vram_gib": 6.125998020172119
     },
     {
@@ -259,8 +304,48 @@
       "track": "api",
       "eligible": true,
       "rtf": 0.24291041532945956,
+      "full_dataset_metrics": {
+        "wer": 0.34292646761474693,
+        "cpwer": null,
+        "tcpwer": null,
+        "der": null
+      },
       "label": "Meta Muse Voice 1.0",
       "vram_gib": null
+    },
+    {
+      "model": "vibevoice",
+      "recordings": 94,
+      "completed": 94,
+      "failed_or_unsupported": 0,
+      "invalid_output": 0,
+      "wer": 0.3481835950663881,
+      "cpwer": 0.41397109428768064,
+      "tcpwer": 0.4261527873365451,
+      "der": 0.35956706781001957,
+      "speech_time_coverage": 0.9474100054861839,
+      "wall_seconds_completed": 774.7392195501598,
+      "rtf_completed": 0.13992787397523143,
+      "wall_seconds_attempted": 774.7392195501598,
+      "rtf_attempted": 0.13992787397523143,
+      "max_cuda_allocated_bytes": 18346546176,
+      "max_cuda_reserved_bytes": 18981322752,
+      "timing_sources": "native",
+      "generation_limit_hits": 0,
+      "mean_first_text_seconds": null,
+      "p95_chunk_emission_lag_seconds": null,
+      "track": "local",
+      "eligible": true,
+      "rtf": 0.13992787397523143,
+      "full_dataset_metrics": {
+        "wer": 0.3481835950663881,
+        "cpwer": 0.41915481566354384,
+        "tcpwer": 0.43115185010446855,
+        "der": 0.3624062998859638
+      },
+      "speaker_metric_clips": 89,
+      "label": "VibeVoice offline",
+      "vram_gib": 17.086552619934082
     },
     {
       "model": "google--gemini-3.5-transcribe",
@@ -288,6 +373,12 @@
       "track": "api",
       "eligible": true,
       "rtf": 0.10654022406193121,
+      "full_dataset_metrics": {
+        "wer": 0.35478870391588596,
+        "cpwer": null,
+        "tcpwer": null,
+        "der": null
+      },
       "label": "Gemini 3.5 Transcribe",
       "vram_gib": null
     },
@@ -317,37 +408,14 @@
       "track": "api",
       "eligible": true,
       "rtf": 0.08166264411316691,
+      "full_dataset_metrics": {
+        "wer": 0.3668531374267035,
+        "cpwer": null,
+        "tcpwer": null,
+        "der": null
+      },
       "label": "Voxtral Mini Transcribe",
       "vram_gib": null
-    },
-    {
-      "model": "vibevoice",
-      "recordings": 25,
-      "completed": 24,
-      "failed_or_unsupported": 1,
-      "invalid_output": 1,
-      "wer": 0.3732560490665229,
-      "cpwer": 0.4056750016849767,
-      "tcpwer": 0.41639145379793757,
-      "der": 0.37936680305142223,
-      "speech_time_coverage": 0.8948669014315658,
-      "wall_seconds_completed": 751.4781152170617,
-      "rtf_completed": 0.14187655478143799,
-      "wall_seconds_attempted": 1424.1417799731717,
-      "rtf_attempted": 0.25721833422432766,
-      "max_cuda_allocated_bytes": 21213673984,
-      "max_cuda_reserved_bytes": 22735224832,
-      "timing_sources": "native",
-      "generation_limit_hits": 1,
-      "mean_first_text_seconds": null,
-      "p95_chunk_emission_lag_seconds": null,
-      "sampled_process_tree_peak_rss_bytes": 3331756032,
-      "source_run": "results/ami-4090-2026-09-27/corrected",
-      "track": "local",
-      "eligible": true,
-      "rtf": 0.25721833422432766,
-      "label": "VibeVoice offline*\u00a7",
-      "vram_gib": 19.756773471832275
     },
     {
       "model": "openai--gpt-transcribe",
@@ -375,6 +443,12 @@
       "track": "api",
       "eligible": true,
       "rtf": 0.08429084127037946,
+      "full_dataset_metrics": {
+        "wer": 0.386331468625733,
+        "cpwer": null,
+        "tcpwer": null,
+        "der": null
+      },
       "label": "OpenAI GPT Transcribe",
       "vram_gib": null
     },
@@ -404,7 +478,13 @@
       "track": "api",
       "eligible": true,
       "rtf": 0.17475405409320158,
-      "label": "Google Chirp 3\u2020",
+      "full_dataset_metrics": {
+        "wer": 0.38680326211498284,
+        "cpwer": null,
+        "tcpwer": null,
+        "der": null
+      },
+      "label": "Google Chirp 3",
       "vram_gib": null
     },
     {
@@ -433,6 +513,12 @@
       "track": "api",
       "eligible": true,
       "rtf": 0.10521580355565625,
+      "full_dataset_metrics": {
+        "wer": 0.39637393003976545,
+        "cpwer": null,
+        "tcpwer": null,
+        "der": null
+      },
       "label": "Whisper 1",
       "vram_gib": null
     },
@@ -462,6 +548,12 @@
       "track": "api",
       "eligible": true,
       "rtf": 0.07956768275000184,
+      "full_dataset_metrics": {
+        "wer": 0.3988676956258004,
+        "cpwer": null,
+        "tcpwer": null,
+        "der": null
+      },
       "label": "GPT-4o Mini Transcribe",
       "vram_gib": null
     },
@@ -491,6 +583,12 @@
       "track": "api",
       "eligible": true,
       "rtf": 0.11378193086727448,
+      "full_dataset_metrics": {
+        "wer": 0.40190065377097794,
+        "cpwer": null,
+        "tcpwer": null,
+        "der": null
+      },
       "label": "Fish Transcribe 1",
       "vram_gib": null
     },
@@ -520,38 +618,49 @@
       "track": "api",
       "eligible": true,
       "rtf": 0.01744798537428441,
+      "full_dataset_metrics": {
+        "wer": 0.4060119970344409,
+        "cpwer": null,
+        "tcpwer": null,
+        "der": null
+      },
       "speaker_metric_clips": 89,
-      "label": "Deepgram Nova 3\u2021",
+      "label": "Deepgram Nova 3",
       "vram_gib": null
     },
     {
       "model": "vibevoice_streaming",
-      "recordings": 25,
-      "completed": 25,
+      "recordings": 94,
+      "completed": 94,
       "failed_or_unsupported": 0,
       "invalid_output": 0,
-      "wer": 0.4283210891689695,
-      "cpwer": 0.5433039024061468,
+      "wer": 0.43708296825503806,
+      "cpwer": 0.5192704748795596,
       "tcpwer": null,
       "der": null,
       "speech_time_coverage": null,
-      "wall_seconds_completed": 5545.517029198934,
-      "rtf_completed": 1.0015917464973627,
-      "wall_seconds_attempted": 5545.517029198934,
-      "rtf_attempted": 1.0015917464973627,
-      "max_cuda_allocated_bytes": 17731132416,
-      "max_cuda_reserved_bytes": 17943232512,
+      "wall_seconds_completed": 638.0899099293165,
+      "rtf_completed": 0.11524724997567443,
+      "wall_seconds_attempted": 638.0899099293165,
+      "rtf_attempted": 0.11524724997567443,
+      "max_cuda_allocated_bytes": 17565190144,
+      "max_cuda_reserved_bytes": 17735614464,
       "timing_sources": "unavailable",
       "generation_limit_hits": 0,
-      "mean_first_text_seconds": 6.197932542469353,
-      "p95_chunk_emission_lag_seconds": 1.2811469850433155,
-      "sampled_process_tree_peak_rss_bytes": 3255238656,
-      "source_run": "results/ami-4090-2026-09-27/corrected",
+      "mean_first_text_seconds": null,
+      "p95_chunk_emission_lag_seconds": null,
       "track": "local",
       "eligible": true,
-      "rtf": 1.0015917464973627,
-      "label": "VibeVoice Streaming*",
-      "vram_gib": 16.51340389251709
+      "rtf": 0.11524724997567443,
+      "full_dataset_metrics": {
+        "wer": 0.43708296825503806,
+        "cpwer": 0.5255105479544382,
+        "tcpwer": null,
+        "der": null
+      },
+      "speaker_metric_clips": 89,
+      "label": "VibeVoice Streaming",
+      "vram_gib": 16.358858108520508
     },
     {
       "model": "openai--whisper-large-v3",
@@ -579,6 +688,12 @@
       "track": "api",
       "eligible": true,
       "rtf": 0.13472162377748034,
+      "full_dataset_metrics": {
+        "wer": 0.4378243580238593,
+        "cpwer": null,
+        "tcpwer": null,
+        "der": null
+      },
       "label": "Whisper Large v3",
       "vram_gib": null
     },
@@ -608,6 +723,12 @@
       "track": "api",
       "eligible": true,
       "rtf": 0.11846672371090343,
+      "full_dataset_metrics": {
+        "wer": 0.4561569050347105,
+        "cpwer": null,
+        "tcpwer": null,
+        "der": null
+      },
       "label": "NVIDIA Nemotron 3.5 ASR 0.6B",
       "vram_gib": null
     },
@@ -637,6 +758,12 @@
       "track": "api",
       "eligible": true,
       "rtf": 0.12766023079202185,
+      "full_dataset_metrics": {
+        "wer": 0.4791399878681674,
+        "cpwer": null,
+        "tcpwer": null,
+        "der": null
+      },
       "label": "Whisper Large v3 Turbo",
       "vram_gib": null
     },
@@ -666,6 +793,12 @@
       "track": "api",
       "eligible": true,
       "rtf": 0.08104437727090615,
+      "full_dataset_metrics": {
+        "wer": 0.5616364494169981,
+        "cpwer": null,
+        "tcpwer": null,
+        "der": null
+      },
       "label": "Grok STT 1.0",
       "vram_gib": null
     },
@@ -695,6 +828,12 @@
       "track": "api",
       "eligible": true,
       "rtf": 0.08213951760433298,
+      "full_dataset_metrics": {
+        "wer": 0.5756554559547078,
+        "cpwer": null,
+        "tcpwer": null,
+        "der": null
+      },
       "label": "GPT-4o Transcribe",
       "vram_gib": null
     },
@@ -724,6 +863,12 @@
       "track": "api",
       "eligible": true,
       "rtf": 0.11964298256507094,
+      "full_dataset_metrics": {
+        "wer": 0.6981195659499899,
+        "cpwer": null,
+        "tcpwer": null,
+        "der": null
+      },
       "label": "Fish Transcribe 1 Pro",
       "vram_gib": null
     },
@@ -753,7 +898,13 @@
       "track": "api",
       "eligible": false,
       "rtf": 0.12753007860943696,
-      "label": "Qwen3 ASR 0.6B\u00b6",
+      "full_dataset_metrics": {
+        "wer": 0.7581721372245063,
+        "cpwer": null,
+        "tcpwer": null,
+        "der": null
+      },
+      "label": "Qwen3 ASR 0.6B",
       "vram_gib": null
     },
     {
@@ -782,7 +933,13 @@
       "track": "api",
       "eligible": false,
       "rtf": 0.1312984806641199,
-      "label": "Voxtral Mini 3B\u00b6",
+      "full_dataset_metrics": {
+        "wer": 0.782098807036463,
+        "cpwer": null,
+        "tcpwer": null,
+        "der": null
+      },
+      "label": "Voxtral Mini 3B",
       "vram_gib": null
     },
     {
@@ -811,7 +968,13 @@
       "track": "api",
       "eligible": false,
       "rtf": 0.19426943910978195,
-      "label": "Voxtral Small 24B\u00b6",
+      "full_dataset_metrics": {
+        "wer": 0.8585967513648312,
+        "cpwer": null,
+        "tcpwer": null,
+        "der": null
+      },
+      "label": "Voxtral Small 24B",
       "vram_gib": null
     },
     {
@@ -840,7 +1003,13 @@
       "track": "api",
       "eligible": false,
       "rtf": 0.1403717147630616,
-      "label": "Qwen3 ASR 1.7B\u00b6",
+      "full_dataset_metrics": {
+        "wer": 0.8841409988542158,
+        "cpwer": null,
+        "tcpwer": null,
+        "der": null
+      },
+      "label": "Qwen3 ASR 1.7B",
       "vram_gib": null
     }
   ],
@@ -935,5 +1104,6 @@
     "TS3003a-7680000",
     "TS3003a-960000"
   ],
-  "verified_api_scores": 2256
+  "verified_api_scores": 2256,
+  "verified_local_scores": 470
 }

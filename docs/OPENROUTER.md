@@ -11,7 +11,8 @@ It does not include general audio-chat models served through Chat Completions.
 results have not yet been published. Availability depends on the account's privacy and
 provider settings; check the authenticated `/api/v1/models/user?output_modalities=transcription`
 catalog as well as the public catalog before running.
-The existing local-model results have not been changed.
+The original local-model results remain archived; the current local pass uses this exact
+94-clip manifest.
 
 ## Cost before running
 
@@ -29,10 +30,8 @@ headroom; neither is an API-enforced spending guarantee.
 
 These estimates use current base prices and exclude tax, credit-purchase fees, rounding,
 provider minimum charges, optional feature surcharges, and failed requests that are billed.
-The full estimate is for the same amount of audio as the local benchmark, **not the same
-240-second segmentation**. Shorter windows change context and reset speaker IDs more often;
-do not put those scores in the existing local-model table as a controlled comparison.
-For that comparison, rerun the local systems against the exact new manifest.
+The current local comparison uses the exact 94 clips, audio hashes, and references from
+this API benchmark. The historical 240-second local results are excluded from consolidation.
 
 The [saved catalog](../results/openrouter-cost-estimate-2026-09-27/catalog.json),
 [per-model cost table](../results/openrouter-cost-estimate-2026-09-27/README.md),
@@ -247,4 +246,5 @@ OpenRouter documents a shorter upstream processing timeout. A 60-second clip can
 if its provider is slow. Check failed request IDs and actual charges before authorizing a
 selective retry. The completed evaluation and four partial DeepInfra runs appear in the
 [single consolidated table](../results/openrouter-2026-09-27/README.md), together with the
-original local systems. It includes per-metric medals and footnotes for protocol differences.
+local systems rerun on the same manifest. It includes per-metric medals; metric coverage
+and recovery status are shown directly in the table.

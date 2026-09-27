@@ -1,6 +1,7 @@
 """Ranking and common-reference aggregation contracts for the published table."""
 
 import importlib.util
+from copy import deepcopy
 from pathlib import Path
 
 import pytest
@@ -38,3 +39,29 @@ def test_speaker_metrics_share_clip_ids_and_weight_by_reference_size():
     for metric in ("cpwer", "tcpwer", "der"):
         assert scores["a"][metric] == pytest.approx(1 / 101)
         assert scores["b"][metric] == pytest.approx(20 / 101)
+
+
+def test_untimed_speaker_output_keeps_cpwer_on_the_same_selected_clips():
+    rows = [{"id": "a", "scores": {
+        "cpwer": {"errors": 2, "length": 10}, "tcpwer": None, "der": None,
+    }}]
+    ids, scores = module.shared_speaker_scores({"streaming": rows}, ["a"])
+    assert ids == ["a"]
+    assert scores["streaming"] == {"cpwer": 0.2, "tcpwer": None, "der": None}
+
+
+@pytest.mark.parametrize("field", ["id", "duration", "audio_sha256", "reference",
+                                   "reference_activity"])
+def test_consolidation_rejects_different_audio_or_reference_windows(field):
+    original = [{"id": "a", "duration": 60, "audio_sha256": "audio-hash",
+                 "reference": [{"text": "hello"}], "reference_activity": []}]
+    changed = deepcopy(original)
+    changed[0][field] = "different"
+    with pytest.raises(ValueError, match="must match exactly"):
+        module.validate_same_records(original, changed)
+    module.validate_same_records(original, deepcopy(original))
+
+
+def test_consolidation_rejects_a_different_clip_count():
+    with pytest.raises(ValueError, match="must match exactly"):
+        module.validate_same_records([{"id": "a"}], [])

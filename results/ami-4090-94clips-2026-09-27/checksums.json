@@ -1,0 +1,21 @@
+{
+  "README.md": "8443c4413f1721f519c27e8b93afe87f068040a4b16bc6e435bcbb11d52aca07",
+  "environments/moss/environment.json": "a57486e122ffdbb3bfdb6f2e510f61b54da401067bfe40a7890f1ff760c14494",
+  "environments/qwen_nemotron/environment.json": "33524fb91fd9d7d5a8a414146abbb70e91a9ce7d5c441295d98af48a5a92bc32",
+  "environments/qwen_pyannote/environment.json": "8b338c2c790aef76e78a4e2390f886051fc8122f76fbeaf8c16d568c9b592a2f",
+  "environments/vibevoice/environment.json": "f594f0fd829a91fe24c9e844ad5028d7f9dc18c1881376b7e302e9a1c361dd80",
+  "environments/vibevoice_streaming/environment.json": "387366d36756e8fcfdc08760e84c28016037dfd2d75d41bdf88811de0b8eb8b5",
+  "manifest.jsonl": "9ee0060a3f9a7451e3974daf83067faca96a773a19ad0cfb87a6e1ca4663b066",
+  "scores/moss.json": "c3cc378379cb3861969fe4da73bd562efaf72d13fb22590ed72faa31a9fe4161",
+  "scores/qwen_nemotron.json": "e855e70345bb72c5eb9f22400ff681a37374b61ed5e8e69f3363398ea0ae19c8",
+  "scores/qwen_pyannote.json": "c0ae4890162d247137a5eae2869ffb03c6e384adabe3e9fa857fe7fb474dd006",
+  "scores/vibevoice.json": "6bbf1462a389bdc172638b77977b1eb9d59074b82e4115f300bfdfa26fc8032b",
+  "scores/vibevoice_streaming.json": "927996307800f20ce846b9cb88a4b15d9366555ffe299339e5c4c6016925139f",
+  "sources.json": "041b15922bdfd5472e021375d8c08b58ecd8b8eaf411c49d8ffcc003fc766730",
+  "summary.json": "0bd3b483960869eabb65585ccbff32e4bdfb78e73cb6d68ba44e17691fbf15ca",
+  "workers/moss.json": "567e5db56f33ad9762342f9a01522fe48762264ca3f2c6af8d1eb0b11b78e58f",
+  "workers/qwen_nemotron.json": "9933e059254818e7a5692e958ada2d7cf127d81c458105145d9f7455673125dc",
+  "workers/qwen_pyannote.json": "d4b320e2fe0a0ffe26ca29b7b8668a1cc2d7a339f62aa2d20aaa8aee1bb81438",
+  "workers/vibevoice.json": "9168c476c20748932494b6f47b6be956df58ac1caa946cc578b1418a24785b43",
+  "workers/vibevoice_streaming.json": "25821d10e2fd1cdc0b9d35781e20fa7745aec96ae5a74216db7b362656c75c72"
+}

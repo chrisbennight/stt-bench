@@ -15,6 +15,18 @@ The adapters use a small common prediction format and existing scoring libraries
 
 ## Status
 
+The current consolidated evaluation uses **94 windows of at most 60 seconds**, identical
+to OpenRouter, with one pass per local model. Reproduce it with existing environments:
+
+```bash
+uv run speaker-bench run --config configs/five-systems-openrouter.json \
+  --manifest data/ami-openrouter/manifest.jsonl --output runs/local94 --parallel-models 1
+```
+
+Use the [OpenRouter dataset recipe](OPENROUTER.md) to prepare the shared manifest.
+Streaming processes the supplied audio without real-time waits. The following description
+and 240-second recipe document the historical local-only evaluation.
+
 All five systems completed the 25-window comparison on the RTX 4090. There were
 124 valid outputs and one invalid offline VibeVoice generation. All 125 final score records
 have been independently recomputed with exact matches. See [the measured results](RESULTS.md).

@@ -1,4 +1,7 @@
-# Five-system benchmark results
+# Historical 25-window local benchmark results
+
+These results are archived. The [current consolidated comparison](../results/openrouter-2026-09-27/README.md)
+uses the same 94-clip manifest for local and hosted models.
 
 Completed 27 September 2026 using one RTX 4090.
 

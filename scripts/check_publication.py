@@ -83,18 +83,22 @@ def check():
             url = urlsplit(artifact["url"])
             if url.scheme != "https" or url.hostname != "files.pythonhosted.org" or url.username:
                 findings.append("lockfile contains a non-public artifact URL")
-    inventory = json.loads((RESULTS / "checksums.json").read_text())
-    actual = {str(p.relative_to(RESULTS)) for p in RESULTS.rglob("*") if p.is_file()}
-    if actual != set(inventory) | {"checksums.json"}:
-        findings.append("result inventory does not cover exactly the published result files")
-    for name, expected in inventory.items():
-        path = (RESULTS / name).resolve()
-        if not path.is_relative_to(RESULTS.resolve()):
-            raise ValueError("Result inventory path escapes its directory")
-        if hashlib.sha256(path.read_bytes()).hexdigest() != expected:
-            findings.append(f"results: checksum mismatch for {name}")
+    checked_hashes = 0
+    for inventory_path in sorted((ROOT / "results").glob("*/checksums.json")):
+        directory = inventory_path.parent
+        inventory = json.loads(inventory_path.read_text())
+        actual = {str(p.relative_to(directory)) for p in directory.rglob("*") if p.is_file()}
+        if actual != set(inventory) | {"checksums.json"}:
+            findings.append(f"{directory.name}: result inventory does not cover all files")
+        for name, expected in inventory.items():
+            path = (directory / name).resolve()
+            if not path.is_relative_to(directory.resolve()):
+                raise ValueError("Result inventory path escapes its directory")
+            if hashlib.sha256(path.read_bytes()).hexdigest() != expected:
+                findings.append(f"{directory.name}: checksum mismatch for {name}")
+            checked_hashes += 1
     summary = json.loads((RESULTS / "comparison/comparison.json").read_text())["summary"]
-    readme = (ROOT / "README.md").read_text().replace("**", "")
+    historical_results = (ROOT / "docs/RESULTS.md").read_text().replace("**", "")
     names = [
         "MOSS 0.9B",
         "VibeVoice offline",
@@ -104,18 +108,21 @@ def check():
     ]
     for row, name in zip(summary, names, strict=True):
         der = "—" if row["der"] is None else f"{row['der'] * 100:.2f}%"
-        pace = ", paced" if row["model"] == "vibevoice_streaming" else ""
+        pace = " paced" if row["model"] == "vibevoice_streaming" else ""
         expected = (
             f"| {name} | {row['cpwer'] * 100:.2f}% | {der} | "
             f"{row['wall_seconds_attempted'] / 60:.2f} min{pace} | "
             f"{row['max_cuda_allocated_bytes'] / 2**30:.2f} GiB | {row['completed']}/25 |"
         )
-        if expected not in readme:
-            findings.append(f"README table differs from saved results: {row['model']}")
+        if expected not in historical_results:
+            findings.append(f"Historical table differs from saved results: {row['model']}")
+    current = ROOT / "results/openrouter-2026-09-27"
+    if (current / "table.md").read_text().strip() not in (current / "README.md").read_text():
+        findings.append("Consolidated table differs from its generated README")
     if findings:
         # Report locations and categories only; never print a suspected credential value.
         raise SystemExit("\n".join(findings))
-    print(f"Checked {len(paths)} public files and {len(inventory)} result hashes; no findings.")
+    print(f"Checked {len(paths)} public files and {checked_hashes} result hashes; no findings.")
 
 
 if __name__ == "__main__":
