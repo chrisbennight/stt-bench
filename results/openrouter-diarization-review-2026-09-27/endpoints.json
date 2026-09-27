@@ -1,0 +1,77 @@
+{
+  "google/gemini-3.5-transcribe": {
+    "url": "https://openrouter.ai/api/v1/models/google/gemini-3.5-transcribe/endpoints",
+    "endpoints": [
+      {
+        "tag": "google-ai-studio",
+        "name": "Google AI Studio | google/gemini-3.5-transcribe-20260827",
+        "supported_parameters": []
+      }
+    ]
+  },
+  "mistralai/voxtral-mini-transcribe": {
+    "url": "https://openrouter.ai/api/v1/models/mistralai/voxtral-mini-transcribe/endpoints",
+    "endpoints": [
+      {
+        "tag": "mistral",
+        "name": "Mistral | mistralai/voxtral-mini-transcribe-2602",
+        "supported_parameters": []
+      },
+      {
+        "tag": "mistral/eu",
+        "name": "Mistral | mistralai/voxtral-mini-transcribe-2602",
+        "supported_parameters": []
+      }
+    ]
+  },
+  "meta/muse-voice-transcribe-1.0": {
+    "url": "https://openrouter.ai/api/v1/models/meta/muse-voice-transcribe-1.0/endpoints",
+    "endpoints": [
+      {
+        "tag": "meta",
+        "name": "Meta | meta/muse-voice-transcribe-1.0-20260903",
+        "supported_parameters": []
+      }
+    ]
+  },
+  "google/chirp-3": {
+    "url": "https://openrouter.ai/api/v1/models/google/chirp-3/endpoints",
+    "endpoints": [
+      {
+        "tag": "google-vertex",
+        "name": "Google | google/chirp-3",
+        "supported_parameters": []
+      }
+    ]
+  },
+  "assemblyai/universal-3-5-pro": {
+    "url": "https://openrouter.ai/api/v1/models/assemblyai/universal-3-5-pro/endpoints",
+    "endpoints": [
+      {
+        "tag": "assemblyai",
+        "name": "AssemblyAI | assemblyai/universal-3-5-pro-20260914",
+        "supported_parameters": []
+      }
+    ]
+  },
+  "fish-audio/transcribe-1-pro": {
+    "url": "https://openrouter.ai/api/v1/models/fish-audio/transcribe-1-pro/endpoints",
+    "endpoints": [
+      {
+        "tag": "fish-audio",
+        "name": "Fish Audio | fish-audio/transcribe-1-pro-20260924",
+        "supported_parameters": []
+      }
+    ]
+  },
+  "openai/gpt-transcribe": {
+    "url": "https://openrouter.ai/api/v1/models/openai/gpt-transcribe/endpoints",
+    "endpoints": [
+      {
+        "tag": "openai",
+        "name": "OpenAI | openai/gpt-transcribe-20260805",
+        "supported_parameters": []
+      }
+    ]
+  }
+}

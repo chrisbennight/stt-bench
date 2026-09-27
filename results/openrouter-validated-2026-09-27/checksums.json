@@ -4,7 +4,7 @@
   "attempts/chirp-recovery.json": "3ed5021e2c412656491f73dfba16d36c15df0a33c5b56b1a06d6386453c85899",
   "consolidated.csv": "76216581dd5c202face59c1ca5b0c34538268b4fffe63046b423a339965db428",
   "consolidated.json": "605562e7a2257675eab050c177ce315b0006d38a1c04c30544865e4146e0b8f6",
-  "costs.json": "739d8e7245af21764a53911ed57f03d1717c506f102ef8b17e48ba6a5f20ee82",
+  "costs.json": "9f376c4ea21078347223b872f61ecc30952b4562d3b1bca1ab4b3dddd055330f",
   "environments/assemblyai--universal-3-5-pro/environment.json": "d11fc3e8bf178a4dde7f794b084b65653a5761297af27e92592c74c15efbe2bd",
   "environments/deepgram--nova-3/environment.json": "060944f10a812a950b388f0b52ef5b4485fa2036fbfd96aa83de6422ed17156b",
   "environments/fish-audio--transcribe-1/environment.json": "3435cad1e7cc96898dd5deac2739f88712731c3952358f063146807346349541",

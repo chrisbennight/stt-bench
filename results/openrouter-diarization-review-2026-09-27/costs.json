@@ -1,0 +1,9 @@
+{
+  "scope": "Ten follow-up diarization diagnostics only; excluded from benchmark rankings",
+  "reported_cost_usd": 0.029404000000004,
+  "unknown_request_billing_count": 1,
+  "account_debit_usd": 0.02940399999999954,
+  "reconciled_within_usd": 1e-06,
+  "observed_at": "2026-09-27T12:44:31.194452+00:00",
+  "note": "The net balance change matches reported response charges within rounding. This does not identify billing for the rejected request individually."
+}

@@ -1,0 +1,92 @@
+{
+  "request": {
+    "model": "deepgram/nova-3",
+    "language": "en",
+    "response_format": "verbose_json",
+    "provider": {
+      "options": {
+        "deepgram": {
+          "diarize": {
+            "invalid_diagnostic_boolean": true
+          }
+        }
+      }
+    },
+    "timestamp_granularities": [
+      "segment",
+      "word"
+    ],
+    "input_audio": {
+      "format": "wav",
+      "source_sha256": "cc181016a5c7d91f2d3126d33fff195262b20311f5cf6e4a5b4f7ba9ce0617ec",
+      "duration": 60.0,
+      "clip_id": "ES2004a-4800000"
+    }
+  },
+  "started_at_epoch": 1790512634.9721606,
+  "http_status": 200,
+  "generation_id": "gen-stt-1790512636-mHY65uP1e2Kv5odDXDI4",
+  "raw_response": {
+    "text": "What kind of dog? Thank you.",
+    "usage": {
+      "seconds": 60,
+      "cost": 0.004300000000002
+    },
+    "language": "en",
+    "duration": 60,
+    "segments": [
+      {
+        "id": 0,
+        "start": 6.24,
+        "end": 7.2799997,
+        "text": "What kind of dog?"
+      },
+      {
+        "id": 1,
+        "start": 48.575,
+        "end": 49.535,
+        "text": "Thank"
+      },
+      {
+        "id": 2,
+        "start": 50.815,
+        "end": 51.055,
+        "text": "you."
+      }
+    ],
+    "words": [
+      {
+        "word": "What",
+        "start": 6.24,
+        "end": 6.48
+      },
+      {
+        "word": "kind",
+        "start": 6.48,
+        "end": 6.72
+      },
+      {
+        "word": "of",
+        "start": 6.72,
+        "end": 6.8799996
+      },
+      {
+        "word": "dog?",
+        "start": 6.8799996,
+        "end": 7.2799997
+      },
+      {
+        "word": "Thank",
+        "start": 48.575,
+        "end": 49.535
+      },
+      {
+        "word": "you.",
+        "start": 50.815,
+        "end": 51.055
+      }
+    ]
+  },
+  "raw_response_sha256": "c46699401d430ccb03505d46b68d7782c451883a6fe3d0ff42f98b0da90b7744",
+  "wall_seconds": 2.0611872189911082
+}

@@ -1,0 +1,31 @@
+{
+  "request": {
+    "model": "meta/muse-voice-transcribe-1.0",
+    "language": "en",
+    "response_format": "json",
+    "provider": {
+      "options": {
+        "meta": {
+          "mode": "INVALID_DIAGNOSTIC_MODE"
+        }
+      }
+    },
+    "input_audio": {
+      "format": "wav",
+      "source_sha256": "cc181016a5c7d91f2d3126d33fff195262b20311f5cf6e4a5b4f7ba9ce0617ec",
+      "duration": 60.0,
+      "clip_id": "ES2004a-4800000"
+    }
+  },
+  "started_at_epoch": 1790512634.3692265,
+  "http_status": 400,
+  "error_diagnostic": {
+    "mentions": [
+      "diarization",
+      "provider",
+      "invalid"
+    ]
+  },
+  "billing_status": "unknown",
+  "wall_seconds": 0.7518470560899004
+}

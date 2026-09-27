@@ -1,0 +1,672 @@
+{
+  "models": [
+    {
+      "model": "google/gemini-3.5-transcribe",
+      "counts": {
+        "ok": 94,
+        "parsed_labelled": 0,
+        "raw_structured_labelled": 0,
+        "inline_fish_labels": 0
+      },
+      "top_fields": {
+        "segments": 94,
+        "task": 91,
+        "text": 94,
+        "usage": 94,
+        "words": 93
+      },
+      "word_fields": {
+        "end": 93,
+        "start": 93,
+        "word": 93
+      },
+      "segment_fields": {
+        "end": 94,
+        "id": 94,
+        "start": 94,
+        "text": 94
+      }
+    },
+    {
+      "model": "fish-audio/transcribe-1-pro",
+      "counts": {
+        "ok": 94,
+        "parsed_labelled": 94,
+        "raw_structured_labelled": 0,
+        "inline_fish_labels": 94
+      },
+      "top_fields": {
+        "duration": 94,
+        "language": 94,
+        "segments": 92,
+        "task": 94,
+        "text": 94,
+        "usage": 94,
+        "words": 94
+      },
+      "word_fields": {
+        "end": 92,
+        "start": 92,
+        "word": 92
+      },
+      "segment_fields": {
+        "end": 92,
+        "id": 92,
+        "start": 92,
+        "text": 92
+      }
+    },
+    {
+      "model": "assemblyai/universal-3-5-pro",
+      "counts": {
+        "ok": 94,
+        "parsed_labelled": 0,
+        "raw_structured_labelled": 0,
+        "inline_fish_labels": 0
+      },
+      "top_fields": {
+        "confidence": 94,
+        "duration": 94,
+        "segments": 94,
+        "task": 94,
+        "text": 94,
+        "usage": 94,
+        "words": 94
+      },
+      "word_fields": {
+        "confidence": 90,
+        "end": 90,
+        "start": 90,
+        "word": 90
+      },
+      "segment_fields": {
+        "end": 94,
+        "id": 94,
+        "start": 94,
+        "text": 94
+      }
+    },
+    {
+      "model": "meta/muse-voice-transcribe-1.0",
+      "counts": {
+        "ok": 94,
+        "parsed_labelled": 0,
+        "raw_structured_labelled": 0,
+        "inline_fish_labels": 0
+      },
+      "top_fields": {
+        "text": 94,
+        "usage": 94
+      },
+      "word_fields": {},
+      "segment_fields": {}
+    },
+    {
+      "model": "microsoft/mai-transcribe-2",
+      "counts": {
+        "ok": 94,
+        "parsed_labelled": 93,
+        "raw_structured_labelled": 93,
+        "inline_fish_labels": 0
+      },
+      "top_fields": {
+        "duration": 94,
+        "language": 94,
+        "segments": 94,
+        "text": 94,
+        "usage": 94,
+        "words": 93
+      },
+      "word_fields": {
+        "end": 93,
+        "speaker": 93,
+        "start": 93,
+        "word": 93
+      },
+      "segment_fields": {
+        "end": 94,
+        "id": 94,
+        "speaker": 93,
+        "start": 94,
+        "text": 94
+      }
+    },
+    {
+      "model": "nvidia/nemotron-3.5-asr-streaming-multilingual-0.6b",
+      "counts": {
+        "ok": 94,
+        "parsed_labelled": 0,
+        "raw_structured_labelled": 0,
+        "inline_fish_labels": 0
+      },
+      "top_fields": {
+        "duration": 94,
+        "language": 94,
+        "segments": 89,
+        "task": 94,
+        "text": 94,
+        "usage": 94,
+        "words": 89
+      },
+      "word_fields": {
+        "end": 89,
+        "start": 89,
+        "word": 89
+      },
+      "segment_fields": {
+        "avg_logprob": 89,
+        "compression_ratio": 89,
+        "end": 89,
+        "id": 89,
+        "no_speech_prob": 89,
+        "seek": 89,
+        "start": 89,
+        "temperature": 89,
+        "text": 89,
+        "tokens": 89
+      }
+    },
+    {
+      "model": "openai/gpt-transcribe",
+      "counts": {
+        "ok": 94,
+        "parsed_labelled": 0,
+        "raw_structured_labelled": 0,
+        "inline_fish_labels": 0
+      },
+      "top_fields": {
+        "text": 94,
+        "usage": 94
+      },
+      "word_fields": {},
+      "segment_fields": {}
+    },
+    {
+      "model": "fish-audio/transcribe-1",
+      "counts": {
+        "ok": 94,
+        "parsed_labelled": 0,
+        "raw_structured_labelled": 0,
+        "inline_fish_labels": 0
+      },
+      "top_fields": {
+        "duration": 94,
+        "language": 94,
+        "segments": 94,
+        "task": 94,
+        "text": 94,
+        "usage": 94,
+        "words": 94
+      },
+      "word_fields": {
+        "end": 94,
+        "start": 94,
+        "word": 94
+      },
+      "segment_fields": {
+        "end": 94,
+        "id": 94,
+        "start": 94,
+        "text": 94
+      }
+    },
+    {
+      "model": "x-ai/grok-stt-1.0",
+      "counts": {
+        "ok": 94,
+        "parsed_labelled": 77,
+        "raw_structured_labelled": 77,
+        "inline_fish_labels": 0
+      },
+      "top_fields": {
+        "duration": 94,
+        "segments": 94,
+        "text": 94,
+        "usage": 94,
+        "language": 77,
+        "words": 77
+      },
+      "word_fields": {
+        "end": 77,
+        "speaker": 77,
+        "start": 77,
+        "word": 77
+      },
+      "segment_fields": {
+        "end": 94,
+        "id": 94,
+        "start": 94,
+        "text": 94
+      }
+    },
+    {
+      "model": "deepgram/nova-3",
+      "counts": {
+        "ok": 94,
+        "parsed_labelled": 89,
+        "raw_structured_labelled": 89,
+        "inline_fish_labels": 0
+      },
+      "top_fields": {
+        "duration": 94,
+        "language": 94,
+        "segments": 94,
+        "text": 94,
+        "usage": 94,
+        "words": 94
+      },
+      "word_fields": {
+        "end": 89,
+        "speaker": 89,
+        "start": 89,
+        "word": 89
+      },
+      "segment_fields": {
+        "end": 94,
+        "id": 94,
+        "speaker": 89,
+        "start": 94,
+        "text": 94
+      }
+    },
+    {
+      "model": "microsoft/mai-transcribe-1.5",
+      "counts": {
+        "ok": 94,
+        "parsed_labelled": 0,
+        "raw_structured_labelled": 0,
+        "inline_fish_labels": 0
+      },
+      "top_fields": {
+        "text": 94,
+        "usage": 94
+      },
+      "word_fields": {},
+      "segment_fields": {}
+    },
+    {
+      "model": "nvidia/parakeet-tdt-0.6b-v3",
+      "counts": {
+        "ok": 94,
+        "parsed_labelled": 0,
+        "raw_structured_labelled": 0,
+        "inline_fish_labels": 0
+      },
+      "top_fields": {
+        "duration": 94,
+        "language": 94,
+        "segments": 94,
+        "text": 94,
+        "usage": 94,
+        "words": 93
+      },
+      "word_fields": {
+        "end": 93,
+        "start": 93,
+        "word": 93
+      },
+      "segment_fields": {
+        "end": 94,
+        "id": 94,
+        "start": 94,
+        "text": 94
+      }
+    },
+    {
+      "model": "mistralai/voxtral-mini-transcribe",
+      "counts": {
+        "ok": 94,
+        "parsed_labelled": 0,
+        "raw_structured_labelled": 0,
+        "inline_fish_labels": 0
+      },
+      "top_fields": {
+        "segments": 94,
+        "text": 94,
+        "usage": 94,
+        "words": 94
+      },
+      "word_fields": {
+        "end": 92,
+        "start": 92,
+        "word": 92
+      },
+      "segment_fields": {
+        "end": 94,
+        "id": 94,
+        "start": 94,
+        "text": 94
+      }
+    },
+    {
+      "model": "qwen/qwen3-asr-flash-2026-02-10",
+      "counts": {
+        "ok": 94,
+        "parsed_labelled": 0,
+        "raw_structured_labelled": 0,
+        "inline_fish_labels": 0
+      },
+      "top_fields": {
+        "text": 94,
+        "usage": 94
+      },
+      "word_fields": {},
+      "segment_fields": {}
+    },
+    {
+      "model": "google/chirp-3",
+      "counts": {
+        "ok": 93,
+        "parsed_labelled": 0,
+        "raw_structured_labelled": 0,
+        "inline_fish_labels": 0,
+        "inference_failed": 1
+      },
+      "top_fields": {
+        "text": 93,
+        "usage": 93
+      },
+      "word_fields": {},
+      "segment_fields": {}
+    },
+    {
+      "model": "openai/gpt-4o-mini-transcribe",
+      "counts": {
+        "ok": 94,
+        "parsed_labelled": 0,
+        "raw_structured_labelled": 0,
+        "inline_fish_labels": 0
+      },
+      "top_fields": {
+        "text": 94,
+        "usage": 94
+      },
+      "word_fields": {},
+      "segment_fields": {}
+    },
+    {
+      "model": "openai/whisper-large-v3",
+      "counts": {
+        "ok": 94,
+        "parsed_labelled": 0,
+        "raw_structured_labelled": 0,
+        "inline_fish_labels": 0
+      },
+      "top_fields": {
+        "duration": 94,
+        "language": 94,
+        "segments": 94,
+        "task": 89,
+        "text": 94,
+        "usage": 94,
+        "words": 93
+      },
+      "word_fields": {
+        "end": 93,
+        "start": 93,
+        "word": 93
+      },
+      "segment_fields": {
+        "avg_logprob": 94,
+        "compression_ratio": 89,
+        "end": 94,
+        "id": 94,
+        "no_speech_prob": 89,
+        "seek": 89,
+        "start": 94,
+        "temperature": 89,
+        "text": 94,
+        "tokens": 89
+      }
+    },
+    {
+      "model": "openai/whisper-large-v3-turbo",
+      "counts": {
+        "ok": 94,
+        "parsed_labelled": 0,
+        "raw_structured_labelled": 0,
+        "inline_fish_labels": 0
+      },
+      "top_fields": {
+        "duration": 94,
+        "language": 94,
+        "segments": 94,
+        "task": 94,
+        "text": 94,
+        "usage": 94,
+        "words": 93
+      },
+      "word_fields": {
+        "end": 93,
+        "start": 93,
+        "word": 93
+      },
+      "segment_fields": {
+        "avg_logprob": 94,
+        "compression_ratio": 94,
+        "end": 94,
+        "id": 94,
+        "no_speech_prob": 94,
+        "seek": 94,
+        "start": 94,
+        "temperature": 94,
+        "text": 94,
+        "tokens": 94
+      }
+    },
+    {
+      "model": "openai/whisper-1",
+      "counts": {
+        "ok": 94,
+        "parsed_labelled": 0,
+        "raw_structured_labelled": 0,
+        "inline_fish_labels": 0
+      },
+      "top_fields": {
+        "duration": 94,
+        "language": 94,
+        "segments": 94,
+        "task": 94,
+        "text": 94,
+        "usage": 94,
+        "words": 94
+      },
+      "word_fields": {
+        "end": 93,
+        "start": 93,
+        "word": 93
+      },
+      "segment_fields": {
+        "avg_logprob": 93,
+        "compression_ratio": 93,
+        "end": 93,
+        "id": 93,
+        "no_speech_prob": 93,
+        "seek": 93,
+        "start": 93,
+        "temperature": 93,
+        "text": 93,
+        "tokens": 93
+      }
+    },
+    {
+      "model": "openai/gpt-4o-transcribe",
+      "counts": {
+        "ok": 94,
+        "parsed_labelled": 0,
+        "raw_structured_labelled": 0,
+        "inline_fish_labels": 0
+      },
+      "top_fields": {
+        "text": 94,
+        "usage": 94
+      },
+      "word_fields": {},
+      "segment_fields": {}
+    }
+  ],
+  "diagnostics": [
+    {
+      "name": "deepgram--nova-3-enabled",
+      "model": "deepgram/nova-3",
+      "http_status": 200,
+      "reported_cost_usd": 0.004300000000002,
+      "matches_benchmark_request_options": true,
+      "response_json_sha256": "32c3eaaa8f398664b53c18473b4d15391de5000caa6920420491fbb3ab14d262",
+      "top_fields": [
+        "duration",
+        "language",
+        "segments",
+        "text",
+        "usage",
+        "words"
+      ],
+      "speaker_paths": [
+        "/segments[]/speaker",
+        "/words[]/speaker"
+      ],
+      "parser_labels_available": true,
+      "raw_label_count": 1
+    },
+    {
+      "name": "deepgram--nova-3-invalid-option",
+      "model": "deepgram/nova-3",
+      "http_status": 200,
+      "reported_cost_usd": 0.004300000000002,
+      "response_json_sha256": "4d3fc9a83662c529c90c467163f4d262401eecc4f6a8dc960fcc5a4737260127",
+      "top_fields": [
+        "duration",
+        "language",
+        "segments",
+        "text",
+        "usage",
+        "words"
+      ],
+      "speaker_paths": [],
+      "parser_labels_available": false,
+      "raw_label_count": 0
+    },
+    {
+      "name": "google--gemini-3.5-transcribe-enabled",
+      "model": "google/gemini-3.5-transcribe",
+      "http_status": 200,
+      "reported_cost_usd": 0.003002,
+      "matches_benchmark_request_options": true,
+      "response_json_sha256": "6e8698f0f46767da1c05628277d700d9096d8670b323eba8d04c20559bdcadd5",
+      "top_fields": [
+        "segments",
+        "task",
+        "text",
+        "usage",
+        "words"
+      ],
+      "speaker_paths": [],
+      "parser_labels_available": false,
+      "raw_label_count": 0
+    },
+    {
+      "name": "google--gemini-3.5-transcribe-invalid-option",
+      "model": "google/gemini-3.5-transcribe",
+      "http_status": 200,
+      "reported_cost_usd": 0.003002,
+      "response_json_sha256": "6e8698f0f46767da1c05628277d700d9096d8670b323eba8d04c20559bdcadd5",
+      "top_fields": [
+        "segments",
+        "task",
+        "text",
+        "usage",
+        "words"
+      ],
+      "speaker_paths": [],
+      "parser_labels_available": false,
+      "raw_label_count": 0
+    },
+    {
+      "name": "meta--muse-voice-transcribe-1.0-enabled",
+      "model": "meta/muse-voice-transcribe-1.0",
+      "http_status": 200,
+      "reported_cost_usd": 0.003,
+      "matches_benchmark_request_options": true,
+      "response_json_sha256": "1124b250bbcb23a7154ee86077bc237e87192a485a70b3bc202f91bae342f94b",
+      "top_fields": [
+        "text",
+        "usage"
+      ],
+      "speaker_paths": [],
+      "parser_labels_available": false,
+      "raw_label_count": 0
+    },
+    {
+      "name": "meta--muse-voice-transcribe-1.0-invalid-option",
+      "model": "meta/muse-voice-transcribe-1.0",
+      "http_status": 400,
+      "reported_cost_usd": null
+    },
+    {
+      "name": "mistral-no-language-both-timestamps",
+      "model": "mistralai/voxtral-mini-transcribe",
+      "http_status": 200,
+      "reported_cost_usd": 0.00295,
+      "response_json_sha256": "c6000209b5e253e9878104ed117429ded6501a230f73ebd1ba801144beb78eb0",
+      "top_fields": [
+        "segments",
+        "text",
+        "usage",
+        "words"
+      ],
+      "speaker_paths": [],
+      "parser_labels_available": false,
+      "raw_label_count": 0
+    },
+    {
+      "name": "mistral-no-language-segment-timestamps",
+      "model": "mistralai/voxtral-mini-transcribe",
+      "http_status": 200,
+      "reported_cost_usd": 0.00295,
+      "response_json_sha256": "e851f1014c25553468c9e20c285fccfe3b620385846332ad5ab3964d7f6894fb",
+      "top_fields": [
+        "segments",
+        "text",
+        "usage"
+      ],
+      "speaker_paths": [],
+      "parser_labels_available": false,
+      "raw_label_count": 0
+    },
+    {
+      "name": "mistralai--voxtral-mini-transcribe-enabled",
+      "model": "mistralai/voxtral-mini-transcribe",
+      "http_status": 200,
+      "reported_cost_usd": 0.00295,
+      "matches_benchmark_request_options": true,
+      "response_json_sha256": "f75c1fbe72a1244780b7bbf870c21cea4625f448268db1198addb0dd73b38847",
+      "top_fields": [
+        "segments",
+        "text",
+        "usage",
+        "words"
+      ],
+      "speaker_paths": [],
+      "parser_labels_available": false,
+      "raw_label_count": 0
+    },
+    {
+      "name": "mistralai--voxtral-mini-transcribe-invalid-option",
+      "model": "mistralai/voxtral-mini-transcribe",
+      "http_status": 200,
+      "reported_cost_usd": 0.00295,
+      "response_json_sha256": "f75c1fbe72a1244780b7bbf870c21cea4625f448268db1198addb0dd73b38847",
+      "top_fields": [
+        "segments",
+        "text",
+        "usage",
+        "words"
+      ],
+      "speaker_paths": [],
+      "parser_labels_available": false,
+      "raw_label_count": 0
+    }
+  ],
+  "reported_diagnostic_cost_usd": 0.029404000000004,
+  "unknown_billing_requests": 1
+}

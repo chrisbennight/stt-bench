@@ -101,6 +101,9 @@ remain unavailable. The historical 25-window local run is retained in
   without enough information for tcpWER or DER.
 - Gemini and Voxtral returned timestamps but no speaker fields with the tested
   diarization options. Their upstream capabilities are not disproved by this result.
+  The [request and raw-response review](results/openrouter-diarization-review-2026-09-27/README.md)
+  also checks Meta, confirms the missing fields precede our parser, and tests alternative
+  options. These are hosted integration observations, not proof of model incapability.
 - Transcription accuracy, speaker attribution, and diarization timing are distinct measures;
   their winners need not agree. Missing metric cells mean the tested output could not support
   that score, rather than proving that every upstream route lacks the capability.

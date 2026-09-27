@@ -1,0 +1,99 @@
+{
+  "request": {
+    "model": "deepgram/nova-3",
+    "language": "en",
+    "response_format": "verbose_json",
+    "provider": {
+      "options": {
+        "deepgram": {
+          "diarize": true
+        }
+      }
+    },
+    "timestamp_granularities": [
+      "segment",
+      "word"
+    ],
+    "input_audio": {
+      "format": "wav",
+      "source_sha256": "cc181016a5c7d91f2d3126d33fff195262b20311f5cf6e4a5b4f7ba9ce0617ec",
+      "duration": 60.0,
+      "clip_id": "ES2004a-4800000"
+    }
+  },
+  "started_at_epoch": 1790512634.5602596,
+  "http_status": 200,
+  "generation_id": "gen-stt-1790512636-aBn3hUgkSRsBNOru2nqr",
+  "raw_response": {
+    "text": "What kind of dog? Thank you.",
+    "usage": {
+      "seconds": 60,
+      "cost": 0.004300000000002
+    },
+    "language": "en",
+    "duration": 60,
+    "segments": [
+      {
+        "id": 0,
+        "start": 6.24,
+        "end": 7.2799997,
+        "text": "What kind of dog?",
+        "speaker": 0
+      },
+      {
+        "id": 1,
+        "start": 48.575,
+        "end": 49.535,
+        "text": "Thank",
+        "speaker": 0
+      },
+      {
+        "id": 2,
+        "start": 50.815,
+        "end": 51.055,
+        "text": "you.",
+        "speaker": 0
+      }
+    ],
+    "words": [
+      {
+        "word": "What",
+        "start": 6.24,
+        "end": 6.48,
+        "speaker": 0
+      },
+      {
+        "word": "kind",
+        "start": 6.48,
+        "end": 6.72,
+        "speaker": 0
+      },
+      {
+        "word": "of",
+        "start": 6.72,
+        "end": 6.8799996,
+        "speaker": 0
+      },
+      {
+        "word": "dog?",
+        "start": 6.8799996,
+        "end": 7.2799997,
+        "speaker": 0
+      },
+      {
+        "word": "Thank",
+        "start": 48.575,
+        "end": 49.535,
+        "speaker": 0
+      },
+      {
+        "word": "you.",
+        "start": 50.815,
+        "end": 51.055,
+        "speaker": 0
+      }
+    ]
+  },
+  "raw_response_sha256": "f1d811232d3ca72247b37d59e4a76194d7290b8f1be4506f627c99a180d08853",
+  "wall_seconds": 2.5156664539827034
+}

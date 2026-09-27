@@ -5,6 +5,11 @@ Its missing metric cells must not be interpreted as model capability findings. T
 configuration was generated only after inspecting live output for every included route.
 The original results remain archived so the extra requests and corrections are visible.
 
+The [follow-up request and raw-response review](../results/openrouter-diarization-review-2026-09-27/README.md)
+checks all 20 output sets and ten small live diagnostics. It finds no current parser loss
+for the missing labels, but does not establish failure of the underlying diarization
+models. Gemini, Voxtral, and Meta still return no labels with the tested native options.
+
 The [machine-readable audit](../research/openrouter-capabilities.json) covers all 24 model
 IDs, provider tags, source links, observed output counts, proposed request options, and
 base-price estimates. All queried endpoints returned empty `supported_parameters` lists;
